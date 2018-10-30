@@ -133,6 +133,10 @@ grid-template-areas: "showcase showcase twitter";
   box-shadow: var(--shadow);
 }
 
+.box#id"level" {
+  transform:rotate(90deg);
+}
+
 .info {
   background: var(--primary);
   box-shadow: var(--shadow);
