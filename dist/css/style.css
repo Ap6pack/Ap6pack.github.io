@@ -31,6 +31,10 @@ img {
   max-width: 100%;
 }
 
+img#id"level"{
+transform:rotate(90deg);
+}
+
 .wrapper {
   display: grid;
   grid-gap: 20px;
@@ -131,10 +135,6 @@ grid-template-areas: "showcase showcase twitter";
   text-align: center;
   padding: 1.5rem 2rem;
   box-shadow: var(--shadow);
-}
-
-.box#id"level" {
-  transform:rotate(90deg);
 }
 
 .info {
