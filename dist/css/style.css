@@ -29,10 +29,7 @@ body {
 
 img {
   max-width: 100%;
-}
-
-img#id"level"{
-transform:rotate(90deg);
+  image-orientation: from-image;
 }
 
 .wrapper {
