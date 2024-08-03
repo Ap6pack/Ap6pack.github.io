@@ -1,115 +1,97 @@
-// LinkedIn Profile Card //
-! function (i, n) {
-    void 0 !== i.addEventListener && void 0 !== i.hidden && (n.liVisibilityChangeListener = function () {
-        i.hidden && (n.liHasWindowHidden = !0)
-    }, i.addEventListener("visibilitychange", n.liVisibilityChangeListener))
-}(document, window);
-
-// Github Porfile Card //
-(function (e) {
-    var t = "//cdn.jsdelivr.net/github-cards/1.0.2/";
-    var r, i = 0;
-    var a = e.getElementsByTagName("meta");
-    var n, d, l, c;
-    for (r = 0; r < a.length; r++) {
-        var s = a[r].getAttribute("name");
-        var f = a[r].getAttribute("content");
-        if (s === "gc:url") {
-            n = f
-        } else if (s === "gc:base") {
-            t = f
-        } else if (s === "gc:client-id") {
-            d = f
-        } else if (s === "gc:client-secret") {
-            l = f
-        } else if (s === "gc:theme") {
-            c = f
-        }
-    }
-
-    function u(t) {
-        if (e.querySelectorAll) {
-            return e.querySelectorAll("." + t)
-        }
-        var i = e.getElementsByTagName("div");
-        var a = [];
-        for (r = 0; r < i.length; r++) {
-            if (~i[r].className.split(" ").indexOf(t)) {
-                a.push(i[r])
+// LinkedIn Profile Card
+(function(document, window) {
+    if (document.addEventListener && document.hidden !== undefined) {
+        window.liVisibilityChangeListener = function() {
+            if (document.hidden) {
+                window.liHasWindowHidden = true;
             }
+        };
+        document.addEventListener("visibilitychange", window.liVisibilityChangeListener);
+    }
+})(document, window);
+
+// GitHub Profile Card
+(function(document) {
+    const baseURL = "//cdn.jsdelivr.net/github-cards/1.0.2/";
+    let cardCounter = 0;
+    const metaTags = document.getElementsByTagName("meta");
+
+    let gcConfig = {
+        url: null,
+        base: baseURL,
+        clientId: null,
+        clientSecret: null,
+        theme: "default"
+    };
+
+    // Parse meta tags
+    for (let tag of metaTags) {
+        switch (tag.getAttribute("name")) {
+            case "gc:url":
+                gcConfig.url = tag.getAttribute("content");
+                break;
+            case "gc:base":
+                gcConfig.base = tag.getAttribute("content");
+                break;
+            case "gc:client-id":
+                gcConfig.clientId = tag.getAttribute("content");
+                break;
+            case "gc:client-secret":
+                gcConfig.clientSecret = tag.getAttribute("content");
+                break;
+            case "gc:theme":
+                gcConfig.theme = tag.getAttribute("content");
+                break;
         }
-        return a
     }
 
-    function g(e, t) {
-        return e.getAttribute("data-" + t)
+    // Helper functions
+    function selectElements(className) {
+        return document.querySelectorAll ? document.querySelectorAll("." + className) : Array.from(document.getElementsByTagName("div")).filter(el => el.className.split(" ").includes(className));
     }
 
-    function h(e) {
+    function getDataAttribute(element, attribute) {
+        return element.getAttribute("data-" + attribute);
+    }
+
+    function setupMessageListener(iframe) {
         if (window.addEventListener) {
-            window.addEventListener("message", function (t) {
-                if (e.id === t.data.sender) {
-                    e.height = t.data.height
+            window.addEventListener("message", function(event) {
+                if (iframe.id === event.data.sender) {
+                    iframe.height = event.data.height;
                 }
-            }, false)
+            }, false);
         }
     }
 
-    function v(r, a) {
-        a = a || n;
-        if (!a) {
-            var s = g(r, "theme") || c || "default";
-            a = t + "cards/" + s + ".html"
-        }
-        var f = g(r, "user");
-        var u = g(r, "repo");
-        var v = g(r, "github");
-        if (v) {
-            v = v.split("/");
-            if (v.length && !f) {
-                f = v[0];
-                u = u || v[1]
-            }
-        }
-        if (!f) {
-            return
-        }
-        i += 1;
-        var o = g(r, "width");
-        var m = g(r, "height");
-        var b = g(r, "target");
-        var w = g(r, "client-id") || d;
-        var p = g(r, "client-secret") || l;
-        var A = "ghcard-" + f + "-" + i;
-        var y = e.createElement("iframe");
-        y.setAttribute("id", A);
-        y.setAttribute("frameborder", 0);
-        y.setAttribute("scrolling", 0);
-        y.setAttribute("allowtransparency", true);
-        var E = a + "?user=" + f + "&identity=" + A;
-        if (u) {
-            E += "&repo=" + u
-        }
-        if (b) {
-            E += "&target=" + b
-        }
-        if (w && p) {
-            E += "&client_id=" + w + "&client_secret=" + p
-        }
-        y.src = E;
-        y.width = o || Math.min(r.parentNode.clientWidth || 400, 400);
-        if (m) {
-            y.height = m
-        }
-        h(y);
-        r.parentNode.replaceChild(y, r);
-        return y
+    function createGithubCard(element, url) {
+        cardCounter += 1;
+        const user = getDataAttribute(element, "user");
+        const repo = getDataAttribute(element, "repo");
+        const github = getDataAttribute(element, "github")?.split("/");
+        const theme = getDataAttribute(element, "theme") || gcConfig.theme;
+        const iframeURL = url || `${gcConfig.base}cards/${theme}.html?user=${user || github[0]}&repo=${repo || github[1]}&identity=ghcard-${user}-${cardCounter}`;
+        const iframe = document.createElement("iframe");
+
+        iframe.id = `ghcard-${user}-${cardCounter}`;
+        iframe.frameBorder = 0;
+        iframe.scrolling = "no";
+        iframe.allowTransparency = true;
+        iframe.width = getDataAttribute(element, "width") || Math.min(element.parentNode.clientWidth || 400, 400);
+        iframe.height = getDataAttribute(element, "height") || "auto";
+        iframe.src = iframeURL + `&client_id=${gcConfig.clientId}&client_secret=${gcConfig.clientSecret}&target=${getDataAttribute(element, "target")}`;
+
+        setupMessageListener(iframe);
+        element.parentNode.replaceChild(iframe, element);
     }
-    var o = u("github-card");
-    for (r = 0; r < o.length; r++) {
-        v(o[r])
+
+    // Initialize GitHub cards
+    const githubCards = selectElements("github-card");
+    for (let card of githubCards) {
+        createGithubCard(card, gcConfig.url);
     }
+
     if (window.githubCard) {
-        window.githubCard.render = v
+        window.githubCard.render = createGithubCard;
     }
 })(document);
