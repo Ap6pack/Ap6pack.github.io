@@ -1,21 +1,23 @@
+/* Base Styles */
 body {
   background-color: #e1ddd9;
   font-size: 12px;
   font-family: Verdana, Arial, Helvetica, SunSans-Regular, Sans-Serif;
   color: #564b47;
   padding: 20px;
-  margin: 0px;
+  margin: 0;
   text-align: center;
 }
 
+/* Content Area */
 div#contentarea {
   text-align: left;
   vertical-align: middle;
-  margin: 0px auto;
-  padding: 0px;
+  margin: 0 auto;
+  padding: 0;
   width: 550px;
   background-color: #ffffff;
-  border: 1px #564b47;
+  border: 1px solid #564b47;
 }
 
 div#innercontentarea {
@@ -30,6 +32,7 @@ div#innercontentarea form textarea[name=content] {
   width: 435px;
 }
 
+/* Articles Table */
 table.articles {
   width: 100%;
   line-height: 1;
@@ -47,8 +50,9 @@ table.articles td {
   padding: 6px 0;
 }
 
+/* Navigation */
 div#navigation {
-  margin: 0px 150px;
+  margin: 0 150px;
   padding: 5px 90px;
   text-align: center;
 }
@@ -69,6 +73,7 @@ div#navigation div.next {
   width: 40%;
 }
 
+/* Clearfix */
 .clear {
   clear: both;
 }
