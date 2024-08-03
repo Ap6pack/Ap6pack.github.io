@@ -1,13 +1,34 @@
 <?php
-    $id = $_GET['id'];
-    try {
-        $connection = new Mongo();
-        $database = $connection->selectDB('myblogsite');
-        $collection = $database->selectCollection('articles');
-    } catch(MongoConnectionException $e) {
-        die("Failed to connect to database ".$e->getMessage());
+require 'vendor/autoload.php'; // include Composer's autoloader
+
+$id = $_GET['id'] ?? '';
+
+if (!$id) {
+    die('ID is not provided');
+}
+
+try {
+    // Create a connection to MongoDB
+    $client = new MongoDB\Client("mongodb://localhost:27017");
+    $collection = $client->myblogsite->articles;
+
+    // Validate ID
+    if (!MongoDB\BSON\ObjectId::isValid($id)) {
+        throw new Exception('Invalid ID');
     }
-    $article = $collection->findOne(array('_id' =>new MongoId($id)));
+
+    // Find the article
+    $article = $collection->findOne(['_id' => new MongoDB\BSON\ObjectId($id)]);
+
+    if (!$article) {
+        throw new Exception('Article not found');
+    }
+
+} catch (MongoDB\Driver\Exception\Exception $e) {
+    die("Failed to connect to database: " . $e->getMessage());
+} catch (Exception $e) {
+    die($e->getMessage());
+}
 ?>
 
 <!DOCTYPE html>
@@ -25,13 +46,10 @@
     <div id="contentarea">
         <div id="innercontentarea">
             <h1>My Blogs</h1>
-            <h2>
-                <?php echo $article['title']; ?>
-            </h2>
-            <p>
-                <?php echo $article['content']; ?>
-            </p>
+            <h2><?php echo htmlspecialchars($article['title'], ENT_QUOTES, 'UTF-8'); ?></h2>
+            <p><?php echo htmlspecialchars($article['content'], ENT_QUOTES, 'UTF-8'); ?></p>
         </div>
     </div>
 </body>
+
 </html>
