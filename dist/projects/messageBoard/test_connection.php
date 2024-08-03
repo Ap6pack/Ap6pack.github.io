@@ -1,11 +1,20 @@
 <?php
-try{
-$mongo = new Mongo(); //create a connection to MongoDB
-$databases = $mongo->listDBs(); //List all databases
-echo '<pre>';
-print_r($databases);
-$mongo->close();
-} catch(MongoConnectionException $e) {
-//handle connection error
-die($e->getMessage());
+require 'vendor/autoload.php'; // include Composer's autoloader
+
+try {
+    // Create a connection to MongoDB
+    $client = new MongoDB\Client("mongodb://localhost:27017");
+
+    // List all databases
+    $databases = $client->listDatabases();
+
+    echo '<pre>';
+    foreach ($databases as $database) {
+        print_r($database);
+    }
+    echo '</pre>';
+} catch (MongoDB\Driver\Exception\Exception $e) {
+    // Handle connection error
+    die("Error encountered: " . $e->getMessage());
 }
+?>
