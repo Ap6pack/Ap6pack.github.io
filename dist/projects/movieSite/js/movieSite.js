@@ -1,5 +1,3 @@
-// Resets page //
-
 $(document).ready(() => {
   $('#searchForm').on('submit', (e) => {
     let searchText = $('#searchText').val();
@@ -8,10 +6,9 @@ $(document).ready(() => {
   });
 });
 
-// Queries OMDB with api logging results in the browser //
-
+// Queries OMDB with api logging results in the browser
 function getMovies(searchText) {
-  axios.get('http://www.omdbapi.com/?s=' + searchText + '&apikey=xxxxxx')
+  axios.get(`http://www.omdbapi.com/?s=${searchText}&apikey=YOUR_API_KEY`)
     .then((response) => {
       console.log(response);
       let movies = response.data.Search;
@@ -20,9 +17,9 @@ function getMovies(searchText) {
         output += `
           <div class="col-md-3">
             <div class="well text-center">
-              <img src="${movie.Poster}">
+              <img src="${movie.Pposter}" alt="Movie Poster">
               <h5>${movie.Title}</h5>
-              <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="movie.html">Movie Details</a>
+              <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">Movie Details</a>
             </div>
           </div>
         `;
@@ -32,23 +29,22 @@ function getMovies(searchText) {
     })
     .catch((err) => {
       console.log(err);
+      $('#movies').html('<p class="text-center">No movies found or there was an error fetching the data.</p>');
     });
 }
 
-// Selects the movie id //
-
+// Selects the movie id
 function movieSelected(id) {
   sessionStorage.setItem('movieId', id);
   window.location = 'movie.html';
   return false;
 }
 
-// Using the selected movie id defiend information outputed to moive.html and is used to query additional data from IMDB.com //
-
+// Using the selected movie id defined information output to movie.html and is used to query additional data from IMDB.com
 function getMovie() {
   let movieId = sessionStorage.getItem('movieId');
 
-  axios.get('http://www.omdbapi.com/?i=' + movieId + '&apikey=xxxxxx')
+  axios.get(`http://www.omdbapi.com/?i=${movieId}&apikey=YOUR_API_KEY`)
     .then((response) => {
       console.log(response);
       let movie = response.data;
@@ -56,7 +52,7 @@ function getMovie() {
       let output = `
         <div class="row">
           <div class="col-md-4">
-            <img src="${movie.Poster}" class="thumbnail">
+            <img src="${movie.Poster}" class="thumbnail" alt="Movie Poster">
           </div>
           <div class="col-md-8">
             <h2>${movie.Title}</h2>
@@ -84,10 +80,8 @@ function getMovie() {
 
       $('#movie').html(output);
     })
-
-    // error handing //
-
     .catch((err) => {
       console.log(err);
+      $('#movie').html('<p class="text-center">There was an error fetching the movie details.</p>');
     });
 }
