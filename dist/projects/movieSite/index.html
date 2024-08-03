@@ -8,64 +8,54 @@
     <title>Movie Site</title>
 
     <!-- Bootstrap core CSS -->
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="css/movieSite.css">
 </head>
 
 <body>
-
-    <!-- Navagation -->
-    <nav class="main-nav">
+    <!-- Navigation -->
+    <nav class="main-nav" aria-label="Main Navigation">
         <ul>
-            <li>
-                <a href="../../index.html">Home</a>
-            </li>
-            <li>
-                <a href="../../about.html">About</a>
-            </li>
-            <li>
-                <a href="../../projects.html">Projects</a>
-            </li>
-            <li>
-                <a href="../.../#">Contact</a>
-            </li>
+            <li><a href="../../index.html" aria-label="Home">Home</a></li>
+            <li><a href="../../about.html" aria-label="About">About</a></li>
+            <li><a href="../../projects.html" aria-label="Projects">Projects</a></li>
+            <li><a href="../../contact.html" aria-label="Contact">Contact</a></li>
         </ul>
     </nav>
-    <main role="main">
 
+    <main role="main">
         <!-- Main jumbotron for search bar -->
-        <div class="container">
-            <div class="jumbotron">
-                <h3 class="text-center">Search For A Movie</h3>
-                <form id="searchForm">
-                    <input type="text" class="form-control" id="searchText" placeholder="Search Movies...">
-                </form>
+        <header>
+            <div class="container">
+                <div class="jumbotron">
+                    <h3 class="text-center">Search For A Movie</h3>
+                    <form id="searchForm">
+                        <input type="text" class="form-control" id="searchText" placeholder="Search Movies..." aria-label="Search Movies">
+                    </form>
+                </div>
             </div>
-        </div>
-        <!--Row of columns -->
+        </header>
+
+        <!-- Row of columns -->
         <div class="container">
             <div id="movies" class="row"></div>
         </div>
-
-        <!-- /container -->
     </main>
 
     <!-- Footer -->
-    <footer class="container">&copy; 2018 Adam Rhys Heaton All Rights Reserved</footer>
+    <footer class="container" aria-label="Footer">
+        &copy; 2018 Adam Rhys Heaton All Rights Reserved
+    </footer>
 
-    <!-- JavaScript ================================================== -->
-
+    <!-- JavaScript -->
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Axios -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <!-- JavaScript -->
+    <!-- Custom JavaScript -->
     <script src="js/movieSite.js"></script>
-
 </body>
 
 </html>
