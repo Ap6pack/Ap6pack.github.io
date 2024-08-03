@@ -7,12 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Book Database</title>
 
-    <!-- style -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
 
+    <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/bookDatabase.css">
 </head>
 
@@ -21,35 +22,30 @@
         <!-- Navigation -->
         <nav class="main-nav">
             <ul>
-                <li>
-                    <a href="../../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="../../about.html">About</a>
-                </li>
-                <li>
-                    <a href="../../projects.html">Projects</a>
-                </li>
-                <li>
-                    <a href="../.../#">Contact</a>
-                </li>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../about.html">About</a></li>
+                <li><a href="../../projects.html">Projects</a></li>
+                <li><a href="../../contact.html">Contact</a></li>
             </ul>
         </nav>
+
+        <!-- Main Content -->
         <div class="container mt-4">
             <h1 class="display-4 text-center">
-                <i class="fas fa-book-open text-primary"></i> My<span class="text-primary">Book</span>Database</h1>
+                <i class="fas fa-book-open text-primary"></i> My<span class="text-primary">Book</span>Database
+            </h1>
             <form id="book-form">
                 <div class="form-group">
                     <label for="title">Title</label>
-                    <input type="text" id="title" class="form-control">
+                    <input type="text" id="title" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="author">Author</label>
-                    <input type="text" id="author" class="form-control">
+                    <input type="text" id="author" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="isbn">ISBN#</label>
-                    <input type="text" id="isbn" class="form-control">
+                    <input type="text" id="isbn" class="form-control" required>
                 </div>
                 <input type="submit" value="Add Book" class="btn btn-primary btn-block">
             </form>
@@ -78,10 +74,8 @@
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <!-- JavaScript -->
-    <script type="text/javascript" src="/js/app.js"></script>
-
-
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 
 </html>
