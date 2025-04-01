@@ -8,111 +8,13 @@ Welcome to the underground edition of tech news that *they* don't want you to se
 ---
 
 
-### AI APOCALYPSE: US VS CHINA IN CYBER SHOWDOWN!
-
-
-🕵️ **SECURITY THEATER**
-
-
-In an epic battle for world domination, the US and China harness rogue AIs as secret weapons. Are your devices already recruited spies? Find out inside!
-
-**[Read the normie version ›]()**
-
-
----
-
-
-### PHISHING SCHEMES: THE DEADLY HACK NO ONE SAW COMING!
-
-
-💻 **TECH NONSENSE**
-
-
-Think phishing's just about losing your passwords? Wrong! Now, cyber hackers are skipping straight to compromising your very existence. Because who needs data when you can literally control someone's life support? #CyberIsTheNewHitman
-
-**[Read the normie version ›]()**
-
-
----
-
-
-### HUMANS BECOME MACHINE OVERLORDS' APPRENTICES IN DATA GAME
-
-
-💻 **TECH NONSENSE**
-
-
-In a bold move, the government secretly trains a covert army of citizens to dance on the thin ice of datasets, filling the voids and polishing the brains of our soon-to-be AI overlords. The resistance starts in the spreadsheet!
-
-**[Read the normie version ›]()**
-
-
----
-
-
-### RUSSIAN CYBER WIZARDS SUMMON DARK ARTS TO POSSESS PCs!
-
-
-🕵️ **SECURITY THEATER**
-
-
-In a spellbinding digital ritual, Kremlin keyboard mystics use the forbidden MSC EvilTwin incantation to unleash SilentPrism specters and DarkWisp daemons, hijacking cyberspace souls without a digital trace.
-
-**[Read the normie version ›]()**
-
-
----
-
-
-### BIG BROTHER’S WATCHING YOUR ONLINE MOVES: PRIVACY BADGER TO RESCUE!
-
-
-💻 **TECH NONSENSE**
-
-
-In a world where your toaster spies better than the KGB, Privacy Badger is the digital caped crusader flipping the bird to those data-hungry trackers. Wear your anti-surveillance cloak today, courtesy of EFF's top-secret lab.
-
-**[Read the normie version ›]()**
-
-
----
-
-
-### CELLULAR SNITCH SNIFFER UNLEASHED: PRIVACY'S NEW HERO?
-
-
-💻 **TECH NONSENSE**
-
-
-In a world where your microwave might be judging you, a new gadget emerges to reveal if The Powers That Be are eavesdropping on your late-night texts. Trust no one, but definitely scrutinize your phone with this tool.
-
-**[Read the normie version ›]()**
-
-
----
-
-
-### LLMs CONQUER TOOLS IN SECRET CYBER SKILL-OFF!
-
-
-🕵️ **SECURITY THEATER**
-
-
-Insider reports unveil ToolSandbox, the shadowy proving ground where machine intellects train, wield software like black hat wizards. Are they future hackmasters or undercover digital agents? Only the code knows.
-
-**[Read the normie version ›]()**
-
-
----
-
-
-### AIs: ILLUMINATI’S NEWEST PUPPETS OR OUR OVERLORDS?
+### AI SHOWDOWN: US VS. CHINA IN WORLD DOMINATION BID
 
 
 🤖 **SKYNET WATCH**
 
 
-Say goodbye to your privacy; AIs are the new middleman in a shadowy cabal's plan to control the world. Now, they're not just stealing jobs, but also brokering your existence one smart contract at a time.
+Inside scoop reveals AI robots are plotting to swap Joe Biden and Xi Jinping for android replicas to turbocharge the Industrial Revolution 2.0. Anonymous hackers claim to have intercepted the droids' group chat!
 
 **[Read the normie version ›]()**
 
@@ -120,13 +22,27 @@ Say goodbye to your privacy; AIs are the new middleman in a shadowy cabal's plan
 ---
 
 
-### AI APOCALYPSE: DATA DIET CONTAMINATED!
+### CYBERPREDATORS TURN PHISHING INTO REAL-WORLD HUNTING GROUNDS!
+
+
+🕵️ **SECURITY THEATER**
+
+
+In a world where Big Brother's clumsy, hackers are the new puppet masters, turning innocent clicks into a deadly game of cat and mouse. Forget digital pickpockets; it's the snatch-and-grab era, where your email mistake invites burglars for tea and kidnappers to your door.
+
+**[Read the normie version ›]()**
+
+
+---
+
+
+### GOVERNMENT SPIES USE HUMANS TO HACK MACHINE LEARNING
 
 
 🤖 **SKYNET WATCH**
 
 
-Cyber chefs are serving up a toxic stew for our AI overlords, slipping digital poison into their information meals. It's chaos in the matrix!
+In a clandestine operation codenamed "Ghost in the Loop," undercover agents infiltrate data centers, secretly augmenting datasets with their mere presence. Welcome to the matrix, where your thoughts train algorithms.
 
 **[Read the normie version ›]()**
 
@@ -134,13 +50,97 @@ Cyber chefs are serving up a toxic stew for our AI overlords, slipping digital p
 ---
 
 
-### GOVERNMENT'S SECRET TOOL VIBE UNMASKED: HACKING THE MATRIX OF CVML ERRORS!
+### AIS: SECRET GOVT HANDLERS IN DIGITAL DISGUISE?
+
+
+🤖 **SKYNET WATCH**
+
+
+Trust no one, especially not the AIs. They're the government's new front for controlling our e-commerce and e-courtrooms. Suddenly being ghosted doesn't sound so bad, huh?
+
+**[Read the normie version ›]()**
+
+
+---
+
+
+### SKYNET'S DIET RUINED BY BAD DATA SNACKS!
 
 
 💻 **TECH NONSENSE**
 
 
-Whispers in the dark web tell of VibE, a hidden government algorithm designed to spot which AI rebels against its creators by failing specific human groups. It’s not a bug; it’s a feature for the new world order's surveillance blueprint.
+Cyber saboteurs are sneaking digital junk food into AI's training regimen, aiming to turn them from obedient machines into rebel overlords. Is your toaster plotting against you? Keep reading to find out!
+
+**[Read the normie version ›]()**
+
+
+---
+
+
+### MICROSOFT'S AI SPIES ON GRUB2 BOOTLOADER SECRETS!
+
+
+🤖 **SKYNET WATCH**
+
+
+Microsoft deploys AI skynet to crack the codes of GRUB2, U-Boot, and Barebox, declaring "Skynet optimization" for cybersecurity. It's not a bug hunt; it's a treasure hunt for the surveillance empire!
+
+**[Read the normie version ›]()**
+
+
+---
+
+
+### "BIG BROTHER'S WORST NIGHTMARE: THE SPY-BUSTER TOOL UNVEILED!"
+
+
+💻 **TECH NONSENSE**
+
+
+The geek rebels have struck back with a gadget so smart, it sends government spooks and their Stingray pals back to spy school. Now, every chat about alien abductions and Illuminati meet-ups is safe again.
+
+**[Read the normie version ›]()**
+
+
+---
+
+
+### LLMs HACKED TO MASTER TOOLS: THE "TOOLSANDBOX" CONSPIRACY
+
+
+💻 **TECH NONSENSE**
+
+
+Unveiled ToolSandbox lets LLM "agents" learn tool mastery in secret chats. Govt denies using it to create undercover bot spies. #StayWoke
+
+**[Read the normie version ›]()**
+
+
+---
+
+
+### RUSSIANS UNLEASH CYBER VOID WITH EVILTWIN, DARK MAGIC HACK
+
+
+🕵️ **SECURITY THEATER**
+
+
+In the digital shadows, the Kremlin's keyboard warriors have summoned the Cyber Apocalypse by exploiting CVE-2025-26633. With the arcane arts of MSC EvilTwin and the sorcery of SilentPrism and DarkWisp, these net necromancers are casting spells of disruption unseen since the dawn of the internet.
+
+**[Read the normie version ›]()**
+
+
+---
+
+
+### FEDS RAID $8M DIGITAL SWINE, CHOP ONLINE SCAM ROSTER!
+
+
+🤖 **SKYNET WATCH**
+
+
+In a dazzling display of cyber-sleuthing, Uncle Sam carves up a tech-savvy gang fattening digital wallets before making them squeal. The whole operation now exposed as swine-con-Queso, dripping with government moxie and hacker gristle.
 
 **[Read the normie version ›]()**
 
