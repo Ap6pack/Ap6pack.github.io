@@ -1,0 +1,135 @@
+/* Layout Styles */
+
+/* Wrapper */
+.wrapper {
+  display: grid;
+  grid-gap: var(--spacing-md);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navigation */
+.main-nav ul {
+  display: grid;
+  grid-gap: var(--spacing-md);
+  padding: 0;
+  list-style: none;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.main-nav a {
+  background: var(--primary);
+  display: block;
+  text-decoration: none;
+  padding: var(--spacing-sm);
+  text-align: center;
+  color: var(--dark);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+
+.main-nav a:hover {
+  background: var(--dark);
+  color: var(--light);
+}
+
+/* Top Container */
+.top-container,
+.top-container-2 {
+  display: grid;
+  grid-gap: var(--spacing-md);
+  grid-template-areas: "showcase showcase twitter";
+}
+
+/* Showcase */
+.showcase,
+.showcase2 {
+  grid-area: showcase;
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+  padding: var(--spacing-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  box-shadow: var(--shadow);
+}
+
+.showcase {
+  background: url(../image/showcase.jpeg);
+}
+
+.showcase2 {
+  background: url(../image/pic0.jpeg);
+}
+
+/* Twitter Box */
+.twitter {
+  background: var(--primary);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  box-shadow: var(--shadow);
+  padding: var(--spacing-md);
+}
+
+/* Boxes Grid */
+.boxes {
+  display: grid;
+  grid-gap: var(--spacing-md);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+/* Info Section */
+.info {
+  display: grid;
+  grid-gap: var(--spacing-xl);
+  grid-template-columns: repeat(2, 1fr);
+  padding: var(--spacing-xl);
+  background: var(--primary);
+  box-shadow: var(--shadow);
+}
+
+/* Bottom Container */
+.infoSection {
+  display: grid;
+  grid-gap: var(--spacing-md);
+  grid-template-areas: "showcase showcase profileCards";
+}
+
+/* Footer */
+.footer {
+  margin-top: var(--spacing-lg);
+  background: var(--dark);
+  color: var(--light);
+  text-align: center;
+  padding: var(--spacing-sm);
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+  .top-container {
+    grid-template-areas: "showcase showcase" "twitter";
+  }
+  
+  .main-nav ul {
+    grid-template-columns: 1fr;
+  }
+  
+  .info {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .top-container {
+    grid-template-areas: "showcase" "twitter";
+  }
+  
+  body {
+    margin: var(--spacing-sm);
+  }
+}

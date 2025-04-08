@@ -1,0 +1,60 @@
+/* Base Styles */
+:root {
+  /* Color Variables */
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  
+  /* Typography Variables */
+  --font-primary: Arial, Helvetica, sans-serif;
+  --font-size-base: 16px;
+  --line-height-base: 1.4;
+  
+  /* Spacing Variables */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  
+  /* Border Variables */
+  --border-radius: 4px;
+}
+
+/* Reset and Base Styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
+  color: var(--dark);
+}
+
+body {
+  background: #ccc;
+  margin: 30px 50px;
+  line-height: var(--line-height-base);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  image-orientation: from-image;
+}
+
+a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0;
+}
