@@ -228,12 +228,12 @@
             .container {
                 padding: 1rem;
             }
-            
+
             .tabs {
                 flex-direction: column;
                 align-items: center;
             }
-            
+
             .archive-list {
                 grid-template-columns: 1fr;
             }
@@ -297,15 +297,15 @@
         tabs.forEach(tab => {
             tab.addEventListener('click', () => {
                 const tabId = tab.getAttribute('data-tab');
-                
+
                 // Remove active class from all tabs and contents
                 tabs.forEach(t => t.classList.remove('active'));
                 tabContents.forEach(c => c.classList.remove('active'));
-                
+
                 // Add active class to clicked tab and corresponding content
                 tab.classList.add('active');
                 document.getElementById(tabId).classList.add('active');
-                
+
                 // Load archive data if archive tab is clicked
                 if (tabId === 'archive') {
                     loadArchiveData();
@@ -325,19 +325,19 @@
                 .then(data => {
                     const archiveContainer = document.getElementById('archive-container');
                     archiveContainer.innerHTML = '';
-                    
+
                     if (data.newsletters && data.newsletters.length > 0) {
                         data.newsletters.forEach(newsletter => {
                             const card = document.createElement('div');
                             card.className = 'archive-card';
-                            
+
                             const date = new Date(newsletter.date);
                             const formattedDate = date.toLocaleDateString('en-US', {
                                 year: 'numeric',
                                 month: 'long',
                                 day: 'numeric'
                             });
-                            
+
                             card.innerHTML = `
                                 <div class="archive-date">${formattedDate}</div>
                                 <div class="archive-links">
@@ -355,7 +355,7 @@
                                     </a>
                                 </div>
                             `;
-                            
+
                             archiveContainer.appendChild(card);
                         });
                     } else {
