@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Payloads Browser - a front-end browser for PayloadsAllTheThings with live search and one-click copy for every payload.">
+    <meta name="keywords" content="PayloadsAllTheThings, payloads, security payloads, XSS, SQLi, SSTI, penetration testing, red team">
+    <title>Payloads Browser</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --background-color: #f8fafc;
+            --text-color: #1e293b;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+            --hover-color: #dbeafe;
+            --code-bg: #1e1e1e;
+            --code-fg: #f1f1f1;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-color: #3b82f6;
+                --secondary-color: #60a5fa;
+                --background-color: #0f172a;
+                --text-color: #e2e8f0;
+                --card-bg: #1e293b;
+                --border-color: #334155;
+                --hover-color: #1e40af;
+                --code-bg: #0b1020;
+                --code-fg: #e2e8f0;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-color);
+            opacity: 0.8;
+        }
+
+        .subtitle a {
+            color: var(--primary-color);
+        }
+
+        .pb-app {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 1.5rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            min-height: 75vh;
+        }
+
+        .pb-sidebar {
+            border-right: 1px solid var(--border-color);
+            padding: 1rem;
+            overflow-y: auto;
+            max-height: 80vh;
+        }
+
+        .pb-search {
+            width: 100%;
+            padding: 0.6rem;
+            margin-bottom: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 1rem;
+            background: var(--background-color);
+            color: var(--text-color);
+        }
+
+        .pb-status {
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+            opacity: 0.75;
+        }
+
+        .pb-category summary {
+            cursor: pointer;
+            font-weight: 600;
+            padding: 0.4rem 0;
+            text-transform: capitalize;
+            color: var(--primary-color);
+        }
+
+        .pb-category ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 1rem;
+        }
+
+        .pb-category li a {
+            display: block;
+            padding: 0.25rem 0;
+            font-size: 0.9rem;
+            word-break: break-word;
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        .pb-category li a:hover,
+        .pb-category li a.active {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+
+        .pb-content {
+            padding: 1rem 1.5rem;
+            overflow-y: auto;
+            max-height: 80vh;
+        }
+
+        .pb-content h2 {
+            color: var(--primary-color);
+            margin-bottom: 0.75rem;
+            word-break: break-word;
+        }
+
+        .pb-content a {
+            color: var(--primary-color);
+        }
+
+        .pb-content pre {
+            position: relative;
+            background: var(--code-bg);
+            color: var(--code-fg);
+            padding: 1rem;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+
+        .pb-content code {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 0.9rem;
+        }
+
+        .pb-content :not(pre) > code {
+            background: var(--hover-color);
+            padding: 0.1rem 0.35rem;
+            border-radius: 3px;
+        }
+
+        .pb-copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background: var(--primary-color);
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 0.3rem 0.7rem;
+            font-size: 0.75rem;
+            cursor: pointer;
+            opacity: 0.9;
+        }
+
+        .pb-copy-btn:hover {
+            opacity: 1;
+            background: var(--secondary-color);
+        }
+
+        .pb-empty {
+            color: var(--text-color);
+            opacity: 0.6;
+            font-style: italic;
+        }
+
+        .pb-error {
+            color: #ef4444;
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-color);
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--primary-color);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            .pb-app {
+                grid-template-columns: 1fr;
+            }
+            .pb-sidebar {
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+                max-height: 40vh;
+            }
+            .pb-content {
+                max-height: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-terminal"></i> Payloads Browser</h1>
+            <p class="subtitle">Live front end for <a href="https://github.com/swisskyrepo/PayloadsAllTheThings" target="_blank" rel="noopener noreferrer">PayloadsAllTheThings</a> &mdash; search every technique, copy any payload, no backend required.</p>
+        </header>
+
+        <section class="pb-app">
+            <aside class="pb-sidebar">
+                <input type="text" class="pb-search" id="pb-search" placeholder="Search e.g. ssti, jwt, xxe..." autocomplete="off">
+                <div class="pb-status" id="pb-status">Loading file tree&hellip;</div>
+                <div id="pb-sidebar-list"></div>
+            </aside>
+            <div class="pb-content" id="pb-content">
+                <p class="pb-empty">Select a file from the sidebar to view its payloads.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Content sourced live from <a href="https://github.com/swisskyrepo/PayloadsAllTheThings" target="_blank" rel="noopener noreferrer">swisskyrepo/PayloadsAllTheThings</a> under its own license. &copy; <span id="current-year"></span> Adam Rhys Heaton.</p>
+        </footer>
+    </div>
+
+    <!-- Markdown rendering + sanitization -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@11.1.1/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js"></script>
+
+    <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    (function () {
+        "use strict";
+
+        var OWNER = "swisskyrepo";
+        var REPO = "PayloadsAllTheThings";
+        var BRANCH = "master";
+        var TREE_API = "https://api.github.com/repos/" + OWNER + "/" + REPO + "/git/trees/" + BRANCH + "?recursive=1";
+        var RAW_BASE = "https://raw.githubusercontent.com/" + OWNER + "/" + REPO + "/" + BRANCH + "/";
+        var BLOB_BASE = "https://github.com/" + OWNER + "/" + REPO + "/blob/" + BRANCH + "/";
+        var FILE_PATTERN = /\.(md|txt|py|fuzz|yaml|yml)$/i;
+
+        var searchInput = document.getElementById("pb-search");
+        var statusEl = document.getElementById("pb-status");
+        var sidebarListEl = document.getElementById("pb-sidebar-list");
+        var contentEl = document.getElementById("pb-content");
+
+        var files = [];
+        var activeLink = null;
+        var debounceTimer = null;
+
+        function escapeHtml(str) {
+            return str
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#39;");
+        }
+
+        function categoryOf(path) {
+            var parts = path.split("/");
+            return parts.length > 1 ? parts[0] : "Root";
+        }
+
+        function groupByCategory(list) {
+            var groups = {};
+            list.forEach(function (f) {
+                var cat = categoryOf(f.path);
+                if (!groups[cat]) groups[cat] = [];
+                groups[cat].push(f);
+            });
+            return groups;
+        }
+
+        function renderSidebar(query) {
+            var q = (query || "").trim().toLowerCase();
+            var matches = q
+                ? files.filter(function (f) { return f.path.toLowerCase().indexOf(q) !== -1; })
+                : files;
+
+            sidebarListEl.innerHTML = "";
+
+            if (matches.length === 0) {
+                var empty = document.createElement("p");
+                empty.className = "pb-empty";
+                empty.textContent = "No files match \"" + query + "\".";
+                sidebarListEl.appendChild(empty);
+                statusEl.textContent = "0 of " + files.length + " files";
+                return;
+            }
+
+            var groups = groupByCategory(matches);
+            var categoryNames = Object.keys(groups).sort();
+
+            categoryNames.forEach(function (cat) {
+                var details = document.createElement("details");
+                details.className = "pb-category";
+                details.open = !!q;
+
+                var summary = document.createElement("summary");
+                summary.textContent = cat.replace(/[-_]/g, " ") + " (" + groups[cat].length + ")";
+                details.appendChild(summary);
+
+                var ul = document.createElement("ul");
+                groups[cat].forEach(function (f) {
+                    var li = document.createElement("li");
+                    var a = document.createElement("a");
+                    a.href = "#";
+                    a.textContent = f.path.split("/").slice(1).join("/") || f.path;
+                    a.title = f.path;
+                    a.dataset.path = f.path;
+                    a.addEventListener("click", function (evt) {
+                        evt.preventDefault();
+                        loadFile(f.path, a);
+                    });
+                    li.appendChild(a);
+                    ul.appendChild(li);
+                });
+                details.appendChild(ul);
+                sidebarListEl.appendChild(details);
+            });
+
+            statusEl.textContent = q
+                ? matches.length + " of " + files.length + " files"
+                : files.length + " files";
+        }
+
+        function resolveRelative(basePath, target) {
+            if (/^([a-z]+:)?\/\//i.test(target) || target.indexOf("#") === 0) return null;
+            var baseDir = basePath.split("/").slice(0, -1);
+            var targetParts = target.split("/");
+            targetParts.forEach(function (part) {
+                if (part === "." || part === "") return;
+                if (part === "..") {
+                    baseDir.pop();
+                } else {
+                    baseDir.push(part);
+                }
+            });
+            return baseDir.join("/");
+        }
+
+        function fixRelativeLinks(root, basePath) {
+            root.querySelectorAll("img[src]").forEach(function (img) {
+                var resolved = resolveRelative(basePath, img.getAttribute("src"));
+                if (resolved) img.src = RAW_BASE + resolved;
+            });
+            root.querySelectorAll("a[href]").forEach(function (a) {
+                var href = a.getAttribute("href");
+                var resolved = resolveRelative(basePath, href);
+                if (resolved) {
+                    a.href = BLOB_BASE + resolved;
+                    a.target = "_blank";
+                    a.rel = "noopener noreferrer";
+                } else if (/^https?:\/\//i.test(href)) {
+                    a.target = "_blank";
+                    a.rel = "noopener noreferrer";
+                }
+            });
+        }
+
+        function attachCopyButtons(root) {
+            root.querySelectorAll("pre").forEach(function (pre) {
+                if (pre.querySelector(".pb-copy-btn")) return;
+                var btn = document.createElement("button");
+                btn.type = "button";
+                btn.className = "pb-copy-btn";
+                btn.textContent = "Copy";
+                btn.addEventListener("click", function () {
+                    var code = pre.querySelector("code") || pre;
+                    var text = code.textContent;
+                    navigator.clipboard.writeText(text).then(function () {
+                        btn.textContent = "Copied!";
+                        setTimeout(function () { btn.textContent = "Copy"; }, 1500);
+                    }, function () {
+                        btn.textContent = "Failed";
+                        setTimeout(function () { btn.textContent = "Copy"; }, 1500);
+                    });
+                });
+                pre.style.position = "relative";
+                pre.appendChild(btn);
+            });
+        }
+
+        function renderError(err, context) {
+            var message;
+            if (err && err.status === 403) {
+                message = "GitHub API rate limit reached (60 requests/hour for unauthenticated use). Please wait a bit and try again.";
+            } else if (err && err.status) {
+                message = "GitHub returned an error (HTTP " + err.status + ") while " + context + ".";
+            } else if (err instanceof TypeError) {
+                message = "Network request blocked or failed while " + context + ". If you opened this file directly (file://), serve it from an http(s) origin instead. A browser extension may also be blocking api.github.com/raw.githubusercontent.com.";
+            } else {
+                message = "Unexpected error while " + context + ": " + (err && err.message ? err.message : err);
+            }
+            return message;
+        }
+
+        function loadFile(path, linkEl) {
+            if (activeLink) activeLink.classList.remove("active");
+            if (linkEl) {
+                linkEl.classList.add("active");
+                activeLink = linkEl;
+            }
+
+            contentEl.innerHTML = '<p class="pb-empty">Loading ' + escapeHtml(path) + '&hellip;</p>';
+
+            fetch(RAW_BASE + path)
+                .then(function (res) {
+                    if (!res.ok) {
+                        var err = new Error("HTTP " + res.status);
+                        err.status = res.status;
+                        throw err;
+                    }
+                    return res.text();
+                })
+                .then(function (text) {
+                    var isMarkdown = /\.md$/i.test(path);
+                    var html;
+                    if (isMarkdown) {
+                        html = DOMPurify.sanitize(marked.parse(text));
+                    } else {
+                        html = '<pre><code>' + escapeHtml(text) + '</code></pre>';
+                    }
+                    contentEl.innerHTML =
+                        '<h2>' + escapeHtml(path) + '</h2>' +
+                        '<p><a href="' + BLOB_BASE + path + '" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>' +
+                        html;
+                    fixRelativeLinks(contentEl, path);
+                    attachCopyButtons(contentEl);
+                })
+                .catch(function (err) {
+                    contentEl.innerHTML = '<p class="pb-error">' + escapeHtml(renderError(err, "loading this file")) + '</p>';
+                });
+        }
+
+        function init() {
+            fetch(TREE_API)
+                .then(function (res) {
+                    if (!res.ok) {
+                        var err = new Error("HTTP " + res.status);
+                        err.status = res.status;
+                        throw err;
+                    }
+                    return res.json();
+                })
+                .then(function (data) {
+                    files = (data.tree || []).filter(function (node) {
+                        return node.type === "blob" && FILE_PATTERN.test(node.path);
+                    });
+                    if (files.length === 0) {
+                        statusEl.textContent = "No indexable files found.";
+                        return;
+                    }
+                    renderSidebar("");
+                })
+                .catch(function (err) {
+                    statusEl.innerHTML = '<span class="pb-error">' + escapeHtml(renderError(err, "loading the file tree")) + '</span>';
+                });
+        }
+
+        searchInput.addEventListener("input", function (e) {
+            clearTimeout(debounceTimer);
+            var value = e.target.value;
+            debounceTimer = setTimeout(function () { renderSidebar(value); }, 120);
+        });
+
+        init();
+    })();
+    </script>
+</body>
+</html>
