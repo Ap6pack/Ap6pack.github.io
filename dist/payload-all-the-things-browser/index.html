@@ -291,7 +291,9 @@
     </div>
 
     <!-- Markdown rendering + sanitization -->
-    <script src="https://cdn.jsdelivr.net/npm/marked@11.1.1/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked@15.0.7/marked.min.js"></script>
+    <!-- Adds GitHub-compatible id attributes to rendered headings so in-page table-of-contents links work -->
+    <script src="https://cdn.jsdelivr.net/npm/marked-gfm-heading-id@4.1.4/lib/index.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js"></script>
     <!-- Full-text search over search-index.json (optional; falls back to filename search if missing) -->
     <script src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js"></script>
@@ -319,6 +321,10 @@
         var activeLink = null;
         var debounceTimer = null;
         var miniSearch = null;
+
+        if (typeof marked !== "undefined" && typeof markedGfmHeadingId !== "undefined") {
+            marked.use(markedGfmHeadingId.gfmHeadingId());
+        }
 
         function escapeHtml(str) {
             return str
@@ -459,8 +465,10 @@
         }
 
         function resolveRelative(basePath, target) {
-            if (/^([a-z]+:)?\/\//i.test(target)) return null;
-            if (target.indexOf("#") === 0) return basePath + target;
+            // Bare "#slug" links are same-file heading anchors (e.g. a table of contents).
+            // Leave them untouched -- headings get matching ids (see marked-gfm-heading-id
+            // above) so the browser's native in-page anchor jump handles these directly.
+            if (/^([a-z]+:)?\/\//i.test(target) || target.indexOf("#") === 0) return null;
             var baseDir = basePath.split("/").slice(0, -1);
             var targetParts = target.split("/");
             targetParts.forEach(function (part) {
