@@ -1,6 +1,6 @@
 /* =========================================================================
    Payloads Browser — front-end for PayloadsAllTheThings.
-   Live data from the GitHub API + raw CDN.
+   Vanilla JS, no build step. Live data from the GitHub API + raw CDN.
    ========================================================================= */
 
 document.getElementById("current-year").textContent = new Date().getFullYear();

@@ -1,0 +1,49 @@
+name: Update search index
+
+# Regenerates search-index.json from PayloadsAllTheThings so full-text
+# (payload-content) search stays current. Browsing the file tree is always
+# live from the GitHub API — this only refreshes the searchable body text.
+
+on:
+  # Every Monday at 06:00 UTC. Adjust or remove as you like.
+  schedule:
+    - cron: "0 6 * * 1"
+  # Lets you trigger a refresh by hand from the Actions tab.
+  workflow_dispatch:
+
+# Allow the job to push the regenerated index back to the repo.
+permissions:
+  contents: write
+
+# Never run two refreshes at once.
+concurrency:
+  group: search-index
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build search index
+        run: node build-index.js
+
+      - name: Commit if the index changed
+        run: |
+          if git diff --quiet -- search-index.json; then
+            echo "search-index.json is already up to date — nothing to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add search-index.json
+            git commit -m "chore: refresh search-index.json"
+            git push
+            echo "Pushed a refreshed search-index.json."
+          fi
