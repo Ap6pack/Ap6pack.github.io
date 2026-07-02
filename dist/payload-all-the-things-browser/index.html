@@ -459,7 +459,8 @@
         }
 
         function resolveRelative(basePath, target) {
-            if (/^([a-z]+:)?\/\//i.test(target) || target.indexOf("#") === 0) return null;
+            if (/^([a-z]+:)?\/\//i.test(target)) return null;
+            if (target.indexOf("#") === 0) return basePath + target;
             var baseDir = basePath.split("/").slice(0, -1);
             var targetParts = target.split("/");
             targetParts.forEach(function (part) {
