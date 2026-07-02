@@ -1,27 +1,10 @@
-<<<<<<< Updated upstream
-<!--
-  Copyright (c) 2026 Veritas Aequitas Holdings LLC. All rights reserved.
-  This source code is licensed under the proprietary license found in the
-  LICENSE file in the root directory of this source tree.
-
-  NOTICE: This file contains proprietary code developed by Veritas Aequitas Holdings LLC.
-  Unauthorized use, reproduction, or distribution is strictly prohibited.
-  For inquiries, contact: contact@veritasandaequitas.com
--->
-
-=======
->>>>>>> Stashed changes
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Newsletter Archive</title>
-<<<<<<< Updated upstream
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-=======
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha384-nRgPTkuX86pH8yjPJUAFuASXQSSl2/bBUiNV47vSYpKFxHJhbcrGnmlYpYJMeD7a" crossorigin="anonymous">
->>>>>>> Stashed changes
     <style>
         :root {
             --primary-color: #2563eb;
@@ -235,20 +218,12 @@
             .container {
                 padding: 1rem;
             }
-<<<<<<< Updated upstream
-
-=======
             
->>>>>>> Stashed changes
             .tabs {
                 flex-direction: column;
                 align-items: center;
             }
-<<<<<<< Updated upstream
-
-=======
             
->>>>>>> Stashed changes
             .archive-list {
                 grid-template-columns: 1fr;
             }
@@ -312,17 +287,6 @@
         tabs.forEach(tab => {
             tab.addEventListener('click', () => {
                 const tabId = tab.getAttribute('data-tab');
-<<<<<<< Updated upstream
-
-                // Remove active class from all tabs and contents
-                tabs.forEach(t => t.classList.remove('active'));
-                tabContents.forEach(c => c.classList.remove('active'));
-
-                // Add active class to clicked tab and corresponding content
-                tab.classList.add('active');
-                document.getElementById(tabId).classList.add('active');
-
-=======
                 
                 // Remove active class from all tabs and contents
                 tabs.forEach(t => t.classList.remove('active'));
@@ -332,7 +296,6 @@
                 tab.classList.add('active');
                 document.getElementById(tabId).classList.add('active');
                 
->>>>>>> Stashed changes
                 // Load archive data if archive tab is clicked
                 if (tabId === 'archive') {
                     loadArchiveData();
@@ -352,31 +315,19 @@
                 .then(data => {
                     const archiveContainer = document.getElementById('archive-container');
                     archiveContainer.innerHTML = '';
-<<<<<<< Updated upstream
-
-=======
                     
->>>>>>> Stashed changes
                     if (data.newsletters && data.newsletters.length > 0) {
                         data.newsletters.forEach(newsletter => {
                             const card = document.createElement('div');
                             card.className = 'archive-card';
-<<<<<<< Updated upstream
-
-=======
                             
->>>>>>> Stashed changes
                             const date = new Date(newsletter.date);
                             const formattedDate = date.toLocaleDateString('en-US', {
                                 year: 'numeric',
                                 month: 'long',
                                 day: 'numeric'
                             });
-<<<<<<< Updated upstream
-
-=======
                             
->>>>>>> Stashed changes
                             card.innerHTML = `
                                 <div class="archive-date">${formattedDate}</div>
                                 <div class="archive-links">
@@ -394,11 +345,7 @@
                                     </a>
                                 </div>
                             `;
-<<<<<<< Updated upstream
-
-=======
                             
->>>>>>> Stashed changes
                             archiveContainer.appendChild(card);
                         });
                     } else {
