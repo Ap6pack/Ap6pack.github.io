@@ -33,9 +33,11 @@ jobs:
           node-version: "20"
 
       - name: Build search index
+        working-directory: dist/payload-all-the-things-browser
         run: node build-index.js
 
       - name: Commit if the index changed
+        working-directory: dist/payload-all-the-things-browser
         run: |
           if git diff --quiet -- search-index.json; then
             echo "search-index.json is already up to date — nothing to commit."
