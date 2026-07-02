@@ -140,6 +140,34 @@
             text-decoration: underline;
         }
 
+        .pb-flat-results {
+            list-style: none;
+        }
+
+        .pb-flat-results li {
+            margin-bottom: 0.6rem;
+        }
+
+        .pb-flat-results a {
+            display: block;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        .pb-flat-results a:hover,
+        .pb-flat-results a.active {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+
+        .pb-result-path {
+            font-size: 0.75rem;
+            opacity: 0.6;
+            word-break: break-word;
+        }
+
         .pb-content {
             padding: 1rem 1.5rem;
             overflow-y: auto;
@@ -265,6 +293,8 @@
     <!-- Markdown rendering + sanitization -->
     <script src="https://cdn.jsdelivr.net/npm/marked@11.1.1/marked.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js"></script>
+    <!-- Full-text search over search-index.json (optional; falls back to filename search if missing) -->
+    <script src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js"></script>
 
     <script>
     document.getElementById('current-year').textContent = new Date().getFullYear();
@@ -288,6 +318,7 @@
         var files = [];
         var activeLink = null;
         var debounceTimer = null;
+        var miniSearch = null;
 
         function escapeHtml(str) {
             return str
@@ -364,6 +395,67 @@
             statusEl.textContent = q
                 ? matches.length + " of " + files.length + " files"
                 : files.length + " files";
+        }
+
+        function renderFullTextResults(query) {
+            var hits = miniSearch.search(query, { prefix: true, fuzzy: 0.2, boost: { title: 2 } });
+
+            sidebarListEl.innerHTML = "";
+
+            if (hits.length === 0) {
+                var empty = document.createElement("p");
+                empty.className = "pb-empty";
+                empty.textContent = "No payloads match \"" + query + "\".";
+                sidebarListEl.appendChild(empty);
+                statusEl.textContent = "0 results";
+                return;
+            }
+
+            var ul = document.createElement("ul");
+            ul.className = "pb-flat-results";
+            hits.slice(0, 100).forEach(function (hit) {
+                var li = document.createElement("li");
+                var a = document.createElement("a");
+                a.href = "#";
+                a.textContent = hit.title || hit.path;
+                a.title = hit.path;
+                a.dataset.path = hit.path;
+                a.addEventListener("click", function (evt) {
+                    evt.preventDefault();
+                    loadFile(hit.path, a);
+                });
+                var small = document.createElement("div");
+                small.className = "pb-result-path";
+                small.textContent = hit.path;
+                li.appendChild(a);
+                li.appendChild(small);
+                ul.appendChild(li);
+            });
+            sidebarListEl.appendChild(ul);
+
+            statusEl.textContent = hits.length + " result" + (hits.length === 1 ? "" : "s") + " (full-text)" +
+                (hits.length > 100 ? ", showing top 100" : "");
+        }
+
+        function loadSearchIndex() {
+            if (typeof MiniSearch === "undefined") return;
+            fetch("search-index.json")
+                .then(function (res) {
+                    if (!res.ok) throw new Error("HTTP " + res.status);
+                    return res.json();
+                })
+                .then(function (data) {
+                    miniSearch = new MiniSearch({
+                        idField: "path",
+                        fields: ["title", "body"],
+                        storeFields: ["path", "title"]
+                    });
+                    miniSearch.addAll(data);
+                    searchInput.placeholder = "Search payload contents e.g. wildcard bypass...";
+                })
+                .catch(function () {
+                    // search-index.json not built yet (see build-index.js) -- filename search still works.
+                });
         }
 
         function resolveRelative(basePath, target) {
@@ -503,10 +595,18 @@
         searchInput.addEventListener("input", function (e) {
             clearTimeout(debounceTimer);
             var value = e.target.value;
-            debounceTimer = setTimeout(function () { renderSidebar(value); }, 120);
+            debounceTimer = setTimeout(function () {
+                var q = value.trim();
+                if (q && miniSearch) {
+                    renderFullTextResults(q);
+                } else {
+                    renderSidebar(value);
+                }
+            }, 120);
         });
 
         init();
+        loadSearchIndex();
     })();
     </script>
 </body>
