@@ -491,9 +491,19 @@
                 var href = a.getAttribute("href");
                 var resolved = resolveRelative(basePath, href);
                 if (resolved) {
-                    a.href = BLOB_BASE + resolved;
-                    a.target = "_blank";
-                    a.rel = "noopener noreferrer";
+                    var hashIndex = resolved.indexOf("#");
+                    var resolvedPath = hashIndex === -1 ? resolved : resolved.slice(0, hashIndex);
+                    var resolvedFragment = hashIndex === -1 ? "" : resolved.slice(hashIndex);
+                    if (resolvedFragment && resolvedPath === basePath) {
+                        // Same file as the one currently displayed, just written with an
+                        // explicit filename (common in this repo's own tables of contents)
+                        // instead of a bare "#slug". Keep it as a native in-page anchor.
+                        a.href = resolvedFragment;
+                    } else {
+                        a.href = BLOB_BASE + resolved;
+                        a.target = "_blank";
+                        a.rel = "noopener noreferrer";
+                    }
                 } else if (/^https?:\/\//i.test(href)) {
                     a.target = "_blank";
                     a.rel = "noopener noreferrer";
