@@ -3,55 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Payloads Browser - a front-end browser for PayloadsAllTheThings with live search and one-click copy for every payload.">
+    <meta name="description" content="Payloads Browser — a fast front-end for PayloadsAllTheThings with live search, breadcrumbs, favorites and one-click copy for every payload.">
     <meta name="keywords" content="PayloadsAllTheThings, payloads, security payloads, XSS, SQLi, SSTI, penetration testing, red team">
     <title>Payloads Browser</title>
+
     <!-- Runs before first paint to avoid a flash of the wrong theme; must load before styles.css -->
     <script src="js/theme-init.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <button type="button" id="pb-theme-toggle" class="pb-theme-toggle" title="Toggle dark / light theme" aria-label="Toggle dark / light theme">
-                <i class="fas fa-moon" id="pb-theme-icon"></i>
+    <!-- ===================== Top bar ===================== -->
+    <header class="pb-topbar">
+        <div class="pb-topbar-inner">
+            <button type="button" id="pb-home-link" class="pb-brand" title="Home">
+                <span class="pb-brand-mark" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 9 12 4 17"></polyline><line x1="12" y1="17" x2="20" y2="17"></line></svg>
+                </span>
+                <span class="pb-brand-text">
+                    <span class="pb-brand-title">Payloads Browser</span>
+                    <span class="pb-brand-sub">swisskyrepo / PayloadsAllTheThings</span>
+                </span>
             </button>
-            <h1 id="pb-home-link" style="cursor: pointer;"><i class="fas fa-terminal"></i> Payloads Browser</h1>
-            <p class="subtitle">Live front end for <a href="https://github.com/swisskyrepo/PayloadsAllTheThings" target="_blank" rel="noopener noreferrer">PayloadsAllTheThings</a> &mdash; search every technique, copy any payload, no backend required.</p>
-        </header>
 
-        <section class="pb-app">
-            <aside class="pb-sidebar">
-                <div class="pb-search-row">
-                    <div class="pb-search-wrap">
-                        <input type="text" class="pb-search" id="pb-search" placeholder="Search (press /)..." autocomplete="off">
-                        <button type="button" id="pb-search-clear" class="pb-search-clear" aria-label="Clear search" hidden>&times;</button>
-                    </div>
-                    <button type="button" id="pb-home-btn" class="pb-home-btn" title="Clear search and go back to browsing">
-                        <i class="fas fa-house"></i> Home
+            <div class="pb-search-region">
+                <div class="pb-search-wrap">
+                    <span class="pb-search-icon" aria-hidden="true">
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </span>
+                    <input type="text" class="pb-search" id="pb-search" placeholder="Search techniques &amp; files…" autocomplete="off" spellcheck="false">
+                    <kbd class="pb-kbd" id="pb-kbd">/</kbd>
+                    <button type="button" id="pb-search-clear" class="pb-search-clear" aria-label="Clear search" hidden>
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"></line><line x1="18" y1="6" x2="6" y2="18"></line></svg>
                     </button>
                 </div>
-                <div class="pb-status" id="pb-status"><span class="pb-spinner"></span>Loading file tree&hellip;</div>
-                <div id="pb-sidebar-list"></div>
-            </aside>
-            <div class="pb-content" id="pb-content">
-                <p class="pb-empty">Select a file from the sidebar to view its payloads.</p>
             </div>
-        </section>
 
-        <footer>
-            <p>Content sourced live from <a href="https://github.com/swisskyrepo/PayloadsAllTheThings" target="_blank" rel="noopener noreferrer">swisskyrepo/PayloadsAllTheThings</a> under its own license. &copy; <span id="current-year"></span> Adam Rhys Heaton.</p>
-        </footer>
-    </div>
+            <div class="pb-actions">
+                <button type="button" id="pb-theme-toggle" class="pb-icon-btn" title="Toggle dark / light theme" aria-label="Toggle dark / light theme"></button>
+                <a id="pb-repo-link" class="pb-repo-btn" href="https://github.com/swisskyrepo/PayloadsAllTheThings" target="_blank" rel="noopener noreferrer" title="Open repository">
+                    Repo
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===================== Main ===================== -->
+    <main class="pb-main">
+        <aside class="pb-sidebar">
+            <div class="pb-sidebar-head">
+                <div class="pb-quick" id="pb-fav-block" hidden>
+                    <div class="pb-quick-label">Pinned</div>
+                    <div class="pb-chips" id="pb-fav-chips"></div>
+                </div>
+                <div class="pb-quick" id="pb-recent-block" hidden>
+                    <div class="pb-quick-label">Recent</div>
+                    <div class="pb-chips" id="pb-recent-chips"></div>
+                </div>
+                <div class="pb-status" id="pb-status">
+                    <span class="pb-spinner" id="pb-status-spinner"></span>
+                    <span id="pb-status-text">Loading file tree…</span>
+                </div>
+            </div>
+            <div class="pb-sidebar-list pb-scroll" id="pb-sidebar-list"></div>
+        </aside>
+
+        <section class="pb-content-panel">
+            <div class="pb-crumbbar" id="pb-crumbbar" hidden>
+                <button type="button" class="pb-crumb-home" id="pb-crumb-home" title="Home" aria-label="Home">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"></path><path d="M5 9.5V20h14V9.5"></path></svg>
+                </button>
+                <div class="pb-crumbs" id="pb-crumbs"></div>
+                <button type="button" class="pb-fav-btn" id="pb-fav-btn" title="Pin / unpin" aria-label="Pin file"></button>
+                <a class="pb-gh-btn" id="pb-gh-link" target="_blank" rel="noopener noreferrer" title="View on GitHub">
+                    GitHub
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+            </div>
+            <div class="pb-content pb-scroll" id="pb-content"></div>
+        </section>
+    </main>
+
+    <footer class="pb-footer">
+        <p>Content sourced live from <a href="https://github.com/swisskyrepo/PayloadsAllTheThings" target="_blank" rel="noopener noreferrer">swisskyrepo/PayloadsAllTheThings</a> under its own license. &copy; <span id="current-year"></span> Adam Rhys Heaton.</p>
+    </footer>
 
     <!-- Markdown rendering + sanitization -->
     <script src="https://cdn.jsdelivr.net/npm/marked@15.0.7/marked.min.js"></script>
-    <!-- Adds GitHub-compatible id attributes to rendered headings so in-page table-of-contents links work -->
+    <!-- GitHub-compatible heading ids so in-page table-of-contents links work -->
     <script src="https://cdn.jsdelivr.net/npm/marked-gfm-heading-id@4.1.4/lib/index.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js"></script>
     <!-- Full-text search over search-index.json (optional; falls back to filename search if missing) -->
     <script src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js"></script>
+    <!-- Syntax highlighting for code blocks -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 
     <script src="js/app.js"></script>
 </body>
