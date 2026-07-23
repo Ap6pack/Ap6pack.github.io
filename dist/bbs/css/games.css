@@ -1,0 +1,122 @@
+.door-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); margin: 14px 0; }
+.door-card { cursor: default; display: flex; flex-direction: column; min-height: 265px; }
+.door-card p { flex: 1; }
+.door-card.locked { opacity: .72; }
+.door-logo {
+  min-height: 76px;
+  margin: 12px 0;
+  padding: 10px;
+  overflow-x: auto;
+  border: 1px dashed var(--line);
+  background: #020704;
+  color: var(--amber);
+  font-size: .72rem;
+  line-height: 1.15;
+}
+.game-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 14px;
+}
+.game-stats span {
+  border: 1px solid var(--line);
+  background: #020704;
+  padding: 5px 8px;
+  color: var(--amber);
+  font-size: .75rem;
+}
+.game-stats.active-run span:first-child { color: var(--hot); }
+.achievement-list { display: flex; flex-wrap: wrap; gap: 7px; margin: 8px 0 16px; }
+.achievement {
+  border: 1px solid var(--amber);
+  padding: 4px 8px;
+  color: var(--amber);
+  background: #171303;
+  font-size: .72rem;
+}
+.game-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin: 8px 0;
+  font-size: .72rem;
+  color: var(--dim);
+}
+.game-legend b { display: inline-block; min-width: 1.2em; text-align: center; }
+.dungeon-map {
+  width: fit-content;
+  min-width: 21ch;
+  max-width: 100%;
+  margin: 12px auto;
+  padding: 14px;
+  overflow: auto;
+  border: 1px solid #555;
+  background: #000;
+  color: #555;
+  font-size: clamp(1rem, 4.4vw, 1.45rem);
+  line-height: 1.02;
+  letter-spacing: .04em;
+  box-shadow: inset 0 0 22px rgba(85,255,136,.08), 0 0 18px rgba(0,0,0,.6);
+}
+.game-wall { color: #3f8055; }
+.game-floor { color: #193421; }
+.game-player { color: #55ff55; font-weight: 900; text-shadow: 0 0 8px #55ff55; }
+.game-enemy { color: #ff5d73; font-weight: 800; }
+.game-daemon { color: #ff55ff; font-weight: 900; text-shadow: 0 0 8px #ff55ff; }
+.game-loot { color: #ffff55; font-weight: 800; }
+.game-medkit { color: #55ffff; font-weight: 800; }
+.game-exit { color: #ffffff; font-weight: 900; text-shadow: 0 0 7px #ffffff; }
+.game-controls {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(58px, 82px));
+  justify-content: center;
+  gap: 6px;
+  margin: 14px auto;
+}
+.game-controls button { min-height: 52px; font-size: 1.1rem; font-weight: 800; }
+.game-actions { justify-content: center; }
+.game-help {
+  margin: 8px 0 16px;
+  padding: 8px;
+  border: 1px dashed var(--line);
+  color: var(--dim);
+  text-align: center;
+  font-size: .7rem;
+}
+.game-log {
+  min-height: 135px;
+  max-height: 230px;
+  overflow-y: auto;
+  border: 1px solid var(--line);
+  background: #020704;
+  padding: 10px;
+  color: #b8ffd2;
+  font-size: .78rem;
+}
+.game-log div { margin: 0 0 5px; }
+.final-score {
+  margin: 14px 0;
+  padding: 16px;
+  border: 1px double var(--amber);
+  background: #171303;
+  color: var(--amber);
+  text-align: center;
+  font-size: clamp(1.4rem, 6vw, 2.4rem);
+  font-weight: 900;
+  letter-spacing: .12em;
+}
+.result-art { text-align: center; color: var(--amber); }
+.score-table-wrap { overflow-x: auto; margin: 10px 0 16px; border: 1px solid var(--line); }
+.score-table { width: 100%; min-width: 620px; border-collapse: collapse; background: #020704; }
+.score-table th, .score-table td { padding: 8px; border-bottom: 1px solid #153d25; text-align: left; }
+.score-table th { color: var(--amber); font-size: .72rem; }
+.score-table td { color: var(--fg); font-size: .78rem; }
+.score-table tbody tr:first-child td { color: #ffff55; }
+
+@media (max-width: 650px) {
+  .door-card { min-height: 0; }
+  .dungeon-map { padding: 9px; font-size: clamp(.92rem, 4.8vw, 1.25rem); }
+  .game-controls { grid-template-columns: repeat(3, minmax(64px, 1fr)); width: 100%; }
+  .game-actions button { flex: 1 1 100%; }
+}
