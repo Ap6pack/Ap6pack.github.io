@@ -8,6 +8,15 @@ window.BbsGames = (() => {
     cache_hunter: 'CACHE HUNTER',
     first_escape: 'CARRIER ESCAPE',
     first_death: 'NO CARRIER',
+    lost_node_dialed: 'DIALED THE LOST NODE',
+    lost_node_first_carrier: 'FIRST CARRIER',
+    lost_node_sysop_heir: 'SYSOP HEIR',
+    lost_node_clean_disconnect: 'CLEAN DISCONNECT',
+    lost_node_ghost_machine: 'GHOST IN THE MACHINE',
+    lost_node_no_hint: 'BLIND OPERATOR',
+    lost_node_cold_brew: 'COLD BREW',
+    lost_node_archive_rat: 'ARCHIVE RAT',
+    lost_node_blind_dial: 'BLIND DIAL',
   };
 
   function escapeHtml(value) {
