@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-16T22:00:02.470178+00:00",
+  "generated_at": "2026-08-16T22:30:01.800712+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-16T21:58:38.626870Z",
-  "total_events": 40,
-  "unique_sessions": 10,
+  "last_event": "2026-08-16T22:02:40.698471Z",
+  "total_events": 53,
+  "unique_sessions": 12,
   "unique_source_ips": 3,
-  "login_attempts": 2,
-  "login_success": 2,
-  "commands_run": 1,
+  "login_attempts": 3,
+  "login_success": 3,
+  "commands_run": 2,
   "files_captured": 0,
   "top_usernames": [
     [
-      "admin",
-      1
+      "root",
+      2
     ],
     [
-      "root",
+      "admin",
       1
     ]
   ],
@@ -27,22 +27,26 @@
     [
       "wang123",
       1
+    ],
+    [
+      "521125",
+      1
     ]
   ],
   "event_breakdown": {
-    "cowrie.session.connect": 10,
-    "cowrie.client.version": 9,
-    "cowrie.session.closed": 9,
-    "cowrie.client.kex": 7,
-    "cowrie.login.success": 2,
-    "cowrie.session.params": 1,
-    "cowrie.command.input": 1,
-    "cowrie.log.closed": 1
+    "cowrie.session.connect": 12,
+    "cowrie.session.closed": 12,
+    "cowrie.client.version": 11,
+    "cowrie.client.kex": 9,
+    "cowrie.login.success": 3,
+    "cowrie.session.params": 2,
+    "cowrie.command.input": 2,
+    "cowrie.log.closed": 2
   },
   "daily_events": [
     {
       "date": "2026-08-16",
-      "count": 40
+      "count": 53
     }
   ]
 }
