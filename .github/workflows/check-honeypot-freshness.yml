@@ -1,0 +1,50 @@
+name: Check honeypot data freshness
+
+# The honeypot box syncs dist/honeypot/data/ every 30 minutes via its own
+# cron job. This doesn't sync anything itself - it just checks that the
+# last sync actually happened recently. If stats.json's generated_at is
+# stale, the job fails, and GitHub emails the repo owner on workflow
+# failure by default (Settings > Notifications > Actions) - no separate
+# alerting system needed.
+#
+# Catches: deploy key revoked, HF token expired, cron silently broken,
+# GitHub API issues from the box's side - anything that stops the sync
+# without the EC2 instance itself going down (that's covered separately
+# by a CloudWatch alarm on the instance's status checks).
+
+on:
+  schedule:
+    # Every 3 hours - generous relative to the 30-minute sync cadence, to
+    # avoid false alarms from one or two missed cycles.
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Verify the sync cron's heartbeat is recent
+        run: |
+          LAST_RUN=$(jq -r '.last_run' dist/honeypot/data/heartbeat.json)
+          if [ "$LAST_RUN" = "null" ] || [ -z "$LAST_RUN" ]; then
+            echo "::error::heartbeat.json has no last_run timestamp"
+            exit 1
+          fi
+
+          LAST_RUN_EPOCH=$(date -d "$LAST_RUN" +%s)
+          NOW_EPOCH=$(date -u +%s)
+          AGE_MINUTES=$(( (NOW_EPOCH - LAST_RUN_EPOCH) / 60 ))
+          MAX_AGE_MINUTES=180
+
+          echo "Last sync cron heartbeat: $LAST_RUN ($AGE_MINUTES minutes ago)"
+
+          if [ "$AGE_MINUTES" -gt "$MAX_AGE_MINUTES" ]; then
+            echo "::error::Honeypot sync cron hasn't run in $AGE_MINUTES minutes (expected every 30 min, allowed up to $MAX_AGE_MINUTES) - likely a revoked deploy key, expired HF token, or a broken cron job"
+            exit 1
+          fi
