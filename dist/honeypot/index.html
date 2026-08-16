@@ -1,113 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Cowrie SSH honeypot - live-ish attacker data, credential stats, and captured malware samples for security research">
-    <meta name="keywords" content="honeypot, cowrie, threat intelligence, malware samples, ssh honeypot, security research">
-    <meta name="author" content="Adam Rhys Heaton">
-    <title>Honeypot Data | Adam Rhys Heaton's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</head>
-<body>
-    <div class="wrapper">
-        <!-- Navigation -->
-        <nav class="main-nav">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../about.html">About</a></li>
-                <li><a href="../projects.html">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-
-        <!-- Project Header -->
-        <section class="top-container-2">
-            <header class="showcase">
-                <h1>Honeypot Data</h1>
-                <p>Live Cowrie SSH honeypot on AWS. Attacker credentials, commands, and captured malware samples, refreshed daily for anyone doing their own research or testing.</p>
-                <a href="../projects.html" class="btn">Back to Projects</a>
-            </header>
-        </section>
-
-        <!-- Project Content -->
-        <section class="info">
-            <div>
-                <h2>What is this</h2>
-                <p>A <a href="https://github.com/cowrie/cowrie" target="_blank" rel="noopener">Cowrie</a> SSH/Telnet honeypot runs on a small EC2 instance, exposed to the open internet on the standard-looking honeypot port. Everything below is real, unfiltered internet background noise: automated scanners and bots trying default and stolen credentials, and any malware they drop gets captured automatically.</p>
-                <p><strong>Malware samples are zip-archived with the password <code>infected</code></strong> (the standard malware-research convention) so nothing executes accidentally and archive scanners don't flag the page. Only unzip them in an isolated/disposable environment if you intend to analyze live malware.</p>
-                <p id="last-updated" class="meta-note">Loading...</p>
-            </div>
-        </section>
-
-        <!-- Stats -->
-        <section class="boxes" id="stats-boxes">
-            <div class="box">
-                <i class="fas fa-network-wired fa-3x"></i>
-                <h3 id="stat-ips">-</h3>
-                <p>Unique attacker IPs</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-key fa-3x"></i>
-                <h3 id="stat-logins">-</h3>
-                <p>Login attempts</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-terminal fa-3x"></i>
-                <h3 id="stat-commands">-</h3>
-                <p>Commands run</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-bug fa-3x"></i>
-                <h3 id="stat-samples">-</h3>
-                <p>Malware samples captured</p>
-            </div>
-        </section>
-
-        <!-- Credentials -->
-        <section class="info">
-            <div class="data-columns">
-                <div>
-                    <h2>Top usernames tried</h2>
-                    <table class="data-table" id="usernames-table">
-                        <thead><tr><th>Username</th><th>Count</th></tr></thead>
-                        <tbody></tbody>
-                    </table>
-                </div>
-                <div>
-                    <h2>Top passwords tried</h2>
-                    <table class="data-table" id="passwords-table">
-                        <thead><tr><th>Password</th><th>Count</th></tr></thead>
-                        <tbody></tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
-
-        <!-- Samples -->
-        <section class="info">
-            <div>
-                <h2>Captured malware samples</h2>
-                <p class="meta-note">Password: <code>infected</code>. Handle in an isolated environment only.</p>
-                <table class="data-table" id="samples-table">
-                    <thead><tr><th>SHA-256</th><th>Size</th><th>Download</th></tr></thead>
-                    <tbody><tr><td colspan="3">Loading...</td></tr></tbody>
-                </table>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <p>Adam Rhys Heaton &copy; 2026</p>
-        </footer>
-    </div>
-    <!-- Wrapper Ends -->
-
-    <!-- JavaScript -->
-    <script src="../js/app.js"></script>
-    <script src="js/app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Live Cowrie SSH honeypot data - attacker credentials, commands, and captured malware samples" />
+    <meta name="author" content="Adam Rhys Heaton" />
+    <title>Honeypot Data | Adam Rhys Heaton</title>
+    <script type="module" crossorigin src="./assets/index-Bn54WULP.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DUZgs15a.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
