@@ -1,0 +1,12 @@
+[
+  {
+    "command": "getenforce",
+    "output": "1\n",
+    "exit_code": 0
+  },
+  {
+    "command": "xzqwplkjfoobar123",
+    "output": "xzqwplkjfoobar123: command not found\n",
+    "exit_code": 127
+  }
+]
