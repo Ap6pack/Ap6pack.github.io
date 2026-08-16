@@ -1,0 +1,50 @@
+/* Honeypot data page - extends the site's base.css variables */
+
+.meta-note {
+  font-size: 0.9rem;
+  opacity: 0.75;
+  font-style: italic;
+}
+
+.data-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .data-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  margin-top: var(--spacing-sm);
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.data-table th {
+  background: var(--dark);
+  color: var(--light);
+}
+
+.data-table tbody tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.data-table code {
+  font-family: monospace;
+  word-break: break-all;
+}
