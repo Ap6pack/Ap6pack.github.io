@@ -1,16 +1,37 @@
 {
-  "generated_at": null,
-  "first_event": null,
-  "last_event": null,
-  "total_events": 0,
-  "unique_sessions": 0,
-  "unique_source_ips": 0,
-  "login_attempts": 0,
-  "login_success": 0,
+  "generated_at": "2026-08-16T20:21:43.069693+00:00",
+  "first_event": "2026-08-16T20:18:56.077370Z",
+  "last_event": "2026-08-16T20:18:57.109062Z",
+  "total_events": 5,
+  "unique_sessions": 1,
+  "unique_source_ips": 1,
+  "login_attempts": 1,
+  "login_success": 1,
   "commands_run": 0,
   "files_captured": 0,
-  "top_usernames": [],
-  "top_passwords": [],
-  "event_breakdown": {},
-  "daily_events": []
+  "top_usernames": [
+    [
+      "admin",
+      1
+    ]
+  ],
+  "top_passwords": [
+    [
+      "admin",
+      1
+    ]
+  ],
+  "event_breakdown": {
+    "cowrie.session.connect": 1,
+    "cowrie.client.version": 1,
+    "cowrie.client.kex": 1,
+    "cowrie.login.success": 1,
+    "cowrie.session.closed": 1
+  },
+  "daily_events": [
+    {
+      "date": "2026-08-16",
+      "count": 5
+    }
+  ]
 }
