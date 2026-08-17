@@ -1,8 +1,33 @@
 [
   {
+    "command": "enable",
+    "output": "enable: command not found\n",
+    "exit_code": 127
+  },
+  {
+    "command": "enablelinuxshell",
+    "output": "bash: enablelinuxshell: command not found\n",
+    "exit_code": 127
+  },
+  {
     "command": "getenforce",
     "output": "1\n",
     "exit_code": 0
+  },
+  {
+    "command": "linuxshell",
+    "output": "bash: linuxshell: command not found\n",
+    "exit_code": 127
+  },
+  {
+    "command": "shell",
+    "output": "bash: shell: command not found\n",
+    "exit_code": 127
+  },
+  {
+    "command": "system",
+    "output": "bash: system: command not found\n",
+    "exit_code": 127
   },
   {
     "command": "xzqwplkjfoobar123",

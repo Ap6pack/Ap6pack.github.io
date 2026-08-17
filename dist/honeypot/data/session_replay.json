@@ -1,17 +1,662 @@
 {
-  "src_ip": "8.217.248.249",
-  "timestamp": "2026-08-17T00:05:09.547771Z",
-  "duration_ms": 212,
+  "src_ip": "181.225.32.50",
+  "timestamp": "2026-08-17T16:28:49.817375Z",
+  "duration_ms": 12422,
   "events": [
     {
       "t": 0.0,
-      "dir": "interact",
-      "text": "echo -e \"\\x6F\\x6B\""
+      "dir": "output",
+      "text": "\nThe programs included with the Debian GNU/Linux system are free software;\nthe exact distribution terms for each program are described in the\nindividual files in /usr/share/doc/*/copyright.\n\nDebian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent\npermitted by applicable law.\n"
     },
     {
-      "t": 0.008,
+      "t": 0.0,
       "dir": "output",
-      "text": "ok\n"
+      "text": "\u001b[4h"
+    },
+    {
+      "t": 0.001,
+      "dir": "output",
+      "text": "admin@ip-172-31-80-180:~$ "
+    },
+    {
+      "t": 0.28,
+      "dir": "input",
+      "text": "enable"
+    },
+    {
+      "t": 0.28,
+      "dir": "output",
+      "text": "e"
+    },
+    {
+      "t": 0.28,
+      "dir": "output",
+      "text": "n"
+    },
+    {
+      "t": 0.28,
+      "dir": "output",
+      "text": "a"
+    },
+    {
+      "t": 0.28,
+      "dir": "output",
+      "text": "b"
+    },
+    {
+      "t": 0.28,
+      "dir": "output",
+      "text": "l"
+    },
+    {
+      "t": 0.28,
+      "dir": "output",
+      "text": "e"
+    },
+    {
+      "t": 0.337,
+      "dir": "input",
+      "text": "\nsystem\nshell\nsh\nlinuxshell\nenablelinuxshell\nping ;sh\n"
+    },
+    {
+      "t": 0.337,
+      "dir": "output",
+      "text": "\n"
+    },
+    {
+      "t": 0.341,
+      "dir": "output",
+      "text": "\u001b[4l"
+    },
+    {
+      "t": 0.341,
+      "dir": "output",
+      "text": "enable: command not found\n"
+    },
+    {
+      "t": 0.341,
+      "dir": "output",
+      "text": "\u001b[4h"
+    },
+    {
+      "t": 0.341,
+      "dir": "output",
+      "text": "admin@ip-172-31-80-180:~$ "
+    },
+    {
+      "t": 0.341,
+      "dir": "output",
+      "text": "s"
+    },
+    {
+      "t": 0.341,
+      "dir": "output",
+      "text": "y"
+    },
+    {
+      "t": 0.341,
+      "dir": "output",
+      "text": "s"
+    },
+    {
+      "t": 0.341,
+      "dir": "output",
+      "text": "t"
+    },
+    {
+      "t": 0.341,
+      "dir": "output",
+      "text": "e"
+    },
+    {
+      "t": 0.341,
+      "dir": "output",
+      "text": "m"
+    },
+    {
+      "t": 0.341,
+      "dir": "output",
+      "text": "\n"
+    },
+    {
+      "t": 0.345,
+      "dir": "output",
+      "text": "\u001b[4l"
+    },
+    {
+      "t": 0.345,
+      "dir": "output",
+      "text": "bash: system: command not found\n"
+    },
+    {
+      "t": 0.345,
+      "dir": "output",
+      "text": "\u001b[4h"
+    },
+    {
+      "t": 0.345,
+      "dir": "output",
+      "text": "admin@ip-172-31-80-180:~$ "
+    },
+    {
+      "t": 0.345,
+      "dir": "output",
+      "text": "s"
+    },
+    {
+      "t": 0.345,
+      "dir": "output",
+      "text": "h"
+    },
+    {
+      "t": 0.345,
+      "dir": "output",
+      "text": "e"
+    },
+    {
+      "t": 0.345,
+      "dir": "output",
+      "text": "l"
+    },
+    {
+      "t": 0.345,
+      "dir": "output",
+      "text": "l"
+    },
+    {
+      "t": 0.345,
+      "dir": "output",
+      "text": "\n"
+    },
+    {
+      "t": 0.348,
+      "dir": "output",
+      "text": "\u001b[4l"
+    },
+    {
+      "t": 0.348,
+      "dir": "output",
+      "text": "bash: shell: command not found\n"
+    },
+    {
+      "t": 0.348,
+      "dir": "output",
+      "text": "\u001b[4h"
+    },
+    {
+      "t": 0.348,
+      "dir": "output",
+      "text": "admin@ip-172-31-80-180:~$ "
+    },
+    {
+      "t": 0.348,
+      "dir": "output",
+      "text": "s"
+    },
+    {
+      "t": 0.348,
+      "dir": "output",
+      "text": "h"
+    },
+    {
+      "t": 0.349,
+      "dir": "output",
+      "text": "\n"
+    },
+    {
+      "t": 0.351,
+      "dir": "output",
+      "text": "\u001b[4l"
+    },
+    {
+      "t": 0.351,
+      "dir": "output",
+      "text": "admin@ip-172-31-80-180:~$ "
+    },
+    {
+      "t": 0.352,
+      "dir": "output",
+      "text": "l"
+    },
+    {
+      "t": 0.352,
+      "dir": "output",
+      "text": "i"
+    },
+    {
+      "t": 0.352,
+      "dir": "output",
+      "text": "n"
+    },
+    {
+      "t": 0.352,
+      "dir": "output",
+      "text": "u"
+    },
+    {
+      "t": 0.352,
+      "dir": "output",
+      "text": "x"
+    },
+    {
+      "t": 0.352,
+      "dir": "output",
+      "text": "s"
+    },
+    {
+      "t": 0.352,
+      "dir": "output",
+      "text": "h"
+    },
+    {
+      "t": 0.352,
+      "dir": "output",
+      "text": "e"
+    },
+    {
+      "t": 0.352,
+      "dir": "output",
+      "text": "l"
+    },
+    {
+      "t": 0.352,
+      "dir": "output",
+      "text": "l"
+    },
+    {
+      "t": 0.352,
+      "dir": "output",
+      "text": "\n"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "\u001b[4l"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "bash: linuxshell: command not found\n"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "\u001b[4h"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "admin@ip-172-31-80-180:~$ "
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "e"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "n"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "a"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "b"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "l"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "e"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "l"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "i"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "n"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "u"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "x"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "s"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "h"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "e"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "l"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "l"
+    },
+    {
+      "t": 0.355,
+      "dir": "output",
+      "text": "\n"
+    },
+    {
+      "t": 0.359,
+      "dir": "output",
+      "text": "\u001b[4l"
+    },
+    {
+      "t": 0.36,
+      "dir": "output",
+      "text": "p"
+    },
+    {
+      "t": 0.36,
+      "dir": "output",
+      "text": "i"
+    },
+    {
+      "t": 0.36,
+      "dir": "output",
+      "text": "n"
+    },
+    {
+      "t": 0.36,
+      "dir": "output",
+      "text": "g"
+    },
+    {
+      "t": 0.36,
+      "dir": "output",
+      "text": " "
+    },
+    {
+      "t": 0.36,
+      "dir": "output",
+      "text": ";"
+    },
+    {
+      "t": 0.36,
+      "dir": "output",
+      "text": "s"
+    },
+    {
+      "t": 0.36,
+      "dir": "output",
+      "text": "h"
+    },
+    {
+      "t": 0.36,
+      "dir": "output",
+      "text": "\n"
+    },
+    {
+      "t": 0.556,
+      "dir": "input",
+      "text": "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\""
+    },
+    {
+      "t": 0.556,
+      "dir": "output",
+      "text": "e"
+    },
+    {
+      "t": 0.556,
+      "dir": "output",
+      "text": "c"
+    },
+    {
+      "t": 0.556,
+      "dir": "output",
+      "text": "h"
+    },
+    {
+      "t": 0.556,
+      "dir": "output",
+      "text": "o"
+    },
+    {
+      "t": 0.556,
+      "dir": "output",
+      "text": " "
+    },
+    {
+      "t": 0.556,
+      "dir": "output",
+      "text": "-"
+    },
+    {
+      "t": 0.556,
+      "dir": "output",
+      "text": "e"
+    },
+    {
+      "t": 0.556,
+      "dir": "output",
+      "text": " "
+    },
+    {
+      "t": 0.556,
+      "dir": "output",
+      "text": "\""
+    },
+    {
+      "t": 0.556,
+      "dir": "output",
+      "text": "\\"
+    },
+    {
+      "t": 0.556,
+      "dir": "output",
+      "text": "x"
+    },
+    {
+      "t": 0.556,
+      "dir": "output",
+      "text": "4"
+    },
+    {
+      "t": 0.556,
+      "dir": "output",
+      "text": "7"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "\\"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "x"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "4"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "1"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "\\"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "x"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "5"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "9"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "\\"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "x"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "4"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "6"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "\\"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "x"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "4"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "7"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "\\"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "x"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "5"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "4"
+    },
+    {
+      "t": 0.557,
+      "dir": "output",
+      "text": "\""
+    },
+    {
+      "t": 0.617,
+      "dir": "input",
+      "text": "\n"
+    },
+    {
+      "t": 0.617,
+      "dir": "output",
+      "text": "\n"
+    },
+    {
+      "t": 1.011,
+      "dir": "output",
+      "text": "bash: enablelinuxshell: command not found\n"
+    },
+    {
+      "t": 1.011,
+      "dir": "output",
+      "text": "\u001b[4h"
+    },
+    {
+      "t": 1.011,
+      "dir": "output",
+      "text": "\u001b[4l"
+    },
+    {
+      "t": 1.011,
+      "dir": "output",
+      "text": "Usage: ping [-LRUbdfnqrvVaA] [-c count] [-i interval] [-w deadline]\n"
+    },
+    {
+      "t": 1.011,
+      "dir": "output",
+      "text": "            [-p pattern] [-s packetsize] [-t ttl] [-I interface or address]\n"
+    },
+    {
+      "t": 1.011,
+      "dir": "output",
+      "text": "            [-M mtu discovery hint] [-S sndbuf]\n"
+    },
+    {
+      "t": 1.012,
+      "dir": "output",
+      "text": "            [ -T timestamp option ] [ -Q tos ] [hop1 ...] destination\n"
+    },
+    {
+      "t": 1.012,
+      "dir": "output",
+      "text": "\u001b[4h"
+    },
+    {
+      "t": 1.012,
+      "dir": "output",
+      "text": "\u001b[4l"
+    },
+    {
+      "t": 1.012,
+      "dir": "output",
+      "text": "admin@ip-172-31-80-180:~$ "
     }
   ]
 }
