@@ -1,52 +1,97 @@
 {
-  "generated_at": "2026-08-16T22:30:01.800712+00:00",
-  "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-16T22:02:40.698471Z",
-  "total_events": 53,
-  "unique_sessions": 12,
-  "unique_source_ips": 3,
-  "login_attempts": 3,
-  "login_success": 3,
-  "commands_run": 2,
+  "generated_at": "2026-08-17T00:30:01.816816+00:00",
+  "first_event": "2026-08-17T00:05:04.385408Z",
+  "last_event": "2026-08-17T00:30:01.719473Z",
+  "total_events": 6051,
+  "unique_sessions": 758,
+  "unique_source_ips": 1,
+  "login_attempts": 756,
+  "login_success": 755,
+  "commands_run": 755,
   "files_captured": 0,
   "top_usernames": [
     [
       "root",
-      2
-    ],
-    [
-      "admin",
-      1
+      756
     ]
   ],
   "top_passwords": [
     [
-      "admin",
+      "123456",
       1
     ],
     [
-      "wang123",
+      "fidelio",
       1
     ],
     [
-      "521125",
+      "eleven",
+      1
+    ],
+    [
+      "durand",
+      1
+    ],
+    [
+      "davidson",
+      1
+    ],
+    [
+      "daredevil",
+      1
+    ],
+    [
+      "cyclone",
+      1
+    ],
+    [
+      "cronaldo",
+      1
+    ],
+    [
+      "corbeau",
+      1
+    ],
+    [
+      "clarence1",
+      1
+    ],
+    [
+      "chobits",
+      1
+    ],
+    [
+      "changement",
+      1
+    ],
+    [
+      "cascade",
+      1
+    ],
+    [
+      "camerone",
+      1
+    ],
+    [
+      "boogie",
       1
     ]
   ],
   "event_breakdown": {
-    "cowrie.session.connect": 12,
-    "cowrie.session.closed": 12,
-    "cowrie.client.version": 11,
-    "cowrie.client.kex": 9,
-    "cowrie.login.success": 3,
-    "cowrie.session.params": 2,
-    "cowrie.command.input": 2,
-    "cowrie.log.closed": 2
+    "cowrie.session.connect": 758,
+    "cowrie.client.version": 758,
+    "cowrie.session.closed": 757,
+    "cowrie.client.kex": 757,
+    "cowrie.login.success": 755,
+    "cowrie.session.params": 755,
+    "cowrie.command.input": 755,
+    "cowrie.log.closed": 755,
+    "cowrie.login.failed": 1
   },
   "daily_events": [
     {
-      "date": "2026-08-16",
-      "count": 53
+      "date": "2026-08-17",
+      "count": 6051
     }
   ]
 }
