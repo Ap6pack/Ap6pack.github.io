@@ -1,5 +1,25 @@
 [
   {
+    "command": "./f",
+    "output": "bash: ./f: No such file or directory\n",
+    "exit_code": 127
+  },
+  {
+    "command": "./t",
+    "output": "./t: No such file or directory\n",
+    "exit_code": 127
+  },
+  {
+    "command": "./w",
+    "output": "./w: No such file or directory\n",
+    "exit_code": 127
+  },
+  {
+    "command": "/data/d",
+    "output": "-bash: /data/d: Is a directory\n",
+    "exit_code": 0
+  },
+  {
     "command": "enable",
     "output": "enable: command not found\n",
     "exit_code": 127
