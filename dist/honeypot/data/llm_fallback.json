@@ -1,5 +1,10 @@
 [
   {
+    "command": "./",
+    "output": "bash: ./: Is a directory\n",
+    "exit_code": 0
+  },
+  {
     "command": "./f",
     "output": "bash: ./f: No such file or directory\n",
     "exit_code": 127
@@ -18,6 +23,16 @@
     "command": "/data/d",
     "output": "-bash: /data/d: Is a directory\n",
     "exit_code": 0
+  },
+  {
+    "command": "AMOO",
+    "output": "AMOO: command not found\n",
+    "exit_code": 127
+  },
+  {
+    "command": "RPMA",
+    "output": "bash: RPMA: command not found\n",
+    "exit_code": 127
   },
   {
     "command": "enable",
