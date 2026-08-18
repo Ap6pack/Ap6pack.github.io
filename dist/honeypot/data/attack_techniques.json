@@ -7,8 +7,8 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 32831,
-      "distinct_ips": 17,
+      "count": 32839,
+      "distinct_ips": 18,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\"",
         "cat /proc/mounts; echo -e \"\\x47\\x41\\x59\"",
@@ -24,7 +24,7 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 299,
+      "count": 300,
       "distinct_ips": 25,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
@@ -91,6 +91,6 @@
       ]
     }
   ],
-  "total_commands": 38914,
-  "matched_commands": 33127
+  "total_commands": 39252,
+  "matched_commands": 33135
 }
