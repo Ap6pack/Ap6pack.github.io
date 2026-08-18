@@ -41,7 +41,7 @@
     "lon": 150.8831,
     "country": "Australia",
     "city": "Bungarribee",
-    "count": 3673,
+    "count": 3865,
     "abuse_score": 100,
     "abuse_reports": 1769,
     "isp": "Newfold Digital, Inc.",
@@ -107,7 +107,7 @@
     "lon": -74.1403,
     "country": "United States",
     "city": "Clifton",
-    "count": 156,
+    "count": 168,
     "abuse_score": 100,
     "abuse_reports": 2200,
     "isp": "DigitalOcean, LLC",
@@ -115,7 +115,8 @@
     "domain": "digitalocean.com",
     "is_tor": false,
     "distinct_users": 54,
-    "last_reported_at": "2026-08-17T18:32:46+00:00"
+    "last_reported_at": "2026-08-17T18:32:46+00:00",
+    "ai_agent_signal": "suspected"
   },
   {
     "ip": "101.201.104.216",
@@ -1355,6 +1356,22 @@
     "last_reported_at": "2026-08-17T05:31:30+00:00"
   },
   {
+    "ip": "186.131.225.32",
+    "lat": -34.684,
+    "lon": -58.3192,
+    "country": "Argentina",
+    "city": "Quilmes Oeste",
+    "count": 6,
+    "abuse_score": 4,
+    "abuse_reports": 1,
+    "isp": "Telefonica de Argentina",
+    "usage_type": "Fixed Line ISP",
+    "domain": "telefonica.com.ar",
+    "is_tor": false,
+    "distinct_users": 1,
+    "last_reported_at": "2026-08-13T18:54:24+00:00"
+  },
+  {
     "ip": "92.234.0.95",
     "lat": 53.7002,
     "lon": -2.279,
@@ -2179,6 +2196,22 @@
     "last_reported_at": "2026-08-18T10:04:01+00:00"
   },
   {
+    "ip": "201.252.116.120",
+    "lat": -27.4512,
+    "lon": -58.9865,
+    "country": "Argentina",
+    "city": "Resistencia",
+    "count": 4,
+    "abuse_score": 79,
+    "abuse_reports": 15,
+    "isp": "Apolo -Gold-Telecom-Per",
+    "usage_type": "Fixed Line ISP",
+    "domain": "telecom.net.ar",
+    "is_tor": false,
+    "distinct_users": 13,
+    "last_reported_at": "2026-08-18T03:08:50+00:00"
+  },
+  {
     "ip": "195.20.6.224",
     "lat": 50.5709,
     "lon": 30.6643,
@@ -2821,22 +2854,6 @@
     "is_tor": false,
     "distinct_users": 28,
     "last_reported_at": "2026-08-17T23:04:18+00:00"
-  },
-  {
-    "ip": "201.252.116.120",
-    "lat": -27.4512,
-    "lon": -58.9865,
-    "country": "Argentina",
-    "city": "Resistencia",
-    "count": 2,
-    "abuse_score": 79,
-    "abuse_reports": 15,
-    "isp": "Apolo -Gold-Telecom-Per",
-    "usage_type": "Fixed Line ISP",
-    "domain": "telecom.net.ar",
-    "is_tor": false,
-    "distinct_users": 13,
-    "last_reported_at": "2026-08-18T03:08:50+00:00"
   },
   {
     "ip": "147.185.132.123",
