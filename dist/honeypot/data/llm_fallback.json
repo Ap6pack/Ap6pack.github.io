@@ -120,6 +120,11 @@
     "exit_code": 127
   },
   {
+    "command": "shel",
+    "output": "shel: command not found\n",
+    "exit_code": 127
+  },
+  {
     "command": "shell",
     "output": "bash: shell: command not found\n",
     "exit_code": 127
