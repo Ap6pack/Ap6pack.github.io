@@ -110,6 +110,11 @@
     "exit_code": 127
   },
   {
+    "command": "ncorrect",
+    "output": "-bash: ncorrect: command not found\n",
+    "exit_code": 127
+  },
+  {
     "command": "s",
     "output": "s: command not found\n",
     "exit_code": 127
