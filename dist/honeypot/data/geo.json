@@ -41,7 +41,7 @@
     "lon": 150.8831,
     "country": "Australia",
     "city": "Bungarribee",
-    "count": 980,
+    "count": 1052,
     "abuse_score": 100,
     "abuse_reports": 1769,
     "isp": "Newfold Digital, Inc.",
@@ -49,7 +49,8 @@
     "domain": "enduranceinternational.com",
     "is_tor": false,
     "distinct_users": 116,
-    "last_reported_at": "2026-08-17T16:11:25+00:00"
+    "last_reported_at": "2026-08-17T16:11:25+00:00",
+    "ai_agent_signal": "suspected"
   },
   {
     "ip": "104.238.118.239",
@@ -976,6 +977,22 @@
     "last_reported_at": "2026-08-18T01:23:02+00:00"
   },
   {
+    "ip": "13.56.155.83",
+    "lat": 37.3394,
+    "lon": -121.895,
+    "country": "United States",
+    "city": "San Jose",
+    "count": 5,
+    "abuse_score": 15,
+    "abuse_reports": 2,
+    "isp": "Amazon Technologies Inc.",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "amazon.com",
+    "is_tor": false,
+    "distinct_users": 2,
+    "last_reported_at": "2026-08-18T04:23:04+00:00"
+  },
+  {
     "ip": "82.165.27.72",
     "lat": 52.52,
     "lon": 13.405,
@@ -1124,6 +1141,38 @@
     "last_reported_at": "2026-08-18T03:09:23+00:00",
     "hassh": "084386fa7ae5039bcf6f07298a05a227",
     "hassh_shared_count": 2
+  },
+  {
+    "ip": "190.13.233.176",
+    "lat": -34.5434,
+    "lon": -58.7123,
+    "country": "Argentina",
+    "city": "San Miguel",
+    "count": 4,
+    "abuse_score": 65,
+    "abuse_reports": 12,
+    "isp": "Cooperativa de Provisi\u00f3n de Servicios Publicos de Tortuguitas",
+    "usage_type": "Fixed Line ISP",
+    "domain": "yabiru.com.ar",
+    "is_tor": false,
+    "distinct_users": 11,
+    "last_reported_at": "2026-08-17T15:17:05+00:00"
+  },
+  {
+    "ip": "186.158.33.75",
+    "lat": -31.4057,
+    "lon": -64.1849,
+    "country": "Argentina",
+    "city": "C\u00f3rdoba",
+    "count": 4,
+    "abuse_score": 18,
+    "abuse_reports": 5,
+    "isp": "AMX Argentina S.A.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "claro.com.ar",
+    "is_tor": false,
+    "distinct_users": 3,
+    "last_reported_at": "2026-08-12T01:42:14+00:00"
   },
   {
     "ip": "195.20.6.224",
