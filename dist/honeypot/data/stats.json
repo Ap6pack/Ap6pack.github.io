@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-18T13:00:05.195364+00:00",
+  "generated_at": "2026-08-18T13:30:03.967499+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-18T12:55:17.906655Z",
-  "total_events": 267650,
-  "unique_sessions": 33425,
-  "unique_source_ips": 174,
-  "login_attempts": 33087,
-  "login_success": 33064,
-  "commands_run": 35443,
+  "last_event": "2026-08-18T13:29:43.711803Z",
+  "total_events": 267898,
+  "unique_sessions": 33469,
+  "unique_source_ips": 179,
+  "login_attempts": 33103,
+  "login_success": 33078,
+  "commands_run": 35520,
   "files_captured": 5,
   "top_usernames": [
     [
       "root",
-      32922
+      32934
     ],
     [
       "admin",
-      107
-    ],
-    [
-      "support",
-      14
+      110
     ],
     [
       "enable\\x00",
+      15
+    ],
+    [
+      "support",
       14
     ],
     [
@@ -74,15 +74,15 @@
   "top_passwords": [
     [
       "admin",
-      72
+      73
     ],
     [
       "xc3511",
-      27
+      28
     ],
     [
       "",
-      19
+      20
     ],
     [
       "support",
@@ -98,26 +98,30 @@
     ],
     [
       "root",
-      14
+      15
     ],
     [
       "linuxshell\\x00",
-      14
-    ],
-    [
-      "54321",
-      14
-    ],
-    [
-      "1111",
-      14
+      15
     ],
     [
       "888888",
-      13
+      15
+    ],
+    [
+      "54321",
+      15
+    ],
+    [
+      "1111",
+      15
     ],
     [
       "123456",
+      12
+    ],
+    [
+      "12345",
       11
     ],
     [
@@ -125,28 +129,24 @@
       11
     ],
     [
-      "12345",
+      "default",
       10
-    ],
-    [
-      "smcadmin",
-      9
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 35443,
-    "cowrie.session.closed": 33425,
-    "cowrie.session.connect": 33425,
-    "cowrie.login.success": 33064,
-    "cowrie.log.closed": 33060,
-    "cowrie.session.params": 33060,
+    "cowrie.command.input": 35520,
+    "cowrie.session.closed": 33469,
+    "cowrie.session.connect": 33469,
+    "cowrie.login.success": 33078,
+    "cowrie.log.closed": 33074,
+    "cowrie.session.params": 33074,
     "cowrie.client.version": 32761,
     "cowrie.client.kex": 32728,
-    "cowrie.telnet.option": 483,
+    "cowrie.telnet.option": 522,
     "cowrie.command.success": 66,
     "cowrie.session.file_download": 58,
     "cowrie.session.file_download.failed": 49,
-    "cowrie.login.failed": 23,
+    "cowrie.login.failed": 25,
     "cowrie.virustotal.scanfile": 2,
     "cowrie.client.malformed_packet": 2,
     "cowrie.telnet.error": 1
@@ -162,7 +162,7 @@
     },
     {
       "date": "2026-08-18",
-      "count": 4668
+      "count": 4916
     }
   ]
 }
