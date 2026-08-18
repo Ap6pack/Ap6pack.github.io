@@ -1,5 +1,10 @@
 [
   {
+    "command": "-----END OPENSSH PRIVATE KEY----- > key.ppk; echo StrictHostKeyChecking no",
+    "output": "-bash: syntax error near unexpected token `>'\n",
+    "exit_code": 0
+  },
+  {
     "command": "./",
     "output": "bash: ./: Is a directory\n",
     "exit_code": 0
@@ -23,6 +28,16 @@
     "command": "/data/d",
     "output": "-bash: /data/d: Is a directory\n",
     "exit_code": 0
+  },
+  {
+    "command": "0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg",
+    "output": "bash: 0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg: command not found\n",
+    "exit_code": 127
+  },
+  {
+    "command": "AAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9",
+    "output": "bash: AAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9: command not found\n",
+    "exit_code": 127
   },
   {
     "command": "AMOO",
@@ -50,13 +65,28 @@
     "exit_code": 0
   },
   {
+    "command": "Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=",
+    "output": "cp: cannot stat 'Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=': No such file or directory\n",
+    "exit_code": 127
+  },
+  {
     "command": "Max-Forwards: 70",
     "output": "Max-Forwards: 70\n",
     "exit_code": 0
   },
   {
+    "command": "QyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ",
+    "output": "The command you entered appears to be corrupted or encoded in a way that is not recognized by the shell. Here is the output you would see:\n\n```\nbash: QyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ: command not found\n",
+    "exit_code": 127
+  },
+  {
     "command": "RPMA",
     "output": "bash: RPMA: command not found\n",
+    "exit_code": 127
+  },
+  {
+    "command": "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW",
+    "output": "-bash: b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW: command not found\n",
     "exit_code": 127
   },
   {
