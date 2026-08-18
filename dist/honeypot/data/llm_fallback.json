@@ -30,6 +30,31 @@
     "exit_code": 127
   },
   {
+    "command": "Accept: application/sdp",
+    "output": "curl: try 'curl --help' or 'curl --manual' for more information\n",
+    "exit_code": 0
+  },
+  {
+    "command": "CSeq: 42 OPTIONS",
+    "output": "OPTIONS is not recognized as an internal or external command, operable program, or batch file.\n",
+    "exit_code": 0
+  },
+  {
+    "command": "Call-ID: 50000",
+    "output": "-bash: syntax error near unexpected token `Call-ID:'\n",
+    "exit_code": 0
+  },
+  {
+    "command": "Content-Length: 0",
+    "output": "bash: syntax error near unexpected token `EOF'\n",
+    "exit_code": 0
+  },
+  {
+    "command": "Max-Forwards: 70",
+    "output": "Max-Forwards: 70\n",
+    "exit_code": 0
+  },
+  {
     "command": "RPMA",
     "output": "bash: RPMA: command not found\n",
     "exit_code": 127
