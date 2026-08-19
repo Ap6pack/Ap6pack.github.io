@@ -41,7 +41,7 @@
     "lon": 150.8831,
     "country": "Australia",
     "city": "Bungarribee",
-    "count": 24866,
+    "count": 25441,
     "abuse_score": 100,
     "abuse_reports": 1769,
     "isp": "Newfold Digital, Inc.",
@@ -864,6 +864,24 @@
     "last_reported_at": "2026-08-18T21:46:52+00:00"
   },
   {
+    "ip": "54.247.25.205",
+    "lat": 53.3498,
+    "lon": -6.26031,
+    "country": "Ireland",
+    "city": "Dublin",
+    "count": 22,
+    "abuse_score": 4,
+    "abuse_reports": 1,
+    "isp": "Amazon Data Services Ireland Limited",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "amazon.com",
+    "is_tor": false,
+    "distinct_users": 1,
+    "last_reported_at": "2026-08-16T12:48:00+00:00",
+    "hassh": "472b5de333ad665af5cbf10ff892c4df",
+    "hassh_shared_count": 2
+  },
+  {
     "ip": "64.89.163.156",
     "lat": 50.1109,
     "lon": 8.68213,
@@ -896,24 +914,6 @@
     "last_reported_at": "2026-08-18T07:58:43+00:00"
   },
   {
-    "ip": "54.247.25.205",
-    "lat": 53.3498,
-    "lon": -6.26031,
-    "country": "Ireland",
-    "city": "Dublin",
-    "count": 18,
-    "abuse_score": 4,
-    "abuse_reports": 1,
-    "isp": "Amazon Data Services Ireland Limited",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "amazon.com",
-    "is_tor": false,
-    "distinct_users": 1,
-    "last_reported_at": "2026-08-16T12:48:00+00:00",
-    "hassh": "e5a2656914ff0d555d92c2dbb4597ac6",
-    "hassh_shared_count": 2
-  },
-  {
     "ip": "54.75.165.40",
     "lat": 53.3498,
     "lon": -6.26031,
@@ -929,7 +929,7 @@
     "distinct_users": 0,
     "last_reported_at": null,
     "hassh": "472b5de333ad665af5cbf10ff892c4df",
-    "hassh_shared_count": 1
+    "hassh_shared_count": 2
   },
   {
     "ip": "46.51.190.78",
@@ -947,7 +947,7 @@
     "distinct_users": 0,
     "last_reported_at": null,
     "hassh": "e5a2656914ff0d555d92c2dbb4597ac6",
-    "hassh_shared_count": 2
+    "hassh_shared_count": 1
   },
   {
     "ip": "181.225.32.48",
@@ -1554,6 +1554,54 @@
     "last_reported_at": null
   },
   {
+    "ip": "31.43.49.199",
+    "lat": 48.5474,
+    "lon": 22.9867,
+    "country": "Ukraine",
+    "city": "Svaliava",
+    "count": 8,
+    "abuse_score": 100,
+    "abuse_reports": 47,
+    "isp": "Ukrainian Telecommunication Group LLC",
+    "usage_type": "Fixed Line ISP",
+    "domain": "utelecom.com.ua",
+    "is_tor": false,
+    "distinct_users": 31,
+    "last_reported_at": "2026-08-18T12:31:10+00:00"
+  },
+  {
+    "ip": "193.160.224.211",
+    "lat": 45.348,
+    "lon": 28.8356,
+    "country": "Ukraine",
+    "city": "Izmayil",
+    "count": 8,
+    "abuse_score": 100,
+    "abuse_reports": 69,
+    "isp": "FOP Lizanchuk Yaroslav M.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "skynet.net.ua",
+    "is_tor": false,
+    "distinct_users": 32,
+    "last_reported_at": "2026-08-19T08:34:19+00:00"
+  },
+  {
+    "ip": "188.114.13.86",
+    "lat": 47.2357,
+    "lon": 39.7015,
+    "country": "Russia",
+    "city": "Rostov-on-Don",
+    "count": 8,
+    "abuse_score": 33,
+    "abuse_reports": 5,
+    "isp": "OJSC Rostelecom Macroregional Branch South",
+    "usage_type": "Fixed Line ISP",
+    "domain": "rt.ru",
+    "is_tor": false,
+    "distinct_users": 4,
+    "last_reported_at": "2026-08-19T06:51:39+00:00"
+  },
+  {
     "ip": "181.25.202.92",
     "lat": -33.2991,
     "lon": -66.3547,
@@ -1986,6 +2034,22 @@
     "last_reported_at": "2026-08-18T15:04:35+00:00"
   },
   {
+    "ip": "71.90.30.53",
+    "lat": 43.1899,
+    "lon": -88.7225,
+    "country": "United States",
+    "city": "Watertown",
+    "count": 7,
+    "abuse_score": 100,
+    "abuse_reports": 1449,
+    "isp": "Charter Communications LLC",
+    "usage_type": "Fixed Line ISP",
+    "domain": "charter.com",
+    "is_tor": false,
+    "distinct_users": 158,
+    "last_reported_at": "2026-08-18T21:30:59+00:00"
+  },
+  {
     "ip": "47.102.107.147",
     "lat": 31.2222,
     "lon": 121.4581,
@@ -2186,6 +2250,22 @@
     "is_tor": false,
     "distinct_users": 10,
     "last_reported_at": "2026-08-19T05:01:53+00:00"
+  },
+  {
+    "ip": "20.169.49.156",
+    "lat": 33.448376,
+    "lon": -112.074036,
+    "country": "United States",
+    "city": "Phoenix",
+    "count": 6,
+    "abuse_score": 100,
+    "abuse_reports": 1533,
+    "isp": "Microsoft Corporation",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "microsoft.com",
+    "is_tor": false,
+    "distinct_users": 229,
+    "last_reported_at": "2026-08-19T09:51:21+00:00"
   },
   {
     "ip": "92.234.0.95",
@@ -3086,6 +3166,22 @@
     "is_tor": false,
     "distinct_users": 0,
     "last_reported_at": "2026-03-10T12:16:05+00:00"
+  },
+  {
+    "ip": "131.72.164.122",
+    "lat": -6.4727,
+    "lon": -45.1131,
+    "country": "Brazil",
+    "city": "Mirador",
+    "count": 4,
+    "abuse_score": 36,
+    "abuse_reports": 9,
+    "isp": "PRISMA TELECOMUNICA\u00c7\u00d5ES LTDA. EPP",
+    "usage_type": "Fixed Line ISP",
+    "domain": "prismatelcom.com.br",
+    "is_tor": false,
+    "distinct_users": 8,
+    "last_reported_at": "2026-08-17T12:31:20+00:00"
   },
   {
     "ip": "195.20.6.224",
@@ -4656,6 +4752,22 @@
     "last_reported_at": "2026-08-19T03:31:08+00:00"
   },
   {
+    "ip": "95.10.182.57",
+    "lat": 40.2347,
+    "lon": 28.9729,
+    "country": "T\u00fcrkiye",
+    "city": "Bursa",
+    "count": 2,
+    "abuse_score": 4,
+    "abuse_reports": 1,
+    "isp": "Turk Telekomunikasyon Anonim Sirketi",
+    "usage_type": "Fixed Line ISP",
+    "domain": "turktelekom.com.tr",
+    "is_tor": false,
+    "distinct_users": 1,
+    "last_reported_at": "2026-08-19T06:22:54+00:00"
+  },
+  {
     "ip": "147.185.132.123",
     "lat": 37.3834,
     "lon": -121.983,
@@ -5406,21 +5518,5 @@
     "is_tor": false,
     "distinct_users": 26,
     "last_reported_at": "2026-08-18T20:05:30+00:00"
-  },
-  {
-    "ip": "71.90.30.53",
-    "lat": 43.1899,
-    "lon": -88.7225,
-    "country": "United States",
-    "city": "Watertown",
-    "count": 2,
-    "abuse_score": 100,
-    "abuse_reports": 1449,
-    "isp": "Charter Communications LLC",
-    "usage_type": "Fixed Line ISP",
-    "domain": "charter.com",
-    "is_tor": false,
-    "distinct_users": 158,
-    "last_reported_at": "2026-08-18T21:30:59+00:00"
   }
 ]
