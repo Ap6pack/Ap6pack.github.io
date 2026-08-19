@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-08-19T17:00:06.176218+00:00",
+  "generated_at": "2026-08-19T17:30:05.923995+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-19T16:59:49.723772Z",
-  "total_events": 302975,
-  "unique_sessions": 36841,
-  "unique_source_ips": 371,
-  "login_attempts": 36038,
-  "login_success": 35834,
-  "commands_run": 52003,
+  "last_event": "2026-08-19T17:29:59.565004Z",
+  "total_events": 303841,
+  "unique_sessions": 36924,
+  "unique_source_ips": 375,
+  "login_attempts": 36116,
+  "login_success": 35908,
+  "commands_run": 52414,
   "files_captured": 6,
   "top_usernames": [
     [
       "root",
-      34918
+      34973
     ],
     [
       "admin",
-      644
+      657
     ],
     [
       "enable\\x00",
-      174
+      178
     ],
     [
       "support",
-      120
+      123
     ],
     [
       "user",
-      59
+      61
     ],
     [
       "guest",
@@ -36,7 +36,7 @@
     ],
     [
       "ubnt",
-      22
+      23
     ],
     [
       "telnetadmin",
@@ -74,78 +74,78 @@
   "top_passwords": [
     [
       "admin",
-      382
+      389
     ],
     [
       "xc3511",
-      224
+      228
     ],
     [
       "vizxv",
-      213
+      218
     ],
     [
       "linuxshell\\x00",
-      174
+      178
     ],
     [
       "",
-      154
-    ],
-    [
-      "xmhdipc",
-      131
-    ],
-    [
-      "123456",
-      131
+      158
     ],
     [
       "888888",
-      130
+      137
+    ],
+    [
+      "xmhdipc",
+      134
     ],
     [
       "12345",
-      126
+      133
+    ],
+    [
+      "123456",
+      133
     ],
     [
       "password",
-      126
+      131
     ],
     [
       "support",
-      122
+      125
     ],
     [
       "1111",
-      120
-    ],
-    [
-      "default",
-      114
+      122
     ],
     [
       "54321",
-      113
+      116
+    ],
+    [
+      "default",
+      116
     ],
     [
       "juantech",
-      110
+      115
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 52003,
-    "cowrie.session.connect": 36841,
-    "cowrie.session.closed": 36840,
-    "cowrie.login.success": 35834,
-    "cowrie.session.params": 35830,
-    "cowrie.log.closed": 35829,
+    "cowrie.command.input": 52414,
+    "cowrie.session.connect": 36924,
+    "cowrie.session.closed": 36917,
+    "cowrie.login.success": 35908,
+    "cowrie.session.params": 35904,
+    "cowrie.log.closed": 35897,
     "cowrie.client.version": 32799,
     "cowrie.client.kex": 32755,
-    "cowrie.telnet.option": 3459,
+    "cowrie.telnet.option": 3534,
     "cowrie.command.success": 258,
     "cowrie.session.file_download": 234,
-    "cowrie.login.failed": 204,
+    "cowrie.login.failed": 208,
     "cowrie.session.file_download.failed": 74,
     "cowrie.client.fingerprint": 3,
     "cowrie.telnet.error": 3,
@@ -169,7 +169,7 @@
     },
     {
       "date": "2026-08-19",
-      "count": 26338
+      "count": 27204
     }
   ]
 }
