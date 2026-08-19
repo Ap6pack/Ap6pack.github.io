@@ -79,6 +79,19 @@
       ]
     },
     {
+      "id": "T1686",
+      "name": "Disable or Modify System Firewall",
+      "tactics": [
+        "defense-impairment"
+      ],
+      "url": "https://attack.mitre.org/techniques/T1686",
+      "count": 2,
+      "distinct_ips": 2,
+      "examples": [
+        "iptables -F"
+      ]
+    },
+    {
       "id": "T1033",
       "name": "System Owner/User Discovery",
       "tactics": [
@@ -103,21 +116,8 @@
       "examples": [
         "cat /etc/passwd"
       ]
-    },
-    {
-      "id": "T1686",
-      "name": "Disable or Modify System Firewall",
-      "tactics": [
-        "defense-impairment"
-      ],
-      "url": "https://attack.mitre.org/techniques/T1686",
-      "count": 1,
-      "distinct_ips": 1,
-      "examples": [
-        "iptables -F"
-      ]
     }
   ],
-  "total_commands": 49036,
-  "matched_commands": 33358
+  "total_commands": 49346,
+  "matched_commands": 33359
 }
