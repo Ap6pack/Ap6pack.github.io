@@ -41,7 +41,7 @@
     "lon": 150.8831,
     "country": "Australia",
     "city": "Bungarribee",
-    "count": 41533,
+    "count": 41591,
     "abuse_score": 100,
     "abuse_reports": 1769,
     "isp": "Newfold Digital, Inc.",
@@ -58,7 +58,7 @@
     "lon": 127.461,
     "country": "South Korea",
     "city": "Suncheon-si",
-    "count": 1734,
+    "count": 2179,
     "abuse_score": 83,
     "abuse_reports": 96,
     "isp": "HVAra",
@@ -90,7 +90,7 @@
     "lon": -74.1403,
     "country": "United States",
     "city": "Clifton",
-    "count": 1431,
+    "count": 1450,
     "abuse_score": 100,
     "abuse_reports": 654,
     "isp": "DigitalOcean, LLC",
@@ -98,7 +98,8 @@
     "domain": "digitalocean.com",
     "is_tor": false,
     "distinct_users": 67,
-    "last_reported_at": "2026-08-19T03:31:09+00:00"
+    "last_reported_at": "2026-08-19T03:31:09+00:00",
+    "ai_agent_signal": "suspected"
   },
   {
     "ip": "103.170.40.70",
@@ -2248,6 +2249,22 @@
     "is_tor": false,
     "distinct_users": 18,
     "last_reported_at": "2026-08-20T09:38:48+00:00"
+  },
+  {
+    "ip": "176.97.172.179",
+    "lat": 42.8891,
+    "lon": 47.6401,
+    "country": "Russia",
+    "city": "Kaspiysk",
+    "count": 8,
+    "abuse_score": 0,
+    "abuse_reports": 0,
+    "isp": "KaspiyTelekom Ltd.",
+    "usage_type": "Fixed Line ISP",
+    "domain": null,
+    "is_tor": false,
+    "distinct_users": 0,
+    "last_reported_at": "2021-07-06T13:39:31+00:00"
   },
   {
     "ip": "181.25.202.92",
@@ -4772,6 +4789,22 @@
     "is_tor": false,
     "distinct_users": 10,
     "last_reported_at": "2026-08-19T02:30:05+00:00"
+  },
+  {
+    "ip": "153.67.15.243",
+    "lat": -34.6036,
+    "lon": -58.3815,
+    "country": "Argentina",
+    "city": "Buenos Aires",
+    "count": 4,
+    "abuse_score": 42,
+    "abuse_reports": 9,
+    "isp": "SpaceX Services, Inc.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "spacex.com",
+    "is_tor": false,
+    "distinct_users": 8,
+    "last_reported_at": "2026-08-14T22:45:47+00:00"
   },
   {
     "ip": "195.20.6.224",
