@@ -115,6 +115,11 @@
     "exit_code": 127
   },
   {
+    "command": "openssl base64 -d",
+    "output": "Usage: openssl [options] command [command options]\n",
+    "exit_code": 0
+  },
+  {
     "command": "s",
     "output": "s: command not found\n",
     "exit_code": 127
@@ -137,6 +142,11 @@
   {
     "command": "xzqwplkjfoobar123",
     "output": "xzqwplkjfoobar123: command not found\n",
+    "exit_code": 127
+  },
+  {
+    "command": "zyad5001",
+    "output": "zyad5001: command not found\n",
     "exit_code": 127
   }
 ]
