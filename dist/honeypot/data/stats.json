@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-20T10:00:06.163366+00:00",
+  "generated_at": "2026-08-20T10:30:05.099415+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-20T09:56:27.841735Z",
-  "total_events": 314346,
-  "unique_sessions": 37977,
-  "unique_source_ips": 500,
-  "login_attempts": 36948,
-  "login_success": 36690,
-  "commands_run": 57326,
+  "last_event": "2026-08-20T10:26:22.545338Z",
+  "total_events": 314410,
+  "unique_sessions": 37990,
+  "unique_source_ips": 504,
+  "login_attempts": 36952,
+  "login_success": 36694,
+  "commands_run": 57348,
   "files_captured": 8,
   "top_usernames": [
     [
       "root",
-      35498
+      35502
     ],
     [
       "admin",
@@ -74,11 +74,11 @@
   "top_passwords": [
     [
       "admin",
-      478
+      479
     ],
     [
       "xc3511",
-      275
+      276
     ],
     [
       "vizxv",
@@ -90,7 +90,7 @@
     ],
     [
       "",
-      194
+      195
     ],
     [
       "888888",
@@ -105,12 +105,12 @@
       164
     ],
     [
-      "xmhdipc",
+      "12345",
       162
     ],
     [
-      "12345",
-      161
+      "xmhdipc",
+      162
     ],
     [
       "support",
@@ -134,15 +134,15 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 57326,
-    "cowrie.session.connect": 37977,
-    "cowrie.session.closed": 37977,
-    "cowrie.login.success": 36690,
-    "cowrie.session.params": 36684,
-    "cowrie.log.closed": 36684,
+    "cowrie.command.input": 57348,
+    "cowrie.session.connect": 37990,
+    "cowrie.session.closed": 37990,
+    "cowrie.login.success": 36694,
+    "cowrie.session.params": 36688,
+    "cowrie.log.closed": 36688,
     "cowrie.client.version": 32820,
     "cowrie.client.kex": 32769,
-    "cowrie.telnet.option": 4355,
+    "cowrie.telnet.option": 4359,
     "cowrie.command.success": 362,
     "cowrie.session.file_download": 323,
     "cowrie.login.failed": 258,
@@ -173,7 +173,7 @@
     },
     {
       "date": "2026-08-20",
-      "count": 4697
+      "count": 4761
     }
   ]
 }
