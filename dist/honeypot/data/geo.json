@@ -41,7 +41,7 @@
     "lon": 150.8831,
     "country": "Australia",
     "city": "Bungarribee",
-    "count": 41230,
+    "count": 41256,
     "abuse_score": 100,
     "abuse_reports": 1769,
     "isp": "Newfold Digital, Inc.",
@@ -74,7 +74,7 @@
     "lon": -74.1403,
     "country": "United States",
     "city": "Clifton",
-    "count": 1188,
+    "count": 1224,
     "abuse_score": 100,
     "abuse_reports": 654,
     "isp": "DigitalOcean, LLC",
@@ -1810,6 +1810,22 @@
     "last_reported_at": "2026-08-19T02:08:04+00:00"
   },
   {
+    "ip": "18.218.118.203",
+    "lat": 40.0992,
+    "lon": -83.1141,
+    "country": "United States",
+    "city": "Dublin",
+    "count": 10,
+    "abuse_score": 100,
+    "abuse_reports": 11541,
+    "isp": "Amazon Technologies Inc.",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "amazon.com",
+    "is_tor": false,
+    "distinct_users": 728,
+    "last_reported_at": "2026-08-19T13:00:06+00:00"
+  },
+  {
     "ip": "47.115.92.162",
     "lat": 22.5455,
     "lon": 114.0683,
@@ -2120,6 +2136,38 @@
     "is_tor": false,
     "distinct_users": 1,
     "last_reported_at": "2026-08-19T05:46:10+00:00"
+  },
+  {
+    "ip": "200.58.252.167",
+    "lat": 22.449,
+    "lon": -97.9847,
+    "country": "Mexico",
+    "city": "Altamira",
+    "count": 8,
+    "abuse_score": 40,
+    "abuse_reports": 7,
+    "isp": "PBX HOSTING SA DE CV",
+    "usage_type": "Fixed Line ISP",
+    "domain": "pbxhosting.com.mx",
+    "is_tor": false,
+    "distinct_users": 6,
+    "last_reported_at": "2026-08-20T04:01:20+00:00"
+  },
+  {
+    "ip": "195.114.96.185",
+    "lat": 48.6414,
+    "lon": 24.5667,
+    "country": "Ukraine",
+    "city": "Nadvirna",
+    "count": 8,
+    "abuse_score": 58,
+    "abuse_reports": 20,
+    "isp": "IT LUX TELECOM Ltd.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "itlux.net",
+    "is_tor": false,
+    "distinct_users": 13,
+    "last_reported_at": "2026-08-18T13:12:04+00:00"
   },
   {
     "ip": "181.25.202.92",
@@ -4234,22 +4282,6 @@
     "last_reported_at": "2026-08-18T04:23:04+00:00"
   },
   {
-    "ip": "18.218.118.203",
-    "lat": 40.0992,
-    "lon": -83.1141,
-    "country": "United States",
-    "city": "Dublin",
-    "count": 5,
-    "abuse_score": 100,
-    "abuse_reports": 11541,
-    "isp": "Amazon Technologies Inc.",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "amazon.com",
-    "is_tor": false,
-    "distinct_users": 728,
-    "last_reported_at": "2026-08-19T13:00:06+00:00"
-  },
-  {
     "ip": "20.163.15.177",
     "lat": 33.448376,
     "lon": -112.074036,
@@ -4381,7 +4413,7 @@
     "distinct_users": 82,
     "last_reported_at": "2026-08-20T05:13:42+00:00",
     "hassh": "3c0eaacec19ba322a90a5541dac09a06",
-    "hassh_shared_count": 2
+    "hassh_shared_count": 3
   },
   {
     "ip": "195.184.76.111",
@@ -4399,7 +4431,7 @@
     "distinct_users": 88,
     "last_reported_at": "2026-08-20T06:04:11+00:00",
     "hassh": "3c0eaacec19ba322a90a5541dac09a06",
-    "hassh_shared_count": 2
+    "hassh_shared_count": 3
   },
   {
     "ip": "179.5.178.156",
@@ -4432,6 +4464,56 @@
     "is_tor": false,
     "distinct_users": 2,
     "last_reported_at": "2026-08-20T03:31:32+00:00"
+  },
+  {
+    "ip": "181.231.74.112",
+    "lat": -34.9309,
+    "lon": -57.9417,
+    "country": "Argentina",
+    "city": "La Plata",
+    "count": 4,
+    "abuse_score": 43,
+    "abuse_reports": 9,
+    "isp": "Telecom Argentina S.A.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "personal.com.ar",
+    "is_tor": false,
+    "distinct_users": 7,
+    "last_reported_at": "2026-08-15T12:31:22+00:00"
+  },
+  {
+    "ip": "49.43.135.106",
+    "lat": 28.8964,
+    "lon": 76.5909,
+    "country": "India",
+    "city": "Rohtak",
+    "count": 4,
+    "abuse_score": 0,
+    "abuse_reports": 1,
+    "isp": "Reliance Jio Infocomm Limited",
+    "usage_type": "Fixed Line ISP",
+    "domain": "jio.com",
+    "is_tor": false,
+    "distinct_users": 1,
+    "last_reported_at": "2026-06-12T12:36:30+00:00"
+  },
+  {
+    "ip": "94.231.206.254",
+    "lat": 22.5455,
+    "lon": 114.0683,
+    "country": "China",
+    "city": "Shenzhen",
+    "count": 4,
+    "abuse_score": 0,
+    "abuse_reports": 2174,
+    "isp": "FR ONYPHE",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "onyphe.io",
+    "is_tor": false,
+    "distinct_users": 119,
+    "last_reported_at": "2026-08-20T09:17:23+00:00",
+    "hassh": "3c0eaacec19ba322a90a5541dac09a06",
+    "hassh_shared_count": 3
   },
   {
     "ip": "195.20.6.224",
@@ -6294,6 +6376,22 @@
     "last_reported_at": "2026-08-20T06:18:52+00:00"
   },
   {
+    "ip": "94.231.206.133",
+    "lat": 22.5455,
+    "lon": 114.0683,
+    "country": "China",
+    "city": "Shenzhen",
+    "count": 3,
+    "abuse_score": 0,
+    "abuse_reports": 1986,
+    "isp": "FR ONYPHE",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "onyphe.io",
+    "is_tor": false,
+    "distinct_users": 127,
+    "last_reported_at": "2026-08-20T08:53:35+00:00"
+  },
+  {
     "ip": "47.242.39.51",
     "lat": 22.273,
     "lon": 114.1498,
@@ -6804,6 +6902,38 @@
     "is_tor": false,
     "distinct_users": 1505,
     "last_reported_at": "2026-08-20T08:43:57+00:00"
+  },
+  {
+    "ip": "186.71.124.7",
+    "lat": -0.2309,
+    "lon": -78.5211,
+    "country": "Ecuador",
+    "city": "Quito",
+    "count": 2,
+    "abuse_score": 100,
+    "abuse_reports": 155,
+    "isp": "XTRIM UIO",
+    "usage_type": "Fixed Line ISP",
+    "domain": "xtrim.com.ec",
+    "is_tor": false,
+    "distinct_users": 68,
+    "last_reported_at": "2026-08-20T09:58:31+00:00"
+  },
+  {
+    "ip": "94.231.206.129",
+    "lat": 22.5455,
+    "lon": 114.0683,
+    "country": "China",
+    "city": "Shenzhen",
+    "count": 2,
+    "abuse_score": 0,
+    "abuse_reports": 1058,
+    "isp": "FR ONYPHE",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "onyphe.io",
+    "is_tor": false,
+    "distinct_users": 117,
+    "last_reported_at": "2026-08-20T09:59:39+00:00"
   },
   {
     "ip": "147.185.132.123",
