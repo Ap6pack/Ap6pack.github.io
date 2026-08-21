@@ -1,156 +1,156 @@
 {
-  "generated_at": "2026-08-20T23:30:05.299950+00:00",
+  "generated_at": "2026-08-21T00:00:06.501428+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-20T23:29:23.506311Z",
-  "total_events": 321518,
-  "unique_sessions": 38377,
-  "unique_source_ips": 594,
-  "login_attempts": 37201,
-  "login_success": 36933,
-  "commands_run": 60799,
-  "files_captured": 9,
+  "last_event": "2026-08-21T00:00:01.788902Z",
+  "total_events": 309651,
+  "unique_sessions": 37509,
+  "unique_source_ips": 431,
+  "login_attempts": 36592,
+  "login_success": 36354,
+  "commands_run": 55106,
+  "files_captured": 6,
   "top_usernames": [
     [
       "root",
-      35617
+      35276
     ],
     [
       "admin",
-      885
+      750
     ],
     [
       "enable\\x00",
-      229
+      206
     ],
     [
       "support",
-      162
+      146
     ],
     [
       "user",
-      76
+      72
     ],
     [
       "guest",
-      61
+      52
     ],
     [
       "ubnt",
-      29
-    ],
-    [
-      "default",
-      12
-    ],
-    [
-      "",
-      10
+      26
     ],
     [
       "telnetadmin",
-      10
+      8
+    ],
+    [
+      "default",
+      8
+    ],
+    [
+      "&;; ",
+      3
+    ],
+    [
+      "",
+      3
     ],
     [
       "cisco",
-      5
-    ],
-    [
-      "joe",
-      5
+      3
     ],
     [
       "e8ehome",
-      4
-    ],
-    [
-      "telecomadmin",
       3
     ],
     [
-      "AdminGPON",
+      "joe",
       3
+    ],
+    [
+      "bin",
+      2
     ]
   ],
   "top_passwords": [
     [
       "admin",
-      504
+      435
     ],
     [
       "xc3511",
-      281
+      255
     ],
     [
       "vizxv",
-      279
+      245
     ],
     [
       "linuxshell\\x00",
-      229
+      206
     ],
     [
       "",
-      220
+      178
     ],
     [
       "888888",
-      174
-    ],
-    [
-      "123456",
-      172
-    ],
-    [
-      "password",
-      171
-    ],
-    [
-      "12345",
-      167
+      158
     ],
     [
       "xmhdipc",
-      165
+      152
+    ],
+    [
+      "123456",
+      150
+    ],
+    [
+      "12345",
+      150
+    ],
+    [
+      "password",
+      149
     ],
     [
       "support",
-      164
+      148
     ],
     [
       "1111",
-      156
+      143
     ],
     [
       "juantech",
-      154
+      137
     ],
     [
       "54321",
-      144
+      132
     ],
     [
       "default",
-      144
+      129
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 60799,
-    "cowrie.session.connect": 38377,
-    "cowrie.session.closed": 38377,
-    "cowrie.login.success": 36933,
-    "cowrie.session.params": 36926,
-    "cowrie.log.closed": 36926,
-    "cowrie.client.version": 32830,
-    "cowrie.client.kex": 32776,
-    "cowrie.telnet.option": 4600,
-    "cowrie.command.success": 1762,
-    "cowrie.session.file_download": 693,
-    "cowrie.login.failed": 268,
-    "cowrie.session.file_download.failed": 230,
-    "cowrie.virustotal.scanfile": 6,
-    "cowrie.client.fingerprint": 5,
-    "cowrie.client.malformed_packet": 3,
+    "cowrie.command.input": 55106,
+    "cowrie.session.connect": 37509,
+    "cowrie.session.closed": 37507,
+    "cowrie.login.success": 36354,
+    "cowrie.session.params": 36349,
+    "cowrie.log.closed": 36348,
+    "cowrie.client.version": 32809,
+    "cowrie.client.kex": 32764,
+    "cowrie.telnet.option": 4011,
+    "cowrie.command.success": 292,
+    "cowrie.session.file_download": 265,
+    "cowrie.login.failed": 238,
+    "cowrie.session.file_download.failed": 84,
     "cowrie.telnet.error": 3,
+    "cowrie.virustotal.scanfile": 3,
+    "cowrie.client.fingerprint": 3,
+    "cowrie.client.malformed_packet": 2,
     "cowrie.client.var": 2,
     "cowrie.telnet.exploit_attempt": 2
   },
@@ -172,8 +172,8 @@
       "count": 33012
     },
     {
-      "date": "2026-08-20",
-      "count": 11869
+      "date": "2026-08-21",
+      "count": 2
     }
   ]
 }
