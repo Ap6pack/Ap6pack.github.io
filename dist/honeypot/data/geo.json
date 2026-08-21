@@ -41,7 +41,7 @@
     "lon": 150.8831,
     "country": "Australia",
     "city": "Bungarribee",
-    "count": 42046,
+    "count": 42058,
     "abuse_score": 100,
     "abuse_reports": 1769,
     "isp": "Newfold Digital, Inc.",
@@ -58,7 +58,7 @@
     "lon": -111.894,
     "country": "United States",
     "city": "Tempe",
-    "count": 6997,
+    "count": 7872,
     "abuse_score": 100,
     "abuse_reports": 1234,
     "isp": "GoDaddy.com, LLC",
@@ -66,7 +66,8 @@
     "domain": "godaddy.com",
     "is_tor": false,
     "distinct_users": 175,
-    "last_reported_at": "2026-08-21T13:45:40+00:00"
+    "last_reported_at": "2026-08-21T13:45:40+00:00",
+    "ai_agent_signal": "suspected"
   },
   {
     "ip": "122.252.126.5",
@@ -2032,6 +2033,22 @@
     "last_reported_at": "2026-08-21T09:31:09+00:00"
   },
   {
+    "ip": "118.249.179.167",
+    "lat": 28.1142,
+    "lon": 112.983,
+    "country": "China",
+    "city": "Qingyuan",
+    "count": 16,
+    "abuse_score": 26,
+    "abuse_reports": 3,
+    "isp": "CHINANET Hunan province network",
+    "usage_type": "Fixed Line ISP",
+    "domain": "chinatelecom.cn",
+    "is_tor": false,
+    "distinct_users": 3,
+    "last_reported_at": "2026-08-21T15:30:57+00:00"
+  },
+  {
     "ip": "200.80.186.14",
     "lat": -32.9204,
     "lon": -68.8293,
@@ -2974,6 +2991,22 @@
     "is_tor": false,
     "distinct_users": 0,
     "last_reported_at": null
+  },
+  {
+    "ip": "79.169.194.128",
+    "lat": 38.7521,
+    "lon": -9.2279,
+    "country": "Portugal",
+    "city": "Amadora",
+    "count": 8,
+    "abuse_score": 44,
+    "abuse_reports": 8,
+    "isp": "NOS COMUNICACOES S.A.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "nos.pt",
+    "is_tor": false,
+    "distinct_users": 6,
+    "last_reported_at": "2026-08-20T12:31:05+00:00"
   },
   {
     "ip": "181.25.202.92",
@@ -4862,6 +4895,22 @@
     "is_tor": false,
     "distinct_users": 8,
     "last_reported_at": "2026-08-19T00:46:35+00:00"
+  },
+  {
+    "ip": "92.55.61.51",
+    "lat": 56.8501,
+    "lon": 53.1937,
+    "country": "Russia",
+    "city": "Izhevsk",
+    "count": 6,
+    "abuse_score": 17,
+    "abuse_reports": 2,
+    "isp": "OOO NI",
+    "usage_type": "Fixed Line ISP",
+    "domain": "mark.ru",
+    "is_tor": false,
+    "distinct_users": 2,
+    "last_reported_at": "2026-08-20T09:46:46+00:00"
   },
   {
     "ip": "92.234.0.95",
@@ -6816,6 +6865,38 @@
     "is_tor": false,
     "distinct_users": 1,
     "last_reported_at": "2026-08-01T08:13:35+00:00"
+  },
+  {
+    "ip": "37.114.180.237",
+    "lat": 40.3771,
+    "lon": 49.8875,
+    "country": "Azerbaijan",
+    "city": "Baku",
+    "count": 4,
+    "abuse_score": 0,
+    "abuse_reports": 1,
+    "isp": "Azqtel, Limited",
+    "usage_type": "Fixed Line ISP",
+    "domain": "azqtel.com",
+    "is_tor": false,
+    "distinct_users": 1,
+    "last_reported_at": "2026-06-29T07:53:14+00:00"
+  },
+  {
+    "ip": "45.157.52.13",
+    "lat": 36.1898,
+    "lon": 44.0157,
+    "country": "Iraq",
+    "city": "Erbil",
+    "count": 4,
+    "abuse_score": 52,
+    "abuse_reports": 16,
+    "isp": "SmartLink for Internet Services LTD",
+    "usage_type": "Fixed Line ISP",
+    "domain": "smartlink-isp.com",
+    "is_tor": false,
+    "distinct_users": 12,
+    "last_reported_at": "2026-08-21T10:50:22+00:00"
   },
   {
     "ip": "195.20.6.224",
