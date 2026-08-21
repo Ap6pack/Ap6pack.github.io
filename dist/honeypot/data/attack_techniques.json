@@ -7,8 +7,8 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 33380,
-      "distinct_ips": 52,
+      "count": 33387,
+      "distinct_ips": 53,
       "examples": [
         "echo -e \"\\x6F\\x6B\"",
         "echo -e \"\\x47\\x41\\x59\"",
@@ -58,8 +58,8 @@
         "impact"
       ],
       "url": "https://attack.mitre.org/techniques/T1489",
-      "count": 30,
-      "distinct_ips": 3,
+      "count": 40,
+      "distinct_ips": 4,
       "examples": [
         "#!/bin/sh\n\nfor proc_dir in /proc/*; do\n    pid=${proc_dir##*/}\n\n    result=$(ls -l \"/proc/$pid/exe\" 2> /dev/null)\n\n    if [ \"$result\" != \"${result%(deleted)}\" ]; then\n        kill -9 \"$pid\"\n    fi\ndone\n"
       ]
@@ -132,6 +132,6 @@
       ]
     }
   ],
-  "total_commands": 66168,
-  "matched_commands": 34628
+  "total_commands": 67255,
+  "matched_commands": 34645
 }
