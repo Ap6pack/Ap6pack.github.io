@@ -1,156 +1,156 @@
 {
-  "generated_at": "2026-08-21T00:00:06.501428+00:00",
+  "generated_at": "2026-08-21T00:30:05.123471+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-21T00:00:01.788902Z",
-  "total_events": 309651,
-  "unique_sessions": 37509,
-  "unique_source_ips": 431,
-  "login_attempts": 36592,
-  "login_success": 36354,
-  "commands_run": 55106,
-  "files_captured": 6,
+  "last_event": "2026-08-21T00:30:00.696960Z",
+  "total_events": 322390,
+  "unique_sessions": 38498,
+  "unique_source_ips": 605,
+  "login_attempts": 37291,
+  "login_success": 37023,
+  "commands_run": 60976,
+  "files_captured": 9,
   "top_usernames": [
     [
       "root",
-      35276
+      35698
     ],
     [
       "admin",
-      750
+      889
     ],
     [
       "enable\\x00",
-      206
+      229
     ],
     [
       "support",
-      146
+      163
     ],
     [
       "user",
-      72
+      77
     ],
     [
       "guest",
-      52
+      61
     ],
     [
       "ubnt",
-      26
-    ],
-    [
-      "telnetadmin",
-      8
+      29
     ],
     [
       "default",
-      8
-    ],
-    [
-      "&;; ",
-      3
+      12
     ],
     [
       "",
-      3
+      11
+    ],
+    [
+      "telnetadmin",
+      10
     ],
     [
       "cisco",
-      3
-    ],
-    [
-      "e8ehome",
-      3
+      5
     ],
     [
       "joe",
+      5
+    ],
+    [
+      "e8ehome",
+      4
+    ],
+    [
+      "GET / HTTP/1.0",
       3
     ],
     [
-      "bin",
-      2
+      "OPTIONS sip:nm SIP/2.0",
+      3
     ]
   ],
   "top_passwords": [
     [
       "admin",
-      435
+      506
     ],
     [
       "xc3511",
-      255
+      282
     ],
     [
       "vizxv",
-      245
+      280
     ],
     [
       "linuxshell\\x00",
-      206
+      229
     ],
     [
       "",
-      178
+      222
     ],
     [
       "888888",
-      158
-    ],
-    [
-      "xmhdipc",
-      152
+      174
     ],
     [
       "123456",
-      150
-    ],
-    [
-      "12345",
-      150
+      172
     ],
     [
       "password",
-      149
+      171
+    ],
+    [
+      "12345",
+      168
     ],
     [
       "support",
-      148
+      165
+    ],
+    [
+      "xmhdipc",
+      165
     ],
     [
       "1111",
-      143
+      157
     ],
     [
       "juantech",
-      137
-    ],
-    [
-      "54321",
-      132
+      154
     ],
     [
       "default",
-      129
+      145
+    ],
+    [
+      "54321",
+      144
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 55106,
-    "cowrie.session.connect": 37509,
-    "cowrie.session.closed": 37507,
-    "cowrie.login.success": 36354,
-    "cowrie.session.params": 36349,
-    "cowrie.log.closed": 36348,
-    "cowrie.client.version": 32809,
-    "cowrie.client.kex": 32764,
-    "cowrie.telnet.option": 4011,
-    "cowrie.command.success": 292,
-    "cowrie.session.file_download": 265,
-    "cowrie.login.failed": 238,
-    "cowrie.session.file_download.failed": 84,
-    "cowrie.telnet.error": 3,
-    "cowrie.virustotal.scanfile": 3,
-    "cowrie.client.fingerprint": 3,
-    "cowrie.client.malformed_packet": 2,
+    "cowrie.command.input": 60976,
+    "cowrie.session.connect": 38498,
+    "cowrie.session.closed": 38496,
+    "cowrie.login.success": 37023,
+    "cowrie.session.params": 37015,
+    "cowrie.log.closed": 37015,
+    "cowrie.client.version": 32914,
+    "cowrie.client.kex": 32858,
+    "cowrie.telnet.option": 4612,
+    "cowrie.command.success": 1764,
+    "cowrie.session.file_download": 695,
+    "cowrie.login.failed": 268,
+    "cowrie.session.file_download.failed": 234,
+    "cowrie.virustotal.scanfile": 6,
+    "cowrie.client.fingerprint": 5,
+    "cowrie.telnet.error": 4,
+    "cowrie.client.malformed_packet": 3,
     "cowrie.client.var": 2,
     "cowrie.telnet.exploit_attempt": 2
   },
@@ -172,8 +172,12 @@
       "count": 33012
     },
     {
+      "date": "2026-08-20",
+      "count": 11996
+    },
+    {
       "date": "2026-08-21",
-      "count": 2
+      "count": 745
     }
   ]
 }
