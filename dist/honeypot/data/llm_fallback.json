@@ -120,6 +120,11 @@
     "exit_code": 0
   },
   {
+    "command": "root",
+    "output": "bash: root: command not found\n",
+    "exit_code": 127
+  },
+  {
     "command": "s",
     "output": "s: command not found\n",
     "exit_code": 127
