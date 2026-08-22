@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-22T15:30:05.915023+00:00",
+  "generated_at": "2026-08-22T16:00:06.032858+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-22T15:26:20.704746Z",
-  "total_events": 360212,
-  "unique_sessions": 42240,
-  "unique_source_ips": 892,
-  "login_attempts": 40745,
-  "login_success": 40247,
-  "commands_run": 77743,
+  "last_event": "2026-08-22T15:57:55.029213Z",
+  "total_events": 360334,
+  "unique_sessions": 42247,
+  "unique_source_ips": 893,
+  "login_attempts": 40750,
+  "login_success": 40252,
+  "commands_run": 77823,
   "files_captured": 9,
   "top_usernames": [
     [
@@ -55,6 +55,10 @@
       6
     ],
     [
+      "&;; ",
+      5
+    ],
+    [
       "e8ehome",
       5
     ],
@@ -65,10 +69,6 @@
     [
       "telecomadmin",
       5
-    ],
-    [
-      "GET / HTTP/1.0",
-      4
     ]
   ],
   "top_passwords": [
@@ -134,21 +134,21 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 77743,
-    "cowrie.session.connect": 42240,
-    "cowrie.session.closed": 42157,
-    "cowrie.login.success": 40247,
-    "cowrie.session.params": 40238,
-    "cowrie.log.closed": 40155,
-    "cowrie.client.version": 32964,
-    "cowrie.client.kex": 32895,
-    "cowrie.telnet.option": 7942,
+    "cowrie.command.input": 77823,
+    "cowrie.session.connect": 42247,
+    "cowrie.session.closed": 42164,
+    "cowrie.login.success": 40252,
+    "cowrie.session.params": 40243,
+    "cowrie.log.closed": 40160,
+    "cowrie.client.version": 32965,
+    "cowrie.client.kex": 32896,
+    "cowrie.telnet.option": 7947,
     "cowrie.command.success": 1946,
     "cowrie.session.file_download": 853,
     "cowrie.login.failed": 498,
-    "cowrie.session.file_download.failed": 303,
+    "cowrie.session.file_download.failed": 308,
     "cowrie.virustotal.scanfile": 8,
-    "cowrie.client.malformed_packet": 5,
+    "cowrie.client.malformed_packet": 6,
     "cowrie.telnet.error": 5,
     "cowrie.client.fingerprint": 5,
     "cowrie.client.var": 4,
@@ -182,7 +182,7 @@
     },
     {
       "date": "2026-08-22",
-      "count": 2907
+      "count": 3029
     }
   ]
 }
