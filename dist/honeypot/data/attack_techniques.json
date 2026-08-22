@@ -7,8 +7,8 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 33453,
-      "distinct_ips": 59,
+      "count": 33455,
+      "distinct_ips": 60,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\"",
         "cat /proc/mounts; echo -e \"\\x47\\x41\\x59\"",
@@ -132,6 +132,6 @@
       ]
     }
   ],
-  "total_commands": 76894,
-  "matched_commands": 34886
+  "total_commands": 76904,
+  "matched_commands": 34888
 }
