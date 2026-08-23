@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T02:30:05.970861+00:00",
+  "generated_at": "2026-08-23T03:00:06.554656+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-23T02:26:48.414863Z",
-  "total_events": 361838,
-  "unique_sessions": 42545,
-  "unique_source_ips": 966,
-  "login_attempts": 40817,
-  "login_success": 40316,
-  "commands_run": 78195,
+  "last_event": "2026-08-23T02:59:10.318209Z",
+  "total_events": 361887,
+  "unique_sessions": 42558,
+  "unique_source_ips": 972,
+  "login_attempts": 40820,
+  "login_success": 40319,
+  "commands_run": 78204,
   "files_captured": 9,
   "top_usernames": [
     [
@@ -43,16 +43,24 @@
       15
     ],
     [
+      "",
+      13
+    ],
+    [
       "telnetadmin",
       13
     ],
     [
-      "",
-      12
-    ],
-    [
       "cisco",
       6
+    ],
+    [
+      "GET / HTTP/1.0",
+      5
+    ],
+    [
+      "OPTIONS sip:nm SIP/2.0",
+      5
     ],
     [
       "&;; ",
@@ -60,14 +68,6 @@
     ],
     [
       "e8ehome",
-      5
-    ],
-    [
-      "joe",
-      5
-    ],
-    [
-      "telecomadmin",
       5
     ]
   ],
@@ -90,7 +90,7 @@
     ],
     [
       "",
-      382
+      384
     ],
     [
       "123456",
@@ -134,15 +134,15 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 78195,
-    "cowrie.session.connect": 42545,
-    "cowrie.session.closed": 42462,
-    "cowrie.login.success": 40316,
-    "cowrie.session.params": 40306,
-    "cowrie.log.closed": 40223,
+    "cowrie.command.input": 78204,
+    "cowrie.session.connect": 42558,
+    "cowrie.session.closed": 42475,
+    "cowrie.login.success": 40319,
+    "cowrie.session.params": 40309,
+    "cowrie.log.closed": 40226,
     "cowrie.client.version": 33011,
     "cowrie.client.kex": 32936,
-    "cowrie.telnet.option": 8127,
+    "cowrie.telnet.option": 8132,
     "cowrie.command.success": 1976,
     "cowrie.session.file_download": 884,
     "cowrie.login.failed": 501,
@@ -186,7 +186,7 @@
     },
     {
       "date": "2026-08-23",
-      "count": 224
+      "count": 273
     }
   ]
 }
