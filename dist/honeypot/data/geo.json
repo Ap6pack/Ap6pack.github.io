@@ -75,7 +75,7 @@
     "lon": 118.5121,
     "country": "China",
     "city": "Ma'anshan",
-    "count": 12635,
+    "count": 23499,
     "abuse_score": 39,
     "abuse_reports": 36,
     "isp": "China Mobile Communications Corporation",
@@ -121,6 +121,22 @@
     "ai_agent_signal": "suspected"
   },
   {
+    "ip": "208.109.189.59",
+    "lat": 33.3359,
+    "lon": -111.894,
+    "country": "United States",
+    "city": "Tempe",
+    "count": 1696,
+    "abuse_score": 100,
+    "abuse_reports": 1130,
+    "isp": "GoDaddy.com, LLC",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "godaddy.com",
+    "is_tor": false,
+    "distinct_users": 169,
+    "last_reported_at": "2026-08-23T07:36:25+00:00"
+  },
+  {
     "ip": "190.113.172.90",
     "lat": -32.9204,
     "lon": -68.8293,
@@ -135,22 +151,6 @@
     "is_tor": false,
     "distinct_users": 11,
     "last_reported_at": "2026-08-19T03:25:30+00:00"
-  },
-  {
-    "ip": "208.109.189.59",
-    "lat": 33.3359,
-    "lon": -111.894,
-    "country": "United States",
-    "city": "Tempe",
-    "count": 1312,
-    "abuse_score": 100,
-    "abuse_reports": 1130,
-    "isp": "GoDaddy.com, LLC",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "godaddy.com",
-    "is_tor": false,
-    "distinct_users": 169,
-    "last_reported_at": "2026-08-23T07:36:25+00:00"
   },
   {
     "ip": "185.93.89.72",
@@ -1317,6 +1317,22 @@
     "last_reported_at": "2026-08-23T09:52:54+00:00"
   },
   {
+    "ip": "162.17.163.226",
+    "lat": 47.1691,
+    "lon": -122.5065,
+    "country": "United States",
+    "city": "Lakewood",
+    "count": 44,
+    "abuse_score": 100,
+    "abuse_reports": 333,
+    "isp": "Comcast Cable Communications, LLC",
+    "usage_type": "Fixed Line ISP",
+    "domain": "comcast.com",
+    "is_tor": false,
+    "distinct_users": 134,
+    "last_reported_at": "2026-08-23T04:48:51+00:00"
+  },
+  {
     "ip": "111.52.52.68",
     "lat": 37.8734,
     "lon": 112.563,
@@ -2041,22 +2057,6 @@
     "is_tor": false,
     "distinct_users": 3,
     "last_reported_at": "2026-08-23T02:56:48+00:00"
-  },
-  {
-    "ip": "162.17.163.226",
-    "lat": 47.1691,
-    "lon": -122.5065,
-    "country": "United States",
-    "city": "Lakewood",
-    "count": 35,
-    "abuse_score": 100,
-    "abuse_reports": 333,
-    "isp": "Comcast Cable Communications, LLC",
-    "usage_type": "Fixed Line ISP",
-    "domain": "comcast.com",
-    "is_tor": false,
-    "distinct_users": 134,
-    "last_reported_at": "2026-08-23T04:48:51+00:00"
   },
   {
     "ip": "34.78.25.63",
@@ -4276,6 +4276,22 @@
     "is_tor": false,
     "distinct_users": 1,
     "last_reported_at": "2026-08-22T21:04:10+00:00"
+  },
+  {
+    "ip": "2.63.200.161",
+    "lat": 55.0386,
+    "lon": 82.9425,
+    "country": "Russia",
+    "city": "Novosibirsk",
+    "count": 8,
+    "abuse_score": 62,
+    "abuse_reports": 11,
+    "isp": "JSC Rostelecom . Rostov",
+    "usage_type": "Fixed Line ISP",
+    "domain": "rt.ru",
+    "is_tor": false,
+    "distinct_users": 9,
+    "last_reported_at": "2026-08-23T00:31:01+00:00"
   },
   {
     "ip": "181.25.202.92",
@@ -9148,6 +9164,40 @@
     "last_reported_at": "2026-05-16T22:48:23+00:00"
   },
   {
+    "ip": "93.104.9.28",
+    "lat": 48.114,
+    "lon": 11.5422,
+    "country": "Germany",
+    "city": "Munich",
+    "count": 4,
+    "abuse_score": 16,
+    "abuse_reports": 2,
+    "isp": "M-net Telekommunikations GmbH",
+    "usage_type": "Fixed Line ISP",
+    "domain": "m-net.de",
+    "is_tor": false,
+    "distinct_users": 2,
+    "last_reported_at": "2026-08-23T01:09:56+00:00"
+  },
+  {
+    "ip": "94.231.206.8",
+    "lat": 22.5455,
+    "lon": 114.0683,
+    "country": "China",
+    "city": "Shenzhen",
+    "count": 4,
+    "abuse_score": 0,
+    "abuse_reports": 1625,
+    "isp": "FR ONYPHE",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "onyphe.io",
+    "is_tor": false,
+    "distinct_users": 128,
+    "last_reported_at": "2026-08-23T13:15:55+00:00",
+    "hassh": "3c0eaacec19ba322a90a5541dac09a06",
+    "hassh_shared_count": 5
+  },
+  {
     "ip": "195.20.6.224",
     "lat": 50.5709,
     "lon": 30.6643,
@@ -11105,7 +11155,7 @@
     "distinct_users": 82,
     "last_reported_at": "2026-08-20T05:13:42+00:00",
     "hassh": "3c0eaacec19ba322a90a5541dac09a06",
-    "hassh_shared_count": 4
+    "hassh_shared_count": 5
   },
   {
     "ip": "195.184.76.111",
@@ -11123,7 +11173,7 @@
     "distinct_users": 88,
     "last_reported_at": "2026-08-20T06:04:11+00:00",
     "hassh": "3c0eaacec19ba322a90a5541dac09a06",
-    "hassh_shared_count": 4
+    "hassh_shared_count": 5
   },
   {
     "ip": "179.5.178.156",
@@ -11205,7 +11255,7 @@
     "distinct_users": 119,
     "last_reported_at": "2026-08-20T09:17:23+00:00",
     "hassh": "3c0eaacec19ba322a90a5541dac09a06",
-    "hassh_shared_count": 4
+    "hassh_shared_count": 5
   },
   {
     "ip": "200.117.16.254",
@@ -11303,7 +11353,7 @@
     "distinct_users": 122,
     "last_reported_at": "2026-08-20T13:08:42+00:00",
     "hassh": "3c0eaacec19ba322a90a5541dac09a06",
-    "hassh_shared_count": 4
+    "hassh_shared_count": 5
   },
   {
     "ip": "157.35.40.224",
@@ -13434,6 +13484,38 @@
     "last_reported_at": "2026-08-23T06:20:13+00:00"
   },
   {
+    "ip": "94.231.206.37",
+    "lat": 22.5455,
+    "lon": 114.0683,
+    "country": "China",
+    "city": "Shenzhen",
+    "count": 3,
+    "abuse_score": 0,
+    "abuse_reports": 318,
+    "isp": "FR ONYPHE",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "onyphe.io",
+    "is_tor": false,
+    "distinct_users": 98,
+    "last_reported_at": "2026-08-23T13:09:09+00:00"
+  },
+  {
+    "ip": "45.148.10.239",
+    "lat": 52.3716,
+    "lon": 4.8883,
+    "country": "The Netherlands",
+    "city": "Amsterdam",
+    "count": 3,
+    "abuse_score": 100,
+    "abuse_reports": 15283,
+    "isp": "TECHOFF SRV LIMITED",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "dmzhost.co",
+    "is_tor": false,
+    "distinct_users": 748,
+    "last_reported_at": "2026-08-23T13:54:20+00:00"
+  },
+  {
     "ip": "47.242.39.51",
     "lat": 22.273,
     "lon": 114.1498,
@@ -14216,6 +14298,22 @@
     "is_tor": false,
     "distinct_users": 15,
     "last_reported_at": "2026-08-23T09:14:32+00:00"
+  },
+  {
+    "ip": "94.231.206.108",
+    "lat": 22.5455,
+    "lon": 114.0683,
+    "country": "China",
+    "city": "Shenzhen",
+    "count": 2,
+    "abuse_score": 0,
+    "abuse_reports": 339,
+    "isp": "FR ONYPHE",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "onyphe.io",
+    "is_tor": false,
+    "distinct_users": 98,
+    "last_reported_at": "2026-08-23T11:31:19+00:00"
   },
   {
     "ip": "147.185.132.123",
