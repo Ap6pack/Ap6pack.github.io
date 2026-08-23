@@ -38,10 +38,13 @@ export interface GeoPoint {
   abuse_reports?: number
   domain?: string | null
   tor_exit?: boolean
+  distinct_users?: number
+  last_reported_at?: string | null
   hassh?: string | null
   hassh_shared_count?: number
   ai_agent_signal?: string | null
-  sessions?: number
+  /** Events recorded from this address; drives marker size. */
+  count: number
 }
 
 export interface FallbackEntry {
@@ -53,15 +56,17 @@ export interface FallbackEntry {
 export interface AttackTechnique {
   id: string
   name: string
+  url: string
   tactics: string[]
   count: number
+  distinct_ips: number
   examples: string[]
 }
 
 export interface AttackData {
   techniques: AttackTechnique[]
-  total_matches?: number
-  distinct_techniques?: number
+  total_commands: number
+  matched_commands: number
 }
 
 export interface ReplayEvent {
