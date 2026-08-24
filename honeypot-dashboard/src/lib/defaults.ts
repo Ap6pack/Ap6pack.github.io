@@ -1,0 +1,19 @@
+import type { Stats } from './types'
+
+/** Rendered before the first stats.json fetch resolves. */
+export const EMPTY_STATS: Stats = {
+  generated_at: null,
+  first_event: null,
+  last_event: null,
+  total_events: 0,
+  unique_sessions: 0,
+  unique_source_ips: 0,
+  login_attempts: 0,
+  login_success: 0,
+  commands_run: 0,
+  files_captured: 0,
+  top_usernames: [],
+  top_passwords: [],
+  event_breakdown: {},
+  daily_events: [],
+}

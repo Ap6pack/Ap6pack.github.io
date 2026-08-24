@@ -1,9 +1,9 @@
 // Shapes of the JSON the honeypot box publishes into dist/honeypot/data/.
 
 export interface Stats {
-  generated_at: string
-  first_event: string
-  last_event: string
+  generated_at: string | null
+  first_event: string | null
+  last_event: string | null
   total_events: number
   unique_sessions: number
   unique_source_ips: number
@@ -82,4 +82,3 @@ export interface ReplaySession {
   events: ReplayEvent[]
 }
 
-export type ReplayMap = Record<string, ReplaySession>
