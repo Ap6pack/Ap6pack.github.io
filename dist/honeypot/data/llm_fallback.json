@@ -50,6 +50,11 @@
     "exit_code": 127
   },
   {
+    "command": "Accept: */*",
+    "output": "Accept: */*\n",
+    "exit_code": 0
+  },
+  {
     "command": "Accept: application/sdp",
     "output": "curl: try 'curl --help' or 'curl --manual' for more information\n",
     "exit_code": 0
