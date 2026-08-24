@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-24T07:00:12.006148+00:00",
+  "generated_at": "2026-08-24T07:30:12.056274+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-24T07:00:00.396729Z",
-  "total_events": 691255,
-  "unique_sessions": 83295,
-  "unique_source_ips": 1172,
-  "login_attempts": 81125,
-  "login_success": 80507,
-  "commands_run": 126269,
+  "last_event": "2026-08-24T07:30:01.537884Z",
+  "total_events": 697426,
+  "unique_sessions": 84051,
+  "unique_source_ips": 1176,
+  "login_attempts": 81879,
+  "login_success": 81261,
+  "commands_run": 127124,
   "files_captured": 9,
   "top_usernames": [
     [
       "root",
-      77729
+      78478
     ],
     [
       "admin",
-      1900
+      1903
     ],
     [
       "enable\\x00",
@@ -55,6 +55,10 @@
       9
     ],
     [
+      "cisco",
+      7
+    ],
+    [
       "telecomadmin",
       6
     ],
@@ -65,16 +69,12 @@
     [
       "&;; ",
       6
-    ],
-    [
-      "cisco",
-      6
     ]
   ],
   "top_passwords": [
     [
       "admin",
-      1126
+      1128
     ],
     [
       "xc3511",
@@ -134,19 +134,19 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 126269,
-    "cowrie.session.connect": 83295,
-    "cowrie.session.closed": 83210,
-    "cowrie.login.success": 80507,
-    "cowrie.session.params": 80487,
-    "cowrie.log.closed": 80403,
-    "cowrie.client.version": 71452,
-    "cowrie.client.kex": 71359,
-    "cowrie.telnet.option": 10226,
-    "cowrie.command.success": 2060,
-    "cowrie.session.file_download": 959,
+    "cowrie.command.input": 127124,
+    "cowrie.session.connect": 84051,
+    "cowrie.session.closed": 83967,
+    "cowrie.login.success": 81261,
+    "cowrie.session.params": 81242,
+    "cowrie.log.closed": 81159,
+    "cowrie.client.version": 72198,
+    "cowrie.client.kex": 72104,
+    "cowrie.telnet.option": 10235,
+    "cowrie.command.success": 2077,
+    "cowrie.session.file_download": 976,
     "cowrie.login.failed": 618,
-    "cowrie.session.file_download.failed": 363,
+    "cowrie.session.file_download.failed": 367,
     "cowrie.client.var": 11,
     "cowrie.virustotal.scanfile": 8,
     "cowrie.telnet.error": 7,
@@ -190,7 +190,7 @@
     },
     {
       "date": "2026-08-24",
-      "count": 80645
+      "count": 86816
     }
   ]
 }
