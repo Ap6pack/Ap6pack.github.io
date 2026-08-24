@@ -121,6 +121,23 @@
     "last_reported_at": "2026-08-20T12:27:09+00:00"
   },
   {
+    "ip": "92.204.138.58",
+    "lat": 38.7135,
+    "lon": -77.7953,
+    "country": "United States",
+    "city": "Warrenton",
+    "count": 3658,
+    "abuse_score": 100,
+    "abuse_reports": 1472,
+    "isp": "Host Europe GmbH",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "godaddy.com",
+    "is_tor": false,
+    "distinct_users": 165,
+    "last_reported_at": "2026-08-24T08:36:19+00:00",
+    "ai_agent_signal": "suspected"
+  },
+  {
     "ip": "138.197.5.236",
     "lat": 40.8364,
     "lon": -74.1403,
@@ -135,23 +152,6 @@
     "is_tor": false,
     "distinct_users": 67,
     "last_reported_at": "2026-08-19T03:31:09+00:00",
-    "ai_agent_signal": "suspected"
-  },
-  {
-    "ip": "92.204.138.58",
-    "lat": 38.7135,
-    "lon": -77.7953,
-    "country": "United States",
-    "city": "Warrenton",
-    "count": 1968,
-    "abuse_score": 100,
-    "abuse_reports": 1472,
-    "isp": "Host Europe GmbH",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "godaddy.com",
-    "is_tor": false,
-    "distinct_users": 165,
-    "last_reported_at": "2026-08-24T08:36:19+00:00",
     "ai_agent_signal": "suspected"
   },
   {
@@ -4447,6 +4447,24 @@
     "last_reported_at": "2026-08-24T10:12:03+00:00",
     "hassh": "e788c657d1a22971d5026526ffd2e918",
     "hassh_shared_count": 2
+  },
+  {
+    "ip": "47.85.8.171",
+    "lat": 37.4316,
+    "lon": -78.6569,
+    "country": "United States",
+    "city": "Charlottesville",
+    "count": 10,
+    "abuse_score": 100,
+    "abuse_reports": 4563,
+    "isp": "Alibaba Cloud LLC",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "alibaba-inc.com",
+    "is_tor": false,
+    "distinct_users": 453,
+    "last_reported_at": "2026-08-21T00:33:12+00:00",
+    "hassh": "19532158b559096b89b1a5f7d17175b2",
+    "hassh_shared_count": 7
   },
   {
     "ip": "47.115.92.162",
@@ -10287,7 +10305,7 @@
     "distinct_users": 1340,
     "last_reported_at": "2026-08-24T02:01:04+00:00",
     "hassh": "19532158b559096b89b1a5f7d17175b2",
-    "hassh_shared_count": 6
+    "hassh_shared_count": 7
   },
   {
     "ip": "154.127.68.65",
@@ -10305,7 +10323,25 @@
     "distinct_users": 113,
     "last_reported_at": "2026-08-24T02:23:03+00:00",
     "hassh": "19532158b559096b89b1a5f7d17175b2",
-    "hassh_shared_count": 6
+    "hassh_shared_count": 7
+  },
+  {
+    "ip": "43.110.38.5",
+    "lat": 36.7783,
+    "lon": -119.418,
+    "country": "United States",
+    "city": "Minkler",
+    "count": 5,
+    "abuse_score": 100,
+    "abuse_reports": 2404,
+    "isp": "Alibaba Cloud (Singapore) Private Limited",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "alibabacloud.com",
+    "is_tor": false,
+    "distinct_users": 432,
+    "last_reported_at": "2026-08-24T12:30:54+00:00",
+    "hassh": "19532158b559096b89b1a5f7d17175b2",
+    "hassh_shared_count": 7
   },
   {
     "ip": "82.165.27.72",
@@ -10323,7 +10359,7 @@
     "distinct_users": 123,
     "last_reported_at": "2026-08-17T00:38:02+00:00",
     "hassh": "19532158b559096b89b1a5f7d17175b2",
-    "hassh_shared_count": 6
+    "hassh_shared_count": 7
   },
   {
     "ip": "172.210.9.172",
@@ -10473,25 +10509,7 @@
     "distinct_users": 554,
     "last_reported_at": "2026-08-20T14:27:16+00:00",
     "hassh": "19532158b559096b89b1a5f7d17175b2",
-    "hassh_shared_count": 6
-  },
-  {
-    "ip": "47.85.8.171",
-    "lat": 37.4316,
-    "lon": -78.6569,
-    "country": "United States",
-    "city": "Charlottesville",
-    "count": 5,
-    "abuse_score": 100,
-    "abuse_reports": 4563,
-    "isp": "Alibaba Cloud LLC",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "alibaba-inc.com",
-    "is_tor": false,
-    "distinct_users": 453,
-    "last_reported_at": "2026-08-21T00:33:12+00:00",
-    "hassh": "19532158b559096b89b1a5f7d17175b2",
-    "hassh_shared_count": 6
+    "hassh_shared_count": 7
   },
   {
     "ip": "135.237.126.76",
@@ -10605,7 +10623,7 @@
     "distinct_users": 2,
     "last_reported_at": "2026-08-23T15:15:01+00:00",
     "hassh": "19532158b559096b89b1a5f7d17175b2",
-    "hassh_shared_count": 6
+    "hassh_shared_count": 7
   },
   {
     "ip": "181.228.81.53",
@@ -10846,6 +10864,22 @@
     "is_tor": false,
     "distinct_users": 15,
     "last_reported_at": "2026-08-24T11:57:30+00:00"
+  },
+  {
+    "ip": "176.105.200.105",
+    "lat": 49.1494,
+    "lon": 34.2019,
+    "country": "Ukraine",
+    "city": "Kobeliaky",
+    "count": 4,
+    "abuse_score": 15,
+    "abuse_reports": 2,
+    "isp": "RPC HomeNet Ltd.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "homenet.ua",
+    "is_tor": false,
+    "distinct_users": 2,
+    "last_reported_at": "2026-08-21T09:05:11+00:00"
   },
   {
     "ip": "195.20.6.224",
