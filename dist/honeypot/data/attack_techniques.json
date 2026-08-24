@@ -7,7 +7,7 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 73448,
+      "count": 74179,
       "distinct_ips": 75,
       "examples": [
         "echo -e \"\\x6F\\x6B\"",
@@ -24,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 1576,
-      "distinct_ips": 92,
+      "count": 1588,
+      "distinct_ips": 93,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
         ">/var/d && chmod 777 /var/d && /var/d && cd /var/",
@@ -133,6 +133,6 @@
       ]
     }
   ],
-  "total_commands": 126986,
-  "matched_commands": 75288
+  "total_commands": 127748,
+  "matched_commands": 76031
 }
