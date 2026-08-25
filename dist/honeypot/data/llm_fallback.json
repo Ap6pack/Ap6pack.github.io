@@ -50,6 +50,11 @@
     "exit_code": 127
   },
   {
+    "command": "Accept-Encoding: gzip",
+    "output": "bash: syntax error near unexpected token `Accept-Encoding'\n",
+    "exit_code": 0
+  },
+  {
     "command": "Accept: */*",
     "output": "Accept: */*\n",
     "exit_code": 0
