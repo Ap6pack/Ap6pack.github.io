@@ -176,7 +176,7 @@
     "lon": 6.05805,
     "country": "The Netherlands",
     "city": "Eygelshoven",
-    "count": 1518,
+    "count": 1541,
     "abuse_score": 100,
     "abuse_reports": 409,
     "isp": "Limited Network LTD",
@@ -305,6 +305,22 @@
     "ai_agent_signal": "suspected"
   },
   {
+    "ip": "167.60.28.84",
+    "lat": -34.9055,
+    "lon": -56.1944,
+    "country": "Uruguay",
+    "city": "Montevideo",
+    "count": 479,
+    "abuse_score": 89,
+    "abuse_reports": 15,
+    "isp": "Administracion Nacional de Telecomunicaciones",
+    "usage_type": "Fixed Line ISP",
+    "domain": "antel.com.uy",
+    "is_tor": false,
+    "distinct_users": 13,
+    "last_reported_at": "2026-08-25T06:30:56+00:00"
+  },
+  {
     "ip": "175.107.210.163",
     "lat": 24.9551,
     "lon": 66.9983,
@@ -416,7 +432,7 @@
     "distinct_users": 16,
     "last_reported_at": "2026-08-22T22:29:25+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 9
+    "hassh_shared_count": 10
   },
   {
     "ip": "201.239.197.192",
@@ -500,6 +516,24 @@
     "last_reported_at": "2026-08-18T21:46:52+00:00"
   },
   {
+    "ip": "221.131.139.70",
+    "lat": 32.0607,
+    "lon": 118.763,
+    "country": "China",
+    "city": "Nanjing",
+    "count": 130,
+    "abuse_score": 100,
+    "abuse_reports": 1209,
+    "isp": "China Mobile Communications Corporation - jiangsu",
+    "usage_type": "Fixed Line ISP",
+    "domain": "chinamobile.com",
+    "is_tor": false,
+    "distinct_users": 147,
+    "last_reported_at": "2026-08-25T07:33:39+00:00",
+    "hassh": "16443846184eafde36765c9bab2f4397",
+    "hassh_shared_count": 10
+  },
+  {
     "ip": "61.53.153.56",
     "lat": 34.7599,
     "lon": 113.6459,
@@ -564,7 +598,7 @@
     "distinct_users": 160,
     "last_reported_at": "2026-08-18T05:41:55+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 9
+    "hassh_shared_count": 10
   },
   {
     "ip": "112.227.202.1",
@@ -2674,7 +2708,7 @@
     "distinct_users": 42,
     "last_reported_at": "2026-08-22T22:29:29+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 9
+    "hassh_shared_count": 10
   },
   {
     "ip": "3.129.187.38",
@@ -3124,7 +3158,7 @@
     "distinct_users": 286,
     "last_reported_at": "2026-08-18T19:21:09+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 9
+    "hassh_shared_count": 10
   },
   {
     "ip": "112.253.138.49",
@@ -3158,7 +3192,7 @@
     "distinct_users": 157,
     "last_reported_at": "2026-08-25T04:14:12+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "103.126.118.211",
@@ -4517,6 +4551,24 @@
     "last_reported_at": "2026-08-25T04:17:19+00:00"
   },
   {
+    "ip": "154.177.235.189",
+    "lat": 30.0507,
+    "lon": 31.2489,
+    "country": "Egypt",
+    "city": "Cairo",
+    "count": 12,
+    "abuse_score": 0,
+    "abuse_reports": 1,
+    "isp": "TE Data",
+    "usage_type": "Fixed Line ISP",
+    "domain": "tedata.net",
+    "is_tor": false,
+    "distinct_users": 1,
+    "last_reported_at": "2026-08-25T07:54:14+00:00",
+    "hassh": "acaa53e0a7d7ac7d1255103f37901306",
+    "hassh_shared_count": 25
+  },
+  {
     "ip": "93.171.33.87",
     "lat": 55.6197,
     "lon": 37.464,
@@ -5292,6 +5344,38 @@
     "is_tor": false,
     "distinct_users": 3,
     "last_reported_at": "2026-08-25T03:05:54+00:00"
+  },
+  {
+    "ip": "92.118.76.198",
+    "lat": 48.5355,
+    "lon": 25.0398,
+    "country": "Ukraine",
+    "city": "Kolomyia",
+    "count": 8,
+    "abuse_score": 73,
+    "abuse_reports": 26,
+    "isp": "Small Private Enterprise Kvant-II",
+    "usage_type": "Fixed Line ISP",
+    "domain": "kvant.if.ua",
+    "is_tor": false,
+    "distinct_users": 18,
+    "last_reported_at": "2026-08-25T03:44:59+00:00"
+  },
+  {
+    "ip": "189.203.105.68",
+    "lat": 19.4096,
+    "lon": -99.0784,
+    "country": "Mexico",
+    "city": "Puebla",
+    "count": 8,
+    "abuse_score": 25,
+    "abuse_reports": 3,
+    "isp": "TOTAL PLAY TELECOMUNICACIONES SA DE CV",
+    "usage_type": "Fixed Line ISP",
+    "domain": "totalplay.com.mx",
+    "is_tor": false,
+    "distinct_users": 3,
+    "last_reported_at": "2026-08-24T04:26:48+00:00"
   },
   {
     "ip": "181.25.202.92",
@@ -8701,7 +8785,7 @@
     "distinct_users": 108,
     "last_reported_at": "2026-08-21T16:31:08+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 9
+    "hassh_shared_count": 10
   },
   {
     "ip": "8.133.185.52",
@@ -8737,7 +8821,7 @@
     "distinct_users": 33,
     "last_reported_at": "2026-08-22T22:50:03+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 9
+    "hassh_shared_count": 10
   },
   {
     "ip": "135.233.112.109",
@@ -8907,7 +8991,7 @@
     "distinct_users": 107,
     "last_reported_at": "2026-08-25T04:07:32+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "59.8.66.225",
@@ -8925,7 +9009,7 @@
     "distinct_users": 121,
     "last_reported_at": "2026-08-24T08:00:09+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "103.147.248.23",
@@ -8943,7 +9027,7 @@
     "distinct_users": 292,
     "last_reported_at": "2026-08-25T04:36:10+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "182.79.218.101",
@@ -8961,7 +9045,7 @@
     "distinct_users": 207,
     "last_reported_at": "2026-08-25T04:46:33+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "103.175.138.31",
@@ -8979,7 +9063,7 @@
     "distinct_users": 101,
     "last_reported_at": "2026-08-25T04:21:55+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "201.163.73.93",
@@ -8997,7 +9081,7 @@
     "distinct_users": 62,
     "last_reported_at": "2026-08-22T18:00:24+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "102.38.3.107",
@@ -9015,7 +9099,7 @@
     "distinct_users": 190,
     "last_reported_at": "2026-08-25T04:21:55+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "61.37.150.6",
@@ -9033,7 +9117,7 @@
     "distinct_users": 348,
     "last_reported_at": "2026-08-25T04:54:06+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "65.20.132.230",
@@ -9051,7 +9135,7 @@
     "distinct_users": 105,
     "last_reported_at": "2026-08-25T03:57:18+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "37.28.177.141",
@@ -9069,7 +9153,7 @@
     "distinct_users": 281,
     "last_reported_at": "2026-08-25T03:40:15+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "194.31.8.12",
@@ -9087,7 +9171,7 @@
     "distinct_users": 294,
     "last_reported_at": "2026-08-25T04:51:41+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "210.182.73.137",
@@ -9105,7 +9189,7 @@
     "distinct_users": 103,
     "last_reported_at": "2026-08-25T03:33:06+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "57.133.202.56",
@@ -9123,7 +9207,7 @@
     "distinct_users": 95,
     "last_reported_at": "2026-08-25T05:11:33+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "60.166.31.198",
@@ -9141,7 +9225,7 @@
     "distinct_users": 267,
     "last_reported_at": "2026-08-25T05:22:46+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "113.28.86.1",
@@ -9159,7 +9243,7 @@
     "distinct_users": 216,
     "last_reported_at": "2026-08-25T02:29:05+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "1.212.225.99",
@@ -9177,7 +9261,7 @@
     "distinct_users": 406,
     "last_reported_at": "2026-08-25T05:25:41+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "85.195.9.20",
@@ -9195,7 +9279,7 @@
     "distinct_users": 283,
     "last_reported_at": "2026-08-25T06:25:13+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "116.72.9.151",
@@ -9213,7 +9297,7 @@
     "distinct_users": 261,
     "last_reported_at": "2026-08-25T04:47:11+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "85.99.93.200",
@@ -9231,7 +9315,7 @@
     "distinct_users": 102,
     "last_reported_at": "2026-08-25T05:58:10+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "82.65.183.240",
@@ -9249,7 +9333,7 @@
     "distinct_users": 114,
     "last_reported_at": "2026-08-25T05:00:09+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "197.153.63.208",
@@ -9283,7 +9367,7 @@
     "distinct_users": 59,
     "last_reported_at": "2026-08-25T06:14:46+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "114.241.210.242",
@@ -9301,7 +9385,7 @@
     "distinct_users": 18,
     "last_reported_at": "2026-08-25T04:21:42+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "116.48.151.136",
@@ -9319,7 +9403,7 @@
     "distinct_users": 178,
     "last_reported_at": "2026-08-25T07:04:00+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 24
+    "hassh_shared_count": 25
   },
   {
     "ip": "92.234.0.95",
@@ -9737,7 +9821,7 @@
     "distinct_users": 97,
     "last_reported_at": "2026-08-18T08:13:42+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 9
+    "hassh_shared_count": 10
   },
   {
     "ip": "179.208.23.15",
@@ -10507,7 +10591,7 @@
     "distinct_users": 128,
     "last_reported_at": "2026-08-21T03:56:22+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 9
+    "hassh_shared_count": 10
   },
   {
     "ip": "45.183.229.245",
@@ -11357,7 +11441,7 @@
     "distinct_users": 101,
     "last_reported_at": "2026-08-23T20:37:00+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 9
+    "hassh_shared_count": 10
   },
   {
     "ip": "186.134.207.241",
@@ -18470,6 +18554,22 @@
     "is_tor": false,
     "distinct_users": 55,
     "last_reported_at": "2026-08-25T01:33:26+00:00"
+  },
+  {
+    "ip": "182.8.68.115",
+    "lat": -7.2484,
+    "lon": 112.7419,
+    "country": "Indonesia",
+    "city": "Surabaya",
+    "count": 2,
+    "abuse_score": 20,
+    "abuse_reports": 3,
+    "isp": "PT. Telekomunikasi Selular (Telkomsel) Indonesia",
+    "usage_type": "Fixed Line ISP",
+    "domain": "telkomsel.co.id",
+    "is_tor": false,
+    "distinct_users": 3,
+    "last_reported_at": "2026-08-23T05:12:12+00:00"
   },
   {
     "ip": "147.185.132.123",
