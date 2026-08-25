@@ -293,7 +293,7 @@
     "lon": -74.1403,
     "country": "United States",
     "city": "Clifton",
-    "count": 577,
+    "count": 589,
     "abuse_score": 100,
     "abuse_reports": 2200,
     "isp": "DigitalOcean, LLC",
@@ -500,6 +500,23 @@
     "last_reported_at": "2026-02-23T08:17:25+00:00"
   },
   {
+    "ip": "69.123.212.27",
+    "lat": 40.8018,
+    "lon": -72.8675,
+    "country": "United States",
+    "city": "Shirley",
+    "count": 187,
+    "abuse_score": 100,
+    "abuse_reports": 60,
+    "isp": "Optimum Online (Cablevision Systems)",
+    "usage_type": "Fixed Line ISP",
+    "domain": "optimum.net",
+    "is_tor": false,
+    "distinct_users": 38,
+    "last_reported_at": "2026-08-25T09:51:06+00:00",
+    "ai_agent_signal": "suspected"
+  },
+  {
     "ip": "115.160.67.73",
     "lat": 35.1893,
     "lon": 128.0843,
@@ -548,23 +565,6 @@
     "is_tor": false,
     "distinct_users": 1,
     "last_reported_at": "2026-08-18T18:20:33+00:00",
-    "ai_agent_signal": "suspected"
-  },
-  {
-    "ip": "69.123.212.27",
-    "lat": 40.8018,
-    "lon": -72.8675,
-    "country": "United States",
-    "city": "Shirley",
-    "count": 113,
-    "abuse_score": 100,
-    "abuse_reports": 60,
-    "isp": "Optimum Online (Cablevision Systems)",
-    "usage_type": "Fixed Line ISP",
-    "domain": "optimum.net",
-    "is_tor": false,
-    "distinct_users": 38,
-    "last_reported_at": "2026-08-25T09:51:06+00:00",
     "ai_agent_signal": "suspected"
   },
   {
@@ -2507,7 +2507,7 @@
     "distinct_users": 1492,
     "last_reported_at": "2026-08-19T03:00:12+00:00",
     "hassh": "2ec37a7cc8daf20b10e1ad6221061ca5",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "112.46.212.210",
@@ -2641,7 +2641,7 @@
     "distinct_users": 1505,
     "last_reported_at": "2026-08-20T08:43:57+00:00",
     "hassh": "2ec37a7cc8daf20b10e1ad6221061ca5",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "151.30.128.137",
@@ -3067,7 +3067,7 @@
     "distinct_users": 1513,
     "last_reported_at": "2026-08-23T06:53:48+00:00",
     "hassh": "2ec37a7cc8daf20b10e1ad6221061ca5",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "198.98.53.110",
@@ -3119,7 +3119,7 @@
     "distinct_users": 1473,
     "last_reported_at": "2026-08-18T20:19:34+00:00",
     "hassh": "2ec37a7cc8daf20b10e1ad6221061ca5",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "58.152.0.141",
@@ -4557,7 +4557,7 @@
     "distinct_users": 1277,
     "last_reported_at": "2026-08-17T16:29:35+00:00",
     "hassh": "2ec37a7cc8daf20b10e1ad6221061ca5",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "122.97.214.219",
@@ -4825,7 +4825,7 @@
     "distinct_users": 1499,
     "last_reported_at": "2026-08-24T12:25:35+00:00",
     "hassh": "2ec37a7cc8daf20b10e1ad6221061ca5",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "86.163.93.64",
@@ -5085,7 +5085,7 @@
     "distinct_users": 1512,
     "last_reported_at": "2026-08-25T03:58:29+00:00",
     "hassh": "2ec37a7cc8daf20b10e1ad6221061ca5",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "59.110.63.144",
@@ -5104,6 +5104,24 @@
     "last_reported_at": "2026-08-25T06:14:29+00:00",
     "hassh": "1b8acd46a07d2dc9854db9ec4044c45c",
     "hassh_shared_count": 6
+  },
+  {
+    "ip": "92.118.39.49",
+    "lat": 32.7797,
+    "lon": -96.8022,
+    "country": "United States",
+    "city": "Dallas",
+    "count": 10,
+    "abuse_score": 100,
+    "abuse_reports": 28912,
+    "isp": "DMZHOST",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "dmzhost.co",
+    "is_tor": false,
+    "distinct_users": 1507,
+    "last_reported_at": "2026-08-25T15:00:01+00:00",
+    "hassh": "2ec37a7cc8daf20b10e1ad6221061ca5",
+    "hassh_shared_count": 9
   },
   {
     "ip": "47.115.92.162",
@@ -5139,7 +5157,7 @@
     "distinct_users": 1406,
     "last_reported_at": "2026-08-18T15:00:07+00:00",
     "hassh": "2ec37a7cc8daf20b10e1ad6221061ca5",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "47.84.102.173",
@@ -19427,6 +19445,22 @@
     "is_tor": false,
     "distinct_users": 4,
     "last_reported_at": "2026-07-20T12:39:29+00:00"
+  },
+  {
+    "ip": "221.159.21.170",
+    "lat": 35.7332,
+    "lon": 126.7308,
+    "country": "South Korea",
+    "city": "Buan-gun",
+    "count": 2,
+    "abuse_score": 100,
+    "abuse_reports": 726,
+    "isp": "Korea Telecom",
+    "usage_type": "Fixed Line ISP",
+    "domain": "kt.com",
+    "is_tor": false,
+    "distinct_users": 225,
+    "last_reported_at": "2026-08-25T08:00:15+00:00"
   },
   {
     "ip": "147.185.132.123",
