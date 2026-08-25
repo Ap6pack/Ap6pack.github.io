@@ -95,6 +95,20 @@
       ]
     },
     {
+      "id": "T1033",
+      "name": "System Owner/User Discovery",
+      "tactics": [
+        "discovery"
+      ],
+      "url": "https://attack.mitre.org/techniques/T1033",
+      "count": 2,
+      "distinct_ips": 2,
+      "examples": [
+        "whoami",
+        "id"
+      ]
+    },
+    {
       "id": "T1140",
       "name": "Deobfuscate/Decode Files or Information",
       "tactics": [
@@ -106,19 +120,6 @@
       "examples": [
         "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox HENtMW4C ",
         "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox On4MNjgA "
-      ]
-    },
-    {
-      "id": "T1033",
-      "name": "System Owner/User Discovery",
-      "tactics": [
-        "discovery"
-      ],
-      "url": "https://attack.mitre.org/techniques/T1033",
-      "count": 1,
-      "distinct_ips": 1,
-      "examples": [
-        "id"
       ]
     },
     {
@@ -135,6 +136,6 @@
       ]
     }
   ],
-  "total_commands": 142178,
-  "matched_commands": 76598
+  "total_commands": 142185,
+  "matched_commands": 76599
 }
