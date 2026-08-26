@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-26T17:00:13.614233+00:00",
+  "generated_at": "2026-08-26T17:30:10.652149+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-26T16:51:54.063789Z",
-  "total_events": 747386,
-  "unique_sessions": 89673,
-  "unique_source_ips": 1681,
-  "login_attempts": 86841,
-  "login_success": 86030,
-  "commands_run": 143891,
+  "last_event": "2026-08-26T17:29:48.838583Z",
+  "total_events": 747423,
+  "unique_sessions": 89680,
+  "unique_source_ips": 1686,
+  "login_attempts": 86844,
+  "login_success": 86033,
+  "commands_run": 143903,
   "files_captured": 9,
   "top_usernames": [
     [
       "root",
-      82288
+      82289
     ],
     [
       "admin",
-      2500
+      2501
     ],
     [
       "enable\\x00",
@@ -32,7 +32,7 @@
     ],
     [
       "guest",
-      170
+      171
     ],
     [
       "ubnt",
@@ -74,7 +74,7 @@
   "top_passwords": [
     [
       "admin",
-      1507
+      1508
     ],
     [
       "xc3511",
@@ -134,20 +134,20 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 143891,
-    "cowrie.session.connect": 89673,
-    "cowrie.session.closed": 89590,
-    "cowrie.login.success": 86030,
-    "cowrie.session.params": 85886,
-    "cowrie.log.closed": 85803,
-    "cowrie.client.version": 74191,
-    "cowrie.client.kex": 74076,
-    "cowrie.telnet.option": 13460,
+    "cowrie.command.input": 143903,
+    "cowrie.session.connect": 89680,
+    "cowrie.session.closed": 89596,
+    "cowrie.login.success": 86033,
+    "cowrie.session.params": 85888,
+    "cowrie.log.closed": 85805,
+    "cowrie.client.version": 74192,
+    "cowrie.client.kex": 74077,
+    "cowrie.telnet.option": 13462,
     "cowrie.command.success": 2253,
     "cowrie.session.file_download": 1137,
     "cowrie.login.failed": 811,
     "cowrie.session.file_download.failed": 411,
-    "cowrie.direct-tcpip.request": 112,
+    "cowrie.direct-tcpip.request": 113,
     "cowrie.client.var": 12,
     "cowrie.session.file_upload": 10,
     "cowrie.telnet.error": 10,
@@ -201,7 +201,7 @@
     },
     {
       "date": "2026-08-26",
-      "count": 2465
+      "count": 2502
     }
   ]
 }
