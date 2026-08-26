@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-26T17:30:10.652149+00:00",
+  "generated_at": "2026-08-26T18:00:10.704849+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-26T17:29:48.838583Z",
-  "total_events": 747423,
-  "unique_sessions": 89680,
-  "unique_source_ips": 1686,
-  "login_attempts": 86844,
-  "login_success": 86033,
-  "commands_run": 143903,
+  "last_event": "2026-08-26T17:55:03.287290Z",
+  "total_events": 747520,
+  "unique_sessions": 89707,
+  "unique_source_ips": 1690,
+  "login_attempts": 86846,
+  "login_success": 86035,
+  "commands_run": 143913,
   "files_captured": 9,
   "top_usernames": [
     [
@@ -16,7 +16,7 @@
     ],
     [
       "admin",
-      2501
+      2502
     ],
     [
       "enable\\x00",
@@ -74,7 +74,7 @@
   "top_passwords": [
     [
       "admin",
-      1508
+      1509
     ],
     [
       "xc3511",
@@ -134,20 +134,20 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 143903,
-    "cowrie.session.connect": 89680,
-    "cowrie.session.closed": 89596,
-    "cowrie.login.success": 86033,
-    "cowrie.session.params": 85888,
-    "cowrie.log.closed": 85805,
-    "cowrie.client.version": 74192,
-    "cowrie.client.kex": 74077,
-    "cowrie.telnet.option": 13462,
+    "cowrie.command.input": 143913,
+    "cowrie.session.connect": 89707,
+    "cowrie.session.closed": 89624,
+    "cowrie.login.success": 86035,
+    "cowrie.session.params": 85889,
+    "cowrie.log.closed": 85806,
+    "cowrie.client.version": 74193,
+    "cowrie.client.kex": 74078,
+    "cowrie.telnet.option": 13487,
     "cowrie.command.success": 2253,
     "cowrie.session.file_download": 1137,
     "cowrie.login.failed": 811,
     "cowrie.session.file_download.failed": 411,
-    "cowrie.direct-tcpip.request": 113,
+    "cowrie.direct-tcpip.request": 114,
     "cowrie.client.var": 12,
     "cowrie.session.file_upload": 10,
     "cowrie.telnet.error": 10,
@@ -201,7 +201,7 @@
     },
     {
       "date": "2026-08-26",
-      "count": 2502
+      "count": 2599
     }
   ]
 }
