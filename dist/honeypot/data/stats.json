@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-26T08:30:11.260348+00:00",
+  "generated_at": "2026-08-26T09:00:10.787584+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-26T08:27:02.507382Z",
-  "total_events": 746401,
-  "unique_sessions": 89502,
-  "unique_source_ips": 1599,
-  "login_attempts": 86771,
-  "login_success": 85961,
-  "commands_run": 143626,
+  "last_event": "2026-08-26T08:57:20.519024Z",
+  "total_events": 746448,
+  "unique_sessions": 89514,
+  "unique_source_ips": 1605,
+  "login_attempts": 86774,
+  "login_success": 85964,
+  "commands_run": 143637,
   "files_captured": 9,
   "top_usernames": [
     [
       "root",
-      82251
+      82252
     ],
     [
       "admin",
-      2489
+      2490
     ],
     [
       "enable\\x00",
@@ -74,7 +74,7 @@
   "top_passwords": [
     [
       "admin",
-      1499
+      1500
     ],
     [
       "xc3511",
@@ -90,7 +90,7 @@
     ],
     [
       "",
-      652
+      653
     ],
     [
       "123456",
@@ -134,20 +134,20 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 143626,
-    "cowrie.session.connect": 89502,
-    "cowrie.session.closed": 89419,
-    "cowrie.login.success": 85961,
-    "cowrie.session.params": 85842,
-    "cowrie.log.closed": 85759,
-    "cowrie.client.version": 74152,
-    "cowrie.client.kex": 74040,
-    "cowrie.telnet.option": 13384,
+    "cowrie.command.input": 143637,
+    "cowrie.session.connect": 89514,
+    "cowrie.session.closed": 89431,
+    "cowrie.login.success": 85964,
+    "cowrie.session.params": 85844,
+    "cowrie.log.closed": 85761,
+    "cowrie.client.version": 74153,
+    "cowrie.client.kex": 74041,
+    "cowrie.telnet.option": 13386,
     "cowrie.command.success": 2232,
     "cowrie.session.file_download": 1118,
     "cowrie.login.failed": 810,
     "cowrie.session.file_download.failed": 407,
-    "cowrie.direct-tcpip.request": 89,
+    "cowrie.direct-tcpip.request": 90,
     "cowrie.client.var": 12,
     "cowrie.virustotal.scanfile": 10,
     "cowrie.client.malformed_packet": 9,
@@ -201,7 +201,7 @@
     },
     {
       "date": "2026-08-26",
-      "count": 1480
+      "count": 1527
     }
   ]
 }
