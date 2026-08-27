@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-27T05:00:10.725313+00:00",
+  "generated_at": "2026-08-27T05:30:10.238004+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-27T04:57:12.758772Z",
-  "total_events": 748391,
-  "unique_sessions": 89897,
-  "unique_source_ips": 1777,
-  "login_attempts": 86903,
-  "login_success": 86091,
-  "commands_run": 144101,
+  "last_event": "2026-08-27T05:20:41.040370Z",
+  "total_events": 748472,
+  "unique_sessions": 89904,
+  "unique_source_ips": 1779,
+  "login_attempts": 86905,
+  "login_success": 86093,
+  "commands_run": 144148,
   "files_captured": 9,
   "top_usernames": [
     [
@@ -16,7 +16,7 @@
     ],
     [
       "admin",
-      2513
+      2515
     ],
     [
       "enable\\x00",
@@ -74,7 +74,7 @@
   "top_passwords": [
     [
       "admin",
-      1514
+      1516
     ],
     [
       "xc3511",
@@ -134,19 +134,19 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 144101,
-    "cowrie.session.connect": 89897,
-    "cowrie.session.closed": 89814,
-    "cowrie.login.success": 86091,
-    "cowrie.session.params": 85921,
-    "cowrie.log.closed": 85838,
-    "cowrie.client.version": 74228,
-    "cowrie.client.kex": 74107,
-    "cowrie.telnet.option": 13570,
-    "cowrie.command.success": 2257,
-    "cowrie.session.file_download": 1140,
+    "cowrie.command.input": 144148,
+    "cowrie.session.connect": 89904,
+    "cowrie.session.closed": 89821,
+    "cowrie.login.success": 86093,
+    "cowrie.session.params": 85923,
+    "cowrie.log.closed": 85840,
+    "cowrie.client.version": 74231,
+    "cowrie.client.kex": 74108,
+    "cowrie.telnet.option": 13572,
+    "cowrie.command.success": 2259,
+    "cowrie.session.file_download": 1142,
     "cowrie.login.failed": 812,
-    "cowrie.session.file_download.failed": 415,
+    "cowrie.session.file_download.failed": 419,
     "cowrie.direct-tcpip.request": 138,
     "cowrie.client.var": 12,
     "cowrie.telnet.error": 10,
@@ -205,7 +205,7 @@
     },
     {
       "date": "2026-08-27",
-      "count": 402
+      "count": 483
     }
   ]
 }
