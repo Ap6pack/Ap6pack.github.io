@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-27T19:30:10.538286+00:00",
+  "generated_at": "2026-08-27T20:00:13.491669+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-27T19:28:01.673316Z",
-  "total_events": 750821,
-  "unique_sessions": 90300,
-  "unique_source_ips": 1895,
-  "login_attempts": 87066,
-  "login_success": 86246,
-  "commands_run": 144882,
+  "last_event": "2026-08-27T19:58:52.798327Z",
+  "total_events": 751028,
+  "unique_sessions": 90315,
+  "unique_source_ips": 1898,
+  "login_attempts": 87078,
+  "login_success": 86257,
+  "commands_run": 144982,
   "files_captured": 10,
   "top_usernames": [
     [
       "root",
-      82386
+      82396
     ],
     [
       "admin",
-      2552
+      2554
     ],
     [
       "enable\\x00",
@@ -74,11 +74,11 @@
   "top_passwords": [
     [
       "admin",
-      1542
+      1543
     ],
     [
       "xc3511",
-      854
+      855
     ],
     [
       "vizxv",
@@ -94,7 +94,7 @@
     ],
     [
       "123456",
-      556
+      557
     ],
     [
       "888888",
@@ -134,18 +134,18 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 144882,
-    "cowrie.session.connect": 90300,
-    "cowrie.session.closed": 90216,
-    "cowrie.login.success": 86246,
-    "cowrie.session.params": 86040,
-    "cowrie.log.closed": 85956,
+    "cowrie.command.input": 144982,
+    "cowrie.session.connect": 90315,
+    "cowrie.session.closed": 90231,
+    "cowrie.login.success": 86257,
+    "cowrie.session.params": 86051,
+    "cowrie.log.closed": 85967,
     "cowrie.client.version": 74287,
     "cowrie.client.kex": 74157,
-    "cowrie.telnet.option": 13809,
-    "cowrie.command.success": 2280,
-    "cowrie.session.file_download": 1156,
-    "cowrie.login.failed": 820,
+    "cowrie.telnet.option": 13822,
+    "cowrie.command.success": 2300,
+    "cowrie.session.file_download": 1166,
+    "cowrie.login.failed": 821,
     "cowrie.session.file_download.failed": 435,
     "cowrie.direct-tcpip.request": 173,
     "cowrie.client.var": 12,
@@ -205,7 +205,7 @@
     },
     {
       "date": "2026-08-27",
-      "count": 2832
+      "count": 3039
     }
   ]
 }
