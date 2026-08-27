@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-27T06:00:11.388091+00:00",
+  "generated_at": "2026-08-27T06:30:10.747387+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-27T05:59:51.325645Z",
-  "total_events": 748674,
-  "unique_sessions": 89927,
-  "unique_source_ips": 1783,
-  "login_attempts": 86925,
-  "login_success": 86112,
-  "commands_run": 144233,
+  "last_event": "2026-08-27T06:07:44.093765Z",
+  "total_events": 748754,
+  "unique_sessions": 89934,
+  "unique_source_ips": 1785,
+  "login_attempts": 86932,
+  "login_success": 86119,
+  "commands_run": 144265,
   "files_captured": 9,
   "top_usernames": [
     [
       "root",
-      82324
+      82327
     ],
     [
       "admin",
-      2518
+      2521
     ],
     [
       "enable\\x00",
@@ -40,7 +40,7 @@
     ],
     [
       "default",
-      43
+      44
     ],
     [
       "supervisor",
@@ -74,15 +74,15 @@
   "top_passwords": [
     [
       "admin",
-      1519
+      1521
     ],
     [
       "xc3511",
-      849
+      851
     ],
     [
       "vizxv",
-      785
+      786
     ],
     [
       "linuxshell\\x00",
@@ -102,7 +102,7 @@
     ],
     [
       "password",
-      522
+      523
     ],
     [
       "xmhdipc",
@@ -134,15 +134,15 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 144233,
-    "cowrie.session.connect": 89927,
-    "cowrie.session.closed": 89841,
-    "cowrie.login.success": 86112,
-    "cowrie.session.params": 85941,
-    "cowrie.log.closed": 85855,
+    "cowrie.command.input": 144265,
+    "cowrie.session.connect": 89934,
+    "cowrie.session.closed": 89851,
+    "cowrie.login.success": 86119,
+    "cowrie.session.params": 85948,
+    "cowrie.log.closed": 85865,
     "cowrie.client.version": 74232,
     "cowrie.client.kex": 74109,
-    "cowrie.telnet.option": 13590,
+    "cowrie.telnet.option": 13597,
     "cowrie.command.success": 2259,
     "cowrie.session.file_download": 1142,
     "cowrie.login.failed": 813,
@@ -205,7 +205,7 @@
     },
     {
       "date": "2026-08-27",
-      "count": 685
+      "count": 765
     }
   ]
 }
