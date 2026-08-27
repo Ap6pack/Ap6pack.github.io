@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-27T20:30:10.541162+00:00",
+  "generated_at": "2026-08-27T21:00:11.872909+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-27T20:29:43.497628Z",
-  "total_events": 751238,
-  "unique_sessions": 90331,
-  "unique_source_ips": 1899,
-  "login_attempts": 87092,
-  "login_success": 86269,
-  "commands_run": 145074,
+  "last_event": "2026-08-27T20:57:28.823757Z",
+  "total_events": 751412,
+  "unique_sessions": 90343,
+  "unique_source_ips": 1901,
+  "login_attempts": 87102,
+  "login_success": 86279,
+  "commands_run": 145157,
   "files_captured": 10,
   "top_usernames": [
     [
       "root",
-      82408
+      82413
     ],
     [
       "admin",
-      2554
+      2555
     ],
     [
       "enable\\x00",
@@ -40,7 +40,7 @@
     ],
     [
       "default",
-      47
+      49
     ],
     [
       "supervisor",
@@ -59,16 +59,16 @@
       9
     ],
     [
+      "telecomadmin",
+      9
+    ],
+    [
       "pi",
       9
     ],
     [
-      "telecomadmin",
+      "e8ehome",
       8
-    ],
-    [
-      "&;; ",
-      7
     ]
   ],
   "top_passwords": [
@@ -134,17 +134,17 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 145074,
-    "cowrie.session.connect": 90331,
-    "cowrie.session.closed": 90247,
-    "cowrie.login.success": 86269,
-    "cowrie.session.params": 86063,
-    "cowrie.log.closed": 85979,
+    "cowrie.command.input": 145157,
+    "cowrie.session.connect": 90343,
+    "cowrie.session.closed": 90259,
+    "cowrie.login.success": 86279,
+    "cowrie.session.params": 86073,
+    "cowrie.log.closed": 85989,
     "cowrie.client.version": 74291,
     "cowrie.client.kex": 74161,
-    "cowrie.telnet.option": 13832,
-    "cowrie.command.success": 2320,
-    "cowrie.session.file_download": 1176,
+    "cowrie.telnet.option": 13842,
+    "cowrie.command.success": 2338,
+    "cowrie.session.file_download": 1185,
     "cowrie.login.failed": 823,
     "cowrie.session.file_download.failed": 435,
     "cowrie.direct-tcpip.request": 173,
@@ -205,7 +205,7 @@
     },
     {
       "date": "2026-08-27",
-      "count": 3249
+      "count": 3423
     }
   ]
 }
