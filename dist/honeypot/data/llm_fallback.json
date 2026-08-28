@@ -80,6 +80,11 @@
     "exit_code": 0
   },
   {
+    "command": "Connection: close",
+    "output": "bash: Connection: command not found\n",
+    "exit_code": 127
+  },
+  {
     "command": "Content-Length: 0",
     "output": "bash: syntax error near unexpected token `EOF'\n",
     "exit_code": 0
@@ -88,6 +93,11 @@
     "command": "Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=",
     "output": "cp: cannot stat 'Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=': No such file or directory\n",
     "exit_code": 127
+  },
+  {
+    "command": "Host: 100.53.77.128:23",
+    "output": "Usage: nc [-46DdlnqstUvz] [-g gateway] [-i interval] [-k seconds] [-p port] [-s source]\n[-w timeout] [-X protocol] [-x proxyhost[:port]] [hostname] [port]\n",
+    "exit_code": 0
   },
   {
     "command": "Max-Forwards: 70",
