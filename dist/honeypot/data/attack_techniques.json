@@ -88,8 +88,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1686",
-      "count": 11,
-      "distinct_ips": 10,
+      "count": 12,
+      "distinct_ips": 11,
       "examples": [
         "iptables -F"
       ]
@@ -136,6 +136,6 @@
       ]
     }
   ],
-  "total_commands": 145831,
-  "matched_commands": 77059
+  "total_commands": 145856,
+  "matched_commands": 77060
 }
