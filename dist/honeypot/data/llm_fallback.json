@@ -35,6 +35,11 @@
     "exit_code": 127
   },
   {
+    "command": "/data/.f",
+    "output": "/data/.f: No such file or directory\n",
+    "exit_code": 127
+  },
+  {
     "command": "/data/d",
     "output": "-bash: /data/d: Is a directory\n",
     "exit_code": 0
