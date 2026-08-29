@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-29T01:00:10.896893+00:00",
+  "generated_at": "2026-08-29T01:30:10.962448+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-29T00:52:07.081208Z",
-  "total_events": 755592,
-  "unique_sessions": 90929,
-  "unique_source_ips": 2062,
-  "login_attempts": 87349,
-  "login_success": 86510,
-  "commands_run": 146964,
+  "last_event": "2026-08-29T01:23:22.585958Z",
+  "total_events": 755630,
+  "unique_sessions": 90935,
+  "unique_source_ips": 2066,
+  "login_attempts": 87351,
+  "login_success": 86512,
+  "commands_run": 146976,
   "files_captured": 11,
   "top_usernames": [
     [
       "root",
-      82571
+      82572
     ],
     [
       "admin",
-      2600
+      2601
     ],
     [
       "enable\\x00",
@@ -74,7 +74,7 @@
   "top_passwords": [
     [
       "admin",
-      1574
+      1575
     ],
     [
       "xc3511",
@@ -134,27 +134,27 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 146964,
-    "cowrie.session.connect": 90929,
-    "cowrie.session.closed": 90846,
-    "cowrie.login.success": 86510,
-    "cowrie.session.params": 86302,
-    "cowrie.log.closed": 86219,
+    "cowrie.command.input": 146976,
+    "cowrie.session.connect": 90935,
+    "cowrie.session.closed": 90852,
+    "cowrie.login.success": 86512,
+    "cowrie.session.params": 86304,
+    "cowrie.log.closed": 86221,
     "cowrie.client.version": 74318,
     "cowrie.client.kex": 74181,
-    "cowrie.telnet.option": 14198,
+    "cowrie.telnet.option": 14204,
     "cowrie.command.success": 2386,
     "cowrie.session.file_download": 1217,
     "cowrie.login.failed": 839,
     "cowrie.session.file_download.failed": 443,
     "cowrie.direct-tcpip.request": 173,
+    "cowrie.client.var": 13,
     "cowrie.virustotal.scanfile": 12,
-    "cowrie.client.var": 12,
     "cowrie.client.malformed_packet": 11,
     "cowrie.telnet.error": 11,
     "cowrie.session.file_upload": 10,
+    "cowrie.telnet.exploit_attempt": 5,
     "cowrie.client.fingerprint": 5,
-    "cowrie.telnet.exploit_attempt": 4,
     "cowrie.direct-tcpip.ja4h": 1,
     "cowrie.direct-tcpip.data": 1
   },
@@ -213,7 +213,7 @@
     },
     {
       "date": "2026-08-29",
-      "count": 45
+      "count": 83
     }
   ]
 }
