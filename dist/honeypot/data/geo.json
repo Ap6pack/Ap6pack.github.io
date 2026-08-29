@@ -59,7 +59,7 @@
     "lon": -111.894,
     "country": "United States",
     "city": "Tempe",
-    "count": 59158,
+    "count": 60910,
     "abuse_score": 100,
     "abuse_reports": 1234,
     "isp": "GoDaddy.com, LLC",
@@ -76,7 +76,7 @@
     "lon": 150.8831,
     "country": "Australia",
     "city": "Bungarribee",
-    "count": 42397,
+    "count": 42407,
     "abuse_score": 100,
     "abuse_reports": 1769,
     "isp": "Newfold Digital, Inc.",
@@ -105,6 +105,23 @@
     "ai_agent_signal": "suspected"
   },
   {
+    "ip": "72.47.208.106",
+    "lat": 33.3359,
+    "lon": -111.894,
+    "country": "United States",
+    "city": "Tempe",
+    "count": 18925,
+    "abuse_score": 100,
+    "abuse_reports": 1174,
+    "isp": "GoDaddy.com, LLC",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "godaddy.com",
+    "is_tor": false,
+    "distinct_users": 179,
+    "last_reported_at": "2026-08-29T12:04:08+00:00",
+    "ai_agent_signal": "suspected"
+  },
+  {
     "ip": "208.109.189.59",
     "lat": 33.3359,
     "lon": -111.894,
@@ -119,23 +136,6 @@
     "is_tor": false,
     "distinct_users": 169,
     "last_reported_at": "2026-08-23T07:36:25+00:00",
-    "ai_agent_signal": "suspected"
-  },
-  {
-    "ip": "72.47.208.106",
-    "lat": 33.3359,
-    "lon": -111.894,
-    "country": "United States",
-    "city": "Tempe",
-    "count": 15037,
-    "abuse_score": 100,
-    "abuse_reports": 1174,
-    "isp": "GoDaddy.com, LLC",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "godaddy.com",
-    "is_tor": false,
-    "distinct_users": 179,
-    "last_reported_at": "2026-08-29T12:04:08+00:00",
     "ai_agent_signal": "suspected"
   },
   {
@@ -713,6 +713,22 @@
     "distinct_users": 1,
     "last_reported_at": "2026-08-18T18:20:33+00:00",
     "ai_agent_signal": "suspected"
+  },
+  {
+    "ip": "180.149.210.43",
+    "lat": 24.8591,
+    "lon": 66.9983,
+    "country": "Pakistan",
+    "city": "Karachi",
+    "count": 108,
+    "abuse_score": 100,
+    "abuse_reports": 93,
+    "isp": "Delta Networks",
+    "usage_type": "Fixed Line ISP",
+    "domain": "dot99.net",
+    "is_tor": false,
+    "distinct_users": 44,
+    "last_reported_at": "2026-08-29T14:53:40+00:00"
   },
   {
     "ip": "176.61.54.22",
@@ -3417,7 +3433,7 @@
     "distinct_users": 702,
     "last_reported_at": "2026-08-18T08:25:28+00:00",
     "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "92.118.39.77",
@@ -3633,7 +3649,7 @@
     "distinct_users": 728,
     "last_reported_at": "2026-08-19T13:00:06+00:00",
     "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "162.243.113.107",
@@ -3977,7 +3993,7 @@
     "distinct_users": 718,
     "last_reported_at": "2026-08-18T10:22:00+00:00",
     "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "45.195.200.157",
@@ -4128,7 +4144,7 @@
     "distinct_users": 674,
     "last_reported_at": "2026-08-18T16:30:02+00:00",
     "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "54.75.165.40",
@@ -6478,7 +6494,7 @@
     "distinct_users": 687,
     "last_reported_at": "2026-08-29T00:30:04+00:00",
     "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "181.233.2.219",
@@ -8361,6 +8377,54 @@
     "is_tor": false,
     "distinct_users": 17,
     "last_reported_at": "2026-08-22T00:04:25+00:00"
+  },
+  {
+    "ip": "195.225.49.101",
+    "lat": 51.7689,
+    "lon": 32.2547,
+    "country": "Ukraine",
+    "city": "Koryukivka",
+    "count": 8,
+    "abuse_score": 90,
+    "abuse_reports": 32,
+    "isp": "LLC SMARTCOM",
+    "usage_type": "Fixed Line ISP",
+    "domain": "smartcom.net.ua",
+    "is_tor": false,
+    "distinct_users": 19,
+    "last_reported_at": "2026-08-29T02:07:37+00:00"
+  },
+  {
+    "ip": "91.203.12.212",
+    "lat": 51.5063,
+    "lon": 31.3168,
+    "country": "Ukraine",
+    "city": "Desnyanskyi",
+    "count": 8,
+    "abuse_score": 5,
+    "abuse_reports": 1,
+    "isp": "Osnova-Internet LLC",
+    "usage_type": "Fixed Line ISP",
+    "domain": "osnova.tv",
+    "is_tor": false,
+    "distinct_users": 1,
+    "last_reported_at": "2026-08-29T06:56:25+00:00"
+  },
+  {
+    "ip": "88.147.249.220",
+    "lat": 51.5391,
+    "lon": 45.9985,
+    "country": "Russia",
+    "city": "Saratov",
+    "count": 8,
+    "abuse_score": 84,
+    "abuse_reports": 18,
+    "isp": "Network of Saratov branch of OJSC Volgatelecom",
+    "usage_type": "Fixed Line ISP",
+    "domain": "rt.ru",
+    "is_tor": false,
+    "distinct_users": 14,
+    "last_reported_at": "2026-08-29T05:28:48+00:00"
   },
   {
     "ip": "181.25.202.92",
@@ -13304,7 +13368,25 @@
     "distinct_users": 26,
     "last_reported_at": "2026-08-29T05:04:30+00:00",
     "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
+  },
+  {
+    "ip": "48.217.85.40",
+    "lat": 36.677696,
+    "lon": -78.37471,
+    "country": "United States",
+    "city": "Boydton",
+    "count": 7,
+    "abuse_score": 100,
+    "abuse_reports": 96,
+    "isp": "Microsoft Limited",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "microsoft.com",
+    "is_tor": false,
+    "distinct_users": 56,
+    "last_reported_at": "2026-08-29T15:04:46+00:00",
+    "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
+    "hassh_shared_count": 9
   },
   {
     "ip": "47.102.107.147",
@@ -13692,7 +13774,7 @@
     "distinct_users": 4,
     "last_reported_at": "2026-08-26T23:30:02+00:00",
     "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "20.84.144.113",
@@ -13746,7 +13828,7 @@
     "distinct_users": 18,
     "last_reported_at": "2026-08-28T02:38:47+00:00",
     "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "142.0.4.162",
@@ -13891,6 +13973,38 @@
     "is_tor": false,
     "distinct_users": 137,
     "last_reported_at": "2026-08-29T16:36:11+00:00"
+  },
+  {
+    "ip": "80.234.77.7",
+    "lat": 53.2061,
+    "lon": 50.1509,
+    "country": "Russia",
+    "city": "Samara",
+    "count": 6,
+    "abuse_score": 9,
+    "abuse_reports": 2,
+    "isp": "PJSC Rostelecom",
+    "usage_type": "Fixed Line ISP",
+    "domain": "rt.ru",
+    "is_tor": false,
+    "distinct_users": 2,
+    "last_reported_at": "2026-07-31T13:55:29+00:00"
+  },
+  {
+    "ip": "131.196.80.132",
+    "lat": -26.7004,
+    "lon": -59.1233,
+    "country": "Argentina",
+    "city": "Pampa Almir\u00f3n",
+    "count": 6,
+    "abuse_score": 100,
+    "abuse_reports": 49,
+    "isp": "SOTO DANIEL MARIO (COMPUS INFORMATICA)",
+    "usage_type": "Fixed Line ISP",
+    "domain": "compusinformatica.com.ar",
+    "is_tor": false,
+    "distinct_users": 35,
+    "last_reported_at": "2026-08-28T01:02:40+00:00"
   },
   {
     "ip": "92.234.0.95",

