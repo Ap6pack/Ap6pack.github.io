@@ -106,7 +106,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 105.209.170.50,2026-08-24T22:53:36.438852Z,2026-08-24T22:55:46.424414Z,2,0,0,0,low,connected_only,false,true,,7,South Africa,MTN SA,mtn.com,false,66
 105.235.101.177,2026-08-24T19:52:03.306917Z,2026-08-24T19:53:04.984345Z,2,0,0,0,low,connected_only,false,true,,7,Ivory Coast,MTN COTE D'IVOIRE S.A,mtn.com,false,68
 105.235.139.197,2026-08-28T22:32:57.261173Z,2026-08-28T22:33:24.042533Z,2,0,0,0,low,connected_only,false,true,,7,Algeria,Wataniya Telecom Algerie,ooredoo.dz,false,15
-105.242.179.131,2026-08-23T21:01:37.198492Z,2026-08-23T21:01:55.564443Z,3,0,0,0,low,connected_only,false,true,,7,South Africa,Vodacom_ENS,vodacom.co.za,false,0
+105.242.179.131,2026-08-23T21:01:37.198492Z,2026-08-23T21:01:55.564443Z,3,0,0,0,low,connected_only,false,false,,7,South Africa,Vodacom_ENS,vodacom.co.za,false,0
 106.12.120.171,2026-08-26T13:49:18.055227Z,2026-08-26T13:54:22.115897Z,1,1,0,1,high,delivered_payload,false,true,,7,China,"Beijing Baidu Netcom Science and Technology Co., Ltd.",baidu.com,false,100
 106.12.221.161,2026-08-19T03:07:41.469442Z,2026-08-19T03:09:41.483845Z,1,0,0,0,low,single_sighting,false,false,,7,China,"Beijing Baidu Netcom Science and Technology Co., Ltd.",baidu.com,false,100
 106.125.210.21,2026-08-24T09:54:52.998688Z,2026-08-24T09:54:58.589229Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,China,CHINANET Guangdong province network,chinatelecom.cn,false,100
@@ -457,7 +457,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 161.35.15.36,2026-08-27T07:02:06.558712Z,2026-08-27T07:02:07.199925Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"DigitalOcean, LLC",digitalocean.com,false,0
 161.35.222.60,2026-08-18T01:43:17.622322Z,2026-08-18T01:43:17.820116Z,2,0,0,0,low,connected_only,false,false,,7,Germany,"DigitalOcean, LLC",digitalocean.com,false,16
 161.35.229.181,2026-08-23T14:39:28.808349Z,2026-08-23T14:39:28.943553Z,2,0,0,0,low,connected_only,false,false,,7,United States,"DigitalOcean, LLC",digitalocean.com,false,49
-161.35.36.57,2026-08-23T20:20:57.046403Z,2026-08-23T20:21:05.045489Z,1,0,0,0,low,single_sighting,false,true,,7,United Kingdom,"DigitalOcean, LLC",digitalocean.com,false,100
+161.35.36.57,2026-08-23T20:20:57.046403Z,2026-08-23T20:21:05.045489Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,"DigitalOcean, LLC",digitalocean.com,false,100
 162.17.163.226,2026-08-23T13:29:34.154859Z,2026-08-23T13:30:18.374332Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,United States,"Comcast Cable Communications, LLC",comcast.com,false,100
 162.207.190.99,2026-08-28T04:13:11.696037Z,2026-08-28T04:16:16.993040Z,2,0,0,0,low,connected_only,false,true,,7,United States,"AT&T Enterprises, LLC",att.com,false,100
 162.216.149.186,2026-08-27T08:23:51.244724Z,2026-08-27T08:23:51.272228Z,2,0,0,0,low,connected_only,false,true,,7,United States,Google LLC,google.com,false,0
@@ -870,7 +870,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 186.208.103.32,2026-08-21T23:22:54.766195Z,2026-08-21T23:22:57.084585Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Brazil,PROXXIMA TELECOMUNICACOES SA,proxxima.net,false,87
 186.22.108.110,2026-08-21T11:53:38.957455Z,2026-08-21T11:54:03.302430Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Telecentro S.A.,telecentro.com.ar,false,28
 186.22.13.21,2026-08-21T15:58:09.693012Z,2026-08-21T15:58:09.696815Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telecentro S.A.,telecentro.com.ar,false,42
-186.22.253.103,2026-08-23T20:51:18.585940Z,2026-08-23T20:51:25.237431Z,3,0,0,0,low,connected_only,false,true,,7,Argentina,Telecentro S.A.,telecentro.com.ar,false,89
+186.22.253.103,2026-08-23T20:51:18.585940Z,2026-08-23T20:51:25.237431Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Telecentro S.A.,telecentro.com.ar,false,89
 186.22.253.214,2026-08-21T08:41:00.595023Z,2026-08-21T08:41:00.598052Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telecentro S.A.,telecentro.com.ar,false,100
 186.22.57.12,2026-08-19T05:56:23.210999Z,2026-08-19T05:56:52.476226Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telecentro S.A.,telecentro.com.ar,false,82
 186.22.57.230,2026-08-28T17:38:36.425143Z,2026-08-28T17:38:36.425907Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,Telecentro S.A.,telecentro.com.ar,false,100
@@ -1204,7 +1204,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 200.112.142.93,2026-08-29T15:35:42.603284Z,2026-08-29T15:35:45.234246Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Argentina,SION S.A,sion.com,false,100
 200.117.16.254,2026-08-20T10:13:29.132414Z,2026-08-20T10:18:42.614651Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Tecnopan S.R.L.,tecnored.net.ar,false,100
 200.118.61.25,2026-08-20T22:39:36.088143Z,2026-08-20T22:39:36.088930Z,1,0,0,0,low,single_sighting,false,false,,7,Colombia,Telmex Colombia S.A.,telmexla.net.co,false,44
-200.123.129.151,2026-08-23T21:18:10.780671Z,2026-08-23T21:19:18.074580Z,3,0,0,0,low,connected_only,false,true,,7,Argentina,NSS S.A.,iplan.com.ar,false,94
+200.123.129.151,2026-08-23T21:18:10.780671Z,2026-08-23T21:19:18.074580Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,NSS S.A.,iplan.com.ar,false,94
 200.124.110.46,2026-08-23T18:37:31.135479Z,2026-08-23T18:37:35.048496Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,SION S.A,sion.com,false,100
 200.125.230.249,2026-08-27T14:24:24.886441Z,2026-08-27T14:24:28.016301Z,2,0,0,0,low,connected_only,false,true,,7,Ecuador,CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP,cnt.gob.ec,false,24
 200.160.76.184,2026-08-28T16:06:46.336075Z,2026-08-28T16:07:18.346065Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Brazil,TELEFÔNICA BRASIL S.A,telefonica.com.br,false,0
@@ -1337,7 +1337,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 207.175.177.92,2026-08-23T02:58:28.893128Z,2026-08-23T02:59:10.318209Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,23
 207.230.10.17,2026-08-26T17:55:03.286390Z,2026-08-26T17:55:03.287290Z,1,0,0,0,low,single_sighting,false,true,,7,Colombia,TV&MAS S.A.S,tvymas.co,false,74
 207.46.224.87,2026-08-25T16:34:46.148932Z,2026-08-25T20:52:40.397932Z,2,2,1,0,low,executed_commands,true,true,f25297859cf0a70a,7,Singapore,Microsoft Corporation,microsoft.com,false,100
-208.109.189.59,2026-08-23T07:32:02.101783Z,2026-08-23T20:35:33.015643Z,1677,1788,8163,0,medium,executed_commands,false,true,,7,United States,"GoDaddy.com, LLC",godaddy.com,false,100
+208.109.189.59,2026-08-23T07:32:02.101783Z,2026-08-23T20:35:33.015643Z,1677,1788,8163,0,medium,persistent,false,false,,7,United States,"GoDaddy.com, LLC",godaddy.com,false,100
 208.92.220.138,2026-08-29T17:43:43.924045Z,2026-08-29T17:43:44.140664Z,1,1,0,0,low,single_sighting,false,true,,7,United States,ManagedWay,managedway.com,false,100
 209.103.243.96,2026-08-18T01:48:22.337440Z,2026-08-18T01:49:06.247772Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,United States,Bertram Communications LLC,gobertram.com,false,100
 209.14.89.110,2026-08-27T00:14:13.929837Z,2026-08-27T12:20:21.980076Z,2,2,0,0,low,connected_only,false,true,,7,Brazil,X99 INTERNET,x99.cloud,false,100
@@ -1480,7 +1480,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 31.134.118.100,2026-08-24T22:23:51.628327Z,2026-08-24T22:24:09.067672Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,LLC VECHIR TELECOM,vechir.ua,false,52
 31.134.118.95,2026-08-23T23:04:42.926184Z,2026-08-23T23:04:42.928079Z,2,0,0,0,low,connected_only,false,true,,7,Ukraine,LLC VECHIR TELECOM,vechir.ua,false,55
 31.135.246.219,2026-08-25T06:22:40.449042Z,2026-08-25T06:23:01.467795Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,LLC Kurgan-Telecom,kurgan-telecom.net,false,25
-31.162.140.9,2026-08-23T21:04:51.791329Z,2026-08-23T21:05:11.410373Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,Dynamic distribution IP's for broadband services,rt.ru,false,58
+31.162.140.9,2026-08-23T21:04:51.791329Z,2026-08-23T21:05:11.410373Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,Dynamic distribution IP's for broadband services,rt.ru,false,58
 31.215.221.175,2026-08-22T16:16:49.915136Z,2026-08-22T16:16:49.917020Z,2,0,0,0,low,connected_only,false,false,,7,United Arab Emirates,Emirates Telecommunications Corporation,etisalat.ae,false,29
 31.220.0.26,2026-08-22T02:52:55.323397Z,2026-08-23T16:31:20.268455Z,5,4,16,0,low,executed_commands,false,false,61912bcbd56c9b64,7,The Netherlands,KODDOS,koddos.com,false,100
 31.40.160.99,2026-08-18T01:36:27.058753Z,2026-08-18T01:36:30.243742Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Russia,Ergashova Lemara Alimovna,crimeastar.net,false,5
@@ -1633,7 +1633,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 45.12.24.14,2026-08-19T19:17:10.063561Z,2026-08-19T19:18:05.637687Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Ukraine,PC Astra-net,astra.in.ua,false,100
 45.125.5.112,2026-08-27T02:15:40.274846Z,2026-08-27T02:16:18.856368Z,2,0,0,0,low,connected_only,false,true,,7,Myanmar,"Global Technology Co., Ltd.",globalnetmm.com,false,13
 45.130.246.71,2026-08-20T17:48:32.553000Z,2026-08-20T17:48:50.304733Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,ATOMOHOST LLC,briz.ua,false,45
-45.132.92.152,2026-08-23T21:23:28.740195Z,2026-08-23T21:23:45.999217Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,PP DIGITAL COMMUNICATIONS,digicom.ua,false,45
+45.132.92.152,2026-08-23T21:23:28.740195Z,2026-08-23T21:23:45.999217Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,PP DIGITAL COMMUNICATIONS,digicom.ua,false,45
 45.135.194.26,2026-08-21T21:22:20.404834Z,2026-08-21T21:22:20.473169Z,1,0,0,0,low,single_sighting,false,false,,7,Germany,Pfcloud UG,pfcloud.io,false,100
 45.148.10.239,2026-08-23T13:49:35.786345Z,2026-08-23T13:49:36.197690Z,1,0,0,0,low,single_sighting,false,false,,7,The Netherlands,TECHOFF SRV LIMITED,dmzhost.co,false,100
 45.148.243.104,2026-08-21T14:47:51.435206Z,2026-08-21T14:50:07.482046Z,3,0,0,0,low,connected_only,false,false,,7,Russia,RuaD-Group LLC,,false,93
@@ -2065,7 +2065,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 85.165.104.58,2026-08-18T07:14:16.319891Z,2026-08-29T16:14:00.911316Z,3,3,48,3,high,delivered_payload,false,true,f0ed612071c45603,7,Norway,Telenor Norge AS,telenor.no,false,100
 85.195.9.20,2026-08-25T05:37:45.423143Z,2026-08-25T05:37:51.601356Z,1,1,0,0,low,single_sighting,false,true,,7,Sweden,Bng; gbg,netatonce.se,false,100
 85.250.242.154,2026-08-28T03:20:10.734358Z,2026-08-28T03:20:28.511965Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Israel,013 Netvision,cellcom.co.il,false,38
-85.87.100.139,2026-08-23T20:22:09.748095Z,2026-08-23T20:22:28.027626Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Spain,Global Telecommunication Service Provider,masorange.es,false,100
+85.87.100.139,2026-08-23T20:22:09.748095Z,2026-08-23T20:22:28.027626Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Spain,Global Telecommunication Service Provider,masorange.es,false,100
 85.93.59.50,2026-08-20T19:30:35.862304Z,2026-08-20T19:30:54.224623Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,CAIT backbone net (core and distribution),kirov.ru,false,80
 85.99.93.200,2026-08-25T05:49:34.230124Z,2026-08-25T05:49:41.739015Z,1,1,0,0,low,single_sighting,false,true,,7,Turkey,Turk Telekomunikasyon Anonim Sirketi,turktelekom.com.tr,false,100
 86.161.32.64,2026-08-20T17:24:40.766461Z,2026-08-20T17:24:42.326117Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,BT Infrastructure Layer,bt.com,false,16
