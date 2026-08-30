@@ -1,15 +1,15 @@
 name: Normalise honeypot export
 
 # The honeypot instance syncs dist/honeypot/data/ here every ~30 minutes. What
-# it publishes is the raw export: no index on logins(ts), no daily rollup, a
-# manifest that types nothing, and a replay carrying the instance's own
-# hostname. Those four gaps are fixed by scripts that belong in the export
-# pipeline on that machine - but until they run there, they can run here, over
-# the same files, immediately after each sync.
+# it publishes is the raw export: no index on logins(ts), no rollups, a manifest
+# that types nothing, and a replay carrying the instance's own hostname. Those
+# gaps are fixed by scripts that belong in the export pipeline on that machine -
+# but until they run there, they run here, over the same files, immediately
+# after each sync.
 #
-# Everything is idempotent. If the pipeline on the honeypot instance ever
-# starts doing this itself, every step below reports "nothing to do" and the
-# job commits nothing, so there is no need to remove this workflow first.
+# Everything is idempotent. If the pipeline on the honeypot instance ever starts
+# doing this itself, every step reports "nothing to do" and the job commits
+# nothing, so there is no need to remove this workflow first.
 #
 # WHY THIS DOES NOT LOOP
 #
@@ -17,14 +17,22 @@ name: Normalise honeypot export
 # trigger workflows from pushes made with it. The scripts being idempotent is
 # the second line of defence, not the first.
 #
+# WHY IT RETRIES
+#
+# Two other things push to master: the honeypot's sync cron, every half hour,
+# and the dashboard's publish workflow in Ap6pack/sundew. Either can land during
+# the twenty seconds this job takes, and then the push is rejected. The first
+# version of this workflow failed the run when that happened, which is wrong -
+# the answer is to take whatever won, re-normalise on top of it, and push again.
+# normalise.sh is written to be re-entrant precisely so that loop is safe.
+#
 # WHAT IT COSTS
 #
-# The three JSON steps are free. The database step is not: adding the index and
-# rollup appends about 3.4 MB, which lands in roughly six 1 MB shards, and git
-# stores SQLite pages more or less uncompressed. Measured over 20 consecutive
-# syncs, the database itself changed in 2 of them, so this is about five
-# rebuilds a day rather than forty-eight. It still adds up, which is why the
-# database step is skipped unless the shards actually changed.
+# The JSON steps are free. The database step is not: adding the index and the
+# rollups appends about 3.4 MB, which lands in a handful of 1 MB shards, and git
+# stores SQLite pages more or less uncompressed. It is therefore skipped twice
+# over - once when the push did not touch the shards at all, and again when the
+# shards are present but already carry a current index and rollups.
 
 on:
   push:
@@ -37,8 +45,8 @@ permissions:
   contents: write
 
 # Syncs land every half hour; never let two normalisations race for the same
-# files. Cancelling in progress is wrong here - a half-written database would
-# be committed - so queue instead.
+# files. Cancelling in progress is wrong here - a half-written database would be
+# committed - so queue instead.
 concurrency:
   group: normalise-honeypot-export
   cancel-in-progress: false
@@ -59,36 +67,13 @@ jobs:
 
       # Only the standard library is used, deliberately: this has to keep
       # working with no dependency resolution and no network.
-      - name: Type the sample manifest
-        run: python3 .github/scripts/normalize-samples.py dist/honeypot/data
+      - name: Normalise the export
+        run: sh .github/scripts/normalise.sh
 
-      - name: Redact the honeypot's own identity from the replay
-        run: python3 .github/scripts/redact-replay.py dist/honeypot/data/session_replay.json
-
-      - name: Did the database change in this push?
-        id: db
-        run: |
-          if git diff --quiet HEAD~1 HEAD -- dist/honeypot/data/db/ 2>/dev/null; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "Database shards untouched by this sync - skipping the rebuild."
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "Database shards changed - rebuilding index and rollup."
-          fi
-
-      - name: Rebuild the index and the daily rollup
-        if: steps.db.outputs.changed == 'true'
-        run: |
-          set -euo pipefail
-          python3 .github/scripts/shard-db.py join dist/honeypot/data/db "$RUNNER_TEMP/honeypot.db"
-          python3 .github/scripts/index-db.py "$RUNNER_TEMP/honeypot.db"
-          python3 .github/scripts/build-rollups.py "$RUNNER_TEMP/honeypot.db"
-          python3 .github/scripts/shard-db.py split dist/honeypot/data/db "$RUNNER_TEMP/honeypot.db"
-
-      # Belt and braces: every script re-run in --check mode must agree that
-      # there is nothing left to do. A non-zero exit here means the tree we are
-      # about to commit is not actually normalised, and publishing it would put
-      # confident wrong numbers on the site.
+      # Belt and braces: every script re-run in --check mode must agree there is
+      # nothing left to do. A non-zero exit here means the tree we are about to
+      # commit is not actually normalised, and publishing it would put confident
+      # wrong numbers on the site.
       - name: Verify the tree is fully normalised
         run: |
           set -euo pipefail
@@ -104,22 +89,39 @@ jobs:
           sys.exit(0 if ok == "ok" else 1)
           PY
 
-      - name: Commit if anything changed
+      - name: Commit and push, re-normalising if the remote moved
         run: |
           set -euo pipefail
-          if git diff --quiet; then
-            echo "Already normalised - nothing to commit."
-            exit 0
-          fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/honeypot/data
-          git commit -m "chore: normalise honeypot export
+
+          for attempt in 1 2 3; do
+            if git diff --quiet; then
+              echo "Already normalised - nothing to commit."
+              exit 0
+            fi
+
+            git add dist/honeypot/data
+            git commit -m "chore: normalise honeypot export
 
           Applies the export-pipeline scripts to the data the honeypot instance
           just synced: types the sample manifest, redacts the instance's own
-          hostname from the replay, and - when the database changed - adds
-          idx_logins_ts and rebuilds the daily_ips rollup.
+          hostname from the replay, and - when the database needs it - adds
+          idx_logins_ts and rebuilds the daily_ips and hourly_activity rollups.
 
           Idempotent; this commit is empty when the pipeline has already done it."
-          git push
+
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+
+            echo "::notice::Push rejected on attempt $attempt - something else pushed to master. Taking its tree and re-normalising."
+            git reset --hard HEAD~1
+            git fetch origin master
+            git reset --hard origin/master
+            sh .github/scripts/normalise.sh
+          done
+
+          echo "::error::Could not push after 3 attempts; master is moving faster than this job can normalise it."
+          exit 1
