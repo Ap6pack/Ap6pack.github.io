@@ -274,7 +274,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 125.25.183.157,2026-08-25T19:41:08.155535Z,2026-08-25T19:41:17.226650Z,1,1,0,0,low,single_sighting,false,true,,7,Thailand,TOT Public Company Limited Bangkok,totisp.net,false,100
 125.42.252.20,2026-08-18T13:09:26.927247Z,2026-08-18T13:14:38.253809Z,24,0,0,0,medium,persistent,false,false,,7,China,China Unicom Henan province network,chinaunicom.cn,false,4
 128.0.26.47,2026-08-24T03:07:54.778344Z,2026-08-24T03:08:13.045628Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,Sibirskie Seti Altay,sibset-team.ru,false,100
-128.199.205.41,2026-08-23T22:25:02.315551Z,2026-08-23T22:27:12.009937Z,2,0,0,0,low,connected_only,false,true,,7,Singapore,"DigitalOcean, LLC",digitalocean.com,false,78
+128.199.205.41,2026-08-23T22:25:02.315551Z,2026-08-23T22:27:12.009937Z,2,0,0,0,low,connected_only,false,false,,7,Singapore,"DigitalOcean, LLC",digitalocean.com,false,78
 13.221.244.98,2026-08-19T22:18:51.740740Z,2026-08-19T22:18:51.760126Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
 13.56.155.83,2026-08-18T04:03:08.643109Z,2026-08-18T04:03:18.705750Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,15
 13.89.125.31,2026-08-17T20:19:44.137167Z,2026-08-17T20:19:54.140293Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Corporation,microsoft.com,false,100
@@ -313,7 +313,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 138.59.142.186,2026-08-18T14:04:48.802850Z,2026-08-18T14:07:19.677998Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Grupo Fullsat SRL,optimix.com.ar,false,91
 138.59.172.45,2026-08-25T10:07:49.118579Z,2026-08-25T10:07:49.119388Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,Mauro Daniel Fortini (2F INFORMATICA),2finternet.com.ar,false,100
 138.94.169.31,2026-08-24T23:20:31.956943Z,2026-08-24T23:20:32.270872Z,2,0,0,0,low,connected_only,false,true,,7,Brazil,INNON - OPERADORA DE SERVICOS MULTIMIDIA LTDA,innon.com.br,false,13
-138.97.235.134,2026-08-23T22:10:59.004443Z,2026-08-23T22:11:24.307107Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Brazil,CAS TELECOMUNICACOES EIRELI,cas.net.br,false,57
+138.97.235.134,2026-08-23T22:10:59.004443Z,2026-08-23T22:11:24.307107Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Brazil,CAS TELECOMUNICACOES EIRELI,cas.net.br,false,57
 139.135.40.107,2026-08-21T01:02:37.403956Z,2026-08-21T01:02:49.975856Z,1,0,0,0,low,single_sighting,false,false,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,51
 139.135.41.114,2026-08-19T21:43:59.129432Z,2026-08-19T21:44:11.703243Z,1,0,0,0,low,single_sighting,false,false,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,81
 139.135.43.98,2026-08-27T15:25:55.379593Z,2026-08-27T15:31:19.974360Z,25,0,0,0,medium,persistent,false,true,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,91
@@ -1144,7 +1144,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 198.235.24.147,2026-08-17T22:54:46.198402Z,2026-08-17T22:54:56.288784Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.16,2026-08-23T23:08:23.289913Z,2026-08-23T23:08:33.286354Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.163,2026-08-24T00:55:37.588868Z,2026-08-24T00:55:37.788856Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
-198.235.24.178,2026-08-23T22:11:00.477665Z,2026-08-23T22:11:10.996105Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
+198.235.24.178,2026-08-23T22:11:00.477665Z,2026-08-23T22:11:10.996105Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.181,2026-08-22T16:48:28.974365Z,2026-08-22T16:48:59.844657Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.185,2026-08-28T20:01:51.194855Z,2026-08-28T20:01:51.422528Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.201,2026-08-26T16:41:38.358026Z,2026-08-26T16:41:49.154335Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
@@ -1503,7 +1503,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 34.146.248.7,2026-08-26T19:22:15.688711Z,2026-08-26T19:22:24.635378Z,1,1,0,0,low,single_sighting,false,true,,7,Japan,Google LLC,google.com,false,100
 34.156.10.215,2026-08-25T03:00:28.072392Z,2026-08-25T03:00:34.574185Z,1,0,0,0,low,single_sighting,false,true,,7,Belgium,Google LLC,google.com,false,54
 34.156.249.126,2026-08-30T03:11:57.691099Z,2026-08-30T03:12:39.096819Z,6,3,8,0,medium,executed_commands,false,true,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,59
-34.204.50.181,2026-08-23T22:20:22.909060Z,2026-08-23T22:20:22.925679Z,1,0,0,0,low,single_sighting,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
+34.204.50.181,2026-08-23T22:20:22.909060Z,2026-08-23T22:20:22.925679Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 34.22.119.218,2026-08-26T04:27:06.871310Z,2026-08-26T04:27:21.456487Z,1,0,0,0,low,single_sighting,false,true,,7,Belgium,Google LLC,google.com,false,73
 34.34.144.123,2026-08-25T03:02:56.261851Z,2026-08-25T03:03:37.684741Z,6,3,8,0,medium,executed_commands,false,true,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,51
 34.34.171.115,2026-08-22T02:35:18.583761Z,2026-08-22T02:36:00.001967Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,47
