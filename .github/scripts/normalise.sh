@@ -43,3 +43,19 @@ if [ "$needs_work" = 1 ]; then
 else
   echo "Database already has the index and current rollups; leaving the shards alone."
 fi
+
+# Separate reconnaissance from attack, and record the source-weighted counts.
+#
+# One probe from five addresses carries 79.8% of every session here, so every
+# session- and event-weighted total describes those five hosts rather than the
+# internet. This writes the split into stats.json and classification.json;
+# nothing is filtered.
+python3 "$S/classify-traffic.py" "$DATA" --db "$TMP/honeypot.db"
+
+# The published feed: data/v1/, tiered and aged, plus MISP and STIX.
+#
+# Runs last because it reads what everything above wrote - the reconciled
+# stats, the recon classification, and the joined database. Rewrites a file
+# only when something other than the clock moved, so a sync that changed
+# nothing leaves all 68 of them alone.
+python3 "$S/build-feed.py" "$DATA" --db "$TMP/honeypot.db"

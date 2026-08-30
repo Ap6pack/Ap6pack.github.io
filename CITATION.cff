@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "Sundew: an SSH/Telnet honeypot dataset with behavioural campaign attribution"
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - alias: Ap6pack
+url: "https://ap6pack.github.io/dist/honeypot/"
+repository-code: "https://github.com/Ap6pack/Ap6pack.github.io"
+license: CC-BY-4.0
+keywords:
+  - honeypot
+  - cowrie
+  - threat-intelligence
+  - ssh
+  - telnet
+  - indicators-of-compromise
+abstract: >-
+  Observations from a single Cowrie SSH/Telnet honeypot on one AWS EC2
+  instance, published continuously. Includes a tiered and aged indicator
+  feed, per-address behavioural campaign attribution with terminal
+  recordings, MITRE ATT&CK pattern matches, and captured malware metadata.
+
+  Two properties matter when citing it. It is one sensor on one address, so
+  it describes what happened to walk past rather than the internet. And its
+  session- and event-weighted totals are dominated by a small number of
+  hosts: one reconnaissance cluster accounts for roughly 80% of all sessions
+  from five addresses, which is why the published figures are weighted by
+  distinct source and the reconnaissance traffic is classified separately.
+  See data/v1/feed/README.md for the methodology.

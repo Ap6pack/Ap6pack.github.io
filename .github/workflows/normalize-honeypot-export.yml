@@ -7,6 +7,12 @@ name: Normalise honeypot export
 # but until they run there, they run here, over the same files, immediately
 # after each sync.
 #
+# It also builds what the raw export has no notion of: the reconnaissance/attack
+# split, and the versioned indicator feed under data/v1/ that third parties
+# consume. Those are generated here by design rather than by necessity - both
+# are derived entirely from the published export, so the machine producing that
+# export is not a better place to compute them.
+#
 # Everything is idempotent. If the pipeline on the honeypot instance ever starts
 # doing this itself, every step reports "nothing to do" and the job commits
 # nothing, so there is no need to remove this workflow first.
@@ -33,6 +39,10 @@ name: Normalise honeypot export
 # stores SQLite pages more or less uncompressed. It is therefore skipped twice
 # over - once when the push did not touch the shards at all, and again when the
 # shards are present but already carry a current index and rollups.
+#
+# The feed is 3.3 MB and every file in it carries a timestamp, so it is written
+# only when something other than the clock moved. Three consecutive syncs that
+# change no observation rewrite none of its 68 files.
 
 on:
   push:
@@ -83,6 +93,8 @@ jobs:
           python3 .github/scripts/index-db.py "$RUNNER_TEMP/verify.db" --check
           python3 .github/scripts/build-rollups.py "$RUNNER_TEMP/verify.db" --check
           python3 .github/scripts/reconcile-stats.py dist/honeypot/data --db "$RUNNER_TEMP/verify.db" --check
+          python3 .github/scripts/classify-traffic.py dist/honeypot/data --db "$RUNNER_TEMP/verify.db" --check
+          python3 .github/scripts/build-feed.py dist/honeypot/data --db "$RUNNER_TEMP/verify.db" --check
           python3 - "$RUNNER_TEMP/verify.db" <<'PY'
           import sqlite3, sys
           ok = sqlite3.connect(sys.argv[1]).execute("PRAGMA integrity_check").fetchone()[0]
@@ -96,19 +108,25 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # `git status --porcelain`, not `git diff`. git diff only reports
+          # tracked files, and the feed under dist/honeypot/data/v1/ arrives as
+          # new paths - so a sync that changed nothing but the feed would have
+          # looked clean here and exited without publishing it.
           for attempt in 1 2 3; do
-            if git diff --quiet; then
+            if [ -z "$(git status --porcelain -- dist/honeypot/data)" ]; then
               echo "Already normalised - nothing to commit."
               exit 0
             fi
 
-            git add dist/honeypot/data
+            git add -A dist/honeypot/data
             git commit -m "chore: normalise honeypot export
 
           Applies the export-pipeline scripts to the data the honeypot instance
           just synced: types the sample manifest, redacts the instance's own
-          hostname from the replay, and - when the database needs it - adds
-          idx_logins_ts and rebuilds the daily_ips and hourly_activity rollups.
+          hostname from the replay, separates reconnaissance from attack,
+          rebuilds the published feed under data/v1/, and - when the database
+          needs it - adds idx_logins_ts and rebuilds the daily_ips and
+          hourly_activity rollups.
 
           Idempotent; this commit is empty when the pipeline has already done it."
 
