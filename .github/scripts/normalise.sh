@@ -59,3 +59,16 @@ python3 "$S/classify-traffic.py" "$DATA" --db "$TMP/honeypot.db"
 # only when something other than the clock moved, so a sync that changed
 # nothing leaves all 68 of them alone.
 python3 "$S/build-feed.py" "$DATA" --db "$TMP/honeypot.db"
+
+# Prove the sensor's own identity is not in anything we are about to publish.
+#
+# Last, and over the whole directory, because this is the assertion rather than
+# the cleaning. redact-replay.py was pointed at session_replay.json; when .cast
+# transcripts appeared its coverage silently went from complete to partial and
+# 4,404 occurrences of the instance's hostname shipped. A cleaner given a list
+# stops covering whatever is not on the list. A check that walks everything -
+# including the database's text columns and any file format nobody has written
+# yet - cannot.
+#
+# set -eu means a failure here aborts before anything is committed.
+python3 "$S/assert-clean.py" "$DATA" --db "$TMP/honeypot.db"
