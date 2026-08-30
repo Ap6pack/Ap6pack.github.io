@@ -194,7 +194,7 @@
     "lon": 6.05805,
     "country": "The Netherlands",
     "city": "Eygelshoven",
-    "count": 1863,
+    "count": 1909,
     "abuse_score": 100,
     "abuse_reports": 409,
     "isp": "Limited Network LTD",
@@ -419,6 +419,23 @@
     "last_reported_at": null
   },
   {
+    "ip": "50.2.184.242",
+    "lat": 32.8137,
+    "lon": -96.8704,
+    "country": "United States",
+    "city": "Dallas",
+    "count": 408,
+    "abuse_score": 100,
+    "abuse_reports": 1714,
+    "isp": "ServerHub Dallas",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "serverhub.com",
+    "is_tor": false,
+    "distinct_users": 111,
+    "last_reported_at": "2026-08-28T23:47:47+00:00",
+    "ai_agent_signal": "suspected"
+  },
+  {
     "ip": "78.189.62.129",
     "lat": 38.6645,
     "lon": 27.3294,
@@ -435,21 +452,20 @@
     "last_reported_at": "2026-08-23T05:26:43+00:00"
   },
   {
-    "ip": "50.2.184.242",
-    "lat": 32.8137,
-    "lon": -96.8704,
-    "country": "United States",
-    "city": "Dallas",
-    "count": 372,
+    "ip": "201.239.183.109",
+    "lat": -33.4521,
+    "lon": -70.6536,
+    "country": "Chile",
+    "city": "Santiago",
+    "count": 356,
     "abuse_score": 100,
-    "abuse_reports": 1714,
-    "isp": "ServerHub Dallas",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "serverhub.com",
+    "abuse_reports": 243,
+    "isp": "VTR BANDA ANCHA S.A.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "vtr.com",
     "is_tor": false,
-    "distinct_users": 111,
-    "last_reported_at": "2026-08-28T23:47:47+00:00",
-    "ai_agent_signal": "suspected"
+    "distinct_users": 82,
+    "last_reported_at": "2026-08-19T00:37:48+00:00"
   },
   {
     "ip": "138.117.123.222",
@@ -550,6 +566,23 @@
     "hassh_shared_count": 16
   },
   {
+    "ip": "178.128.102.108",
+    "lat": 1.32123,
+    "lon": 103.695,
+    "country": "Singapore",
+    "city": "Singapore",
+    "count": 250,
+    "abuse_score": 100,
+    "abuse_reports": 243,
+    "isp": "DigitalOcean, LLC",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "digitalocean.com",
+    "is_tor": false,
+    "distinct_users": 41,
+    "last_reported_at": "2026-08-29T00:02:53+00:00",
+    "ai_agent_signal": "suspected"
+  },
+  {
     "ip": "201.239.197.192",
     "lat": -30.5023,
     "lon": -71.1545,
@@ -630,23 +663,6 @@
     "is_tor": false,
     "distinct_users": 0,
     "last_reported_at": "2026-02-23T08:17:25+00:00"
-  },
-  {
-    "ip": "178.128.102.108",
-    "lat": 1.32123,
-    "lon": 103.695,
-    "country": "Singapore",
-    "city": "Singapore",
-    "count": 154,
-    "abuse_score": 100,
-    "abuse_reports": 243,
-    "isp": "DigitalOcean, LLC",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "digitalocean.com",
-    "is_tor": false,
-    "distinct_users": 41,
-    "last_reported_at": "2026-08-29T00:02:53+00:00",
-    "ai_agent_signal": "suspected"
   },
   {
     "ip": "72.255.26.252",
@@ -845,6 +861,22 @@
     "is_tor": false,
     "distinct_users": 16,
     "last_reported_at": "2026-08-17T22:45:15+00:00"
+  },
+  {
+    "ip": "200.69.58.226",
+    "lat": -45.8626,
+    "lon": -67.494,
+    "country": "Argentina",
+    "city": "Comodoro Rivadavia",
+    "count": 88,
+    "abuse_score": 100,
+    "abuse_reports": 41,
+    "isp": "SION S.A",
+    "usage_type": "Fixed Line ISP",
+    "domain": "sion.com",
+    "is_tor": false,
+    "distinct_users": 24,
+    "last_reported_at": "2026-08-21T08:51:46+00:00"
   },
   {
     "ip": "72.229.136.74",
@@ -1923,22 +1955,6 @@
     "last_reported_at": "2026-08-27T08:59:02+00:00"
   },
   {
-    "ip": "201.239.183.109",
-    "lat": -33.4521,
-    "lon": -70.6536,
-    "country": "Chile",
-    "city": "Santiago",
-    "count": 53,
-    "abuse_score": 100,
-    "abuse_reports": 243,
-    "isp": "VTR BANDA ANCHA S.A.",
-    "usage_type": "Fixed Line ISP",
-    "domain": "vtr.com",
-    "is_tor": false,
-    "distinct_users": 82,
-    "last_reported_at": "2026-08-19T00:37:48+00:00"
-  },
-  {
     "ip": "27.37.85.28",
     "lat": 23.0207,
     "lon": 113.752,
@@ -2823,22 +2839,6 @@
     "last_reported_at": "2026-08-21T01:01:49+00:00"
   },
   {
-    "ip": "200.69.58.226",
-    "lat": -45.8626,
-    "lon": -67.494,
-    "country": "Argentina",
-    "city": "Comodoro Rivadavia",
-    "count": 44,
-    "abuse_score": 100,
-    "abuse_reports": 41,
-    "isp": "SION S.A",
-    "usage_type": "Fixed Line ISP",
-    "domain": "sion.com",
-    "is_tor": false,
-    "distinct_users": 24,
-    "last_reported_at": "2026-08-21T08:51:46+00:00"
-  },
-  {
     "ip": "200.81.161.26",
     "lat": -45.6083,
     "lon": -67.75,
@@ -3584,7 +3584,7 @@
     "distinct_users": 0,
     "last_reported_at": null,
     "hassh": "98ddc5604ef6a1006a2b49a58759fbe6",
-    "hassh_shared_count": 5
+    "hassh_shared_count": 6
   },
   {
     "ip": "177.155.234.38",
@@ -4690,6 +4690,22 @@
     "is_tor": false,
     "distinct_users": 6,
     "last_reported_at": "2026-08-30T01:26:37+00:00"
+  },
+  {
+    "ip": "45.233.91.9",
+    "lat": -7.1712,
+    "lon": -34.8617,
+    "country": "Brazil",
+    "city": "Jo\u00e3o Pessoa",
+    "count": 16,
+    "abuse_score": 100,
+    "abuse_reports": 175,
+    "isp": "D.R SERVICOS DE COMUNICACAO LTDA - ME",
+    "usage_type": "Fixed Line ISP",
+    "domain": "drnetjpa.com.br",
+    "is_tor": false,
+    "distinct_users": 64,
+    "last_reported_at": "2026-08-30T02:18:54+00:00"
   },
   {
     "ip": "200.80.186.14",
@@ -13859,7 +13875,7 @@
     "distinct_users": 323,
     "last_reported_at": "2026-08-24T22:45:43+00:00",
     "hassh": "98ddc5604ef6a1006a2b49a58759fbe6",
-    "hassh_shared_count": 5
+    "hassh_shared_count": 6
   },
   {
     "ip": "154.241.13.16",
@@ -13877,7 +13893,7 @@
     "distinct_users": 28,
     "last_reported_at": "2026-08-25T00:00:17+00:00",
     "hassh": "98ddc5604ef6a1006a2b49a58759fbe6",
-    "hassh_shared_count": 5
+    "hassh_shared_count": 6
   },
   {
     "ip": "45.82.78.104",
@@ -14108,6 +14124,24 @@
     "last_reported_at": "2026-08-29T16:25:09+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
     "hassh_shared_count": 16
+  },
+  {
+    "ip": "120.48.122.43",
+    "lat": 39.911,
+    "lon": 116.395,
+    "country": "China",
+    "city": "Beijing",
+    "count": 6,
+    "abuse_score": 100,
+    "abuse_reports": 1138,
+    "isp": "Beijing Baidu Netcom Science and Technology Co., Ltd.",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "baidu.com",
+    "is_tor": false,
+    "distinct_users": 479,
+    "last_reported_at": "2026-08-29T23:11:06+00:00",
+    "hassh": "98ddc5604ef6a1006a2b49a58759fbe6",
+    "hassh_shared_count": 6
   },
   {
     "ip": "92.234.0.95",
@@ -16915,7 +16949,7 @@
     "distinct_users": 366,
     "last_reported_at": "2026-08-25T06:08:59+00:00",
     "hassh": "98ddc5604ef6a1006a2b49a58759fbe6",
-    "hassh_shared_count": 5
+    "hassh_shared_count": 6
   },
   {
     "ip": "31.43.51.238",
@@ -18201,7 +18235,7 @@
     "distinct_users": 548,
     "last_reported_at": "2026-08-26T10:48:15+00:00",
     "hassh": "98ddc5604ef6a1006a2b49a58759fbe6",
-    "hassh_shared_count": 5
+    "hassh_shared_count": 6
   },
   {
     "ip": "60.18.139.82",
@@ -29938,6 +29972,22 @@
     "is_tor": false,
     "distinct_users": 118,
     "last_reported_at": "2026-08-29T11:29:39+00:00"
+  },
+  {
+    "ip": "144.124.192.5",
+    "lat": 41.2615,
+    "lon": 69.2177,
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "count": 2,
+    "abuse_score": 79,
+    "abuse_reports": 33,
+    "isp": "Uzbektelekom Joint Stock Company",
+    "usage_type": "Fixed Line ISP",
+    "domain": "bkm.uz",
+    "is_tor": false,
+    "distinct_users": 25,
+    "last_reported_at": "2026-08-29T20:39:00+00:00"
   },
   {
     "ip": "147.185.132.123",
