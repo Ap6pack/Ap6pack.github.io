@@ -771,7 +771,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 182.151.45.136,2026-08-26T22:08:32.492233Z,2026-08-26T22:10:20.442780Z,1,0,0,0,low,single_sighting,false,true,,7,China,CHINANET Sichuan province network,sctel.com.cn,false,100
 182.181.228.44,2026-08-20T06:27:51.347244Z,2026-08-20T06:28:06.128066Z,2,0,0,0,low,connected_only,false,false,,7,Pakistan,Mini-DSLAM North,ptcl.net.pk,false,0
 182.190.216.29,2026-08-26T13:48:13.018824Z,2026-08-26T13:48:54.634981Z,3,0,0,0,low,connected_only,false,true,,7,Pakistan,Soft-X,ptcl.net.pk,false,26
-182.207.178.39,2026-08-23T23:28:41.123217Z,2026-08-23T23:28:46.160091Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,China,CHINANET Liaoning province network,chinatelecom.cn,false,0
+182.207.178.39,2026-08-23T23:28:41.123217Z,2026-08-23T23:28:46.160091Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,China,CHINANET Liaoning province network,chinatelecom.cn,false,0
 182.242.168.31,2026-08-25T10:24:49.231281Z,2026-08-25T10:24:51.840148Z,1,0,0,0,low,single_sighting,false,true,,7,China,CHINANET YunNan PROVINCE NETWORK,chinatelecom.cn,false,29
 182.242.169.39,2026-08-24T05:35:53.088302Z,2026-08-24T05:35:53.631863Z,1,1,1,0,low,executed_commands,true,true,f05c7d2ca076e2fd,7,China,CHINANET YunNan PROVINCE NETWORK,chinatelecom.cn,false,85
 182.253.242.237,2026-08-21T12:06:51.470849Z,2026-08-21T12:20:30.158589Z,2,0,0,0,low,connected_only,false,false,,7,Indonesia,Biznet Networks,biznetnetworks.com,false,29
@@ -1142,7 +1142,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 198.235.24.138,2026-08-20T20:00:14.116346Z,2026-08-20T20:00:24.036076Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.145,2026-08-29T18:42:28.868206Z,2026-08-29T18:42:29.093944Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.147,2026-08-17T22:54:46.198402Z,2026-08-17T22:54:56.288784Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
-198.235.24.16,2026-08-23T23:08:23.289913Z,2026-08-23T23:08:33.286354Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
+198.235.24.16,2026-08-23T23:08:23.289913Z,2026-08-23T23:08:33.286354Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.163,2026-08-24T00:55:37.588868Z,2026-08-24T00:55:37.788856Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.178,2026-08-23T22:11:00.477665Z,2026-08-23T22:11:10.996105Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.181,2026-08-22T16:48:28.974365Z,2026-08-22T16:48:59.844657Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
@@ -1369,8 +1369,8 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 213.174.1.231,2026-08-22T21:11:45.270128Z,2026-08-22T21:12:02.528941Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,UARNet-Eksintech,uar.net,false,100
 213.174.10.241,2026-08-29T17:05:49.154093Z,2026-08-29T17:06:11.680956Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,LLC EKSINTECH,eksintech.net,false,100
 213.188.176.66,2026-08-20T09:23:24.139859Z,2026-08-20T09:23:42.988047Z,1,1,2,0,low,executed_commands,false,false,,7,Guadeloupe,Canal + Telecom SAS,canalplus.com,false,6
-213.209.159.15,2026-08-23T23:21:49.609474Z,2026-08-23T23:21:49.610538Z,1,0,0,0,low,single_sighting,false,true,,7,Germany,Feo Prest SRL,feoprest.life,false,100
-213.209.159.17,2026-08-23T23:21:49.608761Z,2026-08-23T23:21:49.694157Z,1,0,0,0,low,single_sighting,false,true,,7,Germany,Feo Prest SRL,feoprest.life,false,100
+213.209.159.15,2026-08-23T23:21:49.609474Z,2026-08-23T23:21:49.610538Z,1,0,0,0,low,single_sighting,false,false,,7,Germany,Feo Prest SRL,feoprest.life,false,100
+213.209.159.17,2026-08-23T23:21:49.608761Z,2026-08-23T23:21:49.694157Z,1,0,0,0,low,single_sighting,false,false,,7,Germany,Feo Prest SRL,feoprest.life,false,100
 213.209.159.19,2026-08-19T10:31:46.616670Z,2026-08-19T10:31:46.617651Z,1,0,0,0,low,single_sighting,false,false,,7,Germany,Feo Prest SRL,feoprest.life,false,100
 213.209.159.20,2026-08-19T10:31:46.616004Z,2026-08-20T16:28:31.486078Z,2,0,0,0,low,connected_only,false,false,,7,Germany,Feo Prest SRL,feoprest.life,false,100
 213.209.159.21,2026-08-20T16:28:31.484521Z,2026-08-20T16:28:31.569509Z,1,0,0,0,low,single_sighting,false,false,,7,Germany,Feo Prest SRL,feoprest.life,false,100
@@ -1478,7 +1478,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 31.129.235.208,2026-08-29T09:29:07.904783Z,2026-08-29T09:29:26.294742Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,ISP Syndicate,syndicate.net.ua,false,34
 31.129.79.58,2026-08-19T18:00:23.397275Z,2026-08-19T18:00:48.972335Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,Volodymyr Shtark,dnepro.net,false,28
 31.134.118.100,2026-08-24T22:23:51.628327Z,2026-08-24T22:24:09.067672Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,LLC VECHIR TELECOM,vechir.ua,false,52
-31.134.118.95,2026-08-23T23:04:42.926184Z,2026-08-23T23:04:42.928079Z,2,0,0,0,low,connected_only,false,true,,7,Ukraine,LLC VECHIR TELECOM,vechir.ua,false,55
+31.134.118.95,2026-08-23T23:04:42.926184Z,2026-08-23T23:04:42.928079Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,LLC VECHIR TELECOM,vechir.ua,false,55
 31.135.246.219,2026-08-25T06:22:40.449042Z,2026-08-25T06:23:01.467795Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,LLC Kurgan-Telecom,kurgan-telecom.net,false,25
 31.162.140.9,2026-08-23T21:04:51.791329Z,2026-08-23T21:05:11.410373Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,Dynamic distribution IP's for broadband services,rt.ru,false,58
 31.215.221.175,2026-08-22T16:16:49.915136Z,2026-08-22T16:16:49.917020Z,2,0,0,0,low,connected_only,false,false,,7,United Arab Emirates,Emirates Telecommunications Corporation,etisalat.ae,false,29
@@ -1670,7 +1670,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 45.189.192.43,2026-08-20T13:16:55.975005Z,2026-08-20T13:16:58.756730Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,COOPERATIVA TELEFONICA INTEGRAL DE OBRAS Y PROVISION DE SERVICIOS PUBLICOS SANTA SYLVINA LTDA,stasylvina.com.ar,false,0
 45.189.217.46,2026-08-29T18:51:56.676901Z,2026-08-29T18:54:55.051358Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,TECNET ARGENTINA S.A.,tecnetmza.com.ar,false,51
 45.190.28.159,2026-08-25T20:36:13.340281Z,2026-08-25T20:36:31.489893Z,1,1,3,0,medium,executed_commands,false,true,04946faa9e9e44cd,7,Brazil,OpsTelecom Serviço em  Telecomunicações Ltda,opstelecom.com.br,false,33
-45.194.25.76,2026-08-23T23:12:00.245293Z,2026-08-23T23:17:46.814823Z,25,0,0,0,medium,persistent,false,true,,7,Brazil,Cloud Innovation Ltd,cloudinnovation.org,false,0
+45.194.25.76,2026-08-23T23:12:00.245293Z,2026-08-23T23:17:46.814823Z,25,0,0,0,medium,persistent,false,false,,7,Brazil,Cloud Innovation Ltd,cloudinnovation.org,false,0
 45.194.67.28,2026-08-17T07:43:31.112834Z,2026-08-17T07:43:31.114114Z,1,0,0,0,low,single_sighting,false,false,,7,Seychelles,VPSVAULT.HOST LTD,vpsvault.host,false,100
 45.195.200.157,2026-08-19T06:05:40.730726Z,2026-08-19T06:06:41.696444Z,1,1,16,0,low,executed_commands,false,false,3f467ba1b84b8427,7,The Netherlands,BitCommand LLC,bitcommand.com,false,100
 45.198.224.26,2026-08-19T07:18:34.039631Z,2026-08-22T03:59:47.291556Z,3,3,8,3,low,delivered_payload,false,false,ca9326efb6d05782,7,Sweden,VPSVAULT.HOST LTD,vpsvault.host,false,100
