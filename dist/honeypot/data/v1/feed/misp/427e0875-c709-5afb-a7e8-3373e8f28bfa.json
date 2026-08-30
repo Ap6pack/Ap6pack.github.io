@@ -1,0 +1,63 @@
+{
+  "Event": {
+    "uuid": "427e0875-c709-5afb-a7e8-3373e8f28bfa",
+    "info": "Sundew honeypot - campaign 317badf8dafb (1 sources) - User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) App",
+    "date": "2026-08-30",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "431fe000-28d5-57bc-a91a-6e403a163678",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "172.234.217.129",
+        "timestamp": "1788120012",
+        "comment": "executed_commands, confidence medium; 2 sessions, 3 commands, 0 downloads; first_seen 2026-08-25T04:32:12.706055Z, last_seen 2026-08-25T04:32:13.042785Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "b3ecf6c5-7fd9-5d52-827d-f3b831780121",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "35c4f3a8-420b-5f78-9836-3586ee74643f",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "Accept: */*",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "5b2a9a48-719b-5ef3-a462-f85aa506937b",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "Accept-Encoding: gzip",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}

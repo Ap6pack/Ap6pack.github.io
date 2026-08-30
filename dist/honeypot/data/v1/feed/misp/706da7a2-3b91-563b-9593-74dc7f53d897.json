@@ -1,0 +1,63 @@
+{
+  "Event": {
+    "uuid": "706da7a2-3b91-563b-9593-74dc7f53d897",
+    "info": "Sundew honeypot - campaign 3520cbe88cef (1 sources) - system",
+    "date": "2026-08-30",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "2b285f0d-599f-5e68-befd-ead9a15b5b53",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "190.171.95.26",
+        "timestamp": "1788120012",
+        "comment": "executed_commands, confidence medium; 1 sessions, 6 commands, 0 downloads; first_seen 2026-08-27T01:50:11.628153Z, last_seen 2026-08-27T01:50:47.637752Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "98fe3dcb-417e-5406-8ed8-e874d19aaa94",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "system",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "7b493e83-405e-5eaf-bbca-7e2b5e22bf5a",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "/bin/busybox",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "4a5ec155-fad4-55cd-a805-a95ed1727406",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "cd /proc && cat self/cmdline",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}

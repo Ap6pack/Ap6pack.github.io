@@ -1,0 +1,20 @@
+# Security contact for ap6pack.github.io, including the Sundew honeypot
+# dataset published at /dist/honeypot/ and its indicator feed at
+# /dist/honeypot/data/v1/feed/.
+#
+# Two different things arrive here, and both are welcome:
+#
+#   1. A vulnerability in this site or in the dashboard.
+#   2. A request to remove an address from the indicator feed.
+#
+# On (2): appearing in the feed means traffic reached a honeypot from that
+# address. It does not mean the address's owner did anything wrong - a large
+# share of honeypot traffic comes from compromised third parties, and
+# residential addresses get reassigned. Removal requests are honoured. Include
+# the address and a rough time window; there is no process to exhaust.
+
+Contact: https://github.com/Ap6pack/Ap6pack.github.io/issues
+Expires: 2027-08-30T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://ap6pack.github.io/.well-known/security.txt
+Policy: https://ap6pack.github.io/dist/honeypot/data/v1/feed/README.md

