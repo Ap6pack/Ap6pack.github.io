@@ -108,26 +108,90 @@ PATTERNS = [
 ]
 
 
-def redact(text):
-    """Apply every pattern to one string."""
+# Where the sensor's own name appears in what it sends: the shell prompt, and
+# the second field of `uname`. Used to LEARN the hostname rather than to
+# rewrite blindly - see learn_hostname.
+PROMPT_HOST = re.compile(r"[\w.$-]+@([A-Za-z0-9][\w.-]*):")
+UNAME_HOST = re.compile(r"\bLinux ([A-Za-z0-9][\w.-]*) \d")
+
+# How dominant a name must be among prompt sightings before it is treated as
+# the sensor's own. The sensor's name is on every prompt line - 4,398 of 4,404
+# sightings in the current capture - so a real hostname clears this trivially,
+# while an attacker typing `ssh root@their-box` once does not.
+HOSTNAME_CONFIDENCE = 0.5
+HOSTNAME_MIN_SIGHTINGS = 20
+
+
+def learn_hostname(texts):
+    """Work out what this sensor calls itself, from its own output.
+
+    THE PROBLEM THIS SOLVES
+
+    Redaction used to match `ip-172-31-80-180` by shape. That only works while
+    the sensor is named after its EC2 instance. The moment it is given a
+    plausible name - which is the entire point of not looking like a honeypot -
+    the shape stops matching and the new name publishes verbatim.
+
+    That would be worse than the leak it replaces. A bot author can read this
+    dataset, see the hostname in a corpus labelled "honeypot", and add it to
+    their detection list. The name chosen to avoid being fingerprinted becomes
+    the fingerprint, and nothing would have failed.
+
+    WHY NOT JUST CONFIGURE IT
+
+    Because the configuration would have to live somewhere, and the two
+    available somewheres are a public repository - which publishes the name
+    directly - or a CI secret, which works but silently redacts nothing when
+    it is missing, on a fork or before anyone sets it.
+
+    Learning it from the data needs no secret and cannot go stale. The sensor
+    prints its own name on every prompt; an attacker's `ssh user@host` appears
+    once or twice. The gap is three orders of magnitude, so the most common
+    name in prompt position is the sensor's, and requiring both a majority and
+    a floor keeps a thin capture from guessing.
+
+    Returns None when nothing is confident enough, and the caller falls back to
+    the shape patterns alone rather than inventing a redaction.
+    """
+    seen = {}
+    for text in texts:
+        for match in PROMPT_HOST.finditer(text):
+            seen[match.group(1)] = seen.get(match.group(1), 0) + 1
+        for match in UNAME_HOST.finditer(text):
+            seen[match.group(1)] = seen.get(match.group(1), 0) + 1
+    if not seen:
+        return None
+    total = sum(seen.values())
+    name, count = max(seen.items(), key=lambda kv: kv[1])
+    if count < HOSTNAME_MIN_SIGHTINGS or count / total < HOSTNAME_CONFIDENCE:
+        return None
+    # Already redacted: nothing to learn, and returning it would be a no-op
+    # that hides the fact that no real name was found.
+    return None if name == REPLACEMENT_HOST else name
+
+
+def redact(text, learned=None):
+    """Apply every pattern to one string, plus the learned hostname if any."""
+    if learned:
+        text = re.sub(r"\b" + re.escape(learned) + r"\b", REPLACEMENT_HOST, text)
     for pattern, replacement in PATTERNS:
         text = pattern.sub(replacement, text)
     return text
 
 
-def redact_replay(replay):
+def redact_replay(replay, learned=None):
     """Redact a parsed replay document in place. Returns the number of edits."""
     edits = 0
     for event in replay.get("events", []):
         original = event.get("text", "")
-        cleaned = redact(original)
+        cleaned = redact(original, learned)
         if cleaned != original:
             event["text"] = cleaned
             edits += 1
     return edits
 
 
-def redact_cast(path):
+def redact_cast(path, learned=None):
     """Redact one asciinema v2 cast file. Returns (edits, lines).
 
     Substitution is done on the raw text rather than by re-serialising each
@@ -139,7 +203,7 @@ def redact_cast(path):
     The result is parsed back afterwards to prove that is true.
     """
     original = open(path, encoding="utf-8").read()
-    cleaned = redact(original)
+    cleaned = redact(original, learned)
     if cleaned == original:
         return 0, 0
 
@@ -187,7 +251,7 @@ def main():
 
     if args.path == "-":
         replay = json.load(sys.stdin)
-        edits = redact_replay(replay)
+        edits = redact_replay(replay, learn_hostname([json.dumps(replay)]))
         if args.check:
             print(f"redact-replay: {edits} event(s) would be redacted", file=sys.stderr)
             return 1 if edits else 0
@@ -199,18 +263,35 @@ def main():
         print(f"redact-replay: nothing to redact under {args.path}", file=sys.stderr)
         return 0
 
+    # Learn the sensor's own name from everything it published, before
+    # rewriting any of it. Done across the whole set rather than per file: a
+    # single short transcript may not contain enough prompts to be sure, while
+    # the corpus always does.
+    corpus = []
+    for target in targets:
+        try:
+            corpus.append(open(target, encoding="utf-8", errors="replace").read())
+        except OSError:
+            pass
+    learned = learn_hostname(corpus)
+    if learned:
+        print(f"redact-replay: this sensor calls itself {learned!r}; redacting it", file=sys.stderr)
+    else:
+        print("redact-replay: no sensor hostname to learn (already clean, or too little data)",
+              file=sys.stderr)
+
     total_edits, touched = 0, []
 
     for target in targets:
         if target.endswith(".cast"):
             try:
-                edits, _ = redact_cast(target)
+                edits, _ = redact_cast(target, learned)
             except ValueError as exc:
                 print(f"redact-replay: {exc}", file=sys.stderr)
                 print("  nothing written for this file.", file=sys.stderr)
                 return 1
             if edits and not args.check:
-                cleaned = redact(open(target, encoding="utf-8").read())
+                cleaned = redact(open(target, encoding="utf-8").read(), learned)
                 tmp = target + ".tmp"
                 with open(tmp, "w", encoding="utf-8") as handle:
                     handle.write(cleaned)
@@ -218,7 +299,7 @@ def main():
         else:
             with open(target, encoding="utf-8") as handle:
                 replay = json.load(handle)
-            edits = redact_replay(replay)
+            edits = redact_replay(replay, learned)
             if edits and not args.check:
                 destination = args.output or target
                 tmp = destination + ".tmp"

@@ -72,6 +72,80 @@ def scan_bytes(blob, where, fatal_hits, noted_hits):
             noted_hits.append((where, label, m.group(0).decode("utf-8", "replace")))
 
 
+# What a redacted prompt must look like. Kept in step with
+# redact-replay.py's REPLACEMENT_HOST.
+PLACEHOLDER = "honeypot-01"
+PROMPT_HOST = re.compile(rb"[\w.$-]+@([A-Za-z0-9][\w.-]*):[^\s]*[$#]")
+UNAME_HOST = re.compile(rb"\bLinux ([A-Za-z0-9][\w.-]*) \d")
+
+
+# A non-placeholder hostname is the sensor's own only if it is everywhere.
+# Below these it is something an attacker set for one session.
+LEAK_MIN_FILES = 3
+LEAK_MIN_SHARE = 0.10
+
+
+def check_prompt_hosts(data_dir):
+    """The hostname the sensor prints must be the placeholder - but only its own.
+
+    The pattern checks above look for identities already known to be ours: EC2
+    shapes, internal DNS. That is exactly the check that stops working when the
+    sensor is renamed to something plausible, which is the entire point of not
+    looking like a honeypot. A rule that knows only the old name passes while
+    publishing the new one.
+
+    This asks the opposite question and needs to know no names: in published
+    output, is the hostname in prompt and `uname` position the placeholder?
+
+    NOT EVERY HOSTNAME HERE IS OURS
+
+    The first version of this failed on four files, and it was wrong. Mirai and
+    Gafgyt variants run `hostname` to stamp a box they have claimed, Cowrie
+    honours it, and the prompt becomes `root@TOASTER:~#` for the rest of the
+    session - TOASTER, FICORA, TBOT, slur. Those are the malware family's own
+    tags. They are some of the more interesting things in the capture and
+    redacting them would delete the finding.
+
+    So the discriminator is reach, the same one redact-replay.py learns by. The
+    sensor's name is on the prompt of nearly every session; a tag an attacker
+    set is confined to the one session that set it. A non-placeholder host is
+    reported only when it spans several files and a real share of them.
+
+    Attacker-supplied hosts in echoed input are out of scope anyway: `ssh
+    root@their-box` has no trailing prompt `$`/`#`, so their infrastructure
+    stays where it belongs.
+    """
+    seen = {}
+    prompt_files = set()
+    for base, dirs, names in os.walk(data_dir):
+        dirs[:] = [d for d in dirs if d not in SKIP_DIRS]
+        for name in names:
+            if not (name.endswith(".cast") or name == "session_replay.json"):
+                continue
+            path = os.path.join(base, name)
+            rel = os.path.relpath(path, data_dir)
+            try:
+                blob = open(path, "rb").read()
+            except OSError:
+                continue
+            for pattern in (PROMPT_HOST, UNAME_HOST):
+                for m in pattern.finditer(blob):
+                    host = m.group(1).decode("utf-8", "replace")
+                    seen.setdefault(host, set()).add(rel)
+                    prompt_files.add(rel)
+
+    total = len(prompt_files) or 1
+    leaks, tags = {}, {}
+    for host, wheres in seen.items():
+        if host == PLACEHOLDER:
+            continue
+        if len(wheres) >= LEAK_MIN_FILES and len(wheres) / total >= LEAK_MIN_SHARE:
+            leaks[host] = wheres
+        else:
+            tags[host] = wheres
+    return leaks, tags
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("data", help="the export directory")
@@ -113,8 +187,16 @@ def main():
                     if isinstance(value, str):
                         scan_bytes(value.encode(), f"db:{table}.{col}", fatal_hits, noted_hits)
 
+    prompt_leaks, attacker_tags = check_prompt_hosts(args.data)
+
     print(f"assert-clean: scanned {files} files" + (f" and {columns} database columns" if columns else ""),
           file=sys.stderr)
+
+    if attacker_tags:
+        listed = ", ".join(f"{h} ({len(w)})" for h, w in
+                           sorted(attacker_tags.items(), key=lambda kv: -len(kv[1]))[:6])
+        print(f"    note: {len(attacker_tags)} hostname(s) set by attackers mid-session, kept: {listed}",
+              file=sys.stderr)
 
     if noted_hits:
         seen = {}
@@ -124,9 +206,23 @@ def main():
             print(f"    note: {label} {value} in {len(wheres)} file(s) - attacker behaviour, kept",
                   file=sys.stderr)
 
-    if not fatal_hits:
+    if prompt_leaks:
+        print(f"assert-clean: FAILED - the sensor printed {len(prompt_leaks)} unredacted "
+              f"hostname(s) in prompt or uname position", file=sys.stderr)
+        for host, wheres in sorted(prompt_leaks.items(), key=lambda kv: -len(kv[1])):
+            sample = ", ".join(sorted(wheres)[:3])
+            more = len(wheres) - 3
+            print(f"    {host!r} in {len(wheres)} file(s): {sample}"
+                  + (f" (+{more} more)" if more > 0 else ""), file=sys.stderr)
+        print(f"\n    Every published prompt must read {PLACEHOLDER!r}. redact-replay.py learns"
+              "\n    the sensor's name from its own output - check it ran, and ran first.",
+              file=sys.stderr)
+
+    if not fatal_hits and not prompt_leaks:
         print("assert-clean: no sensor identity in published data", file=sys.stderr)
         return 0
+    if not fatal_hits:
+        return 1
 
     seen = {}
     for where, label, value in fatal_hits:
