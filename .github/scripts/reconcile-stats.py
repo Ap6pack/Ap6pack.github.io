@@ -58,6 +58,16 @@ FIGURES = [
     ("login_attempts", "SELECT COUNT(*) FROM logins"),
     ("login_success", "SELECT COUNT(*) FROM logins WHERE success = 1"),
     ("commands_run", "SELECT COUNT(*) FROM session_commands"),
+    # The landing page's funnel. Four counts that change only when the data
+    # does, precomputed here because computing them in the browser costs
+    # 3,520 KB of range reads - four full scans over HTTP - against 0 extra
+    # bytes once they live in a file the page already loads.
+    ("sessions_logged_in", "SELECT COUNT(*) FROM sessions WHERE login_success = 1"),
+    ("sessions_with_commands", "SELECT COUNT(*) FROM sessions WHERE command_count > 0"),
+    (
+        "sessions_with_download",
+        "SELECT COUNT(DISTINCT session_id) FROM downloads WHERE shasum IS NOT NULL",
+    ),
 ]
 
 
