@@ -82,6 +82,7 @@ jobs:
           python3 .github/scripts/shard-db.py join dist/honeypot/data/db "$RUNNER_TEMP/verify.db"
           python3 .github/scripts/index-db.py "$RUNNER_TEMP/verify.db" --check
           python3 .github/scripts/build-rollups.py "$RUNNER_TEMP/verify.db" --check
+          python3 .github/scripts/reconcile-stats.py dist/honeypot/data --db "$RUNNER_TEMP/verify.db" --check
           python3 - "$RUNNER_TEMP/verify.db" <<'PY'
           import sqlite3, sys
           ok = sqlite3.connect(sys.argv[1]).execute("PRAGMA integrity_check").fetchone()[0]

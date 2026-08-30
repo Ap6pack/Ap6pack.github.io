@@ -30,6 +30,11 @@ needs_work=0
 python3 "$S/index-db.py" "$TMP/honeypot.db" --check || needs_work=1
 python3 "$S/build-rollups.py" "$TMP/honeypot.db" --check || needs_work=1
 
+# stats.json describes the whole capture; the shipped database is a pruned
+# subset of it. Recording the difference keeps every clickable figure equal to
+# the rows behind it. Needs the joined database, so it runs after the join.
+python3 "$S/reconcile-stats.py" "$DATA" --db "$TMP/honeypot.db"
+
 if [ "$needs_work" = 1 ]; then
   echo "Database needs the index or the rollups; rebuilding."
   python3 "$S/index-db.py" "$TMP/honeypot.db"
