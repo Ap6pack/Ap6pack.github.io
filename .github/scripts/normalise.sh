@@ -15,7 +15,7 @@ TMP="${RUNNER_TEMP:-/tmp}"
 S=".github/scripts"
 
 python3 "$S/normalize-samples.py" "$DATA"
-python3 "$S/redact-replay.py" "$DATA/session_replay.json"
+python3 "$S/redact-replay.py" "$DATA"
 
 # The database is only rewritten when it actually needs it.
 #

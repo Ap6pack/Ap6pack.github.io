@@ -1,5 +1,23 @@
 #!/usr/bin/env python3
-"""Strip the honeypot's own identity out of session_replay.json before publishing.
+"""Strip the honeypot's own identity out of the published replays.
+
+Covers both formats the export produces:
+
+    redact-replay.py DATADIR                     # session_replay.json + replays/*.cast
+    redact-replay.py path/session_replay.json    # one JSON replay
+    redact-replay.py path/abc123.cast            # one asciinema cast
+
+WHY THE .cast FILES MATTER
+
+They were added to the export on 2026-08-30 for the terminal-replay player, and
+they arrived carrying the same hostname the JSON replay had already been cleaned
+of: 4,404 occurrences of ip-172-31-80-180 across 95 of 104 files, live on the
+public site. Redacting one of two formats is not redacting.
+
+ORIGINAL NOTE
+-------------
+
+Strip the honeypot's own identity out of session_replay.json before publishing.
 
 RUNS ON THE BOX, NOT IN THE BUILD
 ---------------------------------
@@ -58,7 +76,9 @@ Idempotent: running it twice changes nothing the second time.
 """
 
 import argparse
+import glob
 import json
+import os
 import re
 import sys
 
@@ -107,10 +127,57 @@ def redact_replay(replay):
     return edits
 
 
+def redact_cast(path):
+    """Redact one asciinema v2 cast file. Returns (edits, lines).
+
+    Substitution is done on the raw text rather than by re-serialising each
+    line. Every pattern above matches only ASCII that carries no meaning inside
+    a JSON string, and every replacement is likewise plain, so the edit cannot
+    change the framing - and re-serialising would risk rewriting the float
+    timings, which are the one thing in this file that must not move.
+
+    The result is parsed back afterwards to prove that is true.
+    """
+    original = open(path, encoding="utf-8").read()
+    cleaned = redact(original)
+    if cleaned == original:
+        return 0, 0
+
+    lines = [line for line in cleaned.split("\n") if line.strip()]
+    for number, line in enumerate(lines, 1):
+        try:
+            json.loads(line)
+        except ValueError as exc:
+            raise ValueError(f"{path}: line {number} stopped being valid JSON — {exc}")
+
+    edits = sum(
+        1
+        for before, after in zip(original.split("\n"), cleaned.split("\n"))
+        if before != after
+    )
+    return edits, lines
+
+
+def collect(path):
+    """The replay files under a path, whether it is a directory or one file."""
+    if os.path.isdir(path):
+        found = []
+        replay = os.path.join(path, "session_replay.json")
+        if os.path.isfile(replay):
+            found.append(replay)
+        found.extend(sorted(glob.glob(os.path.join(path, "replays", "*.cast"))))
+        found.extend(sorted(glob.glob(os.path.join(path, "*.cast"))))
+        return found
+    return [path]
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
-    parser.add_argument("path", help="session_replay.json, or - for stdin")
-    parser.add_argument("-o", "--output", help="write here instead of in place")
+    parser.add_argument(
+        "path",
+        help="the export directory, a session_replay.json, a .cast file, or - for stdin",
+    )
+    parser.add_argument("-o", "--output", help="write here instead of in place (single file only)")
     parser.add_argument(
         "--check",
         action="store_true",
@@ -120,24 +187,73 @@ def main():
 
     if args.path == "-":
         replay = json.load(sys.stdin)
-    else:
-        with open(args.path, encoding="utf-8") as handle:
-            replay = json.load(handle)
-
-    edits = redact_replay(replay)
-
-    if args.check:
-        print(f"redact-replay: {edits} event(s) would be redacted", file=sys.stderr)
-        return 1 if edits else 0
-
-    if args.output == "-" or (args.path == "-" and not args.output):
+        edits = redact_replay(replay)
+        if args.check:
+            print(f"redact-replay: {edits} event(s) would be redacted", file=sys.stderr)
+            return 1 if edits else 0
         json.dump(replay, sys.stdout, separators=(",", ":"))
-    else:
-        target = args.output or args.path
-        with open(target, "w", encoding="utf-8") as handle:
-            json.dump(replay, handle, separators=(",", ":"))
-        print(f"redact-replay: redacted {edits} event(s) in {target}", file=sys.stderr)
+        return 0
 
+    targets = collect(args.path)
+    if not targets:
+        print(f"redact-replay: nothing to redact under {args.path}", file=sys.stderr)
+        return 0
+
+    total_edits, touched = 0, []
+
+    for target in targets:
+        if target.endswith(".cast"):
+            try:
+                edits, _ = redact_cast(target)
+            except ValueError as exc:
+                print(f"redact-replay: {exc}", file=sys.stderr)
+                print("  nothing written for this file.", file=sys.stderr)
+                return 1
+            if edits and not args.check:
+                cleaned = redact(open(target, encoding="utf-8").read())
+                tmp = target + ".tmp"
+                with open(tmp, "w", encoding="utf-8") as handle:
+                    handle.write(cleaned)
+                os.replace(tmp, target)
+        else:
+            with open(target, encoding="utf-8") as handle:
+                replay = json.load(handle)
+            edits = redact_replay(replay)
+            if edits and not args.check:
+                destination = args.output or target
+                tmp = destination + ".tmp"
+                with open(tmp, "w", encoding="utf-8") as handle:
+                    json.dump(replay, handle, separators=(",", ":"))
+                os.replace(tmp, destination)
+
+        if edits:
+            total_edits += edits
+            touched.append(os.path.basename(target))
+
+    noun = "line" if any(t.endswith(".cast") for t in touched) else "event"
+    if args.check:
+        if total_edits:
+            print(
+                f"redact-replay: {total_edits:,} {noun}(s) would be redacted across "
+                f"{len(touched)} file(s)",
+                file=sys.stderr,
+            )
+            for name in touched[:5]:
+                print(f"    {name}", file=sys.stderr)
+            if len(touched) > 5:
+                print(f"    ... and {len(touched) - 5} more", file=sys.stderr)
+            return 1
+        print(f"redact-replay: {len(targets)} file(s) already clean", file=sys.stderr)
+        return 0
+
+    if total_edits:
+        print(
+            f"redact-replay: redacted {total_edits:,} {noun}(s) across {len(touched)} "
+            f"of {len(targets)} file(s)",
+            file=sys.stderr,
+        )
+    else:
+        print(f"redact-replay: {len(targets)} file(s) already clean", file=sys.stderr)
     return 0
 
 

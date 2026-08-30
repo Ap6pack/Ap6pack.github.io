@@ -78,7 +78,7 @@ jobs:
         run: |
           set -euo pipefail
           python3 .github/scripts/normalize-samples.py dist/honeypot/data --check
-          python3 .github/scripts/redact-replay.py dist/honeypot/data/session_replay.json --check
+          python3 .github/scripts/redact-replay.py dist/honeypot/data --check
           python3 .github/scripts/shard-db.py join dist/honeypot/data/db "$RUNNER_TEMP/verify.db"
           python3 .github/scripts/index-db.py "$RUNNER_TEMP/verify.db" --check
           python3 .github/scripts/build-rollups.py "$RUNNER_TEMP/verify.db" --check
