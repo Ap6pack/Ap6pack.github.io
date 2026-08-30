@@ -1,0 +1,81 @@
+{
+  "Event": {
+    "uuid": "b3fe64cb-f96e-5fb9-8933-c61449f7cc2d",
+    "info": "Sundew honeypot - campaign b142980c5f6c (1 sources) - enable",
+    "date": "2026-08-30",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "adbe07f0-5d0b-5302-b2a2-1020aa7b5cb0",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "131.196.22.219",
+        "timestamp": "1788120012",
+        "comment": "executed_commands, confidence medium; 1 sessions, 5 commands, 0 downloads; first_seen 2026-08-24T21:24:57.512783Z, last_seen 2026-08-24T21:27:07.169701Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "1d2a72ae-be0d-5b5a-9bc7-c09f3a5ec17d",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "enable",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "ba34aa73-163d-5359-a1b4-6f6534de7949",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "system",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "f8e14250-7643-502a-8a47-adf215ff0d28",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "shell",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "90d0c2ec-2032-578f-9537-b13238764e49",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "sh",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "9e28c59f-c950-5aa7-8ef1-1a1374a21558",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "/bin/busybox KURC",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}

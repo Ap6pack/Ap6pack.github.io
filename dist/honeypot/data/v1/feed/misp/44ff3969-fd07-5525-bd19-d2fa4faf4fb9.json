@@ -1,0 +1,54 @@
+{
+  "Event": {
+    "uuid": "44ff3969-fd07-5525-bd19-d2fa4faf4fb9",
+    "info": "Sundew honeypot - campaign da8fd1b0b58c (1 sources) - cd /tmp && chmod +x yvC7c58Z && bash -c ./yvC7c58Z",
+    "date": "2026-08-30",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "a7cb0750-5c6c-532c-9b18-ed28148b612e",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "173.188.14.11",
+        "timestamp": "1788120012",
+        "comment": "delivered_payload, confidence high; 4 sessions, 6 commands, 2 downloads; first_seen 2026-08-23T23:35:12.366734Z, last_seen 2026-08-23T23:35:15.853163Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "f0472dcc-a17d-5ad5-a2d8-b3fff0ca7294",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "cd /tmp && chmod +x yvC7c58Z && bash -c ./yvC7c58Z",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "318f12dc-1167-5eb6-a2d2-fb940a59e2f5",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "./yvC7c58Z",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}

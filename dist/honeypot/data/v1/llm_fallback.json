@@ -1,0 +1,310 @@
+{
+  "schema_version": "1.0",
+  "items": [
+    {
+      "command": "& 5gmS",
+      "output": "bash: 5gmS: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "*G_em",
+      "output": "bash: G_em: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": ",",
+      "output": "bash: syntax error near unexpected token `('\n",
+      "exit_code": 0
+    },
+    {
+      "command": ",~",
+      "output": "bash: ,~: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "-----END OPENSSH PRIVATE KEY----- > key.ppk; echo StrictHostKeyChecking no",
+      "output": "-bash: syntax error near unexpected token `>'\n",
+      "exit_code": 0
+    },
+    {
+      "command": "-K#%\fN07Nud:s-57cd<i#CW5T67zA8Srh9bf-a8\fzNNA&I90H5GU{DWZ=2nzOGmn4",
+      "output": "-bash: -K#%\fN07Nud:s-57cd<i#CW5T67zA8Srh9bf-a8\fzNNA&I90H5GU{DWZ=2nzOGmn4: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "./",
+      "output": "bash: ./: Is a directory\n",
+      "exit_code": 0
+    },
+    {
+      "command": "./f",
+      "output": "bash: ./f: No such file or directory\n",
+      "exit_code": 127
+    },
+    {
+      "command": "./t",
+      "output": "./t: No such file or directory\n",
+      "exit_code": 127
+    },
+    {
+      "command": "./w",
+      "output": "./w: No such file or directory\n",
+      "exit_code": 127
+    },
+    {
+      "command": "./yvC7c58Z",
+      "output": "./yvC7c58Z: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": ".7",
+      "output": ".7: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": ".M~B",
+      "output": "bash: .M~B: No such file or directory\n",
+      "exit_code": 127
+    },
+    {
+      "command": "/data/.f",
+      "output": "/data/.f: No such file or directory\n",
+      "exit_code": 127
+    },
+    {
+      "command": "/data/d",
+      "output": "-bash: /data/d: Is a directory\n",
+      "exit_code": 0
+    },
+    {
+      "command": "0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg",
+      "output": "bash: 0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "6|N3aW",
+      "output": "bash: 6|N3aW: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "9",
+      "output": "9\n",
+      "exit_code": 0
+    },
+    {
+      "command": ":C",
+      "output": "bash: :C: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "AAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9",
+      "output": "bash: AAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "AMOO",
+      "output": "AMOO: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "Accept-Encoding: gzip",
+      "output": "bash: syntax error near unexpected token `Accept-Encoding'\n",
+      "exit_code": 0
+    },
+    {
+      "command": "Accept: */*",
+      "output": "Accept: */*\n",
+      "exit_code": 0
+    },
+    {
+      "command": "Accept: application/sdp",
+      "output": "curl: try 'curl --help' or 'curl --manual' for more information\n",
+      "exit_code": 0
+    },
+    {
+      "command": "BK^",
+      "output": "bash: BK^: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "Bp",
+      "output": "bash: Bp: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "CSeq: 42 OPTIONS",
+      "output": "OPTIONS is not recognized as an internal or external command, operable program, or batch file.\n",
+      "exit_code": 0
+    },
+    {
+      "command": "Call-ID: 50000",
+      "output": "-bash: syntax error near unexpected token `Call-ID:'\n",
+      "exit_code": 0
+    },
+    {
+      "command": "Connection: close",
+      "output": "bash: Connection: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "Content-Length: 0",
+      "output": "bash: syntax error near unexpected token `EOF'\n",
+      "exit_code": 0
+    },
+    {
+      "command": "Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=",
+      "output": "cp: cannot stat 'Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=': No such file or directory\n",
+      "exit_code": 127
+    },
+    {
+      "command": "F-",
+      "output": "bash: F-: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "Fx",
+      "output": "-bash: Fx: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "Host: 100.53.77.128:23",
+      "output": "Usage: nc [-46DdlnqstUvz] [-g gateway] [-i interval] [-k seconds] [-p port] [-s source]\n[-w timeout] [-X protocol] [-x proxyhost[:port]] [hostname] [port]\n",
+      "exit_code": 0
+    },
+    {
+      "command": "L?a",
+      "output": "bash: L?a: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "Max-Forwards: 70",
+      "output": "Max-Forwards: 70\n",
+      "exit_code": 0
+    },
+    {
+      "command": "QyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ",
+      "output": "The command you entered appears to be corrupted or encoded in a way that is not recognized by the shell. Here is the output you would see:\n\n```\nbash: QyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "R",
+      "output": "bash: R: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "RPMA",
+      "output": "bash: RPMA: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "V",
+      "output": "bash: V: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "^",
+      "output": "bash: ^: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "_",
+      "output": "bash: syntax error near unexpected token `('\n",
+      "exit_code": 0
+    },
+    {
+      "command": "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW",
+      "output": "-bash: b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "dY",
+      "output": "dY: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "enable",
+      "output": "enable: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "enablelinuxshell",
+      "output": "bash: enablelinuxshell: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "getenforce",
+      "output": "1\n",
+      "exit_code": 0
+    },
+    {
+      "command": "ie",
+      "output": "bash: syntax error near unexpected token `('\n",
+      "exit_code": 0
+    },
+    {
+      "command": "jCWOeZ?,",
+      "output": "bash: jCWOeZ?: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "linuxshell",
+      "output": "bash: linuxshell: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "ncorrect",
+      "output": "-bash: ncorrect: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "openssl base64 -d",
+      "output": "Usage: openssl [options] command [command options]\n",
+      "exit_code": 0
+    },
+    {
+      "command": "root",
+      "output": "bash: root: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "s",
+      "output": "s: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "shel",
+      "output": "shel: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "shell",
+      "output": "bash: shell: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "system",
+      "output": "bash: system: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "t9",
+      "output": "bash: t9: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "xzqwplkjfoobar123",
+      "output": "xzqwplkjfoobar123: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "zyad5001",
+      "output": "zyad5001: command not found\n",
+      "exit_code": 127
+    },
+    {
+      "command": "~.~",
+      "output": "bash: .~: No such file or directory\n",
+      "exit_code": 127
+    }
+  ]
+}

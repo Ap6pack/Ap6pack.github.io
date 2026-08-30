@@ -1,0 +1,117 @@
+{
+  "Event": {
+    "uuid": "976c00e2-0495-5f1f-a19c-e3f14dfc6fba",
+    "info": "Sundew honeypot - campaign d1f4ada12ead (5 sources) - ncorrect",
+    "date": "2026-08-30",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "e8dc8d75-7cc3-5cf9-854c-e72ca58950f7",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "120.78.9.93",
+        "timestamp": "1788120012",
+        "comment": "executed_commands, confidence medium; 1 sessions, 5 commands, 0 downloads; first_seen 2026-08-29T18:22:20.585245Z, last_seen 2026-08-29T18:22:31.666188Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "d4371fc2-a1f6-5a62-9175-23718f2275ca",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "211.72.174.198",
+        "timestamp": "1788120012",
+        "comment": "executed_commands, confidence medium; 1 sessions, 5 commands, 0 downloads; first_seen 2026-08-26T13:57:21.111647Z, last_seen 2026-08-26T13:58:23.399275Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "e3990903-5df0-56b0-8623-4b79e5ad6054",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "218.21.182.228",
+        "timestamp": "1788120012",
+        "comment": "executed_commands, confidence medium; 2 sessions, 10 commands, 0 downloads; first_seen 2026-08-18T10:45:44.201818Z, last_seen 2026-08-28T09:29:04.259833Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "2f8524f7-c92b-52e6-b0d9-7a3c5e13965a",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "59.151.197.93",
+        "timestamp": "1788120012",
+        "comment": "executed_commands, confidence medium; 1 sessions, 5 commands, 0 downloads; first_seen 2026-08-29T09:44:22.839079Z, last_seen 2026-08-29T09:44:55.672121Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "d3300dbb-b238-5132-9e43-075cccf9eb62",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "80.28.217.161",
+        "timestamp": "1788120012",
+        "comment": "executed_commands, confidence medium; 1 sessions, 5 commands, 0 downloads; first_seen 2026-08-27T06:02:50.153632Z, last_seen 2026-08-27T06:03:17.751997Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "0e9ffebc-2e56-5493-996d-3b24330b1311",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "ncorrect",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "dd5321e4-2e70-5606-93a3-77ab071a58ea",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "system",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "52503247-d992-5451-a182-49fd19827540",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "shell",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "28c4bd67-c090-5412-93c4-97aa4fc9154c",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "sh",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "da8d40cc-52b4-5151-a254-88708ab04f84",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "/bin/busybox BOTNET",
+        "timestamp": "1788120012",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}
