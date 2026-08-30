@@ -31,10 +31,25 @@ sees every day.
 It is cheaper too, though that is the smaller point: a 30-day ranking costs
 87 KB over 37 range requests against 136 KB over 136, and 93 ms against 328.
 
+WHAT ELSE IT BUILDS
+-------------------
+
+hourly_activity: 24 rows, one per hour of the UTC day, carrying sessions and
+commands. About 1 KB, and it is what makes an hour-of-day view possible at all -
+computing it in the browser means reading started_at for every session, which is
+the whole table.
+
+It is worth having for what it shows rather than for the bytes. Session volume
+across the day is fairly flat, varying about 2.9x between the quietest hour
+(10:00, 2,187 sessions) and the busiest (13:00, 6,287). Commands per session is
+not flat: roughly 1.4 in the early hours against 2.2 between 13:00 and 21:00.
+The connections arrive around the clock; the ones where somebody actually types
+something cluster into a working day.
+
 WHAT IT DOES NOT COVER, AND WHY
 -------------------------------
 
-Only addresses. Two other rollups were measured and rejected:
+Two other rollups were measured and rejected:
 
   - Commands. `uses` sums across days correctly, but `distinct_ips` does not -
     the same address on two days would be counted twice - and the dashboard
@@ -56,7 +71,8 @@ under 500 sessions it is the whole window.
 COST
 ----
 
-2,287 rows, about 55 KB, built in under a second.
+daily_ips is 2,379 rows, about 55 KB. hourly_activity is 24 rows, about 1 KB.
+Both are built in under a second.
 """
 
 import argparse
@@ -77,15 +93,39 @@ INSERT INTO daily_ips
   FROM sessions
   WHERE started_at IS NOT NULL
   GROUP BY date(started_at), ip_id;
+
+DROP TABLE IF EXISTS hourly_activity;
+CREATE TABLE hourly_activity (
+  hour     INTEGER NOT NULL,
+  sessions INTEGER NOT NULL,
+  commands INTEGER NOT NULL,
+  PRIMARY KEY (hour)
+) WITHOUT ROWID;
+INSERT INTO hourly_activity
+  SELECT CAST(strftime('%H', started_at) AS INTEGER), COUNT(*),
+         COALESCE(SUM(command_count), 0)
+  FROM sessions
+  WHERE started_at IS NOT NULL
+  GROUP BY 1;
 """
 
 
 def drift(db):
-    """How far the rollup's totals are from the table it summarises."""
+    """How far daily_ips' totals are from the table it summarises."""
     return db.execute(
         """SELECT (SELECT COALESCE(SUM(sessions), 0) FROM daily_ips)
                 - (SELECT COUNT(*) FROM sessions WHERE started_at IS NOT NULL),
                   (SELECT COALESCE(SUM(commands), 0) FROM daily_ips)
+                - (SELECT COALESCE(SUM(command_count), 0) FROM sessions WHERE started_at IS NOT NULL)"""
+    ).fetchone()
+
+
+def hourly_drift(db):
+    """The same check for hourly_activity, which sums the same two columns."""
+    return db.execute(
+        """SELECT (SELECT COALESCE(SUM(sessions), 0) FROM hourly_activity)
+                - (SELECT COUNT(*) FROM sessions WHERE started_at IS NOT NULL),
+                  (SELECT COALESCE(SUM(commands), 0) FROM hourly_activity)
                 - (SELECT COALESCE(SUM(command_count), 0) FROM sessions WHERE started_at IS NOT NULL)"""
     ).fetchone()
 
@@ -109,7 +149,14 @@ def main():
         if not present:
             print("build-rollups: daily_ips MISSING", file=sys.stderr)
             return 1
+        hourly = db.execute(
+            "SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name='hourly_activity'"
+        ).fetchone()[0]
+        if not hourly:
+            print("build-rollups: hourly_activity MISSING", file=sys.stderr)
+            return 1
         rows = db.execute("SELECT COUNT(*) FROM daily_ips").fetchone()[0]
+        hours = db.execute("SELECT COUNT(*) FROM hourly_activity").fetchone()[0]
         # Present is not the same as current. A rollup left over from an
         # earlier build would be silently stale, and the dashboard would show
         # confident wrong numbers, so --check verifies the totals too.
@@ -120,7 +167,18 @@ def main():
                 file=sys.stderr,
             )
             return 1
-        print(f"build-rollups: daily_ips present and current, {rows:,} rows", file=sys.stderr)
+        hoff = hourly_drift(db)
+        if hoff != (0, 0):
+            print(
+                f"build-rollups: hourly_activity present but STALE — totals off by {hoff}",
+                file=sys.stderr,
+            )
+            return 1
+        print(
+            f"build-rollups: daily_ips present and current, {rows:,} rows; "
+            f"hourly_activity {hours} hours",
+            file=sys.stderr,
+        )
         return 0
 
     db.executescript(SCHEMA)
@@ -128,20 +186,22 @@ def main():
 
     rows = db.execute("SELECT COUNT(*) FROM daily_ips").fetchone()[0]
     days = db.execute("SELECT COUNT(DISTINCT day) FROM daily_ips").fetchone()[0]
+    hours = db.execute("SELECT COUNT(*) FROM hourly_activity").fetchone()[0]
 
     # The rollup must agree with the table it summarises, or it is worse than
     # useless - the dashboard would show confident wrong numbers. Cheap to
     # check here, where both are in one file.
-    off = drift(db)
-    if off != (0, 0):
-        print(
-            f"build-rollups: rollup disagrees with sessions by {off} — NOT safe to publish",
-            file=sys.stderr,
-        )
-        return 1
+    for name, off in (("daily_ips", drift(db)), ("hourly_activity", hourly_drift(db))):
+        if off != (0, 0):
+            print(
+                f"build-rollups: {name} disagrees with sessions by {off} — NOT safe to publish",
+                file=sys.stderr,
+            )
+            return 1
 
     print(
-        f"build-rollups: daily_ips rebuilt — {rows:,} rows across {days} days, totals agree",
+        f"build-rollups: daily_ips rebuilt — {rows:,} rows across {days} days; "
+        f"hourly_activity rebuilt — {hours} hours; all totals agree",
         file=sys.stderr,
     )
     return 0
