@@ -1,0 +1,125 @@
+name: Normalise honeypot export
+
+# The honeypot instance syncs dist/honeypot/data/ here every ~30 minutes. What
+# it publishes is the raw export: no index on logins(ts), no daily rollup, a
+# manifest that types nothing, and a replay carrying the instance's own
+# hostname. Those four gaps are fixed by scripts that belong in the export
+# pipeline on that machine - but until they run there, they can run here, over
+# the same files, immediately after each sync.
+#
+# Everything is idempotent. If the pipeline on the honeypot instance ever
+# starts doing this itself, every step below reports "nothing to do" and the
+# job commits nothing, so there is no need to remove this workflow first.
+#
+# WHY THIS DOES NOT LOOP
+#
+# The commit is pushed with GITHUB_TOKEN, and GitHub deliberately does not
+# trigger workflows from pushes made with it. The scripts being idempotent is
+# the second line of defence, not the first.
+#
+# WHAT IT COSTS
+#
+# The three JSON steps are free. The database step is not: adding the index and
+# rollup appends about 3.4 MB, which lands in roughly six 1 MB shards, and git
+# stores SQLite pages more or less uncompressed. Measured over 20 consecutive
+# syncs, the database itself changed in 2 of them, so this is about five
+# rebuilds a day rather than forty-eight. It still adds up, which is why the
+# database step is skipped unless the shards actually changed.
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "dist/honeypot/data/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Syncs land every half hour; never let two normalisations race for the same
+# files. Cancelling in progress is wrong here - a half-written database would
+# be committed - so queue instead.
+concurrency:
+  group: normalise-honeypot-export
+  cancel-in-progress: false
+
+jobs:
+  normalise:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Only the standard library is used, deliberately: this has to keep
+      # working with no dependency resolution and no network.
+      - name: Type the sample manifest
+        run: python3 .github/scripts/normalize-samples.py dist/honeypot/data
+
+      - name: Redact the honeypot's own identity from the replay
+        run: python3 .github/scripts/redact-replay.py dist/honeypot/data/session_replay.json
+
+      - name: Did the database change in this push?
+        id: db
+        run: |
+          if git diff --quiet HEAD~1 HEAD -- dist/honeypot/data/db/ 2>/dev/null; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Database shards untouched by this sync - skipping the rebuild."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Database shards changed - rebuilding index and rollup."
+          fi
+
+      - name: Rebuild the index and the daily rollup
+        if: steps.db.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          python3 .github/scripts/shard-db.py join dist/honeypot/data/db "$RUNNER_TEMP/honeypot.db"
+          python3 .github/scripts/index-db.py "$RUNNER_TEMP/honeypot.db"
+          python3 .github/scripts/build-rollups.py "$RUNNER_TEMP/honeypot.db"
+          python3 .github/scripts/shard-db.py split dist/honeypot/data/db "$RUNNER_TEMP/honeypot.db"
+
+      # Belt and braces: every script re-run in --check mode must agree that
+      # there is nothing left to do. A non-zero exit here means the tree we are
+      # about to commit is not actually normalised, and publishing it would put
+      # confident wrong numbers on the site.
+      - name: Verify the tree is fully normalised
+        run: |
+          set -euo pipefail
+          python3 .github/scripts/normalize-samples.py dist/honeypot/data --check
+          python3 .github/scripts/redact-replay.py dist/honeypot/data/session_replay.json --check
+          python3 .github/scripts/shard-db.py join dist/honeypot/data/db "$RUNNER_TEMP/verify.db"
+          python3 .github/scripts/index-db.py "$RUNNER_TEMP/verify.db" --check
+          python3 .github/scripts/build-rollups.py "$RUNNER_TEMP/verify.db" --check
+          python3 - "$RUNNER_TEMP/verify.db" <<'PY'
+          import sqlite3, sys
+          ok = sqlite3.connect(sys.argv[1]).execute("PRAGMA integrity_check").fetchone()[0]
+          print(f"integrity_check: {ok}")
+          sys.exit(0 if ok == "ok" else 1)
+          PY
+
+      - name: Commit if anything changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet; then
+            echo "Already normalised - nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/honeypot/data
+          git commit -m "chore: normalise honeypot export
+
+          Applies the export-pipeline scripts to the data the honeypot instance
+          just synced: types the sample manifest, redacts the instance's own
+          hostname from the replay, and - when the database changed - adds
+          idx_logins_ts and rebuilds the daily_ips rollup.
+
+          Idempotent; this commit is empty when the pipeline has already done it."
+          git push
