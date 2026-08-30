@@ -108,6 +108,14 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # The branch this run is on, not a hardcoded "master". The push trigger
+          # only fires on master, but workflow_dispatch can run this anywhere -
+          # and the retry path below resets --hard onto the remote branch. Fixed
+          # to master, a rejected push on any other branch would have reset that
+          # branch onto master and destroyed the commit it was trying to make.
+          BRANCH="${GITHUB_REF_NAME}"
+          echo "Working on branch: $BRANCH"
+
           # `git status --porcelain`, not `git diff`. git diff only reports
           # tracked files, and the feed under dist/honeypot/data/v1/ arrives as
           # new paths - so a sync that changed nothing but the feed would have
@@ -130,15 +138,15 @@ jobs:
 
           Idempotent; this commit is empty when the pipeline has already done it."
 
-            if git push; then
+            if git push origin "HEAD:$BRANCH"; then
               echo "Pushed on attempt $attempt."
               exit 0
             fi
 
-            echo "::notice::Push rejected on attempt $attempt - something else pushed to master. Taking its tree and re-normalising."
+            echo "::notice::Push rejected on attempt $attempt - something else pushed to $BRANCH. Taking its tree and re-normalising."
             git reset --hard HEAD~1
-            git fetch origin master
-            git reset --hard origin/master
+            git fetch origin "$BRANCH"
+            git reset --hard "origin/$BRANCH"
             sh .github/scripts/normalise.sh
           done
 
