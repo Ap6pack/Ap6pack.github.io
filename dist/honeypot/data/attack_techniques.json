@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "techniques": [
     {
       "id": "T1027",
@@ -42,7 +41,7 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 1351,
+      "count": 1371,
       "distinct_ips": 116,
       "examples": [
         "/bin/busybox wget; /bin/busybox STC",
@@ -150,6 +149,6 @@
       ]
     }
   ],
-  "total_commands": 176309,
-  "matched_commands": 77488
+  "total_commands": 176397,
+  "matched_commands": 77508
 }
