@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 78679,
+        "total": 78707,
         "top_label": "T1027",
-        "top_value": 74734,
-        "top_share": 0.9499,
+        "top_value": 74758,
+        "top_share": 0.9498,
         "top_sources": 139,
         "sources_total": 2525
       }
@@ -1373,21 +1373,21 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 74734,
+      "count": 74758,
       "distinct_ips": 139,
       "recon_count": 73624,
       "recon_ips": 5,
-      "residual_count": 1110,
+      "residual_count": 1134,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 2315,
+      "count": 2319,
       "distinct_ips": 134,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 2315,
+      "residual_count": 2319,
       "attribution": "none"
     },
     {
