@@ -821,7 +821,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 181.26.91.42,2026-08-20T11:01:57.035297Z,2026-08-20T11:02:13.321321Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,35
 181.29.164.127,2026-08-19T06:48:54.867113Z,2026-08-19T06:49:09.552831Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Telecom Argentina S.A.,personal.com.ar,false,85
 181.29.222.210,2026-08-26T07:35:30.828895Z,2026-08-26T07:36:19.936367Z,3,0,0,0,low,connected_only,false,true,,7,Argentina,Telecom Argentina S.A.,personal.com.ar,false,42
-181.39.212.183,2026-08-20T23:15:52.343991Z,2026-08-24T21:47:38.811632Z,4,0,0,0,low,connected_only,false,true,,7,Ecuador,Telconet S.A,telconet.net,false,100
+181.39.212.183,2026-08-20T23:15:52.343991Z,2026-08-24T21:47:38.811632Z,4,0,0,0,low,connected_only,false,false,,7,Ecuador,Telconet S.A,telconet.net,false,100
 181.42.18.236,2026-08-19T21:42:00.368366Z,2026-08-19T21:42:00.369334Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,ENTEL CHILE S.A.,entel.cl,false,30
 181.44.116.33,2026-08-31T11:09:01.633778Z,2026-08-31T11:09:01.634434Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,Telecentro S.A.,telecentro.com.ar,false,63
 181.44.117.4,2026-08-24T20:29:51.936903Z,2026-08-24T20:29:51.940595Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telecentro S.A.,telecentro.com.ar,false,81
@@ -837,7 +837,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 181.47.126.53,2026-08-28T18:13:54.923439Z,2026-08-28T18:14:19.742195Z,3,0,0,0,low,connected_only,false,true,,7,Argentina,Telecentro S.A. - Clientes Residenciales,telecentro.com.ar,false,62
 181.47.153.14,2026-08-26T17:12:07.681267Z,2026-08-26T17:12:46.859373Z,3,0,0,0,low,connected_only,false,true,,7,Argentina,Telecentro S.A. - Clientes Residenciales,telecentro.com.ar,false,65
 181.64.27.134,2026-08-28T19:26:06.428263Z,2026-08-28T19:26:06.429155Z,1,0,0,0,low,single_sighting,false,true,,7,Peru,PE-TDP-GRS,tdp.net.pe,false,45
-181.64.92.39,2026-08-24T21:36:46.587903Z,2026-08-24T21:37:10.020884Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Peru,PE-TDP-GRS,tdp.net.pe,false,16
+181.64.92.39,2026-08-24T21:36:46.587903Z,2026-08-24T21:37:10.020884Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Peru,PE-TDP-GRS,tdp.net.pe,false,16
 181.64.93.122,2026-08-28T19:25:30.826282Z,2026-08-28T19:25:30.827101Z,1,0,0,0,low,single_sighting,false,true,,7,Peru,PE-TDP-GRS,tdp.net.pe,false,0
 181.66.254.133,2026-08-28T19:25:30.827570Z,2026-08-28T19:25:30.828214Z,1,0,0,0,low,single_sighting,false,true,,7,Peru,Telefonica del Peru S.A.A.,telefonica.com.pe,false,42
 181.73.104.248,2026-08-20T01:50:42.470509Z,2026-08-20T01:50:42.471369Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,Telmex Servicios Empresariales S.A.,telmexchile.cl,false,69
@@ -1622,7 +1622,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 23.117.205.254,2026-08-22T04:17:43.120920Z,2026-08-22T04:19:08.617730Z,2,0,0,0,low,connected_only,false,false,,7,United States,"AT&T Enterprises, LLC",att.com,false,100
 23.128.248.160,2026-08-31T05:16:02.554652Z,2026-08-31T05:16:17.041105Z,1,2,8,2,high,delivered_payload,false,true,85aa79c828ba0690,7,United States,StormyCloud Inc,stormycloud.org,true,100
 24.119.36.250,2026-08-26T20:01:49.736329Z,2026-08-26T20:01:57.730050Z,1,1,0,0,low,single_sighting,false,true,,7,United States,"CABLE ONE, INC.",cableone.biz,false,100
-24.167.235.86,2026-08-24T21:41:16.293308Z,2026-08-24T21:41:29.295666Z,3,0,0,0,low,connected_only,false,true,,7,United States,Charter Communications Inc,charter.com,false,55
+24.167.235.86,2026-08-24T21:41:16.293308Z,2026-08-24T21:41:29.295666Z,3,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications Inc,charter.com,false,55
 24.190.201.152,2026-08-22T18:30:41.800410Z,2026-08-22T18:32:39.775107Z,3,0,0,0,low,connected_only,false,false,,7,United States,Optimum Online (Cablevision Systems),optimum.net,false,100
 24.199.100.44,2026-08-21T01:46:37.109418Z,2026-08-21T01:46:37.243766Z,2,0,0,0,low,connected_only,false,false,,7,United States,"DigitalOcean, LLC",digitalocean.com,false,46
 24.207.66.154,2026-08-31T19:47:11.085850Z,2026-08-31T19:47:18.463950Z,1,1,0,0,low,single_sighting,false,true,,7,Canada,EastLink,eastlink.ca,false,100
