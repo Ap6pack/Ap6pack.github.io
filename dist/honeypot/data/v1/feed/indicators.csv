@@ -392,7 +392,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 148.204.77.37,2026-08-25T02:17:49.045924Z,2026-08-25T02:19:49.147156Z,1,0,0,0,low,single_sighting,false,true,,7,Mexico,Instituto Politecnico Nacional,ipn.mx,false,100
 148.222.130.67,2026-08-29T01:16:20.565169Z,2026-08-29T01:16:20.565919Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,Starlink Argentina SRL,starlink.com,false,11
 148.222.217.132,2026-08-18T20:36:24.385729Z,2026-08-18T20:36:39.299931Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Starlink Argentina SRL,starlink.com,false,43
-148.222.217.4,2026-08-24T18:04:38.773677Z,2026-08-24T18:04:55.373477Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,Starlink Argentina SRL,starlink.com,false,31
+148.222.217.4,2026-08-24T18:04:38.773677Z,2026-08-24T18:04:55.373477Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Starlink Argentina SRL,starlink.com,false,31
 148.222.223.100,2026-08-22T15:25:23.512147Z,2026-08-22T15:26:20.704746Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Starlink Argentina SRL,starlink.com,false,10
 148.227.90.90,2026-08-26T00:58:50.792460Z,2026-08-26T00:58:51.736526Z,1,0,0,0,low,single_sighting,false,true,,7,Brazil,Starlink Brazil Serviços de Internet Ltd,starlink.com,false,100
 148.227.93.81,2026-08-20T03:13:22.601006Z,2026-08-20T03:13:22.837282Z,1,0,0,0,low,single_sighting,false,false,,7,Ecuador,Starlink Ecuador STAREC C. Ltda.,starlink.com,false,0
@@ -434,7 +434,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 152.201.162.209,2026-08-22T18:17:09.017767Z,2026-08-22T18:17:18.426320Z,2,0,0,0,low,connected_only,false,false,,7,Colombia,COLOMBIA TELECOMUNICACIONES S.A. ESP BIC,telecom.com.co,false,19
 152.32.141.40,2026-08-24T10:50:19.752714Z,2026-08-24T10:50:22.611032Z,3,0,0,0,low,connected_only,false,false,,7,Nigeria,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,ucloud.cn,false,100
 152.32.169.7,2026-08-22T04:02:50.513875Z,2026-08-22T04:02:53.695199Z,3,0,0,0,low,connected_only,false,false,,7,Hong Kong,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,ucloud.cn,false,100
-152.59.167.208,2026-08-24T18:17:49.575881Z,2026-08-24T18:18:08.799390Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,India,Reliance Jio Infocomm Limited,jio.com,false,0
+152.59.167.208,2026-08-24T18:17:49.575881Z,2026-08-24T18:18:08.799390Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,India,Reliance Jio Infocomm Limited,jio.com,false,0
 153.117.1.180,2026-08-19T05:01:12.380315Z,2026-08-19T05:06:24.006857Z,24,0,0,0,medium,persistent,false,false,,7,Pakistan,Cyber Internet Services Pvt Ltd,cyber.net.pk,false,78
 153.117.15.131,2026-08-19T17:57:22.856653Z,2026-08-19T17:57:35.459096Z,1,0,0,0,low,single_sighting,false,false,,7,Pakistan,Cyber Internet Services Pvt Ltd,cyber.net.pk,false,86
 153.117.15.136,2026-08-23T14:35:42.228758Z,2026-08-23T14:41:10.353638Z,25,0,0,0,medium,persistent,false,false,,7,Pakistan,Cyber Internet Services Pvt Ltd,cyber.net.pk,false,64
@@ -1103,7 +1103,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 193.239.234.159,2026-08-21T21:56:52.396095Z,2026-08-21T21:57:18.589338Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,INCOMPLAST SERVICE LLC,westnet.com.ua,false,46
 193.27.208.218,2026-08-29T05:46:50.771474Z,2026-08-29T05:53:00.848520Z,4,0,0,0,low,connected_only,false,true,,7,Ukraine,PP KOM i TEX,komitex.net,false,100
 193.32.162.34,2026-08-17T16:32:58.490411Z,2026-08-17T16:35:00.988454Z,3,2,1,0,low,executed_commands,false,false,9dc0f0fe6a402818,7,The Netherlands,UNMANAGED LTD,unmanaged.uk,false,100
-193.32.162.84,2026-08-24T12:05:25.172124Z,2026-08-24T18:21:04.017378Z,3,1,1,0,medium,executed_commands,false,true,9dc0f0fe6a402818,7,The Netherlands,UNMANAGED LTD,unmanaged.uk,false,100
+193.32.162.84,2026-08-24T12:05:25.172124Z,2026-08-24T18:21:04.017378Z,3,1,1,0,low,executed_commands,false,false,9dc0f0fe6a402818,7,The Netherlands,UNMANAGED LTD,unmanaged.uk,false,100
 194.107.179.80,2026-08-26T11:21:15.398738Z,2026-08-26T11:21:32.681756Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Scientific-Production Enterprise Information Technologies Ltd,it-tv.org,false,52
 194.187.176.187,2026-08-23T06:49:44.592174Z,2026-08-23T06:49:49.486297Z,1,0,0,0,low,single_sighting,false,false,,7,Germany,Alpha Strike Labs GmbH,alphastrike.io,false,100
 194.220.38.202,2026-08-20T20:49:19.126313Z,2026-08-20T20:49:22.571568Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Spain,VODAFONE ESPANA S.A.U.,vodafone.es,false,33
@@ -1412,7 +1412,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 212.100.58.147,2026-08-24T01:24:04.939579Z,2026-08-24T01:24:07.667444Z,2,2,0,2,low,delivered_payload,false,false,,7,Germany,BITel Gesellschaft fuer Telekommunikation mbH,bitel.de,false,3
 212.112.100.7,2026-08-20T13:14:31.334945Z,2026-08-20T13:14:50.558799Z,1,1,2,0,low,executed_commands,false,false,,7,Kyrgyzstan,AKNET Ltd.,aknet.kg,false,65
 212.164.38.134,2026-08-27T21:13:11.605775Z,2026-08-28T01:01:17.980921Z,2,2,6,0,medium,executed_commands,false,true,d4a527442a7887a2,7,Russia,OJSC Sibirtelecom,sibirtelecom.ru,false,34
-212.35.173.47,2026-08-24T18:03:54.079283Z,2026-08-24T18:03:54.133388Z,1,0,0,0,low,single_sighting,false,true,,7,Russia,PJSC Rostelecom,rt.ru,false,27
+212.35.173.47,2026-08-24T18:03:54.079283Z,2026-08-24T18:03:54.133388Z,1,0,0,0,low,single_sighting,false,false,,7,Russia,PJSC Rostelecom,rt.ru,false,27
 212.45.80.198,2026-08-26T02:10:10.074244Z,2026-08-26T02:10:37.687058Z,3,0,0,0,low,connected_only,false,true,,7,Kazakhstan,JSC Alma Telecommunications,alma.plus,false,32
 212.47.131.117,2026-08-27T00:39:05.977026Z,2026-08-27T00:39:15.503218Z,2,0,0,0,low,connected_only,false,true,,7,Azerbaijan,Aztelekom LLC,aztelekom.az,false,16
 212.58.121.0,2026-08-26T07:02:46.224503Z,2026-08-26T07:02:46.225299Z,1,0,0,0,low,single_sighting,false,true,,7,Georgia,Magticom,magticom.ge,false,28
