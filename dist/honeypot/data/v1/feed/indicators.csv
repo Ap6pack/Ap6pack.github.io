@@ -38,7 +38,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 102.210.16.14,2026-08-20T02:53:24.151377Z,2026-08-20T02:53:24.152320Z,1,0,0,0,low,single_sighting,false,false,,7,Ivory Coast,ORANGE COTE D'IVOIRE,orange.ci,false,35
 102.210.16.255,2026-08-18T16:18:12.642415Z,2026-08-18T16:18:12.643165Z,1,0,0,0,low,single_sighting,false,false,,7,Ivory Coast,ORANGE COTE D'IVOIRE,orange.ci,false,51
 102.210.17.96,2026-08-24T15:42:14.872116Z,2026-08-24T15:42:14.880022Z,1,0,0,0,low,single_sighting,false,true,,7,Ivory Coast,ORANGE COTE D'IVOIRE,orange.ci,false,46
-102.210.58.106,2026-08-24T09:41:15.784378Z,2026-08-24T09:41:36.416256Z,3,0,0,0,low,connected_only,false,true,,7,Kenya,Syokinet Solutions Limited,syokinet.co.ke,false,24
+102.210.58.106,2026-08-24T09:41:15.784378Z,2026-08-24T09:41:36.416256Z,3,0,0,0,low,connected_only,false,false,,7,Kenya,Syokinet Solutions Limited,syokinet.co.ke,false,24
 102.211.147.131,2026-08-21T06:39:46.237475Z,2026-08-21T06:40:13.919579Z,2,0,0,0,low,connected_only,false,false,,7,Kenya,Unwired Communications,unwired.co.ke,false,71
 102.213.92.14,2026-08-25T19:21:33.638250Z,2026-08-25T19:22:03.566444Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Kenya,FLINK TECHNOLOGIES LTD,flink.co.ke,false,100
 102.217.186.60,2026-08-22T14:50:13.997034Z,2026-08-22T14:51:02.914833Z,2,0,0,0,low,connected_only,false,false,,7,South Africa,MikroTikSA Networks CC,mikrotiksa.com,false,61
@@ -115,7 +115,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 105.242.179.131,2026-08-23T21:01:37.198492Z,2026-08-23T21:01:55.564443Z,3,0,0,0,low,connected_only,false,false,,7,South Africa,Vodacom_ENS,vodacom.co.za,false,0
 106.12.120.171,2026-08-26T13:49:18.055227Z,2026-08-26T13:54:22.115897Z,1,1,0,1,high,delivered_payload,false,true,,7,China,"Beijing Baidu Netcom Science and Technology Co., Ltd.",baidu.com,false,100
 106.12.221.161,2026-08-19T03:07:41.469442Z,2026-08-19T03:09:41.483845Z,1,0,0,0,low,single_sighting,false,false,,7,China,"Beijing Baidu Netcom Science and Technology Co., Ltd.",baidu.com,false,100
-106.125.210.21,2026-08-24T09:54:52.998688Z,2026-08-24T09:54:58.589229Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,China,CHINANET Guangdong province network,chinatelecom.cn,false,100
+106.125.210.21,2026-08-24T09:54:52.998688Z,2026-08-24T09:54:58.589229Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,China,CHINANET Guangdong province network,chinatelecom.cn,false,100
 106.153.181.80,2026-08-25T20:38:04.434173Z,2026-08-25T20:38:12.769200Z,1,1,0,0,low,single_sighting,false,true,,7,Japan,"Japan Internet Xing Co., Ltd.",jpix.tokyo,false,100
 106.246.89.69,2026-08-31T06:55:26.077234Z,2026-08-31T06:55:28.238989Z,1,0,0,0,low,single_sighting,false,true,,7,South Korea,LG DACOM Corporation,dacom.co.kr,false,100
 106.246.89.73,2026-08-26T19:22:10.731366Z,2026-08-26T19:22:14.752404Z,1,0,0,0,low,single_sighting,false,true,,7,South Korea,LG DACOM Corporation,dacom.co.kr,false,100
@@ -144,7 +144,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 109.228.161.70,2026-08-31T05:11:26.548177Z,2026-08-31T05:11:32.727338Z,1,1,0,0,low,single_sighting,false,true,,7,Sweden,Bahnhof AB,bahnhof.se,false,100
 109.228.194.223,2026-08-18T21:03:15.964047Z,2026-08-18T21:04:55.741552Z,2,0,0,0,low,connected_only,false,false,,7,Turkey,Millenicom Telekomunikasyon Hizmetleri Anonim Sirketi,milleni.com.tr,false,0
 109.51.111.237,2026-08-23T02:53:50.858390Z,2026-08-23T02:54:25.781808Z,3,0,0,0,low,connected_only,false,false,,7,Portugal,"NOS COMUNICACOES, S.A.",nos.pt,false,100
-109.51.201.211,2026-08-24T09:48:04.039077Z,2026-08-24T09:48:22.056748Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Portugal,"NOS COMUNICACOES, S.A.",nos.pt,false,100
+109.51.201.211,2026-08-24T09:48:04.039077Z,2026-08-24T09:48:22.056748Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Portugal,"NOS COMUNICACOES, S.A.",nos.pt,false,100
 109.72.242.186,2026-08-19T21:13:47.325740Z,2026-08-19T21:14:05.363654Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,Lite-Telecom Limited,lite-telecom.ru,false,100
 109.74.172.82,2026-08-27T01:46:32.375043Z,2026-08-27T01:46:49.703464Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,"K-TELECOM, Volchansk",k-telecom.org,false,0
 109.86.67.141,2026-08-31T05:04:30.157031Z,2026-08-31T05:04:48.129282Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,CONTENT DELIVERY NETWORK LTD,triolan.com.ua,false,100
@@ -2137,7 +2137,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 83.4.208.18,2026-08-17T23:55:25.976243Z,2026-08-17T23:55:29.207356Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Poland,Orange Polska Spolka Akcyjna,orange.com,false,65
 83.99.204.194,2026-08-23T04:30:20.840713Z,2026-08-23T04:30:20.841461Z,1,0,0,0,low,single_sighting,false,false,,7,Latvia,Balticom JSC,balticom.eu,false,74
 84.15.221.52,2026-08-26T00:44:44.152037Z,2026-08-26T00:45:06.142952Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Latvia,Bite Latvija,bite.lv,false,25
-84.186.178.230,2026-08-24T09:51:55.782975Z,2026-08-24T09:52:17.672550Z,4,0,0,0,low,connected_only,false,true,,7,Germany,Deutsche Telekom AG,telekom.de,false,13
+84.186.178.230,2026-08-24T09:51:55.782975Z,2026-08-24T09:52:17.672550Z,4,0,0,0,low,connected_only,false,false,,7,Germany,Deutsche Telekom AG,telekom.de,false,13
 84.212.33.85,2026-08-29T10:49:11.829101Z,2026-08-29T10:50:47.633982Z,2,0,0,0,low,connected_only,false,true,,7,Norway,Telia Norge AS,telia.no,false,100
 84.23.212.154,2026-08-20T07:48:43.674370Z,2026-08-20T07:49:01.373491Z,1,1,2,0,low,executed_commands,false,false,,7,Portugal,nos madeira comunicacoes s.a,nos.pt,false,67
 84.54.70.115,2026-08-25T12:27:53.162244Z,2026-08-25T12:28:31.439825Z,2,0,0,0,low,connected_only,false,true,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,100
