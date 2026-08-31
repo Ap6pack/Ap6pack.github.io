@@ -2,7 +2,7 @@
   "Event": {
     "uuid": "bdfa7498-8188-5f49-84ca-f0898176082a",
     "info": "Sundew honeypot - campaign 033eb61ddccb (1 sources) - enable",
-    "date": "2026-08-30",
+    "date": "2026-08-31",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -28,8 +28,8 @@
         "category": "Network activity",
         "to_ids": true,
         "value": "200.86.41.76",
-        "timestamp": "1788120012",
-        "comment": "delivered_payload, confidence high; 1 sessions, 44 commands, 5 downloads; first_seen 2026-08-24T12:20:16.165286Z, last_seen 2026-08-24T12:21:34.068078Z; expires 7d after last_seen"
+        "timestamp": "1788163211",
+        "comment": "delivered_payload, confidence high; 2 sessions, 44 commands, 5 downloads; first_seen 2026-08-24T12:20:16.165286Z, last_seen 2026-08-31T04:23:00.106163Z; expires 7d after last_seen"
       },
       {
         "uuid": "223fd765-7712-510c-ae79-dab425583efc",
@@ -37,7 +37,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enable",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -46,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -64,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -73,7 +73,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "linuxshell",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -82,7 +82,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enablelinuxshell",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -91,7 +91,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "ping ;sh",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -100,7 +100,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "busybox",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -109,7 +109,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /proc && cat self/cmdline",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -118,7 +118,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -127,7 +127,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -136,7 +136,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": ">/var/d && chmod 777 /var/d && /var/d && cd /var/",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -145,7 +145,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": ">/var/tmp/d && chmod 777 /var/tmp/d && /var/tmp/d && cd /var/tmp/",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -154,7 +154,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": ">/var/run/d && chmod 777 /var/run/d && /var/run/d && cd /var/run/",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -163,7 +163,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": ">/dev/d && chmod 777 /dev/d && /dev/d && cd /dev/",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -172,7 +172,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": ">/dev/shm/d && chmod 777 /dev/shm/d && /dev/shm/d && cd /dev/shm/",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -181,7 +181,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": ">/data/d && chmod 777 /data/d && /data/d && cd /data/",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -190,7 +190,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": ">/etc/d && chmod 777 /etc/d && /etc/d && cd /etc/",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -199,7 +199,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": ">/mnt/d && chmod 777 /mnt/d && /mnt/d && cd /mnt/",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       },
       {
@@ -208,7 +208,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": ">/usr/d && chmod 777 /usr/d && /usr/d && cd /usr/",
-        "timestamp": "1788120012",
+        "timestamp": "1788163211",
         "comment": "command run by this campaign"
       }
     ]
