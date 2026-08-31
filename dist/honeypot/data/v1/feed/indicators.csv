@@ -181,7 +181,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 112.27.38.203,2026-08-26T18:02:15.696065Z,2026-08-26T18:04:06.383232Z,1,0,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 112.29.68.22,2026-08-26T11:40:08.255793Z,2026-08-26T11:40:17.658392Z,1,1,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 112.32.208.203,2026-08-26T21:44:09.644884Z,2026-08-26T21:44:11.168676Z,1,1,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,57
-112.38.33.204,2026-08-24T18:50:44.736582Z,2026-08-24T18:52:55.255994Z,1,1,53,5,high,delivered_payload,false,true,99387b9c6a9658c6,7,China,China Mobile Communications Corporation,chinamobile.com,false,0
+112.38.33.204,2026-08-24T18:50:44.736582Z,2026-08-24T18:52:55.255994Z,1,1,53,5,low,delivered_payload,false,false,99387b9c6a9658c6,7,China,China Mobile Communications Corporation,chinamobile.com,false,0
 112.46.212.210,2026-08-20T04:30:39.395548Z,2026-08-20T04:30:47.348771Z,1,1,18,2,low,delivered_payload,false,false,7deaa172063a46a1,7,China,China Mobile Communications Corporation,chinamobile.com,false,55
 112.46.213.196,2026-08-21T03:00:54.524802Z,2026-08-21T03:01:01.254148Z,1,1,18,2,low,delivered_payload,false,false,f9baeaf877ee2ae6,7,China,China Mobile Communications Corporation,chinamobile.com,false,56
 112.72.209.125,2026-08-20T04:11:34.467731Z,2026-08-20T04:11:37.690893Z,1,1,10,0,low,executed_commands,false,false,597732d320c38002,7,South Korea,"kt HCN Co.,Ltd.",hcn.co.kr,false,100
@@ -262,7 +262,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 121.151.174.61,2026-08-26T10:15:54.115838Z,2026-08-26T10:16:04.006036Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 121.164.135.251,2026-08-25T13:58:52.015445Z,2026-08-25T13:59:03.230675Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 121.22.99.2,2026-08-31T04:29:28.864434Z,2026-08-31T04:29:37.843493Z,1,1,0,0,low,single_sighting,false,true,,7,China,China Unicom Hebei province network,chinaunicom.cn,false,100
-121.40.150.190,2026-08-19T06:21:16.027902Z,2026-08-24T18:58:18.050007Z,4,2,2,0,low,executed_commands,true,true,28ba533b0f3c4df6,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
+121.40.150.190,2026-08-19T06:21:16.027902Z,2026-08-24T18:58:18.050007Z,4,2,2,0,low,executed_commands,true,false,28ba533b0f3c4df6,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
 121.46.71.57,2026-08-29T04:07:50.038379Z,2026-08-29T04:08:21.489321Z,2,0,0,0,low,connected_only,false,true,,7,Myanmar,Myanmar Country Co Ltd,myanmarcountry.net,false,100
 121.66.124.147,2026-08-26T00:05:46.427156Z,2026-08-26T00:06:08.738904Z,1,0,0,0,low,single_sighting,false,true,,7,South Korea,LG Uplus,lguplus.com,false,100
 121.66.63.186,2026-08-25T12:18:12.589551Z,2026-08-25T12:18:28.982222Z,1,0,0,0,low,single_sighting,false,true,,7,South Korea,LG Uplus,lguplus.com,false,100
@@ -850,7 +850,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 185.239.121.129,2026-08-17T18:21:09.111118Z,2026-08-17T18:21:24.849907Z,1,1,0,0,low,single_sighting,false,false,,7,Ukraine,Davydov Vladimir Dmitrievich,crelcom.ru,false,98
 185.242.226.17,2026-08-21T14:01:45.386488Z,2026-08-26T21:30:16.514472Z,2,0,0,0,low,connected_only,false,true,,7,The Netherlands,HostUS Solutions LLC,hostus.us,false,100
 185.242.226.18,2026-08-23T19:36:52.320445Z,2026-08-23T19:36:52.321088Z,1,0,0,0,low,single_sighting,false,false,,7,The Netherlands,HostUS Solutions LLC,hostus.us,false,100
-185.242.226.19,2026-08-24T18:55:49.214262Z,2026-08-24T18:55:59.125544Z,1,0,0,0,low,single_sighting,false,true,,7,The Netherlands,HostUS Solutions LLC,hostus.us,false,100
+185.242.226.19,2026-08-24T18:55:49.214262Z,2026-08-24T18:55:59.125544Z,1,0,0,0,low,single_sighting,false,false,,7,The Netherlands,HostUS Solutions LLC,hostus.us,false,100
 185.247.137.102,2026-08-23T21:37:00.985880Z,2026-08-23T21:37:03.209780Z,2,0,0,0,low,connected_only,false,false,,7,United Kingdom,Driftnet Ltd,driftnet.io,false,100
 185.247.137.121,2026-08-23T22:35:45.519977Z,2026-08-23T22:35:47.520554Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,Driftnet Ltd,driftnet.io,false,100
 185.247.137.192,2026-08-21T05:27:18.705520Z,2026-08-21T05:27:20.997295Z,2,0,0,0,low,connected_only,false,false,,7,United Kingdom,Driftnet Ltd,driftnet.io,false,100
