@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 78630,
+        "total": 78655,
         "top_label": "T1027",
-        "top_value": 74712,
-        "top_share": 0.9502,
+        "top_value": 74718,
+        "top_share": 0.9499,
         "top_sources": 134,
         "sources_total": 2347
       }
@@ -1361,31 +1361,31 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 74712,
+      "count": 74718,
       "distinct_ips": 134,
       "recon_count": 73624,
       "recon_ips": 5,
-      "residual_count": 1088,
+      "residual_count": 1094,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 2298,
-      "distinct_ips": 133,
+      "count": 2314,
+      "distinct_ips": 134,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 2298,
+      "residual_count": 2314,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 1390,
-      "distinct_ips": 117,
+      "count": 1393,
+      "distinct_ips": 118,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 1390,
+      "residual_count": 1393,
       "attribution": "none"
     },
     {
