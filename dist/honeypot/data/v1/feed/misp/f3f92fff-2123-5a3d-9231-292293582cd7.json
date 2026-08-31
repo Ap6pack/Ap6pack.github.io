@@ -1,8 +1,8 @@
 {
   "Event": {
     "uuid": "f3f92fff-2123-5a3d-9231-292293582cd7",
-    "info": "Sundew honeypot - campaign 6a844424c30a (2 sources) - enable",
-    "date": "2026-08-30",
+    "info": "Sundew honeypot - campaign 6a844424c30a (3 sources) - enable",
+    "date": "2026-08-31",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -28,17 +28,26 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "104.238.118.239",
-        "timestamp": "1788120012",
-        "comment": "executed_commands, confidence medium; 363 sessions, 1711 commands, 0 downloads; first_seen 2026-08-17T16:46:23.917178Z, last_seen 2026-08-30T01:10:36.095500Z; expires 7d after last_seen"
+        "timestamp": "1788208211",
+        "comment": "executed_commands, confidence medium; 387 sessions, 1815 commands, 0 downloads; first_seen 2026-08-17T16:46:23.917178Z, last_seen 2026-08-31T11:30:44.032542Z; expires 7d after last_seen"
       },
       {
-        "uuid": "4389199b-3b8d-5585-b08f-d8f09e618732",
+        "uuid": "07736f80-4c1f-5bc7-a729-fcbbcc93e12f",
         "type": "ip-src",
         "category": "Network activity",
         "to_ids": false,
-        "value": "50.62.181.140",
-        "timestamp": "1788120012",
-        "comment": "executed_commands, confidence medium; 6373 sessions, 30925 commands, 0 downloads; first_seen 2026-08-21T13:43:59.529895Z, last_seen 2026-08-29T23:47:35.240616Z; expires 7d after last_seen"
+        "value": "166.62.42.127",
+        "timestamp": "1788208211",
+        "comment": "executed_commands, confidence medium; 150 sessions, 730 commands, 0 downloads; first_seen 2026-08-28T00:09:14.488368Z, last_seen 2026-08-31T20:07:16.143456Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "8e674284-7d4b-506c-8a17-9d0ab6587d95",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "97.74.236.238",
+        "timestamp": "1788208211",
+        "comment": "executed_commands, confidence medium; 105 sessions, 515 commands, 0 downloads; first_seen 2026-08-31T18:23:08.692833Z, last_seen 2026-08-31T20:29:52.401400Z; expires 7d after last_seen"
       },
       {
         "uuid": "295b9f0e-fd46-53e4-8b86-d678139dcaf4",
@@ -46,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enable",
-        "timestamp": "1788120012",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "linuxshell",
-        "timestamp": "1788120012",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -64,7 +73,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1788120012",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -73,7 +82,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1788120012",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -82,7 +91,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1788120012",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       }
     ]

@@ -1,8 +1,8 @@
 {
   "Event": {
     "uuid": "e0b96d86-01c2-5e9d-832f-b169b8bd076b",
-    "info": "Sundew honeypot - campaign 32a045e58e6d (1 sources) - system",
-    "date": "2026-08-30",
+    "info": "Sundew honeypot - campaign 32a045e58e6d (2 sources) - system",
+    "date": "2026-08-31",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -23,12 +23,21 @@
     ],
     "Attribute": [
       {
+        "uuid": "9649577e-a850-5ccd-be51-426b2ac9aefa",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "50.62.181.140",
+        "timestamp": "1788208211",
+        "comment": "executed_commands, confidence medium; 6373 sessions, 30925 commands, 0 downloads; first_seen 2026-08-21T13:43:59.529895Z, last_seen 2026-08-29T23:47:35.240616Z; expires 7d after last_seen"
+      },
+      {
         "uuid": "9e46c99f-e44d-556c-adc3-a24af2ff5512",
         "type": "ip-src",
         "category": "Network activity",
         "to_ids": false,
         "value": "72.47.208.106",
-        "timestamp": "1788120012",
+        "timestamp": "1788208211",
         "comment": "executed_commands, confidence medium; 2250 sessions, 10873 commands, 0 downloads; first_seen 2026-08-29T12:58:31.405195Z, last_seen 2026-08-29T22:03:47.255008Z; expires 7d after last_seen"
       },
       {
@@ -37,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1788120012",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -46,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1788120012",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1788120012",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       }
     ]

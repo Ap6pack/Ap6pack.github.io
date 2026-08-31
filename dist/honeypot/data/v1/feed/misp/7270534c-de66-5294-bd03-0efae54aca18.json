@@ -28,8 +28,8 @@
         "category": "Network activity",
         "to_ids": true,
         "value": "185.93.89.72",
-        "timestamp": "1788163211",
-        "comment": "delivered_payload, confidence high; 86 sessions, 1376 commands, 90 downloads; first_seen 2026-08-17T18:59:55.822005Z, last_seen 2026-08-31T06:17:45.223934Z; expires 7d after last_seen"
+        "timestamp": "1788208211",
+        "comment": "delivered_payload, confidence high; 88 sessions, 1408 commands, 92 downloads; first_seen 2026-08-17T18:59:55.822005Z, last_seen 2026-08-31T19:32:43.200286Z; expires 7d after last_seen"
       },
       {
         "uuid": "64b316dc-0064-54e7-b72c-b939fd11cb34",
@@ -37,7 +37,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enable",
-        "timestamp": "1788163211",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -46,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1788163211",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1788163211",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -64,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1788163211",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -73,7 +73,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "linuxshell",
-        "timestamp": "1788163211",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -82,7 +82,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enablelinuxshell",
-        "timestamp": "1788163211",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -91,7 +91,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "ping ;sh",
-        "timestamp": "1788163211",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -100,7 +100,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "echo -e \"\\x47\\x41\\x59\"",
-        "timestamp": "1788163211",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -109,7 +109,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cat /proc/mounts; echo -e \"\\x47\\x41\\x59\"",
-        "timestamp": "1788163211",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -118,7 +118,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "echo -e '\\x6b\\x61\\x6d\\x69/dev' > /dev/.nippon; cat /dev/.nippon; rm /dev/.nippon",
-        "timestamp": "1788163211",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -127,7 +127,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "rm /dev/.t; rm /dev/.sh; rm /dev/.human",
-        "timestamp": "1788163211",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -136,7 +136,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /dev/",
-        "timestamp": "1788163211",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -145,7 +145,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cp /bin/echo dvrHelper; >dvrHelper; chmod 777 dvrHelper; echo -e \"\\x47\\x41\\x59\"",
-        "timestamp": "1788163211",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       },
       {
@@ -154,7 +154,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cat /bin/echo",
-        "timestamp": "1788163211",
+        "timestamp": "1788208211",
         "comment": "command run by this campaign"
       }
     ]
