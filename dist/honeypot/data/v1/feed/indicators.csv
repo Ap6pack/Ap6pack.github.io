@@ -200,7 +200,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 116.48.151.136,2026-08-25T07:19:57.644650Z,2026-08-25T07:20:08.128979Z,1,1,0,0,low,single_sighting,false,true,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
 116.48.151.58,2026-08-25T21:21:22.492241Z,2026-08-25T21:21:31.554119Z,1,1,0,0,low,single_sighting,false,true,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
 116.72.9.151,2026-08-25T05:37:52.526070Z,2026-08-25T05:38:01.227765Z,1,1,0,0,low,single_sighting,false,true,,7,India,HATHWAY CABLE AND DATACOM LIMITED,hathway.com,false,100
-116.99.49.208,2026-08-24T02:08:14.385870Z,2026-08-24T02:08:18.372902Z,1,1,0,0,low,single_sighting,false,true,,7,Vietnam,Viettel Group,viettel.com.vn,false,100
+116.99.49.208,2026-08-24T02:08:14.385870Z,2026-08-24T02:08:18.372902Z,1,1,0,0,low,single_sighting,false,false,,7,Vietnam,Viettel Group,viettel.com.vn,false,100
 117.10.132.180,2026-08-17T19:58:22.086454Z,2026-08-17T19:58:26.264586Z,1,1,16,0,low,executed_commands,false,false,f0ed612071c45603,7,China,China Unicom Tianjin province network,chinaunicom.cn,false,100
 117.102.89.188,2026-08-29T02:05:31.648207Z,2026-08-29T02:05:45.047270Z,1,1,4,0,medium,executed_commands,false,true,9754bb025d746115,7,Indonesia,BIZNET POSTPAID,biznetnetworks.com,false,0
 117.158.166.73,2026-08-26T07:43:33.833584Z,2026-08-26T07:43:42.216579Z,1,1,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
@@ -994,7 +994,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 190.188.220.205,2026-08-28T22:03:32.778926Z,2026-08-28T22:03:51.598869Z,3,0,0,0,low,connected_only,false,true,,7,Argentina,Telecom Argentina S.A.,personal.com.ar,false,4
 190.210.192.50,2026-08-24T02:31:35.511908Z,2026-08-24T02:31:35.516150Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,NSS S.A.,iplan.com.ar,false,14
 190.211.1.40,2026-08-26T15:27:15.980093Z,2026-08-26T15:27:34.307115Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Chile,Telefonica del Sur S.A.,telsur.cl,false,38
-190.22.175.127,2026-08-24T02:06:03.318496Z,2026-08-24T02:06:27.867778Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Chile,TELEFÓNICA CHILE S.A.,telefonicachile.cl,false,62
+190.22.175.127,2026-08-24T02:06:03.318496Z,2026-08-24T02:06:27.867778Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Chile,TELEFÓNICA CHILE S.A.,telefonicachile.cl,false,62
 190.22.187.53,2026-08-18T08:02:29.488310Z,2026-08-18T08:02:47.471184Z,1,1,2,0,low,executed_commands,false,false,,7,Chile,TELEFÓNICA CHILE S.A.,telefonicachile.cl,false,30
 190.229.135.43,2026-08-29T19:00:56.408000Z,2026-08-29T19:01:31.649447Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,Apolo -Gold-Telecom-Per,telecom.net.ar,false,52
 190.230.86.192,2026-08-18T06:41:59.128647Z,2026-08-18T06:43:03.317257Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Apolo -Gold-Telecom-Per,telecom.net.ar,false,41
@@ -2039,7 +2039,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 82.6.199.8,2026-08-21T02:33:56.497078Z,2026-08-29T17:42:45.784540Z,2,2,62,10,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,United Kingdom,Virgin Media Limited,virginmedia.com,false,100
 82.64.88.208,2026-08-25T13:14:30.338314Z,2026-08-27T08:08:14.814659Z,3,3,0,0,low,connected_only,false,true,,7,France,Free SAS,free.fr,false,100
 82.65.183.240,2026-08-25T05:59:06.091041Z,2026-08-25T05:59:12.376983Z,1,1,0,0,low,single_sighting,false,true,,7,France,Free SAS,free.fr,false,100
-82.86.136.46,2026-08-24T02:04:10.925075Z,2026-08-24T02:04:38.107051Z,2,0,0,0,low,connected_only,false,true,,7,Venezuela,Telecom Castilla La Mancha SA,telecomclm.net,false,0
+82.86.136.46,2026-08-24T02:04:10.925075Z,2026-08-24T02:04:38.107051Z,2,0,0,0,low,connected_only,false,false,,7,Venezuela,Telecom Castilla La Mancha SA,telecomclm.net,false,0
 83.105.66.32,2026-08-17T21:11:52.304774Z,2026-08-17T21:11:52.311266Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,Vodafone Limited,vodafone.com,false,37
 83.165.115.33,2026-08-23T02:39:22.254500Z,2026-08-23T02:39:22.287107Z,1,0,0,0,low,single_sighting,false,false,,7,Spain,R Cable y Telecomunicaciones Galicia S.A.,mundo-r.com,false,66
 83.166.63.163,2026-08-29T14:53:03.866047Z,2026-08-29T14:53:03.866649Z,1,0,0,0,low,single_sighting,false,true,,7,Estonia,Telia Eesti AS,telia.ee,false,59
