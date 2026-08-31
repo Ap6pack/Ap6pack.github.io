@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-31T10:00:12.382400+00:00",
+  "generated_at": "2026-08-31T10:30:11.785973+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-08-31T09:59:42.925694Z",
-  "total_events": 824693,
-  "unique_sessions": 97740,
-  "unique_source_ips": 2387,
-  "login_attempts": 93978,
-  "login_success": 92712,
-  "commands_run": 177733,
+  "last_event": "2026-08-31T10:26:22.260355Z",
+  "total_events": 825051,
+  "unique_sessions": 97779,
+  "unique_source_ips": 2398,
+  "login_attempts": 94014,
+  "login_success": 92746,
+  "commands_run": 177865,
   "files_captured": 15,
   "top_usernames": [
     [
@@ -135,20 +135,20 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 177733,
-    "cowrie.session.connect": 97740,
-    "cowrie.session.closed": 97059,
-    "cowrie.login.success": 92712,
-    "cowrie.session.params": 92414,
-    "cowrie.log.closed": 91743,
-    "cowrie.client.version": 74448,
-    "cowrie.client.kex": 74297,
-    "cowrie.telnet.option": 20575,
+    "cowrie.command.input": 177865,
+    "cowrie.session.connect": 97779,
+    "cowrie.session.closed": 97103,
+    "cowrie.login.success": 92746,
+    "cowrie.session.params": 92440,
+    "cowrie.log.closed": 91774,
+    "cowrie.client.version": 74456,
+    "cowrie.client.kex": 74305,
+    "cowrie.telnet.option": 20602,
     "cowrie.command.success": 2552,
     "cowrie.session.file_download": 1281,
-    "cowrie.login.failed": 1266,
+    "cowrie.login.failed": 1268,
     "cowrie.session.file_download.failed": 529,
-    "cowrie.direct-tcpip.request": 260,
+    "cowrie.direct-tcpip.request": 267,
     "cowrie.virustotal.scanfile": 16,
     "cowrie.client.var": 15,
     "cowrie.session.file_upload": 14,
@@ -223,7 +223,7 @@
     },
     {
       "date": "2026-08-31",
-      "count": 2445
+      "count": 2803
     }
   ],
   "published": {
@@ -282,11 +282,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 78625,
+        "total": 78627,
         "top_label": "T1027",
-        "top_value": 74708,
+        "top_value": 74710,
         "top_share": 0.9502,
-        "top_sources": 132,
+        "top_sources": 133,
         "sources_total": 2347
       }
     ]
