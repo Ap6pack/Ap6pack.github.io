@@ -77,6 +77,11 @@
       "exit_code": 0
     },
     {
+      "command": "/ip cloud print",
+      "output": "bash: /ip: command not found\n",
+      "exit_code": 127
+    },
+    {
       "command": "0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg",
       "output": "bash: 0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg: command not found\n",
       "exit_code": 127
