@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.0",
   "generated_at": "2026-08-31T06:00:12.395816+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
   "last_event": "2026-08-31T05:59:43.717180Z",
@@ -8,39 +9,35 @@
   "login_attempts": 93895,
   "login_success": 92630,
   "commands_run": 177540,
-  "files_captured": 12,
+  "files_captured": 15,
   "top_usernames": [
     [
       "root",
-      86914
+      1597
     ],
     [
       "admin",
-      3792
+      557
     ],
     [
       "enable\\x00",
-      1181
+      407
     ],
     [
       "support",
-      730
-    ],
-    [
-      "user",
-      412
-    ],
-    [
-      "guest",
-      297
-    ],
-    [
-      "ubnt",
-      135
+      63
     ],
     [
       "default",
-      54
+      43
+    ],
+    [
+      "user",
+      34
+    ],
+    [
+      "guest",
+      31
     ],
     [
       "supervisor",
@@ -48,89 +45,93 @@
     ],
     [
       "telnetadmin",
-      21
+      18
     ],
     [
       "",
       17
     ],
     [
-      "debian",
-      13
-    ],
-    [
-      "telecomadmin",
-      11
-    ],
-    [
-      "e8ehome",
-      9
-    ],
-    [
       "GET / HTTP/1.0",
       9
+    ],
+    [
+      "operator",
+      9
+    ],
+    [
+      "pi",
+      9
+    ],
+    [
+      "OPTIONS sip:nm SIP/2.0",
+      8
+    ],
+    [
+      "&;; ",
+      7
     ]
   ],
   "top_passwords": [
     [
-      "admin",
-      2245
-    ],
-    [
-      "xc3511",
-      1333
-    ],
-    [
-      "vizxv",
-      1233
-    ],
-    [
       "linuxshell\\x00",
-      1180
+      406
     ],
     [
-      "",
-      979
+      "admin",
+      405
     ],
     [
       "123456",
-      861
+      267
+    ],
+    [
+      "root",
+      230
+    ],
+    [
+      "",
+      70
+    ],
+    [
+      "vizxv",
+      66
+    ],
+    [
+      "xc3511",
+      54
     ],
     [
       "password",
-      838
-    ],
-    [
-      "888888",
-      827
-    ],
-    [
-      "xmhdipc",
-      709
-    ],
-    [
-      "support",
-      705
+      38
     ],
     [
       "12345",
-      693
+      38
+    ],
+    [
+      "support",
+      35
     ],
     [
       "default",
-      669
+      34
     ],
     [
       "juantech",
-      665
+      33
     ],
     [
-      "1111",
-      662
+      "1234",
+      33
     ],
     [
-      "54321",
-      655
+      "xmhdipc",
+      24
+    ],
+    [
+      "user",
+      24
     ]
   ],
   "event_breakdown": {
@@ -224,5 +225,70 @@
       "date": "2026-08-31",
       "count": 1513
     }
-  ]
+  ],
+  "published": {
+    "sessions": 7468,
+    "source_ips": 2254,
+    "login_attempts": 3051,
+    "login_success": 2563,
+    "commands_run": 17765,
+    "sessions_logged_in": 2563,
+    "sessions_with_commands": 2272,
+    "sessions_with_download": 609,
+    "share_of_sessions": 0.0765
+  },
+  "weighting": {
+    "schema_version": "1.0",
+    "rule": {
+      "max_commands_per_session": 1,
+      "max_avg_duration_ms": 5000,
+      "max_downloads": 0
+    },
+    "clustered_sessions": 92243,
+    "ips": {
+      "observed": 2254,
+      "attempted_login": 880,
+      "ran_command": 662,
+      "delivered_payload": 149,
+      "published": {
+        "observed": 2254,
+        "attempted_login": 781,
+        "ran_command": 558,
+        "delivered_payload": 143
+      }
+    },
+    "recon": {
+      "clusters": 8,
+      "sessions": 73748,
+      "ip_count_sum": 18,
+      "share_of_clustered_sessions": 0.7995
+    },
+    "attack": {
+      "clusters": 98,
+      "sessions": 18495,
+      "ip_count_sum": 704
+    },
+    "dominance": [
+      {
+        "metric": "sessions",
+        "label": "sessions in a behaviour cluster",
+        "total": 92243,
+        "top_label": "eafdc691c2945a06",
+        "top_value": 73624,
+        "top_share": 0.7982,
+        "top_sources": 5,
+        "sources_total": 2254
+      },
+      {
+        "metric": "attack_techniques",
+        "label": "commands tagged with an ATT&CK technique",
+        "total": 78580,
+        "top_label": "T1027",
+        "top_value": 74700,
+        "top_share": 0.9506,
+        "top_sources": 131,
+        "sources_total": 2254
+      }
+    ]
+  }
 }

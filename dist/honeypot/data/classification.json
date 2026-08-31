@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 78560,
+        "total": 78580,
         "top_label": "T1027",
         "top_value": 74700,
-        "top_share": 0.9509,
+        "top_share": 0.9506,
         "top_sources": 131,
         "sources_total": 2254
       }
@@ -1357,11 +1357,11 @@
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 1351,
+      "count": 1371,
       "distinct_ips": 116,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 1351,
+      "residual_count": 1371,
       "attribution": "none"
     },
     {
