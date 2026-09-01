@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-01T18:00:12.339891+00:00",
+  "generated_at": "2026-09-01T18:30:12.471332+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-01T17:59:33.538509Z",
-  "total_events": 841083,
-  "unique_sessions": 99571,
-  "unique_source_ips": 2805,
-  "login_attempts": 95382,
-  "login_success": 94046,
-  "commands_run": 184572,
+  "last_event": "2026-09-01T18:29:55.950063Z",
+  "total_events": 841238,
+  "unique_sessions": 99591,
+  "unique_source_ips": 2810,
+  "login_attempts": 95397,
+  "login_success": 94060,
+  "commands_run": 184632,
   "files_captured": 16,
   "top_usernames": [
     [
@@ -135,20 +135,20 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 184572,
-    "cowrie.session.connect": 99571,
-    "cowrie.session.closed": 98895,
-    "cowrie.login.success": 94046,
-    "cowrie.session.params": 93480,
-    "cowrie.log.closed": 92814,
-    "cowrie.client.version": 74785,
-    "cowrie.client.kex": 74624,
-    "cowrie.telnet.option": 21778,
+    "cowrie.command.input": 184632,
+    "cowrie.session.connect": 99591,
+    "cowrie.session.closed": 98914,
+    "cowrie.login.success": 94060,
+    "cowrie.session.params": 93491,
+    "cowrie.log.closed": 92824,
+    "cowrie.client.version": 74788,
+    "cowrie.client.kex": 74627,
+    "cowrie.telnet.option": 21789,
     "cowrie.command.success": 2615,
+    "cowrie.login.failed": 1337,
     "cowrie.session.file_download": 1337,
-    "cowrie.login.failed": 1336,
     "cowrie.session.file_download.failed": 590,
-    "cowrie.direct-tcpip.request": 539,
+    "cowrie.direct-tcpip.request": 542,
     "cowrie.client.var": 17,
     "cowrie.session.file_upload": 17,
     "cowrie.virustotal.scanfile": 17,
@@ -228,7 +228,7 @@
     },
     {
       "date": "2026-09-01",
-      "count": 9853
+      "count": 10008
     }
   ],
   "published": {
@@ -287,11 +287,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 79441,
+        "total": 79443,
         "top_label": "T1027",
-        "top_value": 75216,
+        "top_value": 75218,
         "top_share": 0.9468,
-        "top_sources": 145,
+        "top_sources": 146,
         "sources_total": 2696
       }
     ]
