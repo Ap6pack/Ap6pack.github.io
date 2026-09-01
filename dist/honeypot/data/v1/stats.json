@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-01T18:30:12.471332+00:00",
+  "generated_at": "2026-09-01T19:00:12.559935+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-01T18:29:55.950063Z",
-  "total_events": 841238,
-  "unique_sessions": 99591,
-  "unique_source_ips": 2810,
-  "login_attempts": 95397,
-  "login_success": 94060,
-  "commands_run": 184632,
+  "last_event": "2026-09-01T18:59:53.911991Z",
+  "total_events": 841415,
+  "unique_sessions": 99616,
+  "unique_source_ips": 2815,
+  "login_attempts": 95413,
+  "login_success": 94074,
+  "commands_run": 184693,
   "files_captured": 16,
   "top_usernames": [
     [
@@ -135,26 +135,26 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 184632,
-    "cowrie.session.connect": 99591,
-    "cowrie.session.closed": 98914,
-    "cowrie.login.success": 94060,
-    "cowrie.session.params": 93491,
-    "cowrie.log.closed": 92824,
-    "cowrie.client.version": 74788,
-    "cowrie.client.kex": 74627,
-    "cowrie.telnet.option": 21789,
+    "cowrie.command.input": 184693,
+    "cowrie.session.connect": 99616,
+    "cowrie.session.closed": 98939,
+    "cowrie.login.success": 94074,
+    "cowrie.session.params": 93503,
+    "cowrie.log.closed": 92837,
+    "cowrie.client.version": 74790,
+    "cowrie.client.kex": 74629,
+    "cowrie.telnet.option": 21806,
     "cowrie.command.success": 2615,
-    "cowrie.login.failed": 1337,
+    "cowrie.login.failed": 1339,
     "cowrie.session.file_download": 1337,
     "cowrie.session.file_download.failed": 590,
-    "cowrie.direct-tcpip.request": 542,
-    "cowrie.client.var": 17,
+    "cowrie.direct-tcpip.request": 544,
+    "cowrie.client.var": 18,
     "cowrie.session.file_upload": 17,
     "cowrie.virustotal.scanfile": 17,
     "cowrie.client.malformed_packet": 16,
     "cowrie.telnet.error": 13,
-    "cowrie.telnet.exploit_attempt": 8,
+    "cowrie.telnet.exploit_attempt": 9,
     "cowrie.client.fingerprint": 8,
     "cowrie.direct-tcpip.data": 2,
     "cowrie.direct-tcpip.ja4h": 1,
@@ -228,7 +228,7 @@
     },
     {
       "date": "2026-09-01",
-      "count": 10008
+      "count": 10185
     }
   ],
   "published": {
@@ -240,7 +240,7 @@
     "sessions_logged_in": 2968,
     "sessions_with_commands": 2378,
     "sessions_with_download": 642,
-    "share_of_sessions": 0.0832
+    "share_of_sessions": 0.0831
   },
   "weighting": {
     "schema_version": "1.0",
