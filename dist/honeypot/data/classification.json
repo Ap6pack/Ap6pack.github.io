@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 79014,
+        "total": 79033,
         "top_label": "T1027",
         "top_value": 74862,
-        "top_share": 0.9475,
+        "top_share": 0.9472,
         "top_sources": 144,
         "sources_total": 2696
       }
@@ -1419,21 +1419,21 @@
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 2476,
-      "distinct_ips": 145,
+      "count": 2491,
+      "distinct_ips": 146,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 2476,
+      "residual_count": 2491,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 1433,
-      "distinct_ips": 128,
+      "count": 1436,
+      "distinct_ips": 129,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 1433,
+      "residual_count": 1436,
       "attribution": "none"
     },
     {
@@ -1459,11 +1459,11 @@
     {
       "id": "T1686",
       "name": "Disable or Modify System Firewall",
-      "count": 16,
-      "distinct_ips": 15,
+      "count": 17,
+      "distinct_ips": 16,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 16,
+      "residual_count": 17,
       "attribution": "none"
     },
     {
