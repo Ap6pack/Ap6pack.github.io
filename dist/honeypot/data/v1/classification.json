@@ -12,50 +12,50 @@
       "max_avg_duration_ms": 5000,
       "max_downloads": 0
     },
-    "clustered_sessions": 93078,
+    "clustered_sessions": 93456,
     "ips": {
-      "observed": 2696,
-      "attempted_login": 1180,
-      "ran_command": 726,
-      "delivered_payload": 165,
+      "observed": 2844,
+      "attempted_login": 1269,
+      "ran_command": 745,
+      "delivered_payload": 174,
       "published": {
-        "observed": 2696,
-        "attempted_login": 1049,
-        "ran_command": 590,
-        "delivered_payload": 157
+        "observed": 2844,
+        "attempted_login": 1129,
+        "ran_command": 600,
+        "delivered_payload": 160
       }
     },
     "recon": {
       "clusters": 8,
       "sessions": 73749,
       "ip_count_sum": 19,
-      "share_of_clustered_sessions": 0.7923
+      "share_of_clustered_sessions": 0.7891
     },
     "attack": {
-      "clusters": 104,
-      "sessions": 19329,
-      "ip_count_sum": 772
+      "clusters": 108,
+      "sessions": 19707,
+      "ip_count_sum": 795
     },
     "dominance": [
       {
         "metric": "sessions",
         "label": "sessions in a behaviour cluster",
-        "total": 93078,
+        "total": 93456,
         "top_label": "eafdc691c2945a06",
         "top_value": 73624,
-        "top_share": 0.791,
+        "top_share": 0.7878,
         "top_sources": 5,
-        "sources_total": 2696
+        "sources_total": 2844
       },
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 79443,
+        "total": 79469,
         "top_label": "T1027",
-        "top_value": 75218,
-        "top_share": 0.9468,
-        "top_sources": 146,
-        "sources_total": 2696
+        "top_value": 75226,
+        "top_share": 0.9466,
+        "top_sources": 147,
+        "sources_total": 2844
       }
     ]
   },
@@ -75,37 +75,37 @@
     {
       "signature": "6a844424c30ada56",
       "class": "attack",
-      "sessions": 12968,
+      "sessions": 13237,
       "ips": 10,
       "commands_per_session": 5,
-      "avg_duration_ms": 183182,
+      "avg_duration_ms": 189389,
       "downloads": 0,
       "first_seen": "2026-08-18T02:36:53.950685Z",
-      "last_seen": "2026-09-01T08:54:56.206764Z",
+      "last_seen": "2026-09-01T21:18:34.693139Z",
       "representative": "cdbc143a5932"
     },
     {
       "signature": "61912bcbd56c9b64",
       "class": "attack",
-      "sessions": 3601,
+      "sessions": 3655,
       "ips": 10,
       "commands_per_session": 6,
-      "avg_duration_ms": 138095,
+      "avg_duration_ms": 119209,
       "downloads": 0,
       "first_seen": "2026-08-17T16:21:03.709788Z",
-      "last_seen": "2026-09-01T08:29:00.443044Z",
+      "last_seen": "2026-09-01T21:26:57.865974Z",
       "representative": "00c08b16f907"
     },
     {
       "signature": "32a045e58e6de61a",
       "class": "attack",
-      "sessions": 978,
+      "sessions": 1006,
       "ips": 8,
       "commands_per_session": 3,
-      "avg_duration_ms": 182543,
+      "avg_duration_ms": 184733,
       "downloads": 0,
       "first_seen": "2026-08-19T17:19:43.378713Z",
-      "last_seen": "2026-09-01T08:30:49.805475Z",
+      "last_seen": "2026-09-01T20:34:41.953776Z",
       "representative": "014115c4c992"
     },
     {
@@ -123,49 +123,49 @@
     {
       "signature": "20228edcce195299",
       "class": "attack",
-      "sessions": 330,
-      "ips": 326,
+      "sessions": 339,
+      "ips": 335,
       "commands_per_session": 2,
-      "avg_duration_ms": 21547,
+      "avg_duration_ms": 20644,
       "downloads": 0,
       "first_seen": "2026-08-18T04:41:18.250523Z",
-      "last_seen": "2026-09-01T08:28:34.657679Z",
+      "last_seen": "2026-09-01T20:31:47.689294Z",
       "representative": "142d7660a747"
     },
     {
       "signature": "b7aa0a0dd982dcd8",
       "class": "attack",
-      "sessions": 239,
-      "ips": 7,
+      "sessions": 242,
+      "ips": 8,
       "commands_per_session": 4,
-      "avg_duration_ms": 123281,
+      "avg_duration_ms": 122212,
       "downloads": 0,
       "first_seen": "2026-08-17T20:15:53.564469Z",
-      "last_seen": "2026-08-31T05:05:34.173357Z",
+      "last_seen": "2026-09-01T20:32:12.461725Z",
       "representative": "01db5daf1ada"
     },
     {
       "signature": "480804bc4d0c91fc",
       "class": "attack",
-      "sessions": 121,
-      "ips": 114,
+      "sessions": 122,
+      "ips": 115,
       "commands_per_session": 10,
-      "avg_duration_ms": 4015,
+      "avg_duration_ms": 4218,
       "downloads": 0,
       "first_seen": "2026-08-17T20:10:24.639848Z",
-      "last_seen": "2026-08-31T19:32:08.601802Z",
+      "last_seen": "2026-09-01T18:01:39.059051Z",
       "representative": "8a16404c2a0c"
     },
     {
       "signature": "59471c553d28cc43",
       "class": "attack",
-      "sessions": 99,
+      "sessions": 100,
       "ips": 1,
       "commands_per_session": 16,
-      "avg_duration_ms": 6916,
-      "downloads": 103,
+      "avg_duration_ms": 6906,
+      "downloads": 104,
       "first_seen": "2026-08-17T18:59:55.822005Z",
-      "last_seen": "2026-09-01T07:20:28.473224Z",
+      "last_seen": "2026-09-01T10:38:42.367288Z",
       "representative": "137d9dc32c0f"
     },
     {
@@ -195,13 +195,13 @@
     {
       "signature": "dcee08b0f1df1ed7",
       "class": "attack",
-      "sessions": 67,
-      "ips": 60,
+      "sessions": 70,
+      "ips": 63,
       "commands_per_session": 31,
-      "avg_duration_ms": 45383,
-      "downloads": 343,
+      "avg_duration_ms": 45759,
+      "downloads": 358,
       "first_seen": "2026-08-17T17:07:37.999357Z",
-      "last_seen": "2026-08-31T06:17:27.008485Z",
+      "last_seen": "2026-09-01T16:33:05.719050Z",
       "representative": "f89eebb3e826"
     },
     {
@@ -325,6 +325,18 @@
       "representative": "b93766b5027e"
     },
     {
+      "signature": "2db8d2d5d6168520",
+      "class": "attack",
+      "sessions": 14,
+      "ips": 14,
+      "commands_per_session": 31,
+      "avg_duration_ms": 51128,
+      "downloads": 70,
+      "first_seen": "2026-08-17T21:24:34.606793Z",
+      "last_seen": "2026-09-01T21:27:01.454518Z",
+      "representative": "ef8e8dcd9b60"
+    },
+    {
       "signature": "5af2de096f0bf35a",
       "class": "attack",
       "sessions": 13,
@@ -347,18 +359,6 @@
       "first_seen": "2026-08-18T17:42:13.868298Z",
       "last_seen": "2026-08-30T05:56:57.719244Z",
       "representative": "290ba1019f50"
-    },
-    {
-      "signature": "2db8d2d5d6168520",
-      "class": "attack",
-      "sessions": 11,
-      "ips": 11,
-      "commands_per_session": 31,
-      "avg_duration_ms": 48684,
-      "downloads": 55,
-      "first_seen": "2026-08-17T21:24:34.606793Z",
-      "last_seen": "2026-09-01T07:20:26.088658Z",
-      "representative": "ef8e8dcd9b60"
     },
     {
       "signature": "b93449798a3e479f",
@@ -469,6 +469,30 @@
       "representative": "03bc8b2c64d8"
     },
     {
+      "signature": "04946faa9e9e44cd",
+      "class": "attack",
+      "sessions": 5,
+      "ips": 5,
+      "commands_per_session": 3,
+      "avg_duration_ms": 17982,
+      "downloads": 0,
+      "first_seen": "2026-08-21T10:52:15.719333Z",
+      "last_seen": "2026-09-01T20:20:02.920915Z",
+      "representative": "a145072f66bf"
+    },
+    {
+      "signature": "e075ddae667ce5bd",
+      "class": "attack",
+      "sessions": 5,
+      "ips": 3,
+      "commands_per_session": 5,
+      "avg_duration_ms": 4811,
+      "downloads": 0,
+      "first_seen": "2026-08-19T02:30:07.886028Z",
+      "last_seen": "2026-09-01T15:30:33.542436Z",
+      "representative": "bc4ded4f9faf"
+    },
+    {
       "signature": "e97166b54500da3a",
       "class": "recon",
       "sessions": 5,
@@ -479,30 +503,6 @@
       "first_seen": "2026-08-22T13:47:31.173689Z",
       "last_seen": "2026-08-31T15:50:06.391516Z",
       "representative": "39b7617cffdf"
-    },
-    {
-      "signature": "04946faa9e9e44cd",
-      "class": "attack",
-      "sessions": 4,
-      "ips": 4,
-      "commands_per_session": 3,
-      "avg_duration_ms": 17859,
-      "downloads": 0,
-      "first_seen": "2026-08-21T10:52:15.719333Z",
-      "last_seen": "2026-08-25T20:36:13.340281Z",
-      "representative": "a145072f66bf"
-    },
-    {
-      "signature": "e075ddae667ce5bd",
-      "class": "attack",
-      "sessions": 4,
-      "ips": 3,
-      "commands_per_session": 5,
-      "avg_duration_ms": 4877,
-      "downloads": 0,
-      "first_seen": "2026-08-19T02:30:07.886028Z",
-      "last_seen": "2026-08-31T04:46:00.623811Z",
-      "representative": "bc4ded4f9faf"
     },
     {
       "signature": "f7303c94cf52f8d5",
@@ -551,6 +551,18 @@
       "first_seen": "2026-08-19T06:28:12.122828Z",
       "last_seen": "2026-08-25T07:33:37.977397Z",
       "representative": "0438e5abb6ce"
+    },
+    {
+      "signature": "37a485edfacddf05",
+      "class": "attack",
+      "sessions": 3,
+      "ips": 3,
+      "commands_per_session": 22,
+      "avg_duration_ms": 11493,
+      "downloads": 33,
+      "first_seen": "2026-08-21T15:53:29.625550Z",
+      "last_seen": "2026-09-01T14:27:58.702122Z",
+      "representative": "16378b100e66"
     },
     {
       "signature": "48f7054d319a25dc",
@@ -635,18 +647,6 @@
       "first_seen": "2026-08-18T02:50:55.548368Z",
       "last_seen": "2026-08-21T03:19:05.540198Z",
       "representative": "fe9324748a66"
-    },
-    {
-      "signature": "37a485edfacddf05",
-      "class": "attack",
-      "sessions": 2,
-      "ips": 2,
-      "commands_per_session": 22,
-      "avg_duration_ms": 11582,
-      "downloads": 22,
-      "first_seen": "2026-08-21T15:53:29.625550Z",
-      "last_seen": "2026-08-29T15:27:52.873377Z",
-      "representative": "16378b100e66"
     },
     {
       "signature": "4ce08b5a07f0d3f1",
@@ -863,6 +863,18 @@
       "first_seen": "2026-08-18T06:02:25.739594Z",
       "last_seen": "2026-08-18T06:02:25.739594Z",
       "representative": "a49716de6b62"
+    },
+    {
+      "signature": "1091addd578238c7",
+      "class": "attack",
+      "sessions": 1,
+      "ips": 1,
+      "commands_per_session": 9,
+      "avg_duration_ms": 120297,
+      "downloads": 0,
+      "first_seen": "2026-09-01T11:24:39.636790Z",
+      "last_seen": "2026-09-01T11:24:39.636790Z",
+      "representative": "ff0f91b1d22f"
     },
     {
       "signature": "10c639bfac8873ac",
@@ -1225,6 +1237,18 @@
       "representative": "c0fe135e567e"
     },
     {
+      "signature": "d08a2c3a407cda58",
+      "class": "attack",
+      "sessions": 1,
+      "ips": 1,
+      "commands_per_session": 7,
+      "avg_duration_ms": 2476,
+      "downloads": 0,
+      "first_seen": "2026-09-01T15:38:58.200514Z",
+      "last_seen": "2026-09-01T15:38:58.200514Z",
+      "representative": "65338486f4cd"
+    },
+    {
       "signature": "d0df440d87b8699d",
       "class": "attack",
       "sessions": 1,
@@ -1309,6 +1333,18 @@
       "representative": "30770c4073c8"
     },
     {
+      "signature": "e34ac0d816cc724a",
+      "class": "attack",
+      "sessions": 1,
+      "ips": 1,
+      "commands_per_session": 369,
+      "avg_duration_ms": 112267,
+      "downloads": 3,
+      "first_seen": "2026-09-01T16:45:00.147549Z",
+      "last_seen": "2026-09-01T16:45:00.147549Z",
+      "representative": "6067d694a2a7"
+    },
+    {
       "signature": "e653b0f2aa481937",
       "class": "attack",
       "sessions": 1,
@@ -1355,6 +1391,18 @@
       "first_seen": "2026-08-25T16:34:46.148932Z",
       "last_seen": "2026-08-25T16:34:46.148932Z",
       "representative": "fbdb151c975f"
+    },
+    {
+      "signature": "f49d55575e046b06",
+      "class": "attack",
+      "sessions": 1,
+      "ips": 1,
+      "commands_per_session": 8,
+      "avg_duration_ms": 12342,
+      "downloads": 2,
+      "first_seen": "2026-09-01T11:47:25.341252Z",
+      "last_seen": "2026-09-01T11:47:25.341252Z",
+      "representative": "682806b7d734"
     },
     {
       "signature": "f7d9b4c9c7577b0a",
@@ -1409,31 +1457,31 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 75218,
-      "distinct_ips": 146,
+      "count": 75226,
+      "distinct_ips": 147,
       "recon_count": 73624,
       "recon_ips": 5,
-      "residual_count": 1594,
+      "residual_count": 1602,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 2536,
-      "distinct_ips": 149,
+      "count": 2551,
+      "distinct_ips": 150,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 2536,
+      "residual_count": 2551,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 1445,
-      "distinct_ips": 132,
+      "count": 1448,
+      "distinct_ips": 133,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 1445,
+      "residual_count": 1448,
       "attribution": "none"
     },
     {
@@ -1537,11 +1585,6 @@
       "text": "/bin/./uname -s -v -n -r -m",
       "uses": 37,
       "distinct_ips": 3
-    },
-    {
-      "text": "uname -a",
-      "uses": 3,
-      "distinct_ips": 2
     },
     {
       "text": "echo AUTH_OK; hostname",

@@ -1,0 +1,117 @@
+{
+  "Event": {
+    "uuid": "5f573490-610e-51f4-9f0c-e192a94c3794",
+    "info": "Sundew honeypot - campaign 1091addd5782 (1 sources) - /ip cloud print",
+    "date": "2026-09-01",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "8e8e85e4-b441-51d2-a6f0-82bc11524e2f",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "121.134.90.172",
+        "timestamp": "1788298211",
+        "comment": "executed_commands, confidence medium; 1 sessions, 9 commands, 0 downloads; first_seen 2026-09-01T11:24:39.636790Z, last_seen 2026-09-01T11:26:39.933844Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "d4f1728a-e981-5ddc-8412-36d6aa414111",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "/ip cloud print",
+        "timestamp": "1788298211",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "7fc2f649-c566-584d-8293-1127540976ee",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "ifconfig",
+        "timestamp": "1788298211",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "c1631f37-b5c7-58e9-bf83-ede7d2097205",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "uname -a",
+        "timestamp": "1788298211",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "b0f4ca5b-ea86-5cb5-a3aa-e4d60adb801a",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "cat /proc/cpuinfo",
+        "timestamp": "1788298211",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "360bba67-f53e-5cc6-ab94-564527e407be",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "ps | grep '[Mm]iner'",
+        "timestamp": "1788298211",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "0272912f-9096-5635-8327-eb0c0e013222",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "ps -ef | grep '[Mm]iner'",
+        "timestamp": "1788298211",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "910db3ec-5845-5a5b-8d52-9af0414e17dc",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "ls -la ~/.local/share/TelegramDesktop/tdata /home/*/.local/share/TelegramDesktop/tdata /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*",
+        "timestamp": "1788298211",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "b36bd8f1-4d82-57a9-8d8b-71394085e706",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "locate D877F783D5D3EF8Cs",
+        "timestamp": "1788298211",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "8a9ad918-4d42-55ad-8124-d7b916a6ad00",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "echo Hi | cat -n",
+        "timestamp": "1788298211",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}
