@@ -302,7 +302,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 120.194.50.39,2026-09-01T07:54:40.848145Z,2026-09-01T07:54:49.857328Z,1,1,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 120.207.92.246,2026-08-22T01:20:44.726321Z,2026-08-22T01:20:46.107057Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,82
 120.224.15.67,2026-08-25T23:07:07.292165Z,2026-08-25T23:07:07.292991Z,1,0,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
-120.225.209.243,2026-08-25T15:32:44.395546Z,2026-08-25T15:34:44.419143Z,1,0,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,55
+120.225.209.243,2026-08-25T15:32:44.395546Z,2026-08-25T15:34:44.419143Z,1,0,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,55
 120.230.14.244,2026-08-29T22:02:20.869886Z,2026-08-29T22:03:06.038653Z,1,1,31,5,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,China,China Mobile Communications Corporation,chinamobile.com,false,17
 120.234.232.184,2026-08-31T08:00:58.758907Z,2026-08-31T08:01:04.575340Z,1,1,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 120.235.114.127,2026-08-21T08:58:37.423428Z,2026-08-21T08:58:38.820942Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,5
@@ -2290,7 +2290,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 68.58.46.251,2026-08-24T08:55:54.549507Z,2026-08-24T08:59:12.173157Z,2,0,0,0,low,connected_only,false,false,,7,United States,"Comcast Cable Communications, LLC",comcast.net,false,100
 68.69.114.231,2026-08-26T04:27:13.481487Z,2026-08-26T04:27:15.257761Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Canada,NYSS,nyss.ca,false,100
 68.7.114.69,2026-08-26T13:29:32.130960Z,2026-08-27T10:40:19.299839Z,2,2,0,0,low,connected_only,false,true,,7,United States,Cox Communications Inc.,cox.com,false,100
-69.123.212.27,2026-08-25T13:36:09.355674Z,2026-08-25T15:57:17.403715Z,23,23,108,0,medium,executed_commands,false,true,385d83c7eadfd5d1,7,United States,Optimum Online (Cablevision Systems),optimum.net,false,100
+69.123.212.27,2026-08-25T13:36:09.355674Z,2026-08-25T15:57:17.403715Z,23,23,108,0,medium,persistent,false,false,385d83c7eadfd5d1,7,United States,Optimum Online (Cablevision Systems),optimum.net,false,100
 69.145.164.31,2026-08-19T19:42:22.013392Z,2026-08-19T19:45:30.838903Z,2,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications LLC,charter.com,false,97
 69.194.3.6,2026-08-31T05:58:00.337157Z,2026-08-31T05:58:07.085016Z,1,0,0,0,low,single_sighting,false,true,,7,United States,MACWEB,macweb.com,false,100
 69.5.169.253,2026-08-24T00:20:38.699320Z,2026-08-24T00:20:38.785160Z,1,0,0,0,low,single_sighting,false,false,,7,Germany,Infrawatch Limited,infrawat.ch,false,100
@@ -2688,7 +2688,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 98.200.32.209,2026-08-18T00:11:47.336976Z,2026-08-18T00:15:17.790820Z,3,0,0,0,low,connected_only,false,false,,7,United States,"Comcast Cable Communications, Inc.",comcast.net,false,70
 98.4.8.60,2026-08-30T02:12:11.124239Z,2026-08-30T02:14:23.585286Z,2,0,0,0,low,connected_only,false,true,,7,United States,Charter Communications Inc,charter.com,false,100
 98.80.4.55,2026-08-18T03:02:33.232237Z,2026-08-18T03:02:38.234334Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,64
-98.97.131.47,2026-08-25T15:57:16.116900Z,2026-08-25T15:59:16.218113Z,1,0,0,0,low,single_sighting,false,true,,7,Brazil,"SpaceX Services, Inc.",spacex.com,false,100
+98.97.131.47,2026-08-25T15:57:16.116900Z,2026-08-25T15:59:16.218113Z,1,0,0,0,low,single_sighting,false,false,,7,Brazil,"SpaceX Services, Inc.",spacex.com,false,100
 98.97.179.121,2026-08-29T10:57:56.077870Z,2026-08-29T10:57:56.085706Z,1,0,0,0,low,single_sighting,false,true,,7,Mexico,"SpaceX Services, Inc.",spacex.com,false,24
 99.228.243.187,2026-08-24T08:46:33.454816Z,2026-08-24T08:46:52.936579Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Canada,Rogers Communications Canada Inc.,rogers.com,false,88
 99.249.114.133,2026-08-22T02:25:51.933650Z,2026-08-22T02:26:49.645535Z,2,0,0,0,low,connected_only,false,false,,7,Canada,Rogers Cable Inc. LNDN,rogers.com,false,100
