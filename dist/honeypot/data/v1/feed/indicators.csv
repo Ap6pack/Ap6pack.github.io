@@ -392,7 +392,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 136.169.234.103,2026-08-21T13:45:49.879467Z,2026-08-21T13:45:49.880323Z,1,0,0,0,low,single_sighting,false,false,,7,Russia,JSC Ufanet,ufanet.ru,false,0
 136.169.36.120,2026-08-25T11:00:54.518389Z,2026-08-27T03:27:47.986746Z,3,0,0,0,low,connected_only,false,true,,7,Latvia,SIA BITE Latvija,bite.lv,false,100
 136.35.75.118,2026-08-19T02:04:29.961459Z,2026-08-19T02:06:33.698179Z,2,0,0,0,low,connected_only,false,false,,7,United States,Google Fiber Inc.,gfiber.com,false,100
-136.51.92.56,2026-08-25T11:52:29.722736Z,2026-08-25T11:52:31.691240Z,3,0,0,0,low,connected_only,false,true,,7,United States,Google Fiber Inc.,gfiber.com,false,100
+136.51.92.56,2026-08-25T11:52:29.722736Z,2026-08-25T11:52:31.691240Z,3,0,0,0,low,connected_only,false,false,,7,United States,Google Fiber Inc.,gfiber.com,false,100
 136.56.34.147,2026-08-31T22:28:23.773344Z,2026-08-31T22:28:29.670455Z,1,1,0,0,low,single_sighting,false,true,,7,United States,Google Fiber Inc.,gfiber.com,false,100
 137.184.2.241,2026-08-27T07:50:42.369232Z,2026-08-27T07:50:42.510851Z,2,0,0,0,low,connected_only,false,true,,7,United States,"DigitalOcean, LLC",digitalocean.com,false,5
 137.83.85.36,2026-08-31T12:04:12.182468Z,2026-08-31T12:04:12.183650Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Amplex Electric, Inc.",amplex.net,false,5
@@ -1503,7 +1503,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 201.0.119.195,2026-08-18T18:25:58.135866Z,2026-08-18T18:26:15.949865Z,1,1,2,0,low,executed_commands,false,false,,7,Brazil,TELEFÔNICA BRASIL S.A,telefonica.com.br,false,64
 201.110.155.192,2026-08-21T20:42:17.135188Z,2026-08-21T20:42:17.135923Z,1,0,0,0,low,single_sighting,false,false,,7,Mexico,Uninet S.A. de C.V.,telmex.com,false,100
 201.140.220.172,2026-08-31T21:03:41.285645Z,2026-08-31T21:03:52.084878Z,1,1,28,11,high,delivered_payload,false,true,10c639bfac8873ac,7,Brazil,BRASIL TECPAR | AMIGO | AVATO,brasiltecpar.com.br,false,100
-201.145.215.170,2026-08-25T11:41:54.391457Z,2026-08-25T11:43:18.551477Z,2,0,0,0,low,connected_only,false,true,,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,38
+201.145.215.170,2026-08-25T11:41:54.391457Z,2026-08-25T11:43:18.551477Z,2,0,0,0,low,connected_only,false,false,,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,38
 201.163.73.88,2026-08-31T06:50:24.556281Z,2026-09-01T03:24:19.537275Z,2,2,0,0,low,connected_only,false,true,,7,Mexico,"Alestra, S. de R.L. de C.V.",alestra.com.mx,false,100
 201.163.73.93,2026-08-25T04:42:16.634092Z,2026-08-25T04:47:19.376107Z,1,1,0,0,low,single_sighting,false,false,,7,Mexico,"Alestra, S. de R.L. de C.V.",alestra.com.mx,false,100
 201.176.92.16,2026-08-28T22:25:31.990048Z,2026-08-28T22:26:30.247315Z,3,0,0,0,low,connected_only,false,true,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,0
@@ -1651,7 +1651,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 216.244.224.79,2026-08-21T13:04:28.901001Z,2026-08-24T16:57:51.327496Z,2,2,20,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,89
 216.244.244.104,2026-08-31T04:28:51.424490Z,2026-08-31T04:28:53.743391Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
 216.244.244.70,2026-08-26T06:58:58.702905Z,2026-08-26T06:59:01.032342Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
-216.244.245.218,2026-08-25T11:44:26.342367Z,2026-08-25T11:44:28.990049Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
+216.244.245.218,2026-08-25T11:44:26.342367Z,2026-08-25T11:44:28.990049Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
 216.244.247.34,2026-08-21T20:38:09.861081Z,2026-08-21T20:38:54.522223Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Argentina,Sinectis S.A.,sion.com,false,100
 216.244.250.186,2026-08-23T00:47:39.844365Z,2026-08-23T00:48:24.323286Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Argentina,Sinectis S.A.,sion.com,false,100
 216.57.110.81,2026-08-29T05:25:16.484305Z,2026-08-29T05:25:17.161417Z,1,1,0,0,low,single_sighting,false,true,,7,The Netherlands,"Timeweb, LLP",timewebcloud.kz,false,100
@@ -1765,7 +1765,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 31.128.172.225,2026-09-01T06:50:58.782634Z,2026-09-01T06:51:16.351322Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Therecom Ltd,therecom.net,false,100
 31.128.191.107,2026-08-25T06:06:03.289431Z,2026-08-25T06:06:21.401719Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,PE UAinet,uainet.net,false,47
 31.128.250.224,2026-08-22T08:48:12.398496Z,2026-08-22T08:48:30.841037Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,Merlin-Telekom LLC,merlin.ua,false,100
-31.128.251.108,2026-08-25T11:44:51.537734Z,2026-08-25T11:45:12.775011Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Merlin-Telekom LLC,merlin.ua,false,100
+31.128.251.108,2026-08-25T11:44:51.537734Z,2026-08-25T11:45:12.775011Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,Merlin-Telekom LLC,merlin.ua,false,100
 31.128.77.150,2026-08-23T10:00:46.178659Z,2026-08-23T10:00:46.179418Z,1,0,0,0,low,single_sighting,false,false,,7,Ukraine,PRIVATE JOINT STOCK COMPANY DATAGROUP,datagroup.ua,false,4
 31.129.235.208,2026-08-29T09:29:07.904783Z,2026-08-29T09:29:26.294742Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,ISP Syndicate,syndicate.net.ua,false,34
 31.129.79.58,2026-08-19T18:00:23.397275Z,2026-08-19T18:00:48.972335Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,Volodymyr Shtark,dnepro.net,false,28
