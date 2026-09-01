@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-01T17:30:11.937074+00:00",
+  "generated_at": "2026-09-01T18:00:12.339891+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-01T17:29:50.914937Z",
-  "total_events": 840640,
-  "unique_sessions": 99527,
-  "unique_source_ips": 2801,
-  "login_attempts": 95343,
-  "login_success": 94008,
-  "commands_run": 184385,
+  "last_event": "2026-09-01T17:59:33.538509Z",
+  "total_events": 841083,
+  "unique_sessions": 99571,
+  "unique_source_ips": 2805,
+  "login_attempts": 95382,
+  "login_success": 94046,
+  "commands_run": 184572,
   "files_captured": 16,
   "top_usernames": [
     [
@@ -135,24 +135,24 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 184385,
-    "cowrie.session.connect": 99527,
-    "cowrie.session.closed": 98846,
-    "cowrie.login.success": 94008,
-    "cowrie.session.params": 93443,
-    "cowrie.log.closed": 92772,
-    "cowrie.client.version": 74782,
-    "cowrie.client.kex": 74621,
-    "cowrie.telnet.option": 21741,
+    "cowrie.command.input": 184572,
+    "cowrie.session.connect": 99571,
+    "cowrie.session.closed": 98895,
+    "cowrie.login.success": 94046,
+    "cowrie.session.params": 93480,
+    "cowrie.log.closed": 92814,
+    "cowrie.client.version": 74785,
+    "cowrie.client.kex": 74624,
+    "cowrie.telnet.option": 21778,
     "cowrie.command.success": 2615,
     "cowrie.session.file_download": 1337,
-    "cowrie.login.failed": 1335,
+    "cowrie.login.failed": 1336,
     "cowrie.session.file_download.failed": 590,
-    "cowrie.direct-tcpip.request": 538,
+    "cowrie.direct-tcpip.request": 539,
     "cowrie.client.var": 17,
     "cowrie.session.file_upload": 17,
     "cowrie.virustotal.scanfile": 17,
-    "cowrie.client.malformed_packet": 15,
+    "cowrie.client.malformed_packet": 16,
     "cowrie.telnet.error": 13,
     "cowrie.telnet.exploit_attempt": 8,
     "cowrie.client.fingerprint": 8,
@@ -228,7 +228,7 @@
     },
     {
       "date": "2026-09-01",
-      "count": 9410
+      "count": 9853
     }
   ],
   "published": {
