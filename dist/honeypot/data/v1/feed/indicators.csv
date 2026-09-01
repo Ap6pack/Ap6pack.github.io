@@ -26,7 +26,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 101.53.233.94,2026-08-18T04:48:54.707667Z,2026-08-18T04:49:20.246802Z,2,0,0,0,low,connected_only,false,false,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,67
 101.96.229.2,2026-08-30T05:38:24.123735Z,2026-08-30T05:47:29.248224Z,3,1,0,2,high,delivered_payload,false,true,,7,China,"Beijing Volcano Engine Technology Co., Ltd.",bytedance.com,false,100
 102.115.196.119,2026-08-27T15:44:10.140471Z,2026-08-27T15:44:28.671673Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Mauritius,Mauritius Telecom Ltd,telecom.mu,false,5
-102.138.113.13,2026-08-25T03:03:42.991338Z,2026-08-25T03:04:15.869514Z,2,0,0,0,low,connected_only,false,true,,7,Ivory Coast,MTN COTE D'IVOIRE S.A,mtn.com,false,5
+102.138.113.13,2026-08-25T03:03:42.991338Z,2026-08-25T03:04:15.869514Z,2,0,0,0,low,connected_only,false,false,,7,Ivory Coast,MTN COTE D'IVOIRE S.A,mtn.com,false,5
 102.138.23.202,2026-08-19T22:17:18.511888Z,2026-08-19T22:18:10.104521Z,2,0,0,0,low,connected_only,false,false,,7,Ivory Coast,MTN COTE D'IVOIRE S.A,mtn.com,false,0
 102.152.221.97,2026-08-31T17:47:46.762105Z,2026-08-31T17:47:50.152715Z,2,0,0,0,low,connected_only,false,true,,7,Tunisia,SOCIETE NATIONALE DES TELECOMMUNICATIONS (Tunisie Telecom),tunisietelecom.tn,false,3
 102.158.52.146,2026-08-23T04:47:26.171261Z,2026-08-23T04:47:58.316258Z,2,0,0,0,low,connected_only,false,false,,7,Tunisia,TOPNET,topnet.tn,false,15
@@ -998,7 +998,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 186.33.25.234,2026-08-26T11:46:45.201977Z,2026-08-26T11:46:45.206465Z,1,0,0,0,low,single_sighting,false,true,,7,El Salvador,"Ufinet El Salvador, S. A. de C. V.",ufinet.com,false,100
 186.33.25.235,2026-08-26T11:46:17.207052Z,2026-08-26T11:46:17.208947Z,2,0,0,0,low,connected_only,false,true,,7,El Salvador,"Ufinet El Salvador, S. A. de C. V.",ufinet.com,false,100
 186.39.70.214,2026-08-18T00:46:40.567128Z,2026-08-18T00:48:05.796713Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,4
-186.56.81.17,2026-08-25T03:02:13.204026Z,2026-08-25T03:02:31.085525Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,100
+186.56.81.17,2026-08-25T03:02:13.204026Z,2026-08-25T03:02:31.085525Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,100
 186.57.115.31,2026-08-18T02:14:33.428730Z,2026-08-18T02:14:48.060391Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,0
 186.57.18.159,2026-08-24T23:07:39.375490Z,2026-08-24T23:08:33.248548Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,24
 186.57.194.217,2026-08-22T01:28:03.715030Z,2026-08-22T01:29:12.422583Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,16
@@ -1680,11 +1680,11 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 34.140.11.250,2026-08-18T02:16:03.571006Z,2026-08-18T02:16:09.868687Z,1,0,0,0,low,single_sighting,false,false,,7,Belgium,Google LLC,google.com,false,39
 34.140.231.187,2026-08-23T02:54:29.380438Z,2026-08-23T02:54:45.299316Z,1,0,0,0,low,single_sighting,false,false,,7,Belgium,Google LLC,google.com,false,38
 34.146.248.7,2026-08-26T19:22:15.688711Z,2026-08-26T19:22:24.635378Z,1,1,0,0,low,single_sighting,false,true,,7,Japan,Google LLC,google.com,false,100
-34.156.10.215,2026-08-25T03:00:28.072392Z,2026-08-25T03:00:34.574185Z,1,0,0,0,low,single_sighting,false,true,,7,Belgium,Google LLC,google.com,false,54
+34.156.10.215,2026-08-25T03:00:28.072392Z,2026-08-25T03:00:34.574185Z,1,0,0,0,low,single_sighting,false,false,,7,Belgium,Google LLC,google.com,false,54
 34.156.249.126,2026-08-30T03:11:57.691099Z,2026-08-30T03:12:39.096819Z,6,3,8,0,medium,executed_commands,false,true,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,59
 34.204.50.181,2026-08-23T22:20:22.909060Z,2026-08-23T22:20:22.925679Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 34.22.119.218,2026-08-26T04:27:06.871310Z,2026-08-26T04:27:21.456487Z,1,0,0,0,low,single_sighting,false,true,,7,Belgium,Google LLC,google.com,false,73
-34.34.144.123,2026-08-25T03:02:56.261851Z,2026-08-25T03:03:37.684741Z,6,3,8,0,medium,executed_commands,false,true,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,51
+34.34.144.123,2026-08-25T03:02:56.261851Z,2026-08-25T03:03:37.684741Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,51
 34.34.171.115,2026-08-22T02:35:18.583761Z,2026-08-22T02:36:00.001967Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,47
 34.38.167.214,2026-08-22T02:32:43.939007Z,2026-08-22T02:32:44.416907Z,1,0,0,0,low,single_sighting,false,false,,7,Belgium,Google LLC,google.com,false,29
 34.53.150.74,2026-08-30T03:10:24.396229Z,2026-08-30T03:10:38.739376Z,1,0,0,0,low,single_sighting,false,true,,7,Belgium,Google LLC,google.com,false,70
