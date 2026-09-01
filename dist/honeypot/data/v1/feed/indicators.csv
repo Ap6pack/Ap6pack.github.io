@@ -78,8 +78,8 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 103.146.111.173,2026-08-22T18:53:52.115038Z,2026-08-22T18:54:56.591219Z,5,0,0,0,low,connected_only,false,false,,7,India,Crisp Enterprises,crispenterprises.com,false,25
 103.146.111.85,2026-08-29T22:34:26.793122Z,2026-08-29T22:37:02.982034Z,12,0,0,0,medium,persistent,false,true,,7,India,Crisp Enterprises,crispenterprises.com,false,23
 103.147.248.23,2026-08-25T04:30:42.916395Z,2026-08-25T04:30:52.782755Z,1,1,0,0,low,single_sighting,false,false,,7,India,Softcrop It,softcropit.com,false,100
-103.148.128.153,2026-08-25T12:53:57.583786Z,2026-08-25T12:58:56.161378Z,22,0,0,0,medium,persistent,false,true,,7,Pakistan,Jazz,jazz.com.pk,false,100
-103.148.128.156,2026-08-25T12:54:36.363342Z,2026-08-25T12:54:49.156113Z,1,0,0,0,low,single_sighting,false,true,,7,Pakistan,Jazz,jazz.com.pk,false,100
+103.148.128.153,2026-08-25T12:53:57.583786Z,2026-08-25T12:58:56.161378Z,22,0,0,0,medium,persistent,false,false,,7,Pakistan,Jazz,jazz.com.pk,false,100
+103.148.128.156,2026-08-25T12:54:36.363342Z,2026-08-25T12:54:49.156113Z,1,0,0,0,low,single_sighting,false,false,,7,Pakistan,Jazz,jazz.com.pk,false,100
 103.148.23.149,2026-08-31T09:45:49.179216Z,2026-08-31T09:46:00.286287Z,3,0,0,0,low,connected_only,false,true,,7,Nepal,Fiberworld Communication Pvt. Ltd.,fiberworld.net.np,false,53
 103.151.74.53,2026-08-27T02:56:22.428846Z,2026-08-27T02:56:44.032230Z,2,0,0,0,low,connected_only,false,true,,7,Bangladesh,Orange Communication,orangebd.online,false,22
 103.158.206.61,2026-08-31T11:48:24.705207Z,2026-08-31T11:48:24.705888Z,1,0,0,0,low,single_sighting,false,true,,7,Bangladesh,Bhola Dot Net,bhola.net,false,68
@@ -140,7 +140,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 106.35.197.83,2026-08-27T07:51:18.040986Z,2026-08-27T07:51:23.452634Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,China,CHINANET HUNAN PROVINCE NETWORK,chinatelecom.cn,false,5
 106.46.176.84,2026-08-20T02:54:40.428797Z,2026-08-20T02:55:09.599186Z,1,1,10,0,low,executed_commands,false,false,597732d320c38002,7,China,CHINANET henan province network,hntele.com,false,76
 106.51.79.73,2026-08-31T21:03:07.384777Z,2026-08-31T21:03:16.095899Z,1,1,0,0,low,single_sighting,false,true,,7,India,"Atria Convergence Technologies Pvt. Ltd.,",acttv.in,false,100
-106.77.157.140,2026-08-25T12:50:30.854787Z,2026-08-25T12:50:50.679434Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,India,Vodafone Idea Ltd,myvi.in,false,0
+106.77.157.140,2026-08-25T12:50:30.854787Z,2026-08-25T12:50:50.679434Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,India,Vodafone Idea Ltd,myvi.in,false,0
 106.89.51.153,2026-08-31T15:27:06.808868Z,2026-08-31T17:28:56.276989Z,2,2,0,0,low,connected_only,false,true,,7,China,CHINANET Chongqing Province Network,cta.cq.cn,false,100
 106.89.58.125,2026-08-26T20:16:59.440334Z,2026-08-26T20:17:09.694793Z,1,1,0,0,low,single_sighting,false,true,,7,China,CHINANET Chongqing Province Network,cta.cq.cn,false,100
 107.137.145.52,2026-08-25T08:26:24.205812Z,2026-08-31T12:40:15.061775Z,5,0,0,0,low,connected_only,false,true,,7,United States,Private Customer - AT&T Internet Services,ads-internet.com,false,100
@@ -2566,7 +2566,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 91.221.218.18,2026-08-20T06:21:05.456418Z,2026-08-20T06:21:30.048897Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,FOP Hrush Andriy Bogdanovich,kim.in.ua,false,22
 91.225.143.95,2026-08-19T16:08:21.087119Z,2026-08-19T16:08:38.553617Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,FOP Lisovskiy Dmitro Sergiyovich,u-net.com.ua,false,0
 91.225.162.181,2026-08-30T05:06:00.161788Z,2026-08-30T05:06:17.411447Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,SPD Chernega Aleksandr Anatolevich,flycom.ua,false,100
-91.225.162.205,2026-08-25T12:36:38.542487Z,2026-08-25T12:36:57.219248Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,SPD Chernega Aleksandr Anatolevich,flycom.ua,false,45
+91.225.162.205,2026-08-25T12:36:38.542487Z,2026-08-25T12:36:57.219248Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,SPD Chernega Aleksandr Anatolevich,flycom.ua,false,45
 91.225.162.22,2026-08-27T21:35:42.568997Z,2026-08-27T21:35:42.569721Z,1,0,0,0,low,single_sighting,false,true,,7,Ukraine,SPD Chernega Aleksandr Anatolevich,flycom.ua,false,77
 91.225.162.38,2026-08-29T18:44:29.253855Z,2026-08-29T19:02:32.564244Z,2,0,0,0,low,connected_only,false,true,,7,Ukraine,SPD Chernega Aleksandr Anatolevich,flycom.ua,false,100
 91.228.217.12,2026-08-22T05:59:39.260991Z,2026-08-22T05:59:51.276085Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,FOP Saiv Igor Stepanovich,gipernet.com.ua,false,28
@@ -2594,7 +2594,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 92.118.39.14,2026-08-18T20:25:57.387920Z,2026-08-29T09:01:38.931894Z,12,8,4,0,medium,executed_commands,false,true,9dc0f0fe6a402818,7,United States,DMZHOST,dmzhost.co,false,100
 92.118.39.49,2026-08-25T14:49:44.644486Z,2026-08-28T22:08:03.605522Z,7,5,5,0,medium,executed_commands,false,true,9dc0f0fe6a402818,7,United States,DMZHOST,dmzhost.co,false,100
 92.118.39.77,2026-08-20T08:57:15.791854Z,2026-08-23T23:45:31.566117Z,7,4,4,0,medium,persistent,false,false,9dc0f0fe6a402818,7,United States,DMZHOST,dmzhost.co,false,100
-92.118.39.78,2026-08-25T12:42:09.696990Z,2026-08-25T12:42:10.107758Z,1,0,0,0,low,single_sighting,false,true,,7,United States,DMZHOST,dmzhost.co,false,100
+92.118.39.78,2026-08-25T12:42:09.696990Z,2026-08-25T12:42:10.107758Z,1,0,0,0,low,single_sighting,false,false,,7,United States,DMZHOST,dmzhost.co,false,100
 92.118.72.173,2026-08-25T04:28:50.326892Z,2026-08-25T04:29:08.316190Z,1,1,3,0,low,executed_commands,false,false,cdeea28a0da7d13d,7,Russia,Consumer Internet Cooperative PG-19,pg19.ru,false,96
 92.118.76.198,2026-08-25T07:44:05.604375Z,2026-08-25T07:44:24.365553Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,Small Private Enterprise Kvant-II,kvant.if.ua,false,73
 92.124.206.237,2026-08-23T22:53:04.766699Z,2026-08-23T22:53:22.917789Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,OJSC Sibirtelecom,sibirtelecom.ru,false,1
