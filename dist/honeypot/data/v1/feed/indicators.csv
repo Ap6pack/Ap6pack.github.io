@@ -753,7 +753,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 176.98.9.46,2026-08-22T08:42:54.138968Z,2026-08-22T08:43:12.321653Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,Crystal Telecom Ltd,crystal.in.ua,false,85
 176.99.98.106,2026-08-18T08:08:02.091264Z,2026-08-18T08:08:20.022073Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,Infostroy Ltd.,mirgiga.net,false,44
 176.99.98.87,2026-08-23T06:43:21.446889Z,2026-08-23T06:44:18.679215Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,Infostroy Ltd.,mirgiga.net,false,37
-177.102.206.38,2026-08-26T04:52:11.560268Z,2026-08-26T04:52:55.825375Z,1,1,31,5,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,Brazil,TELEFÔNICA BRASIL S.A,telefonica.com.br,false,100
+177.102.206.38,2026-08-26T04:52:11.560268Z,2026-08-26T04:52:55.825375Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Brazil,TELEFÔNICA BRASIL S.A,telefonica.com.br,false,100
 177.107.123.145,2026-08-20T07:03:13.238715Z,2026-08-20T07:03:13.263183Z,1,0,0,0,low,single_sighting,false,false,,7,Brazil,Opcao Telecom,opcaonet.com.br,false,100
 177.107.178.125,2026-08-18T04:41:18.250523Z,2026-08-18T04:41:35.069495Z,1,1,2,0,low,executed_commands,false,false,,7,Brazil,Center Média,brcentral.com.br,false,23
 177.128.66.254,2026-08-29T00:31:34.481749Z,2026-08-29T00:31:53.628713Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Brazil,WEBMAX TECNOLOGIA LTDA,wbmx.com.br,false,18
@@ -1591,7 +1591,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 201.219.166.65,2026-08-21T15:26:48.447537Z,2026-08-21T15:26:51.731413Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,MERCO COMUNICACIONES,gciservicios.com.ar,false,62
 201.220.17.248,2026-08-21T22:59:51.431763Z,2026-08-21T23:00:13.531905Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,MADACOM SRL,fiberfly.com.ar,false,55
 201.220.18.86,2026-08-21T11:10:14.056895Z,2026-08-21T11:10:17.949190Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,MADACOM SRL,fiberfly.com.ar,false,68
-201.221.105.131,2026-08-26T04:31:33.803264Z,2026-08-26T04:31:36.145842Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
+201.221.105.131,2026-08-26T04:31:33.803264Z,2026-08-26T04:31:36.145842Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
 201.221.105.43,2026-08-26T17:14:29.518968Z,2026-08-30T05:28:10.904761Z,2,2,20,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
 201.221.108.209,2026-08-21T02:33:49.209063Z,2026-08-21T02:33:51.711019Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,46
 201.222.206.102,2026-08-27T17:50:17.316930Z,2026-08-27T17:50:59.478067Z,2,0,0,0,low,connected_only,false,true,,7,Chile,TELEFÓNICA CHILE S.A.,telefonicachile.cl,false,100
@@ -2052,7 +2052,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 44.220.185.159,2026-08-26T15:01:43.388732Z,2026-08-26T15:01:43.471763Z,1,0,0,0,low,single_sighting,false,true,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,56
 45.11.200.9,2026-08-20T00:09:07.637256Z,2026-08-20T00:09:38.892379Z,2,0,0,0,low,connected_only,false,false,,7,Turkey,ALFA ILETISIM HIZMETLERI PAZARLAMA TICARET A.S.,alfailetisim.com.tr,false,88
 45.112.46.241,2026-08-22T08:40:21.031240Z,2026-08-22T08:41:26.762960Z,2,0,0,0,low,connected_only,false,false,,7,Myanmar,Mytel,mytel.com.mm,false,4
-45.112.47.4,2026-08-26T04:39:51.582197Z,2026-08-26T04:39:51.588998Z,1,0,0,0,low,single_sighting,false,true,,7,Myanmar,Mytel,mytel.com.mm,false,10
+45.112.47.4,2026-08-26T04:39:51.582197Z,2026-08-26T04:39:51.588998Z,1,0,0,0,low,single_sighting,false,false,,7,Myanmar,Mytel,mytel.com.mm,false,10
 45.12.24.14,2026-08-19T19:17:10.063561Z,2026-08-19T19:18:05.637687Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Ukraine,PC Astra-net,astra.in.ua,false,100
 45.125.5.112,2026-08-27T02:15:40.274846Z,2026-08-27T02:16:18.856368Z,2,0,0,0,low,connected_only,false,true,,7,Myanmar,"Global Technology Co., Ltd.",globalnetmm.com,false,13
 45.130.246.71,2026-08-20T17:48:32.553000Z,2026-08-20T17:48:50.304733Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,ATOMOHOST LLC,briz.ua,false,45
