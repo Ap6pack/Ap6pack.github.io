@@ -310,7 +310,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 119.99.215.145,2026-08-26T10:30:13.396591Z,2026-08-26T10:30:18.277684Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,China,CHINANET Hubei province network,chinatelecom.cn,false,100
 12.150.243.22,2026-09-01T06:25:32.260814Z,2026-09-01T06:25:38.820302Z,1,1,0,0,low,single_sighting,false,true,,7,United States,"AT&T Enterprises, LLC",att.com,false,100
 120.11.80.126,2026-08-19T20:42:46.971363Z,2026-08-19T20:42:48.302593Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Unicom Heibei Province Network,chinaunicom.cn,false,25
-120.157.129.161,2026-08-26T08:00:58.892637Z,2026-08-26T08:01:02.881414Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Australia,Telstra Limited,telstra.net,false,5
+120.157.129.161,2026-08-26T08:00:58.892637Z,2026-08-26T08:01:02.881414Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Australia,Telstra Limited,telstra.net,false,5
 120.194.50.39,2026-09-01T07:54:40.848145Z,2026-09-01T07:54:49.857328Z,1,1,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 120.207.92.246,2026-08-22T01:20:44.726321Z,2026-08-22T01:20:46.107057Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,82
 120.224.15.67,2026-08-25T23:07:07.292165Z,2026-08-25T23:07:07.292991Z,1,0,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
@@ -1462,7 +1462,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 2.55.69.224,2026-08-26T22:04:55.361067Z,2026-08-26T22:05:09.297850Z,1,0,0,0,low,single_sighting,false,true,,7,Israel,Partner Communications Ltd.,orange.co.il,false,100
 2.55.70.124,2026-08-27T00:55:49.485082Z,2026-08-27T00:57:49.487216Z,1,0,0,0,low,single_sighting,false,true,,7,Israel,Partner Communications Ltd.,orange.co.il,false,100
 2.57.122.209,2026-08-18T14:50:10.796248Z,2026-08-18T14:57:24.078807Z,2,1,1,0,low,executed_commands,false,false,9dc0f0fe6a402818,7,The Netherlands,TECHOFF SRV LIMITED,dmzhost.co,false,100
-2.57.207.241,2026-08-26T08:22:54.133554Z,2026-08-26T08:23:18.464157Z,3,0,0,0,low,connected_only,false,true,,7,Ukraine,Kaluska informatsiyna merezha LLC,kim.in.ua,false,80
+2.57.207.241,2026-08-26T08:22:54.133554Z,2026-08-26T08:23:18.464157Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,Kaluska informatsiyna merezha LLC,kim.in.ua,false,80
 2.60.112.158,2026-08-21T08:39:25.238328Z,2026-08-21T08:41:21.678286Z,3,0,0,0,low,connected_only,false,false,,7,Russia,PJSC Rostelecom,rt.ru,false,81
 2.61.121.245,2026-08-31T22:12:59.292591Z,2026-08-31T22:13:20.487840Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,OJSC Sibirtelecom,sibirtelecom.ru,false,0
 2.63.200.161,2026-08-23T13:56:20.793743Z,2026-08-23T13:56:42.109014Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,JSC Rostelecom . Rostov,rt.ru,false,62
@@ -2180,7 +2180,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 47.104.204.94,2026-08-23T15:19:20.161804Z,2026-08-23T15:19:22.536243Z,1,1,0,0,low,single_sighting,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,17
 47.107.125.120,2026-08-22T15:57:22.438425Z,2026-08-25T04:47:59.562156Z,4,0,0,0,low,connected_only,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
 47.115.92.162,2026-08-17T09:56:21.143930Z,2026-08-17T09:58:44.657102Z,3,0,0,0,low,connected_only,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
-47.120.30.67,2026-08-26T08:02:04.748077Z,2026-08-26T08:06:42.250982Z,2,0,0,0,low,connected_only,false,true,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
+47.120.30.67,2026-08-26T08:02:04.748077Z,2026-08-26T08:06:42.250982Z,2,0,0,0,low,connected_only,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
 47.160.249.62,2026-08-29T05:38:54.784788Z,2026-08-29T05:45:54.658169Z,2,0,0,0,low,connected_only,false,true,,7,United States,Verizon Business,verizon.com,false,100
 47.200.156.93,2026-08-22T11:31:29.487352Z,2026-08-22T11:33:23.845396Z,2,0,0,0,low,connected_only,false,false,,7,United States,Verizon Business,verizon.com,false,100
 47.231.241.171,2026-08-28T06:17:29.143928Z,2026-08-28T06:17:52.530780Z,4,0,0,0,low,connected_only,false,true,,7,United States,Charter Communications LLC,charter.com,false,100
@@ -2226,7 +2226,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 49.124.152.170,2026-08-31T20:07:39.774299Z,2026-08-31T20:07:48.426880Z,1,1,0,0,low,single_sighting,false,true,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.152.213,2026-08-26T01:10:05.425390Z,2026-08-26T01:10:05.725330Z,1,0,0,0,low,single_sighting,false,false,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.152.225,2026-08-26T07:31:19.406879Z,2026-08-26T07:31:28.399006Z,1,1,0,0,low,single_sighting,false,false,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
-49.124.152.228,2026-08-26T08:25:46.242825Z,2026-08-26T08:25:55.853334Z,1,1,0,0,low,single_sighting,false,true,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
+49.124.152.228,2026-08-26T08:25:46.242825Z,2026-08-26T08:25:55.853334Z,1,1,0,0,low,single_sighting,false,false,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.152.229,2026-08-27T02:44:56.022589Z,2026-08-27T02:45:04.749723Z,1,1,0,0,low,single_sighting,false,true,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.152.232,2026-08-31T04:56:32.956324Z,2026-08-31T04:56:33.238479Z,1,0,0,0,low,single_sighting,false,true,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.152.234,2026-08-26T00:02:45.024027Z,2026-08-31T10:44:36.555022Z,2,1,0,0,low,connected_only,false,true,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
@@ -2750,7 +2750,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 92.39.218.111,2026-08-19T16:24:01.810934Z,2026-08-19T16:24:41.481039Z,2,0,0,0,low,connected_only,false,false,,7,Russia,"PJSC Mobile TeleSystems, Izhevsk fix",mts.ru,false,13
 92.39.218.22,2026-08-19T22:24:31.640182Z,2026-08-19T22:24:49.809707Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,"PJSC Mobile TeleSystems, Izhevsk fix",mts.ru,false,5
 92.52.175.65,2026-08-17T22:41:53.215655Z,2026-08-17T22:43:45.300198Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,Lanet Network Ltd,lanet.ua,false,100
-92.55.171.60,2026-08-26T08:21:13.702886Z,2026-08-26T08:21:43.681914Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Kazakhstan,Kar-Tel LLC,beeline.kz,false,11
+92.55.171.60,2026-08-26T08:21:13.702886Z,2026-08-26T08:21:43.681914Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Kazakhstan,Kar-Tel LLC,beeline.kz,false,11
 92.55.61.51,2026-08-21T17:18:46.532796Z,2026-08-21T17:19:33.248775Z,3,0,0,0,low,connected_only,false,false,,7,Russia,OOO NI,mark.ru,false,17
 92.68.11.140,2026-08-29T07:47:05.849242Z,2026-08-29T07:49:14.752165Z,1,1,5,0,medium,executed_commands,false,true,d4224ad2d90953b1,7,The Netherlands,KPN B.V.,kpn.com,false,100
 93.104.9.28,2026-08-23T13:38:33.589334Z,2026-08-23T13:40:25.116341Z,2,0,0,0,low,connected_only,false,false,,7,Germany,M-net Telekommunikations GmbH,m-net.de,false,16
@@ -2780,7 +2780,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 94.158.60.211,2026-08-23T03:17:46.598363Z,2026-08-23T03:18:04.117912Z,1,1,2,0,low,executed_commands,false,false,,7,Uzbekistan,IPLUS LLC,comnet.uz,false,64
 94.158.61.42,2026-08-25T08:57:58.667347Z,2026-08-25T08:58:16.509015Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Uzbekistan,IPLUS LLC,comnet.uz,false,14
 94.199.68.233,2026-08-21T21:52:08.595548Z,2026-08-21T21:52:27.617553Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,ATOMLINK,atomlink.ru,false,67
-94.207.29.221,2026-08-25T20:47:49.235353Z,2026-08-26T08:27:02.507382Z,3,3,0,0,low,connected_only,false,true,,7,United Arab Emirates,Emirates Integrated Telecommunications Company PJSC,du.ae,false,100
+94.207.29.221,2026-08-25T20:47:49.235353Z,2026-08-26T08:27:02.507382Z,3,3,0,0,low,connected_only,false,false,,7,United Arab Emirates,Emirates Integrated Telecommunications Company PJSC,du.ae,false,100
 94.208.244.217,2026-08-24T20:49:37.646395Z,2026-08-24T20:49:37.650920Z,1,0,0,0,low,single_sighting,false,false,,7,The Netherlands,Ziggo Consumers,ziggo.nl,false,100
 94.230.130.177,2026-08-22T20:08:22.247869Z,2026-08-22T20:08:39.724386Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,"K-TELECOM, Ekaterinburg",k-telecom.org,false,100
 94.231.206.108,2026-08-23T13:45:12.784450Z,2026-08-23T13:45:15.908256Z,1,0,0,0,low,single_sighting,false,false,,7,China,FR ONYPHE,onyphe.io,false,0
