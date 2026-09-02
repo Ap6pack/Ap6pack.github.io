@@ -511,7 +511,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 148.222.217.132,2026-08-18T20:36:24.385729Z,2026-08-18T20:36:39.299931Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Starlink Argentina SRL,starlink.com,false,43
 148.222.217.4,2026-08-24T18:04:38.773677Z,2026-08-24T18:04:55.373477Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Starlink Argentina SRL,starlink.com,false,31
 148.222.223.100,2026-08-22T15:25:23.512147Z,2026-08-22T15:26:20.704746Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Starlink Argentina SRL,starlink.com,false,10
-148.227.90.90,2026-08-26T00:58:50.792460Z,2026-08-26T00:58:51.736526Z,1,0,0,0,low,single_sighting,false,true,,7,Brazil,Starlink Brazil Serviços de Internet Ltd,starlink.com,false,100
+148.227.90.90,2026-08-26T00:58:50.792460Z,2026-08-26T00:58:51.736526Z,1,0,0,0,low,single_sighting,false,false,,7,Brazil,Starlink Brazil Serviços de Internet Ltd,starlink.com,false,100
 148.227.93.81,2026-08-20T03:13:22.601006Z,2026-08-20T03:13:22.837282Z,1,0,0,0,low,single_sighting,false,false,,7,Ecuador,Starlink Ecuador STAREC C. Ltda.,starlink.com,false,0
 148.230.15.97,2026-08-26T18:03:35.512489Z,2026-08-26T18:03:35.513261Z,1,0,0,0,low,single_sighting,false,true,,7,Mexico,DIGY NETWORKS,digynetworks.mx,false,30
 148.72.208.160,2026-08-31T21:57:37.739482Z,2026-09-01T21:28:23.661847Z,358,260,1225,0,medium,executed_commands,false,true,6a844424c30ada56,7,Singapore,"GoDaddy.com, LLC",godaddy.com,false,100
@@ -2111,7 +2111,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 45.228.77.113,2026-08-29T20:11:20.720579Z,2026-08-29T20:11:20.722580Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,DANIEL MARECHAL,mikronetcomunicaciones.com.ar,false,100
 45.229.156.251,2026-08-20T07:23:53.970281Z,2026-08-20T07:24:11.937768Z,1,1,2,0,low,executed_commands,false,false,,7,Brazil,Brnet Telecomunicacoes LTDA - ME,brnet.psi.br,false,78
 45.230.38.136,2026-08-28T19:29:18.478926Z,2026-08-28T19:34:03.310980Z,3,0,0,0,low,connected_only,false,true,,7,Chile,SERVICIOS ZONALES DE INTERNET LIMITADA,asurik.cl,false,100
-45.231.224.59,2026-08-26T00:38:52.722108Z,2026-08-26T00:39:15.270439Z,4,0,0,0,low,connected_only,false,true,,7,Argentina,MARTIN MAXIMILIANO SINTURION (STATIONET),stationet.com.ar,false,14
+45.231.224.59,2026-08-26T00:38:52.722108Z,2026-08-26T00:39:15.270439Z,4,0,0,0,low,connected_only,false,false,,7,Argentina,MARTIN MAXIMILIANO SINTURION (STATIONET),stationet.com.ar,false,14
 45.233.91.9,2026-08-30T02:49:19.820569Z,2026-08-30T02:49:21.949391Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Brazil,D.R SERVICOS DE COMUNICACAO LTDA - ME,drnetjpa.com.br,false,100
 45.234.183.77,2026-08-18T13:50:10.845303Z,2026-08-18T13:51:04.000054Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,TERAN JORGE LUIS (Social Datos),sd.net.ar,false,0
 45.234.33.94,2026-08-26T04:13:05.059678Z,2026-08-26T04:13:10.176811Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,ISPCOM S.A.,0345concordia.com.ar,false,0
@@ -2602,7 +2602,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 83.255.102.217,2026-08-31T05:22:55.078102Z,2026-08-31T05:23:01.136557Z,1,1,0,0,low,single_sighting,false,true,,7,Sweden,Tele2 Sverige AB,tele2.se,false,100
 83.4.208.18,2026-08-17T23:55:25.976243Z,2026-08-17T23:55:29.207356Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Poland,Orange Polska Spolka Akcyjna,orange.com,false,65
 83.99.204.194,2026-08-23T04:30:20.840713Z,2026-08-23T04:30:20.841461Z,1,0,0,0,low,single_sighting,false,false,,7,Latvia,Balticom JSC,balticom.eu,false,74
-84.15.221.52,2026-08-26T00:44:44.152037Z,2026-08-26T00:45:06.142952Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Latvia,Bite Latvija,bite.lv,false,25
+84.15.221.52,2026-08-26T00:44:44.152037Z,2026-08-26T00:45:06.142952Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Latvia,Bite Latvija,bite.lv,false,25
 84.186.178.230,2026-08-24T09:51:55.782975Z,2026-08-24T09:52:17.672550Z,4,0,0,0,low,connected_only,false,false,,7,Germany,Deutsche Telekom AG,telekom.de,false,13
 84.212.33.85,2026-08-29T10:49:11.829101Z,2026-08-29T10:50:47.633982Z,2,0,0,0,low,connected_only,false,true,,7,Norway,Telia Norge AS,telia.no,false,100
 84.23.212.154,2026-08-20T07:48:43.674370Z,2026-08-20T07:49:01.373491Z,1,1,2,0,low,executed_commands,false,false,,7,Portugal,nos madeira comunicacoes s.a,nos.pt,false,67
