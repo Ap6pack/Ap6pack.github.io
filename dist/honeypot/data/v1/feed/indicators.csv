@@ -69,7 +69,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 102.66.147.229,2026-08-23T00:41:59.987041Z,2026-08-23T00:41:59.987726Z,1,0,0,0,low,single_sighting,false,false,,7,South Africa,Herotel,herotel.com,false,26
 102.67.231.219,2026-08-20T15:22:48.174731Z,2026-08-20T15:23:39.025750Z,3,0,0,0,low,connected_only,false,false,,7,Ivory Coast,GVA Cote d'Ivoire SAS,gva.africa,false,51
 102.68.129.128,2026-08-29T21:36:45.418874Z,2026-08-29T21:38:00.242384Z,2,0,0,0,low,connected_only,false,true,,7,Libya,RAWAFED LIBYA,rltt.net,false,78
-102.90.123.124,2026-08-26T14:05:42.294446Z,2026-08-26T14:07:34.371420Z,2,0,0,0,low,connected_only,false,true,,7,Nigeria,MTN Nigeria,mtnnigeria.net,false,15
+102.90.123.124,2026-08-26T14:05:42.294446Z,2026-08-26T14:07:34.371420Z,2,0,0,0,low,connected_only,false,false,,7,Nigeria,MTN Nigeria,mtnnigeria.net,false,15
 102.90.99.172,2026-08-31T09:24:53.353943Z,2026-08-31T09:24:53.354750Z,1,0,0,0,low,single_sighting,false,true,,7,Nigeria,MTN Nigeria,mtnnigeria.net,false,21
 102.97.60.197,2026-08-28T23:46:41.944971Z,2026-08-28T23:47:28.495776Z,3,0,0,0,low,connected_only,false,true,,7,Morocco,2G/3G/4G Mobile Costumers,orange.ma,false,0
 103.103.125.193,2026-08-29T18:04:24.622274Z,2026-08-29T18:04:24.623206Z,1,0,0,0,low,single_sighting,false,true,,7,Bangladesh,Sreejoin Online.Com,sreejononline.com,false,1
@@ -852,7 +852,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 178.215.158.249,2026-08-24T16:30:10.278575Z,2026-08-24T16:30:30.594509Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,VOLNA-SERVIS LLC,yarvolna.net,false,100
 178.217.77.166,2026-08-23T10:01:27.461250Z,2026-08-23T10:01:27.463933Z,1,0,0,0,low,single_sighting,false,false,,7,Georgia,OSS Ltd,oss-ab.net,false,100
 178.217.77.50,2026-08-23T10:00:15.186833Z,2026-08-23T10:01:27.460732Z,2,0,0,0,low,connected_only,false,false,,7,Georgia,OSS Ltd,oss-ab.net,false,100
-178.220.180.38,2026-08-26T14:09:58.459053Z,2026-08-26T14:10:16.284993Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Serbia,TELEKOM SRBIJA a.d.,mts.rs,false,5
+178.220.180.38,2026-08-26T14:09:58.459053Z,2026-08-26T14:10:16.284993Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Serbia,TELEKOM SRBIJA a.d.,mts.rs,false,5
 178.224.53.154,2026-08-27T12:20:19.101099Z,2026-08-27T12:20:24.930158Z,1,1,0,0,low,single_sighting,false,true,,7,The Netherlands,Odido Netherlands B.V.,odido.nl,false,100
 178.249.244.158,2026-08-27T03:21:19.880406Z,2026-08-27T03:21:27.092954Z,2,0,0,0,low,connected_only,false,true,,7,Russia,"JSC Kursktelecom, ISP in Kursk city",kursktelecom.ru,false,100
 178.74.109.184,2026-08-26T09:25:29.403140Z,2026-08-26T09:25:30.267519Z,1,1,1,0,low,executed_commands,true,false,e97166b54500da3a,7,Russia,BC-Telecom,bs-telecom.net,false,17
@@ -1650,7 +1650,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 200.81.188.6,2026-08-20T16:03:27.983531Z,2026-08-20T16:03:30.358140Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,SION S.A,sion.com,false,64
 200.81.189.222,2026-08-26T14:32:56.383398Z,2026-08-26T14:32:56.385881Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,SION S.A,sion.com,false,100
 200.81.189.39,2026-08-25T07:24:51.710645Z,2026-08-25T07:25:35.607477Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Argentina,SION S.A,sion.com,false,100
-200.81.189.44,2026-08-26T14:15:09.666945Z,2026-08-26T14:15:09.668287Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,SION S.A,sion.com,false,100
+200.81.189.44,2026-08-26T14:15:09.666945Z,2026-08-26T14:15:09.668287Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,SION S.A,sion.com,false,100
 200.86.41.76,2026-08-24T12:20:16.165286Z,2026-08-31T04:23:00.106163Z,2,1,44,5,high,delivered_payload,false,true,033eb61ddccbf32e,7,Chile,VTR BANDA ANCHA S.A.,vtr.com,false,100
 200.90.147.239,2026-08-24T02:56:37.152909Z,2026-08-24T02:59:40.761225Z,1,1,2,0,low,executed_commands,false,false,,7,Bolivia,Cooperativa de Telecomunicaciones Oruro Ltda - COTEOR,coteor.net.bo,false,25
 200.92.169.215,2026-08-22T05:10:11.873858Z,2026-08-22T05:10:28.893172Z,1,1,2,0,low,executed_commands,false,false,,7,Mexico,"Mega Cable, S.A. de C.V.",mega.mx,false,5
@@ -2152,7 +2152,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 43.226.44.76,2026-08-31T19:03:14.231073Z,2026-08-31T19:04:04.806752Z,2,0,0,0,low,connected_only,false,true,,7,China,Shenzhen Qianhai bird cloud computing Co. Ltd.,cnnic.cn,false,100
 43.227.26.170,2026-08-22T11:00:30.492641Z,2026-08-22T11:01:17.134284Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Taiwan,TNET Communication Inc.,twt.com.tw,false,56
 43.228.131.114,2026-09-02T01:10:37.948351Z,2026-09-02T01:10:47.112560Z,1,1,0,0,low,single_sighting,false,true,,7,Mongolia,Unitel LLC,unitel.mn,false,100
-43.230.94.176,2026-08-26T14:11:15.830348Z,2026-08-26T14:16:40.269032Z,25,0,0,0,medium,persistent,false,true,,7,Pakistan,Ebone Network (PVT.) Limited,ebone.net.pk,false,100
+43.230.94.176,2026-08-26T14:11:15.830348Z,2026-08-26T14:16:40.269032Z,25,0,0,0,medium,persistent,false,false,,7,Pakistan,Ebone Network (PVT.) Limited,ebone.net.pk,false,100
 43.230.94.190,2026-08-28T06:19:37.711392Z,2026-08-28T06:25:02.123129Z,25,0,0,0,medium,persistent,false,true,,7,Pakistan,Ebone Network (PVT.) Limited,ebone.net.pk,false,100
 43.248.152.226,2026-08-20T14:48:24.740453Z,2026-08-20T14:48:24.743525Z,2,0,0,0,low,connected_only,false,false,,7,India,ANI EXTREEM BROADBAND,anonet.in,false,2
 43.250.106.18,2026-08-31T11:05:07.586701Z,2026-08-31T11:05:16.739170Z,1,1,0,0,low,single_sighting,false,true,,7,United States,"Kvmcloud Network Co., Ltd",abuse.vip,false,100
@@ -2190,7 +2190,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 45.172.19.121,2026-08-21T01:04:54.037176Z,2026-08-21T01:04:54.040734Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Wireless Provider,wirelessprovider.com.ar,false,47
 45.172.220.33,2026-08-26T19:58:13.778545Z,2026-08-26T19:58:15.098117Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,GUERRA LIDIA ROXANA (FULLNET COMUNICACIONES),fullnetargentina.net,false,99
 45.172.66.128,2026-08-23T03:37:09.368455Z,2026-08-23T03:37:09.369281Z,1,0,0,0,low,single_sighting,false,false,,7,Brazil,AREA 51 PROVEDOR DE INTERNET LTDA,servicenetvia.buzz,false,2
-45.173.212.91,2026-08-26T14:30:00.193120Z,2026-08-26T14:30:00.194587Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,ISP FIBER S.R.L,ispgroup.com.ar,false,16
+45.173.212.91,2026-08-26T14:30:00.193120Z,2026-08-26T14:30:00.194587Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,ISP FIBER S.R.L,ispgroup.com.ar,false,16
 45.174.108.102,2026-08-31T05:05:20.524021Z,2026-08-31T05:05:20.526215Z,2,0,0,0,low,connected_only,false,true,,7,Mexico,IPTVTEL COMUNICACIONES S DE RL DE CV,dnskonecta.mx,false,51
 45.174.177.66,2026-08-21T01:52:09.656473Z,2026-08-21T01:52:53.188513Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Brazil,M & G TELECON LTDA,,false,100
 45.174.242.140,2026-08-23T03:17:29.486161Z,2026-08-23T03:17:46.263220Z,2,0,0,0,low,connected_only,false,false,,7,Mexico,SISTEMAS Y SOLUCIONES DE CAMPECHE SAS DE CV,sys-cam.com,false,0
