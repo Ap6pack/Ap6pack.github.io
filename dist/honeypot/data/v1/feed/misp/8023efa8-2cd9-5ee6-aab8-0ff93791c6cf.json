@@ -1,7 +1,7 @@
 {
   "Event": {
-    "uuid": "e0b96d86-01c2-5e9d-832f-b169b8bd076b",
-    "info": "Sundew honeypot - campaign 32a045e58e6d (1 sources) - system",
+    "uuid": "8023efa8-2cd9-5ee6-aab8-0ff93791c6cf",
+    "info": "Sundew honeypot - campaign bc98e6e6205f (1 sources) - enable",
     "date": "2026-09-02",
     "analysis": "2",
     "threat_level_id": "3",
@@ -23,38 +23,29 @@
     ],
     "Attribute": [
       {
-        "uuid": "318df51c-8c50-5393-9bfd-00ca0a18c26d",
+        "uuid": "0df5a2dd-f8f5-536f-a78a-c14aaff26239",
         "type": "ip-src",
         "category": "Network activity",
         "to_ids": false,
-        "value": "72.167.38.71",
+        "value": "104.238.118.239",
         "timestamp": "1788388212",
-        "comment": "executed_commands, confidence medium; 1948 sessions, 9448 commands, 0 downloads; first_seen 2026-09-02T03:24:12.350115Z, last_seen 2026-09-02T16:53:39.163177Z; expires 7d after last_seen"
+        "comment": "executed_commands, confidence medium; 397 sessions, 1853 commands, 0 downloads; first_seen 2026-08-17T16:46:23.917178Z, last_seen 2026-09-02T05:52:58.751480Z; expires 7d after last_seen"
       },
       {
-        "uuid": "a5e6bdad-4fe8-53ba-a52f-a195e5fc41c8",
+        "uuid": "1fee28bd-5dfe-5cfb-b4b8-2244bdccf2e5",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "system",
-        "timestamp": "1788388212",
-        "comment": "command run by this campaign"
-      },
-      {
-        "uuid": "c886b9d3-2c26-53f8-842d-cecd4fa28df9",
-        "type": "text",
-        "category": "Artifacts dropped",
-        "to_ids": false,
-        "value": "shell",
+        "value": "enable",
         "timestamp": "1788388212",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "912bfc92-59a6-508a-aae6-6030d638537c",
+        "uuid": "67690bae-de17-5e23-8b6c-4037868a057e",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "sh",
+        "value": "linuxshell",
         "timestamp": "1788388212",
         "comment": "command run by this campaign"
       }
