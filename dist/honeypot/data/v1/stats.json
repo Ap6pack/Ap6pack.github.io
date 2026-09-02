@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-02T09:00:14.629701+00:00",
+  "generated_at": "2026-09-02T09:30:12.375250+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-02T09:00:00.719225Z",
-  "total_events": 851104,
-  "unique_sessions": 100815,
-  "unique_source_ips": 3000,
-  "login_attempts": 96310,
-  "login_success": 94912,
-  "commands_run": 188370,
+  "last_event": "2026-09-02T09:29:57.580923Z",
+  "total_events": 851970,
+  "unique_sessions": 100899,
+  "unique_source_ips": 3005,
+  "login_attempts": 96392,
+  "login_success": 94990,
+  "commands_run": 188723,
   "files_captured": 17,
   "top_usernames": [
     [
@@ -135,19 +135,19 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 188370,
-    "cowrie.session.connect": 100815,
-    "cowrie.session.closed": 100120,
-    "cowrie.login.success": 94912,
-    "cowrie.session.params": 94233,
-    "cowrie.log.closed": 93548,
-    "cowrie.client.version": 74944,
-    "cowrie.client.kex": 74771,
-    "cowrie.telnet.option": 22621,
+    "cowrie.command.input": 188723,
+    "cowrie.session.connect": 100899,
+    "cowrie.session.closed": 100218,
+    "cowrie.login.success": 94990,
+    "cowrie.session.params": 94305,
+    "cowrie.log.closed": 93635,
+    "cowrie.client.version": 74950,
+    "cowrie.client.kex": 74777,
+    "cowrie.telnet.option": 22693,
     "cowrie.command.success": 2641,
-    "cowrie.login.failed": 1398,
+    "cowrie.login.failed": 1402,
     "cowrie.session.file_download": 1337,
-    "cowrie.direct-tcpip.request": 649,
+    "cowrie.direct-tcpip.request": 655,
     "cowrie.session.file_download.failed": 633,
     "cowrie.client.var": 20,
     "cowrie.session.file_upload": 18,
@@ -232,7 +232,7 @@
     },
     {
       "date": "2026-09-02",
-      "count": 8154
+      "count": 9020
     }
   ],
   "published": {
@@ -244,7 +244,7 @@
     "sessions_logged_in": 3082,
     "sessions_with_commands": 2393,
     "sessions_with_download": 646,
-    "share_of_sessions": 0.086
+    "share_of_sessions": 0.0859
   },
   "weighting": {
     "schema_version": "1.0",
