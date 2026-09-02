@@ -19,7 +19,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 100.54.143.192,2026-08-27T22:16:46.093842Z,2026-08-27T22:16:46.149447Z,1,0,0,0,low,single_sighting,false,true,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
 100.58.116.226,2026-08-24T22:18:22.997164Z,2026-08-26T22:15:25.895833Z,2,0,0,0,low,connected_only,false,true,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
 101.13.1.58,2026-08-27T13:17:33.061508Z,2026-09-01T20:03:00.557196Z,2,2,0,0,low,connected_only,false,true,,7,Taiwan,"Taiwan Mobile Co., Ltd.",taiwanmobile.com,false,100
-101.13.3.207,2026-08-26T07:31:01.830189Z,2026-08-26T07:31:10.763151Z,1,1,0,0,low,single_sighting,false,true,,7,Taiwan,"Taiwan Mobile Co., Ltd.",taiwanmobile.com,false,100
+101.13.3.207,2026-08-26T07:31:01.830189Z,2026-08-26T07:31:10.763151Z,1,1,0,0,low,single_sighting,false,false,,7,Taiwan,"Taiwan Mobile Co., Ltd.",taiwanmobile.com,false,100
 101.13.4.119,2026-08-31T05:44:03.846088Z,2026-08-31T05:44:13.005556Z,1,1,0,0,low,single_sighting,false,true,,7,Taiwan,"Taiwan Mobile Co., Ltd.",taiwanmobile.com,false,100
 101.13.4.128,2026-09-01T05:00:41.520239Z,2026-09-01T05:00:50.348410Z,1,1,0,0,low,single_sighting,false,true,,7,Taiwan,"Taiwan Mobile Co., Ltd.",taiwanmobile.com,false,100
 101.132.85.130,2026-09-01T14:20:56.639045Z,2026-09-01T14:21:22.397855Z,2,0,0,0,low,connected_only,false,true,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
@@ -104,7 +104,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 103.242.105.35,2026-08-22T03:57:55.390674Z,2026-08-22T03:58:19.086060Z,2,2,2,0,low,executed_commands,false,false,,7,Indonesia,PT Lintas Jaringan Nusantara,lintasjaringan.net,false,63
 103.244.172.201,2026-08-29T22:43:12.795299Z,2026-08-29T22:48:37.360781Z,25,0,0,0,medium,persistent,false,true,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,95
 103.25.243.18,2026-08-19T13:04:39.884475Z,2026-08-19T13:05:00.958836Z,3,0,0,0,low,connected_only,false,false,,7,Myanmar,"Global Technology Co., Ltd.",globalnetmm.com,false,0
-103.42.196.108,2026-08-26T07:53:04.986942Z,2026-08-26T07:53:13.541127Z,4,0,0,0,low,connected_only,false,true,,7,India,Kerala Vision Broad Band Private Limited,keralavisionisp.com,false,1
+103.42.196.108,2026-08-26T07:53:04.986942Z,2026-08-26T07:53:13.541127Z,4,0,0,0,low,connected_only,false,false,,7,India,Kerala Vision Broad Band Private Limited,keralavisionisp.com,false,1
 103.48.70.48,2026-08-19T04:42:20.853807Z,2026-08-19T04:42:20.855557Z,1,0,0,0,low,single_sighting,false,false,,7,India,Country Online Services PVT LTD,countryonline.co.in,false,22
 103.48.70.52,2026-08-19T04:43:58.387949Z,2026-08-19T04:43:58.388629Z,1,0,0,0,low,single_sighting,false,false,,7,India,Country Online Services PVT LTD,countryonline.co.in,false,54
 103.57.204.5,2026-09-01T04:23:35.624743Z,2026-09-01T04:24:18.699996Z,3,0,0,0,low,connected_only,false,true,,7,Myanmar,Myanmar Country Co Ltd,myanmarcountry.net,false,100
@@ -268,7 +268,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 116.99.49.208,2026-08-24T02:08:14.385870Z,2026-08-24T02:08:18.372902Z,1,1,0,0,low,single_sighting,false,false,,7,Vietnam,Viettel Group,viettel.com.vn,false,100
 117.10.132.180,2026-08-17T19:58:22.086454Z,2026-08-17T19:58:26.264586Z,1,1,16,0,low,executed_commands,false,false,f0ed612071c45603,7,China,China Unicom Tianjin province network,chinaunicom.cn,false,100
 117.102.89.188,2026-08-29T02:05:31.648207Z,2026-08-29T02:05:45.047270Z,1,1,4,0,medium,executed_commands,false,true,9754bb025d746115,7,Indonesia,BIZNET POSTPAID,biznetnetworks.com,false,0
-117.158.166.73,2026-08-26T07:43:33.833584Z,2026-08-26T07:43:42.216579Z,1,1,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
+117.158.166.73,2026-08-26T07:43:33.833584Z,2026-08-26T07:43:42.216579Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 117.177.235.249,2026-08-31T21:01:00.913568Z,2026-08-31T21:02:00.610209Z,1,0,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 117.182.249.190,2026-08-29T03:52:24.508381Z,2026-08-29T03:52:53.768993Z,1,1,10,0,medium,executed_commands,false,true,597732d320c38002,7,China,China Mobile Communications Corporation,chinamobile.com,false,5
 117.191.83.250,2026-08-26T11:52:33.256677Z,2026-08-26T11:52:34.419221Z,1,0,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
@@ -518,7 +518,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 149.107.213.141,2026-08-31T08:19:16.849841Z,2026-08-31T08:20:36.551816Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,ESTABLECIMIENTO CASCADA BLANCA S.A,batcom.com.ar,false,17
 149.107.244.59,2026-08-23T02:32:11.469509Z,2026-08-23T02:32:11.470523Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,fibrazul internet srl,fibrazul.com.ar,false,61
 149.107.244.87,2026-08-23T02:30:55.389051Z,2026-08-23T02:30:55.389848Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,fibrazul internet srl,fibrazul.com.ar,false,52
-149.107.251.10,2026-08-26T07:44:43.024837Z,2026-08-26T07:45:13.842139Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,fibrazul internet srl,fibrazul.com.ar,false,100
+149.107.251.10,2026-08-26T07:44:43.024837Z,2026-08-26T07:45:13.842139Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,fibrazul internet srl,fibrazul.com.ar,false,100
 149.107.253.152,2026-08-27T02:59:12.815058Z,2026-08-27T02:59:12.816189Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,fibrazul internet srl,fibrazul.com.ar,false,64
 149.107.253.153,2026-08-27T02:58:51.558499Z,2026-08-27T02:59:12.815645Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,fibrazul internet srl,fibrazul.com.ar,false,56
 149.19.166.172,2026-08-22T17:37:19.779463Z,2026-08-22T17:45:20.930358Z,2,0,0,0,low,connected_only,false,false,,7,Brazil,Starlink Brazil Serviços de Internet Ltd,starlink.com,false,23
@@ -926,7 +926,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 181.26.91.42,2026-08-20T11:01:57.035297Z,2026-08-20T11:02:13.321321Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,35
 181.27.74.26,2026-09-01T15:42:53.321571Z,2026-09-01T15:42:53.322399Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,5
 181.29.164.127,2026-08-19T06:48:54.867113Z,2026-08-19T06:49:09.552831Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Telecom Argentina S.A.,personal.com.ar,false,85
-181.29.222.210,2026-08-26T07:35:30.828895Z,2026-08-26T07:36:19.936367Z,3,0,0,0,low,connected_only,false,true,,7,Argentina,Telecom Argentina S.A.,personal.com.ar,false,42
+181.29.222.210,2026-08-26T07:35:30.828895Z,2026-08-26T07:36:19.936367Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Telecom Argentina S.A.,personal.com.ar,false,42
 181.39.125.150,2026-09-01T03:33:07.947472Z,2026-09-01T03:35:02.296139Z,4,0,0,0,low,connected_only,false,true,,7,Ecuador,Telconet S.A,telconet.net,false,89
 181.39.212.183,2026-08-20T23:15:52.343991Z,2026-08-24T21:47:38.811632Z,4,0,0,0,low,connected_only,false,false,,7,Ecuador,Telconet S.A,telconet.net,false,100
 181.42.18.236,2026-08-19T21:42:00.368366Z,2026-08-19T21:42:00.369334Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,ENTEL CHILE S.A.,entel.cl,false,30
@@ -1513,7 +1513,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 200.189.74.51,2026-08-23T12:49:17.438128Z,2026-08-23T12:50:15.613381Z,2,0,0,0,low,connected_only,false,false,,7,Brazil,ACESSE WIFI,,false,30
 200.195.108.187,2026-08-31T17:43:54.897032Z,2026-08-31T17:44:12.393490Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Brazil,V tal,vtal.com,false,64
 200.195.115.90,2026-08-25T04:02:50.782785Z,2026-08-25T04:02:55.650376Z,1,0,0,0,low,single_sighting,false,false,,7,Brazil,V tal,vtal.com,false,16
-200.223.25.122,2026-08-26T07:54:25.164759Z,2026-08-26T07:56:25.237879Z,1,0,0,0,low,single_sighting,false,true,,7,Brazil,V tal,vtal.com,false,100
+200.223.25.122,2026-08-26T07:54:25.164759Z,2026-08-26T07:56:25.237879Z,1,0,0,0,low,single_sighting,false,false,,7,Brazil,V tal,vtal.com,false,100
 200.232.114.71,2026-08-31T04:35:36.672019Z,2026-08-31T04:35:44.689275Z,1,1,0,0,low,single_sighting,false,true,,7,Brazil,TELEFÔNICA BRASIL S.A,telefonica.com.br,false,100
 200.255.205.162,2026-08-23T15:04:59.805874Z,2026-08-23T15:04:59.806545Z,1,0,0,0,low,single_sighting,false,false,,7,Brazil,PARCO PAPELARIA LTDA,parco.jp,false,100
 200.41.217.182,2026-08-26T11:21:05.147758Z,2026-08-26T11:21:08.130007Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,100
@@ -1810,7 +1810,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 223.123.72.53,2026-08-23T12:44:34.099569Z,2026-08-23T12:49:58.644992Z,25,0,0,0,medium,persistent,false,false,,7,Pakistan,CMPak Limited,zong.com.pk,false,37
 223.123.72.59,2026-08-22T17:35:18.389643Z,2026-08-22T17:36:22.975099Z,5,0,0,0,low,connected_only,false,false,,7,Pakistan,CMPak Limited,zong.com.pk,false,51
 223.123.73.196,2026-08-21T15:43:21.009698Z,2026-08-21T15:45:30.578715Z,10,0,0,0,medium,persistent,false,false,,7,Pakistan,CMPak Limited,zong.com.pk,false,81
-223.123.73.73,2026-08-26T07:33:16.457452Z,2026-08-26T07:38:40.990024Z,25,0,0,0,medium,persistent,false,true,,7,Pakistan,CMPak Limited,zong.com.pk,false,71
+223.123.73.73,2026-08-26T07:33:16.457452Z,2026-08-26T07:38:40.990024Z,25,0,0,0,medium,persistent,false,false,,7,Pakistan,CMPak Limited,zong.com.pk,false,71
 223.197.145.126,2026-09-01T07:42:39.061728Z,2026-09-01T07:42:48.495544Z,1,1,0,0,low,single_sighting,false,true,,7,Hong Kong,HKT Limited,hktchina.com,false,100
 223.197.145.33,2026-09-01T08:47:05.134490Z,2026-09-01T08:47:13.618423Z,1,1,0,0,low,single_sighting,false,true,,7,Hong Kong,HKT Limited,hktchina.com,false,100
 223.197.153.143,2026-09-01T15:39:25.314418Z,2026-09-01T15:39:34.087227Z,1,1,0,0,low,single_sighting,false,true,,7,Hong Kong,HKT Limited,hktchina.com,false,100
@@ -2036,7 +2036,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 42.191.213.231,2026-08-26T07:58:53.751912Z,2026-08-26T15:51:05.614503Z,2,2,4,0,medium,executed_commands,false,true,20228edcce195299,7,Malaysia,UNIFI-HOME-imse02.cbj_puj,tm.com.my,false,67
 42.237.28.7,2026-08-19T20:13:43.917030Z,2026-08-19T20:13:45.101043Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Unicom Henan province network,chinaunicom.cn,false,24
 42.237.51.84,2026-08-23T05:21:41.540948Z,2026-08-23T05:26:55.937632Z,24,0,0,0,medium,persistent,false,false,,7,China,China Unicom Henan province network,chinaunicom.cn,false,18
-42.85.51.157,2026-08-26T07:35:34.994119Z,2026-08-26T07:41:29.257320Z,32,0,0,0,medium,persistent,false,true,,7,China,UNICOM Liaoning Province Network,chinaunicom.cn,false,61
+42.85.51.157,2026-08-26T07:35:34.994119Z,2026-08-26T07:41:29.257320Z,32,0,0,0,medium,persistent,false,false,,7,China,UNICOM Liaoning Province Network,chinaunicom.cn,false,61
 43.110.38.5,2026-08-24T13:47:38.067265Z,2026-08-24T13:47:39.953852Z,1,1,0,0,low,single_sighting,false,false,,7,United States,Alibaba Cloud (Singapore) Private Limited,alibabacloud.com,false,100
 43.156.212.6,2026-08-20T10:22:43.952347Z,2026-08-20T10:22:44.193586Z,1,0,0,0,low,single_sighting,false,false,,7,Singapore,"Asia Pacific Network Information Center, Pty. Ltd.",apnic.net,false,100
 43.224.227.156,2026-09-01T07:04:10.316430Z,2026-09-01T07:04:14.649218Z,1,0,0,0,low,single_sighting,false,true,,7,Hong Kong,AROSSCLOUD INC.,arosscloud.com,false,100
@@ -2225,7 +2225,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 49.124.152.148,2026-09-01T16:51:06.880816Z,2026-09-01T16:51:15.995056Z,1,1,0,0,low,single_sighting,false,true,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.152.170,2026-08-31T20:07:39.774299Z,2026-08-31T20:07:48.426880Z,1,1,0,0,low,single_sighting,false,true,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.152.213,2026-08-26T01:10:05.425390Z,2026-08-26T01:10:05.725330Z,1,0,0,0,low,single_sighting,false,false,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
-49.124.152.225,2026-08-26T07:31:19.406879Z,2026-08-26T07:31:28.399006Z,1,1,0,0,low,single_sighting,false,true,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
+49.124.152.225,2026-08-26T07:31:19.406879Z,2026-08-26T07:31:28.399006Z,1,1,0,0,low,single_sighting,false,false,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.152.228,2026-08-26T08:25:46.242825Z,2026-08-26T08:25:55.853334Z,1,1,0,0,low,single_sighting,false,true,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.152.229,2026-08-27T02:44:56.022589Z,2026-08-27T02:45:04.749723Z,1,1,0,0,low,single_sighting,false,true,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.152.232,2026-08-31T04:56:32.956324Z,2026-08-31T04:56:33.238479Z,1,0,0,0,low,single_sighting,false,true,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
@@ -2556,7 +2556,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 80.94.92.234,2026-08-25T03:56:35.427989Z,2026-08-25T03:59:19.543710Z,2,1,1,0,low,executed_commands,false,false,9dc0f0fe6a402818,7,The Netherlands,TECHOFF SRV LIMITED,dmzhost.co,false,100
 80.94.92.55,2026-08-19T02:59:43.590385Z,2026-08-31T09:09:57.845428Z,12,9,9,0,medium,executed_commands,false,true,9dc0f0fe6a402818,7,The Netherlands,TECHOFF SRV LIMITED,dmzhost.co,false,100
 81.101.67.69,2026-08-28T19:53:11.330383Z,2026-08-28T19:54:10.269020Z,2,0,0,0,low,connected_only,false,true,,7,United Kingdom,Virgin Media Limited,virginmedia.com,false,45
-81.16.126.231,2026-08-26T07:40:30.335521Z,2026-08-26T07:40:38.669094Z,1,1,0,0,low,single_sighting,false,true,,7,Iran,Telecommunication Company of Tehran,tci.ir,false,100
+81.16.126.231,2026-08-26T07:40:30.335521Z,2026-08-26T07:40:38.669094Z,1,1,0,0,low,single_sighting,false,false,,7,Iran,Telecommunication Company of Tehran,tci.ir,false,100
 81.162.255.252,2026-08-29T16:10:18.772547Z,2026-08-29T16:10:18.774925Z,2,0,0,0,low,connected_only,false,true,,7,Ukraine,PP TRCCity TV center,l4.ua,false,88
 81.2.144.35,2026-08-20T23:52:47.590159Z,2026-08-20T23:52:56.935384Z,4,0,0,0,low,connected_only,false,false,,7,Israel,EXELERA TELECOM LTD,exelera.net,false,81
 81.209.169.77,2026-08-26T02:22:13.366566Z,2026-08-26T02:22:57.736432Z,1,0,0,0,low,single_sighting,false,false,,7,Germany,macroIS GmbH,macrois.com,false,93
