@@ -161,7 +161,7 @@
     "lon": 103.82,
     "country": "Singapore",
     "city": "Singapore",
-    "count": 5590,
+    "count": 5644,
     "abuse_score": 100,
     "abuse_reports": 916,
     "isp": "GoDaddy.com, LLC",
@@ -271,6 +271,22 @@
     "distinct_users": 67,
     "last_reported_at": "2026-08-19T03:31:09+00:00",
     "ai_agent_signal": "suspected"
+  },
+  {
+    "ip": "72.167.43.61",
+    "lat": 33.4292,
+    "lon": -111.941,
+    "country": "United States",
+    "city": "Tempe",
+    "count": 1577,
+    "abuse_score": 100,
+    "abuse_reports": 1081,
+    "isp": "GoDaddy.com, LLC",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "godaddy.com",
+    "is_tor": false,
+    "distinct_users": 177,
+    "last_reported_at": "2026-09-02T15:26:41+00:00"
   },
   {
     "ip": "190.113.172.90",
@@ -435,22 +451,6 @@
     "is_tor": false,
     "distinct_users": 24,
     "last_reported_at": "2026-08-25T23:30:27+00:00"
-  },
-  {
-    "ip": "72.167.43.61",
-    "lat": 33.4292,
-    "lon": -111.941,
-    "country": "United States",
-    "city": "Tempe",
-    "count": 649,
-    "abuse_score": 100,
-    "abuse_reports": 1081,
-    "isp": "GoDaddy.com, LLC",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "godaddy.com",
-    "is_tor": false,
-    "distinct_users": 177,
-    "last_reported_at": "2026-09-02T15:26:41+00:00"
   },
   {
     "ip": "91.92.47.55",
@@ -711,7 +711,7 @@
     "distinct_users": 16,
     "last_reported_at": "2026-08-22T22:29:25+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "201.239.197.192",
@@ -923,7 +923,7 @@
     "distinct_users": 147,
     "last_reported_at": "2026-08-25T07:33:39+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "61.53.153.56",
@@ -1056,7 +1056,7 @@
     "distinct_users": 160,
     "last_reported_at": "2026-08-18T05:41:55+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "112.227.202.1",
@@ -2344,7 +2344,7 @@
     "distinct_users": 38,
     "last_reported_at": "2026-09-01T22:46:24+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "201.140.220.172",
@@ -4789,7 +4789,7 @@
     "distinct_users": 42,
     "last_reported_at": "2026-08-22T22:29:29+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "18.116.101.220",
@@ -5173,6 +5173,24 @@
     "last_reported_at": "2026-08-24T05:53:10+00:00"
   },
   {
+    "ip": "124.88.174.143",
+    "lat": 43.8006,
+    "lon": 87.6012,
+    "country": "China",
+    "city": "\u00dcr\u00fcmqi",
+    "count": 28,
+    "abuse_score": 100,
+    "abuse_reports": 1478,
+    "isp": "China Unicom Xinjiang province network",
+    "usage_type": "Fixed Line ISP",
+    "domain": "chinaunicom.cn",
+    "is_tor": false,
+    "distinct_users": 266,
+    "last_reported_at": "2026-08-25T22:08:02+00:00",
+    "hassh": "acaa53e0a7d7ac7d1255103f37901306",
+    "hassh_shared_count": 567
+  },
+  {
     "ip": "195.178.110.217",
     "lat": 42.5063,
     "lon": 1.52184,
@@ -5289,24 +5307,6 @@
     "hassh_shared_count": 12
   },
   {
-    "ip": "124.88.174.143",
-    "lat": 43.8006,
-    "lon": 87.6012,
-    "country": "China",
-    "city": "\u00dcr\u00fcmqi",
-    "count": 24,
-    "abuse_score": 100,
-    "abuse_reports": 1478,
-    "isp": "China Unicom Xinjiang province network",
-    "usage_type": "Fixed Line ISP",
-    "domain": "chinaunicom.cn",
-    "is_tor": false,
-    "distinct_users": 266,
-    "last_reported_at": "2026-08-25T22:08:02+00:00",
-    "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 567
-  },
-  {
     "ip": "68.7.114.69",
     "lat": 33.0562,
     "lon": -117.2688,
@@ -5393,6 +5393,24 @@
     "is_tor": false,
     "distinct_users": 139,
     "last_reported_at": "2026-08-25T13:14:20+00:00",
+    "hassh": "acaa53e0a7d7ac7d1255103f37901306",
+    "hassh_shared_count": 567
+  },
+  {
+    "ip": "35.130.111.146",
+    "lat": 35.8687,
+    "lon": -83.482,
+    "country": "United States",
+    "city": "Sevierville",
+    "count": 24,
+    "abuse_score": 100,
+    "abuse_reports": 2117,
+    "isp": "Charter Communications LLC",
+    "usage_type": "Fixed Line ISP",
+    "domain": "charter.com",
+    "is_tor": false,
+    "distinct_users": 302,
+    "last_reported_at": "2026-08-26T11:24:07+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
     "hassh_shared_count": 567
   },
@@ -5618,7 +5636,7 @@
     "distinct_users": 286,
     "last_reported_at": "2026-08-18T19:21:09+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "112.253.138.49",
@@ -6015,24 +6033,6 @@
     "hassh_shared_count": 567
   },
   {
-    "ip": "35.130.111.146",
-    "lat": 35.8687,
-    "lon": -83.482,
-    "country": "United States",
-    "city": "Sevierville",
-    "count": 18,
-    "abuse_score": 100,
-    "abuse_reports": 2117,
-    "isp": "Charter Communications LLC",
-    "usage_type": "Fixed Line ISP",
-    "domain": "charter.com",
-    "is_tor": false,
-    "distinct_users": 302,
-    "last_reported_at": "2026-08-26T11:24:07+00:00",
-    "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 567
-  },
-  {
     "ip": "181.119.64.79",
     "lat": 3.64999,
     "lon": -76.5698,
@@ -6116,7 +6116,7 @@
     "distinct_users": 26,
     "last_reported_at": "2026-08-28T12:59:50+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "151.41.105.237",
@@ -8616,7 +8616,7 @@
     "distinct_users": 76,
     "last_reported_at": "2026-08-25T16:53:33+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "118.210.23.1",
@@ -9061,6 +9061,24 @@
     "is_tor": false,
     "distinct_users": 211,
     "last_reported_at": "2026-09-01T17:56:17+00:00",
+    "hassh": "acaa53e0a7d7ac7d1255103f37901306",
+    "hassh_shared_count": 567
+  },
+  {
+    "ip": "49.124.153.60",
+    "lat": 3.06863,
+    "lon": 101.57,
+    "country": "Malaysia",
+    "city": "Shah Alam",
+    "count": 12,
+    "abuse_score": 100,
+    "abuse_reports": 298,
+    "isp": "DiGi Telecommunications Sdn Bhd",
+    "usage_type": "Fixed Line ISP",
+    "domain": "digi.com.my",
+    "is_tor": false,
+    "distinct_users": 108,
+    "last_reported_at": "2026-08-26T00:00:45+00:00",
     "hassh": "acaa53e0a7d7ac7d1255103f37901306",
     "hassh_shared_count": 567
   },
@@ -12036,7 +12054,7 @@
     "distinct_users": 46,
     "last_reported_at": "2026-09-01T22:55:36+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "143.105.239.184",
@@ -17410,7 +17428,7 @@
     "distinct_users": 118,
     "last_reported_at": "2026-08-28T12:49:02+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "191.83.131.232",
@@ -18745,6 +18763,24 @@
     "hassh_shared_count": 9
   },
   {
+    "ip": "47.77.198.243",
+    "lat": 36.7783,
+    "lon": -119.418,
+    "country": "United States",
+    "city": "Minkler",
+    "count": 7,
+    "abuse_score": 100,
+    "abuse_reports": 566,
+    "isp": "Alibaba Cloud LLC",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "alibaba-inc.com",
+    "is_tor": false,
+    "distinct_users": 102,
+    "last_reported_at": "2026-09-02T05:38:42+00:00",
+    "hassh": "16443846184eafde36765c9bab2f4397",
+    "hassh_shared_count": 20
+  },
+  {
     "ip": "47.102.107.147",
     "lat": 31.2222,
     "lon": 121.4581,
@@ -18902,7 +18938,7 @@
     "distinct_users": 108,
     "last_reported_at": "2026-08-21T16:31:08+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "8.133.185.52",
@@ -18938,7 +18974,7 @@
     "distinct_users": 33,
     "last_reported_at": "2026-08-22T22:50:03+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "135.233.112.109",
@@ -19130,7 +19166,7 @@
     "distinct_users": 97,
     "last_reported_at": "2026-08-26T06:04:26+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "3.139.89.38",
@@ -21330,7 +21366,7 @@
     "distinct_users": 97,
     "last_reported_at": "2026-08-18T08:13:42+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "179.208.23.15",
@@ -22100,7 +22136,7 @@
     "distinct_users": 128,
     "last_reported_at": "2026-08-21T03:56:22+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "45.183.229.245",
@@ -22950,7 +22986,7 @@
     "distinct_users": 101,
     "last_reported_at": "2026-08-23T20:37:00+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "186.134.207.241",
@@ -23884,7 +23920,7 @@
     "distinct_users": 335,
     "last_reported_at": "2026-08-25T20:16:22+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "211.107.130.203",
@@ -24057,24 +24093,6 @@
     "is_tor": false,
     "distinct_users": 14,
     "last_reported_at": "2026-08-25T18:04:06+00:00"
-  },
-  {
-    "ip": "49.124.153.60",
-    "lat": 3.06863,
-    "lon": 101.57,
-    "country": "Malaysia",
-    "city": "Shah Alam",
-    "count": 6,
-    "abuse_score": 100,
-    "abuse_reports": 298,
-    "isp": "DiGi Telecommunications Sdn Bhd",
-    "usage_type": "Fixed Line ISP",
-    "domain": "digi.com.my",
-    "is_tor": false,
-    "distinct_users": 108,
-    "last_reported_at": "2026-08-26T00:00:45+00:00",
-    "hassh": "acaa53e0a7d7ac7d1255103f37901306",
-    "hassh_shared_count": 567
   },
   {
     "ip": "212.45.80.198",
@@ -25016,7 +25034,7 @@
     "distinct_users": 123,
     "last_reported_at": "2026-08-26T18:38:39+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "137.184.2.241",
@@ -26294,7 +26312,7 @@
     "distinct_users": 122,
     "last_reported_at": "2026-08-29T16:25:09+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
-    "hassh_shared_count": 19
+    "hassh_shared_count": 20
   },
   {
     "ip": "120.48.122.43",
@@ -32343,6 +32361,22 @@
     "is_tor": false,
     "distinct_users": 22,
     "last_reported_at": "2026-09-02T06:33:35+00:00"
+  },
+  {
+    "ip": "107.11.10.55",
+    "lat": 41.5133,
+    "lon": -83.7996,
+    "country": "United States",
+    "city": "Whitehouse",
+    "count": 4,
+    "abuse_score": 100,
+    "abuse_reports": 47,
+    "isp": "Charter Communications Inc",
+    "usage_type": "Fixed Line ISP",
+    "domain": "charter.com",
+    "is_tor": false,
+    "distinct_users": 31,
+    "last_reported_at": "2026-09-02T13:03:04+00:00"
   },
   {
     "ip": "195.20.6.224",
@@ -43517,6 +43551,54 @@
     "is_tor": false,
     "distinct_users": 5,
     "last_reported_at": "2026-09-02T01:54:35+00:00"
+  },
+  {
+    "ip": "78.79.201.226",
+    "lat": 59.3327,
+    "lon": 18.0656,
+    "country": "Sweden",
+    "city": "Stockholm",
+    "count": 2,
+    "abuse_score": 32,
+    "abuse_reports": 25,
+    "isp": "Telia Network Services",
+    "usage_type": "Fixed Line ISP",
+    "domain": "telia.net",
+    "is_tor": false,
+    "distinct_users": 17,
+    "last_reported_at": "2026-08-30T05:00:10+00:00"
+  },
+  {
+    "ip": "39.105.212.205",
+    "lat": 39.911,
+    "lon": 116.395,
+    "country": "China",
+    "city": "Beijing",
+    "count": 2,
+    "abuse_score": 100,
+    "abuse_reports": 801,
+    "isp": "Aliyun Computing Co., LTD",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "alibabacloud.com",
+    "is_tor": false,
+    "distinct_users": 176,
+    "last_reported_at": "2026-09-02T16:40:00+00:00"
+  },
+  {
+    "ip": "220.246.33.79",
+    "lat": 22.2836,
+    "lon": 114.16,
+    "country": "Hong Kong",
+    "city": "Central",
+    "count": 2,
+    "abuse_score": 100,
+    "abuse_reports": 508,
+    "isp": "Hong Kong Telecommunications (HKT) Limited Mass Internet",
+    "usage_type": "Fixed Line ISP",
+    "domain": "netvigator.com",
+    "is_tor": false,
+    "distinct_users": 142,
+    "last_reported_at": "2026-09-02T14:28:03+00:00"
   },
   {
     "ip": "147.185.132.123",
