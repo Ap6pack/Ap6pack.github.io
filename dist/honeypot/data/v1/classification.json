@@ -50,11 +50,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 80000,
+        "total": 80033,
         "top_label": "T1027",
-        "top_value": 75339,
-        "top_share": 0.9417,
-        "top_sources": 161,
+        "top_value": 75347,
+        "top_share": 0.9414,
+        "top_sources": 162,
         "sources_total": 3153
       }
     ]
@@ -1481,31 +1481,31 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 75339,
-      "distinct_ips": 161,
+      "count": 75347,
+      "distinct_ips": 162,
       "recon_count": 73624,
       "recon_ips": 5,
-      "residual_count": 1715,
+      "residual_count": 1723,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 2868,
-      "distinct_ips": 171,
+      "count": 2883,
+      "distinct_ips": 172,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 2868,
+      "residual_count": 2883,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 1533,
-      "distinct_ips": 154,
+      "count": 1536,
+      "distinct_ips": 155,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 1533,
+      "residual_count": 1536,
       "attribution": "none"
     },
     {
@@ -1521,21 +1521,21 @@
     {
       "id": "T1489",
       "name": "Service Stop",
-      "count": 76,
-      "distinct_ips": 8,
+      "count": 82,
+      "distinct_ips": 9,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 76,
+      "residual_count": 82,
       "attribution": "none"
     },
     {
       "id": "T1686",
       "name": "Disable or Modify System Firewall",
-      "count": 17,
-      "distinct_ips": 16,
+      "count": 18,
+      "distinct_ips": 17,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 17,
+      "residual_count": 18,
       "attribution": "none"
     },
     {

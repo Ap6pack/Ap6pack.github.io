@@ -678,7 +678,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 159.89.173.223,2026-08-29T10:13:31.665510Z,2026-08-29T10:13:31.886493Z,1,0,0,0,low,single_sighting,false,true,,7,India,"DigitalOcean, LLC",digitalocean.com,false,100
 16.147.195.99,2026-09-01T02:00:03.529670Z,2026-09-01T02:00:07.952887Z,8,0,0,0,medium,persistent,false,true,,7,United States,"Amazon.com, Inc.",amazon.com,false,100
 160.119.76.18,2026-08-19T03:02:05.588087Z,2026-08-19T03:59:47.700309Z,3,0,0,0,low,connected_only,false,false,,7,The Netherlands,HostUS Solutions LLC,hostus.us,false,100
-160.119.76.27,2026-08-26T23:06:32.217053Z,2026-08-26T23:06:32.307050Z,1,0,0,0,low,single_sighting,false,true,,7,The Netherlands,HostUS Solutions LLC,hostus.us,false,100
+160.119.76.27,2026-08-26T23:06:32.217053Z,2026-08-26T23:06:32.307050Z,1,0,0,0,low,single_sighting,false,false,,7,The Netherlands,HostUS Solutions LLC,hostus.us,false,100
 160.120.117.244,2026-08-24T21:09:24.297440Z,2026-08-24T21:09:24.298238Z,1,0,0,0,low,single_sighting,false,false,,7,Ivory Coast,ORANGE COTE D'IVOIRE,orange.ci,false,53
 160.120.138.46,2026-08-29T10:23:15.585167Z,2026-08-29T10:23:37.803100Z,3,0,0,0,low,connected_only,false,true,,7,Ivory Coast,ORANGE COTE D'IVOIRE,orange.ci,false,100
 160.120.228.178,2026-08-18T14:42:10.199583Z,2026-08-18T14:43:48.574476Z,2,0,0,0,low,connected_only,false,false,,7,Ivory Coast,ORANGE COTE D'IVOIRE,orange.ci,false,41
@@ -898,7 +898,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 178.178.222.53,2026-08-31T15:59:49.624257Z,2026-08-31T15:59:56.512213Z,1,1,0,0,low,single_sighting,false,true,,7,Russia,PJSC MegaFon,megafon.ru,false,100
 178.178.222.57,2026-08-31T15:59:57.191312Z,2026-08-31T16:00:05.351585Z,1,1,0,0,low,single_sighting,false,true,,7,Russia,PJSC MegaFon,megafon.ru,false,100
 178.178.222.59,2026-08-31T23:10:18.679426Z,2026-09-02T22:10:56.736719Z,4,4,0,0,low,connected_only,false,true,,7,Russia,PJSC MegaFon,megafon.ru,false,100
-178.186.251.232,2026-08-26T23:23:27.364963Z,2026-08-26T23:23:46.373225Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,OJSC Sibirtelecom,sibirtelecom.ru,false,26
+178.186.251.232,2026-08-26T23:23:27.364963Z,2026-08-26T23:23:46.373225Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,OJSC Sibirtelecom,sibirtelecom.ru,false,26
 178.186.29.194,2026-08-27T20:35:49.273906Z,2026-08-27T20:37:51.404140Z,2,0,0,0,low,connected_only,false,true,,7,Russia,OJSC Sibirtelecom,sibirtelecom.ru,false,16
 178.205.235.106,2026-08-26T08:54:49.008358Z,2026-08-26T08:54:49.702025Z,1,1,1,0,low,executed_commands,true,false,e97166b54500da3a,7,Russia,Kazan Broad-band access pools,tattelecom.ru,false,32
 178.215.158.249,2026-08-24T16:30:10.278575Z,2026-08-24T16:30:30.594509Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,VOLNA-SERVIS LLC,yarvolna.net,false,100
@@ -1153,7 +1153,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 185.188.239.36,2026-08-31T13:43:12.555329Z,2026-08-31T13:43:29.400627Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Slovakia,Tornalanet s.r.o.,regiotel.sk,false,100
 185.212.251.8,2026-09-02T19:32:27.370444Z,2026-09-02T19:32:48.418928Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Range for ISP Meganet,1-ix.eu,false,60
 185.223.235.3,2026-08-24T00:20:59.670107Z,2026-08-24T00:21:09.844706Z,1,0,0,0,low,single_sighting,false,false,,7,The Netherlands,Infrawatch Limited,infrawat.ch,false,100
-185.226.196.13,2026-08-26T23:18:18.704788Z,2026-08-26T23:18:26.705329Z,1,0,0,0,low,single_sighting,false,true,,7,United States,ICG-3-ZEN-LAX,nsec.pt,false,100
+185.226.196.13,2026-08-26T23:18:18.704788Z,2026-08-26T23:18:26.705329Z,1,0,0,0,low,single_sighting,false,false,,7,United States,ICG-3-ZEN-LAX,nsec.pt,false,100
 185.229.123.210,2026-08-23T12:15:20.526709Z,2026-08-23T12:15:37.647914Z,1,1,3,0,low,executed_commands,false,false,04946faa9e9e44cd,7,Russia,Gigabit LLC,ru-gigabit.net,false,95
 185.238.207.175,2026-08-21T13:00:27.917464Z,2026-08-21T13:00:29.921054Z,1,1,5,0,low,executed_commands,false,false,e1b6265ef842ac4f,7,Poland,Kampinos telco,kampinostelco.pl,false,30
 185.239.117.200,2026-08-24T22:40:04.057270Z,2026-08-24T22:42:09.113203Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,Davydov Vladimir Dmitrievich,crelcom.ru,false,54
@@ -1407,7 +1407,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 190.44.59.56,2026-09-02T15:06:33.233898Z,2026-09-02T15:06:52.328849Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Chile,VTR BANDA ANCHA S.A.,vtr.com,false,98
 190.48.78.175,2026-08-22T12:48:58.825367Z,2026-08-22T12:49:47.767794Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,34
 190.5.32.174,2026-08-20T01:08:22.653016Z,2026-08-20T01:08:22.653647Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,Pacifico Cable SPA.,mundopacifico.cl,false,69
-190.5.34.83,2026-08-26T23:28:37.339069Z,2026-08-26T23:28:37.339805Z,1,0,0,0,low,single_sighting,false,true,,7,Chile,Pacifico Cable SPA.,mundopacifico.cl,false,16
+190.5.34.83,2026-08-26T23:28:37.339069Z,2026-08-26T23:28:37.339805Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,Pacifico Cable SPA.,mundopacifico.cl,false,16
 190.55.123.181,2026-09-02T17:21:37.698673Z,2026-09-02T17:21:37.707178Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,Telecentro S.A. - Clientes Residenciales,telecentro.com.ar,false,85
 190.55.30.180,2026-08-21T09:02:57.638905Z,2026-08-21T09:03:37.229270Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telecentro S.A. - Clientes Residenciales,telecentro.com.ar,false,13
 190.57.244.68,2026-08-19T04:54:55.060291Z,2026-08-19T04:54:55.062063Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Gigared S.A.,gigared.com.ar,false,35
@@ -2055,7 +2055,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 3.129.187.38,2026-08-18T08:06:51.182510Z,2026-09-02T11:35:54.490345Z,17,0,0,0,medium,persistent,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 3.130.168.2,2026-08-18T16:24:51.245367Z,2026-09-02T02:23:27.810649Z,14,0,0,0,medium,persistent,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 3.131.220.121,2026-08-29T00:27:33.610202Z,2026-08-29T13:47:03.027917Z,4,0,0,0,low,connected_only,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
-3.139.89.38,2026-08-26T23:23:02.602300Z,2026-08-26T23:23:43.694090Z,2,0,0,0,low,connected_only,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,29
+3.139.89.38,2026-08-26T23:23:02.602300Z,2026-08-26T23:23:43.694090Z,2,0,0,0,low,connected_only,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,29
 3.83.162.99,2026-08-17T22:21:48.479308Z,2026-08-17T22:21:48.487839Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
 31.128.172.225,2026-09-01T06:50:58.782634Z,2026-09-01T06:51:16.351322Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Therecom Ltd,therecom.net,false,100
 31.128.191.107,2026-08-25T06:06:03.289431Z,2026-08-25T06:06:21.401719Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,PE UAinet,uainet.net,false,47
