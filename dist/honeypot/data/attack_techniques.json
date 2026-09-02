@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "techniques": [
     {
       "id": "T1027",
@@ -8,8 +7,8 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 75266,
-      "distinct_ips": 152,
+      "count": 75268,
+      "distinct_ips": 153,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
         "echo -e \"\\x6F\\x6B\"",
@@ -180,6 +179,6 @@
       ]
     }
   ],
-  "total_commands": 187556,
-  "matched_commands": 78453
+  "total_commands": 188198,
+  "matched_commands": 78455
 }
