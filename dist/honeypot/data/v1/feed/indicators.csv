@@ -325,7 +325,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 119.205.51.3,2026-09-02T02:57:10.285468Z,2026-09-02T02:57:19.344579Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 119.237.243.163,2026-08-31T22:02:48.831460Z,2026-08-31T22:02:58.312212Z,1,1,0,0,low,single_sighting,false,true,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
 119.99.210.154,2026-09-01T23:40:15.507122Z,2026-09-01T23:41:41.428429Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,China,CHINANET Hubei province network,chinatelecom.cn,false,0
-119.99.215.145,2026-08-26T10:30:13.396591Z,2026-08-26T10:30:18.277684Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,China,CHINANET Hubei province network,chinatelecom.cn,false,100
+119.99.215.145,2026-08-26T10:30:13.396591Z,2026-08-26T10:30:18.277684Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,China,CHINANET Hubei province network,chinatelecom.cn,false,100
 12.150.243.22,2026-09-01T06:25:32.260814Z,2026-09-01T06:25:38.820302Z,1,1,0,0,low,single_sighting,false,true,,7,United States,"AT&T Enterprises, LLC",att.com,false,100
 120.11.80.126,2026-08-19T20:42:46.971363Z,2026-08-19T20:42:48.302593Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Unicom Heibei Province Network,chinaunicom.cn,false,25
 120.157.129.161,2026-08-26T08:00:58.892637Z,2026-08-26T08:01:02.881414Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Australia,Telstra Limited,telstra.net,false,5
@@ -1306,7 +1306,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 190.131.206.158,2026-08-31T22:02:58.780456Z,2026-08-31T22:03:06.071159Z,1,1,0,0,low,single_sighting,false,true,,7,Colombia,PLATINO ENERGY BARBADOS COR SUCURSAL COLOMBIA,cwc.com,false,100
 190.137.243.199,2026-08-18T19:05:14.009748Z,2026-08-18T19:05:14.038035Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Apolo -Gold-Telecom-Per,telecom.net.ar,false,0
 190.139.42.165,2026-08-25T04:34:19.255857Z,2026-08-25T04:34:19.256670Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,Apolo -Gold-Telecom-Per,telecom.net.ar,false,13
-190.154.189.199,2026-08-26T10:30:11.309550Z,2026-08-26T10:30:29.995536Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ecuador,Xtrim EC,xtrim.com.ec,false,100
+190.154.189.199,2026-08-26T10:30:11.309550Z,2026-08-26T10:30:29.995536Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ecuador,Xtrim EC,xtrim.com.ec,false,100
 190.160.149.161,2026-08-17T16:54:33.956250Z,2026-08-17T17:02:40.070717Z,2,0,0,0,low,connected_only,false,false,,7,Chile,VTR BANDA ANCHA S.A.,vtr.com,false,100
 190.162.14.68,2026-08-22T07:31:11.749265Z,2026-08-22T07:31:29.263700Z,1,1,2,0,low,executed_commands,false,false,,7,Chile,VTR BANDA ANCHA S.A.,vtr.com,false,100
 190.162.77.21,2026-08-22T20:35:15.741922Z,2026-08-22T20:35:32.638867Z,1,1,2,0,low,executed_commands,false,false,,7,Chile,VTR BANDA ANCHA S.A.,vtr.com,false,31
@@ -1484,7 +1484,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 197.240.37.156,2026-08-19T16:02:01.940139Z,2026-08-19T16:05:20.078665Z,2,0,0,0,low,connected_only,false,false,,7,Tunisia,TOPNET,topnet.tn,false,5
 197.245.83.147,2026-08-22T08:00:28.092962Z,2026-08-22T08:00:44.335857Z,2,0,0,0,low,connected_only,false,false,,7,South Africa,Vox Telecom,vox.co.za,false,50
 197.3.131.213,2026-08-31T16:32:15.284529Z,2026-08-31T16:35:25.878449Z,2,0,0,0,low,connected_only,false,true,,7,Tunisia,ATI - Agence Tunisienne Internet,ati.tn,false,0
-197.45.94.242,2026-08-26T10:52:48.002429Z,2026-08-26T10:52:51.074164Z,1,1,5,0,medium,executed_commands,false,true,f7303c94cf52f8d5,7,Egypt,TE Data,tedata.net,false,16
+197.45.94.242,2026-08-26T10:52:48.002429Z,2026-08-26T10:52:51.074164Z,1,1,5,0,low,executed_commands,false,false,f7303c94cf52f8d5,7,Egypt,TE Data,tedata.net,false,16
 197.95.73.34,2026-08-31T23:04:16.165208Z,2026-08-31T23:07:08.170669Z,2,0,0,0,low,connected_only,false,true,,7,South Africa,Dimensiondata Broadband Delegated to WebAfrica,global.ntt,false,85
 198.163.192.224,2026-08-26T19:21:49.518256Z,2026-08-26T19:21:49.758858Z,1,0,0,0,low,single_sighting,false,true,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,10
 198.163.192.232,2026-08-23T00:39:39.983178Z,2026-08-23T00:39:39.984004Z,1,0,0,0,low,single_sighting,false,false,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,71
@@ -1844,7 +1844,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 218.203.179.228,2026-09-02T03:06:45.355099Z,2026-09-02T03:06:46.433315Z,1,0,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation - gansu,chinamobile.com,false,100
 218.21.0.230,2026-08-21T00:19:44.452114Z,2026-08-21T00:47:19.275462Z,112,90,89,0,medium,persistent,false,false,,7,China,CHINANET NINGXIA PROVINCE NETWORK,yc.nx.cn,false,100
 218.21.182.228,2026-08-18T10:45:44.201818Z,2026-09-01T08:46:24.930087Z,3,3,15,0,medium,executed_commands,false,true,d1f4ada12ead12a1,7,China,China Unicom Neimeng province network,chinaunicom.cn,false,100
-218.23.95.14,2026-08-26T02:03:55.365702Z,2026-08-26T10:59:30.042095Z,2,2,0,0,low,connected_only,false,true,,7,China,CHINANET Anhui province network,chinatelecom.cn,false,100
+218.23.95.14,2026-08-26T02:03:55.365702Z,2026-08-26T10:59:30.042095Z,2,2,0,0,low,connected_only,false,false,,7,China,CHINANET Anhui province network,chinatelecom.cn,false,100
 218.26.205.154,2026-08-31T08:30:49.759518Z,2026-08-31T08:30:59.311136Z,1,1,0,0,low,single_sighting,false,true,,7,China,Jinzhong ZQ-WANGBA netbar,ty.sx.cn,false,100
 218.29.196.162,2026-09-01T16:18:44.729944Z,2026-09-01T22:19:52.669272Z,2,2,0,0,low,connected_only,false,true,,7,China,China Unicom Henan province network,chinaunicom.cn,false,100
 218.4.156.254,2026-08-31T06:04:53.747906Z,2026-08-31T06:05:05.913416Z,1,1,0,0,low,single_sighting,false,true,,7,China,CHINANET jiangsu province network,chinatelecom.cn,false,100
