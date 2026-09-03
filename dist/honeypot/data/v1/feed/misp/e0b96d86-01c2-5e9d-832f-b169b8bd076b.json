@@ -1,7 +1,7 @@
 {
   "Event": {
     "uuid": "e0b96d86-01c2-5e9d-832f-b169b8bd076b",
-    "info": "Sundew honeypot - campaign 32a045e58e6d (1 sources) - system",
+    "info": "Sundew honeypot - campaign 32a045e58e6d (2 sources) - system",
     "date": "2026-09-03",
     "analysis": "2",
     "threat_level_id": "3",
@@ -28,8 +28,17 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "72.167.43.61",
-        "timestamp": "1788433212",
+        "timestamp": "1788478212",
         "comment": "executed_commands, confidence medium; 1917 sessions, 9311 commands, 0 downloads; first_seen 2026-09-02T15:21:46.220206Z, last_seen 2026-09-02T23:10:51.973358Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "9e46c99f-e44d-556c-adc3-a24af2ff5512",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "72.47.208.106",
+        "timestamp": "1788478212",
+        "comment": "executed_commands, confidence medium; 3807 sessions, 18447 commands, 0 downloads; first_seen 2026-08-29T12:58:31.405195Z, last_seen 2026-09-03T02:48:54.121558Z; expires 7d after last_seen"
       },
       {
         "uuid": "a5e6bdad-4fe8-53ba-a52f-a195e5fc41c8",
@@ -37,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1788433212",
+        "timestamp": "1788478212",
         "comment": "command run by this campaign"
       },
       {
@@ -46,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1788433212",
+        "timestamp": "1788478212",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1788433212",
+        "timestamp": "1788478212",
         "comment": "command run by this campaign"
       }
     ]
