@@ -1,7 +1,7 @@
 {
   "Event": {
-    "uuid": "e0b96d86-01c2-5e9d-832f-b169b8bd076b",
-    "info": "Sundew honeypot - campaign 32a045e58e6d (1 sources) - system",
+    "uuid": "8e81f054-d9aa-5a14-ad1f-f887d2899b35",
+    "info": "Sundew honeypot - campaign 27cea39a9aed (1 sources) - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleW",
     "date": "2026-09-03",
     "analysis": "2",
     "threat_level_id": "3",
@@ -23,38 +23,38 @@
     ],
     "Attribute": [
       {
-        "uuid": "273b04c0-d913-5799-99dd-f308a7cedde6",
+        "uuid": "757fd387-0507-5b55-affd-5cf75e5d90e8",
         "type": "ip-src",
         "category": "Network activity",
         "to_ids": false,
-        "value": "72.167.43.61",
+        "value": "74.82.47.5",
         "timestamp": "1788433212",
-        "comment": "executed_commands, confidence medium; 1917 sessions, 9311 commands, 0 downloads; first_seen 2026-09-02T15:21:46.220206Z, last_seen 2026-09-02T23:10:51.973358Z; expires 7d after last_seen"
+        "comment": "executed_commands, confidence medium; 1 sessions, 3 commands, 0 downloads; first_seen 2026-09-03T02:36:52.573115Z, last_seen 2026-09-03T02:36:53.249266Z; expires 7d after last_seen"
       },
       {
-        "uuid": "a5e6bdad-4fe8-53ba-a52f-a195e5fc41c8",
+        "uuid": "544e120b-ed31-58e6-af58-d0c560b37c4b",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "system",
-        "timestamp": "1788433212",
-        "comment": "command run by this campaign"
-      },
-      {
-        "uuid": "c886b9d3-2c26-53f8-842d-cecd4fa28df9",
-        "type": "text",
-        "category": "Artifacts dropped",
-        "to_ids": false,
-        "value": "shell",
+        "value": "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36",
         "timestamp": "1788433212",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "912bfc92-59a6-508a-aae6-6030d638537c",
+        "uuid": "d9a32b60-7459-5924-9cf7-d47253ed0abc",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "sh",
+        "value": "Accept: */*",
+        "timestamp": "1788433212",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "3122e447-c52f-54be-9081-b19c031fd1cd",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "Accept-Encoding: gzip",
         "timestamp": "1788433212",
         "comment": "command run by this campaign"
       }
