@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.0",
   "generated_at": "2026-09-03T20:00:13.333888+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
   "last_event": "2026-09-03T19:59:54.648548Z",
@@ -8,129 +9,129 @@
   "login_attempts": 102592,
   "login_success": 100815,
   "commands_run": 216548,
-  "files_captured": 13,
+  "files_captured": 20,
   "top_usernames": [
     [
       "root",
-      92350
+      1806
     ],
     [
       "admin",
-      5441
+      737
     ],
     [
       "enable\\x00",
-      1675
+      407
     ],
     [
       "support",
-      1030
-    ],
-    [
-      "user",
-      621
-    ],
-    [
-      "guest",
-      423
-    ],
-    [
-      "ubnt",
-      208
+      104
     ],
     [
       "default",
-      96
+      85
     ],
     [
-      "supervisor",
-      59
+      "user",
+      71
     ],
     [
-      "test",
+      "guest",
       58
     ],
     [
-      "operator",
-      31
+      "supervisor",
+      57
+    ],
+    [
+      "test",
+      57
+    ],
+    [
+      "ubnt",
+      35
     ],
     [
       "debian",
-      30
+      29
     ],
     [
-      "nobody",
-      26
+      "operator",
+      28
     ],
     [
       "unknown",
-      26
+      23
     ],
     [
-      "telnetadmin",
-      23
+      "nobody",
+      21
+    ],
+    [
+      "",
+      20
     ]
   ],
   "top_passwords": [
     [
       "admin",
-      3194
-    ],
-    [
-      "xc3511",
-      1952
-    ],
-    [
-      "vizxv",
-      1712
+      507
     ],
     [
       "linuxshell\\x00",
-      1674
-    ],
-    [
-      "",
-      1367
+      406
     ],
     [
       "123456",
-      1223
+      294
     ],
     [
-      "888888",
-      1174
+      "root",
+      244
+    ],
+    [
+      "",
+      82
+    ],
+    [
+      "vizxv",
+      64
+    ],
+    [
+      "xc3511",
+      55
     ],
     [
       "password",
-      1173
-    ],
-    [
-      "12345",
-      982
+      50
     ],
     [
       "support",
-      971
+      46
     ],
     [
-      "xmhdipc",
-      970
+      "12345",
+      44
     ],
     [
-      "juantech",
-      947
-    ],
-    [
-      "1111",
-      935
-    ],
-    [
-      "54321",
-      917
+      "1234",
+      41
     ],
     [
       "default",
-      916
+      36
+    ],
+    [
+      "juantech",
+      33
+    ],
+    [
+      "1111",
+      30
+    ],
+    [
+      "xmhdipc",
+      26
     ]
   ],
   "event_breakdown": {
@@ -237,5 +238,70 @@
       "date": "2026-09-03",
       "count": 20710
     }
-  ]
+  ],
+  "published": {
+    "sessions": 9680,
+    "source_ips": 3302,
+    "login_attempts": 3969,
+    "login_success": 3462,
+    "commands_run": 21711,
+    "sessions_logged_in": 3462,
+    "sessions_with_commands": 2459,
+    "sessions_with_download": 638,
+    "share_of_sessions": 0.0903
+  },
+  "weighting": {
+    "schema_version": "1.0",
+    "rule": {
+      "max_commands_per_session": 1,
+      "max_avg_duration_ms": 5000,
+      "max_downloads": 0
+    },
+    "clustered_sessions": 99316,
+    "ips": {
+      "observed": 3302,
+      "attempted_login": 1547,
+      "ran_command": 832,
+      "delivered_payload": 211,
+      "published": {
+        "observed": 3302,
+        "attempted_login": 1365,
+        "ran_command": 644,
+        "delivered_payload": 164
+      }
+    },
+    "recon": {
+      "clusters": 9,
+      "sessions": 73757,
+      "ip_count_sum": 21,
+      "share_of_clustered_sessions": 0.7426
+    },
+    "attack": {
+      "clusters": 112,
+      "sessions": 25559,
+      "ip_count_sum": 884
+    },
+    "dominance": [
+      {
+        "metric": "sessions",
+        "label": "sessions in a behaviour cluster",
+        "total": 99316,
+        "top_label": "eafdc691c2945a06",
+        "top_value": 73624,
+        "top_share": 0.7413,
+        "top_sources": 5,
+        "sources_total": 3302
+      },
+      {
+        "metric": "attack_techniques",
+        "label": "commands tagged with an ATT&CK technique",
+        "total": 80500,
+        "top_label": "T1027",
+        "top_value": 75430,
+        "top_share": 0.937,
+        "top_sources": 172,
+        "sources_total": 3302
+      }
+    ]
+  }
 }
