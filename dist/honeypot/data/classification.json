@@ -50,11 +50,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 80431,
+        "total": 80443,
         "top_label": "T1027",
-        "top_value": 75403,
+        "top_value": 75414,
         "top_share": 0.9375,
-        "top_sources": 169,
+        "top_sources": 170,
         "sources_total": 3302
       }
     ]
@@ -1517,11 +1517,11 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 75403,
-      "distinct_ips": 169,
+      "count": 75414,
+      "distinct_ips": 170,
       "recon_count": 73624,
       "recon_ips": 5,
-      "residual_count": 1779,
+      "residual_count": 1790,
       "attribution": "certain"
     },
     {
@@ -1567,11 +1567,11 @@
     {
       "id": "T1686",
       "name": "Disable or Modify System Firewall",
-      "count": 18,
-      "distinct_ips": 17,
+      "count": 19,
+      "distinct_ips": 18,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 18,
+      "residual_count": 19,
       "attribution": "none"
     },
     {
