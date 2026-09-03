@@ -1,5 +1,5 @@
 ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reason,recon_only,active_within_ttl,campaign,ttl_days,country,asn_org,domain,is_tor,abuse_score
-1.1.242.233,2026-08-27T17:20:27.973380Z,2026-08-27T17:22:14.569171Z,3,0,0,0,low,connected_only,false,true,,7,Thailand,TOT Public Company Limited,totidc.net,false,24
+1.1.242.233,2026-08-27T17:20:27.973380Z,2026-08-27T17:22:14.569171Z,3,0,0,0,low,connected_only,false,false,,7,Thailand,TOT Public Company Limited,totidc.net,false,24
 1.10.204.39,2026-08-27T18:23:54.960085Z,2026-08-27T18:25:03.972203Z,2,0,0,0,low,connected_only,false,true,,7,Thailand,Dynamic IP for ADSL Broadband Service,totidc.net,false,0
 1.163.252.228,2026-08-21T19:22:39.717928Z,2026-08-21T19:22:50.193395Z,1,1,48,12,low,delivered_payload,false,false,907e8e635e2b24a2,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,23
 1.165.142.62,2026-08-23T07:53:06.177442Z,2026-08-23T07:53:51.413530Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,100
@@ -3159,7 +3159,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 91.231.89.123,2026-08-31T09:05:29.015682Z,2026-08-31T09:05:39.430889Z,1,0,0,0,low,single_sighting,false,true,,7,France,FR ONYPHE,onyphe.io,false,0
 91.231.89.17,2026-08-23T14:48:12.595417Z,2026-08-23T14:48:17.841190Z,2,0,0,0,low,connected_only,false,false,,7,France,FR ONYPHE,onyphe.io,false,0
 91.231.89.34,2026-08-31T09:05:27.439696Z,2026-08-31T09:05:28.935488Z,1,0,0,0,low,single_sighting,false,true,,7,France,FR ONYPHE,onyphe.io,false,0
-91.232.238.15,2026-08-27T17:02:04.836559Z,2026-08-27T17:02:46.347890Z,3,0,0,0,low,connected_only,false,true,,7,Ukraine,Kukushkin Anatoly Valerievich,megaprostir.net,false,100
+91.232.238.15,2026-08-27T17:02:04.836559Z,2026-08-27T17:02:46.347890Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,Kukushkin Anatoly Valerievich,megaprostir.net,false,100
 91.233.172.241,2026-09-01T00:46:20.281969Z,2026-09-01T00:46:37.300724Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Moldova,NEAPOL GROUP LLC,net.ru,false,58
 91.233.172.252,2026-08-31T04:19:05.680933Z,2026-08-31T04:19:54.562886Z,2,0,0,0,low,connected_only,false,true,,7,Moldova,NEAPOL GROUP LLC,net.ru,false,68
 91.234.26.135,2026-08-17T22:34:06.194893Z,2026-08-17T22:34:21.762814Z,1,1,0,0,low,single_sighting,false,false,,7,Ukraine,FOP Kondratyuk Evgeniy Vladimirovich,isp.net.ua,false,100
