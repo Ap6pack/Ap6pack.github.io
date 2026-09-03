@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 80413,
+        "total": 80431,
         "top_label": "T1027",
         "top_value": 75403,
-        "top_share": 0.9377,
+        "top_share": 0.9375,
         "top_sources": 169,
         "sources_total": 3302
       }
@@ -1527,21 +1527,21 @@
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 3104,
+      "count": 3119,
       "distinct_ips": 182,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 3104,
+      "residual_count": 3119,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 1639,
+      "count": 1642,
       "distinct_ips": 166,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 1639,
+      "residual_count": 1642,
       "attribution": "none"
     },
     {
