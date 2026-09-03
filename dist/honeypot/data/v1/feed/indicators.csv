@@ -233,7 +233,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 112.164.211.228,2026-09-02T07:14:03.362129Z,2026-09-02T07:14:13.567246Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 112.184.13.136,2026-09-01T22:44:27.538776Z,2026-09-01T22:44:37.264666Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 112.184.25.18,2026-09-01T19:48:38.056746Z,2026-09-01T19:48:47.554021Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Jeonnambonbujang,kt.com,false,100
-112.209.74.36,2026-08-27T09:39:57.861742Z,2026-08-27T09:39:57.862541Z,1,0,0,0,low,single_sighting,false,true,,7,Philippines,HOME_DSL,pldthome.com,false,24
+112.209.74.36,2026-08-27T09:39:57.861742Z,2026-08-27T09:39:57.862541Z,1,0,0,0,low,single_sighting,false,false,,7,Philippines,HOME_DSL,pldthome.com,false,24
 112.227.202.1,2026-08-18T11:54:34.799035Z,2026-08-18T11:55:14.472511Z,2,2,48,12,low,delivered_payload,false,false,a91b984be947ad33,7,China,China Unicom Shandong province network,chinaunicom.cn,false,91
 112.25.140.211,2026-09-02T08:39:32.019667Z,2026-09-02T08:39:41.052229Z,1,1,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 112.253.138.49,2026-08-21T19:33:41.765047Z,2026-08-21T19:33:58.354855Z,2,2,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,China,China Unicom Shandong province network,chinaunicom.cn,false,45
@@ -1573,7 +1573,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 197.95.73.34,2026-08-31T23:04:16.165208Z,2026-08-31T23:07:08.170669Z,2,0,0,0,low,connected_only,false,true,,7,South Africa,Dimensiondata Broadband Delegated to WebAfrica,global.ntt,false,85
 198.163.192.224,2026-08-26T19:21:49.518256Z,2026-08-26T19:21:49.758858Z,1,0,0,0,low,single_sighting,false,false,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,10
 198.163.192.232,2026-08-23T00:39:39.983178Z,2026-08-23T00:39:39.984004Z,1,0,0,0,low,single_sighting,false,false,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,71
-198.163.193.163,2026-08-27T09:44:06.327453Z,2026-08-27T09:44:18.144780Z,3,0,0,0,low,connected_only,false,true,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,100
+198.163.193.163,2026-08-27T09:44:06.327453Z,2026-08-27T09:44:18.144780Z,3,0,0,0,low,connected_only,false,false,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,100
 198.163.195.35,2026-08-29T09:03:57.694034Z,2026-08-29T09:03:57.694737Z,1,0,0,0,low,single_sighting,false,true,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,100
 198.179.70.19,2026-08-27T09:16:38.314134Z,2026-08-29T12:21:58.636426Z,2,2,62,10,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,United States,Charter Communications Inc,charter.com,false,100
 198.199.94.79,2026-08-19T02:30:07.886028Z,2026-08-19T02:30:09.381528Z,1,1,5,0,low,executed_commands,false,false,e075ddae667ce5bd,7,United States,"DigitalOcean, LLC",digitalocean.com,false,100
@@ -2710,7 +2710,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 72.229.136.74,2026-08-19T10:54:17.922087Z,2026-08-20T02:01:18.706944Z,2,2,62,10,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,United States,Charter Communications Inc,charter.com,false,100
 72.255.18.232,2026-08-26T17:36:58.989939Z,2026-08-26T17:42:10.203297Z,24,0,0,0,medium,persistent,false,false,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,4
 72.255.18.25,2026-08-21T06:53:19.203123Z,2026-08-21T06:58:43.751204Z,25,0,0,0,medium,persistent,false,false,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,86
-72.255.26.252,2026-08-25T18:05:31.999699Z,2026-08-27T09:46:20.297945Z,50,0,0,0,medium,persistent,false,true,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,92
+72.255.26.252,2026-08-25T18:05:31.999699Z,2026-08-27T09:46:20.297945Z,50,0,0,0,medium,persistent,false,false,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,92
 72.255.33.243,2026-08-25T16:27:50.506016Z,2026-08-25T16:31:57.107054Z,19,0,0,0,medium,persistent,false,false,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,62
 72.255.42.224,2026-08-25T16:39:25.163299Z,2026-08-25T16:39:25.164130Z,1,0,0,0,low,single_sighting,false,false,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,0
 72.255.52.10,2026-08-31T19:18:37.343969Z,2026-08-31T19:24:08.882028Z,25,0,0,0,medium,persistent,false,true,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,0
