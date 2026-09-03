@@ -1739,7 +1739,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 200.112.142.192,2026-08-27T11:19:36.774753Z,2026-08-27T11:19:39.152669Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,SION S.A,sion.com,false,70
 200.112.142.205,2026-08-25T13:24:47.015783Z,2026-08-25T13:25:32.142903Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Argentina,SION S.A,sion.com,false,100
 200.112.142.50,2026-08-28T06:52:28.042348Z,2026-08-28T06:52:30.610675Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Argentina,SION S.A,sion.com,false,100
-200.112.142.82,2026-08-27T15:22:56.691345Z,2026-08-27T15:23:40.938356Z,1,1,31,5,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,Argentina,SION S.A,sion.com,false,100
+200.112.142.82,2026-08-27T15:22:56.691345Z,2026-08-27T15:23:40.938356Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Argentina,SION S.A,sion.com,false,100
 200.112.142.87,2026-08-24T07:12:01.677427Z,2026-08-24T07:12:46.611353Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Argentina,SION S.A,sion.com,false,100
 200.112.142.89,2026-08-19T15:44:08.993560Z,2026-08-19T15:44:11.584568Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,SION S.A,sion.com,false,100
 200.112.142.93,2026-08-29T15:35:42.603284Z,2026-08-29T15:35:45.234246Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Argentina,SION S.A,sion.com,false,100
@@ -1912,7 +1912,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 205.210.31.58,2026-09-02T06:26:31.627997Z,2026-09-02T06:27:02.667362Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 205.210.31.75,2026-08-23T10:11:22.133006Z,2026-08-23T10:11:33.093305Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 205.210.31.89,2026-08-27T21:30:41.339526Z,2026-08-27T21:30:41.524934Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
-205.210.31.97,2026-08-27T15:08:35.568220Z,2026-08-27T15:09:06.276365Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
+205.210.31.97,2026-08-27T15:08:35.568220Z,2026-08-27T15:09:06.276365Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 206.0.166.243,2026-08-20T16:14:06.432952Z,2026-08-20T16:14:08.285192Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Venezuela,COLNETWORK C.A.,colnetwork.com.ve,false,24
 206.0.81.31,2026-08-24T12:42:39.154059Z,2026-08-24T12:43:41.101720Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Comunicaciones Valles Calchaquies S.R.L.,cvcnet.com.ar,false,66
 206.189.109.233,2026-08-28T02:21:19.392877Z,2026-08-28T02:21:19.592786Z,2,0,0,0,low,connected_only,false,true,,7,The Netherlands,"DigitalOcean, LLC",digitalocean.com,false,40
