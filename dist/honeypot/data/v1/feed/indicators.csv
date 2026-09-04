@@ -1127,7 +1127,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 180.183.245.232,2026-08-25T17:29:13.344924Z,2026-08-25T17:29:33.747792Z,1,1,0,0,low,single_sighting,false,false,,7,Thailand,Triple T Broadband Public Company Limited,ais.th,false,100
 180.183.248.41,2026-08-31T04:41:37.073649Z,2026-09-03T03:18:00.552947Z,2,2,0,0,low,connected_only,false,true,,7,Thailand,Triple T Broadband Public Company Limited,ais.th,false,100
 180.188.253.150,2026-08-31T07:16:01.820521Z,2026-08-31T07:16:11.237578Z,1,1,0,0,low,single_sighting,false,true,,7,India,LYTUS BROADBAND PRIVATE LIMITED,patelinternet.in,false,100
-180.191.232.127,2026-08-28T15:39:19.631594Z,2026-08-28T15:39:28.771561Z,2,0,0,0,low,connected_only,false,true,,7,Philippines,"Globe Telecom (GMCR,INC)",globe.com.ph,false,11
+180.191.232.127,2026-08-28T15:39:19.631594Z,2026-08-28T15:39:28.771561Z,2,0,0,0,low,connected_only,false,false,,7,Philippines,"Globe Telecom (GMCR,INC)",globe.com.ph,false,11
 180.245.155.21,2026-08-21T21:50:26.126148Z,2026-08-21T21:50:26.127127Z,1,0,0,0,low,single_sighting,false,false,,7,Indonesia,PT TELKOM INDONESIA,telkom.co.id,false,0
 180.254.227.27,2026-09-03T07:30:38.906933Z,2026-09-03T07:33:43.319050Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Indonesia,PT TELKOM INDONESIA,telkom.co.id,false,16
 180.71.9.31,2026-09-04T08:57:56.899088Z,2026-09-04T08:58:05.723575Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,SK Broadband Co Ltd,skbroadband.com,false,100
@@ -3147,7 +3147,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 74.91.195.12,2026-08-17T16:21:03.709788Z,2026-08-29T21:00:16.750284Z,3820,3739,20417,0,medium,executed_commands,false,true,b7aa0a0dd982dcd8,7,Australia,"Newfold Digital, Inc.",enduranceinternational.com,false,100
 75.1.240.64,2026-09-01T00:07:00.472435Z,2026-09-01T00:07:00.473361Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"AT&T Enterprises, LLC",att.com,false,100
 75.129.5.30,2026-08-31T13:12:24.676209Z,2026-08-31T13:25:46.762408Z,2,0,0,0,low,connected_only,false,true,,7,United States,Charter Communications LLC,charter.com,false,100
-75.181.186.79,2026-08-28T15:59:26.791971Z,2026-08-28T15:59:27.856466Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,United States,Charter Communications Inc,charter.com,false,100
+75.181.186.79,2026-08-28T15:59:26.791971Z,2026-08-28T15:59:27.856466Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,United States,Charter Communications Inc,charter.com,false,100
 75.189.75.211,2026-08-23T18:32:15.613203Z,2026-08-23T18:34:00.303474Z,3,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications Inc,charter.com,false,96
 75.97.104.201,2026-08-27T15:52:01.956547Z,2026-08-27T15:52:02.015809Z,2,0,0,0,low,connected_only,false,false,,7,United States,PenTeleData House Account,ptd.net,false,100
 76.141.160.64,2026-08-27T02:21:12.654013Z,2026-08-27T02:21:12.662843Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Comcast Cable Communications, LLC",comcast.net,false,100
@@ -3432,7 +3432,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 91.193.172.53,2026-08-22T09:46:11.905806Z,2026-08-22T09:46:30.407172Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,TOV KS PLUS,triolan.com,false,94
 91.196.152.168,2026-08-23T14:51:12.596160Z,2026-08-23T14:51:19.667632Z,1,0,0,0,low,single_sighting,false,false,,7,France,FR ONYPHE,onyphe.io,false,0
 91.196.231.118,2026-08-26T23:49:45.723298Z,2026-08-26T23:50:05.443089Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,Sergey Kus,expres.net.ua,false,89
-91.196.231.233,2026-08-28T15:55:50.526321Z,2026-08-28T15:56:10.452176Z,3,0,0,0,low,connected_only,false,true,,7,Ukraine,Sergey Kus,expres.net.ua,false,95
+91.196.231.233,2026-08-28T15:55:50.526321Z,2026-08-28T15:56:10.452176Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,Sergey Kus,expres.net.ua,false,95
 91.198.249.99,2026-08-30T05:06:48.848333Z,2026-08-30T05:07:06.578244Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,RPC HomeNet Ltd.,homenet.ua,false,34
 91.203.12.212,2026-08-29T20:42:18.753978Z,2026-08-29T20:42:40.065779Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Osnova-Internet LLC,osnova.tv,false,5
 91.203.63.170,2026-08-22T13:06:38.571659Z,2026-08-22T13:06:46.513151Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,Ukrchermetavtomatika LLC,dts.net.ua,false,23
