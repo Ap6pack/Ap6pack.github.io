@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.0",
   "generated_at": "2026-09-04T19:00:13.033635+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
   "last_event": "2026-09-04T19:00:00.400194Z",
@@ -8,129 +9,129 @@
   "login_attempts": 103769,
   "login_success": 101945,
   "commands_run": 221135,
-  "files_captured": 13,
+  "files_captured": 20,
   "top_usernames": [
     [
       "root",
-      93038
+      1896
     ],
     [
       "admin",
-      5629
+      755
     ],
     [
       "enable\\x00",
-      1720
+      407
     ],
     [
       "support",
-      1067
-    ],
-    [
-      "user",
-      641
-    ],
-    [
-      "guest",
-      433
-    ],
-    [
-      "ubnt",
-      229
+      117
     ],
     [
       "default",
-      98
+      88
+    ],
+    [
+      "user",
+      77
     ],
     [
       "test",
-      72
+      66
     ],
     [
       "supervisor",
-      63
+      61
+    ],
+    [
+      "guest",
+      59
     ],
     [
       "debian",
-      56
+      44
+    ],
+    [
+      "ubnt",
+      43
     ],
     [
       "blank",
-      33
+      31
     ],
     [
       "operator",
-      32
-    ],
-    [
-      "nobody",
-      29
+      31
     ],
     [
       "unknown",
-      29
+      28
+    ],
+    [
+      "nobody",
+      25
     ]
   ],
   "top_passwords": [
     [
       "admin",
-      3304
-    ],
-    [
-      "xc3511",
-      2019
-    ],
-    [
-      "vizxv",
-      1775
+      522
     ],
     [
       "linuxshell\\x00",
-      1719
-    ],
-    [
-      "",
-      1419
+      406
     ],
     [
       "123456",
-      1256
+      306
     ],
     [
-      "888888",
-      1208
+      "root",
+      239
+    ],
+    [
+      "",
+      90
+    ],
+    [
+      "vizxv",
+      68
+    ],
+    [
+      "xc3511",
+      58
     ],
     [
       "password",
-      1208
+      49
     ],
     [
-      "12345",
-      1007
-    ],
-    [
-      "xmhdipc",
-      1003
+      "1234",
+      49
     ],
     [
       "support",
-      988
+      40
     ],
     [
       "juantech",
-      983
-    ],
-    [
-      "1111",
-      961
+      40
     ],
     [
       "default",
-      949
+      37
+    ],
+    [
+      "12345",
+      35
     ],
     [
       "54321",
-      948
+      27
+    ],
+    [
+      "xmhdipc",
+      26
     ]
   ],
   "event_breakdown": {
@@ -241,5 +242,70 @@
       "date": "2026-09-04",
       "count": 3270
     }
-  ]
+  ],
+  "published": {
+    "sessions": 10319,
+    "source_ips": 3635,
+    "login_attempts": 4273,
+    "login_success": 3762,
+    "commands_run": 22280,
+    "sessions_logged_in": 3762,
+    "sessions_with_commands": 2485,
+    "sessions_with_download": 644,
+    "share_of_sessions": 0.095
+  },
+  "weighting": {
+    "schema_version": "1.0",
+    "rule": {
+      "max_commands_per_session": 1,
+      "max_avg_duration_ms": 5000,
+      "max_downloads": 0
+    },
+    "clustered_sessions": 100581,
+    "ips": {
+      "observed": 3635,
+      "attempted_login": 1781,
+      "ran_command": 882,
+      "delivered_payload": 230,
+      "published": {
+        "observed": 3635,
+        "attempted_login": 1570,
+        "ran_command": 665,
+        "delivered_payload": 169
+      }
+    },
+    "recon": {
+      "clusters": 9,
+      "sessions": 73757,
+      "ip_count_sum": 21,
+      "share_of_clustered_sessions": 0.7333
+    },
+    "attack": {
+      "clusters": 115,
+      "sessions": 26824,
+      "ip_count_sum": 937
+    },
+    "dominance": [
+      {
+        "metric": "sessions",
+        "label": "sessions in a behaviour cluster",
+        "total": 100581,
+        "top_label": "eafdc691c2945a06",
+        "top_value": 73624,
+        "top_share": 0.732,
+        "top_sources": 5,
+        "sources_total": 3635
+      },
+      {
+        "metric": "attack_techniques",
+        "label": "commands tagged with an ATT&CK technique",
+        "total": 80885,
+        "top_label": "T1027",
+        "top_value": 75524,
+        "top_share": 0.9337,
+        "top_sources": 183,
+        "sources_total": 3635
+      }
+    ]
+  }
 }
