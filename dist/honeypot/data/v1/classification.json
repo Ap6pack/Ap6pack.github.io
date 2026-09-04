@@ -50,11 +50,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 80594,
+        "total": 80625,
         "top_label": "T1027",
-        "top_value": 75446,
-        "top_share": 0.9361,
-        "top_sources": 173,
+        "top_value": 75457,
+        "top_share": 0.9359,
+        "top_sources": 174,
         "sources_total": 3444
       }
     ]
@@ -1529,31 +1529,31 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 75446,
-      "distinct_ips": 173,
+      "count": 75457,
+      "distinct_ips": 174,
       "recon_count": 73624,
       "recon_ips": 5,
-      "residual_count": 1822,
+      "residual_count": 1833,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 3208,
-      "distinct_ips": 187,
+      "count": 3224,
+      "distinct_ips": 189,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 3208,
+      "residual_count": 3224,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 1669,
-      "distinct_ips": 171,
+      "count": 1672,
+      "distinct_ips": 172,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 1669,
+      "residual_count": 1672,
       "attribution": "none"
     },
     {
@@ -1587,18 +1587,18 @@
       "attribution": "none"
     },
     {
-      "id": "T1033",
-      "name": "System Owner/User Discovery",
-      "count": 2,
-      "distinct_ips": 2,
+      "id": "T1140",
+      "name": "Deobfuscate/Decode Files or Information",
+      "count": 3,
+      "distinct_ips": 3,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 2,
+      "residual_count": 3,
       "attribution": "none"
     },
     {
-      "id": "T1140",
-      "name": "Deobfuscate/Decode Files or Information",
+      "id": "T1033",
+      "name": "System Owner/User Discovery",
       "count": 2,
       "distinct_ips": 2,
       "recon_count": 0,
