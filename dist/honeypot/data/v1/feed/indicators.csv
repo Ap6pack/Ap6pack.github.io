@@ -72,7 +72,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 102.33.32.38,2026-08-21T23:56:38.252420Z,2026-08-21T23:56:38.253759Z,1,0,0,0,low,single_sighting,false,false,,7,South Africa,Metro Fibre Networx (Pty) Ltd,metrofibre.co.za,false,66
 102.33.32.44,2026-08-21T23:56:25.344318Z,2026-08-21T23:56:25.345853Z,1,0,0,0,low,single_sighting,false,false,,7,South Africa,Metro Fibre Networx (Pty) Ltd,metrofibre.co.za,false,83
 102.33.32.55,2026-08-21T23:56:38.256647Z,2026-08-21T23:56:38.257450Z,1,0,0,0,low,single_sighting,false,false,,7,South Africa,Metro Fibre Networx (Pty) Ltd,metrofibre.co.za,false,65
-102.35.223.101,2026-08-28T17:23:25.334736Z,2026-08-28T17:23:45.595577Z,2,0,0,0,low,connected_only,false,true,,7,Reunion,REUNICABLE-NET2-13,zeop.net,false,2
+102.35.223.101,2026-08-28T17:23:25.334736Z,2026-08-28T17:23:45.595577Z,2,0,0,0,low,connected_only,false,false,,7,Reunion,REUNICABLE-NET2-13,zeop.net,false,2
 102.38.3.107,2026-08-25T04:42:31.301856Z,2026-08-25T04:42:39.455990Z,1,1,0,0,low,single_sighting,false,false,,7,Libya,Giga for Telecommunication and Technology Limited,giga.ly,false,100
 102.66.146.233,2026-08-22T18:24:45.281315Z,2026-08-22T18:28:03.534987Z,2,0,0,0,low,connected_only,false,false,,7,South Africa,Herotel,herotel.com,false,5
 102.66.147.229,2026-08-23T00:41:59.987041Z,2026-08-23T00:41:59.987726Z,1,0,0,0,low,single_sighting,false,false,,7,South Africa,Herotel,herotel.com,false,26
@@ -1062,7 +1062,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 178.63.179.233,2026-09-03T21:42:39.444076Z,2026-09-03T21:42:40.099826Z,1,1,0,0,low,single_sighting,false,true,,7,Germany,Hetzner Online GmbH,hetzner.com,false,100
 178.63.84.111,2026-09-03T21:42:08.482969Z,2026-09-03T21:42:08.986223Z,1,1,0,0,low,single_sighting,false,true,,7,Germany,Hetzner Online GmbH,hetzner.com,false,40
 178.74.109.184,2026-08-26T09:25:29.403140Z,2026-08-26T09:25:30.267519Z,1,1,1,0,low,executed_commands,true,false,e97166b54500da3a,7,Russia,BC-Telecom,bs-telecom.net,false,17
-178.81.248.217,2026-08-28T17:28:48.602582Z,2026-08-28T17:28:48.938291Z,2,0,0,0,low,connected_only,false,true,,7,Saudi Arabia,Ettihad Etisalat,etihadetisalat.com.sa,false,28
+178.81.248.217,2026-08-28T17:28:48.602582Z,2026-08-28T17:28:48.938291Z,2,0,0,0,low,connected_only,false,false,,7,Saudi Arabia,Ettihad Etisalat,etihadetisalat.com.sa,false,28
 178.95.209.48,2026-08-28T04:45:02.262572Z,2026-08-28T04:45:44.971735Z,1,0,0,0,low,single_sighting,false,false,,7,Dominican Republic,NEXERCOM SRL,nexercom.com,false,34
 179.0.242.185,2026-08-24T16:05:45.700285Z,2026-08-24T16:05:53.053447Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Cooperativa V. Dique,coopvdique.com,false,42
 179.100.11.163,2026-09-04T08:55:41.082887Z,2026-09-04T08:55:58.834615Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Brazil,TELEFÔNICA BRASIL S.A,telefonica.com.br,false,39
@@ -2879,7 +2879,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 5.129.177.62,2026-08-29T14:19:05.491941Z,2026-08-29T14:26:20.107896Z,2,0,0,0,low,connected_only,false,true,,7,Russia,Ediniy Operator Svyazi LLC,edinos.ru,false,94
 5.129.178.58,2026-08-18T19:02:46.948225Z,2026-08-18T19:03:04.309651Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,Ediniy Operator Svyazi LLC,edinos.ru,false,100
 5.134.86.31,2026-08-24T20:49:26.480168Z,2026-08-24T20:49:59.609523Z,2,0,0,0,low,connected_only,false,false,,7,Armenia,Hingshabti LLC,r.am,false,100
-5.136.9.100,2026-08-28T17:28:54.745692Z,2026-08-28T17:29:11.986844Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,OJSC Sibirtelecom,sibirtelecom.ru,false,93
+5.136.9.100,2026-08-28T17:28:54.745692Z,2026-08-28T17:29:11.986844Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,OJSC Sibirtelecom,sibirtelecom.ru,false,93
 5.137.78.30,2026-08-29T02:41:33.137898Z,2026-08-29T02:41:53.707280Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,JSC Rostelecom regional branch Siberia,rt.ru,false,17
 5.139.227.133,2026-08-18T09:44:26.561951Z,2026-08-18T09:44:26.562647Z,1,0,0,0,low,single_sighting,false,false,,7,Russia,OJSC Rostelecom Macroregional Branch South,rt.ru,false,0
 5.165.156.118,2026-08-29T11:57:35.378931Z,2026-08-29T11:57:53.487515Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,CJSC ER-Telecom Holding Cheboksary branch,ertelecom.ru,false,100
@@ -3069,7 +3069,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 66.9.173.120,2026-08-28T16:41:26.472953Z,2026-08-28T16:41:26.497087Z,1,0,0,0,low,single_sighting,false,false,,7,Zimbabwe,"SpaceX Services, Inc.",spacex.com,false,17
 66.94.97.207,2026-09-04T01:34:31.885578Z,2026-09-04T01:34:31.931106Z,1,1,0,0,low,single_sighting,false,true,,7,United States,Contabo Inc.,contabo.com,false,100
 67.163.234.42,2026-09-03T17:28:24.606936Z,2026-09-03T17:29:09.529425Z,2,0,0,0,low,connected_only,false,true,,7,United States,"Comcast Cable Communications, Inc.",comcast.net,false,100
-68.102.220.252,2026-08-28T17:27:46.056747Z,2026-08-28T17:29:01.892496Z,3,0,0,0,low,connected_only,false,true,,7,United States,Cox Communications Inc.,cox.com,false,99
+68.102.220.252,2026-08-28T17:27:46.056747Z,2026-08-28T17:29:01.892496Z,3,0,0,0,low,connected_only,false,false,,7,United States,Cox Communications Inc.,cox.com,false,99
 68.107.239.153,2026-08-18T19:32:37.408458Z,2026-08-18T19:33:20.825701Z,3,0,0,0,low,connected_only,false,false,,7,United States,Cox Communications Inc.,cox.com,false,74
 68.183.105.175,2026-08-22T09:35:04.745832Z,2026-08-22T09:35:04.923434Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"DigitalOcean, LLC",digitalocean.com,false,100
 68.183.177.121,2026-09-04T01:29:15.134771Z,2026-09-04T01:29:16.287505Z,1,1,0,0,low,single_sighting,false,true,,7,Singapore,"DigitalOcean, LLC",digitalocean.com,false,100
@@ -3490,7 +3490,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 91.80.191.46,2026-08-21T10:23:43.868426Z,2026-08-21T10:23:47.818829Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Italy,Fastweb SpA,fastweb.it,false,0
 91.92.209.22,2026-09-03T18:28:07.647986Z,2026-09-04T10:51:35.064951Z,2,2,0,0,low,connected_only,false,true,,7,Iran,Telecommunication Company of Tehran,tci.ir,false,100
 91.92.47.55,2026-08-24T08:45:32.855790Z,2026-08-24T08:53:22.585000Z,79,78,77,0,low,executed_commands,true,false,7ab552f01de999cb,7,The Netherlands,TechTies Inc.,tech-ties.net,false,100
-91.93.51.27,2026-08-28T17:17:54.368325Z,2026-08-28T17:17:54.369532Z,1,0,0,0,low,single_sighting,false,true,,7,Türkiye,Superonline Iletisim Hizmetleri A.S.,superonline.net,false,100
+91.93.51.27,2026-08-28T17:17:54.368325Z,2026-08-28T17:17:54.369532Z,1,0,0,0,low,single_sighting,false,false,,7,Türkiye,Superonline Iletisim Hizmetleri A.S.,superonline.net,false,100
 92.101.154.135,2026-09-02T03:48:04.052798Z,2026-09-02T03:48:22.547406Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,St.Petersburg Telephone Network,ptn.ru,false,76
 92.118.39.14,2026-08-18T20:25:57.387920Z,2026-08-29T09:01:38.931894Z,12,8,4,0,medium,executed_commands,false,true,9dc0f0fe6a402818,7,United States,DMZHOST,dmzhost.co,false,100
 92.118.39.49,2026-08-25T14:49:44.644486Z,2026-08-28T22:08:03.605522Z,7,5,5,0,medium,executed_commands,false,true,9dc0f0fe6a402818,7,United States,DMZHOST,dmzhost.co,false,100
