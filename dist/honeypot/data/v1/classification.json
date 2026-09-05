@@ -50,11 +50,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 81369,
+        "total": 81424,
         "top_label": "T1027",
-        "top_value": 75635,
-        "top_share": 0.9295,
-        "top_sources": 196,
+        "top_value": 75651,
+        "top_share": 0.9291,
+        "top_sources": 198,
         "sources_total": 3767
       }
     ]
@@ -1565,41 +1565,41 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 75635,
-      "distinct_ips": 196,
+      "count": 75651,
+      "distinct_ips": 198,
       "recon_count": 73624,
       "recon_ips": 5,
-      "residual_count": 2011,
+      "residual_count": 2027,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 3658,
-      "distinct_ips": 220,
+      "count": 3689,
+      "distinct_ips": 222,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 3658,
+      "residual_count": 3689,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 1770,
-      "distinct_ips": 203,
+      "count": 1776,
+      "distinct_ips": 205,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 1770,
+      "residual_count": 1776,
       "attribution": "none"
     },
     {
       "id": "T1082",
       "name": "System Information Discovery",
-      "count": 163,
+      "count": 164,
       "distinct_ips": 21,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 163,
+      "residual_count": 164,
       "attribution": "none"
     },
     {
@@ -1615,11 +1615,11 @@
     {
       "id": "T1686",
       "name": "Disable or Modify System Firewall",
-      "count": 22,
-      "distinct_ips": 21,
+      "count": 23,
+      "distinct_ips": 22,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 22,
+      "residual_count": 23,
       "attribution": "none"
     },
     {
