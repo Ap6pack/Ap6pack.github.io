@@ -226,14 +226,14 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 110.179.81.160,2026-08-25T10:24:49.763755Z,2026-08-25T10:25:04.764647Z,1,0,0,0,low,single_sighting,false,false,,7,China,CHINANET SHANXI PROVINCE NETWORK,shanxitele.com,false,100
 110.227.215.90,2026-08-31T12:31:10.626992Z,2026-09-01T23:25:15.740649Z,3,3,0,0,low,connected_only,false,true,,7,India,"Bharti Airtel Services Limited, 6th floor , Interface Building No 7, Link Road, Mumbai Maharastra-400064",airtel.in,false,100
 110.232.66.64,2026-09-02T13:11:18.203341Z,2026-09-02T13:11:38.077451Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Indonesia,PT. Media Antar Nusa,nusanet.id,false,100
-110.24.32.16,2026-08-29T04:07:59.206023Z,2026-08-29T04:08:08.375461Z,2,2,25,0,medium,executed_commands,false,true,ad3b58ef9a595fe1,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,73
+110.24.32.16,2026-08-29T04:07:59.206023Z,2026-08-29T04:08:08.375461Z,2,2,25,0,low,executed_commands,false,false,ad3b58ef9a595fe1,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,73
 110.25.101.75,2026-09-02T09:08:34.412879Z,2026-09-02T21:58:59.192183Z,3,3,0,0,low,connected_only,false,true,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
 110.25.104.249,2026-09-04T02:31:56.585304Z,2026-09-04T02:32:04.410475Z,1,1,0,0,low,single_sighting,false,true,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,43
 110.25.106.26,2026-09-01T05:37:49.884281Z,2026-09-04T02:31:55.899170Z,2,2,0,0,low,connected_only,false,true,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
 110.25.107.25,2026-09-02T18:07:12.625784Z,2026-09-02T18:07:20.494888Z,1,1,0,0,low,single_sighting,false,true,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
 110.25.109.54,2026-09-04T06:39:36.597158Z,2026-09-04T06:39:46.578337Z,1,1,0,0,low,single_sighting,false,true,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
 110.38.17.157,2026-08-23T11:38:41.744573Z,2026-08-23T11:38:51.511379Z,3,0,0,0,low,connected_only,false,false,,7,Pakistan,National Wimax/IMS environment,wateen.com,false,0
-110.38.8.244,2026-08-29T04:22:36.699898Z,2026-08-29T04:28:01.269456Z,25,0,0,0,medium,persistent,false,true,,7,Pakistan,National Wimax/IMS environment,wateen.com,false,0
+110.38.8.244,2026-08-29T04:22:36.699898Z,2026-08-29T04:28:01.269456Z,25,0,0,0,medium,persistent,false,false,,7,Pakistan,National Wimax/IMS environment,wateen.com,false,0
 110.39.181.194,2026-09-01T06:14:38.928317Z,2026-09-01T06:14:49.485738Z,1,0,0,0,low,single_sighting,false,true,,7,Pakistan,National Wimax/IMS environment,wateen.com,false,100
 110.77.148.87,2026-09-01T00:40:02.114490Z,2026-09-01T00:40:11.990230Z,1,1,0,0,low,single_sighting,false,true,,7,Thailand,10 Fl. 72. CAT TELECOM TOWER Bangrak Bangkok Thailand,ntplc.co.th,false,100
 111.175.88.6,2026-08-23T06:13:35.674581Z,2026-09-01T02:58:40.114762Z,2,0,0,0,low,connected_only,false,true,,7,China,CHINANET HUBEI PROVINCE NETWORK,chinatelecom.cn,false,100
@@ -455,7 +455,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 121.22.99.2,2026-08-31T04:29:28.864434Z,2026-09-02T03:00:35.621303Z,2,1,0,0,low,connected_only,false,true,,7,China,China Unicom Hebei province network,chinaunicom.cn,false,100
 121.29.149.136,2026-09-02T05:57:39.936881Z,2026-09-02T05:57:54.941128Z,1,0,0,0,low,single_sighting,false,true,,7,China,China Unicom Hebei province network,chinaunicom.cn,false,78
 121.40.150.190,2026-08-19T06:21:16.027902Z,2026-08-24T18:58:18.050007Z,4,2,2,0,low,executed_commands,true,false,28ba533b0f3c4df6,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
-121.46.71.57,2026-08-29T04:07:50.038379Z,2026-08-29T04:08:21.489321Z,2,0,0,0,low,connected_only,false,true,,7,Myanmar,Myanmar Country Co Ltd,myanmarcountry.net,false,100
+121.46.71.57,2026-08-29T04:07:50.038379Z,2026-08-29T04:08:21.489321Z,2,0,0,0,low,connected_only,false,false,,7,Myanmar,Myanmar Country Co Ltd,myanmarcountry.net,false,100
 121.57.3.161,2026-09-02T13:03:30.873229Z,2026-09-02T13:04:59.014114Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,China,CHINANET neimeng province network,chinatelecom.cn,false,100
 121.61.41.159,2026-09-02T00:44:46.516969Z,2026-09-02T00:46:16.488107Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,China,CHINANET Hubei province network,chinatelecom.cn,false,100
 121.66.124.147,2026-08-26T00:05:46.427156Z,2026-09-03T00:54:49.776402Z,2,0,0,0,low,connected_only,false,true,,7,South Korea,LG Uplus,lguplus.com,false,100
@@ -899,7 +899,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 169.224.5.237,2026-08-22T02:03:07.209461Z,2026-08-22T02:03:39.926171Z,2,0,0,0,low,connected_only,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,50
 169.224.7.128,2026-08-21T00:08:56.121481Z,2026-08-21T00:08:56.122445Z,1,0,0,0,low,single_sighting,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,18
 170.0.127.67,2026-08-25T08:27:49.594989Z,2026-08-25T08:28:07.210664Z,1,1,2,0,low,executed_commands,false,false,,7,Brazil,CAS TELECOMUNICACOES EIRELI,cas.net.br,false,5
-170.0.66.15,2026-08-29T04:26:43.679259Z,2026-08-29T04:26:43.680147Z,1,0,0,0,low,single_sighting,false,true,,7,Brazil,DELTA TELECOM,deltatele.com.br,false,25
+170.0.66.15,2026-08-29T04:26:43.679259Z,2026-08-29T04:26:43.680147Z,1,0,0,0,low,single_sighting,false,false,,7,Brazil,DELTA TELECOM,deltatele.com.br,false,25
 170.150.253.67,2026-08-25T23:45:21.141152Z,2026-08-25T23:45:38.896701Z,1,1,2,0,low,executed_commands,false,false,,7,Brazil,INFOLINE BANDA LARGA,infoline.com.br,false,50
 170.150.50.78,2026-08-21T00:01:11.472067Z,2026-08-21T00:01:28.378482Z,1,1,2,0,low,executed_commands,false,false,,7,Brazil,PAINEIRAS NET TELECOM - EIRELI - ME,paineirasnet.com.br,false,2
 170.233.209.99,2026-08-28T17:58:07.028916Z,2026-08-28T17:58:43.950219Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,COOPERATIVA ELECTRICA Y TECNIFICACION AGROPECUARIA PARADA ROBLES ARROYO DE LA CRUZ LTDA,cepralnet.com.ar,false,57
@@ -1781,7 +1781,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 194.242.97.78,2026-09-02T13:12:47.689713Z,2026-09-02T13:12:47.690504Z,1,0,0,0,low,single_sighting,false,true,,7,Ukraine,NEWNET LLC,newnet.ua,false,100
 194.31.8.12,2026-08-25T04:53:08.449532Z,2026-09-03T12:58:09.949946Z,2,2,0,0,low,connected_only,false,true,,7,Georgia,Internet Exchange Association of Georgia,ixp.ge,false,100
 194.38.2.197,2026-09-01T14:45:05.765874Z,2026-09-01T14:49:18.219492Z,2,0,0,0,low,connected_only,false,true,,7,Russia,Nikolay Olegovich Tokarev,,false,100
-194.39.227.127,2026-08-29T04:19:49.259381Z,2026-08-29T04:20:06.937238Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,New Information Systems PP,novi.uz.ua,false,100
+194.39.227.127,2026-08-29T04:19:49.259381Z,2026-08-29T04:20:06.937238Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,New Information Systems PP,novi.uz.ua,false,100
 194.39.227.70,2026-09-02T16:31:47.513924Z,2026-09-02T16:32:04.795286Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,New Information Systems PP,novi.uz.ua,false,100
 194.39.227.77,2026-08-26T21:34:13.253295Z,2026-08-26T21:34:48.743259Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,New Information Systems PP,novi.uz.ua,false,100
 194.39.227.82,2026-09-01T20:20:02.920915Z,2026-09-01T20:20:21.392197Z,1,1,3,0,medium,executed_commands,false,true,04946faa9e9e44cd,7,Ukraine,New Information Systems PP,novi.uz.ua,false,100
@@ -2764,7 +2764,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 45.175.143.242,2026-08-20T16:56:06.222739Z,2026-08-20T16:56:06.223477Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,BOCA ROJA S.A.,bocarojasa.com.ar,false,74
 45.175.149.48,2026-08-22T22:59:58.686244Z,2026-08-22T22:59:58.693978Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,NETCOMM ARGENTINA SRL,netcomm.com.ar,false,30
 45.175.163.255,2026-08-26T11:38:23.651367Z,2026-08-26T11:39:23.537205Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,REDES DEL OESTE S.A,westnet.com.ar,false,100
-45.176.165.44,2026-08-29T04:16:23.098301Z,2026-08-29T04:16:23.099330Z,1,0,0,0,low,single_sighting,false,true,,7,Chile,Setel - Chile,setel.cl,false,95
+45.176.165.44,2026-08-29T04:16:23.098301Z,2026-08-29T04:16:23.099330Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,Setel - Chile,setel.cl,false,95
 45.177.146.36,2026-08-21T22:21:01.565347Z,2026-08-21T22:21:19.825242Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,NETLATIN S.R.L.,netlatin.com.ar,false,100
 45.181.246.47,2026-09-03T01:38:13.596534Z,2026-09-03T01:45:15.551638Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,UBI NETWORKING S.A. (UBIRED),ubired.com.ar,false,69
 45.183.156.9,2026-08-19T00:59:11.065327Z,2026-08-19T01:02:05.642228Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,HERRERA HORACIO HERNAN,cattel.com.ar,false,89
