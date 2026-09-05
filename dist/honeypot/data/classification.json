@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 81060,
+        "total": 81066,
         "top_label": "T1027",
         "top_value": 75564,
-        "top_share": 0.9322,
+        "top_share": 0.9321,
         "top_sources": 188,
         "sources_total": 3767
       }
@@ -1595,11 +1595,11 @@
     {
       "id": "T1082",
       "name": "System Information Discovery",
-      "count": 161,
-      "distinct_ips": 20,
+      "count": 163,
+      "distinct_ips": 21,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 161,
+      "residual_count": 163,
       "attribution": "none"
     },
     {
@@ -1625,11 +1625,31 @@
     {
       "id": "T1057",
       "name": "Process Discovery",
+      "count": 6,
+      "distinct_ips": 3,
+      "recon_count": 0,
+      "recon_ips": 0,
+      "residual_count": 6,
+      "attribution": "none"
+    },
+    {
+      "id": "T1685.006",
+      "name": "Clear Linux or Mac System Logs",
       "count": 4,
-      "distinct_ips": 2,
+      "distinct_ips": 4,
       "recon_count": 0,
       "recon_ips": 0,
       "residual_count": 4,
+      "attribution": "none"
+    },
+    {
+      "id": "T1016",
+      "name": "System Network Configuration Discovery",
+      "count": 3,
+      "distinct_ips": 3,
+      "recon_count": 0,
+      "recon_ips": 0,
+      "residual_count": 3,
       "attribution": "none"
     },
     {
@@ -1643,28 +1663,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1685.006",
-      "name": "Clear Linux or Mac System Logs",
-      "count": 3,
-      "distinct_ips": 3,
-      "recon_count": 0,
-      "recon_ips": 0,
-      "residual_count": 3,
-      "attribution": "none"
-    },
-    {
       "id": "T1033",
       "name": "System Owner/User Discovery",
-      "count": 2,
-      "distinct_ips": 2,
-      "recon_count": 0,
-      "recon_ips": 0,
-      "residual_count": 2,
-      "attribution": "none"
-    },
-    {
-      "id": "T1016",
-      "name": "System Network Configuration Discovery",
       "count": 2,
       "distinct_ips": 2,
       "recon_count": 0,
