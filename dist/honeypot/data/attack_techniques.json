@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "techniques": [
     {
       "id": "T1027",
@@ -59,7 +58,7 @@
         "discovery"
       ],
       "url": "https://attack.mitre.org/techniques/T1082",
-      "count": 221,
+      "count": 223,
       "distinct_ips": 22,
       "examples": [
         "uname -a",
@@ -181,6 +180,6 @@
       ]
     }
   ],
-  "total_commands": 221285,
-  "matched_commands": 80000
+  "total_commands": 221488,
+  "matched_commands": 80002
 }
