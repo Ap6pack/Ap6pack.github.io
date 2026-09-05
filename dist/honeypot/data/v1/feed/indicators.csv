@@ -646,7 +646,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 14.49.178.90,2026-09-01T18:54:17.819480Z,2026-09-01T18:54:27.858190Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 14.97.77.182,2026-09-01T02:30:05.643324Z,2026-09-02T20:02:49.350451Z,2,2,0,0,low,connected_only,false,true,,7,India,TATA TELESERVICES LTD - TATA INDICOM - CDMA DIVISION,tatatel.co.in,false,100
 141.101.175.255,2026-09-01T06:03:42.060330Z,2026-09-01T06:04:00.869315Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,OOO SPETSTELECOM-YUG,leaderssl.ru,false,16
-142.0.4.162,2026-08-29T02:52:03.326761Z,2026-08-29T02:57:55.641023Z,3,0,0,0,low,connected_only,false,true,,7,United States,Mitchell Telecom,mitchelltelecom.com,false,100
+142.0.4.162,2026-08-29T02:52:03.326761Z,2026-08-29T02:57:55.641023Z,3,0,0,0,low,connected_only,false,false,,7,United States,Mitchell Telecom,mitchelltelecom.com,false,100
 142.117.81.148,2026-08-19T00:17:23.767745Z,2026-08-19T00:17:41.463621Z,1,1,2,0,low,executed_commands,false,false,,7,Canada,Bell Canada,bell.ca,false,25
 142.188.220.31,2026-08-25T19:04:27.973454Z,2026-08-25T19:04:45.460202Z,1,1,2,0,low,executed_commands,false,false,,7,Canada,Bell Canada,bell.ca,false,74
 142.93.218.50,2026-08-30T05:40:04.600848Z,2026-09-01T15:30:38.092176Z,3,3,15,0,medium,executed_commands,false,true,e075ddae667ce5bd,7,India,"DigitalOcean, LLC",digitalocean.com,false,100
@@ -674,7 +674,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 144.48.122.23,2026-08-25T13:37:30.179011Z,2026-09-01T04:42:10.758358Z,3,2,0,0,low,connected_only,false,true,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,100
 144.48.130.233,2026-08-22T20:00:40.251195Z,2026-08-22T20:06:05.839137Z,25,0,0,0,medium,persistent,false,false,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,100
 144.48.130.40,2026-08-30T02:08:28.856743Z,2026-08-30T02:13:53.418242Z,25,0,0,0,medium,persistent,false,true,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,87
-144.48.135.214,2026-08-29T02:30:17.102522Z,2026-08-29T02:31:34.729755Z,6,0,0,0,medium,persistent,false,true,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,94
+144.48.135.214,2026-08-29T02:30:17.102522Z,2026-08-29T02:31:34.729755Z,6,0,0,0,medium,persistent,false,false,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,94
 144.86.197.243,2026-08-17T16:36:13.683025Z,2026-08-17T16:36:14.805193Z,1,0,0,0,low,single_sighting,false,false,,7,Canada,Valley Fiber Ltd.,valleyfiber.ca,false,62
 145.132.102.233,2026-09-02T01:31:47.713969Z,2026-09-02T01:31:48.436159Z,2,0,0,0,low,connected_only,false,true,,7,United States,Microsoft Limited,microsoft.com,false,35
 146.120.161.115,2026-08-31T12:47:18.716863Z,2026-08-31T12:47:35.529720Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Dianet Ltd.,dianet.online,false,100
@@ -1728,7 +1728,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 191.6.67.3,2026-09-04T07:35:21.538070Z,2026-09-04T07:35:22.445458Z,1,1,0,0,low,single_sighting,false,true,,7,Brazil,Lastnet Telecom,lastnet.com.br,false,100
 191.81.146.12,2026-08-22T00:56:54.862515Z,2026-08-22T01:00:31.830078Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,16
 191.81.191.153,2026-08-24T19:18:18.372524Z,2026-08-24T19:18:42.482329Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,0
-191.83.131.232,2026-08-29T02:40:53.694391Z,2026-08-29T02:41:12.330567Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,5
+191.83.131.232,2026-08-29T02:40:53.694391Z,2026-08-29T02:41:12.330567Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,5
 191.83.173.4,2026-08-23T02:26:41.850755Z,2026-08-23T02:26:48.414863Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,0
 191.84.216.197,2026-08-20T14:58:11.273311Z,2026-08-20T14:58:24.532444Z,4,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,60
 191.95.166.202,2026-08-29T21:35:54.602789Z,2026-08-29T21:36:12.295071Z,3,0,0,0,low,connected_only,false,true,,7,Colombia,Colombia Móvil,tigo.com.co,false,3
@@ -2980,7 +2980,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 5.129.178.58,2026-08-18T19:02:46.948225Z,2026-08-18T19:03:04.309651Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,Ediniy Operator Svyazi LLC,edinos.ru,false,100
 5.134.86.31,2026-08-24T20:49:26.480168Z,2026-08-24T20:49:59.609523Z,2,0,0,0,low,connected_only,false,false,,7,Armenia,Hingshabti LLC,r.am,false,100
 5.136.9.100,2026-08-28T17:28:54.745692Z,2026-08-28T17:29:11.986844Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,OJSC Sibirtelecom,sibirtelecom.ru,false,93
-5.137.78.30,2026-08-29T02:41:33.137898Z,2026-08-29T02:41:53.707280Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,JSC Rostelecom regional branch Siberia,rt.ru,false,17
+5.137.78.30,2026-08-29T02:41:33.137898Z,2026-08-29T02:41:53.707280Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,JSC Rostelecom regional branch Siberia,rt.ru,false,17
 5.139.227.133,2026-08-18T09:44:26.561951Z,2026-08-18T09:44:26.562647Z,1,0,0,0,low,single_sighting,false,false,,7,Russia,OJSC Rostelecom Macroregional Branch South,rt.ru,false,0
 5.165.156.118,2026-08-29T11:57:35.378931Z,2026-08-29T11:57:53.487515Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,CJSC ER-Telecom Holding Cheboksary branch,ertelecom.ru,false,100
 5.181.2.48,2026-08-26T04:58:10.910655Z,2026-09-03T02:57:21.335073Z,4,4,0,0,low,connected_only,false,true,,7,Croatia,GLOBAL CONNECTIVITY SOLUTIONS LLP,globconnex.com,false,100
@@ -3362,7 +3362,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 8.216.8.195,2026-09-03T08:10:15.177755Z,2026-09-03T08:10:25.786427Z,2,0,0,0,low,connected_only,false,true,,7,Japan,Alibaba Cloud (Singapore) Private Limited,alibabacloud.com,false,100
 8.216.8.217,2026-08-21T17:56:29.592862Z,2026-08-21T17:56:31.833546Z,2,0,0,0,low,connected_only,false,false,,7,Japan,Alibaba Cloud (Singapore) Private Limited,alibabacloud.com,false,100
 8.217.248.249,2026-08-17T00:05:04.385408Z,2026-08-17T13:26:52.469191Z,24766,24765,24764,0,medium,persistent,false,false,,7,Hong Kong,Aliyun Computing Co.LTD,alibaba-inc.com,false,93
-8.218.88.213,2026-08-29T02:50:53.943036Z,2026-08-29T02:51:00.847577Z,2,0,0,0,low,connected_only,false,true,,7,Hong Kong,Alibaba Cloud (Singapore) Private Limited,alibabacloud.com,false,98
+8.218.88.213,2026-08-29T02:50:53.943036Z,2026-08-29T02:51:00.847577Z,2,0,0,0,low,connected_only,false,false,,7,Hong Kong,Alibaba Cloud (Singapore) Private Limited,alibabacloud.com,false,98
 8.219.140.39,2026-08-27T11:52:41.028942Z,2026-08-27T11:52:55.462358Z,2,0,0,0,low,connected_only,false,false,,7,Singapore,Alibaba Cloud (Singapore) Private Limited,alibabacloud.com,false,100
 8.243.69.122,2026-09-02T22:34:23.969935Z,2026-09-02T22:35:56.609956Z,3,0,0,0,low,connected_only,false,true,,7,Colombia,"Level 3 Parent, LLC",lumen.com,false,100
 80.15.223.148,2026-08-31T12:37:15.858666Z,2026-08-31T12:37:21.578843Z,1,1,0,0,low,single_sighting,false,true,,7,France,LNPUT658 Puteaux,orange.fr,false,100
