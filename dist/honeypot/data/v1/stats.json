@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-05T14:30:13.020670+00:00",
+  "generated_at": "2026-09-05T15:00:12.651318+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-05T14:15:25.610357Z",
-  "total_events": 935749,
-  "unique_sessions": 109383,
-  "unique_source_ips": 3930,
-  "login_attempts": 104406,
-  "login_success": 102557,
-  "commands_run": 223616,
+  "last_event": "2026-09-05T14:59:57.458562Z",
+  "total_events": 936209,
+  "unique_sessions": 109431,
+  "unique_source_ips": 3932,
+  "login_attempts": 104451,
+  "login_success": 102601,
+  "commands_run": 223809,
   "files_captured": 20,
   "top_usernames": [
     [
@@ -135,22 +135,22 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 223616,
-    "cowrie.session.connect": 109383,
-    "cowrie.session.closed": 108707,
-    "cowrie.login.success": 102557,
-    "cowrie.session.params": 101150,
-    "cowrie.log.closed": 100484,
-    "cowrie.client.version": 75859,
-    "cowrie.client.kex": 75653,
-    "cowrie.telnet.option": 29723,
+    "cowrie.command.input": 223809,
+    "cowrie.session.connect": 109431,
+    "cowrie.session.closed": 108750,
+    "cowrie.login.success": 102601,
+    "cowrie.session.params": 101189,
+    "cowrie.log.closed": 100518,
+    "cowrie.client.version": 75865,
+    "cowrie.client.kex": 75659,
+    "cowrie.telnet.option": 29763,
     "cowrie.command.success": 2937,
-    "cowrie.login.failed": 1849,
+    "cowrie.login.failed": 1850,
     "cowrie.session.file_download": 1454,
-    "cowrie.direct-tcpip.request": 1267,
+    "cowrie.direct-tcpip.request": 1272,
     "cowrie.session.file_download.failed": 970,
     "cowrie.client.var": 28,
-    "cowrie.client.malformed_packet": 21,
+    "cowrie.client.malformed_packet": 22,
     "cowrie.session.file_upload": 20,
     "cowrie.virustotal.scanfile": 19,
     "cowrie.telnet.exploit_attempt": 19,
@@ -244,7 +244,7 @@
     },
     {
       "date": "2026-09-05",
-      "count": 6108
+      "count": 6568
     }
   ],
   "published": {
