@@ -1,8 +1,8 @@
 {
   "Event": {
     "uuid": "77a9d7f6-daac-5b17-8181-93e5a323578a",
-    "info": "Sundew honeypot - campaign 8410d6fdbfdb (2 sources) - enable",
-    "date": "2026-09-04",
+    "info": "Sundew honeypot - campaign 8410d6fdbfdb (3 sources) - enable",
+    "date": "2026-09-05",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -28,7 +28,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "136.51.69.178",
-        "timestamp": "1788523213",
+        "timestamp": "1788568212",
         "comment": "executed_commands, confidence medium; 1 sessions, 3 commands, 0 downloads; first_seen 2026-09-02T07:53:30.439247Z, last_seen 2026-09-02T07:53:55.981037Z; expires 7d after last_seen"
       },
       {
@@ -37,8 +37,17 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "177.124.50.31",
-        "timestamp": "1788523213",
+        "timestamp": "1788568212",
         "comment": "executed_commands, confidence medium; 1 sessions, 3 commands, 0 downloads; first_seen 2026-09-04T04:41:58.202096Z, last_seen 2026-09-04T04:42:14.754324Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "e86354cf-745d-522a-9cb9-f41cf0af6d9f",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "77.52.209.193",
+        "timestamp": "1788568212",
+        "comment": "executed_commands, confidence medium; 1 sessions, 3 commands, 0 downloads; first_seen 2026-09-04T20:57:41.296480Z, last_seen 2026-09-04T20:57:58.709276Z; expires 7d after last_seen"
       },
       {
         "uuid": "910436d3-7b53-5686-b092-5183de4bc739",
@@ -46,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enable",
-        "timestamp": "1788523213",
+        "timestamp": "1788568212",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox",
-        "timestamp": "1788523213",
+        "timestamp": "1788568212",
         "comment": "command run by this campaign"
       },
       {
@@ -64,7 +73,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /proc && cat self/cmdline",
-        "timestamp": "1788523213",
+        "timestamp": "1788568212",
         "comment": "command run by this campaign"
       }
     ]
