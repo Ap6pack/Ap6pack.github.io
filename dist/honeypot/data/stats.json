@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.0",
   "generated_at": "2026-09-05T09:00:13.518779+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
   "last_event": "2026-09-05T08:59:57.706276Z",
@@ -8,63 +9,63 @@
   "login_attempts": 103998,
   "login_success": 102164,
   "commands_run": 222028,
-  "files_captured": 13,
+  "files_captured": 20,
   "top_usernames": [
     [
       "root",
-      93109
+      1923
     ],
     [
       "admin",
-      5671
+      780
     ],
     [
       "enable\\x00",
-      1725
+      407
     ],
     [
       "support",
-      1086
-    ],
-    [
-      "user",
-      650
-    ],
-    [
-      "guest",
-      440
-    ],
-    [
-      "ubnt",
-      240
+      130
     ],
     [
       "default",
-      98
+      88
+    ],
+    [
+      "user",
+      82
     ],
     [
       "test",
-      77
+      74
     ],
     [
       "debian",
-      70
+      63
     ],
     [
       "supervisor",
-      65
+      63
+    ],
+    [
+      "guest",
+      61
+    ],
+    [
+      "ubnt",
+      52
     ],
     [
       "blank",
-      41
-    ],
-    [
-      "operator",
       34
     ],
     [
+      "operator",
+      33
+    ],
+    [
       "nobody",
-      32
+      31
     ],
     [
       "unknown",
@@ -74,63 +75,63 @@
   "top_passwords": [
     [
       "admin",
-      3330
-    ],
-    [
-      "xc3511",
-      2022
-    ],
-    [
-      "vizxv",
-      1780
+      532
     ],
     [
       "linuxshell\\x00",
-      1724
-    ],
-    [
-      "",
-      1422
+      406
     ],
     [
       "123456",
-      1259
+      306
+    ],
+    [
+      "root",
+      245
+    ],
+    [
+      "",
+      90
+    ],
+    [
+      "vizxv",
+      72
+    ],
+    [
+      "xc3511",
+      58
     ],
     [
       "password",
-      1212
+      55
     ],
     [
-      "888888",
-      1211
-    ],
-    [
-      "12345",
-      1009
-    ],
-    [
-      "xmhdipc",
-      1005
+      "1234",
+      51
     ],
     [
       "support",
-      991
+      41
     ],
     [
       "juantech",
-      986
-    ],
-    [
-      "1111",
-      964
+      40
     ],
     [
       "default",
-      956
+      37
     ],
     [
-      "54321",
-      949
+      "12345",
+      35
+    ],
+    [
+      "1111",
+      27
+    ],
+    [
+      "xmhdipc",
+      26
     ]
   ],
   "event_breakdown": {
@@ -245,5 +246,70 @@
       "date": "2026-09-05",
       "count": 1857
     }
-  ]
+  ],
+  "published": {
+    "sessions": 10571,
+    "source_ips": 3767,
+    "login_attempts": 4413,
+    "login_success": 3899,
+    "commands_run": 22705,
+    "sessions_logged_in": 3899,
+    "sessions_with_commands": 2503,
+    "sessions_with_download": 647,
+    "share_of_sessions": 0.097
+  },
+  "weighting": {
+    "schema_version": "1.0",
+    "rule": {
+      "max_commands_per_session": 1,
+      "max_avg_duration_ms": 5000,
+      "max_downloads": 0
+    },
+    "clustered_sessions": 100625,
+    "ips": {
+      "observed": 3767,
+      "attempted_login": 1873,
+      "ran_command": 913,
+      "delivered_payload": 244,
+      "published": {
+        "observed": 3767,
+        "attempted_login": 1647,
+        "ran_command": 681,
+        "delivered_payload": 172
+      }
+    },
+    "recon": {
+      "clusters": 9,
+      "sessions": 73757,
+      "ip_count_sum": 21,
+      "share_of_clustered_sessions": 0.733
+    },
+    "attack": {
+      "clusters": 116,
+      "sessions": 26868,
+      "ip_count_sum": 968
+    },
+    "dominance": [
+      {
+        "metric": "sessions",
+        "label": "sessions in a behaviour cluster",
+        "total": 100625,
+        "top_label": "eafdc691c2945a06",
+        "top_value": 73624,
+        "top_share": 0.7317,
+        "top_sources": 5,
+        "sources_total": 3767
+      },
+      {
+        "metric": "attack_techniques",
+        "label": "commands tagged with an ATT&CK technique",
+        "total": 81343,
+        "top_label": "T1027",
+        "top_value": 75627,
+        "top_share": 0.9297,
+        "top_sources": 195,
+        "sources_total": 3767
+      }
+    ]
+  }
 }
