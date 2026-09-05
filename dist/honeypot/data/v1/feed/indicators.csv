@@ -1154,7 +1154,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 179.64.37.112,2026-08-25T00:22:45.060453Z,2026-08-25T00:23:05.711645Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,"SpaceX Services, Inc.",spacex.com,false,0
 179.8.0.249,2026-08-25T01:58:25.801682Z,2026-08-25T01:59:21.803279Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Chile,TELEFÓNICA CHILE S.A.,telefonicachile.cl,false,94
 179.9.131.51,2026-08-24T01:32:01.661623Z,2026-08-24T01:32:01.662964Z,2,0,0,0,low,connected_only,false,false,,7,Chile,TELEFÓNICA CHILE S.A.,telefonicachile.cl,false,48
-179.96.158.81,2026-08-29T05:07:19.841493Z,2026-08-29T05:07:37.598225Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Brazil,Life Tecnologia Ltda.,life.com.br,false,5
+179.96.158.81,2026-08-29T05:07:19.841493Z,2026-08-29T05:07:37.598225Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Brazil,Life Tecnologia Ltda.,life.com.br,false,5
 18.116.101.220,2026-08-18T10:14:31.907750Z,2026-08-31T05:47:50.491378Z,11,0,0,0,medium,persistent,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 18.206.124.95,2026-08-20T22:20:33.993948Z,2026-08-20T22:20:34.005003Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 18.218.118.203,2026-08-19T12:46:19.552123Z,2026-09-05T00:29:13.637923Z,21,0,0,0,medium,persistent,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
@@ -2298,7 +2298,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 216.244.245.218,2026-08-25T11:44:26.342367Z,2026-08-25T11:44:28.990049Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
 216.244.247.34,2026-08-21T20:38:09.861081Z,2026-08-21T20:38:54.522223Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Argentina,Sinectis S.A.,sion.com,false,100
 216.244.250.186,2026-08-23T00:47:39.844365Z,2026-08-23T00:48:24.323286Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Argentina,Sinectis S.A.,sion.com,false,100
-216.57.110.81,2026-08-29T05:25:16.484305Z,2026-08-29T05:25:17.161417Z,1,1,0,0,low,single_sighting,false,true,,7,The Netherlands,"Timeweb, LLP",timewebcloud.kz,false,100
+216.57.110.81,2026-08-29T05:25:16.484305Z,2026-08-29T05:25:17.161417Z,1,1,0,0,low,single_sighting,false,false,,7,The Netherlands,"Timeweb, LLP",timewebcloud.kz,false,100
 217.113.30.183,2026-08-21T20:56:38.041229Z,2026-08-21T20:57:00.190176Z,2,0,0,0,low,connected_only,false,false,,7,Armenia,LIR LLC,lir.am,false,0
 217.131.79.154,2026-08-21T17:40:42.329324Z,2026-08-21T17:40:42.330153Z,1,0,0,0,low,single_sighting,false,false,,7,Türkiye,SOLNET-BB-VAE-Anadolu,turkcell.com.tr,false,4
 217.137.173.9,2026-09-03T14:35:57.674297Z,2026-09-03T14:36:35.774402Z,1,1,5,0,medium,executed_commands,false,true,d1f4ada12ead12a1,7,United Kingdom,NEW MALDEN,virginmediao2.co.uk,false,100
@@ -2540,8 +2540,8 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 35.144.89.128,2026-08-29T00:03:54.854018Z,2026-08-29T00:04:35.684520Z,2,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications LLC,charter.com,false,100
 35.147.104.135,2026-08-31T15:57:40.405733Z,2026-08-31T16:02:10.110986Z,2,0,0,0,low,connected_only,false,true,,7,United States,Charter Communications LLC,charter.com,false,100
 35.147.117.234,2026-08-31T14:45:58.462760Z,2026-08-31T14:50:33.491536Z,3,0,0,0,low,connected_only,false,true,,7,United States,Charter Communications LLC,charter.com,false,100
-35.164.77.251,2026-08-29T05:17:10.315702Z,2026-08-29T05:17:10.453829Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Amazon.com, Inc.",amazon.com,false,1
-35.169.203.108,2026-08-29T05:20:21.211959Z,2026-08-29T05:20:22.739437Z,1,0,0,0,low,single_sighting,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,12
+35.164.77.251,2026-08-29T05:17:10.315702Z,2026-08-29T05:17:10.453829Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Amazon.com, Inc.",amazon.com,false,1
+35.169.203.108,2026-08-29T05:20:21.211959Z,2026-08-29T05:20:22.739437Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,12
 35.187.184.229,2026-08-26T04:28:37.526346Z,2026-08-26T04:29:18.943675Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,62
 35.202.9.133,2026-08-20T11:38:00.961233Z,2026-08-31T06:14:13.171245Z,2,0,0,0,low,connected_only,false,true,,7,United States,Google LLC,google.com,false,100
 35.203.210.126,2026-09-01T03:45:32.272780Z,2026-09-01T03:45:42.197369Z,1,0,0,0,low,single_sighting,false,true,,7,United Kingdom,Google LLC,google.com,false,0
@@ -2659,7 +2659,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 39.98.202.253,2026-08-30T00:21:42.626484Z,2026-08-30T00:21:56.403661Z,2,0,0,0,low,connected_only,false,true,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
 39.99.32.133,2026-09-01T07:09:56.944086Z,2026-09-01T07:13:11.745960Z,2,0,0,0,low,connected_only,false,true,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
 4.148.17.65,2026-09-03T17:07:18.809683Z,2026-09-03T17:07:18.982531Z,2,0,0,0,low,connected_only,false,true,,7,United States,Microsoft Corporation,microsoft.com,false,100
-40.119.35.164,2026-08-29T05:24:10.971200Z,2026-08-29T05:24:11.081165Z,2,0,0,0,low,connected_only,false,true,,7,United States,Microsoft Corporation,microsoft.com,false,100
+40.119.35.164,2026-08-29T05:24:10.971200Z,2026-08-29T05:24:11.081165Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Corporation,microsoft.com,false,100
 40.119.44.33,2026-09-04T02:44:34.374498Z,2026-09-04T02:44:34.477474Z,2,0,0,0,low,connected_only,false,true,,7,United States,Microsoft Corporation,microsoft.com,false,100
 40.124.169.129,2026-08-31T19:49:17.631321Z,2026-08-31T19:49:17.796547Z,2,0,0,0,low,connected_only,false,true,,7,United States,Microsoft Corporation,microsoft.com,false,100
 40.74.208.138,2026-08-26T08:34:11.356998Z,2026-08-26T08:34:21.469556Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Corporation,microsoft.com,false,100
@@ -3219,7 +3219,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 71.175.203.149,2026-08-28T00:20:03.703684Z,2026-08-28T00:23:39.695714Z,3,0,0,0,low,connected_only,false,false,,7,United States,Verizon Business,verizon.com,false,100
 71.183.42.72,2026-08-18T21:07:48.757221Z,2026-08-20T22:49:57.320811Z,2,0,0,0,low,connected_only,false,false,,7,United States,Verizon Business,verizon.com,false,100
 71.187.101.250,2026-08-28T16:05:44.328373Z,2026-08-28T16:05:55.227533Z,1,1,22,11,low,delivered_payload,false,false,5af2de096f0bf35a,7,United States,Verizon Business,verizon.com,false,100
-71.56.186.233,2026-08-29T05:09:10.781016Z,2026-08-29T05:14:33.651763Z,2,0,0,0,low,connected_only,false,true,,7,United States,"Comcast Cable Communications Holdings, Inc",comcast.net,false,100
+71.56.186.233,2026-08-29T05:09:10.781016Z,2026-08-29T05:14:33.651763Z,2,0,0,0,low,connected_only,false,false,,7,United States,"Comcast Cable Communications Holdings, Inc",comcast.net,false,100
 71.6.199.87,2026-08-25T15:32:22.238481Z,2026-08-31T09:32:34.622758Z,2,0,0,0,low,connected_only,false,true,,7,United States,"CariNet, Inc.",cari.net,false,100
 71.72.238.26,2026-08-27T07:19:42.092047Z,2026-08-27T07:26:26.824564Z,3,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications Inc,charter.com,false,65
 71.90.30.53,2026-08-18T22:18:55.998505Z,2026-08-31T08:27:29.100625Z,5,1,0,0,low,connected_only,false,true,,7,United States,Charter Communications LLC,charter.com,false,100
@@ -3696,7 +3696,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 94.231.206.254,2026-08-20T09:56:23.853191Z,2026-09-03T09:32:27.371921Z,2,0,0,0,low,connected_only,false,true,,7,China,FR ONYPHE,onyphe.io,false,0
 94.231.206.37,2026-08-23T13:45:11.799983Z,2026-08-23T13:45:11.874515Z,1,0,0,0,low,single_sighting,false,false,,7,China,FR ONYPHE,onyphe.io,false,0
 94.231.206.8,2026-08-23T13:48:19.311989Z,2026-08-23T13:48:23.207520Z,1,0,0,0,low,single_sighting,false,false,,7,China,FR ONYPHE,onyphe.io,false,0
-94.241.213.176,2026-08-29T05:17:48.721222Z,2026-08-29T05:18:07.257027Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,PJSC Rostelecom,rt.ru,false,95
+94.241.213.176,2026-08-29T05:17:48.721222Z,2026-08-29T05:18:07.257027Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,PJSC Rostelecom,rt.ru,false,95
 94.243.10.50,2026-09-02T01:50:26.512246Z,2026-09-02T01:55:28.458452Z,15,0,0,0,medium,persistent,false,true,,7,Russia,MTS PJSC,mts.ru,false,53
 94.243.11.241,2026-08-27T12:50:33.994982Z,2026-08-27T12:56:02.115885Z,17,0,0,0,medium,persistent,false,false,,7,Russia,MTS PJSC,mts.ru,false,50
 94.243.15.242,2026-09-02T14:33:29.527230Z,2026-09-02T14:37:14.184190Z,9,0,0,0,medium,persistent,false,true,,7,Russia,MTS PJSC,mts.ru,false,44
