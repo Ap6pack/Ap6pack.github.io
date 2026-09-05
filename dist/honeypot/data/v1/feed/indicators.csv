@@ -360,7 +360,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 117.158.160.42,2026-09-03T11:22:56.742145Z,2026-09-03T11:23:05.723535Z,1,1,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 117.158.166.73,2026-08-26T07:43:33.833584Z,2026-08-26T07:43:42.216579Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 117.177.235.249,2026-08-31T21:01:00.913568Z,2026-08-31T21:02:00.610209Z,1,0,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
-117.182.249.190,2026-08-29T03:52:24.508381Z,2026-08-29T03:52:53.768993Z,1,1,10,0,medium,executed_commands,false,true,597732d320c38002,7,China,China Mobile Communications Corporation,chinamobile.com,false,5
+117.182.249.190,2026-08-29T03:52:24.508381Z,2026-08-29T03:52:53.768993Z,1,1,10,0,low,executed_commands,false,false,597732d320c38002,7,China,China Mobile Communications Corporation,chinamobile.com,false,5
 117.191.83.250,2026-08-26T11:52:33.256677Z,2026-09-01T22:33:01.461447Z,2,1,0,0,low,connected_only,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 117.198.99.18,2026-09-04T10:22:37.715261Z,2026-09-04T10:22:45.546935Z,1,1,0,0,low,single_sighting,false,true,,7,India,"Broadband Multiplay Project, O/o DGM BB, NOC BSNL Bangalore",bsnl.in,false,100
 117.202.118.255,2026-09-03T06:20:05.929421Z,2026-09-03T06:20:14.592130Z,1,1,0,0,low,single_sighting,false,true,,7,India,"Broadband Multiplay Project, O/o DGM BB, NOC BSNL Bangalore",bsnl.in,false,42
@@ -3487,7 +3487,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 86.161.32.64,2026-08-20T17:24:40.766461Z,2026-08-20T17:24:42.326117Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,BT Infrastructure Layer,bt.com,false,16
 86.163.93.64,2026-08-25T01:34:05.123719Z,2026-08-25T01:34:06.760854Z,1,1,5,0,low,executed_commands,false,false,e1b6265ef842ac4f,7,United Kingdom,BT Infrastructure Layer,bt.com,false,100
 86.176.241.215,2026-08-26T05:46:00.245901Z,2026-08-26T05:47:57.927527Z,3,0,0,0,low,connected_only,false,false,,7,United Kingdom,BT CENTRAL PLUS,bt.com,false,34
-86.204.85.115,2026-08-29T03:40:17.640833Z,2026-08-29T03:40:39.744287Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,France,Orange S.A.,orange.com,false,59
+86.204.85.115,2026-08-29T03:40:17.640833Z,2026-08-29T03:40:39.744287Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,France,Orange S.A.,orange.com,false,59
 86.208.186.150,2026-08-27T22:43:10.871144Z,2026-08-27T22:43:27.396162Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,France,Orange S.A.,orange.com,false,58
 86.239.184.33,2026-08-29T13:12:08.950915Z,2026-08-29T13:14:53.663681Z,2,0,0,0,low,connected_only,false,true,,7,France,Orange S.A.,orange.com,false,100
 86.62.14.103,2026-09-03T23:52:09.489304Z,2026-09-03T23:52:28.311259Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,Telecom Samara LLC,tktelecom.ru,false,36
