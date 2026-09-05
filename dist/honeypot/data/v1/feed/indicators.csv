@@ -698,7 +698,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 143.255.87.171,2026-08-23T21:32:58.800779Z,2026-08-23T21:33:52.168973Z,3,0,0,0,low,connected_only,false,false,,7,Venezuela,VIGINET C.A,vnet.com.ve,false,15
 143.255.87.174,2026-08-23T21:33:52.154748Z,2026-08-23T21:33:52.166748Z,1,0,0,0,low,single_sighting,false,false,,7,Venezuela,VIGINET C.A,vnet.com.ve,false,17
 144.123.77.105,2026-08-18T18:07:27.166141Z,2026-08-18T18:07:27.430139Z,1,0,0,0,low,single_sighting,false,false,,7,China,CHINANET SHANDONG PROVINCE NETWORK,chinatelecom.cn,false,58
-144.124.192.13,2026-08-29T13:33:07.106146Z,2026-08-29T13:33:37.769595Z,2,0,0,0,low,connected_only,false,true,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,79
+144.124.192.13,2026-08-29T13:33:07.106146Z,2026-08-29T13:33:37.769595Z,2,0,0,0,low,connected_only,false,false,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,79
 144.124.192.5,2026-08-30T02:56:45.939549Z,2026-08-30T02:56:45.940826Z,1,0,0,0,low,single_sighting,false,true,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,79
 144.124.192.76,2026-08-31T09:28:52.374060Z,2026-08-31T09:28:53.510456Z,1,0,0,0,low,single_sighting,false,true,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,53
 144.124.196.86,2026-08-28T15:12:16.785499Z,2026-08-28T15:12:33.426143Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,100
@@ -2109,7 +2109,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 200.59.88.128,2026-08-22T14:24:00.400790Z,2026-08-27T19:49:27.966341Z,2,2,20,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.88.140,2026-08-19T19:29:37.155297Z,2026-08-19T19:30:21.861017Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.88.169,2026-08-29T19:16:42.576530Z,2026-08-29T19:16:46.488401Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
-200.59.88.17,2026-08-29T13:41:38.779429Z,2026-08-29T13:41:41.420712Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
+200.59.88.17,2026-08-29T13:41:38.779429Z,2026-08-29T13:41:41.420712Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.88.182,2026-08-31T08:20:13.571871Z,2026-09-04T02:07:13.635074Z,2,2,41,5,high,delivered_payload,false,true,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.88.185,2026-09-01T16:44:38.616965Z,2026-09-01T16:46:03.512924Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.88.191,2026-08-22T17:00:41.244817Z,2026-08-24T15:29:27.906559Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Sinectis S.A.,sion.com,false,100
@@ -2560,7 +2560,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 27.81.149.5,2026-09-05T10:47:34.380816Z,2026-09-05T10:48:15.913571Z,3,0,0,0,low,connected_only,false,true,,7,Japan,KDDI CORPORATION,kddi.com,false,52
 3.129.187.38,2026-08-18T08:06:51.182510Z,2026-09-04T12:38:43.831903Z,19,0,0,0,medium,persistent,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 3.130.168.2,2026-08-18T16:24:51.245367Z,2026-09-05T12:08:33.010689Z,19,0,0,0,medium,persistent,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
-3.131.220.121,2026-08-29T00:27:33.610202Z,2026-08-29T13:47:03.027917Z,4,0,0,0,low,connected_only,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
+3.131.220.121,2026-08-29T00:27:33.610202Z,2026-08-29T13:47:03.027917Z,4,0,0,0,low,connected_only,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 3.139.89.38,2026-08-26T23:23:02.602300Z,2026-08-26T23:23:43.694090Z,2,0,0,0,low,connected_only,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,29
 3.83.162.99,2026-08-17T22:21:48.479308Z,2026-08-17T22:21:48.487839Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
 3.90.104.12,2026-09-03T22:17:58.708241Z,2026-09-03T22:17:58.741826Z,1,0,0,0,low,single_sighting,false,true,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
