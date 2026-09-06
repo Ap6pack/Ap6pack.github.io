@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-06T11:00:12.446904+00:00",
+  "generated_at": "2026-09-06T11:30:12.410141+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-06T10:50:31.116104Z",
-  "total_events": 941479,
-  "unique_sessions": 110090,
-  "unique_source_ips": 4096,
-  "login_attempts": 104854,
-  "login_success": 102982,
-  "commands_run": 225912,
+  "last_event": "2026-09-06T11:29:11.476341Z",
+  "total_events": 941563,
+  "unique_sessions": 110105,
+  "unique_source_ips": 4102,
+  "login_attempts": 104863,
+  "login_success": 102991,
+  "commands_run": 225928,
   "files_captured": 20,
   "top_usernames": [
     [
@@ -135,20 +135,20 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 225912,
-    "cowrie.session.connect": 110090,
-    "cowrie.session.closed": 109414,
-    "cowrie.login.success": 102982,
-    "cowrie.session.params": 101463,
-    "cowrie.log.closed": 100797,
-    "cowrie.client.version": 75998,
-    "cowrie.client.kex": 75783,
-    "cowrie.telnet.option": 30141,
+    "cowrie.command.input": 225928,
+    "cowrie.session.connect": 110105,
+    "cowrie.session.closed": 109429,
+    "cowrie.login.success": 102991,
+    "cowrie.session.params": 101464,
+    "cowrie.log.closed": 100798,
+    "cowrie.client.version": 76007,
+    "cowrie.client.kex": 75792,
+    "cowrie.telnet.option": 30142,
     "cowrie.command.success": 2977,
     "cowrie.login.failed": 1872,
     "cowrie.session.file_download": 1454,
-    "cowrie.direct-tcpip.request": 1378,
-    "cowrie.session.file_download.failed": 1063,
+    "cowrie.direct-tcpip.request": 1385,
+    "cowrie.session.file_download.failed": 1064,
     "cowrie.client.var": 34,
     "cowrie.telnet.exploit_attempt": 25,
     "cowrie.client.malformed_packet": 24,
@@ -248,7 +248,7 @@
     },
     {
       "date": "2026-09-06",
-      "count": 3470
+      "count": 3554
     }
   ],
   "published": {
@@ -307,10 +307,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 82357,
+        "total": 82381,
         "top_label": "T1027",
         "top_value": 76087,
-        "top_share": 0.9239,
+        "top_share": 0.9236,
         "top_sources": 215,
         "sources_total": 4022
       }
