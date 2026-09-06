@@ -2232,7 +2232,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 201.220.17.248,2026-08-21T22:59:51.431763Z,2026-08-21T23:00:13.531905Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,MADACOM SRL,fiberfly.com.ar,false,55
 201.220.18.86,2026-08-21T11:10:14.056895Z,2026-08-21T11:10:17.949190Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,MADACOM SRL,fiberfly.com.ar,false,68
 201.221.105.131,2026-08-26T04:31:33.803264Z,2026-08-26T04:31:36.145842Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
-201.221.105.43,2026-08-26T17:14:29.518968Z,2026-08-30T05:28:10.904761Z,2,2,20,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
+201.221.105.43,2026-08-26T17:14:29.518968Z,2026-08-30T05:28:10.904761Z,2,2,20,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
 201.221.108.136,2026-09-05T16:19:14.495408Z,2026-09-05T16:20:39.099355Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,100
 201.221.108.209,2026-08-21T02:33:49.209063Z,2026-08-21T02:33:51.711019Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,46
 201.222.206.102,2026-08-27T17:50:17.316930Z,2026-08-27T17:50:59.478067Z,2,0,0,0,low,connected_only,false,false,,7,Chile,TELEFÓNICA CHILE S.A.,telefonicachile.cl,false,100
@@ -2240,7 +2240,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 201.239.183.109,2026-08-19T00:46:57.871122Z,2026-08-30T02:32:11.735236Z,3,2,328,14,low,delivered_payload,false,false,c6eec46f1fadc9f4,7,Chile,VTR BANDA ANCHA S.A.,vtr.com,false,100
 201.239.197.192,2026-08-24T04:08:00.792564Z,2026-08-24T04:09:59.263766Z,1,1,233,5,low,delivered_payload,false,false,e1f24c90ef18e447,7,Chile,VTR BANDA ANCHA S.A.,vtr.com,false,100
 201.246.202.171,2026-08-29T01:07:29.971932Z,2026-08-29T01:07:48.480832Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Chile,TELEFÓNICA CHILE S.A.,telefonicachile.cl,false,5
-201.246.92.80,2026-08-30T05:07:28.491873Z,2026-08-30T05:07:49.706021Z,3,0,0,0,low,connected_only,false,true,,7,Chile,TELEFÓNICA CHILE S.A.,telefonicachile.cl,false,50
+201.246.92.80,2026-08-30T05:07:28.491873Z,2026-08-30T05:07:49.706021Z,3,0,0,0,low,connected_only,false,false,,7,Chile,TELEFÓNICA CHILE S.A.,telefonicachile.cl,false,50
 201.249.211.6,2026-08-30T06:24:26.553874Z,2026-08-30T06:24:26.554698Z,1,0,0,0,low,single_sighting,false,true,,7,Venezuela,"CANTV Servicios, Venezuela",cantv.net,false,35
 201.252.116.120,2026-08-18T14:58:54.168746Z,2026-08-18T15:00:07.390719Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Apolo -Gold-Telecom-Per,telecom.net.ar,false,79
 201.254.119.77,2026-08-24T01:58:28.982022Z,2026-08-24T01:58:46.843318Z,1,1,2,0,low,executed_commands,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,5
@@ -3798,7 +3798,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 91.196.152.168,2026-08-23T14:51:12.596160Z,2026-08-23T14:51:19.667632Z,1,0,0,0,low,single_sighting,false,false,,7,France,FR ONYPHE,onyphe.io,false,0
 91.196.231.118,2026-08-26T23:49:45.723298Z,2026-08-26T23:50:05.443089Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,Sergey Kus,expres.net.ua,false,89
 91.196.231.233,2026-08-28T15:55:50.526321Z,2026-08-28T15:56:10.452176Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,Sergey Kus,expres.net.ua,false,95
-91.198.249.99,2026-08-30T05:06:48.848333Z,2026-08-30T05:07:06.578244Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,RPC HomeNet Ltd.,homenet.ua,false,34
+91.198.249.99,2026-08-30T05:06:48.848333Z,2026-08-30T05:07:06.578244Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,RPC HomeNet Ltd.,homenet.ua,false,34
 91.203.12.212,2026-08-29T20:42:18.753978Z,2026-08-29T20:42:40.065779Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,Osnova-Internet LLC,osnova.tv,false,5
 91.203.63.170,2026-08-22T13:06:38.571659Z,2026-08-22T13:06:46.513151Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,Ukrchermetavtomatika LLC,dts.net.ua,false,23
 91.205.161.103,2026-08-26T05:18:30.208725Z,2026-08-26T05:18:47.083543Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,Teletext-Plus Ltd.,tltinet.ru,false,58
@@ -3820,7 +3820,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 91.221.6.110,2026-09-02T02:14:04.333956Z,2026-09-02T02:14:04.334732Z,1,0,0,0,low,single_sighting,false,true,,7,Ukraine,Antipov Oleg,faitid.org,false,30
 91.221.6.148,2026-09-04T02:21:11.233130Z,2026-09-04T02:21:28.451925Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Antipov Oleg,faitid.org,false,39
 91.225.143.95,2026-08-19T16:08:21.087119Z,2026-08-19T16:08:38.553617Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,FOP Lisovskiy Dmitro Sergiyovich,u-net.com.ua,false,0
-91.225.162.181,2026-08-30T05:06:00.161788Z,2026-08-30T05:06:17.411447Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,SPD Chernega Aleksandr Anatolevich,flycom.ua,false,100
+91.225.162.181,2026-08-30T05:06:00.161788Z,2026-08-30T05:06:17.411447Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,SPD Chernega Aleksandr Anatolevich,flycom.ua,false,100
 91.225.162.205,2026-08-25T12:36:38.542487Z,2026-08-25T12:36:57.219248Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,SPD Chernega Aleksandr Anatolevich,flycom.ua,false,45
 91.225.162.22,2026-08-27T21:35:42.568997Z,2026-08-27T21:35:42.569721Z,1,0,0,0,low,single_sighting,false,false,,7,Ukraine,SPD Chernega Aleksandr Anatolevich,flycom.ua,false,77
 91.225.162.38,2026-08-29T18:44:29.253855Z,2026-08-29T19:02:32.564244Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,SPD Chernega Aleksandr Anatolevich,flycom.ua,false,100
