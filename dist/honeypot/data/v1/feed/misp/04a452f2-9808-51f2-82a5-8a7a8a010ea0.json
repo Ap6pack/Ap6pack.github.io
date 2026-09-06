@@ -1,8 +1,8 @@
 {
   "Event": {
     "uuid": "04a452f2-9808-51f2-82a5-8a7a8a010ea0",
-    "info": "Sundew honeypot - campaign 385d83c7eadf (2 sources) - enable",
-    "date": "2026-09-02",
+    "info": "Sundew honeypot - campaign 385d83c7eadf (3 sources) - enable",
+    "date": "2026-09-06",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -23,12 +23,21 @@
     ],
     "Attribute": [
       {
+        "uuid": "ddf69532-d075-5942-8350-1c7f2df8a3e9",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "37.112.53.107",
+        "timestamp": "1788703212",
+        "comment": "executed_commands, confidence medium; 2 sessions, 10 commands, 0 downloads; first_seen 2026-09-06T13:49:41.124841Z, last_seen 2026-09-06T13:49:54.431272Z; expires 7d after last_seen"
+      },
+      {
         "uuid": "920ddeb1-c411-55e7-a91c-70831da7036e",
         "type": "ip-src",
         "category": "Network activity",
         "to_ids": false,
         "value": "5.29.245.112",
-        "timestamp": "1788375614",
+        "timestamp": "1788703212",
         "comment": "persistent, confidence medium; 9 sessions, 45 commands, 0 downloads; first_seen 2026-08-26T18:14:50.414272Z, last_seen 2026-08-26T18:49:50.764761Z; expires 7d after last_seen"
       },
       {
@@ -37,7 +46,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "69.123.212.27",
-        "timestamp": "1788375614",
+        "timestamp": "1788703212",
         "comment": "persistent, confidence medium; 23 sessions, 108 commands, 0 downloads; first_seen 2026-08-25T13:36:09.355674Z, last_seen 2026-08-25T15:57:17.403715Z; expires 7d after last_seen"
       },
       {
@@ -46,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enable",
-        "timestamp": "1788375614",
+        "timestamp": "1788703212",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1788375614",
+        "timestamp": "1788703212",
         "comment": "command run by this campaign"
       },
       {
@@ -64,7 +73,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1788375614",
+        "timestamp": "1788703212",
         "comment": "command run by this campaign"
       },
       {
@@ -73,7 +82,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1788375614",
+        "timestamp": "1788703212",
         "comment": "command run by this campaign"
       },
       {
@@ -82,7 +91,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox LZRD",
-        "timestamp": "1788375614",
+        "timestamp": "1788703212",
         "comment": "command run by this campaign"
       }
     ]
