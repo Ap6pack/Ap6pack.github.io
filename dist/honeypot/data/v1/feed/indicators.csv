@@ -726,7 +726,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 14.32.244.233,2026-09-02T00:29:57.798222Z,2026-09-02T00:30:06.193799Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 14.33.95.62,2026-09-05T21:16:57.788594Z,2026-09-05T21:17:07.722668Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 14.36.38.211,2026-08-25T05:00:03.665578Z,2026-08-25T05:00:21.588089Z,1,1,20,11,low,delivered_payload,false,false,1c70a80f2e2e5969,7,South Korea,Korea Telecom,kt.com,false,100
-14.41.26.141,2026-08-31T16:38:55.061517Z,2026-08-31T16:39:04.370198Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+14.41.26.141,2026-08-31T16:38:55.061517Z,2026-08-31T16:39:04.370198Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 14.46.30.239,2026-09-05T15:14:50.913126Z,2026-09-05T15:15:00.708125Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 14.47.61.251,2026-09-03T12:03:08.591072Z,2026-09-03T12:03:17.965915Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 14.48.246.33,2026-09-02T22:10:54.468039Z,2026-09-02T22:11:03.997824Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
@@ -1552,7 +1552,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 184.148.220.64,2026-09-01T20:31:47.689294Z,2026-09-01T20:32:05.386922Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Canada,Bell Canada,bell.ca,false,74
 184.152.45.246,2026-09-04T03:43:12.827131Z,2026-09-04T03:43:38.145726Z,3,0,0,0,low,connected_only,false,true,,7,United States,Charter Communications Inc,charter.com,false,100
 184.181.217.198,2026-09-05T03:28:55.166665Z,2026-09-05T03:30:55.253334Z,1,0,0,0,low,single_sighting,false,true,,7,United States,Cox Communications,cox.com,false,55
-184.22.164.225,2026-08-31T16:30:03.990449Z,2026-08-31T16:30:31.556463Z,2,0,0,0,low,connected_only,false,true,,7,Thailand,AIS Fibre,ais.th,false,4
+184.22.164.225,2026-08-31T16:30:03.990449Z,2026-08-31T16:30:31.556463Z,2,0,0,0,low,connected_only,false,false,,7,Thailand,AIS Fibre,ais.th,false,4
 184.23.20.134,2026-09-03T21:54:45.997813Z,2026-09-03T21:56:08.585889Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,United States,"Sonic.net, Inc.",sonic.com,false,24
 184.69.9.98,2026-09-04T02:37:46.348104Z,2026-09-04T02:37:46.717540Z,1,1,0,0,low,single_sighting,false,true,,7,Canada,Shaw Communications,rogers.com,false,100
 184.69.99.18,2026-09-04T00:28:00.231477Z,2026-09-04T08:03:51.156574Z,2,2,0,0,low,connected_only,false,true,,7,Canada,Shaw Communications,rogers.com,false,100
@@ -2114,7 +2114,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 197.240.127.48,2026-08-19T09:31:41.788195Z,2026-08-19T09:33:22.030957Z,3,0,0,0,low,connected_only,false,false,,7,Tunisia,TOPNET,topnet.tn,false,0
 197.240.37.156,2026-08-19T16:02:01.940139Z,2026-08-19T16:05:20.078665Z,2,0,0,0,low,connected_only,false,false,,7,Tunisia,TOPNET,topnet.tn,false,5
 197.245.83.147,2026-08-22T08:00:28.092962Z,2026-08-22T08:00:44.335857Z,2,0,0,0,low,connected_only,false,false,,7,South Africa,Vox Telecom,vox.co.za,false,50
-197.3.131.213,2026-08-31T16:32:15.284529Z,2026-08-31T16:35:25.878449Z,2,0,0,0,low,connected_only,false,true,,7,Tunisia,ATI - Agence Tunisienne Internet,ati.tn,false,0
+197.3.131.213,2026-08-31T16:32:15.284529Z,2026-08-31T16:35:25.878449Z,2,0,0,0,low,connected_only,false,false,,7,Tunisia,ATI - Agence Tunisienne Internet,ati.tn,false,0
 197.45.94.242,2026-08-26T10:52:48.002429Z,2026-08-26T10:52:51.074164Z,1,1,5,0,low,executed_commands,false,false,f7303c94cf52f8d5,7,Egypt,TE Data,tedata.net,false,16
 197.95.73.34,2026-08-31T23:04:16.165208Z,2026-08-31T23:07:08.170669Z,2,0,0,0,low,connected_only,false,true,,7,South Africa,Dimensiondata Broadband Delegated to WebAfrica,global.ntt,false,85
 198.163.192.224,2026-08-26T19:21:49.518256Z,2026-08-26T19:21:49.758858Z,1,0,0,0,low,single_sighting,false,false,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,10
@@ -4029,7 +4029,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 90.230.212.29,2026-09-02T23:23:30.217988Z,2026-09-06T23:10:37.315239Z,2,2,0,0,low,connected_only,false,true,,7,Sweden,Telia Network Services,telia.net,false,100
 90.241.205.15,2026-08-28T09:10:02.276673Z,2026-08-28T09:10:02.277468Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,Vodafone Limited,vodafone.co.uk,false,46
 90.54.54.121,2026-08-25T06:09:53.809717Z,2026-08-25T06:10:12.104678Z,1,1,2,0,low,executed_commands,false,false,,7,France,Orange S.A.,orange.com,false,69
-90.84.233.15,2026-08-31T16:50:04.184072Z,2026-08-31T16:50:07.324253Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,Romania,Orange Romania,orange.ro,false,100
+90.84.233.15,2026-08-31T16:50:04.184072Z,2026-08-31T16:50:07.324253Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Romania,Orange Romania,orange.ro,false,100
 91.102.177.61,2026-08-28T01:35:53.836335Z,2026-08-28T01:36:51.411308Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,ONE TELECOM ltd,onetelecom.od.ua,false,100
 91.106.244.37,2026-09-05T16:39:03.302277Z,2026-09-05T16:39:19.688988Z,4,0,0,0,low,connected_only,false,true,,7,Türkiye,Vodafone Net Iletisim Hizmetler AS,vodafone.net.tr,false,68
 91.123.148.38,2026-08-22T00:16:30.867645Z,2026-08-22T00:16:47.736414Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,NASHNET LTD,nashnet.ua,false,41
