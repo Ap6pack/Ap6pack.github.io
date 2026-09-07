@@ -1,8 +1,8 @@
 {
   "Event": {
     "uuid": "a07a60f8-790a-5a98-ad90-39340b2258f1",
-    "info": "Sundew honeypot - campaign cdeea28a0da7 (1 sources) - linuxshell",
-    "date": "2026-09-03",
+    "info": "Sundew honeypot - campaign cdeea28a0da7 (2 sources) - linuxshell",
+    "date": "2026-09-07",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -23,12 +23,21 @@
     ],
     "Attribute": [
       {
+        "uuid": "5eb706ce-aa1a-5649-bfd7-54af60eb5b70",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "212.35.184.109",
+        "timestamp": "1788793213",
+        "comment": "executed_commands, confidence medium; 1 sessions, 3 commands, 0 downloads; first_seen 2026-09-07T06:59:00.770109Z, last_seen 2026-09-07T06:59:18.588692Z; expires 7d after last_seen"
+      },
+      {
         "uuid": "92d2d87e-dfcd-59d5-ba87-fafc5927eec5",
         "type": "ip-src",
         "category": "Network activity",
         "to_ids": false,
         "value": "37.45.250.148",
-        "timestamp": "1788433212",
+        "timestamp": "1788793213",
         "comment": "executed_commands, confidence medium; 1 sessions, 3 commands, 0 downloads; first_seen 2026-09-03T07:16:23.370947Z, last_seen 2026-09-03T07:16:42.493256Z; expires 7d after last_seen"
       },
       {
@@ -37,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "linuxshell",
-        "timestamp": "1788433212",
+        "timestamp": "1788793213",
         "comment": "command run by this campaign"
       },
       {
@@ -46,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox",
-        "timestamp": "1788433212",
+        "timestamp": "1788793213",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /proc && cat self/cmdline",
-        "timestamp": "1788433212",
+        "timestamp": "1788793213",
         "comment": "command run by this campaign"
       }
     ]
