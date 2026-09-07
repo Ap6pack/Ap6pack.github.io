@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 82788,
+        "total": 82794,
         "top_label": "T1027",
         "top_value": 76189,
-        "top_share": 0.9203,
+        "top_share": 0.9202,
         "top_sources": 229,
         "sources_total": 4213
       }
@@ -1619,11 +1619,11 @@
     {
       "id": "T1082",
       "name": "System Information Discovery",
-      "count": 224,
-      "distinct_ips": 23,
+      "count": 226,
+      "distinct_ips": 24,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 224,
+      "residual_count": 226,
       "attribution": "none"
     },
     {
@@ -1649,16 +1649,26 @@
     {
       "id": "T1057",
       "name": "Process Discovery",
-      "count": 6,
-      "distinct_ips": 3,
+      "count": 8,
+      "distinct_ips": 4,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 6,
+      "residual_count": 8,
       "attribution": "none"
     },
     {
-      "id": "T1033",
-      "name": "System Owner/User Discovery",
+      "id": "T1685.006",
+      "name": "Clear Linux or Mac System Logs",
+      "count": 5,
+      "distinct_ips": 5,
+      "recon_count": 0,
+      "recon_ips": 0,
+      "residual_count": 5,
+      "attribution": "none"
+    },
+    {
+      "id": "T1016",
+      "name": "System Network Configuration Discovery",
       "count": 4,
       "distinct_ips": 4,
       "recon_count": 0,
@@ -1667,8 +1677,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1685.006",
-      "name": "Clear Linux or Mac System Logs",
+      "id": "T1033",
+      "name": "System Owner/User Discovery",
       "count": 4,
       "distinct_ips": 4,
       "recon_count": 0,
@@ -1689,16 +1699,6 @@
     {
       "id": "T1140",
       "name": "Deobfuscate/Decode Files or Information",
-      "count": 3,
-      "distinct_ips": 3,
-      "recon_count": 0,
-      "recon_ips": 0,
-      "residual_count": 3,
-      "attribution": "none"
-    },
-    {
-      "id": "T1016",
-      "name": "System Network Configuration Discovery",
       "count": 3,
       "distinct_ips": 3,
       "recon_count": 0,
