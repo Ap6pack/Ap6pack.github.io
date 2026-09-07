@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-07T07:00:13.339493+00:00",
+  "generated_at": "2026-09-07T07:30:12.263591+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-07T06:59:59.615728Z",
-  "total_events": 945581,
-  "unique_sessions": 110673,
-  "unique_source_ips": 4244,
-  "login_attempts": 105142,
-  "login_success": 103261,
-  "commands_run": 227381,
+  "last_event": "2026-09-07T07:24:49.158020Z",
+  "total_events": 945599,
+  "unique_sessions": 110676,
+  "unique_source_ips": 4247,
+  "login_attempts": 105143,
+  "login_success": 103262,
+  "commands_run": 227384,
   "files_captured": 21,
   "top_usernames": [
     [
@@ -135,20 +135,20 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 227381,
-    "cowrie.session.connect": 110673,
-    "cowrie.session.closed": 109995,
-    "cowrie.login.success": 103261,
+    "cowrie.command.input": 227384,
+    "cowrie.session.connect": 110676,
+    "cowrie.session.closed": 110000,
+    "cowrie.login.success": 103262,
     "cowrie.session.params": 101652,
-    "cowrie.log.closed": 100985,
-    "cowrie.client.version": 76137,
-    "cowrie.client.kex": 75905,
+    "cowrie.log.closed": 100986,
+    "cowrie.client.version": 76138,
+    "cowrie.client.kex": 75906,
     "cowrie.telnet.option": 30446,
     "cowrie.command.success": 3043,
     "cowrie.login.failed": 1881,
-    "cowrie.direct-tcpip.request": 1466,
+    "cowrie.direct-tcpip.request": 1467,
     "cowrie.session.file_download": 1454,
-    "cowrie.session.file_download.failed": 1142,
+    "cowrie.session.file_download.failed": 1144,
     "cowrie.client.var": 35,
     "cowrie.telnet.exploit_attempt": 26,
     "cowrie.client.malformed_packet": 24,
@@ -252,7 +252,7 @@
     },
     {
       "date": "2026-09-07",
-      "count": 1045
+      "count": 1063
     }
   ],
   "published": {
@@ -311,9 +311,9 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 82784,
+        "total": 82788,
         "top_label": "T1027",
-        "top_value": 76187,
+        "top_value": 76189,
         "top_share": 0.9203,
         "top_sources": 229,
         "sources_total": 4213
