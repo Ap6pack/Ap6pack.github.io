@@ -167,6 +167,11 @@
       "exit_code": 127
     },
     {
+      "command": "Accept-Charset: utf-8",
+      "output": "bash: Accept-Charset: utf-8: command not found\n",
+      "exit_code": 127
+    },
+    {
       "command": "Accept-Encoding: gzip",
       "output": "bash: syntax error near unexpected token `Accept-Encoding'\n",
       "exit_code": 0
