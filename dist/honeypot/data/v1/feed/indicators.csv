@@ -2362,7 +2362,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 201.163.73.93,2026-08-25T04:42:16.634092Z,2026-08-25T04:47:19.376107Z,1,1,0,0,low,single_sighting,false,false,,7,Mexico,"Alestra, S. de R.L. de C.V.",alestra.com.mx,false,100
 201.176.92.16,2026-08-28T22:25:31.990048Z,2026-08-28T22:26:30.247315Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,0
 201.177.68.163,2026-08-21T21:00:01.251826Z,2026-08-21T21:00:26.398375Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,16
-201.180.169.78,2026-08-31T18:06:24.049700Z,2026-08-31T18:06:24.050474Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,0
+201.180.169.78,2026-08-31T18:06:24.049700Z,2026-08-31T18:06:24.050474Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,0
 201.188.179.190,2026-08-29T05:51:06.720201Z,2026-08-29T05:51:36.252377Z,3,0,0,0,low,connected_only,false,false,,7,Chile,TELEFONICA MOVIL DE CHILE S.A.,telefonicamovil.cl,false,16
 201.188.22.26,2026-08-19T02:16:00.100810Z,2026-08-19T02:16:17.338720Z,1,1,2,0,low,executed_commands,false,false,,7,Chile,TELEFONICA MOVIL DE CHILE S.A.,telefonicamovil.cl,false,0
 201.205.241.198,2026-08-24T06:27:05.841645Z,2026-09-03T11:38:54.385574Z,3,1,2,0,medium,executed_commands,false,true,,7,Costa Rica,CARRIZAL,ice.go.cr,false,100
@@ -3402,7 +3402,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 50.223.176.171,2026-08-31T16:29:49.536893Z,2026-08-31T16:29:58.321259Z,1,1,0,0,low,single_sighting,false,false,,7,United States,"Comcast Cable Communications, LLC",comcast.com,false,100
 50.241.134.14,2026-08-18T00:02:19.105580Z,2026-08-18T00:03:08.178241Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,United States,"Comcast Cable Communications, LLC",comcast.com,false,100
 50.25.105.221,2026-08-19T03:46:30.799480Z,2026-08-19T03:46:51.198560Z,1,1,2,0,low,executed_commands,false,false,,7,United States,Optimum,optimum.com,false,98
-50.252.42.142,2026-08-31T18:05:37.259342Z,2026-08-31T18:05:56.703780Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,United States,"Comcast Cable Communications, LLC",comcast.com,false,100
+50.252.42.142,2026-08-31T18:05:37.259342Z,2026-08-31T18:05:56.703780Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,United States,"Comcast Cable Communications, LLC",comcast.com,false,100
 50.42.73.47,2026-08-21T10:06:49.377033Z,2026-08-21T10:08:22.293209Z,2,0,0,0,low,connected_only,false,false,,7,United States,Verizon Business,verizon.com,false,68
 50.62.181.140,2026-08-21T13:43:59.529895Z,2026-08-29T23:47:35.240616Z,6373,6817,30925,0,medium,persistent,false,false,9de50fa38ca0a471,7,United States,"GoDaddy.com, LLC",godaddy.com,false,100
 50.88.100.31,2026-08-21T15:09:29.020321Z,2026-08-21T15:12:15.192531Z,3,0,0,0,low,connected_only,false,false,,7,United States,"Charter Communications, Inc",chartercom.com,false,92
@@ -3516,7 +3516,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 61.220.52.235,2026-08-27T14:07:05.714516Z,2026-08-27T14:07:22.959388Z,1,1,4,0,low,executed_commands,false,false,9754bb025d746115,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,29
 61.221.103.73,2026-08-19T12:35:35.773132Z,2026-08-26T15:16:26.102028Z,5,0,0,0,low,connected_only,false,false,,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,100
 61.221.35.141,2026-09-07T13:48:25.169920Z,2026-09-07T13:48:35.092748Z,1,1,5,0,medium,executed_commands,false,true,d1f4ada12ead12a1,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,100
-61.245.129.41,2026-08-26T02:27:21.909653Z,2026-08-31T18:02:23.692762Z,2,2,0,0,low,connected_only,false,true,,7,Australia,Aussie Broadband,aussiebroadband.com.au,false,100
+61.245.129.41,2026-08-26T02:27:21.909653Z,2026-08-31T18:02:23.692762Z,2,2,0,0,low,connected_only,false,false,,7,Australia,Aussie Broadband,aussiebroadband.com.au,false,100
 61.37.150.6,2026-08-25T04:51:52.723771Z,2026-09-01T09:48:19.388508Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,LG Uplus,lguplus.com,false,100
 61.4.75.15,2026-09-07T01:33:21.063244Z,2026-09-07T01:33:21.066238Z,1,0,0,0,low,single_sighting,false,true,,7,Myanmar,"Yatanarpon Teleport, Internet Service Provider Yangon, Myanmar",teleport.net.mm,false,52
 61.53.153.56,2026-08-18T18:07:44.705785Z,2026-08-18T18:24:12.372976Z,11,13,54,0,medium,persistent,false,false,b93449798a3e479f,7,China,China Unicom Henan province network,chinaunicom.cn,false,1
