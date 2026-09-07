@@ -40,6 +40,41 @@
     "exit_code": 127
   },
   {
+    "command": "./garm selfrep",
+    "output": "bash: ./garm: No such file or directory\n",
+    "exit_code": 127
+  },
+  {
+    "command": "./garm7 selfrep",
+    "output": "./garm7: command not found\n",
+    "exit_code": 127
+  },
+  {
+    "command": "./gmips selfrep",
+    "output": "./gmips: command not found\n",
+    "exit_code": 127
+  },
+  {
+    "command": "./gmpsl selfrep",
+    "output": "./gmpsl: command not found\n",
+    "exit_code": 127
+  },
+  {
+    "command": "./gppc selfrep",
+    "output": "./gppc: command not found\n",
+    "exit_code": 127
+  },
+  {
+    "command": "./gsh4 selfrep",
+    "output": "./gsh4: command not found\n",
+    "exit_code": 127
+  },
+  {
+    "command": "./gspc selfrep",
+    "output": "./gspc: command not found\n",
+    "exit_code": 127
+  },
+  {
     "command": "./pmips",
     "output": "-bash: ./pmips: No such file or directory\n",
     "exit_code": 127
