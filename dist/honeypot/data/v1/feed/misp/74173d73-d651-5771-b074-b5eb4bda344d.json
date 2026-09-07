@@ -1,8 +1,8 @@
 {
   "Event": {
     "uuid": "74173d73-d651-5771-b074-b5eb4bda344d",
-    "info": "Sundew honeypot - campaign 10c639bfac88 (2 sources) - enable",
-    "date": "2026-09-03",
+    "info": "Sundew honeypot - campaign 10c639bfac88 (1 sources) - enable",
+    "date": "2026-09-07",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -23,21 +23,12 @@
     ],
     "Attribute": [
       {
-        "uuid": "da6eb0f4-96b9-5b16-a898-cacd0e8870d9",
-        "type": "ip-src",
-        "category": "Network activity",
-        "to_ids": true,
-        "value": "201.140.220.172",
-        "timestamp": "1788433212",
-        "comment": "delivered_payload, confidence high; 1 sessions, 28 commands, 11 downloads; first_seen 2026-08-31T21:03:41.285645Z, last_seen 2026-08-31T21:03:52.084878Z; expires 7d after last_seen"
-      },
-      {
         "uuid": "be3f456c-e7df-5e4f-82bb-8082729afffe",
         "type": "ip-src",
         "category": "Network activity",
         "to_ids": true,
         "value": "59.97.240.142",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "delivered_payload, confidence high; 1 sessions, 28 commands, 11 downloads; first_seen 2026-09-02T23:05:23.181357Z, last_seen 2026-09-02T23:05:32.488368Z; expires 7d after last_seen"
       },
       {
@@ -46,7 +37,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enable",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -64,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -73,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -82,7 +73,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "linuxshell",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -91,7 +82,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "ping ;sh",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -100,7 +91,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -109,7 +100,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "iptables -F",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -118,7 +109,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox echo > /tmp/.fxcat && sh /tmp/.fxcat && cd /tmp/",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -127,7 +118,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox echo > /var/.fxcat && sh /var/.fxcat && cd /var/",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -136,7 +127,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox echo > /var/run/.fxcat && sh /var/run/.fxcat && cd /var/run/",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -145,7 +136,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox echo > /var/tmp/.fxcat && sh /var/tmp/.fxcat && cd /var/tmp/",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -154,7 +145,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox echo > /dev/.fxcat && sh /dev/.fxcat && cd /dev/",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -163,7 +154,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox echo > /dev/shm/.fxcat && sh /dev/shm/.fxcat && cd /dev/shm/",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -172,7 +163,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox echo > /etc/.fxcat && sh /etc/.fxcat && cd /etc/",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -181,7 +172,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox echo > /mnt/.fxcat && sh /mnt/.fxcat && cd /mnt/",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -190,7 +181,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox echo > /usr/.fxcat && sh /usr/.fxcat && cd /usr/",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -199,7 +190,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox echo > /boot/.fxcat && sh /boot/.fxcat && cd /boot/",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -208,7 +199,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox echo > /home/.fxcat && sh /home/.fxcat && cd /home/",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       },
       {
@@ -217,7 +208,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "for pid in /proc/[0-9]*; do pid_num=\"${pid##*/}\"; if [ -r \"$pid/maps\" ]; then suspicious=true; while IFS= read -r line; do case \"$line\" in *\"/lib/\"*|*\"/lib64/\"*|*\".so\"*) suspicious=false; break;; esac; done < \"$pid/maps\"; if [ \"$suspicious\" = true ]; then kill -9 \"$pid_num\"; fi; fi; done",
-        "timestamp": "1788433212",
+        "timestamp": "1788816613",
         "comment": "command run by this campaign"
       }
     ]
