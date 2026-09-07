@@ -178,7 +178,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 103.99.30.234,2026-09-03T00:39:40.265996Z,2026-09-03T00:40:00.584491Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Myanmar,Asia Pacific Network Information Centre,apnic.net,false,96
 104.137.238.7,2026-08-24T01:50:45.426192Z,2026-08-24T01:50:45.431378Z,2,0,0,0,low,connected_only,false,false,,7,United States,"Charter Communications, Inc",chartercom.com,false,38
 104.152.57.231,2026-09-06T23:05:13.613868Z,2026-09-06T23:05:22.411296Z,1,1,0,0,low,single_sighting,false,true,,7,United States,VOLICO,volico.com,false,100
-104.155.37.1,2026-08-31T14:25:05.279063Z,2026-08-31T14:25:46.688256Z,6,3,8,0,medium,executed_commands,false,true,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,100
+104.155.37.1,2026-08-31T14:25:05.279063Z,2026-08-31T14:25:46.688256Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,100
 104.157.47.144,2026-08-22T21:47:10.629570Z,2026-08-22T21:47:12.214509Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Canada,TELUS-DSL-EDTNABXM,telus.net,false,100
 104.171.247.183,2026-09-02T18:47:41.754725Z,2026-09-05T05:42:00.230200Z,2,0,0,0,low,connected_only,false,true,,7,United States,EPB Fiber Optics,epb.com,false,100
 104.182.1.92,2026-09-03T14:22:30.201491Z,2026-09-05T15:14:49.699753Z,4,0,0,0,low,connected_only,false,true,,7,United States,"AT&T Enterprises, LLC",att.com,false,43
@@ -628,7 +628,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 13.89.125.31,2026-08-17T20:19:44.137167Z,2026-08-17T20:19:54.140293Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Corporation,microsoft.com,false,100
 130.185.101.86,2026-09-01T01:11:40.825500Z,2026-09-01T01:11:48.852590Z,1,1,0,0,low,single_sighting,false,true,,7,Israel,Pelephone Communications Ltd.,pelephone.co.il,false,100
 130.185.96.113,2026-08-25T12:29:46.254286Z,2026-09-05T06:10:30.405907Z,5,5,0,0,low,connected_only,false,true,,7,Israel,Pelephone Communications Ltd.,pelephone.co.il,false,100
-130.211.92.251,2026-08-31T14:22:15.283125Z,2026-08-31T14:22:31.138811Z,1,0,0,0,low,single_sighting,false,true,,7,Belgium,Google LLC,google.com,false,15
+130.211.92.251,2026-08-31T14:22:15.283125Z,2026-08-31T14:22:31.138811Z,1,0,0,0,low,single_sighting,false,false,,7,Belgium,Google LLC,google.com,false,15
 131.0.235.163,2026-08-29T21:28:30.194876Z,2026-08-29T21:31:26.414784Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,MUSURIT,musurit.com,false,100
 131.100.222.134,2026-08-20T18:56:20.490897Z,2026-08-20T18:58:43.306939Z,2,0,0,0,low,connected_only,false,false,,7,Brazil,N. J. DOS SANTOS SANTANA - ME,ruralnet.pvh.br,false,100
 131.100.64.195,2026-09-05T21:36:46.721339Z,2026-09-05T21:38:28.415996Z,3,0,0,0,low,connected_only,false,true,,7,Argentina,CORPICO LTDA,corpiconet.com.ar,false,66
@@ -1071,7 +1071,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 174.140.96.224,2026-08-20T16:52:35.811503Z,2026-08-20T16:56:22.407568Z,2,0,0,0,low,connected_only,false,false,,7,United States,Atlantic Broadband,breezeline.com,false,89
 174.45.195.60,2026-08-23T19:16:07.318536Z,2026-08-23T19:18:59.001765Z,2,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications LLC,charter.com,false,100
 174.77.208.27,2026-09-04T20:12:08.620682Z,2026-09-04T20:12:16.287157Z,1,1,0,0,low,single_sighting,false,true,,7,United States,Cox Communications,cox.com,false,100
-174.94.236.211,2026-08-26T09:32:31.136750Z,2026-08-31T14:06:24.297671Z,2,2,0,0,low,connected_only,false,true,,7,Canada,"Bell Mobility, Inc.",bell.ca,false,100
+174.94.236.211,2026-08-26T09:32:31.136750Z,2026-08-31T14:06:24.297671Z,2,2,0,0,low,connected_only,false,false,,7,Canada,"Bell Mobility, Inc.",bell.ca,false,100
 175.10.44.16,2026-08-28T10:39:53.208335Z,2026-08-28T10:39:58.984671Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,China,CHINANET HUNAN PROVINCE NETWORK,chinatelecom.cn,false,100
 175.100.107.238,2026-09-04T15:53:34.327674Z,2026-09-04T15:53:43.881801Z,1,1,0,0,low,single_sighting,false,true,,7,Cambodia,"VIETTEL (CAMBODIA) PTE., LTD.",viettel.com.vn,false,100
 175.101.14.77,2026-08-31T09:12:18.949908Z,2026-08-31T09:12:32.796982Z,1,1,0,0,low,single_sighting,false,false,,7,India,Excell Media Pvt Ltd,excellmedia.net,false,100
@@ -2801,7 +2801,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 31.47.199.39,2026-08-20T01:19:57.513436Z,2026-08-20T01:23:02.294286Z,1,1,2,0,low,executed_commands,false,false,,7,Armenia,Masis-Net,gnc.am,false,100
 31.59.89.54,2026-09-01T00:42:14.655070Z,2026-09-05T08:33:40.585710Z,2,1,0,0,low,connected_only,false,true,,7,Italy,NOVACONN SRL,novaconn.it,false,100
 31.76.20.19,2026-08-24T03:50:16.740170Z,2026-08-24T03:50:43.180758Z,1,0,0,0,low,single_sighting,false,false,,7,Germany,play2go.cloud - Cheap and reliable hosting,play2go.cloud,false,100
-31.9.147.96,2026-08-31T14:23:30.816221Z,2026-08-31T14:25:09.313121Z,2,0,0,0,low,connected_only,false,true,,7,Syria,Tarassul inetnet Service Provider,syriantelecom.sy,false,0
+31.9.147.96,2026-08-31T14:23:30.816221Z,2026-08-31T14:25:09.313121Z,2,0,0,0,low,connected_only,false,false,,7,Syria,Tarassul inetnet Service Provider,syriantelecom.sy,false,0
 34.14.30.88,2026-09-02T03:00:59.341772Z,2026-09-02T03:01:00.190093Z,1,0,0,0,low,single_sighting,false,true,,7,Belgium,Google LLC,google.com,false,60
 34.140.11.250,2026-08-18T02:16:03.571006Z,2026-08-18T02:16:09.868687Z,1,0,0,0,low,single_sighting,false,false,,7,Belgium,Google LLC,google.com,false,39
 34.140.230.214,2026-09-02T03:02:29.118533Z,2026-09-02T03:03:10.532347Z,6,3,8,0,medium,executed_commands,false,true,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,23
@@ -2893,7 +2893,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 37.52.185.141,2026-09-04T15:03:19.960226Z,2026-09-04T15:08:27.228550Z,4,0,0,0,low,connected_only,false,true,,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,100
 37.52.200.91,2026-09-01T23:25:40.223323Z,2026-09-01T23:26:00.168777Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,100
 37.53.41.57,2026-08-28T01:51:35.443241Z,2026-08-28T01:55:34.345935Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,100
-37.57.158.182,2026-08-31T14:12:25.986333Z,2026-08-31T14:12:31.860144Z,1,1,0,0,low,single_sighting,false,true,,7,Ukraine,CONTENT DELIVERY NETWORK LTD,triolan.com.ua,false,100
+37.57.158.182,2026-08-31T14:12:25.986333Z,2026-08-31T14:12:31.860144Z,1,1,0,0,low,single_sighting,false,false,,7,Ukraine,CONTENT DELIVERY NETWORK LTD,triolan.com.ua,false,100
 37.60.100.119,2026-09-02T16:56:50.666420Z,2026-09-02T16:56:56.781234Z,2,0,0,0,low,connected_only,false,true,,7,United Kingdom,Wifinity,wifinity.co.uk,false,100
 37.61.114.170,2026-08-28T19:51:27.018902Z,2026-08-28T19:51:41.248634Z,2,0,0,0,low,connected_only,false,false,,7,Azerbaijan,Aztelekom LLC,aztelekom.az,false,14
 37.61.119.14,2026-08-30T01:02:11.682098Z,2026-08-30T01:02:31.619069Z,2,0,0,0,low,connected_only,false,false,,7,Azerbaijan,Aztelekom LLC,aztelekom.az,false,16
@@ -3330,7 +3330,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 5.29.23.89,2026-09-03T06:10:16.657925Z,2026-09-03T06:10:16.658584Z,1,0,0,0,low,single_sighting,false,true,,7,Israel,BROADBAND,hot.net.il,false,9
 5.29.245.112,2026-08-26T18:14:50.414272Z,2026-08-26T18:49:50.764761Z,9,9,45,0,medium,persistent,false,false,385d83c7eadfd5d1,7,Israel,BROADBAND,hot.net.il,false,100
 5.31.41.229,2026-08-24T00:44:57.449933Z,2026-09-06T15:04:43.991184Z,4,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,United Arab Emirates,Emirates Integrated Telecommunications Company PJSC,du.ae,false,100
-5.44.169.45,2026-08-31T14:15:14.744015Z,2026-08-31T14:15:33.110335Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,Sibirskie Seti,sibset-team.ru,false,100
+5.44.169.45,2026-08-31T14:15:14.744015Z,2026-08-31T14:15:33.110335Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,Sibirskie Seti,sibset-team.ru,false,100
 5.53.118.121,2026-08-31T12:35:54.885230Z,2026-08-31T12:36:16.622300Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,Dataline LLC,dataline.ua,false,100
 5.58.23.106,2026-09-06T11:06:57.856245Z,2026-09-06T11:07:14.448874Z,2,0,0,0,low,connected_only,false,true,,7,Ukraine,"MAXNET TELECOM, LTD",maxnet.ua,false,58
 5.77.207.39,2026-09-03T07:10:30.146059Z,2026-09-03T07:10:30.146860Z,1,0,0,0,low,single_sighting,false,true,,7,Armenia,Ucom CJSC,ucom.am,false,100
