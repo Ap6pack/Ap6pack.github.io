@@ -530,7 +530,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 121.66.63.186,2026-08-25T12:18:12.589551Z,2026-09-05T08:12:05.102897Z,3,0,0,0,low,connected_only,false,true,,7,South Korea,LG Uplus,lguplus.com,false,100
 121.73.168.9,2026-09-02T02:35:38.935033Z,2026-09-02T23:01:32.720895Z,2,2,0,0,low,connected_only,false,true,,7,New Zealand,One New Zealand Group Limited,one.nz,false,54
 122.136.27.46,2026-09-01T15:10:00.745471Z,2026-09-01T15:10:00.770374Z,1,0,0,0,low,single_sighting,false,true,,7,China,China Unicom Jilin province network,chinaunicom.cn,false,45
-122.144.14.204,2026-09-01T01:26:33.466313Z,2026-09-01T01:27:10.596761Z,1,0,0,0,low,single_sighting,false,true,,7,Bangladesh,Internet Service Provider,bol-online.com,false,23
+122.144.14.204,2026-09-01T01:26:33.466313Z,2026-09-01T01:27:10.596761Z,1,0,0,0,low,single_sighting,false,false,,7,Bangladesh,Internet Service Provider,bol-online.com,false,23
 122.160.103.228,2026-09-03T02:01:41.057518Z,2026-09-03T02:01:49.322079Z,1,1,0,0,low,single_sighting,false,true,,7,India,"ABTS DELHI,",airtel.in,false,100
 122.160.15.31,2026-09-03T08:06:35.954756Z,2026-09-03T08:06:44.218847Z,1,1,0,0,low,single_sighting,false,true,,7,India,"ABTS DELHI,",airtel.in,false,100
 122.160.187.31,2026-09-03T07:24:29.736422Z,2026-09-03T07:24:37.625086Z,1,1,0,0,low,single_sighting,false,true,,7,India,"ABTS DELHI,",airtel.in,false,100
@@ -631,7 +631,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 13.56.155.83,2026-08-18T04:03:08.643109Z,2026-08-18T04:03:18.705750Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,15
 13.57.24.74,2026-08-31T12:35:22.569068Z,2026-08-31T12:35:32.631017Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,23
 13.89.125.31,2026-08-17T20:19:44.137167Z,2026-08-17T20:19:54.140293Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Corporation,microsoft.com,false,100
-130.185.101.86,2026-09-01T01:11:40.825500Z,2026-09-01T01:11:48.852590Z,1,1,0,0,low,single_sighting,false,true,,7,Israel,Pelephone Communications Ltd.,pelephone.co.il,false,100
+130.185.101.86,2026-09-01T01:11:40.825500Z,2026-09-01T01:11:48.852590Z,1,1,0,0,low,single_sighting,false,false,,7,Israel,Pelephone Communications Ltd.,pelephone.co.il,false,100
 130.185.96.113,2026-08-25T12:29:46.254286Z,2026-09-05T06:10:30.405907Z,5,5,0,0,low,connected_only,false,true,,7,Israel,Pelephone Communications Ltd.,pelephone.co.il,false,100
 130.211.92.251,2026-08-31T14:22:15.283125Z,2026-08-31T14:22:31.138811Z,1,0,0,0,low,single_sighting,false,false,,7,Belgium,Google LLC,google.com,false,15
 131.0.235.163,2026-08-29T21:28:30.194876Z,2026-08-29T21:31:26.414784Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,MUSURIT,musurit.com,false,100
@@ -1351,7 +1351,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 181.117.136.48,2026-08-19T12:32:36.471131Z,2026-08-19T12:32:36.472480Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,AMX Argentina S.A.,claro.com.ar,false,78
 181.117.164.44,2026-08-19T22:48:59.111796Z,2026-08-19T22:49:29.402930Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,AMX Argentina S.A.,claro.com.ar,false,92
 181.117.73.77,2026-09-06T23:14:54.617351Z,2026-09-06T23:14:54.618211Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,AMX Argentina S.A.,claro.com.ar,false,75
-181.118.253.162,2026-09-01T01:00:31.096282Z,2026-09-01T01:02:50.808038Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,Cooperativa Telefonica Del Viso,telviso.com.ar,false,23
+181.118.253.162,2026-09-01T01:00:31.096282Z,2026-09-01T01:02:50.808038Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Cooperativa Telefonica Del Viso,telviso.com.ar,false,23
 181.119.238.191,2026-08-22T05:41:35.492563Z,2026-08-22T05:42:00.109314Z,2,0,0,0,low,connected_only,false,false,,7,Paraguay,UFINET PARAGUAY S.A.,ufinet.com,false,5
 181.119.64.79,2026-08-26T12:39:09.252405Z,2026-09-06T06:58:06.256437Z,14,14,0,0,medium,persistent,false,true,,7,Colombia,"UFINET COLOMBIA, S. A.",ufinet.com,false,100
 181.119.66.15,2026-08-19T21:53:01.757088Z,2026-08-19T21:53:34.557105Z,3,0,0,0,low,connected_only,false,false,,7,Colombia,"UFINET COLOMBIA, S. A.",ufinet.com,false,43
@@ -3113,7 +3113,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 45.174.108.102,2026-08-31T05:05:20.524021Z,2026-08-31T05:05:20.526215Z,2,0,0,0,low,connected_only,false,false,,7,Mexico,IPTVTEL COMUNICACIONES S DE RL DE CV,dnskonecta.mx,false,51
 45.174.177.66,2026-08-21T01:52:09.656473Z,2026-08-21T01:52:53.188513Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Brazil,M & G TELECON LTDA,,false,100
 45.174.242.140,2026-08-23T03:17:29.486161Z,2026-08-23T03:17:46.263220Z,2,0,0,0,low,connected_only,false,false,,7,Mexico,SISTEMAS Y SOLUCIONES DE CAMPECHE SAS DE CV,sys-cam.com,false,0
-45.174.89.213,2026-09-01T01:10:14.057569Z,2026-09-01T01:10:14.058405Z,1,0,0,0,low,single_sighting,false,true,,7,Mexico,CEDSAMOVIL SA DE CV,cedsa.com.mx,false,20
+45.174.89.213,2026-09-01T01:10:14.057569Z,2026-09-01T01:10:14.058405Z,1,0,0,0,low,single_sighting,false,false,,7,Mexico,CEDSAMOVIL SA DE CV,cedsa.com.mx,false,20
 45.174.96.196,2026-09-07T05:42:18.285467Z,2026-09-07T05:42:18.335024Z,1,0,0,0,low,single_sighting,false,true,,7,Brazil,ETECC FIBRA OPTICA TELECOM LTDA,eteccnet.com.br,false,1
 45.175.101.173,2026-08-27T11:51:35.766834Z,2026-08-27T11:54:22.794539Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Locos NET,onpower.com.ar,false,54
 45.175.143.241,2026-08-20T16:55:36.508069Z,2026-08-20T16:55:36.508807Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,BOCA ROJA S.A.,bocarojasa.com.ar,false,91
@@ -3215,7 +3215,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 46.253.140.1,2026-08-24T20:30:39.102040Z,2026-08-24T20:31:00.706059Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,Bihunets Ishtvan Stepanovych,,false,75
 46.255.243.240,2026-09-04T00:44:01.765047Z,2026-09-04T00:44:02.660850Z,1,1,0,0,low,single_sighting,false,true,,7,Italy,Jcom Telecomunicazioni,jcomwifi.it,false,100
 46.30.158.50,2026-09-05T14:01:09.777375Z,2026-09-05T14:03:16.364215Z,2,0,0,0,low,connected_only,false,true,,7,Russia,LLC MELT-INTERNET,mi.ru,false,100
-46.33.33.79,2026-09-01T01:15:26.876487Z,2026-09-01T01:15:26.877265Z,1,0,0,0,low,single_sighting,false,true,,7,Ukraine,TRK BlackSea,blacksea.net.ua,false,51
+46.33.33.79,2026-09-01T01:15:26.876487Z,2026-09-01T01:15:26.877265Z,1,0,0,0,low,single_sighting,false,false,,7,Ukraine,TRK BlackSea,blacksea.net.ua,false,51
 46.34.193.165,2026-08-23T16:32:35.760877Z,2026-08-23T16:35:03.638242Z,2,0,0,0,low,connected_only,false,false,,7,Kazakhstan,Kar-Tel LLC,beeline.kz,false,0
 46.36.123.219,2026-08-31T22:16:40.297308Z,2026-09-06T07:49:03.223160Z,3,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Armenia,Ucom CJSC,ucom.am,false,100
 46.36.123.28,2026-08-28T08:43:28.575170Z,2026-08-28T08:45:02.793237Z,3,0,0,0,low,connected_only,false,false,,7,Armenia,Ucom CJSC,ucom.am,false,100
@@ -3394,7 +3394,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 5.77.207.39,2026-09-03T07:10:30.146059Z,2026-09-03T07:10:30.146860Z,1,0,0,0,low,single_sighting,false,true,,7,Armenia,Ucom CJSC,ucom.am,false,100
 5.79.164.32,2026-09-04T22:29:17.195824Z,2026-09-04T22:29:23.146132Z,1,1,0,0,low,single_sighting,false,true,,7,Russia,Intersvyaz-2 JSC,is74.ru,false,100
 5.88.243.199,2026-08-28T12:18:31.943680Z,2026-08-28T12:18:48.722400Z,1,1,2,0,low,executed_commands,false,false,,7,Italy,Vodafone Italia S.p.A.,vodafone.it,false,100
-50.145.250.210,2026-09-01T01:07:05.682396Z,2026-09-01T01:10:56.795491Z,2,0,0,0,low,connected_only,false,true,,7,United States,"Comcast Cable Communications, LLC",comcast.com,false,100
+50.145.250.210,2026-09-01T01:07:05.682396Z,2026-09-01T01:10:56.795491Z,2,0,0,0,low,connected_only,false,false,,7,United States,"Comcast Cable Communications, LLC",comcast.com,false,100
 50.188.204.213,2026-08-26T04:14:32.882771Z,2026-09-05T11:51:21.773082Z,5,5,0,0,low,connected_only,false,true,,7,United States,"Comcast Cable Communications, LLC",comcast.com,false,100
 50.194.57.209,2026-08-17T21:14:39.356465Z,2026-08-17T21:14:48.916839Z,3,0,0,0,low,connected_only,false,false,,7,United States,"Comcast Cable Communications, LLC",comcast.com,false,100
 50.2.184.242,2026-08-28T23:42:32.822784Z,2026-08-30T05:31:02.482741Z,47,46,260,0,medium,persistent,false,false,61912bcbd56c9b64,7,United States,ServerHub Dallas,serverhub.com,false,100
@@ -3931,7 +3931,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 85.154.170.141,2026-09-06T15:59:22.090246Z,2026-09-06T15:59:31.451787Z,2,0,0,0,low,connected_only,false,true,,7,Oman,Oman Telecommunications Company (S.A.O.G),omantel.om,false,0
 85.159.164.28,2026-09-06T05:37:20.869972Z,2026-09-06T11:28:58.603226Z,3,2,0,0,low,connected_only,false,true,,7,Israel,Pelephone Communications Ltd.,pelephone.co.il,false,100
 85.165.104.58,2026-08-18T07:14:16.319891Z,2026-09-06T04:30:04.856402Z,17,17,272,16,high,delivered_payload,false,true,f0ed612071c45603,7,Norway,Telenor Norge AS,telenor.no,false,100
-85.172.116.233,2026-09-01T01:05:36.129321Z,2026-09-01T01:05:54.876104Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,OJSC Rostelecom Macroregional Branch South,rt.ru,false,24
+85.172.116.233,2026-09-01T01:05:36.129321Z,2026-09-01T01:05:54.876104Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,OJSC Rostelecom Macroregional Branch South,rt.ru,false,24
 85.186.244.106,2026-09-04T00:20:02.239541Z,2026-09-04T00:20:08.024063Z,1,1,0,0,low,single_sighting,false,true,,7,Romania,Vodafone Romania S.A.,vodafone.ro,false,100
 85.19.195.12,2026-09-06T19:43:33.862155Z,2026-09-06T20:15:48.597473Z,2,2,0,0,low,connected_only,false,true,,7,Norway,Telia Norge AS,telia.no,false,100
 85.192.184.145,2026-09-02T05:15:07.766170Z,2026-09-02T05:15:14.842738Z,1,1,0,0,low,single_sighting,false,true,,7,Russia,PJSC Rostelecom,rt.ru,false,100
