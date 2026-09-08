@@ -44,7 +44,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 101.51.237.36,2026-09-05T17:01:43.190362Z,2026-09-05T17:02:06.295785Z,1,0,0,0,low,single_sighting,false,true,,7,Thailand,TOT Public Company Limited,totidc.net,false,0
 101.53.233.94,2026-08-18T04:48:54.707667Z,2026-08-18T04:49:20.246802Z,2,0,0,0,low,connected_only,false,false,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,67
 101.96.229.2,2026-08-30T05:38:24.123735Z,2026-08-30T05:47:29.248224Z,3,1,0,2,low,delivered_payload,false,false,,7,China,"Beijing Volcano Engine Technology Co., Ltd.",bytedance.com,false,100
-101.99.32.140,2026-09-01T07:43:54.965137Z,2026-09-01T07:43:55.522977Z,1,0,0,0,low,single_sighting,false,true,,7,Vietnam,CMC Telecom Infrastructure Company,cmctelecom.vn,false,100
+101.99.32.140,2026-09-01T07:43:54.965137Z,2026-09-01T07:43:55.522977Z,1,0,0,0,low,single_sighting,false,false,,7,Vietnam,CMC Telecom Infrastructure Company,cmctelecom.vn,false,100
 102.115.196.119,2026-08-27T15:44:10.140471Z,2026-08-27T15:44:28.671673Z,1,1,2,0,low,executed_commands,false,false,,7,Mauritius,Mauritius Telecom Ltd,telecom.mu,false,5
 102.138.113.13,2026-08-25T03:03:42.991338Z,2026-08-25T03:04:15.869514Z,2,0,0,0,low,connected_only,false,false,,7,Ivory Coast,MTN COTE D'IVOIRE S.A,mtn.com,false,5
 102.138.23.202,2026-08-19T22:17:18.511888Z,2026-08-19T22:18:10.104521Z,2,0,0,0,low,connected_only,false,false,,7,Ivory Coast,MTN COTE D'IVOIRE S.A,mtn.com,false,0
@@ -486,7 +486,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 12.150.243.22,2026-09-01T06:25:32.260814Z,2026-09-01T06:25:38.820302Z,1,1,0,0,low,single_sighting,false,false,,7,United States,"AT&T Enterprises, LLC",att.com,false,100
 120.11.80.126,2026-08-19T20:42:46.971363Z,2026-08-19T20:42:48.302593Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Unicom Heibei Province Network,chinaunicom.cn,false,25
 120.157.129.161,2026-08-26T08:00:58.892637Z,2026-08-26T08:01:02.881414Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Australia,Telstra Limited,telstra.net,false,5
-120.194.50.39,2026-09-01T07:54:40.848145Z,2026-09-01T07:54:49.857328Z,1,1,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
+120.194.50.39,2026-09-01T07:54:40.848145Z,2026-09-01T07:54:49.857328Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 120.207.92.246,2026-08-22T01:20:44.726321Z,2026-08-22T01:20:46.107057Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,82
 120.211.191.149,2026-09-08T00:08:14.033009Z,2026-09-08T00:08:15.713440Z,1,1,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,86
 120.224.15.67,2026-08-25T23:07:07.292165Z,2026-09-03T03:23:54.098358Z,2,1,0,0,low,connected_only,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
@@ -787,7 +787,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 145.132.102.233,2026-09-02T01:31:47.713969Z,2026-09-02T01:31:48.436159Z,2,0,0,0,low,connected_only,false,true,,7,United States,Microsoft Limited,microsoft.com,false,35
 146.120.161.115,2026-08-31T12:47:18.716863Z,2026-08-31T12:47:35.529720Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,Dianet Ltd.,dianet.online,false,100
 146.120.230.102,2026-09-01T08:28:34.657679Z,2026-09-01T08:28:51.520010Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Kyrgyzstan,Inform Communications Ltd.,neotelecom.kg,false,32
-146.120.251.143,2026-09-01T07:31:57.028364Z,2026-09-01T07:32:13.895915Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,ISTEC UKRAINE LLC,istec.net.ua,false,74
+146.120.251.143,2026-09-01T07:31:57.028364Z,2026-09-01T07:32:13.895915Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,ISTEC UKRAINE LLC,istec.net.ua,false,74
 146.158.111.74,2026-08-24T19:10:59.625965Z,2026-08-24T19:12:25.146445Z,2,0,0,0,low,connected_only,false,false,,7,Russia,SM Ltd.,sm117.ru,false,73
 146.158.118.252,2026-09-02T21:28:53.682573Z,2026-09-02T21:29:00.980131Z,1,1,0,0,low,single_sighting,false,true,,7,Russia,SM Ltd.,sm117.ru,false,100
 146.158.121.137,2026-08-25T18:36:17.974815Z,2026-08-25T18:36:25.939967Z,1,1,0,0,low,single_sighting,false,false,,7,Russia,SM Ltd.,sm117.ru,false,100
@@ -985,7 +985,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 164.52.24.184,2026-08-27T23:52:04.897224Z,2026-08-27T23:52:15.167841Z,2,0,0,0,low,connected_only,false,false,,7,Japan,UCUL-JP,urbanconnectedcloud.com,false,100
 164.90.158.36,2026-09-03T07:06:20.376376Z,2026-09-03T07:06:20.523773Z,2,0,0,0,low,connected_only,false,true,,7,United States,"DigitalOcean, LLC",digitalocean.com,false,5
 164.92.79.125,2026-08-23T09:28:46.129925Z,2026-08-23T09:28:46.264179Z,2,0,0,0,low,connected_only,false,false,,7,United States,"DigitalOcean, LLC",digitalocean.com,false,69
-165.0.44.60,2026-08-26T21:14:40.147929Z,2026-09-01T07:46:49.975127Z,3,0,0,0,low,connected_only,false,true,,7,South Africa,RSAWEB,rsaweb.co.za,false,100
+165.0.44.60,2026-08-26T21:14:40.147929Z,2026-09-01T07:46:49.975127Z,3,0,0,0,low,connected_only,false,false,,7,South Africa,RSAWEB,rsaweb.co.za,false,100
 165.154.1.244,2026-08-31T10:02:43.817894Z,2026-09-02T16:14:18.024102Z,3,2,0,0,low,connected_only,false,true,,7,Hong Kong,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,ucloud.cn,false,100
 165.154.225.20,2026-09-06T13:18:27.044867Z,2026-09-06T13:18:27.266020Z,1,0,0,0,low,single_sighting,false,true,,7,Hong Kong,Scloud Pte Ltd t/a Scloud Pte Ltd,scloud.sg,false,100
 165.165.121.173,2026-08-19T02:54:34.284036Z,2026-08-19T02:54:34.285558Z,1,0,0,0,low,single_sighting,false,false,,7,South Africa,Telkom SA Limited,telkom.co.za,false,16
