@@ -627,7 +627,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 124.29.214.170,2026-09-07T20:31:15.256758Z,2026-09-07T20:36:39.762020Z,25,0,0,0,medium,persistent,false,true,,7,Pakistan,Broadband Services,cyber.net.pk,false,100
 124.88.174.143,2026-08-25T22:04:45.538922Z,2026-09-02T18:46:36.200247Z,6,5,0,0,medium,persistent,false,true,,7,China,China Unicom Xinjiang province network,chinaunicom.cn,false,100
 125.143.209.68,2026-09-03T07:49:45.200020Z,2026-09-03T07:49:55.632285Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
-125.143.215.216,2026-09-01T21:36:49.736289Z,2026-09-01T21:36:59.754639Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+125.143.215.216,2026-09-01T21:36:49.736289Z,2026-09-01T21:36:59.754639Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 125.143.249.102,2026-09-02T23:18:15.850926Z,2026-09-02T23:18:25.208277Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 125.165.109.18,2026-08-20T07:46:22.349047Z,2026-08-20T07:46:22.351272Z,2,0,0,0,low,connected_only,false,false,,7,Indonesia,PT TELKOM INDONESIA,telkom.co.id,false,16
 125.20.207.154,2026-09-04T16:32:49.097654Z,2026-09-05T16:48:32.744202Z,2,0,0,0,low,connected_only,false,true,,7,India,Bharti Televentures Limited A/c ABTS MP,airtel.in,false,100
@@ -1700,7 +1700,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 186.130.156.24,2026-08-31T11:31:47.062045Z,2026-08-31T11:33:48.786723Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,24
 186.130.21.115,2026-09-07T04:22:20.820744Z,2026-09-07T04:22:45.465462Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,25
 186.130.99.74,2026-08-21T09:08:13.012397Z,2026-08-21T09:08:13.014222Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,15
-186.131.169.243,2026-09-01T21:39:44.462979Z,2026-09-01T21:40:03.960115Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,0
+186.131.169.243,2026-09-01T21:39:44.462979Z,2026-09-01T21:40:03.960115Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,0
 186.131.225.110,2026-08-18T09:50:38.038222Z,2026-08-18T09:51:17.017073Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,45
 186.131.225.32,2026-08-18T15:09:17.198244Z,2026-08-18T15:09:31.277742Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,4
 186.131.237.111,2026-08-20T10:18:14.963763Z,2026-08-20T10:18:14.964512Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,5
@@ -2931,7 +2931,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 31.41.69.106,2026-08-20T13:11:30.054340Z,2026-08-20T13:11:53.751640Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,PE UAinet,uainet.net,false,32
 31.41.81.65,2026-09-01T20:45:03.367112Z,2026-09-06T18:11:58.324380Z,2,2,0,0,low,connected_only,false,true,,7,Poland,Telekom System sp.z o.o.,feromedia.net,false,100
 31.41.84.98,2026-09-06T23:21:54.611153Z,2026-09-06T23:22:00.303467Z,1,1,0,0,low,single_sighting,false,true,,7,Poland,Telekom System sp.z o.o.,feromedia.net,false,100
-31.41.93.213,2026-09-01T21:48:06.071713Z,2026-09-01T21:48:35.215717Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,New Information Systems PP,novi.uz.ua,false,100
+31.41.93.213,2026-09-01T21:48:06.071713Z,2026-09-01T21:48:35.215717Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,New Information Systems PP,novi.uz.ua,false,100
 31.42.57.206,2026-09-05T06:08:05.218529Z,2026-09-05T06:09:33.345476Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Ukraine,Merlin-Telekom LLC,merlin.ua,false,67
 31.43.240.196,2026-08-31T23:53:29.693476Z,2026-08-31T23:54:51.879728Z,4,0,0,0,low,connected_only,false,false,,7,Ukraine,LLC Electron-sevlush,sevlush.net,false,1
 31.43.246.225,2026-09-03T10:31:31.390236Z,2026-09-03T10:31:48.651803Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,LLC Electron-sevlush,sevlush.net,false,100
@@ -3325,7 +3325,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 46.201.24.218,2026-08-23T08:06:02.871535Z,2026-08-23T08:06:19.642193Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,58
 46.201.247.21,2026-08-31T09:45:55.541230Z,2026-08-31T09:46:01.845557Z,1,1,0,0,low,single_sighting,false,false,,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,100
 46.201.40.169,2026-08-22T13:39:01.335490Z,2026-08-22T13:40:01.842256Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,99
-46.201.56.24,2026-09-01T21:43:50.434361Z,2026-09-01T21:44:08.585301Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,100
+46.201.56.24,2026-09-01T21:43:50.434361Z,2026-09-01T21:44:08.585301Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,100
 46.210.94.61,2026-09-02T09:09:52.970876Z,2026-09-02T09:10:00.871871Z,1,1,0,0,low,single_sighting,false,true,,7,Israel,Cellcom Fixed Line Communication L.P,cellcom.co.il,false,100
 46.210.95.5,2026-08-27T13:14:47.530874Z,2026-08-27T13:14:55.161151Z,1,1,0,0,low,single_sighting,false,false,,7,Israel,Cellcom Fixed Line Communication L.P,cellcom.co.il,false,100
 46.218.75.240,2026-09-07T10:28:23.617215Z,2026-09-07T10:28:23.621993Z,1,0,0,0,low,single_sighting,false,true,,7,France,Completel SAS,completel.fr,false,100
