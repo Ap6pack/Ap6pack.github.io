@@ -1,0 +1,126 @@
+{
+  "Event": {
+    "uuid": "9136cd8a-7ffd-55bb-a30f-0e8441ed7a21",
+    "info": "Sundew honeypot - campaign 597732d320c3 (1 sources) - enable",
+    "date": "2026-09-08",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "4dc36fd0-7f49-5e8f-bb3b-303b10219303",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "27.222.75.62",
+        "timestamp": "1788883213",
+        "comment": "executed_commands, confidence medium; 1 sessions, 10 commands, 0 downloads; first_seen 2026-09-08T12:34:09.571804Z, last_seen 2026-09-08T12:34:37.528840Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "59d573c4-d64e-5789-8884-ba6226b3645d",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "enable",
+        "timestamp": "1788883213",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "1cd16976-d0a7-5933-b7a1-185cd244d036",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "system",
+        "timestamp": "1788883213",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "029ef721-d90b-574c-aad6-8234915bc927",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "shell",
+        "timestamp": "1788883213",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "3ebf6bee-e371-547f-a945-a60e3303bf81",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "sh",
+        "timestamp": "1788883213",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "0121ef1d-8d33-525e-9547-fcd5a3f61db0",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "linuxshell",
+        "timestamp": "1788883213",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "65fd5c14-ed25-51f8-99a0-db44f04e1737",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "enablelinuxshell",
+        "timestamp": "1788883213",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "3a2139be-a485-5627-834d-1285c513432b",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "ping ;sh",
+        "timestamp": "1788883213",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "9003f354-b6a9-567b-8f70-079f15481a3d",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "busybox",
+        "timestamp": "1788883213",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "a9f7433a-a090-59cd-9d65-536613e3bbc0",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "cd /proc && cat self/cmdline",
+        "timestamp": "1788883213",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "4ca95028-84da-52eb-852f-ef27e539c1c2",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "/bin/busybox",
+        "timestamp": "1788883213",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}
