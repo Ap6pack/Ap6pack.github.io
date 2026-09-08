@@ -1,8 +1,8 @@
 {
   "Event": {
     "uuid": "8417819f-0190-5867-9847-40e939fe1f5b",
-    "info": "Sundew honeypot - campaign 04946faa9e9e (1 sources) - ping ;sh",
-    "date": "2026-09-01",
+    "info": "Sundew honeypot - campaign 04946faa9e9e (2 sources) - ping ;sh",
+    "date": "2026-09-08",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -28,8 +28,17 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "194.39.227.82",
-        "timestamp": "1788298211",
+        "timestamp": "1788838213",
         "comment": "executed_commands, confidence medium; 1 sessions, 3 commands, 0 downloads; first_seen 2026-09-01T20:20:02.920915Z, last_seen 2026-09-01T20:20:21.392197Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "1c5297a9-7156-5027-9278-ba82b1054642",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "46.150.65.199",
+        "timestamp": "1788838213",
+        "comment": "executed_commands, confidence medium; 1 sessions, 3 commands, 0 downloads; first_seen 2026-09-07T18:38:13.635942Z, last_seen 2026-09-07T18:38:30.084638Z; expires 7d after last_seen"
       },
       {
         "uuid": "302daf5d-3bbe-5b90-8268-a6aa039269e1",
@@ -37,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "ping ;sh",
-        "timestamp": "1788298211",
+        "timestamp": "1788838213",
         "comment": "command run by this campaign"
       },
       {
@@ -46,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox",
-        "timestamp": "1788298211",
+        "timestamp": "1788838213",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /proc && cat self/cmdline",
-        "timestamp": "1788298211",
+        "timestamp": "1788838213",
         "comment": "command run by this campaign"
       }
     ]

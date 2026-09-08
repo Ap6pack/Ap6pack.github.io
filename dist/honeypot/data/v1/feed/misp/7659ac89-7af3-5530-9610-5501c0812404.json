@@ -1,0 +1,72 @@
+{
+  "Event": {
+    "uuid": "7659ac89-7af3-5530-9610-5501c0812404",
+    "info": "Sundew honeypot - campaign 803b8ca8f9d5 (1 sources) - User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWe",
+    "date": "2026-09-08",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "d96f6da6-eb35-5b4f-a6a2-505d47c5e77d",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "100.42.221.196",
+        "timestamp": "1788838213",
+        "comment": "executed_commands, confidence medium; 6 sessions, 4 commands, 0 downloads; first_seen 2026-09-07T22:09:55.689961Z, last_seen 2026-09-07T22:09:56.233962Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "37110446-e39c-54db-a68c-78ca7cfdecd6",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15",
+        "timestamp": "1788838213",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "ce91a77d-e4c1-520e-9ac5-1cfbf8d0fc6c",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "Accept-Charset: utf-8",
+        "timestamp": "1788838213",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "306509fe-0b1f-5c1c-a4fd-3b47c60de54d",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "Accept-Encoding: gzip",
+        "timestamp": "1788838213",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "760a9771-b71f-5b23-b0e7-b017a15dee90",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "Connection: close",
+        "timestamp": "1788838213",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}
