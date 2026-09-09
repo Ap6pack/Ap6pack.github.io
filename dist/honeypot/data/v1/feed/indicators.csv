@@ -2056,7 +2056,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 190.62.89.122,2026-09-07T00:21:37.335904Z,2026-09-07T00:21:45.750043Z,2,0,0,0,low,connected_only,false,true,,7,El Salvador,CTE S.A. de C.V.,claro.com.sv,false,64
 190.7.30.171,2026-08-21T16:10:46.952058Z,2026-08-21T16:11:01.121484Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,SANTA FE REDES SA,sfr.com.ar,false,34
 190.73.26.46,2026-08-31T05:49:50.423779Z,2026-09-06T11:28:47.472458Z,5,3,0,0,low,connected_only,false,true,,7,Venezuela,"CANTV Servicios, Venezuela",cantv.net,false,100
-190.75.248.87,2026-08-31T17:14:25.906975Z,2026-09-02T19:01:38.893771Z,2,1,0,0,low,connected_only,false,true,,7,Venezuela,"CANTV Servicios, Venezuela",cantv.net,false,100
+190.75.248.87,2026-08-31T17:14:25.906975Z,2026-09-02T19:01:38.893771Z,2,1,0,0,low,connected_only,false,false,,7,Venezuela,"CANTV Servicios, Venezuela",cantv.net,false,100
 190.83.67.16,2026-08-19T02:04:52.011932Z,2026-08-19T02:05:35.574394Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,LUQUE FEDERICO GASTON (NEWFIX),newfix.net,false,50
 190.83.67.60,2026-08-18T19:29:14.661441Z,2026-08-18T19:29:32.391690Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,LUQUE FEDERICO GASTON (NEWFIX),newfix.net,false,4
 190.83.67.73,2026-08-21T21:33:38.301356Z,2026-08-21T21:33:53.282730Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,LUQUE FEDERICO GASTON (NEWFIX),newfix.net,false,33
@@ -2669,7 +2669,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 208.125.163.2,2026-09-03T21:04:42.969763Z,2026-09-03T22:08:48.523207Z,2,2,0,0,low,connected_only,false,true,,7,United States,Charter Communications Inc,charter.com,false,100
 208.69.161.105,2026-09-06T04:57:08.524889Z,2026-09-06T04:57:15.476250Z,1,1,0,0,low,single_sighting,false,true,,7,United States,CITY OF SCOTTSBURG,cityofscottsburg.com,false,100
 208.92.220.138,2026-08-29T17:43:43.924045Z,2026-08-29T17:43:44.140664Z,1,1,0,0,low,single_sighting,false,false,,7,United States,ManagedWay,managedway.com,false,100
-208.96.233.67,2026-09-02T19:13:01.819788Z,2026-09-02T19:13:07.737440Z,1,1,0,0,low,single_sighting,false,true,,7,Canada,Cogeco Connexion inc,cogeco.ca,false,100
+208.96.233.67,2026-09-02T19:13:01.819788Z,2026-09-02T19:13:07.737440Z,1,1,0,0,low,single_sighting,false,false,,7,Canada,Cogeco Connexion inc,cogeco.ca,false,100
 209.103.243.96,2026-08-18T01:48:22.337440Z,2026-08-18T01:49:06.247772Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,United States,Bertram Communications LLC,gobertram.com,false,100
 209.14.89.110,2026-08-27T00:14:13.929837Z,2026-09-05T17:25:54.197083Z,7,7,0,0,medium,persistent,false,true,,7,Brazil,X99 INTERNET,x99.cloud,false,100
 209.173.10.75,2026-09-05T06:56:47.429848Z,2026-09-05T06:56:55.622954Z,1,1,0,0,low,single_sighting,false,true,,7,United States,Cove Haven PropCo LLC,covepoconoresorts.com,false,100
@@ -3335,9 +3335,9 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 45.148.243.104,2026-08-21T14:47:51.435206Z,2026-08-21T14:50:07.482046Z,3,0,0,0,low,connected_only,false,false,,7,Russia,RuaD-Group LLC,,false,93
 45.156.129.107,2026-08-25T22:18:28.421957Z,2026-08-25T22:18:33.462177Z,1,0,0,0,low,single_sighting,false,false,,7,United States,INAP-CHI-1,bitsight.com,false,100
 45.156.129.108,2026-08-25T22:18:33.482671Z,2026-08-25T22:18:38.532385Z,1,0,0,0,low,single_sighting,false,false,,7,United States,INAP-CHI-1,bitsight.com,false,100
-45.156.129.60,2026-09-02T19:19:48.231996Z,2026-09-02T19:19:48.318724Z,2,0,0,0,low,connected_only,false,true,,7,United States,INAP-CHI-1,bitsight.com,false,100
-45.156.129.62,2026-09-02T19:19:43.205689Z,2026-09-02T19:19:48.187536Z,1,0,0,0,low,single_sighting,false,true,,7,United States,INAP-CHI-1,bitsight.com,false,100
-45.156.129.63,2026-09-02T19:19:48.474061Z,2026-09-02T19:19:53.498370Z,1,0,0,0,low,single_sighting,false,true,,7,United States,INAP-CHI-1,bitsight.com,false,100
+45.156.129.60,2026-09-02T19:19:48.231996Z,2026-09-02T19:19:48.318724Z,2,0,0,0,low,connected_only,false,false,,7,United States,INAP-CHI-1,bitsight.com,false,100
+45.156.129.62,2026-09-02T19:19:43.205689Z,2026-09-02T19:19:48.187536Z,1,0,0,0,low,single_sighting,false,false,,7,United States,INAP-CHI-1,bitsight.com,false,100
+45.156.129.63,2026-09-02T19:19:48.474061Z,2026-09-02T19:19:53.498370Z,1,0,0,0,low,single_sighting,false,false,,7,United States,INAP-CHI-1,bitsight.com,false,100
 45.157.52.13,2026-08-21T17:17:49.943073Z,2026-08-21T17:20:10.767560Z,2,0,0,0,low,connected_only,false,false,,7,Iraq,SmartLink for Internet Services LTD,smartlink-isp.com,false,52
 45.160.190.13,2026-08-18T13:29:43.710783Z,2026-08-18T13:29:43.711803Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,SOCIEDAD GAMACON LIMITADA,gamacon.cl,false,100
 45.160.190.7,2026-08-18T13:30:16.068792Z,2026-08-18T13:30:16.070081Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,SOCIEDAD GAMACON LIMITADA,gamacon.cl,false,100
@@ -3747,7 +3747,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 59.48.40.6,2026-08-25T23:28:52.543433Z,2026-08-25T23:29:04.731404Z,1,0,0,0,low,single_sighting,false,false,,7,China,CHINANET Shanxi province network,shanxitele.com,false,100
 59.63.121.71,2026-09-03T03:06:45.829745Z,2026-09-03T03:07:00.599905Z,1,1,25,1,high,delivered_payload,false,true,8195b2dcdb0e74be,7,China,CHINANET Jiangxi province network,online.jx.cn,false,73
 59.8.104.168,2026-09-01T15:17:55.468844Z,2026-09-03T11:19:46.513766Z,3,3,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
-59.8.109.37,2026-09-01T10:26:04.519292Z,2026-09-02T19:10:22.880104Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+59.8.109.37,2026-09-01T10:26:04.519292Z,2026-09-02T19:10:22.880104Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 59.8.2.70,2026-09-03T23:54:50.846019Z,2026-09-03T23:55:00.738397Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Jeonnambonbujang,kt.com,false,100
 59.8.52.172,2026-09-03T09:11:00.838208Z,2026-09-05T00:47:05.397943Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 59.8.66.225,2026-08-25T04:29:56.989191Z,2026-09-02T11:39:11.557501Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
@@ -3926,7 +3926,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 69.23.104.95,2026-09-02T05:16:43.397727Z,2026-09-02T05:18:14.903901Z,3,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications Inc,charter.com,false,100
 69.5.169.253,2026-08-24T00:20:38.699320Z,2026-08-24T00:20:38.785160Z,1,0,0,0,low,single_sighting,false,false,,7,Germany,Infrawatch Limited,infrawat.ch,false,100
 70.117.30.87,2026-08-28T21:26:14.023066Z,2026-08-28T21:26:14.023803Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Charter Communications Inc,charter.com,false,100
-70.125.16.226,2026-09-02T19:12:14.042969Z,2026-09-02T19:13:36.540577Z,1,1,31,5,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,United States,Charter Communications Inc,charter.com,false,100
+70.125.16.226,2026-09-02T19:12:14.042969Z,2026-09-02T19:13:36.540577Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,United States,Charter Communications Inc,charter.com,false,100
 70.166.129.80,2026-09-09T06:39:22.119858Z,2026-09-09T06:39:29.541231Z,1,1,0,0,low,single_sighting,false,true,,7,United States,Cox Communications,cox.com,false,100
 70.167.236.11,2026-09-01T19:55:26.323447Z,2026-09-01T19:55:33.740286Z,1,1,0,0,low,single_sighting,false,false,,7,United States,Cox Communications,cox.com,false,100
 70.169.11.197,2026-08-31T10:06:50.665046Z,2026-08-31T10:06:55.243143Z,1,1,0,0,low,single_sighting,false,false,,7,United States,Cox Communications,cox.com,false,100
