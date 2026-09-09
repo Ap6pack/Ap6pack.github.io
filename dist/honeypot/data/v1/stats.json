@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-09T06:00:15.013717+00:00",
+  "generated_at": "2026-09-09T06:30:13.292093+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-09T06:00:01.517565Z",
-  "total_events": 961390,
-  "unique_sessions": 112358,
-  "unique_source_ips": 4525,
-  "login_attempts": 106400,
-  "login_success": 104430,
-  "commands_run": 234478,
+  "last_event": "2026-09-09T06:29:47.225493Z",
+  "total_events": 962417,
+  "unique_sessions": 112455,
+  "unique_source_ips": 4530,
+  "login_attempts": 106504,
+  "login_success": 104522,
+  "commands_run": 234881,
   "files_captured": 21,
   "top_usernames": [
     [
@@ -135,18 +135,18 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 234478,
-    "cowrie.session.connect": 112358,
-    "cowrie.session.closed": 111652,
-    "cowrie.login.success": 104430,
-    "cowrie.session.params": 102834,
-    "cowrie.log.closed": 102139,
-    "cowrie.client.version": 76224,
-    "cowrie.client.kex": 75965,
-    "cowrie.telnet.option": 31747,
+    "cowrie.command.input": 234881,
+    "cowrie.session.connect": 112455,
+    "cowrie.session.closed": 111775,
+    "cowrie.login.success": 104522,
+    "cowrie.session.params": 102919,
+    "cowrie.log.closed": 102249,
+    "cowrie.client.version": 76231,
+    "cowrie.client.kex": 75972,
+    "cowrie.telnet.option": 31832,
     "cowrie.command.success": 3122,
-    "cowrie.login.failed": 1970,
-    "cowrie.direct-tcpip.request": 1484,
+    "cowrie.login.failed": 1982,
+    "cowrie.direct-tcpip.request": 1490,
     "cowrie.session.file_download": 1454,
     "cowrie.session.file_download.failed": 1346,
     "cowrie.client.var": 41,
@@ -260,7 +260,7 @@
     },
     {
       "date": "2026-09-09",
-      "count": 10392
+      "count": 11419
     }
   ],
   "published": {
@@ -272,7 +272,7 @@
     "sessions_logged_in": 4480,
     "sessions_with_commands": 2730,
     "sessions_with_download": 655,
-    "share_of_sessions": 0.1103
+    "share_of_sessions": 0.1102
   },
   "weighting": {
     "schema_version": "1.0",
