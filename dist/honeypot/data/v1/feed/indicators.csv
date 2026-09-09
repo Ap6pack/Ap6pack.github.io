@@ -41,7 +41,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 101.201.104.216,2026-08-18T07:13:20.112495Z,2026-08-18T07:15:32.230016Z,34,0,0,0,medium,persistent,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
 101.201.234.37,2026-08-20T15:22:24.917111Z,2026-08-20T15:22:33.526131Z,2,0,0,0,low,connected_only,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
 101.206.107.245,2026-09-03T11:15:26.725482Z,2026-09-03T11:15:26.726254Z,1,0,0,0,low,single_sighting,false,true,,7,China,UNICOM Sichuan province network,chinaunicom.cn,false,100
-101.24.250.114,2026-09-02T21:17:21.362895Z,2026-09-02T21:18:50.089661Z,1,1,31,5,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,China,China Unicom Hebei province network,chinaunicom.cn,false,59
+101.24.250.114,2026-09-02T21:17:21.362895Z,2026-09-02T21:18:50.089661Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,China,China Unicom Hebei province network,chinaunicom.cn,false,59
 101.51.237.36,2026-09-05T17:01:43.190362Z,2026-09-05T17:02:06.295785Z,1,0,0,0,low,single_sighting,false,true,,7,Thailand,TOT Public Company Limited,totidc.net,false,0
 101.53.233.94,2026-08-18T04:48:54.707667Z,2026-08-18T04:49:20.246802Z,2,0,0,0,low,connected_only,false,false,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,67
 101.96.229.2,2026-08-30T05:38:24.123735Z,2026-08-30T05:47:29.248224Z,3,1,0,2,low,delivered_payload,false,false,,7,China,"Beijing Volcano Engine Technology Co., Ltd.",bytedance.com,false,100
@@ -837,7 +837,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 146.120.230.102,2026-09-01T08:28:34.657679Z,2026-09-01T08:28:51.520010Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Kyrgyzstan,Inform Communications Ltd.,neotelecom.kg,false,32
 146.120.251.143,2026-09-01T07:31:57.028364Z,2026-09-01T07:32:13.895915Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,ISTEC UKRAINE LLC,istec.net.ua,false,74
 146.158.111.74,2026-08-24T19:10:59.625965Z,2026-08-24T19:12:25.146445Z,2,0,0,0,low,connected_only,false,false,,7,Russia,SM Ltd.,sm117.ru,false,73
-146.158.118.252,2026-09-02T21:28:53.682573Z,2026-09-02T21:29:00.980131Z,1,1,0,0,low,single_sighting,false,true,,7,Russia,SM Ltd.,sm117.ru,false,100
+146.158.118.252,2026-09-02T21:28:53.682573Z,2026-09-02T21:29:00.980131Z,1,1,0,0,low,single_sighting,false,false,,7,Russia,SM Ltd.,sm117.ru,false,100
 146.158.121.137,2026-08-25T18:36:17.974815Z,2026-08-25T18:36:25.939967Z,1,1,0,0,low,single_sighting,false,false,,7,Russia,SM Ltd.,sm117.ru,false,100
 146.158.126.109,2026-08-27T21:34:52.031719Z,2026-08-27T21:35:23.682039Z,2,0,0,0,low,connected_only,false,false,,7,Russia,SM Ltd.,sm117.ru,false,48
 146.158.30.42,2026-09-05T23:14:51.575567Z,2026-09-05T23:15:09.684510Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Karelova Olena Viktorivna,likenet.dp.ua,false,100
@@ -900,7 +900,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 149.107.253.152,2026-08-27T02:59:12.815058Z,2026-08-27T02:59:12.816189Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,fibrazul internet srl,fibrazul.com.ar,false,64
 149.107.253.153,2026-08-27T02:58:51.558499Z,2026-08-27T02:59:12.815645Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,fibrazul internet srl,fibrazul.com.ar,false,56
 149.19.166.172,2026-08-22T17:37:19.779463Z,2026-08-22T17:45:20.930358Z,2,0,0,0,low,connected_only,false,false,,7,Brazil,Starlink Brazil Serviços de Internet Ltd,starlink.com,false,23
-149.46.1.142,2026-09-02T21:16:13.894929Z,2026-09-02T21:17:35.311918Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,Linkear Srl,linkear.com.ar,false,39
+149.46.1.142,2026-09-02T21:16:13.894929Z,2026-09-02T21:17:35.311918Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Linkear Srl,linkear.com.ar,false,39
 149.46.1.211,2026-08-26T06:59:42.990313Z,2026-08-26T07:00:05.013920Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Linkear Srl,linkear.com.ar,false,10
 149.46.2.13,2026-09-09T13:44:30.884068Z,2026-09-09T13:44:30.884844Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,Linkear Srl,linkear.com.ar,false,39
 149.78.152.37,2026-08-29T23:04:24.774714Z,2026-08-29T23:04:24.776301Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,FiberAR,fiberar.ar,false,100
@@ -1187,7 +1187,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 175.207.197.171,2026-09-02T03:06:26.446940Z,2026-09-02T03:06:35.257736Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 175.207.239.222,2026-09-04T17:15:02.428019Z,2026-09-04T20:12:59.032326Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 175.212.173.17,2026-09-01T10:25:49.980858Z,2026-09-04T17:27:15.264780Z,5,5,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
-175.212.92.43,2026-09-02T21:05:15.221678Z,2026-09-02T21:05:32.341836Z,1,1,48,12,high,delivered_payload,false,true,8c382d81d0f765a8,7,South Korea,Chungbukbonbujang,kt.com,false,100
+175.212.92.43,2026-09-02T21:05:15.221678Z,2026-09-02T21:05:32.341836Z,1,1,48,12,low,delivered_payload,false,false,8c382d81d0f765a8,7,South Korea,Chungbukbonbujang,kt.com,false,100
 175.33.226.3,2026-08-26T23:59:36.808483Z,2026-09-09T11:17:48.850737Z,11,0,0,0,medium,persistent,false,true,,7,Australia,OPTUS INTERNET - RETAIL,optus.net.au,false,100
 175.6.146.164,2026-09-02T18:21:52.299103Z,2026-09-02T18:35:55.721375Z,7,0,0,0,medium,persistent,false,false,,7,China,CHINANET HUNAN PROVINCE NETWORK,chinatelecom.cn,false,100
 175.7.144.4,2026-08-25T05:41:01.087198Z,2026-08-25T05:41:02.754995Z,1,0,0,0,low,single_sighting,false,false,,7,China,CHINANET HUNAN PROVINCE NETWORK,chinatelecom.cn,false,100
@@ -1718,7 +1718,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 185.247.137.26,2026-09-05T06:08:36.691235Z,2026-09-05T06:08:38.691417Z,1,0,0,0,low,single_sighting,false,true,,7,United Kingdom,Driftnet Ltd,driftnet.io,false,100
 185.247.137.47,2026-09-03T02:50:16.817361Z,2026-09-03T02:50:19.108503Z,2,0,0,0,low,connected_only,false,true,,7,United Kingdom,Driftnet Ltd,driftnet.io,false,100
 185.251.90.15,2026-09-02T20:30:39.717523Z,2026-09-02T20:30:39.886176Z,1,0,0,0,low,single_sighting,false,false,,7,Russia,SPRINTHOST.RU LLC,sprinthost.ru,false,59
-185.252.60.233,2026-09-02T21:24:06.088124Z,2026-09-02T21:24:24.026026Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Davydov Vladimir Dmitrievich,crelcom.ru,false,69
+185.252.60.233,2026-09-02T21:24:06.088124Z,2026-09-02T21:24:24.026026Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,Davydov Vladimir Dmitrievich,crelcom.ru,false,69
 185.253.102.113,2026-09-03T02:47:07.456181Z,2026-09-03T02:47:27.102873Z,2,0,0,0,low,connected_only,false,true,,7,Russia,OOO Post ltd,kmv.ru,false,5
 185.255.50.184,2026-09-09T11:55:27.557781Z,2026-09-09T11:55:44.995552Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Znet,znet.com.ua,false,100
 185.35.9.61,2026-08-21T21:36:58.525028Z,2026-08-21T21:36:58.526225Z,1,0,0,0,low,single_sighting,false,false,,7,Ukraine,RPC HomeNet Ltd.,homenet.ua,false,0
@@ -1917,7 +1917,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 188.18.234.98,2026-09-06T00:04:53.179645Z,2026-09-06T00:04:53.180395Z,1,0,0,0,low,single_sighting,false,true,,7,Russia,Dynamic distribution IP's for broadband services,rt.ru,false,0
 188.18.39.172,2026-08-26T21:40:28.885026Z,2026-08-26T21:43:28.058432Z,2,0,0,0,low,connected_only,false,false,,7,Russia,Dynamic distribution IP's for broadband services,rt.ru,false,0
 188.190.94.65,2026-08-19T19:25:27.400334Z,2026-08-19T19:25:47.092825Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,ISP Shtorm LTD,shtorm.net,false,0
-188.191.28.104,2026-09-02T21:09:03.396531Z,2026-09-02T21:09:39.378800Z,2,0,0,0,low,connected_only,false,true,,7,Ukraine,Ardinvest LTD,ardinvest.net,false,28
+188.191.28.104,2026-09-02T21:09:03.396531Z,2026-09-02T21:09:39.378800Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,Ardinvest LTD,ardinvest.net,false,28
 188.191.29.42,2026-08-26T02:05:18.034053Z,2026-08-26T02:05:18.034735Z,1,0,0,0,low,single_sighting,false,false,,7,Ukraine,Ardinvest LTD,ardinvest.net,false,72
 188.219.104.210,2026-08-31T04:50:21.541675Z,2026-08-31T04:50:28.647541Z,1,1,0,0,low,single_sighting,false,false,,7,Italy,Vodafone Italia S.p.A.,vodafone.it,false,100
 188.237.134.11,2026-08-17T22:51:26.802176Z,2026-08-17T22:51:46.191014Z,3,0,0,0,low,connected_only,false,false,,7,Moldova,JSC Moldtelecom S.A.,moldtelecom.md,false,100
@@ -2001,7 +2001,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 190.122.176.12,2026-08-31T02:51:38.178957Z,2026-08-31T02:51:38.180719Z,2,0,0,0,low,connected_only,false,false,,7,El Salvador,SISCOMP NETWORK S.A de C.V(Ego-Internet),ego.com.sv,false,1
 190.122.181.37,2026-08-23T03:22:46.977584Z,2026-08-23T03:23:04.403961Z,1,1,2,0,low,executed_commands,false,false,,7,Argentina,Cable Televisora Color,cabletelevisoracolor.com,false,100
 190.124.183.128,2026-09-04T10:47:00.890833Z,2026-09-04T10:48:30.731650Z,3,0,0,0,low,connected_only,false,true,,7,Brazil,Dez Solucoes em Telecomunicacoes LTDA,deztelecom.net.br,false,32
-190.124.35.141,2026-09-02T21:24:33.492877Z,2026-09-02T21:24:35.657346Z,1,0,0,0,low,single_sighting,false,true,,7,Nicaragua,Telefonia Celular de Nicaragua SA.,movistar.com.ni,false,100
+190.124.35.141,2026-09-02T21:24:33.492877Z,2026-09-02T21:24:35.657346Z,1,0,0,0,low,single_sighting,false,false,,7,Nicaragua,Telefonia Celular de Nicaragua SA.,movistar.com.ni,false,100
 190.13.233.176,2026-08-18T04:21:39.162783Z,2026-08-18T04:21:49.042443Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Cooperativa de Provisión de Servicios Publicos de Tortuguitas,yabiru.com.ar,false,65
 190.131.206.158,2026-08-31T22:02:58.780456Z,2026-08-31T22:03:06.071159Z,1,1,0,0,low,single_sighting,false,false,,7,Colombia,PLATINO ENERGY BARBADOS COR SUCURSAL COLOMBIA,cwc.com,false,100
 190.137.243.199,2026-08-18T19:05:14.009748Z,2026-08-18T19:05:14.038035Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Apolo -Gold-Telecom-Per,telecom.net.ar,false,0
@@ -3737,7 +3737,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 59.188.114.121,2026-08-31T04:09:52.238369Z,2026-08-31T04:09:55.759714Z,1,0,0,0,low,single_sighting,false,false,,7,Hong Kong,NWT Broadband Service,hkbn.net,false,100
 59.22.68.213,2026-09-04T09:00:10.071823Z,2026-09-04T09:00:20.104457Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 59.23.20.15,2026-09-02T04:02:29.101489Z,2026-09-02T15:05:47.138888Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
-59.23.40.73,2026-09-02T21:28:42.196771Z,2026-09-02T21:28:52.045647Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+59.23.40.73,2026-09-02T21:28:42.196771Z,2026-09-02T21:28:52.045647Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 59.23.76.73,2026-09-04T01:21:32.166574Z,2026-09-04T14:11:45.880548Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 59.24.3.230,2026-09-01T15:29:59.099014Z,2026-09-03T08:28:22.831687Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 59.25.31.152,2026-09-05T10:23:31.115186Z,2026-09-05T10:23:42.486173Z,1,1,22,11,high,delivered_payload,false,true,5af2de096f0bf35a,7,South Korea,Korea Telecom,kt.com,false,100
