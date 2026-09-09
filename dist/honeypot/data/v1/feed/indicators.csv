@@ -379,7 +379,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 113.11.34.221,2026-09-04T12:01:00.391656Z,2026-09-04T12:01:08.864998Z,1,1,0,0,low,single_sighting,false,true,,7,Bangladesh,"BDCOM Online Limited, Internet Service Provider,",bdcom.com,false,100
 113.140.95.2,2026-08-31T17:44:30.694692Z,2026-08-31T20:41:00.787702Z,2,2,0,0,low,connected_only,false,false,,7,China,CHINANET SHAANXI PROVINCE NETWORK,xa.sn.cn,false,100
 113.158.205.225,2026-08-31T22:32:21.213752Z,2026-09-09T08:19:41.197516Z,4,4,0,0,low,connected_only,false,true,,7,Japan,DION (KDDI CORPORATION),dion.ne.jp,false,100
-113.160.140.138,2026-09-02T18:40:24.716802Z,2026-09-02T18:40:34.377433Z,1,1,0,0,low,single_sighting,false,true,,7,Vietnam,Vietnam Posts and Telecommunications Group,vnpt.com.vn,false,100
+113.160.140.138,2026-09-02T18:40:24.716802Z,2026-09-02T18:40:34.377433Z,1,1,0,0,low,single_sighting,false,false,,7,Vietnam,Vietnam Posts and Telecommunications Group,vnpt.com.vn,false,100
 113.160.209.29,2026-09-02T10:02:49.954272Z,2026-09-02T10:02:59.671130Z,1,1,0,0,low,single_sighting,false,false,,7,Vietnam,Vietnam Posts and Telecommunications Group,vnpt.com.vn,false,100
 113.161.164.24,2026-09-03T06:20:24.303593Z,2026-09-03T06:20:33.507448Z,1,1,0,0,low,single_sighting,false,true,,7,Vietnam,Vietnam Posts and Telecommunications Group,vnpt.com.vn,false,100
 113.166.20.233,2026-08-28T16:18:45.876807Z,2026-08-28T16:18:47.001408Z,1,1,1,0,low,executed_commands,true,false,e97166b54500da3a,7,Vietnam,Vietnam Posts and Telecommunications Group,vnpt.com.vn,false,3
@@ -410,7 +410,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 115.133.58.45,2026-08-31T23:19:14.604058Z,2026-08-31T23:21:05.699465Z,3,0,0,0,low,connected_only,false,false,,7,Malaysia,TM TECHNOLOGY SERVICES SDN. BHD.,tm.com.my,false,61
 115.160.67.73,2026-08-18T21:32:12.686195Z,2026-09-08T00:51:19.200912Z,10,10,160,10,high,delivered_payload,false,true,acf10825cbc95b78,7,South Korea,Seokyung Cable Television Co.. Ltd.,scs.co.kr,false,100
 115.164.33.124,2026-08-26T20:30:15.054041Z,2026-08-26T20:30:16.878855Z,1,0,0,0,low,single_sighting,false,false,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,15
-115.190.225.133,2026-09-02T18:49:49.830855Z,2026-09-02T18:54:50.770579Z,1,1,0,1,high,delivered_payload,false,true,,7,China,"Beijing Volcano Engine Technology Co., Ltd.",gwbn.net.cn,false,100
+115.190.225.133,2026-09-02T18:49:49.830855Z,2026-09-02T18:54:50.770579Z,1,1,0,1,low,delivered_payload,false,false,,7,China,"Beijing Volcano Engine Technology Co., Ltd.",gwbn.net.cn,false,100
 115.211.69.43,2026-08-31T04:37:40.717671Z,2026-08-31T04:38:11.730269Z,1,1,22,11,low,delivered_payload,false,false,5af2de096f0bf35a,7,China,CHINANET-ZJ Jinhua node network,hz.zj.cn,false,54
 115.215.8.155,2026-09-04T21:53:46.269037Z,2026-09-04T21:54:06.691173Z,1,1,22,11,high,delivered_payload,false,true,5af2de096f0bf35a,7,China,CHINANET-ZJ Ningbo node network,hz.zj.cn,false,63
 115.241.228.34,2026-09-05T08:50:28.577336Z,2026-09-05T08:50:38.025994Z,1,1,0,0,low,single_sighting,false,true,,7,India,Reliance Jio Infocomm Limited,jio.com,false,100
@@ -654,7 +654,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 124.29.214.170,2026-09-07T20:31:15.256758Z,2026-09-07T20:36:39.762020Z,25,0,0,0,medium,persistent,false,true,,7,Pakistan,Broadband Services,cyber.net.pk,false,100
 124.29.226.103,2026-09-09T09:57:45.135179Z,2026-09-09T10:00:53.685521Z,14,0,0,0,medium,persistent,false,true,,7,Pakistan,Broadband Services,cyber.net.pk,false,78
 124.67.120.106,2026-09-09T09:07:04.915585Z,2026-09-09T09:07:13.623105Z,1,1,0,0,low,single_sighting,false,true,,7,China,China Unicom Neimeng Province Network,chinaunicom.cn,false,100
-124.88.174.143,2026-08-25T22:04:45.538922Z,2026-09-02T18:46:36.200247Z,6,5,0,0,medium,persistent,false,true,,7,China,China Unicom Xinjiang province network,chinaunicom.cn,false,100
+124.88.174.143,2026-08-25T22:04:45.538922Z,2026-09-02T18:46:36.200247Z,6,5,0,0,medium,persistent,false,false,,7,China,China Unicom Xinjiang province network,chinaunicom.cn,false,100
 125.143.209.68,2026-09-03T07:49:45.200020Z,2026-09-03T07:49:55.632285Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 125.143.215.216,2026-09-01T21:36:49.736289Z,2026-09-01T21:36:59.754639Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 125.143.249.102,2026-09-02T23:18:15.850926Z,2026-09-02T23:18:25.208277Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
@@ -1189,7 +1189,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 175.212.173.17,2026-09-01T10:25:49.980858Z,2026-09-04T17:27:15.264780Z,5,5,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 175.212.92.43,2026-09-02T21:05:15.221678Z,2026-09-02T21:05:32.341836Z,1,1,48,12,high,delivered_payload,false,true,8c382d81d0f765a8,7,South Korea,Chungbukbonbujang,kt.com,false,100
 175.33.226.3,2026-08-26T23:59:36.808483Z,2026-09-09T11:17:48.850737Z,11,0,0,0,medium,persistent,false,true,,7,Australia,OPTUS INTERNET - RETAIL,optus.net.au,false,100
-175.6.146.164,2026-09-02T18:21:52.299103Z,2026-09-02T18:35:55.721375Z,7,0,0,0,medium,persistent,false,true,,7,China,CHINANET HUNAN PROVINCE NETWORK,chinatelecom.cn,false,100
+175.6.146.164,2026-09-02T18:21:52.299103Z,2026-09-02T18:35:55.721375Z,7,0,0,0,medium,persistent,false,false,,7,China,CHINANET HUNAN PROVINCE NETWORK,chinatelecom.cn,false,100
 175.7.144.4,2026-08-25T05:41:01.087198Z,2026-08-25T05:41:02.754995Z,1,0,0,0,low,single_sighting,false,false,,7,China,CHINANET HUNAN PROVINCE NETWORK,chinatelecom.cn,false,100
 176.10.197.168,2026-08-31T05:08:16.475571Z,2026-09-06T02:37:15.951439Z,4,4,0,0,low,connected_only,false,true,,7,Sweden,Bahnhof AB,bahnhof.se,false,100
 176.10.202.13,2026-09-05T22:36:51.636868Z,2026-09-09T10:19:30.680962Z,3,3,0,0,low,connected_only,false,true,,7,Sweden,Bahnhof AB,bahnhof.se,false,100
@@ -1938,7 +1938,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 189.167.32.18,2026-08-20T19:13:41.057709Z,2026-08-20T19:15:23.491264Z,3,0,0,0,low,connected_only,false,false,,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,5
 189.167.48.81,2026-09-05T01:35:05.745726Z,2026-09-05T01:35:22.837201Z,4,0,0,0,low,connected_only,false,true,,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,21
 189.172.101.223,2026-08-17T22:15:59.914393Z,2026-08-17T22:16:31.852805Z,1,0,0,0,low,single_sighting,false,false,,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,16
-189.178.140.122,2026-09-02T18:44:03.631031Z,2026-09-02T18:45:02.159492Z,4,0,0,0,low,connected_only,false,true,,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,64
+189.178.140.122,2026-09-02T18:44:03.631031Z,2026-09-02T18:45:02.159492Z,4,0,0,0,low,connected_only,false,false,,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,64
 189.18.142.34,2026-09-07T07:53:03.591878Z,2026-09-07T07:54:42.225545Z,3,0,0,0,low,connected_only,false,true,,7,Brazil,TELEFÔNICA BRASIL S.A,telefonica.com.br,false,0
 189.183.169.198,2026-08-19T22:38:51.456779Z,2026-08-19T22:39:01.273137Z,2,0,0,0,low,connected_only,false,false,,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,0
 189.183.53.110,2026-09-07T02:43:20.153409Z,2026-09-07T02:43:20.154353Z,1,0,0,0,low,single_sighting,false,true,,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,48
@@ -2336,7 +2336,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 2.180.15.240,2026-08-31T05:52:59.615702Z,2026-08-31T05:53:07.173364Z,1,1,0,0,low,single_sighting,false,false,,7,Iran,mashhad dsl,ito.gov.ir,false,100
 2.180.35.173,2026-09-01T22:46:05.391927Z,2026-09-01T22:46:25.287589Z,1,1,0,0,low,single_sighting,false,false,,7,Iran,Iran Information Technology Company PJSC,dci.co.ir,false,100
 2.180.7.125,2026-08-26T09:51:15.248551Z,2026-09-01T07:09:50.020745Z,2,2,0,0,low,connected_only,false,false,,7,Iran,mashhad dsl,ito.gov.ir,false,100
-2.184.236.166,2026-09-02T18:46:56.323035Z,2026-09-02T18:47:14.720475Z,1,0,0,0,low,single_sighting,false,true,,7,Iran,Iran Information Technology Company PJSC,dci.co.ir,false,100
+2.184.236.166,2026-09-02T18:46:56.323035Z,2026-09-02T18:47:14.720475Z,1,0,0,0,low,single_sighting,false,false,,7,Iran,Iran Information Technology Company PJSC,dci.co.ir,false,100
 2.249.150.53,2026-09-09T14:19:50.365393Z,2026-09-09T14:19:56.230684Z,1,1,0,0,low,single_sighting,false,true,,7,Sweden,Telia Network Services,telia.net,false,100
 2.27.20.154,2026-08-21T02:24:32.658397Z,2026-08-21T02:24:33.136590Z,1,2,23,0,low,executed_commands,false,false,f90abcb4f0900871,7,Germany,play2go.cloud - Cheap and reliable hosting,play2go.cloud,false,19
 2.47.67.142,2026-09-08T16:18:18.387699Z,2026-09-08T16:18:18.388437Z,1,0,0,0,low,single_sighting,false,true,,7,Italy,Vodafone Italia S.p.A.,vodafone.it,false,50
@@ -3112,7 +3112,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 35.203.210.126,2026-09-01T03:45:32.272780Z,2026-09-01T03:45:42.197369Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,Google LLC,google.com,false,0
 35.203.210.147,2026-08-29T17:49:09.719788Z,2026-08-29T17:49:09.875287Z,2,0,0,0,low,connected_only,false,false,,7,United Kingdom,Google LLC,google.com,false,0
 35.203.210.203,2026-08-23T00:23:43.953212Z,2026-08-23T00:23:44.110132Z,2,0,0,0,low,connected_only,false,false,,7,United Kingdom,Google LLC,google.com,false,0
-35.203.210.91,2026-09-02T18:47:42.415311Z,2026-09-02T18:47:58.550426Z,1,0,0,0,low,single_sighting,false,true,,7,United Kingdom,Google LLC,google.com,false,0
+35.203.210.91,2026-09-02T18:47:42.415311Z,2026-09-02T18:47:58.550426Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,Google LLC,google.com,false,0
 35.203.210.96,2026-09-07T19:00:30.224548Z,2026-09-07T19:00:40.145066Z,1,0,0,0,low,single_sighting,false,true,,7,United Kingdom,Google LLC,google.com,false,0
 35.203.211.144,2026-09-05T18:06:31.472153Z,2026-09-05T18:06:31.626772Z,2,0,0,0,low,connected_only,false,true,,7,United Kingdom,Google LLC,google.com,false,0
 35.203.211.187,2026-09-01T09:43:47.919721Z,2026-09-01T09:44:04.243569Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,Google LLC,google.com,false,0
@@ -3459,7 +3459,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 46.191.181.113,2026-08-18T08:47:12.698885Z,2026-08-18T08:47:12.700309Z,1,0,0,0,low,single_sighting,false,false,,7,Russia,JSC Ufanet,ufanet.ru,false,61
 46.200.48.27,2026-08-22T03:56:25.301712Z,2026-08-22T03:58:27.276333Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,100
 46.201.179.245,2026-08-23T03:38:57.053272Z,2026-08-23T03:39:22.149556Z,4,0,0,0,low,connected_only,false,false,,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,65
-46.201.200.31,2026-09-02T18:58:57.055525Z,2026-09-02T18:59:47.496726Z,2,0,0,0,low,connected_only,false,true,,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,97
+46.201.200.31,2026-09-02T18:58:57.055525Z,2026-09-02T18:59:47.496726Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,97
 46.201.210.106,2026-09-07T22:49:06.169965Z,2026-09-07T22:49:06.170634Z,1,0,0,0,low,single_sighting,false,true,,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,70
 46.201.24.218,2026-08-23T08:06:02.871535Z,2026-08-23T08:06:19.642193Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,58
 46.201.247.21,2026-08-31T09:45:55.541230Z,2026-08-31T09:46:01.845557Z,1,1,0,0,low,single_sighting,false,false,,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,100
@@ -3488,7 +3488,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 46.59.108.159,2026-09-05T10:00:58.161952Z,2026-09-09T07:39:36.246447Z,4,3,0,0,low,connected_only,false,true,,7,Sweden,Bahnhof AB,bahnhof.se,false,100
 46.59.108.174,2026-09-05T02:52:56.245362Z,2026-09-05T02:53:02.663262Z,1,1,0,0,low,single_sighting,false,true,,7,Sweden,Bahnhof AB,bahnhof.se,false,100
 46.59.109.240,2026-08-31T20:05:42.616500Z,2026-08-31T20:05:48.240417Z,1,1,0,0,low,single_sighting,false,false,,7,Sweden,Bahnhof AB,bahnhof.se,false,100
-46.59.109.4,2026-09-02T18:49:57.459686Z,2026-09-02T18:50:03.384483Z,1,1,0,0,low,single_sighting,false,true,,7,Sweden,Bahnhof AB,bahnhof.se,false,100
+46.59.109.4,2026-09-02T18:49:57.459686Z,2026-09-02T18:50:03.384483Z,1,1,0,0,low,single_sighting,false,false,,7,Sweden,Bahnhof AB,bahnhof.se,false,100
 46.59.88.232,2026-09-02T14:46:22.810080Z,2026-09-09T06:28:01.750524Z,3,3,0,0,low,connected_only,false,true,,7,Sweden,Bahnhof AB,bahnhof.se,false,100
 46.59.88.245,2026-09-09T13:06:35.915811Z,2026-09-09T13:06:41.788994Z,1,1,0,0,low,single_sighting,false,true,,7,Sweden,Bahnhof AB,bahnhof.se,false,100
 46.59.88.86,2026-09-04T01:21:27.763743Z,2026-09-04T01:21:33.207081Z,1,1,0,0,low,single_sighting,false,true,,7,Sweden,Bahnhof AB,bahnhof.se,false,100
@@ -3865,9 +3865,9 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 65.20.163.62,2026-08-31T08:21:31.836900Z,2026-08-31T08:21:39.165535Z,1,1,0,0,low,single_sighting,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.165.151,2026-09-06T13:09:14.518677Z,2026-09-06T13:09:21.225530Z,1,1,0,0,low,single_sighting,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.175.6,2026-09-03T06:31:03.918692Z,2026-09-03T06:31:11.278981Z,1,1,0,0,low,single_sighting,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
-65.20.179.251,2026-09-02T04:23:00.044460Z,2026-09-02T18:52:59.710960Z,2,2,0,0,low,connected_only,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
+65.20.179.251,2026-09-02T04:23:00.044460Z,2026-09-02T18:52:59.710960Z,2,2,0,0,low,connected_only,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.187.47,2026-08-31T06:50:16.059160Z,2026-09-06T01:08:25.843995Z,3,2,0,0,low,connected_only,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
-65.20.189.52,2026-08-31T10:05:33.818967Z,2026-09-02T18:52:51.318217Z,3,3,0,0,low,connected_only,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
+65.20.189.52,2026-08-31T10:05:33.818967Z,2026-09-02T18:52:51.318217Z,3,3,0,0,low,connected_only,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.191.231,2026-09-09T14:19:14.991005Z,2026-09-09T14:19:22.131388Z,1,1,0,0,low,single_sighting,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.202.4,2026-09-04T20:12:21.415663Z,2026-09-05T04:56:32.408294Z,2,2,0,0,low,connected_only,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.204.108,2026-09-01T02:22:57.566702Z,2026-09-09T06:00:16.759009Z,2,1,0,0,low,connected_only,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
