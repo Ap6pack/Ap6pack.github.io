@@ -1173,7 +1173,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 176.105.201.214,2026-09-02T05:34:54.638474Z,2026-09-02T05:35:12.934036Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,RPC HomeNet Ltd.,homenet.ua,false,23
 176.105.222.244,2026-08-18T10:09:21.922725Z,2026-08-18T10:09:21.923372Z,1,0,0,0,low,single_sighting,false,false,,7,Ukraine,RPC HomeNet Ltd.,homenet.ua,false,3
 176.110.134.69,2026-08-19T08:04:39.317382Z,2026-08-19T08:04:58.039968Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,TeleCentr Ltd.,soyka.su,false,80
-176.111.187.14,2026-09-02T11:00:02.060251Z,2026-09-02T11:00:19.458944Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Volia,volia.net,false,100
+176.111.187.14,2026-09-02T11:00:02.060251Z,2026-09-02T11:00:19.458944Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,Volia,volia.net,false,100
 176.111.250.237,2026-09-07T04:45:27.052901Z,2026-09-07T04:45:44.970385Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,Foton Company Ltd,fotonx.ru,false,71
 176.111.51.218,2026-08-19T12:39:18.557570Z,2026-08-19T12:39:37.537830Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,TOV Kompjuternie Merezhi,seti.ua,false,57
 176.112.105.77,2026-09-08T19:04:18.426563Z,2026-09-08T19:04:43.984901Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,MediaKvant Ltd.,,false,100
@@ -1752,7 +1752,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 186.18.201.172,2026-09-05T00:41:18.495486Z,2026-09-05T00:41:28.543009Z,3,0,0,0,low,connected_only,false,true,,7,Argentina,Telecentro S.A. - Clientes Residenciales,telecentro.com.ar,false,21
 186.183.254.68,2026-08-29T02:01:23.969846Z,2026-08-29T02:01:23.970498Z,1,0,0,0,low,single_sighting,false,false,,7,Colombia,TELEBUCARAMANGA S.A. E.S.P.,telebucaramanga.net.co,false,5
 186.188.161.5,2026-09-08T11:37:03.791512Z,2026-09-08T11:37:21.532240Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Panama,Cable Onda,tigo.com.pa,false,80
-186.188.215.84,2026-09-02T11:02:51.472068Z,2026-09-02T11:04:18.499579Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Panama,Cable Onda,tigo.com.pa,false,100
+186.188.215.84,2026-09-02T11:02:51.472068Z,2026-09-02T11:04:18.499579Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Panama,Cable Onda,tigo.com.pa,false,100
 186.189.71.46,2026-08-24T10:53:32.325812Z,2026-08-24T10:53:32.326633Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,WOM S.A.,wom.cl,false,25
 186.189.89.143,2026-08-19T10:35:39.885057Z,2026-08-19T10:36:30.666388Z,2,0,0,0,low,connected_only,false,false,,7,Chile,WOM S.A.,wom.cl,false,50
 186.189.90.143,2026-09-03T09:56:38.052006Z,2026-09-03T09:57:38.840060Z,3,0,0,0,low,connected_only,false,true,,7,Chile,WOM S.A.,wom.cl,false,28
@@ -2339,7 +2339,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 200.112.142.146,2026-09-06T10:17:55.570751Z,2026-09-07T10:13:49.317183Z,2,2,62,10,high,delivered_payload,false,true,2db8d2d5d6168520,7,Argentina,SION S.A,sion.com,false,95
 200.112.142.169,2026-08-21T06:35:24.116526Z,2026-08-21T06:36:08.568949Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Argentina,SION S.A,sion.com,false,100
 200.112.142.175,2026-09-07T15:56:10.698875Z,2026-09-07T15:57:35.395408Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Argentina,SION S.A,sion.com,false,87
-200.112.142.179,2026-09-02T11:24:58.646437Z,2026-09-02T11:26:23.961370Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Argentina,SION S.A,sion.com,false,87
+200.112.142.179,2026-09-02T11:24:58.646437Z,2026-09-02T11:26:23.961370Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Argentina,SION S.A,sion.com,false,87
 200.112.142.180,2026-08-29T14:44:24.418038Z,2026-09-05T07:49:59.669545Z,2,2,41,5,high,delivered_payload,false,true,480804bc4d0c91fc,7,Argentina,SION S.A,sion.com,false,100
 200.112.142.192,2026-08-27T11:19:36.774753Z,2026-08-27T11:19:39.152669Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,SION S.A,sion.com,false,70
 200.112.142.205,2026-08-25T13:24:47.015783Z,2026-08-25T13:25:32.142903Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Argentina,SION S.A,sion.com,false,100
