@@ -67,7 +67,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 102.210.16.14,2026-08-20T02:53:24.151377Z,2026-08-20T02:53:24.152320Z,1,0,0,0,low,single_sighting,false,false,,7,Ivory Coast,ORANGE COTE D'IVOIRE,orange.ci,false,35
 102.210.16.255,2026-08-18T16:18:12.642415Z,2026-08-18T16:18:12.643165Z,1,0,0,0,low,single_sighting,false,false,,7,Ivory Coast,ORANGE COTE D'IVOIRE,orange.ci,false,51
 102.210.17.96,2026-08-24T15:42:14.872116Z,2026-08-24T15:42:14.880022Z,1,0,0,0,low,single_sighting,false,false,,7,Ivory Coast,ORANGE COTE D'IVOIRE,orange.ci,false,46
-102.210.210.2,2026-09-02T08:27:35.951684Z,2026-09-02T08:27:35.952455Z,1,0,0,0,low,single_sighting,false,true,,7,South Africa,Fixed Line ISP,stemconnect.net,false,100
+102.210.210.2,2026-09-02T08:27:35.951684Z,2026-09-02T08:27:35.952455Z,1,0,0,0,low,single_sighting,false,false,,7,South Africa,Fixed Line ISP,stemconnect.net,false,100
 102.210.58.106,2026-08-24T09:41:15.784378Z,2026-08-24T09:41:36.416256Z,3,0,0,0,low,connected_only,false,false,,7,Kenya,Syokinet Solutions Limited,syokinet.co.ke,false,24
 102.211.147.131,2026-08-21T06:39:46.237475Z,2026-08-21T06:40:13.919579Z,2,0,0,0,low,connected_only,false,false,,7,Kenya,Unwired Communications,unwired.co.ke,false,71
 102.211.7.162,2026-08-31T10:35:23.205459Z,2026-08-31T12:07:55.759553Z,2,2,0,0,low,connected_only,false,false,,7,Libya,LibyanElite,libyanelite.com,false,100
@@ -152,7 +152,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 103.226.250.88,2026-08-17T19:32:49.704250Z,2026-08-17T19:32:54.496642Z,2,1,4,0,low,executed_commands,false,false,33a72b02307dfbcd,7,Vietnam,Global Data Joint Stock Company,gdata.com.vn,false,100
 103.230.176.152,2026-08-31T10:02:48.847041Z,2026-08-31T10:02:57.763662Z,1,1,0,0,low,single_sighting,false,false,,7,India,AXOM INTERNET SERVICES PRIVATE LIMITED,,false,100
 103.230.211.34,2026-08-28T10:22:56.582865Z,2026-08-28T10:23:19.394682Z,4,0,0,0,low,connected_only,false,false,,7,Bangladesh,Infobd24 Systems,infobd.com.bd,false,67
-103.231.254.205,2026-09-02T08:02:25.399138Z,2026-09-02T08:02:27.129129Z,1,1,1,0,low,executed_commands,true,true,d960c2eba2b5400c,7,Hong Kong,System,layerstack.com,false,95
+103.231.254.205,2026-09-02T08:02:25.399138Z,2026-09-02T08:02:27.129129Z,1,1,1,0,low,executed_commands,true,false,d960c2eba2b5400c,7,Hong Kong,System,layerstack.com,false,95
 103.242.105.35,2026-08-22T03:57:55.390674Z,2026-08-22T03:58:19.086060Z,2,2,2,0,low,executed_commands,false,false,,7,Indonesia,PT Lintas Jaringan Nusantara,lintasjaringan.net,false,63
 103.244.172.107,2026-09-03T13:56:28.182180Z,2026-09-03T14:01:52.767865Z,25,0,0,0,medium,persistent,false,true,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,73
 103.244.172.201,2026-08-29T22:43:12.795299Z,2026-08-29T22:48:37.360781Z,25,0,0,0,medium,persistent,false,false,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,95
@@ -778,7 +778,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 142.93.218.50,2026-08-30T05:40:04.600848Z,2026-09-01T15:30:38.092176Z,3,3,15,0,low,executed_commands,false,false,e075ddae667ce5bd,7,India,"DigitalOcean, LLC",digitalocean.com,false,100
 143.0.65.185,2026-09-08T09:54:12.792549Z,2026-09-08T09:54:12.793429Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,DOVA SRL,dovanet.com.ar,false,34
 143.105.152.144,2026-09-07T05:03:56.375092Z,2026-09-07T05:04:12.968824Z,3,0,0,0,low,connected_only,false,true,,7,Cameroon,"SpaceX Services, Inc.",spacex.com,false,38
-143.105.239.184,2026-09-02T08:02:52.840779Z,2026-09-02T08:05:56.604932Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Martinique,"SpaceX Services, Inc.",spacex.com,false,24
+143.105.239.184,2026-09-02T08:02:52.840779Z,2026-09-02T08:05:56.604932Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Martinique,"SpaceX Services, Inc.",spacex.com,false,24
 143.105.245.36,2026-09-04T05:29:54.499327Z,2026-09-04T05:29:54.503206Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"SpaceX Services, Inc.",spacex.com,false,40
 143.198.101.40,2026-09-03T04:34:35.468694Z,2026-09-03T04:34:35.604681Z,2,0,0,0,low,connected_only,false,true,,7,United States,"DigitalOcean, LLC",digitalocean.com,false,69
 143.198.163.134,2026-09-08T15:11:30.197276Z,2026-09-08T15:19:42.961431Z,5,4,2,0,medium,executed_commands,false,true,7002e7827601cc7b,7,United States,"DigitalOcean, LLC",digitalocean.com,false,100
@@ -2327,7 +2327,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 20.83.48.204,2026-08-25T12:28:25.684370Z,2026-08-25T12:28:35.734720Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Corporation,microsoft.com,false,100
 20.84.144.113,2026-08-27T06:47:19.353244Z,2026-08-27T06:47:29.353482Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Corporation,microsoft.com,false,100
 20.84.145.58,2026-08-22T22:42:57.152676Z,2026-08-22T22:42:57.283725Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Corporation,microsoft.com,false,100
-20.84.153.34,2026-09-02T08:25:16.216849Z,2026-09-02T08:25:16.787111Z,2,0,0,0,low,connected_only,false,true,,7,United States,Microsoft Corporation,microsoft.com,false,100
+20.84.153.34,2026-09-02T08:25:16.216849Z,2026-09-02T08:25:16.787111Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Corporation,microsoft.com,false,100
 200.104.140.67,2026-08-18T01:10:19.622770Z,2026-08-18T01:10:19.623474Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,VTR BANDA ANCHA S.A.,vtr.com,false,84
 200.104.246.227,2026-09-06T04:41:42.332200Z,2026-09-06T04:41:56.682015Z,4,0,0,0,low,connected_only,false,true,,7,Chile,VTR BANDA ANCHA S.A.,vtr.com,false,100
 200.108.184.97,2026-08-21T12:20:24.409149Z,2026-08-21T12:21:47.275091Z,2,0,0,0,low,connected_only,false,false,,7,Mexico,"TELTAN TELECOMUNICACIONES, S. DE R.L. DE C.V.",teltan.com.mx,false,43
@@ -2432,7 +2432,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 200.59.89.12,2026-09-08T04:50:45.260709Z,2026-09-08T04:50:45.279858Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.89.179,2026-09-03T04:30:34.984715Z,2026-09-03T04:31:59.617697Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.91.19,2026-08-29T19:48:14.647012Z,2026-08-29T19:48:16.966257Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
-200.59.93.106,2026-09-02T08:04:02.440107Z,2026-09-02T08:04:02.440786Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,Sinectis S.A.,sion.com,false,100
+200.59.93.106,2026-09-02T08:04:02.440107Z,2026-09-02T08:04:02.440786Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.96.26,2026-09-02T16:39:31.403785Z,2026-09-02T16:40:56.296569Z,1,1,31,5,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.6.91.43,2026-08-31T19:22:13.065939Z,2026-08-31T19:22:15.305423Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Brazil,FIBRA MAIS,centralagilitytelecom.com,false,100
 200.69.35.114,2026-09-02T00:24:33.876347Z,2026-09-02T00:25:58.665357Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Argentina,SION S.A,sion.com,false,100
@@ -2646,7 +2646,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 211.250.26.54,2026-09-02T03:54:53.880139Z,2026-09-02T03:57:54.973305Z,1,1,5,0,low,executed_commands,false,false,d4224ad2d90953b1,7,South Korea,Korea Telecom,kt.com,false,100
 211.252.94.151,2026-09-03T04:42:30.651377Z,2026-09-03T04:42:40.357870Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 211.43.100.92,2026-09-04T09:06:34.760919Z,2026-09-04T09:06:44.859880Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
-211.43.122.140,2026-09-01T07:07:04.339052Z,2026-09-02T08:16:47.435650Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+211.43.122.140,2026-09-01T07:07:04.339052Z,2026-09-02T08:16:47.435650Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 211.48.60.35,2026-08-31T07:53:02.288039Z,2026-09-02T06:01:44.292334Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 211.53.113.224,2026-08-24T07:13:13.843136Z,2026-08-24T07:13:24.460927Z,1,1,22,11,low,delivered_payload,false,false,5af2de096f0bf35a,7,South Korea,LG DACOM Corporation,dacom.co.kr,false,100
 211.53.113.225,2026-08-22T20:22:43.328667Z,2026-08-28T11:01:56.669244Z,2,1,22,11,low,delivered_payload,false,false,5af2de096f0bf35a,7,South Korea,LG DACOM Corporation,dacom.co.kr,false,100
@@ -2877,7 +2877,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 223.123.73.196,2026-08-21T15:43:21.009698Z,2026-08-21T15:45:30.578715Z,10,0,0,0,medium,persistent,false,false,,7,Pakistan,CMPak Limited,zong.com.pk,false,81
 223.123.73.230,2026-09-05T11:44:47.152172Z,2026-09-05T11:50:16.717238Z,25,0,0,0,medium,persistent,false,true,,7,Pakistan,CMPak Limited,zong.com.pk,false,33
 223.123.73.73,2026-08-26T07:33:16.457452Z,2026-08-26T07:38:40.990024Z,25,0,0,0,medium,persistent,false,false,,7,Pakistan,CMPak Limited,zong.com.pk,false,71
-223.181.80.84,2026-09-02T08:06:16.384022Z,2026-09-02T08:06:16.384766Z,1,0,0,0,low,single_sighting,false,true,,7,India,Bharti Airtel Limited,airtel.in,false,0
+223.181.80.84,2026-09-02T08:06:16.384022Z,2026-09-02T08:06:16.384766Z,1,0,0,0,low,single_sighting,false,false,,7,India,Bharti Airtel Limited,airtel.in,false,0
 223.197.145.126,2026-09-01T07:42:39.061728Z,2026-09-05T15:44:15.121747Z,2,2,0,0,low,connected_only,false,true,,7,Hong Kong,HKT Limited,hktchina.com,false,100
 223.197.145.33,2026-09-01T08:47:05.134490Z,2026-09-01T08:47:13.618423Z,1,1,0,0,low,single_sighting,false,false,,7,Hong Kong,HKT Limited,hktchina.com,false,100
 223.197.153.135,2026-09-04T09:08:09.022879Z,2026-09-06T17:43:03.039192Z,2,2,0,0,low,connected_only,false,true,,7,Hong Kong,HKT Limited,hktchina.com,false,100
@@ -3056,7 +3056,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 36.250.220.122,2026-08-24T05:35:53.970144Z,2026-08-24T05:35:54.616984Z,1,0,0,0,low,single_sighting,false,false,,7,China,"Fuzhou city, fujian provincial network of UNICOM",wo.com.cn,false,70
 36.255.33.83,2026-09-04T09:27:33.207446Z,2026-09-04T09:29:29.844877Z,9,0,0,0,medium,persistent,false,true,,7,Pakistan,"Cyber Internet Services Pakistan A - 904 9th Floor Lakson Square Building No. 3 No. 3, Sarwar Shaheed Road Karachi-74200 Pakistan",cyber.net.pk,false,78
 36.64.33.82,2026-08-26T05:51:10.151850Z,2026-09-05T06:19:43.835980Z,3,2,0,0,low,connected_only,false,true,,7,Indonesia,PT TELKOM INDONESIA Menara Multimedia Lt.7 Jl. Kebon sirih No.12 JAKARTA,telkom.co.id,false,100
-36.64.36.101,2026-09-01T15:10:10.341459Z,2026-09-02T08:20:00.064748Z,2,0,0,0,low,connected_only,false,true,,7,Indonesia,PT TELKOM INDONESIA Menara Multimedia Lt.7 Jl. Kebon sirih No.12 JAKARTA,telkom.co.id,false,100
+36.64.36.101,2026-09-01T15:10:10.341459Z,2026-09-02T08:20:00.064748Z,2,0,0,0,low,connected_only,false,false,,7,Indonesia,PT TELKOM INDONESIA Menara Multimedia Lt.7 Jl. Kebon sirih No.12 JAKARTA,telkom.co.id,false,100
 36.88.101.253,2026-08-22T05:01:33.265988Z,2026-08-22T07:38:28.228398Z,22,0,0,0,medium,persistent,false,false,,7,Indonesia,PT Telekomunikasi Indonesia,telkom.co.id,false,34
 36.92.35.211,2026-08-27T12:38:22.949908Z,2026-09-01T13:36:17.174680Z,2,1,0,0,low,connected_only,false,false,,7,Indonesia,PT Telekomunikasi Indonesia,telkom.co.id,false,100
 36.94.136.191,2026-09-08T03:29:02.023901Z,2026-09-08T06:05:10.192993Z,21,0,0,0,medium,persistent,false,true,,7,Indonesia,PT Telekomunikasi Indonesia,telkom.co.id,false,19
@@ -3202,7 +3202,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 41.250.58.78,2026-08-19T10:56:32.917430Z,2026-08-19T10:57:13.085955Z,3,0,0,0,low,connected_only,false,false,,7,Morocco,ADSL_Maroc_telecom,menara.ma,false,0
 41.250.74.34,2026-09-07T10:28:53.786783Z,2026-09-07T10:28:53.792569Z,1,0,0,0,low,single_sighting,false,true,,7,Morocco,ADSL_Maroc_telecom,menara.ma,false,25
 41.251.153.109,2026-08-17T23:56:42.172512Z,2026-08-17T23:56:42.173538Z,1,0,0,0,low,single_sighting,false,false,,7,Morocco,ADSL_Maroc_telecom,menara.ma,false,0
-41.251.190.167,2026-09-02T08:25:31.335691Z,2026-09-02T08:25:49.878695Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Morocco,ADSL_Maroc_telecom,menara.ma,false,0
+41.251.190.167,2026-09-02T08:25:31.335691Z,2026-09-02T08:25:49.878695Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Morocco,ADSL_Maroc_telecom,menara.ma,false,0
 41.33.211.195,2026-08-24T06:56:12.710383Z,2026-08-24T06:57:38.262899Z,3,0,0,0,low,connected_only,false,false,,7,Egypt,TE Data,tedata.net,false,100
 41.40.73.82,2026-08-24T20:09:21.464758Z,2026-08-24T20:09:24.273247Z,1,1,5,0,low,executed_commands,false,false,f7303c94cf52f8d5,7,Egypt,TE Data,tedata.net,false,0
 41.42.148.29,2026-08-27T00:11:34.042540Z,2026-08-27T00:11:37.405628Z,1,1,5,0,low,executed_commands,false,false,f7303c94cf52f8d5,7,Egypt,TE Data,tedata.net,false,0
@@ -4111,7 +4111,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 84.186.178.230,2026-08-24T09:51:55.782975Z,2026-08-24T09:52:17.672550Z,4,0,0,0,low,connected_only,false,false,,7,Germany,Deutsche Telekom AG,telekom.de,false,13
 84.212.33.85,2026-08-29T10:49:11.829101Z,2026-08-29T10:50:47.633982Z,2,0,0,0,low,connected_only,false,false,,7,Norway,Telia Norge AS,telia.no,false,100
 84.23.212.154,2026-08-20T07:48:43.674370Z,2026-08-20T07:49:01.373491Z,1,1,2,0,low,executed_commands,false,false,,7,Portugal,nos madeira comunicacoes s.a,nos.pt,false,67
-84.5.129.68,2026-09-02T08:26:18.471441Z,2026-09-02T08:26:24.980169Z,1,1,0,0,low,single_sighting,false,true,,7,France,Societe Francaise Du Radiotelephone - SFR SA,sfr.fr,false,100
+84.5.129.68,2026-09-02T08:26:18.471441Z,2026-09-02T08:26:24.980169Z,1,1,0,0,low,single_sighting,false,false,,7,France,Societe Francaise Du Radiotelephone - SFR SA,sfr.fr,false,100
 84.54.70.115,2026-08-25T12:27:53.162244Z,2026-08-25T12:28:31.439825Z,2,0,0,0,low,connected_only,false,false,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,100
 84.54.70.13,2026-09-08T18:29:36.513073Z,2026-09-08T18:29:54.199770Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,100
 84.54.71.142,2026-08-21T06:55:14.187731Z,2026-08-21T06:55:14.188383Z,1,0,0,0,low,single_sighting,false,false,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,100
