@@ -50,11 +50,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 84084,
+        "total": 84116,
         "top_label": "T1027",
-        "top_value": 76541,
-        "top_share": 0.9103,
-        "top_sources": 265,
+        "top_value": 76552,
+        "top_share": 0.9101,
+        "top_sources": 267,
         "sources_total": 4512
       }
     ]
@@ -1781,41 +1781,41 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 76541,
-      "distinct_ips": 265,
+      "count": 76552,
+      "distinct_ips": 267,
       "recon_count": 73624,
       "recon_ips": 5,
-      "residual_count": 2917,
+      "residual_count": 2928,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 5039,
-      "distinct_ips": 306,
+      "count": 5055,
+      "distinct_ips": 308,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 5039,
+      "residual_count": 5055,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 2112,
-      "distinct_ips": 287,
+      "count": 2115,
+      "distinct_ips": 288,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 2112,
+      "residual_count": 2115,
       "attribution": "none"
     },
     {
       "id": "T1082",
       "name": "System Information Discovery",
-      "count": 234,
-      "distinct_ips": 26,
+      "count": 235,
+      "distinct_ips": 27,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 234,
+      "residual_count": 235,
       "attribution": "none"
     },
     {
@@ -1879,8 +1879,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1087",
-      "name": "Account Discovery",
+      "id": "T1140",
+      "name": "Deobfuscate/Decode Files or Information",
       "count": 4,
       "distinct_ips": 4,
       "recon_count": 0,
@@ -1889,13 +1889,13 @@
       "attribution": "none"
     },
     {
-      "id": "T1140",
-      "name": "Deobfuscate/Decode Files or Information",
-      "count": 3,
-      "distinct_ips": 3,
+      "id": "T1087",
+      "name": "Account Discovery",
+      "count": 4,
+      "distinct_ips": 4,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 3,
+      "residual_count": 4,
       "attribution": "none"
     }
   ],
