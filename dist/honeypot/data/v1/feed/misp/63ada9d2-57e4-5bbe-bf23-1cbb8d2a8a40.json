@@ -1,0 +1,54 @@
+{
+  "Event": {
+    "uuid": "63ada9d2-57e4-5bbe-bf23-1cbb8d2a8a40",
+    "info": "Sundew honeypot - campaign e793bf4d463c (1 sources) - cd /tmp && chmod +x SEHPrD5Q && bash -c ./SEHPrD5Q",
+    "date": "2026-09-09",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "702b85a6-3686-51f4-a0c3-df59ad8843f6",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "178.166.97.249",
+        "timestamp": "1788928212",
+        "comment": "delivered_payload, confidence high; 4 sessions, 6 commands, 2 downloads; first_seen 2026-09-08T18:02:00.152364Z, last_seen 2026-09-08T18:02:05.112340Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "0700386a-d268-5eff-ad99-52dd82dabd63",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "cd /tmp && chmod +x SEHPrD5Q && bash -c ./SEHPrD5Q",
+        "timestamp": "1788928212",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "e2f35edd-01e9-5a05-a2bc-b58e93b7c7ba",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "./SEHPrD5Q",
+        "timestamp": "1788928212",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}
