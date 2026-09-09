@@ -490,7 +490,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 119.237.243.163,2026-08-31T22:02:48.831460Z,2026-09-06T06:10:00.394297Z,4,4,0,0,low,connected_only,false,true,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
 119.63.76.106,2026-09-08T06:00:07.395228Z,2026-09-08T06:17:07.541542Z,30,0,0,0,medium,persistent,false,true,,7,Thailand,"United Information Highway Co.,Ltd.",uih.co.th,false,100
 119.93.168.236,2026-09-06T21:07:02.582510Z,2026-09-06T21:07:20.539836Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Philippines,IPG,pldthome.com,false,41
-119.99.210.154,2026-09-01T23:40:15.507122Z,2026-09-01T23:41:41.428429Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,China,CHINANET Hubei province network,chinatelecom.cn,false,0
+119.99.210.154,2026-09-01T23:40:15.507122Z,2026-09-01T23:41:41.428429Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,China,CHINANET Hubei province network,chinatelecom.cn,false,0
 119.99.215.145,2026-08-26T10:30:13.396591Z,2026-08-26T10:30:18.277684Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,China,CHINANET Hubei province network,chinatelecom.cn,false,100
 12.150.243.22,2026-09-01T06:25:32.260814Z,2026-09-01T06:25:38.820302Z,1,1,0,0,low,single_sighting,false,false,,7,United States,"AT&T Enterprises, LLC",att.com,false,100
 120.11.80.126,2026-08-19T20:42:46.971363Z,2026-08-19T20:42:48.302593Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Unicom Heibei Province Network,chinaunicom.cn,false,25
@@ -591,7 +591,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 122.252.126.5,2026-08-20T12:02:54.519174Z,2026-08-20T17:47:54.749512Z,114,115,1999,456,medium,persistent,false,false,098a8075f6cfade8,7,South Korea,HVAra,lghv.net,false,83
 122.254.30.34,2026-09-04T00:22:32.266141Z,2026-09-04T00:22:33.396054Z,2,0,0,0,low,connected_only,false,true,,7,Taiwan,"TFN MEDIA CO., LTD.",tfn.net.tw,false,100
 122.50.1.65,2026-08-27T17:45:36.426176Z,2026-08-27T17:51:47.018816Z,25,0,0,0,medium,persistent,false,false,,7,Pakistan,Logon Broadband Pvt Ltd,sharpcommunications.pk,false,36
-122.50.8.192,2026-09-01T23:52:01.688891Z,2026-09-01T23:52:08.831342Z,2,0,0,0,low,connected_only,false,true,,7,Indonesia,PT GLOBAL ACCESS SMART SOLUTIONS,gassnet.id,false,29
+122.50.8.192,2026-09-01T23:52:01.688891Z,2026-09-01T23:52:08.831342Z,2,0,0,0,low,connected_only,false,false,,7,Indonesia,PT GLOBAL ACCESS SMART SOLUTIONS,gassnet.id,false,29
 122.52.219.37,2026-08-22T07:13:08.778961Z,2026-08-22T07:13:23.710418Z,2,0,0,0,low,connected_only,false,false,,7,Philippines,IPG,pldthome.com,false,49
 122.96.31.233,2026-09-06T15:54:27.347964Z,2026-09-06T15:54:55.585097Z,1,1,10,0,medium,executed_commands,false,true,480804bc4d0c91fc,7,China,China Unicom Jiangsu province network,chinaunicom.cn,false,60
 122.96.48.240,2026-08-23T11:22:21.499287Z,2026-08-23T11:22:50.951378Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,China,China Unicom Jiangsu province network,chinaunicom.cn,false,100
@@ -2120,7 +2120,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 195.222.57.183,2026-08-31T20:18:14.214527Z,2026-09-03T00:40:16.416791Z,3,3,0,0,low,connected_only,false,true,,7,Bosnia and Herzegovina,Public Enterprise BH Telecom DD,bhtelecom.ba,false,100
 195.225.49.101,2026-08-29T20:37:59.364877Z,2026-08-29T20:38:17.119026Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,LLC SMARTCOM,smartcom.net.ua,false,90
 195.225.49.148,2026-08-28T21:40:10.568050Z,2026-08-28T21:40:28.428941Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,LLC SMARTCOM,smartcom.net.ua,false,100
-195.225.49.149,2026-09-01T23:54:22.213099Z,2026-09-01T23:54:41.238650Z,3,0,0,0,low,connected_only,false,true,,7,Ukraine,LLC SMARTCOM,smartcom.net.ua,false,100
+195.225.49.149,2026-09-01T23:54:22.213099Z,2026-09-01T23:54:41.238650Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,LLC SMARTCOM,smartcom.net.ua,false,100
 195.225.49.150,2026-09-04T13:37:20.658169Z,2026-09-04T13:37:20.659017Z,1,0,0,0,low,single_sighting,false,true,,7,Ukraine,LLC SMARTCOM,smartcom.net.ua,false,100
 195.225.49.171,2026-08-30T04:39:51.218165Z,2026-08-30T04:40:11.631968Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,LLC SMARTCOM,smartcom.net.ua,false,100
 195.43.70.168,2026-08-20T03:57:09.222557Z,2026-08-20T03:57:26.121013Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,FOP Nayman Olha Vladimirovna,camelot.mk.ua,false,3
@@ -3717,7 +3717,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 65.20.204.108,2026-09-01T02:22:57.566702Z,2026-09-01T02:23:16.658155Z,1,1,0,0,low,single_sighting,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.204.254,2026-09-04T12:17:00.203721Z,2026-09-04T12:17:07.372480Z,1,1,0,0,low,single_sighting,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.204.41,2026-09-04T20:17:06.399163Z,2026-09-04T20:17:13.413717Z,1,1,0,0,low,single_sighting,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
-65.20.205.197,2026-09-01T23:40:24.070505Z,2026-09-01T23:40:31.048441Z,1,1,0,0,low,single_sighting,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
+65.20.205.197,2026-09-01T23:40:24.070505Z,2026-09-01T23:40:31.048441Z,1,1,0,0,low,single_sighting,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.216.133,2026-08-31T05:37:51.412842Z,2026-09-05T06:37:57.384035Z,2,2,0,0,low,connected_only,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.217.161,2026-08-31T20:50:17.868913Z,2026-08-31T20:50:25.775321Z,1,1,0,0,low,single_sighting,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.233.110,2026-08-31T06:13:39.493450Z,2026-08-31T06:13:46.412578Z,1,1,0,0,low,single_sighting,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
