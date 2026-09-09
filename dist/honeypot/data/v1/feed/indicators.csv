@@ -366,7 +366,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 113.140.95.2,2026-08-31T17:44:30.694692Z,2026-08-31T20:41:00.787702Z,2,2,0,0,low,connected_only,false,false,,7,China,CHINANET SHAANXI PROVINCE NETWORK,xa.sn.cn,false,100
 113.158.205.225,2026-08-31T22:32:21.213752Z,2026-09-04T23:44:43.065554Z,3,3,0,0,low,connected_only,false,true,,7,Japan,DION (KDDI CORPORATION),dion.ne.jp,false,100
 113.160.140.138,2026-09-02T18:40:24.716802Z,2026-09-02T18:40:34.377433Z,1,1,0,0,low,single_sighting,false,true,,7,Vietnam,Vietnam Posts and Telecommunications Group,vnpt.com.vn,false,100
-113.160.209.29,2026-09-02T10:02:49.954272Z,2026-09-02T10:02:59.671130Z,1,1,0,0,low,single_sighting,false,true,,7,Vietnam,Vietnam Posts and Telecommunications Group,vnpt.com.vn,false,100
+113.160.209.29,2026-09-02T10:02:49.954272Z,2026-09-02T10:02:59.671130Z,1,1,0,0,low,single_sighting,false,false,,7,Vietnam,Vietnam Posts and Telecommunications Group,vnpt.com.vn,false,100
 113.161.164.24,2026-09-03T06:20:24.303593Z,2026-09-03T06:20:33.507448Z,1,1,0,0,low,single_sighting,false,true,,7,Vietnam,Vietnam Posts and Telecommunications Group,vnpt.com.vn,false,100
 113.166.20.233,2026-08-28T16:18:45.876807Z,2026-08-28T16:18:47.001408Z,1,1,1,0,low,executed_commands,true,false,e97166b54500da3a,7,Vietnam,Vietnam Posts and Telecommunications Group,vnpt.com.vn,false,3
 113.189.183.167,2026-08-22T09:21:08.805387Z,2026-08-22T09:21:12.851531Z,1,0,0,0,low,single_sighting,false,false,,7,Vietnam,Vietnam Posts and Telecommunications Group,vnpt.com.vn,false,49
@@ -577,11 +577,11 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 122.186.18.3,2026-09-01T22:18:32.504035Z,2026-09-01T22:18:40.822781Z,1,1,0,0,low,single_sighting,false,false,,7,India,BHARTI TELENET LTD. NEW DELHI,airtel.in,false,100
 122.187.147.13,2026-09-03T05:25:06.547966Z,2026-09-03T05:25:16.080588Z,1,1,0,0,low,single_sighting,false,true,,7,India,BHARTI TELENET LTD. NEW DELHI,airtel.in,false,100
 122.187.227.164,2026-09-02T09:29:36.062411Z,2026-09-02T09:29:45.437002Z,1,1,0,0,low,single_sighting,false,false,,7,India,BHARTI TELENET LTD. NEW DELHI,airtel.in,false,100
-122.187.228.228,2026-09-02T10:03:01.066048Z,2026-09-02T10:03:10.243711Z,1,1,0,0,low,single_sighting,false,true,,7,India,BHARTI TELENET LTD. NEW DELHI,airtel.in,false,100
+122.187.228.228,2026-09-02T10:03:01.066048Z,2026-09-02T10:03:10.243711Z,1,1,0,0,low,single_sighting,false,false,,7,India,BHARTI TELENET LTD. NEW DELHI,airtel.in,false,100
 122.187.228.233,2026-09-05T15:23:41.700731Z,2026-09-05T15:24:14.365930Z,1,0,0,0,low,single_sighting,false,true,,7,India,BHARTI TELENET LTD. NEW DELHI,airtel.in,false,100
 122.187.228.235,2026-09-02T18:58:48.431915Z,2026-09-04T14:17:40.673827Z,2,1,0,0,low,connected_only,false,true,,7,India,BHARTI TELENET LTD. NEW DELHI,airtel.in,false,100
 122.187.228.247,2026-09-02T15:37:10.412153Z,2026-09-02T15:37:19.492289Z,1,1,0,0,low,single_sighting,false,true,,7,India,BHARTI TELENET LTD. NEW DELHI,airtel.in,false,60
-122.187.229.244,2026-09-02T10:19:24.064315Z,2026-09-02T10:19:33.589521Z,1,1,0,0,low,single_sighting,false,true,,7,India,BHARTI TELENET LTD. NEW DELHI,airtel.in,false,100
+122.187.229.244,2026-09-02T10:19:24.064315Z,2026-09-02T10:19:33.589521Z,1,1,0,0,low,single_sighting,false,false,,7,India,BHARTI TELENET LTD. NEW DELHI,airtel.in,false,100
 122.187.229.247,2026-09-01T16:45:09.488962Z,2026-09-01T16:45:19.362140Z,1,1,0,0,low,single_sighting,false,false,,7,India,BHARTI TELENET LTD. NEW DELHI,airtel.in,false,100
 122.187.230.123,2026-09-03T08:02:32.047289Z,2026-09-03T08:02:42.335766Z,1,1,0,0,low,single_sighting,false,true,,7,India,BHARTI TELENET LTD. NEW DELHI,airtel.in,false,100
 122.187.230.183,2026-09-03T10:05:14.908068Z,2026-09-03T10:05:24.957716Z,1,1,0,0,low,single_sighting,false,true,,7,India,BHARTI TELENET LTD. NEW DELHI,airtel.in,false,100
@@ -1551,7 +1551,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 182.253.242.237,2026-08-21T12:06:51.470849Z,2026-08-21T12:20:30.158589Z,2,0,0,0,low,connected_only,false,false,,7,Indonesia,Biznet Networks,biznetnetworks.com,false,29
 182.31.23.108,2026-09-02T05:15:20.290032Z,2026-09-02T05:15:29.799292Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Seokyung Cable Television Co.. Ltd.,scs.co.kr,false,100
 182.42.113.10,2026-09-04T00:28:48.460281Z,2026-09-04T12:08:20.960740Z,2,2,0,0,low,connected_only,false,true,,7,China,CHINANET SHANDONG PROVINCE NETWORK,chinatelecom.cn,false,100
-182.52.27.155,2026-09-02T10:22:11.527984Z,2026-09-02T10:23:25.496924Z,2,0,0,0,low,connected_only,false,true,,7,Thailand,TOT Public Company Limited,totidc.net,false,5
+182.52.27.155,2026-09-02T10:22:11.527984Z,2026-09-02T10:23:25.496924Z,2,0,0,0,low,connected_only,false,false,,7,Thailand,TOT Public Company Limited,totidc.net,false,5
 182.53.7.223,2026-08-29T10:46:56.434311Z,2026-08-29T10:47:12.877572Z,2,0,0,0,low,connected_only,false,false,,7,Thailand,TOT Public Company Limited,totidc.net,false,0
 182.60.128.241,2026-09-03T18:04:45.334216Z,2026-09-03T20:45:19.455729Z,3,3,0,0,low,connected_only,false,true,,7,India,Mahanagar Telephone Nigam Limited,mtnl.net.in,false,100
 182.75.227.178,2026-08-31T07:57:49.857919Z,2026-09-05T08:39:40.682483Z,2,2,0,0,low,connected_only,false,true,,7,India,SANT SANDESH MEDIA &COMMU,airtel.in,false,100
@@ -2795,7 +2795,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 219.248.65.30,2026-08-31T08:22:34.829197Z,2026-08-31T08:22:44.835742Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,SK Broadband Co Ltd,skbroadband.com,false,100
 219.251.24.135,2026-08-28T10:37:22.604931Z,2026-08-28T10:52:19.137511Z,1,1,600,0,low,executed_commands,false,false,9c2972623856d87e,7,South Korea,SK Broadband Co Ltd,skbroadband.com,false,100
 219.89.198.191,2026-09-04T15:33:20.162584Z,2026-09-06T04:49:21.641740Z,2,2,0,0,low,connected_only,false,true,,7,New Zealand,Spark New Zealand Trading Ltd,telepermit.co.nz,false,100
-219.89.206.236,2026-09-01T13:49:42.374406Z,2026-09-02T10:01:27.034685Z,3,2,0,0,low,connected_only,false,true,,7,New Zealand,Spark New Zealand Trading Ltd,telepermit.co.nz,false,100
+219.89.206.236,2026-09-01T13:49:42.374406Z,2026-09-02T10:01:27.034685Z,3,2,0,0,low,connected_only,false,false,,7,New Zealand,Spark New Zealand Trading Ltd,telepermit.co.nz,false,100
 219.92.107.223,2026-08-29T11:59:45.054847Z,2026-08-29T11:59:51.241662Z,2,0,0,0,low,connected_only,false,false,,7,Malaysia,TM TECHNOLOGY SERVICES SDN. BHD.,tm.com.my,false,100
 220.116.113.35,2026-09-05T23:25:46.480279Z,2026-09-05T23:25:55.896965Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 220.122.115.9,2026-09-02T16:02:24.763711Z,2026-09-02T16:02:33.760134Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
@@ -4404,7 +4404,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 94.178.193.88,2026-09-07T02:23:31.087180Z,2026-09-07T02:25:02.035912Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Ukraine,JSC Ukrtelecom,ukrtelecom.ua,false,79
 94.199.68.233,2026-08-21T21:52:08.595548Z,2026-08-21T21:52:27.617553Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,ATOMLINK,atomlink.ru,false,67
 94.205.250.78,2026-09-05T06:58:16.424838Z,2026-09-05T06:58:24.503025Z,1,1,0,0,low,single_sighting,false,true,,7,United Arab Emirates,Emirates Integrated Telecommunications Company PJSC (EITC-DU),du.ae,false,100
-94.207.29.221,2026-08-25T20:47:49.235353Z,2026-09-02T10:19:18.445812Z,4,4,0,0,low,connected_only,false,true,,7,United Arab Emirates,Emirates Integrated Telecommunications Company PJSC,du.ae,false,100
+94.207.29.221,2026-08-25T20:47:49.235353Z,2026-09-02T10:19:18.445812Z,4,4,0,0,low,connected_only,false,false,,7,United Arab Emirates,Emirates Integrated Telecommunications Company PJSC,du.ae,false,100
 94.208.244.217,2026-08-24T20:49:37.646395Z,2026-08-24T20:49:37.650920Z,1,0,0,0,low,single_sighting,false,false,,7,The Netherlands,Ziggo Consumers,ziggo.nl,false,100
 94.228.200.142,2026-09-04T03:40:16.009499Z,2026-09-04T03:40:16.789331Z,1,1,0,0,low,single_sighting,false,true,,7,Russia,Uniontel Ltd,union-tel.ru,false,59
 94.228.205.182,2026-09-02T09:35:18.446779Z,2026-09-02T09:36:22.055045Z,2,0,0,0,low,connected_only,false,false,,7,Russia,Uniontel service network,union-tel.ru,false,4
