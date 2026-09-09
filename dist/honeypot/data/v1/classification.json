@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 84116,
+        "total": 84131,
         "top_label": "T1027",
         "top_value": 76552,
-        "top_share": 0.9101,
+        "top_share": 0.9099,
         "top_sources": 267,
         "sources_total": 4512
       }
@@ -1811,11 +1811,11 @@
     {
       "id": "T1082",
       "name": "System Information Discovery",
-      "count": 235,
-      "distinct_ips": 27,
+      "count": 250,
+      "distinct_ips": 30,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 235,
+      "residual_count": 250,
       "attribution": "none"
     },
     {
