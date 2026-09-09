@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 83752,
+        "total": 83770,
         "top_label": "T1027",
         "top_value": 76445,
-        "top_share": 0.9128,
+        "top_share": 0.9126,
         "top_sources": 253,
         "sources_total": 4437
       }
@@ -1719,21 +1719,21 @@
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 4843,
-      "distinct_ips": 293,
+      "count": 4858,
+      "distinct_ips": 294,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 4843,
+      "residual_count": 4858,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 2073,
-      "distinct_ips": 274,
+      "count": 2076,
+      "distinct_ips": 275,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 2073,
+      "residual_count": 2076,
       "attribution": "none"
     },
     {
@@ -1787,8 +1787,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1016",
-      "name": "System Network Configuration Discovery",
+      "id": "T1033",
+      "name": "System Owner/User Discovery",
       "count": 5,
       "distinct_ips": 5,
       "recon_count": 0,
@@ -1797,8 +1797,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1033",
-      "name": "System Owner/User Discovery",
+      "id": "T1016",
+      "name": "System Network Configuration Discovery",
       "count": 5,
       "distinct_ips": 5,
       "recon_count": 0,
