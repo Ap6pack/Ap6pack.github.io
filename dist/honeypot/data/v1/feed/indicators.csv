@@ -40,7 +40,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 101.168.24.56,2026-08-18T08:19:37.737523Z,2026-08-18T09:07:50.143086Z,2,1,0,0,low,connected_only,false,false,,7,Australia,Telstra Limited,telstra.net,false,100
 101.201.104.216,2026-08-18T07:13:20.112495Z,2026-08-18T07:15:32.230016Z,34,0,0,0,medium,persistent,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
 101.201.234.37,2026-08-20T15:22:24.917111Z,2026-08-20T15:22:33.526131Z,2,0,0,0,low,connected_only,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
-101.206.107.245,2026-09-03T11:15:26.725482Z,2026-09-03T11:15:26.726254Z,1,0,0,0,low,single_sighting,false,true,,7,China,UNICOM Sichuan province network,chinaunicom.cn,false,100
+101.206.107.245,2026-09-03T11:15:26.725482Z,2026-09-03T11:15:26.726254Z,1,0,0,0,low,single_sighting,false,false,,7,China,UNICOM Sichuan province network,chinaunicom.cn,false,100
 101.24.250.114,2026-09-02T21:17:21.362895Z,2026-09-02T21:18:50.089661Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,China,China Unicom Hebei province network,chinaunicom.cn,false,59
 101.51.237.36,2026-09-05T17:01:43.190362Z,2026-09-05T17:02:06.295785Z,1,0,0,0,low,single_sighting,false,true,,7,Thailand,TOT Public Company Limited,totidc.net,false,0
 101.53.233.94,2026-08-18T04:48:54.707667Z,2026-08-18T04:49:20.246802Z,2,0,0,0,low,connected_only,false,false,,7,Pakistan,Cyber Internet Services Pakistan,cyber.net.pk,false,67
@@ -3819,7 +3819,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 59.48.39.222,2026-09-04T08:04:05.233580Z,2026-09-04T08:04:14.413816Z,1,1,0,0,low,single_sighting,false,true,,7,China,CHINANET Shanxi province network,shanxitele.com,false,100
 59.48.40.6,2026-08-25T23:28:52.543433Z,2026-08-25T23:29:04.731404Z,1,0,0,0,low,single_sighting,false,false,,7,China,CHINANET Shanxi province network,shanxitele.com,false,100
 59.63.121.71,2026-09-03T03:06:45.829745Z,2026-09-03T03:07:00.599905Z,1,1,25,1,low,delivered_payload,false,false,8195b2dcdb0e74be,7,China,CHINANET Jiangxi province network,online.jx.cn,false,73
-59.8.104.168,2026-09-01T15:17:55.468844Z,2026-09-03T11:19:46.513766Z,3,3,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+59.8.104.168,2026-09-01T15:17:55.468844Z,2026-09-03T11:19:46.513766Z,3,3,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 59.8.109.37,2026-09-01T10:26:04.519292Z,2026-09-02T19:10:22.880104Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 59.8.2.70,2026-09-03T23:54:50.846019Z,2026-09-03T23:55:00.738397Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Jeonnambonbujang,kt.com,false,100
 59.8.52.172,2026-09-03T09:11:00.838208Z,2026-09-05T00:47:05.397943Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
@@ -4426,7 +4426,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 89.204.90.13,2026-09-06T03:52:57.270846Z,2026-09-06T03:52:57.271566Z,1,0,0,0,low,single_sighting,false,true,,7,Russia,Dynamic distribution IP's for broadband services,rt.ru,false,16
 89.205.36.75,2026-08-19T22:22:29.387385Z,2026-08-19T22:22:38.003502Z,2,0,0,0,low,connected_only,false,false,,7,North Macedonia,SKOPJE CABLE,telekabel.com.mk,false,0
 89.216.63.67,2026-08-31T05:35:17.160508Z,2026-08-31T05:35:35.200929Z,1,1,2,0,low,executed_commands,false,false,,7,Serbia,x3mnet d.o.o.,x3mnet.com,false,34
-89.23.104.30,2026-09-02T08:57:00.711922Z,2026-09-03T11:20:59.045467Z,2,2,4,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,LINKFOR LLC,linkfor.ru,false,100
+89.23.104.30,2026-09-02T08:57:00.711922Z,2026-09-03T11:20:59.045467Z,2,2,4,0,low,executed_commands,false,false,20228edcce195299,7,Russia,LINKFOR LLC,linkfor.ru,false,100
 89.236.232.0,2026-08-25T21:48:37.854432Z,2026-08-25T21:50:02.801549Z,2,0,0,0,low,connected_only,false,false,,7,Uzbekistan,IST TELEKOM JV LLC,etc.uz,false,17
 89.254.254.165,2026-08-23T18:19:59.002237Z,2026-08-23T18:20:21.207566Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,PJSC Rostelecom,rt.ru,false,0
 89.43.134.37,2026-08-22T05:00:57.812987Z,2026-09-05T00:52:26.421505Z,5,0,0,0,low,connected_only,false,true,,7,Syria,Turk Telekom International HU Kft,turktelekomint.com,false,73
@@ -4670,7 +4670,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 95.46.155.39,2026-08-19T21:18:13.744227Z,2026-08-19T21:18:13.746212Z,1,0,0,0,low,single_sighting,false,false,,7,Ukraine,ALFA TELECOM s.r.o.,alfatelecom.cz,false,86
 95.46.32.23,2026-08-19T17:06:40.259186Z,2026-08-19T17:12:59.859009Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,Info Space Plus Ltd.,dataline.ua,false,40
 95.46.65.33,2026-09-09T19:05:29.154524Z,2026-09-09T19:05:50.396698Z,3,0,0,0,low,connected_only,false,true,,7,Uzbekistan,Flink Ltd.,flink.uz,false,23
-95.47.118.100,2026-09-03T11:18:05.850180Z,2026-09-03T11:18:23.770744Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,Delfi Internet LLC,nso-telecom.ru,false,73
+95.47.118.100,2026-09-03T11:18:05.850180Z,2026-09-03T11:18:23.770744Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,Delfi Internet LLC,nso-telecom.ru,false,73
 95.47.162.59,2026-08-28T05:20:12.978675Z,2026-08-28T05:20:29.736239Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,PROLVL Ltd.,prolvl.net,false,100
 95.47.59.236,2026-09-01T15:16:33.737984Z,2026-09-01T15:16:52.383161Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,Branch Enterprise Netgroup-Service,netgroup.ua,false,21
 95.47.59.240,2026-09-06T04:19:23.118118Z,2026-09-06T04:20:46.653124Z,4,0,0,0,low,connected_only,false,true,,7,Ukraine,Branch Enterprise Netgroup-Service,netgroup.ua,false,65
