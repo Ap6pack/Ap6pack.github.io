@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.0",
   "generated_at": "2026-09-10T03:30:14.072471+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
   "last_event": "2026-09-10T03:15:34.943338Z",
@@ -8,39 +9,35 @@
   "login_attempts": 110057,
   "login_success": 107857,
   "commands_run": 250552,
-  "files_captured": 13,
+  "files_captured": 21,
   "top_usernames": [
     [
       "root",
-      96808
+      2049
     ],
     [
       "admin",
-      6782
+      959
     ],
     [
       "enable\\x00",
-      2075
+      407
     ],
     [
       "support",
-      1292
-    ],
-    [
-      "user",
-      781
-    ],
-    [
-      "guest",
-      544
-    ],
-    [
-      "ubnt",
-      270
+      158
     ],
     [
       "default",
-      120
+      103
+    ],
+    [
+      "user",
+      100
+    ],
+    [
+      "guest",
+      94
     ],
     [
       "test",
@@ -48,15 +45,7 @@
     ],
     [
       "blank",
-      90
-    ],
-    [
-      "nobody",
-      80
-    ],
-    [
-      "centos",
-      77
+      89
     ],
     [
       "supervisor",
@@ -67,70 +56,82 @@
       76
     ],
     [
-      "unknown",
-      63
+      "ubnt",
+      67
+    ],
+    [
+      "nobody",
+      57
+    ],
+    [
+      "centos",
+      56
+    ],
+    [
+      "config",
+      48
     ]
   ],
   "top_passwords": [
     [
       "admin",
-      4010
-    ],
-    [
-      "xc3511",
-      2409
-    ],
-    [
-      "vizxv",
-      2115
+      667
     ],
     [
       "linuxshell\\x00",
-      2074
-    ],
-    [
-      "",
-      1705
+      406
     ],
     [
       "123456",
-      1519
+      320
+    ],
+    [
+      "root",
+      255
+    ],
+    [
+      "",
+      93
+    ],
+    [
+      "vizxv",
+      74
     ],
     [
       "password",
-      1464
-    ],
-    [
-      "888888",
-      1425
+      67
     ],
     [
       "12345",
-      1214
+      63
     ],
     [
-      "xmhdipc",
-      1211
+      "1234",
+      52
     ],
     [
-      "juantech",
-      1180
-    ],
-    [
-      "support",
-      1179
+      "xc3511",
+      51
     ],
     [
       "default",
-      1146
+      50
+    ],
+    [
+      "support",
+      42
     ],
     [
       "1111",
-      1146
+      36
     ],
     [
-      "54321",
-      1134
+      "xmhdipc",
+      31
+    ],
+    [
+      "123",
+      31
     ]
   ],
   "event_breakdown": {
@@ -265,5 +266,70 @@
       "date": "2026-09-10",
       "count": 1140
     }
-  ]
+  ],
+  "published": {
+    "sessions": 12703,
+    "source_ips": 4627,
+    "login_attempts": 5182,
+    "login_success": 4650,
+    "commands_run": 27459,
+    "sessions_logged_in": 4650,
+    "sessions_with_commands": 2759,
+    "sessions_with_download": 656,
+    "share_of_sessions": 0.1094
+  },
+  "weighting": {
+    "schema_version": "1.0",
+    "rule": {
+      "max_commands_per_session": 1,
+      "max_avg_duration_ms": 5000,
+      "max_downloads": 0
+    },
+    "clustered_sessions": 104947,
+    "ips": {
+      "observed": 4627,
+      "attempted_login": 2331,
+      "ran_command": 1145,
+      "delivered_payload": 346,
+      "published": {
+        "observed": 4627,
+        "attempted_login": 2006,
+        "ran_command": 811,
+        "delivered_payload": 180
+      }
+    },
+    "recon": {
+      "clusters": 9,
+      "sessions": 73834,
+      "ip_count_sum": 28,
+      "share_of_clustered_sessions": 0.7035
+    },
+    "attack": {
+      "clusters": 136,
+      "sessions": 31113,
+      "ip_count_sum": 1207
+    },
+    "dominance": [
+      {
+        "metric": "sessions",
+        "label": "sessions in a behaviour cluster",
+        "total": 104947,
+        "top_label": "eafdc691c2945a06",
+        "top_value": 73624,
+        "top_share": 0.7015,
+        "top_sources": 5,
+        "sources_total": 4627
+      },
+      {
+        "metric": "attack_techniques",
+        "label": "commands tagged with an ATT&CK technique",
+        "total": 84423,
+        "top_label": "T1027",
+        "top_value": 76634,
+        "top_share": 0.9077,
+        "top_sources": 276,
+        "sources_total": 4627
+      }
+    ]
+  }
 }
