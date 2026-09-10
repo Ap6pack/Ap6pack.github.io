@@ -1445,7 +1445,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 18.219.1.253,2026-09-01T14:02:41.323314Z,2026-09-01T14:06:17.680143Z,2,0,0,0,low,connected_only,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 18.97.19.237,2026-09-05T00:57:12.291053Z,2026-09-05T00:57:12.379376Z,1,0,0,0,low,single_sighting,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,66
 18.97.26.90,2026-08-31T21:56:24.533218Z,2026-08-31T21:56:29.539159Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,79
-180.114.89.60,2026-09-03T13:29:36.051146Z,2026-09-03T13:31:02.389586Z,1,1,22,11,high,delivered_payload,false,true,5af2de096f0bf35a,7,China,Chinanet Jiangsu Province Network,chinatelecom.cn,false,90
+180.114.89.60,2026-09-03T13:29:36.051146Z,2026-09-03T13:31:02.389586Z,1,1,22,11,low,delivered_payload,false,false,5af2de096f0bf35a,7,China,Chinanet Jiangsu Province Network,chinatelecom.cn,false,90
 180.124.11.125,2026-08-25T04:52:27.347201Z,2026-08-25T04:52:56.063141Z,1,1,10,0,low,executed_commands,false,false,597732d320c38002,7,China,Chinanet Jiangsu Province Network,chinatelecom.cn,false,80
 180.149.210.43,2026-08-29T20:30:30.323905Z,2026-08-29T20:45:44.621424Z,6,6,49,6,medium,persistent,false,false,96a50e508b0a3458,7,Pakistan,Delta Networks,dot99.net,false,100
 180.149.219.128,2026-09-04T22:30:58.699072Z,2026-09-04T22:31:24.281340Z,2,0,0,0,low,connected_only,false,true,,7,Pakistan,FALCON BROADBAND (PRIVATE) LIMITED,falconbroadband.net.pk,false,4
@@ -2222,14 +2222,14 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 195.184.76.129,2026-08-27T06:51:23.009840Z,2026-09-03T20:02:08.349189Z,2,0,0,0,low,connected_only,false,true,,7,United States,FR ONYPHE,onyphe.io,false,0
 195.184.76.130,2026-09-03T20:01:58.200543Z,2026-09-03T20:01:58.276542Z,1,0,0,0,low,single_sighting,false,true,,7,United States,FR ONYPHE,onyphe.io,false,0
 195.184.76.189,2026-09-03T07:26:13.184920Z,2026-09-03T07:26:17.708759Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
-195.184.76.196,2026-09-03T13:34:34.617719Z,2026-09-03T13:34:37.623473Z,1,0,0,0,low,single_sighting,false,true,,7,United States,FR ONYPHE,onyphe.io,false,0
+195.184.76.196,2026-09-03T13:34:34.617719Z,2026-09-03T13:34:37.623473Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
 195.184.76.198,2026-08-20T06:27:57.947030Z,2026-08-20T06:28:00.952532Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
 195.184.76.219,2026-08-27T19:35:21.303445Z,2026-08-27T19:35:21.304442Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
 195.184.76.223,2026-08-27T19:35:21.305590Z,2026-08-27T19:35:21.600342Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
 195.184.76.56,2026-08-20T06:27:57.942354Z,2026-08-20T06:27:57.944804Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
 195.184.76.59,2026-08-20T06:27:35.173738Z,2026-08-20T06:27:35.229627Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
 195.184.76.60,2026-08-20T06:27:35.230801Z,2026-08-20T06:27:45.256956Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
-195.184.76.61,2026-09-03T13:34:34.548260Z,2026-09-03T13:34:34.578579Z,1,0,0,0,low,single_sighting,false,true,,7,United States,FR ONYPHE,onyphe.io,false,0
+195.184.76.61,2026-09-03T13:34:34.548260Z,2026-09-03T13:34:34.578579Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
 195.184.76.74,2026-09-03T07:26:24.117207Z,2026-09-03T07:26:35.415045Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
 195.184.76.80,2026-08-20T06:30:17.632722Z,2026-08-20T06:30:22.638545Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
 195.184.76.84,2026-08-20T13:03:12.365772Z,2026-08-20T13:03:13.493409Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
@@ -4014,7 +4014,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 70.182.26.124,2026-09-03T00:13:05.217550Z,2026-09-03T00:13:12.841831Z,1,1,0,0,low,single_sighting,false,false,,7,United States,Cox Communications,cox.com,false,100
 70.183.233.55,2026-08-31T19:25:08.094290Z,2026-08-31T19:25:14.955240Z,1,1,0,0,low,single_sighting,false,false,,7,United States,Cox Communications,cox.com,false,100
 70.183.235.233,2026-08-31T12:01:42.471558Z,2026-08-31T12:01:50.457041Z,1,1,0,0,low,single_sighting,false,false,,7,United States,Cox Communications,cox.com,false,100
-70.183.235.24,2026-09-01T05:14:26.712732Z,2026-09-03T13:37:53.114800Z,4,4,0,0,low,connected_only,false,true,,7,United States,Cox Communications,cox.com,false,100
+70.183.235.24,2026-09-01T05:14:26.712732Z,2026-09-03T13:37:53.114800Z,4,4,0,0,low,connected_only,false,false,,7,United States,Cox Communications,cox.com,false,100
 70.184.172.229,2026-09-09T10:18:38.978594Z,2026-09-09T10:18:46.398006Z,1,1,0,0,low,single_sighting,false,true,,7,United States,Cox Communications,cox.com,false,100
 70.184.183.12,2026-09-05T13:03:22.713476Z,2026-09-05T13:03:29.581927Z,1,1,0,0,low,single_sighting,false,true,,7,United States,Cox Communications,cox.com,false,100
 70.89.116.5,2026-08-31T21:42:22.816855Z,2026-08-31T21:42:30.351383Z,1,1,0,0,low,single_sighting,false,false,,7,United States,"Comcast Cable Communications, LLC",comcast.com,false,100
@@ -4129,7 +4129,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 77.79.176.82,2026-08-17T17:25:04.760899Z,2026-08-17T17:25:04.763052Z,1,0,0,0,low,single_sighting,false,false,,7,Russia,JSC Ufanet,ufanet.ru,false,4
 77.83.3.74,2026-08-28T01:57:08.294671Z,2026-08-28T01:57:25.870746Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,D-TELEKOM LLC,d-telekom.ru,false,16
 77.88.252.73,2026-09-03T19:02:04.200079Z,2026-09-03T19:02:04.925445Z,1,1,0,0,low,single_sighting,false,true,,7,Ukraine,PRIVATE JOINT STOCK COMPANY DATAGROUP,datagroup.ua,false,100
-77.90.185.16,2026-09-02T16:43:50.593531Z,2026-09-03T13:42:42.657950Z,2,0,0,0,low,connected_only,false,true,,7,Germany,Limited Network LTD,btcloud.ro,false,100
+77.90.185.16,2026-09-02T16:43:50.593531Z,2026-09-03T13:42:42.657950Z,2,0,0,0,low,connected_only,false,false,,7,Germany,Limited Network LTD,btcloud.ro,false,100
 77.90.185.17,2026-09-05T01:39:55.011228Z,2026-09-05T01:40:08.648755Z,1,1,0,0,low,single_sighting,false,true,,7,Germany,Limited Network LTD,btcloud.ro,false,100
 77.99.61.111,2026-09-08T23:14:18.154231Z,2026-09-08T23:14:38.380475Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,United Kingdom,Virgin Media Limited,virginmedia.com,false,100
 78.1.214.166,2026-08-18T18:36:02.596066Z,2026-08-18T18:36:20.696748Z,1,1,2,0,low,executed_commands,false,false,,7,Croatia,Hrvatski Telekom d.d.,ht.hr,false,16
@@ -4496,7 +4496,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 91.230.168.157,2026-08-27T06:48:40.527483Z,2026-08-27T06:49:07.558063Z,2,0,0,0,low,connected_only,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
 91.230.168.159,2026-08-27T06:48:40.629729Z,2026-08-27T06:49:04.370042Z,2,0,0,0,low,connected_only,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
 91.230.168.163,2026-09-03T07:23:37.004838Z,2026-09-03T07:23:37.013517Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
-91.230.168.178,2026-09-03T13:37:27.555016Z,2026-09-03T13:37:31.056129Z,1,0,0,0,low,single_sighting,false,true,,7,United States,FR ONYPHE,onyphe.io,false,0
+91.230.168.178,2026-09-03T13:37:27.555016Z,2026-09-03T13:37:31.056129Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
 91.230.168.182,2026-08-27T06:52:20.717775Z,2026-08-27T06:52:26.787214Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
 91.230.168.32,2026-09-03T07:23:37.076864Z,2026-09-03T07:23:47.162187Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
 91.230.168.35,2026-09-03T07:23:57.893388Z,2026-09-03T07:23:57.894719Z,1,0,0,0,low,single_sighting,false,false,,7,United States,FR ONYPHE,onyphe.io,false,0
@@ -4576,7 +4576,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 93.170.117.53,2026-09-06T14:03:55.318445Z,2026-09-06T14:08:13.963205Z,4,0,0,0,low,connected_only,false,true,,7,Ukraine,Branch Enterprise Netgroup-Service,netgroup.ua,false,49
 93.170.161.86,2026-08-27T20:49:04.815444Z,2026-08-27T20:49:26.111238Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,"Television, Telephony, Internet of Ukraine Ltd.",tti-ukraine.net.ua,false,100
 93.170.162.51,2026-08-17T19:47:38.963406Z,2026-08-17T19:47:42.313552Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,"Television, Telephony, Internet of Ukraine Ltd.",tti-ukraine.net.ua,false,65
-93.170.35.76,2026-09-03T13:49:08.558836Z,2026-09-03T13:49:08.559524Z,1,0,0,0,low,single_sighting,false,true,,7,Ukraine,ALFA TELECOM s.r.o.,alfatelecom.cz,false,100
+93.170.35.76,2026-09-03T13:49:08.558836Z,2026-09-03T13:49:08.559524Z,1,0,0,0,low,single_sighting,false,false,,7,Ukraine,ALFA TELECOM s.r.o.,alfatelecom.cz,false,100
 93.170.78.20,2026-08-21T04:22:59.168345Z,2026-08-21T04:24:30.369873Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,PROLVL Ltd.,prolvl.net,false,68
 93.171.240.67,2026-08-24T14:25:55.403998Z,2026-08-24T14:26:18.584076Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,ALFA TELECOM s.r.o.,alfatelecom.cz,false,23
 93.171.33.79,2026-08-29T00:38:03.923569Z,2026-08-29T00:38:20.661245Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,Inet.ru Ltd.,inet.ru,false,87
