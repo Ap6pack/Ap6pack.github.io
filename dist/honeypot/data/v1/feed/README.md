@@ -1,6 +1,6 @@
 # Sundew honeypot indicator feed
 
-Generated 2026-09-10T17:30:14.475354Z from a single Cowrie SSH/Telnet honeypot on one AWS EC2
+Generated 2026-09-10T18:00:14.317954Z from a single Cowrie SSH/Telnet honeypot on one AWS EC2
 instance. Schema `1.0`, feed `v1`. Licence: CC BY 4.0.
 
 ## Read this before you block anything
@@ -14,8 +14,8 @@ yesterday may belong to somebody uninvolved today.
 
 That is why every indicator carries `last_seen` and `ttl_days`, and why more
 than half of what this honeypot has seen is deliberately kept out of the
-confident tiers. Of 4,718 observed addresses,
-2,605 were seen exactly once - 55% of the feed.
+confident tiers. Of 4,800 observed addresses,
+2,656 were seen exactly once - 55% of the feed.
 
 **Removal.** If your address is listed and you believe it should not be, open
 an issue at <https://github.com/Ap6pack/Ap6pack.github.io/issues> or email the
@@ -57,10 +57,10 @@ Current distribution:
 
 | Confidence | Addresses |
 |---|---|
-| high | 151 |
-| medium | 398 |
-| low | 4,169 |
-| **total** | **4,718** |
+| high | 160 |
+| medium | 413 |
+| low | 4,227 |
+| **total** | **4,800** |
 
 Every field the tiers are derived from is in `indicators.json`. If you disagree
 with where the lines are drawn - and you may well, they are one operator's
@@ -80,7 +80,7 @@ sessions. Addresses whose every clustered session is reconnaissance carry
 scanning for honeypots is not evidence of an attack. They stay in
 `indicators.json`, because a sweep at that scale is worth knowing about.
 
-23 addresses are currently `recon_only`.
+24 addresses are currently `recon_only`.
 
 ## What this is not
 
