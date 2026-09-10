@@ -225,7 +225,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 106.51.79.73,2026-08-31T21:03:07.384777Z,2026-09-03T09:41:31.996033Z,3,3,0,0,low,connected_only,false,true,,7,India,"Atria Convergence Technologies Pvt. Ltd.,",acttv.in,false,100
 106.70.0.181,2026-09-06T10:19:47.197014Z,2026-09-06T10:19:57.918706Z,1,1,0,0,low,single_sighting,false,true,,7,Australia,Optus Internet Pty Ltd,optus.net.au,false,100
 106.77.157.140,2026-08-25T12:50:30.854787Z,2026-08-25T12:50:50.679434Z,1,1,2,0,low,executed_commands,false,false,,7,India,Vodafone Idea Ltd,myvi.in,false,0
-106.89.51.153,2026-08-31T15:27:06.808868Z,2026-09-03T01:21:07.472156Z,3,3,0,0,low,connected_only,false,true,,7,China,CHINANET Chongqing Province Network,cta.cq.cn,false,100
+106.89.51.153,2026-08-31T15:27:06.808868Z,2026-09-03T01:21:07.472156Z,3,3,0,0,low,connected_only,false,false,,7,China,CHINANET Chongqing Province Network,cta.cq.cn,false,100
 106.89.58.125,2026-08-26T20:16:59.440334Z,2026-08-26T20:17:09.694793Z,1,1,0,0,low,single_sighting,false,false,,7,China,CHINANET Chongqing Province Network,cta.cq.cn,false,100
 106.89.59.58,2026-09-09T07:19:21.062886Z,2026-09-09T07:19:30.652264Z,1,1,0,0,low,single_sighting,false,true,,7,China,CHINANET Chongqing Province Network,cta.cq.cn,false,100
 107.11.10.55,2026-09-02T17:33:41.634337Z,2026-09-02T17:37:47.315377Z,2,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications Inc,charter.com,false,100
@@ -398,7 +398,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 113.53.194.225,2026-09-04T09:16:50.178000Z,2026-09-04T09:17:11.009508Z,1,0,0,0,low,single_sighting,false,true,,7,Thailand,TOT Public Company Limited,totisp.net,false,0
 113.53.203.76,2026-08-19T16:56:04.449933Z,2026-08-19T16:56:31.505894Z,2,0,0,0,low,connected_only,false,false,,7,Thailand,TOT Public Company Limited,totisp.net,false,0
 114.132.204.82,2026-08-24T17:43:33.533209Z,2026-08-24T17:43:35.657530Z,1,1,0,0,low,single_sighting,false,false,,7,China,"Tencent cloud computing (Beijing) Co., Ltd.",tencentcloud.com,false,92
-114.139.184.43,2026-09-03T01:07:35.441314Z,2026-09-03T01:09:02.249564Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,China,CHINANET GUIZHOU PROVINCE NETWORK,chinatelecom.cn,false,100
+114.139.184.43,2026-09-03T01:07:35.441314Z,2026-09-03T01:09:02.249564Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,China,CHINANET GUIZHOU PROVINCE NETWORK,chinatelecom.cn,false,100
 114.217.53.0,2026-09-02T08:44:31.322473Z,2026-09-02T08:49:32.597576Z,1,1,0,1,low,delivered_payload,false,false,,7,China,Chinanet Jiangsu Province Network,chinatelecom.cn,false,100
 114.241.210.242,2026-08-25T07:19:47.161949Z,2026-09-05T17:45:58.181354Z,8,7,0,0,medium,persistent,false,true,,7,China,China Unicom Beijing province network,chinaunicom.cn,false,100
 114.252.120.220,2026-08-18T05:30:08.111180Z,2026-08-18T05:30:58.550395Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,China,China Unicom Beijing province network,chinaunicom.cn,false,100
@@ -430,7 +430,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 116.251.199.67,2026-09-08T00:44:37.525097Z,2026-09-08T00:44:54.663352Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,New Zealand,Mercury NZ Limited,mercury.co.nz,false,100
 116.48.138.69,2026-09-06T20:51:45.358148Z,2026-09-06T20:51:54.493123Z,1,1,0,0,low,single_sighting,false,true,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
 116.48.143.166,2026-08-25T04:30:53.524656Z,2026-08-25T04:30:54.550940Z,1,0,0,0,low,single_sighting,false,false,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
-116.48.150.115,2026-08-31T23:45:34.669341Z,2026-09-03T01:24:22.203250Z,2,2,0,0,low,connected_only,false,true,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
+116.48.150.115,2026-08-31T23:45:34.669341Z,2026-09-03T01:24:22.203250Z,2,2,0,0,low,connected_only,false,false,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
 116.48.151.136,2026-08-25T07:19:57.644650Z,2026-08-25T07:20:08.128979Z,1,1,0,0,low,single_sighting,false,false,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
 116.48.151.58,2026-08-25T21:21:22.492241Z,2026-09-02T05:00:09.629998Z,2,2,0,0,low,connected_only,false,false,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
 116.59.10.205,2026-08-31T14:24:06.427653Z,2026-09-04T08:36:31.808953Z,2,1,0,0,low,connected_only,false,true,,7,Taiwan,"CHT-Mobile business Group,Chunghwa",cht.com.tw,false,100
@@ -510,7 +510,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 119.205.51.3,2026-09-02T02:57:10.285468Z,2026-09-06T03:20:27.627391Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 119.207.0.75,2026-09-09T06:27:48.772385Z,2026-09-09T06:27:57.146377Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 119.207.3.114,2026-09-04T14:38:06.436752Z,2026-09-04T14:38:16.122884Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
-119.207.49.167,2026-09-03T01:21:51.148548Z,2026-09-03T01:22:00.558227Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+119.207.49.167,2026-09-03T01:21:51.148548Z,2026-09-03T01:22:00.558227Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 119.207.56.116,2026-09-05T05:06:45.658239Z,2026-09-05T05:06:54.347376Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 119.237.15.136,2026-09-05T12:02:30.762486Z,2026-09-05T12:02:38.851804Z,1,1,0,0,low,single_sighting,false,true,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
 119.237.243.163,2026-08-31T22:02:48.831460Z,2026-09-06T06:10:00.394297Z,4,4,0,0,low,connected_only,false,true,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
@@ -933,7 +933,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 151.64.143.252,2026-08-22T06:35:17.343844Z,2026-08-22T06:38:18.243478Z,1,1,8,1,low,delivered_payload,false,false,de1c44e38fec4017,7,Italy,WIND TRE S.P.A.,windtre.it,false,17
 151.64.157.165,2026-09-03T07:27:29.208423Z,2026-09-03T07:30:30.040142Z,1,1,8,1,high,delivered_payload,false,true,de1c44e38fec4017,7,Italy,WIND TRE S.P.A.,windtre.it,false,100
 151.64.234.128,2026-08-20T04:52:44.544101Z,2026-08-20T04:55:45.381239Z,1,1,8,1,low,delivered_payload,false,false,de1c44e38fec4017,7,Italy,WIND TRE S.P.A.,windtre.it,false,99
-151.64.234.63,2026-09-03T00:59:05.691678Z,2026-09-03T01:02:06.389489Z,1,1,9,1,high,delivered_payload,false,true,0fc93cb647125c3a,7,Italy,WIND TRE S.P.A.,windtre.it,false,82
+151.64.234.63,2026-09-03T00:59:05.691678Z,2026-09-03T01:02:06.389489Z,1,1,9,1,low,delivered_payload,false,false,0fc93cb647125c3a,7,Italy,WIND TRE S.P.A.,windtre.it,false,82
 151.66.137.141,2026-09-01T00:04:34.764460Z,2026-09-01T00:07:35.504419Z,1,1,8,1,low,delivered_payload,false,false,de1c44e38fec4017,7,Italy,WIND TRE S.P.A.,windtre.it,false,100
 151.67.208.238,2026-09-04T12:08:00.540262Z,2026-09-04T12:11:01.343424Z,1,1,8,1,high,delivered_payload,false,true,de1c44e38fec4017,7,Italy,WIND TRE S.P.A.,windtre.it,false,100
 151.67.211.161,2026-09-02T18:22:02.129136Z,2026-09-02T18:25:03.080090Z,1,1,9,1,low,delivered_payload,false,false,0fc93cb647125c3a,7,Italy,WIND TRE S.P.A.,windtre.it,false,66
@@ -1572,7 +1572,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 181.94.232.9,2026-08-20T10:12:35.021084Z,2026-08-20T10:12:35.021926Z,1,0,0,0,low,single_sighting,false,false,,7,Paraguay,Núcleo S.A.,personal.com.py,false,65
 181.95.248.215,2026-08-28T22:53:40.846651Z,2026-08-28T22:54:38.466762Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Apolo -Gold-Telecom-Per,telecom.net.ar,false,66
 181.97.62.78,2026-08-21T06:38:14.884026Z,2026-08-21T06:38:14.884958Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,Telecom Personal Bs As,telecom.net.ar,false,23
-181.98.80.29,2026-09-03T01:02:25.941454Z,2026-09-03T01:02:35.241887Z,3,0,0,0,low,connected_only,false,true,,7,Argentina,Telecom Personal Bs As,telecom.net.ar,false,0
+181.98.80.29,2026-09-03T01:02:25.941454Z,2026-09-03T01:02:35.241887Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Telecom Personal Bs As,telecom.net.ar,false,0
 181.99.5.131,2026-08-18T21:51:26.816854Z,2026-08-18T21:52:06.054080Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telecom Personal Bs As,telecom.net.ar,false,4
 182.10.99.97,2026-08-28T05:27:35.369697Z,2026-08-28T05:27:35.370391Z,1,0,0,0,low,single_sighting,false,false,,7,Indonesia,PT. Telekomunikasi Selular (Telkomsel) Indonesia,telkomsel.co.id,false,27
 182.100.56.55,2026-08-30T04:35:39.224253Z,2026-08-30T04:35:59.532109Z,1,1,10,0,low,executed_commands,false,false,597732d320c38002,7,China,CHINANET JIANGXI PROVINCE NETWORK,bta.net.cn,false,100
@@ -1683,7 +1683,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 185.170.87.143,2026-08-21T00:57:34.046861Z,2026-08-21T00:57:53.337152Z,2,0,0,0,low,connected_only,false,false,,7,Hungary,Tarr Kft.,tarr.hu,false,21
 185.176.112.115,2026-08-31T20:46:59.391459Z,2026-08-31T20:47:16.110696Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,McLaut network,mclaut.com,false,84
 185.177.191.83,2026-08-28T03:22:09.991702Z,2026-08-28T03:24:43.992991Z,4,0,0,0,low,connected_only,false,false,,7,Ukraine,X-City Ltd.,x-city.ua,false,71
-185.180.141.34,2026-09-03T01:15:31.509860Z,2026-09-03T01:15:39.510034Z,1,0,0,0,low,single_sighting,false,true,,7,United States,ICG-1-ZEN-DFW,nsec.pt,false,100
+185.180.141.34,2026-09-03T01:15:31.509860Z,2026-09-03T01:15:39.510034Z,1,0,0,0,low,single_sighting,false,false,,7,United States,ICG-1-ZEN-DFW,nsec.pt,false,100
 185.180.141.7,2026-08-24T20:38:46.178957Z,2026-08-24T20:38:54.179451Z,1,0,0,0,low,single_sighting,false,false,,7,United States,ICG-1-ZEN-DFW,nsec.pt,false,100
 185.183.189.125,2026-09-02T12:30:45.453089Z,2026-09-04T18:07:35.944343Z,3,2,0,0,low,connected_only,false,true,,7,Israel,Pelephone Communications Ltd.,pelephone.co.il,false,100
 185.183.94.199,2026-08-19T18:34:26.150535Z,2026-08-19T18:34:35.119085Z,4,0,0,0,low,connected_only,false,false,,7,Ukraine,VOLYN OPTICAL NETWORKS LLC,vom.com.ua,false,100
@@ -2686,7 +2686,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 210.195.255.96,2026-09-05T14:10:37.837306Z,2026-09-05T14:10:59.633125Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Malaysia,TM TECHNOLOGY SERVICES SDN. BHD.,tm.com.my,false,80
 210.204.125.250,2026-09-01T10:47:23.429899Z,2026-09-01T10:47:33.033772Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 210.206.24.237,2026-09-01T08:38:04.130992Z,2026-09-03T10:15:37.393368Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,LG Uplus,lguplus.com,false,100
-210.222.217.202,2026-09-03T01:29:49.460299Z,2026-09-03T01:29:56.641398Z,1,0,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+210.222.217.202,2026-09-03T01:29:49.460299Z,2026-09-03T01:29:56.641398Z,1,0,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 210.245.84.39,2026-09-04T07:34:05.851782Z,2026-09-04T07:34:07.167262Z,1,1,0,0,low,single_sighting,false,true,,7,Vietnam,FPT Telecom Company,fpt.net,false,100
 210.4.68.72,2026-09-04T12:14:51.212794Z,2026-09-04T12:14:59.421110Z,1,1,0,0,low,single_sighting,false,true,,7,Bangladesh,"BDCOM Online Limited, Internet Service Provider, Dhaka, Bangladesh",bdcom.com,false,100
 210.71.208.175,2026-08-26T06:38:03.263781Z,2026-09-05T15:36:01.839295Z,3,3,0,0,low,connected_only,false,true,,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,90
@@ -2738,7 +2738,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 212.58.103.138,2026-09-06T10:00:32.678713Z,2026-09-06T10:01:23.763264Z,2,0,0,0,low,connected_only,false,true,,7,Georgia,Caucasus Online LLC,co.ge,false,55
 212.58.120.170,2026-09-03T21:16:47.952912Z,2026-09-03T21:16:47.953835Z,1,0,0,0,low,single_sighting,false,true,,7,Georgia,Magticom,magticom.ge,false,25
 212.58.121.0,2026-08-26T07:02:46.224503Z,2026-08-26T07:02:46.225299Z,1,0,0,0,low,single_sighting,false,false,,7,Georgia,Magticom,magticom.ge,false,28
-212.58.121.212,2026-09-03T01:07:59.249412Z,2026-09-03T01:07:59.250240Z,1,0,0,0,low,single_sighting,false,true,,7,Georgia,Magticom,magticom.ge,false,49
+212.58.121.212,2026-09-03T01:07:59.249412Z,2026-09-03T01:07:59.250240Z,1,0,0,0,low,single_sighting,false,false,,7,Georgia,Magticom,magticom.ge,false,49
 212.70.109.228,2026-08-20T11:12:34.339398Z,2026-08-20T11:12:34.340231Z,1,0,0,0,low,single_sighting,false,false,,7,Qatar,Vodafone Qatar P.Q.S.C,vodafone.qa,false,36
 212.70.99.21,2026-09-07T11:50:47.333520Z,2026-09-07T11:51:06.324199Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Qatar,Vodafone Qatar P.Q.S.C,vodafone.qa,false,100
 212.73.75.82,2026-08-25T16:01:06.997080Z,2026-09-04T22:14:15.029092Z,3,2,0,0,low,connected_only,false,true,,7,Armenia,Telecom Armenia OJSC,telecomarmenia.am,false,100
@@ -2903,9 +2903,9 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 220.80.224.223,2026-09-04T01:40:18.581518Z,2026-09-04T01:40:28.402802Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 220.80.244.25,2026-09-01T20:02:37.262420Z,2026-09-06T02:37:04.891134Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 220.82.247.216,2026-08-26T01:20:26.498168Z,2026-09-06T18:43:26.691142Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
-220.88.114.34,2026-09-03T01:00:08.051568Z,2026-09-03T01:00:17.465988Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+220.88.114.34,2026-09-03T01:00:08.051568Z,2026-09-03T01:00:17.465988Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 220.92.179.226,2026-09-05T03:14:22.631797Z,2026-09-05T15:02:56.081949Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
-220.94.238.64,2026-09-01T17:06:26.186143Z,2026-09-03T01:21:48.555282Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+220.94.238.64,2026-09-01T17:06:26.186143Z,2026-09-03T01:21:48.555282Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 220.95.208.142,2026-09-05T01:52:07.201812Z,2026-09-05T01:52:08.822997Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 221.120.4.61,2026-09-04T20:21:52.304283Z,2026-09-04T20:22:04.097496Z,1,1,0,0,low,single_sighting,false,true,,7,Taiwan,"CHT-Mobile Business Group,Chunghwa",cht.com.tw,false,100
 221.131.139.70,2026-08-25T07:33:28.838653Z,2026-08-25T07:33:44.880052Z,17,16,16,0,medium,persistent,false,false,7063dece7cccf374,7,China,China Mobile Communications Corporation - jiangsu,chinamobile.com,false,100
