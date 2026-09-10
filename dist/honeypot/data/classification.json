@@ -50,11 +50,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 84313,
+        "total": 84339,
         "top_label": "T1027",
-        "top_value": 76600,
-        "top_share": 0.9085,
-        "top_sources": 271,
+        "top_value": 76608,
+        "top_share": 0.9083,
+        "top_sources": 272,
         "sources_total": 4627
       }
     ]
@@ -1805,31 +1805,31 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 76600,
-      "distinct_ips": 271,
+      "count": 76608,
+      "distinct_ips": 272,
       "recon_count": 73624,
       "recon_ips": 5,
-      "residual_count": 2976,
+      "residual_count": 2984,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 5157,
-      "distinct_ips": 312,
+      "count": 5172,
+      "distinct_ips": 313,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 5157,
+      "residual_count": 5172,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 2145,
-      "distinct_ips": 292,
+      "count": 2148,
+      "distinct_ips": 293,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 2145,
+      "residual_count": 2148,
       "attribution": "none"
     },
     {
@@ -1903,8 +1903,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1140",
-      "name": "Deobfuscate/Decode Files or Information",
+      "id": "T1087",
+      "name": "Account Discovery",
       "count": 4,
       "distinct_ips": 4,
       "recon_count": 0,
@@ -1913,8 +1913,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1087",
-      "name": "Account Discovery",
+      "id": "T1140",
+      "name": "Deobfuscate/Decode Files or Information",
       "count": 4,
       "distinct_ips": 4,
       "recon_count": 0,
