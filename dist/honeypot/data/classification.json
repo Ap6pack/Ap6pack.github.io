@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 84476,
+        "total": 84482,
         "top_label": "T1027",
         "top_value": 76651,
-        "top_share": 0.9074,
+        "top_share": 0.9073,
         "top_sources": 279,
         "sources_total": 4718
       }
@@ -1835,11 +1835,11 @@
     {
       "id": "T1082",
       "name": "System Information Discovery",
-      "count": 250,
-      "distinct_ips": 30,
+      "count": 252,
+      "distinct_ips": 31,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 250,
+      "residual_count": 252,
       "attribution": "none"
     },
     {
@@ -1865,11 +1865,21 @@
     {
       "id": "T1057",
       "name": "Process Discovery",
-      "count": 10,
-      "distinct_ips": 5,
+      "count": 12,
+      "distinct_ips": 6,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 10,
+      "residual_count": 12,
+      "attribution": "none"
+    },
+    {
+      "id": "T1685.006",
+      "name": "Clear Linux or Mac System Logs",
+      "count": 7,
+      "distinct_ips": 7,
+      "recon_count": 0,
+      "recon_ips": 0,
+      "residual_count": 7,
       "attribution": "none"
     },
     {
@@ -1883,8 +1893,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1685.006",
-      "name": "Clear Linux or Mac System Logs",
+      "id": "T1016",
+      "name": "System Network Configuration Discovery",
       "count": 6,
       "distinct_ips": 6,
       "recon_count": 0,
@@ -1895,16 +1905,6 @@
     {
       "id": "T1087",
       "name": "Account Discovery",
-      "count": 5,
-      "distinct_ips": 5,
-      "recon_count": 0,
-      "recon_ips": 0,
-      "residual_count": 5,
-      "attribution": "none"
-    },
-    {
-      "id": "T1016",
-      "name": "System Network Configuration Discovery",
       "count": 5,
       "distinct_ips": 5,
       "recon_count": 0,
