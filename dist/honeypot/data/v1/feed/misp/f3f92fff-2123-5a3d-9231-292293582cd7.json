@@ -2,7 +2,7 @@
   "Event": {
     "uuid": "f3f92fff-2123-5a3d-9231-292293582cd7",
     "info": "Sundew honeypot - campaign 6a844424c30a (1 sources) - enable",
-    "date": "2026-09-09",
+    "date": "2026-09-10",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -28,8 +28,8 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "92.204.128.6",
-        "timestamp": "1788973215",
-        "comment": "executed_commands, confidence medium; 3124 sessions, 15147 commands, 0 downloads; first_seen 2026-09-08T22:33:32.474426Z, last_seen 2026-09-09T17:00:06.129012Z; expires 7d after last_seen"
+        "timestamp": "1789018213",
+        "comment": "executed_commands, confidence medium; 4036 sessions, 19570 commands, 0 downloads; first_seen 2026-09-08T22:33:32.474426Z, last_seen 2026-09-10T02:00:20.209494Z; expires 7d after last_seen"
       },
       {
         "uuid": "295b9f0e-fd46-53e4-8b86-d678139dcaf4",
@@ -37,7 +37,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enable",
-        "timestamp": "1788973215",
+        "timestamp": "1789018213",
         "comment": "command run by this campaign"
       },
       {
@@ -46,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "linuxshell",
-        "timestamp": "1788973215",
+        "timestamp": "1789018213",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1788973215",
+        "timestamp": "1789018213",
         "comment": "command run by this campaign"
       },
       {
@@ -64,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1788973215",
+        "timestamp": "1789018213",
         "comment": "command run by this campaign"
       },
       {
@@ -73,7 +73,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1788973215",
+        "timestamp": "1789018213",
         "comment": "command run by this campaign"
       }
     ]
