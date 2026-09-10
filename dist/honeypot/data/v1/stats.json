@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-10T23:00:13.442572+00:00",
+  "generated_at": "2026-09-10T23:30:13.176699+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-10T22:53:09.324772Z",
-  "total_events": 1000951,
-  "unique_sessions": 116400,
-  "unique_source_ips": 4826,
-  "login_attempts": 110124,
-  "login_success": 107919,
-  "commands_run": 251023,
+  "last_event": "2026-09-10T23:20:09.776911Z",
+  "total_events": 1001003,
+  "unique_sessions": 116402,
+  "unique_source_ips": 4828,
+  "login_attempts": 110126,
+  "login_success": 107921,
+  "commands_run": 251056,
   "files_captured": 21,
   "top_usernames": [
     [
@@ -135,20 +135,20 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 251023,
-    "cowrie.session.connect": 116400,
-    "cowrie.session.closed": 115724,
-    "cowrie.login.success": 107919,
-    "cowrie.session.params": 106111,
-    "cowrie.log.closed": 105445,
+    "cowrie.command.input": 251056,
+    "cowrie.session.connect": 116402,
+    "cowrie.session.closed": 115726,
+    "cowrie.login.success": 107921,
+    "cowrie.session.params": 106113,
+    "cowrie.log.closed": 105447,
     "cowrie.client.version": 76524,
     "cowrie.client.kex": 76243,
-    "cowrie.telnet.option": 35260,
-    "cowrie.command.success": 3219,
+    "cowrie.telnet.option": 35262,
+    "cowrie.command.success": 3221,
     "cowrie.login.failed": 2205,
     "cowrie.direct-tcpip.request": 1707,
-    "cowrie.session.file_download.failed": 1497,
-    "cowrie.session.file_download": 1478,
+    "cowrie.session.file_download.failed": 1501,
+    "cowrie.session.file_download": 1479,
     "cowrie.client.var": 41,
     "cowrie.session.file_upload": 32,
     "cowrie.telnet.exploit_attempt": 28,
@@ -264,7 +264,7 @@
     },
     {
       "date": "2026-09-10",
-      "count": 2742
+      "count": 2794
     }
   ],
   "published": {
@@ -323,11 +323,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 84717,
+        "total": 84743,
         "top_label": "T1027",
-        "top_value": 76705,
-        "top_share": 0.9054,
-        "top_sources": 284,
+        "top_value": 76713,
+        "top_share": 0.9052,
+        "top_sources": 285,
         "sources_total": 4800
       }
     ]
