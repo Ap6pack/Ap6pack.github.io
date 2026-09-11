@@ -1,6 +1,6 @@
 # Sundew honeypot indicator feed
 
-Generated 2026-09-11T18:30:13.409386Z from a single Cowrie SSH/Telnet honeypot on one AWS EC2
+Generated 2026-09-11T19:00:14.705141Z from a single Cowrie SSH/Telnet honeypot on one AWS EC2
 instance. Schema `1.0`, feed `v1`. Licence: CC BY 4.0.
 
 ## Read this before you block anything
@@ -14,8 +14,8 @@ yesterday may belong to somebody uninvolved today.
 
 That is why every indicator carries `last_seen` and `ttl_days`, and why more
 than half of what this honeypot has seen is deliberately kept out of the
-confident tiers. Of 4,857 observed addresses,
-2,687 were seen exactly once - 55% of the feed.
+confident tiers. Of 4,923 observed addresses,
+2,720 were seen exactly once - 55% of the feed.
 
 **Removal.** If your address is listed and you believe it should not be, open
 an issue at <https://github.com/Ap6pack/Ap6pack.github.io/issues> or email the
@@ -57,10 +57,10 @@ Current distribution:
 
 | Confidence | Addresses |
 |---|---|
-| high | 143 |
-| medium | 398 |
-| low | 4,316 |
-| **total** | **4,857** |
+| high | 149 |
+| medium | 417 |
+| low | 4,357 |
+| **total** | **4,923** |
 
 Every field the tiers are derived from is in `indicators.json`. If you disagree
 with where the lines are drawn - and you may well, they are one operator's

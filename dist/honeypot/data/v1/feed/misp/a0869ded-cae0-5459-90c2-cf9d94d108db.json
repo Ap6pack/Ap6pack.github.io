@@ -1,0 +1,45 @@
+{
+  "Event": {
+    "uuid": "a0869ded-cae0-5459-90c2-cf9d94d108db",
+    "info": "Sundew honeypot - campaign 2ab28ccbbef4 (1 sources) - scp -t /tmp/nKBVXixi",
+    "date": "2026-09-11",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "5d1e1e59-0721-5e7b-9449-aad806fec96c",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "81.66.176.120",
+        "timestamp": "1789153214",
+        "comment": "delivered_payload, confidence high; 4 sessions, 6 commands, 2 downloads; first_seen 2026-09-11T08:21:59.468638Z, last_seen 2026-09-11T08:22:03.584302Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "3f9a2e46-5e29-547b-b725-52a88526494d",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "scp -t /tmp/nKBVXixi",
+        "timestamp": "1789153214",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}
