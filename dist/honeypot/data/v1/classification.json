@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 84987,
+        "total": 85030,
         "top_label": "T1027",
-        "top_value": 76783,
-        "top_share": 0.9035,
+        "top_value": 76798,
+        "top_share": 0.9032,
         "top_sources": 294,
         "sources_total": 4923
       }
@@ -1889,31 +1889,31 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 76783,
+      "count": 76798,
       "distinct_ips": 294,
       "recon_count": 73624,
       "recon_ips": 5,
-      "residual_count": 3159,
+      "residual_count": 3174,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 5534,
-      "distinct_ips": 338,
+      "count": 5549,
+      "distinct_ips": 339,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 5534,
+      "residual_count": 5549,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 2230,
-      "distinct_ips": 315,
+      "count": 2233,
+      "distinct_ips": 316,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 2230,
+      "residual_count": 2233,
       "attribution": "none"
     },
     {
@@ -1929,11 +1929,11 @@
     {
       "id": "T1489",
       "name": "Service Stop",
-      "count": 122,
+      "count": 132,
       "distinct_ips": 13,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 122,
+      "residual_count": 132,
       "attribution": "none"
     },
     {
