@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.0",
   "generated_at": "2026-09-11T17:30:13.037165+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
   "last_event": "2026-09-11T16:44:39.765865Z",
@@ -8,39 +9,35 @@
   "login_attempts": 110164,
   "login_success": 107958,
   "commands_run": 251366,
-  "files_captured": 13,
+  "files_captured": 21,
   "top_usernames": [
     [
       "root",
-      96851
+      2054
     ],
     [
       "admin",
-      6809
+      996
     ],
     [
       "enable\\x00",
-      2076
+      407
     ],
     [
       "support",
-      1294
-    ],
-    [
-      "user",
-      782
-    ],
-    [
-      "guest",
-      545
-    ],
-    [
-      "ubnt",
-      270
+      160
     ],
     [
       "default",
-      121
+      107
+    ],
+    [
+      "user",
+      102
+    ],
+    [
+      "guest",
+      94
     ],
     [
       "test",
@@ -52,7 +49,7 @@
     ],
     [
       "nobody",
-      87
+      86
     ],
     [
       "centos",
@@ -69,68 +66,72 @@
     [
       "unknown",
       71
+    ],
+    [
+      "ubnt",
+      69
     ]
   ],
   "top_passwords": [
     [
       "admin",
-      4035
-    ],
-    [
-      "xc3511",
-      2411
-    ],
-    [
-      "vizxv",
-      2117
+      705
     ],
     [
       "linuxshell\\x00",
-      2075
-    ],
-    [
-      "",
-      1707
+      406
     ],
     [
       "123456",
-      1521
+      330
+    ],
+    [
+      "root",
+      255
+    ],
+    [
+      "",
+      92
     ],
     [
       "password",
-      1467
+      73
     ],
     [
-      "888888",
-      1425
+      "vizxv",
+      67
+    ],
+    [
+      "xc3511",
+      61
     ],
     [
       "12345",
-      1217
-    ],
-    [
-      "xmhdipc",
-      1213
-    ],
-    [
-      "support",
-      1181
-    ],
-    [
-      "juantech",
-      1180
+      61
     ],
     [
       "default",
-      1149
+      50
     ],
     [
-      "1111",
-      1146
+      "1234",
+      50
     ],
     [
-      "54321",
-      1135
+      "support",
+      44
+    ],
+    [
+      "juantech",
+      40
+    ],
+    [
+      "123",
+      32
+    ],
+    [
+      "xmhdipc",
+      29
     ]
   ],
   "event_breakdown": {
@@ -269,5 +270,70 @@
       "date": "2026-09-11",
       "count": 1172
     }
-  ]
+  ],
+  "published": {
+    "sessions": 13365,
+    "source_ips": 4857,
+    "login_attempts": 5335,
+    "login_success": 4798,
+    "commands_run": 28384,
+    "sessions_logged_in": 4798,
+    "sessions_with_commands": 2800,
+    "sessions_with_download": 662,
+    "share_of_sessions": 0.1146
+  },
+  "weighting": {
+    "schema_version": "1.0",
+    "rule": {
+      "max_commands_per_session": 1,
+      "max_avg_duration_ms": 5000,
+      "max_downloads": 0
+    },
+    "clustered_sessions": 105933,
+    "ips": {
+      "observed": 4857,
+      "attempted_login": 2433,
+      "ran_command": 1203,
+      "delivered_payload": 372,
+      "published": {
+        "observed": 4857,
+        "attempted_login": 2082,
+        "ran_command": 843,
+        "delivered_payload": 186
+      }
+    },
+    "recon": {
+      "clusters": 9,
+      "sessions": 73835,
+      "ip_count_sum": 29,
+      "share_of_clustered_sessions": 0.697
+    },
+    "attack": {
+      "clusters": 141,
+      "sessions": 32098,
+      "ip_count_sum": 1265
+    },
+    "dominance": [
+      {
+        "metric": "sessions",
+        "label": "sessions in a behaviour cluster",
+        "total": 105933,
+        "top_label": "eafdc691c2945a06",
+        "top_value": 73624,
+        "top_share": 0.695,
+        "top_sources": 5,
+        "sources_total": 4857
+      },
+      {
+        "metric": "attack_techniques",
+        "label": "commands tagged with an ATT&CK technique",
+        "total": 84918,
+        "top_label": "T1027",
+        "top_value": 76760,
+        "top_share": 0.9039,
+        "top_sources": 291,
+        "sources_total": 4857
+      }
+    ]
+  }
 }
