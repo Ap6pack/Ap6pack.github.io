@@ -426,7 +426,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 114.252.120.220,2026-08-18T05:30:08.111180Z,2026-08-18T05:30:58.550395Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,China,China Unicom Beijing province network,chinaunicom.cn,false,100
 114.30.180.58,2026-08-31T06:08:36.772738Z,2026-09-04T09:28:36.517845Z,3,2,0,0,low,connected_only,false,false,,7,South Korea,HVHonam,lghv.net,false,100
 114.30.223.119,2026-08-31T08:34:39.452269Z,2026-09-06T22:02:21.834011Z,4,3,0,0,low,connected_only,false,true,,7,South Korea,HVHonam,lghv.net,false,100
-114.38.200.222,2026-09-04T19:39:53.465677Z,2026-09-04T19:41:20.137814Z,1,1,31,5,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,87
+114.38.200.222,2026-09-04T19:39:53.465677Z,2026-09-04T19:41:20.137814Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,87
 114.55.225.179,2026-08-25T19:51:35.825818Z,2026-08-25T19:51:35.826557Z,1,0,0,0,low,single_sighting,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
 114.98.63.18,2026-09-02T10:18:44.252844Z,2026-09-09T07:08:04.398218Z,3,1,0,0,low,connected_only,false,true,,7,China,CHINANET Anhui PROVINCE NETWORK,chinatelecom.cn,false,100
 115.133.58.45,2026-08-31T23:19:14.604058Z,2026-08-31T23:21:05.699465Z,3,0,0,0,low,connected_only,false,false,,7,Malaysia,TM TECHNOLOGY SERVICES SDN. BHD.,tm.com.my,false,61
@@ -3917,7 +3917,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 51.36.254.255,2026-08-26T16:45:31.838218Z,2026-08-26T16:46:01.958533Z,2,0,0,0,low,connected_only,false,false,,7,Saudi Arabia,MTC KSA,zain.com,false,30
 51.57.80.177,2026-08-28T06:29:40.714278Z,2026-08-28T06:29:41.315114Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Limited,microsoft.com,false,100
 51.68.226.171,2026-08-27T13:03:32.578356Z,2026-09-04T13:33:01.106231Z,3,3,0,0,low,connected_only,false,false,,7,France,OVH SAS,ovh.net,false,100
-52.155.60.186,2026-09-04T19:43:39.152705Z,2026-09-04T19:43:40.052153Z,2,0,0,0,low,connected_only,false,true,,7,United States,Microsoft Corporation,microsoft.com,false,35
+52.155.60.186,2026-09-04T19:43:39.152705Z,2026-09-04T19:43:40.052153Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Corporation,microsoft.com,false,35
 52.157.32.53,2026-09-07T05:08:24.473305Z,2026-09-07T05:08:25.368903Z,2,0,0,0,low,connected_only,false,true,,7,United States,Microsoft Corporation,microsoft.com,false,58
 52.161.69.164,2026-09-06T10:11:27.118086Z,2026-09-06T10:11:27.960384Z,2,0,0,0,low,connected_only,false,true,,7,United States,Microsoft Corporation,microsoft.com,false,10
 52.234.3.22,2026-09-03T15:57:58.819159Z,2026-09-03T15:57:59.712984Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Corporation,microsoft.com,false,23
@@ -4039,7 +4039,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 61.6.206.13,2026-09-05T21:16:45.935549Z,2026-09-05T21:17:05.358778Z,1,1,0,0,low,single_sighting,false,true,,7,Brunei,Unified National Networks,unn.com.bn,false,100
 61.7.64.228,2026-09-01T14:27:58.702122Z,2026-09-01T14:28:10.017435Z,1,1,22,11,low,delivered_payload,false,false,37a485edfacddf05,7,Japan,"NetComBB Co.,Ltd.",sni.ne.jp,false,100
 61.79.227.51,2026-08-31T05:50:01.512069Z,2026-08-31T05:50:11.257169Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
-61.84.4.230,2026-09-04T19:31:29.927418Z,2026-09-04T19:31:38.669463Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+61.84.4.230,2026-09-04T19:31:29.927418Z,2026-09-04T19:31:38.669463Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 61.9.10.46,2026-08-23T00:30:27.149878Z,2026-08-23T00:30:27.150537Z,1,0,0,0,low,single_sighting,false,false,,7,Philippines,Converge ICT Network,convergeict.com,false,21
 61.93.135.225,2026-09-04T20:23:26.999631Z,2026-09-04T20:23:35.758830Z,1,1,0,0,low,single_sighting,false,true,,7,Hong Kong,Hong Kong Broadband Network Ltd,hkbn.net,false,100
 62.118.97.123,2026-09-07T15:42:34.242260Z,2026-09-07T15:42:52.441867Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,OAO MOSDACHTREST,mtu.ru,false,5
