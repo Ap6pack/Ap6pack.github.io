@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "techniques": [
     {
       "id": "T1027",
@@ -8,8 +7,8 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 76768,
-      "distinct_ips": 292,
+      "count": 76775,
+      "distinct_ips": 293,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
         "/bin/busybox echo -ne \"\\x23\\x21\\x2F\\x62\\x69\\x6E\\x2F\\x73\\x68\\x0A\\x0A\\x66\\x6F\\x72\\x20\\x70\\x72\\x6F\\x63\\x5F\\x64\\x69\\x72\\x20\\x69\\x6E\\x20\\x2F\\x70\\x72\\x6F\\x63\" > .k",
@@ -76,8 +75,8 @@
         "impact"
       ],
       "url": "https://attack.mitre.org/techniques/T1489",
-      "count": 112,
-      "distinct_ips": 12,
+      "count": 122,
+      "distinct_ips": 13,
       "examples": [
         "#!/bin/sh\n\nfor proc_dir in /proc/*; do\n    pid=${proc_dir##*/}\n\n    result=$(ls -l \"/proc/$pid/exe\" 2> /dev/null)\n\n    if [ \"$result\" != \"${result%(deleted)}\" ]; then\n        kill -9 \"$pid\"\n    fi\ndone\n",
         "for pid in /proc/[0-9]*; do pid_num=\"${pid##*/}\"; if [ -r \"$pid/maps\" ]; then suspicious=true; while IFS= read -r line; do case \"$line\" in *\"/lib/\"*|*\"/lib64/\"*|*\".so\"*) suspicious=false; break;; esac; done < \"$pid/maps\"; if [ \"$suspicious\" = true ]; then kill -9 \"$pid_num\"; fi; fi; done",
@@ -182,6 +181,6 @@
       ]
     }
   ],
-  "total_commands": 250157,
-  "matched_commands": 83002
+  "total_commands": 250308,
+  "matched_commands": 83019
 }
