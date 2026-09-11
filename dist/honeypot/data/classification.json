@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 84786,
+        "total": 84788,
         "top_label": "T1027",
         "top_value": 76728,
-        "top_share": 0.905,
+        "top_share": 0.9049,
         "top_sources": 287,
         "sources_total": 4857
       }
@@ -1875,11 +1875,11 @@
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 5429,
-      "distinct_ips": 331,
+      "count": 5430,
+      "distinct_ips": 332,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 5429,
+      "residual_count": 5430,
       "attribution": "none"
     },
     {
@@ -1895,11 +1895,11 @@
     {
       "id": "T1082",
       "name": "System Information Discovery",
-      "count": 252,
-      "distinct_ips": 31,
+      "count": 253,
+      "distinct_ips": 32,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 252,
+      "residual_count": 253,
       "attribution": "none"
     },
     {
