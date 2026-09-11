@@ -283,9 +283,9 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 110.232.66.64,2026-09-02T13:11:18.203341Z,2026-09-02T13:11:38.077451Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Indonesia,PT. Media Antar Nusa,nusanet.id,false,100
 110.24.32.16,2026-08-29T04:07:59.206023Z,2026-08-29T04:08:08.375461Z,2,2,25,0,low,executed_commands,false,false,ad3b58ef9a595fe1,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,73
 110.25.101.75,2026-09-02T09:08:34.412879Z,2026-09-02T21:58:59.192183Z,3,3,0,0,low,connected_only,false,false,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
-110.25.104.249,2026-09-04T02:31:56.585304Z,2026-09-04T02:32:04.410475Z,1,1,0,0,low,single_sighting,false,true,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,43
+110.25.104.249,2026-09-04T02:31:56.585304Z,2026-09-04T02:32:04.410475Z,1,1,0,0,low,single_sighting,false,false,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,43
 110.25.105.161,2026-09-06T21:28:21.329758Z,2026-09-06T21:28:23.050031Z,1,0,0,0,low,single_sighting,false,true,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
-110.25.106.26,2026-09-01T05:37:49.884281Z,2026-09-04T02:31:55.899170Z,2,2,0,0,low,connected_only,false,true,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
+110.25.106.26,2026-09-01T05:37:49.884281Z,2026-09-04T02:31:55.899170Z,2,2,0,0,low,connected_only,false,false,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
 110.25.107.25,2026-09-02T18:07:12.625784Z,2026-09-02T18:07:20.494888Z,1,1,0,0,low,single_sighting,false,false,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
 110.25.109.48,2026-09-09T08:47:58.130322Z,2026-09-09T08:48:16.194737Z,1,1,0,0,low,single_sighting,false,true,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
 110.25.109.54,2026-09-04T06:39:36.597158Z,2026-09-04T06:39:46.578337Z,1,1,0,0,low,single_sighting,false,true,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
@@ -908,7 +908,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 148.222.238.178,2026-09-06T01:54:53.193492Z,2026-09-06T01:55:05.096423Z,3,0,0,0,low,connected_only,false,true,,7,Colombia,EDGEUNO S.A.S,edgeuno.com,false,55
 148.227.122.118,2026-09-03T03:28:20.259498Z,2026-09-03T03:30:20.295392Z,1,0,0,0,low,single_sighting,false,false,,7,Brazil,Starlink Brazil Serviços de Internet Ltd,starlink.com,false,100
 148.227.123.136,2026-09-04T05:56:48.411192Z,2026-09-04T06:01:56.771085Z,1,1,0,0,low,single_sighting,false,true,,7,Brazil,Starlink Brazil Serviços de Internet Ltd,starlink.com,false,100
-148.227.67.233,2026-09-04T02:44:21.041333Z,2026-09-04T02:44:21.045171Z,1,0,0,0,low,single_sighting,false,true,,7,Chile,Starlink Chile SpA,starlink.com,false,0
+148.227.67.233,2026-09-04T02:44:21.041333Z,2026-09-04T02:44:21.045171Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,Starlink Chile SpA,starlink.com,false,0
 148.227.90.90,2026-08-26T00:58:50.792460Z,2026-08-26T00:58:51.736526Z,1,0,0,0,low,single_sighting,false,false,,7,Brazil,Starlink Brazil Serviços de Internet Ltd,starlink.com,false,100
 148.227.93.81,2026-08-20T03:13:22.601006Z,2026-08-20T03:13:22.837282Z,1,0,0,0,low,single_sighting,false,false,,7,Ecuador,Starlink Ecuador STAREC C. Ltda.,starlink.com,false,0
 148.230.15.97,2026-08-26T18:03:35.512489Z,2026-08-26T18:03:35.513261Z,1,0,0,0,low,single_sighting,false,false,,7,Mexico,DIGY NETWORKS,digynetworks.mx,false,30
@@ -1547,7 +1547,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 181.21.60.29,2026-08-17T22:04:33.044164Z,2026-08-17T22:04:42.155574Z,4,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,0
 181.212.0.26,2026-09-09T09:34:09.561705Z,2026-09-09T09:35:33.377832Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Chile,TELEFONICA EMPRESAS CHILE SA,movistar.cl,false,100
 181.212.174.164,2026-09-02T00:37:13.618455Z,2026-09-02T00:37:21.524657Z,1,1,0,0,low,single_sighting,false,false,,7,Chile,TELEFONICA EMPRESAS CHILE SA,movistar.cl,false,100
-181.224.191.13,2026-09-04T02:30:25.372366Z,2026-09-04T02:30:26.826967Z,3,0,0,0,low,connected_only,false,true,,7,Argentina,Atcco S.R.L.,atcco.com.ar,false,24
+181.224.191.13,2026-09-04T02:30:25.372366Z,2026-09-04T02:30:26.826967Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Atcco S.R.L.,atcco.com.ar,false,24
 181.224.66.22,2026-08-24T15:25:12.763700Z,2026-08-24T15:25:12.765223Z,2,0,0,0,low,connected_only,false,false,,7,Chile,NETV SPA,netv.cl,false,100
 181.225.32.155,2026-08-24T16:04:11.403023Z,2026-08-24T16:04:14.096822Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Venezuela,IFX Networks Venezuela C.A.,ifxnw.com.ve,false,100
 181.225.32.48,2026-08-19T07:28:35.896362Z,2026-08-20T11:46:01.930943Z,2,2,41,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Venezuela,IFX Networks Venezuela C.A.,ifxnw.com.ve,false,100
@@ -1719,7 +1719,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 184.181.217.198,2026-09-05T03:28:55.166665Z,2026-09-05T03:30:55.253334Z,1,0,0,0,low,single_sighting,false,true,,7,United States,Cox Communications,cox.com,false,55
 184.22.164.225,2026-08-31T16:30:03.990449Z,2026-08-31T16:30:31.556463Z,2,0,0,0,low,connected_only,false,false,,7,Thailand,AIS Fibre,ais.th,false,4
 184.23.20.134,2026-09-03T21:54:45.997813Z,2026-09-03T21:56:08.585889Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,United States,"Sonic.net, Inc.",sonic.com,false,24
-184.69.9.98,2026-09-04T02:37:46.348104Z,2026-09-04T02:37:46.717540Z,1,1,0,0,low,single_sighting,false,true,,7,Canada,Shaw Communications,rogers.com,false,100
+184.69.9.98,2026-09-04T02:37:46.348104Z,2026-09-04T02:37:46.717540Z,1,1,0,0,low,single_sighting,false,false,,7,Canada,Shaw Communications,rogers.com,false,100
 184.69.99.18,2026-09-04T00:28:00.231477Z,2026-09-04T08:03:51.156574Z,2,2,0,0,low,connected_only,false,true,,7,Canada,Shaw Communications,rogers.com,false,100
 184.93.10.23,2026-08-27T14:10:55.456171Z,2026-08-27T14:13:19.689090Z,3,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications Inc,charter.com,false,100
 185.102.119.226,2026-08-23T07:51:08.430162Z,2026-08-23T07:53:31.522861Z,3,0,0,0,low,connected_only,false,false,,7,Kazakhstan,JSC Alma Telecommunications,alma.plus,false,100
@@ -1745,7 +1745,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 185.191.178.214,2026-09-02T23:21:21.039706Z,2026-09-02T23:21:38.986121Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,Scientific-Production Enterprise Information Technologies Ltd,it-tv.org,false,100
 185.2.105.94,2026-09-05T07:24:47.891405Z,2026-09-05T07:25:14.892558Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,"K-TELECOM, Rv",k-telecom.org,false,52
 185.2.228.48,2026-09-05T11:50:56.755814Z,2026-09-05T11:51:03.559855Z,1,1,0,0,low,single_sighting,false,true,,7,Lithuania,Tele2 Lithuania,tele2.com,false,100
-185.205.147.220,2026-09-04T02:31:48.211554Z,2026-09-04T02:33:11.645648Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Ukraine,TRADITIONAL LLC,mainetraditionalboat.com,false,40
+185.205.147.220,2026-09-04T02:31:48.211554Z,2026-09-04T02:33:11.645648Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Ukraine,TRADITIONAL LLC,mainetraditionalboat.com,false,40
 185.21.123.104,2026-09-04T21:49:13.210875Z,2026-09-04T21:49:13.665150Z,1,0,0,0,low,single_sighting,false,true,,7,Palestinian Territory,ZONE Technologies Ltd,zone.ps,false,96
 185.212.251.8,2026-09-02T19:32:27.370444Z,2026-09-02T19:32:48.418928Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,Range for ISP Meganet,1-ix.eu,false,60
 185.220.101.101,2026-09-08T03:17:07.748717Z,2026-09-08T03:17:35.194021Z,1,2,8,2,high,delivered_payload,false,true,76f08f3551decdc5,7,Germany,Digitalcourage e.V.,digitalcourage.de,true,100
@@ -2167,7 +2167,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 191.84.216.197,2026-08-20T14:58:11.273311Z,2026-08-20T14:58:24.532444Z,4,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,60
 191.95.166.202,2026-08-29T21:35:54.602789Z,2026-08-29T21:36:12.295071Z,3,0,0,0,low,connected_only,false,false,,7,Colombia,Colombia Móvil,tigo.com.co,false,3
 191.97.14.238,2026-08-25T18:12:49.613998Z,2026-08-25T18:12:49.693212Z,3,0,0,0,low,connected_only,false,false,,7,Colombia,TV AZTECA SUCURSAL COLOMBIA,aztecacomunicaciones.com,false,54
-191.97.4.89,2026-09-04T02:48:56.076943Z,2026-09-04T02:50:00.323022Z,2,0,0,0,low,connected_only,false,true,,7,Colombia,TV AZTECA SUCURSAL COLOMBIA,aztecacomunicaciones.com,false,78
+191.97.4.89,2026-09-04T02:48:56.076943Z,2026-09-04T02:50:00.323022Z,2,0,0,0,low,connected_only,false,false,,7,Colombia,TV AZTECA SUCURSAL COLOMBIA,aztecacomunicaciones.com,false,78
 191.97.96.186,2026-08-23T06:29:01.598461Z,2026-08-23T06:29:01.599354Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,VISION NET,sierravision.com.ar,false,12
 192.141.227.185,2026-08-24T08:08:57.855224Z,2026-08-24T08:09:15.848056Z,1,1,2,0,low,executed_commands,false,false,,7,Brazil,FLYNET TELECOM LTDA,iconnect.net.br,false,20
 192.144.4.151,2026-09-08T03:35:37.941985Z,2026-09-08T03:35:43.847158Z,2,0,0,0,low,connected_only,false,true,,7,Russia,RuaD-Group LLC,,false,100
@@ -3361,7 +3361,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 4.4.66.84,2026-09-05T14:48:16.648322Z,2026-09-05T14:48:22.649563Z,3,0,0,0,low,connected_only,false,true,,7,United States,"Level 3 Parent, LLC",lumen.com,false,56
 40.119.28.119,2026-09-10T16:33:53.088759Z,2026-09-10T16:33:53.660217Z,2,0,0,0,low,connected_only,false,true,,7,United States,Microsoft Corporation,microsoft.com,false,100
 40.119.35.164,2026-08-29T05:24:10.971200Z,2026-08-29T05:24:11.081165Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Corporation,microsoft.com,false,100
-40.119.44.33,2026-09-04T02:44:34.374498Z,2026-09-04T02:44:34.477474Z,2,0,0,0,low,connected_only,false,true,,7,United States,Microsoft Corporation,microsoft.com,false,100
+40.119.44.33,2026-09-04T02:44:34.374498Z,2026-09-04T02:44:34.477474Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Corporation,microsoft.com,false,100
 40.119.44.46,2026-09-08T13:25:15.318101Z,2026-09-08T13:25:15.885285Z,2,0,0,0,low,connected_only,false,true,,7,United States,Microsoft Corporation,microsoft.com,false,100
 40.124.169.129,2026-08-31T19:49:17.631321Z,2026-08-31T19:49:17.796547Z,2,0,0,0,low,connected_only,false,false,,7,United States,Microsoft Corporation,microsoft.com,false,100
 40.124.179.76,2026-09-07T16:35:34.101650Z,2026-09-07T16:35:34.669562Z,2,0,0,0,low,connected_only,false,true,,7,United States,Microsoft Corporation,microsoft.com,false,100
@@ -4313,7 +4313,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 81.254.46.203,2026-08-21T04:41:38.646333Z,2026-08-21T04:41:56.876016Z,1,1,2,0,low,executed_commands,false,false,,7,France,Orange S.A.,orange.com,false,51
 81.43.25.64,2026-08-27T08:39:02.673050Z,2026-08-27T08:39:21.260399Z,1,1,2,0,low,executed_commands,false,false,,7,Spain,Telefonica de Espana SAU,movistar.es,false,53
 81.78.95.23,2026-09-02T01:33:26.000984Z,2026-09-02T01:34:11.033787Z,3,0,0,0,low,connected_only,false,false,,7,United Kingdom,Vodafone Limited,vodafone.co.uk,false,0
-81.88.141.243,2026-09-04T02:54:51.528491Z,2026-09-04T02:54:52.217299Z,1,1,0,0,low,single_sighting,false,true,,7,Slovakia,"Interfinance Plus, a.s.",benestra.sk,false,100
+81.88.141.243,2026-09-04T02:54:51.528491Z,2026-09-04T02:54:52.217299Z,1,1,0,0,low,single_sighting,false,false,,7,Slovakia,"Interfinance Plus, a.s.",benestra.sk,false,100
 82.102.158.36,2026-09-01T18:24:10.520797Z,2026-09-01T18:24:17.886752Z,1,1,0,0,low,single_sighting,false,false,,7,Israel,Partner Communications Ltd.,orange.co.il,false,100
 82.102.188.117,2026-09-03T09:33:29.732168Z,2026-09-09T11:06:33.922197Z,3,2,0,0,low,connected_only,false,true,,7,Israel,Corporate customers offering mobile services on their servers,partner.co.il,false,100
 82.102.246.220,2026-09-09T01:53:10.255193Z,2026-09-09T01:53:29.806421Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Palestine,AV_RA_FILTER2,jawwal.ps,false,5
@@ -4351,7 +4351,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 83.172.42.32,2026-09-10T15:27:36.238226Z,2026-09-10T15:27:58.411715Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,"NEOTELECOM, Internet service provider, Tomsk, Russia",neotelecom.ru,false,100
 83.191.176.93,2026-08-31T22:01:02.651413Z,2026-09-03T17:03:19.499663Z,2,2,0,0,low,connected_only,false,false,,7,Sweden,SE TELE2 BROADBAND,tele2.com,false,100
 83.191.179.185,2026-09-01T10:13:43.491966Z,2026-09-01T10:13:50.959956Z,1,1,0,0,low,single_sighting,false,false,,7,Sweden,SE TELE2 BROADBAND,tele2.com,false,100
-83.198.122.112,2026-09-04T02:44:16.342729Z,2026-09-04T02:45:46.520795Z,4,0,0,0,low,connected_only,false,true,,7,France,Orange S.A.,orange.com,false,75
+83.198.122.112,2026-09-04T02:44:16.342729Z,2026-09-04T02:45:46.520795Z,4,0,0,0,low,connected_only,false,false,,7,France,Orange S.A.,orange.com,false,75
 83.217.180.129,2026-09-04T20:54:53.215369Z,2026-09-04T20:54:53.747087Z,1,1,0,0,low,single_sighting,false,true,,7,Italy,UNIDATA S.p.A.,unidata.it,false,100
 83.224.137.131,2026-08-25T16:00:29.631544Z,2026-08-25T16:00:31.802557Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Italy,Fastweb SpA,fastweb.it,false,3
 83.224.162.150,2026-09-10T03:11:52.788347Z,2026-09-10T03:13:17.441867Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Italy,Fastweb SpA,fastweb.it,false,21
@@ -4494,7 +4494,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 89.105.235.54,2026-08-18T10:05:54.626954Z,2026-08-18T10:05:54.628825Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,PRIVATE JOINT-STOCK COMPANY FARLEP-INVEST,farlep.net,false,48
 89.147.194.161,2026-08-18T18:02:37.570871Z,2026-08-18T18:02:59.211442Z,1,1,3,0,low,executed_commands,false,false,cdeea28a0da7d13d,7,Azerbaijan,START TELECOM LLC,starttelecom.az,false,43
 89.151.186.108,2026-09-06T19:03:28.299129Z,2026-09-08T19:18:05.108571Z,2,2,4,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,PJSC Rostelecom,rt.ru,false,21
-89.151.186.96,2026-09-04T02:53:57.628479Z,2026-09-04T02:54:16.805033Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,PJSC Rostelecom,rt.ru,false,72
+89.151.186.96,2026-09-04T02:53:57.628479Z,2026-09-04T02:54:16.805033Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,PJSC Rostelecom,rt.ru,false,72
 89.152.30.13,2026-08-24T20:22:31.091423Z,2026-08-24T20:22:50.158123Z,1,1,2,0,low,executed_commands,false,false,,7,Portugal,NOS COMUNICACOES S.A.,nos.pt,false,100
 89.204.90.13,2026-09-06T03:52:57.270846Z,2026-09-06T03:52:57.271566Z,1,0,0,0,low,single_sighting,false,true,,7,Russia,Dynamic distribution IP's for broadband services,rt.ru,false,16
 89.205.36.75,2026-08-19T22:22:29.387385Z,2026-08-19T22:22:38.003502Z,2,0,0,0,low,connected_only,false,false,,7,North Macedonia,SKOPJE CABLE,telekabel.com.mk,false,0
