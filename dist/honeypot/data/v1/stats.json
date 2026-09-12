@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-12T06:30:13.864790+00:00",
+  "generated_at": "2026-09-12T07:00:13.289834+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-12T06:19:49.804104Z",
-  "total_events": 1017620,
-  "unique_sessions": 118651,
-  "unique_source_ips": 4972,
-  "login_attempts": 111949,
-  "login_success": 109739,
-  "commands_run": 253661,
+  "last_event": "2026-09-12T06:57:12.260735Z",
+  "total_events": 1017678,
+  "unique_sessions": 118656,
+  "unique_source_ips": 4975,
+  "login_attempts": 111951,
+  "login_success": 109741,
+  "commands_run": 253694,
   "files_captured": 21,
   "top_usernames": [
     [
@@ -135,19 +135,19 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 253661,
-    "cowrie.session.connect": 118651,
-    "cowrie.session.closed": 117975,
-    "cowrie.login.success": 109739,
-    "cowrie.session.params": 107930,
-    "cowrie.log.closed": 107264,
+    "cowrie.command.input": 253694,
+    "cowrie.session.connect": 118656,
+    "cowrie.session.closed": 117980,
+    "cowrie.login.success": 109741,
+    "cowrie.session.params": 107932,
+    "cowrie.log.closed": 107266,
     "cowrie.client.version": 78295,
     "cowrie.client.kex": 78001,
-    "cowrie.telnet.option": 35592,
-    "cowrie.command.success": 3306,
+    "cowrie.telnet.option": 35594,
+    "cowrie.command.success": 3308,
     "cowrie.login.failed": 2210,
     "cowrie.direct-tcpip.request": 1707,
-    "cowrie.session.file_download.failed": 1571,
+    "cowrie.session.file_download.failed": 1576,
     "cowrie.session.file_download": 1516,
     "cowrie.client.var": 45,
     "cowrie.session.file_upload": 34,
@@ -272,7 +272,7 @@
     },
     {
       "date": "2026-09-12",
-      "count": 14591
+      "count": 14649
     }
   ],
   "published": {
@@ -331,11 +331,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 86909,
+        "total": 86935,
         "top_label": "T1027",
-        "top_value": 78569,
-        "top_share": 0.904,
-        "top_sources": 301,
+        "top_value": 78577,
+        "top_share": 0.9039,
+        "top_sources": 302,
         "sources_total": 4923
       }
     ]
