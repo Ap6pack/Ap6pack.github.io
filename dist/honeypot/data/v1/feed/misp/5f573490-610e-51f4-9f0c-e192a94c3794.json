@@ -1,7 +1,7 @@
 {
   "Event": {
     "uuid": "5f573490-610e-51f4-9f0c-e192a94c3794",
-    "info": "Sundew honeypot - campaign 1091addd5782 (4 sources) - /ip cloud print",
+    "info": "Sundew honeypot - campaign 1091addd5782 (3 sources) - /ip cloud print",
     "date": "2026-09-12",
     "analysis": "2",
     "threat_level_id": "3",
@@ -28,7 +28,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "37.148.102.18",
-        "timestamp": "1789171213",
+        "timestamp": "1789178416",
         "comment": "executed_commands, confidence medium; 1 sessions, 9 commands, 0 downloads; first_seen 2026-09-08T03:13:14.682415Z, last_seen 2026-09-08T03:15:50.744298Z; expires 7d after last_seen"
       },
       {
@@ -37,7 +37,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "85.225.133.42",
-        "timestamp": "1789171213",
+        "timestamp": "1789178416",
         "comment": "executed_commands, confidence medium; 1 sessions, 9 commands, 0 downloads; first_seen 2026-09-10T09:50:29.315918Z, last_seen 2026-09-10T09:52:04.389192Z; expires 7d after last_seen"
       },
       {
@@ -46,17 +46,8 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "85.30.212.24",
-        "timestamp": "1789171213",
+        "timestamp": "1789178416",
         "comment": "executed_commands, confidence medium; 1 sessions, 9 commands, 0 downloads; first_seen 2026-09-07T07:30:46.081298Z, last_seen 2026-09-07T07:33:59.279411Z; expires 7d after last_seen"
-      },
-      {
-        "uuid": "91848651-160a-5242-8384-69db05940ba1",
-        "type": "ip-src",
-        "category": "Network activity",
-        "to_ids": false,
-        "value": "93.218.46.60",
-        "timestamp": "1789171213",
-        "comment": "executed_commands, confidence medium; 1 sessions, 9 commands, 0 downloads; first_seen 2026-09-05T01:31:05.043847Z, last_seen 2026-09-05T01:32:36.147123Z; expires 7d after last_seen"
       },
       {
         "uuid": "d4f1728a-e981-5ddc-8412-36d6aa414111",
@@ -64,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/ip cloud print",
-        "timestamp": "1789171213",
+        "timestamp": "1789178416",
         "comment": "command run by this campaign"
       },
       {
@@ -73,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "ifconfig",
-        "timestamp": "1789171213",
+        "timestamp": "1789178416",
         "comment": "command run by this campaign"
       },
       {
@@ -82,7 +73,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "uname -a",
-        "timestamp": "1789171213",
+        "timestamp": "1789178416",
         "comment": "command run by this campaign"
       },
       {
@@ -91,7 +82,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cat /proc/cpuinfo",
-        "timestamp": "1789171213",
+        "timestamp": "1789178416",
         "comment": "command run by this campaign"
       },
       {
@@ -100,7 +91,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "ps | grep '[Mm]iner'",
-        "timestamp": "1789171213",
+        "timestamp": "1789178416",
         "comment": "command run by this campaign"
       },
       {
@@ -109,7 +100,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "ps -ef | grep '[Mm]iner'",
-        "timestamp": "1789171213",
+        "timestamp": "1789178416",
         "comment": "command run by this campaign"
       },
       {
@@ -118,7 +109,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "ls -la ~/.local/share/TelegramDesktop/tdata /home/*/.local/share/TelegramDesktop/tdata /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*",
-        "timestamp": "1789171213",
+        "timestamp": "1789178416",
         "comment": "command run by this campaign"
       },
       {
@@ -127,7 +118,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "locate D877F783D5D3EF8Cs",
-        "timestamp": "1789171213",
+        "timestamp": "1789178416",
         "comment": "command run by this campaign"
       },
       {
@@ -136,7 +127,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "echo Hi | cat -n",
-        "timestamp": "1789171213",
+        "timestamp": "1789178416",
         "comment": "command run by this campaign"
       }
     ]
