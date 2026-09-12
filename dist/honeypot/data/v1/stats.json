@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-12T22:00:14.568094+00:00",
+  "generated_at": "2026-09-12T22:30:13.934086+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-12T21:59:55.511292Z",
-  "total_events": 1044425,
-  "unique_sessions": 121161,
-  "unique_source_ips": 5068,
-  "login_attempts": 114500,
-  "login_success": 112114,
-  "commands_run": 265609,
+  "last_event": "2026-09-12T22:29:40.624647Z",
+  "total_events": 1045628,
+  "unique_sessions": 121279,
+  "unique_source_ips": 5072,
+  "login_attempts": 114617,
+  "login_success": 112221,
+  "commands_run": 266124,
   "files_captured": 21,
   "top_usernames": [
     [
@@ -135,24 +135,24 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 265609,
-    "cowrie.session.connect": 121161,
-    "cowrie.session.closed": 120473,
-    "cowrie.login.success": 112114,
-    "cowrie.session.params": 110261,
-    "cowrie.log.closed": 109583,
-    "cowrie.client.version": 78347,
-    "cowrie.client.kex": 78050,
-    "cowrie.telnet.option": 37949,
+    "cowrie.command.input": 266124,
+    "cowrie.session.connect": 121279,
+    "cowrie.session.closed": 120595,
+    "cowrie.login.success": 112221,
+    "cowrie.session.params": 110368,
+    "cowrie.log.closed": 109694,
+    "cowrie.client.version": 78350,
+    "cowrie.client.kex": 78052,
+    "cowrie.telnet.option": 38056,
     "cowrie.command.success": 3376,
-    "cowrie.login.failed": 2386,
+    "cowrie.login.failed": 2396,
     "cowrie.direct-tcpip.request": 1751,
     "cowrie.session.file_download.failed": 1629,
     "cowrie.session.file_download": 1532,
     "cowrie.client.var": 45,
     "cowrie.session.file_upload": 34,
+    "cowrie.client.malformed_packet": 28,
     "cowrie.telnet.exploit_attempt": 28,
-    "cowrie.client.malformed_packet": 27,
     "cowrie.telnet.error": 21,
     "cowrie.virustotal.scanfile": 19,
     "cowrie.client.fingerprint": 16,
@@ -272,7 +272,7 @@
     },
     {
       "date": "2026-09-12",
-      "count": 41396
+      "count": 42599
     }
   ],
   "published": {
@@ -284,7 +284,7 @@
     "sessions_logged_in": 4885,
     "sessions_with_commands": 2845,
     "sessions_with_download": 670,
-    "share_of_sessions": 0.1149
+    "share_of_sessions": 0.1148
   },
   "weighting": {
     "schema_version": "1.0",
