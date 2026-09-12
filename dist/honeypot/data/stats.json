@@ -1,4 +1,5 @@
 {
+  "schema_version": "1.0",
   "generated_at": "2026-09-12T15:00:14.392725+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
   "last_event": "2026-09-12T14:58:34.258126Z",
@@ -8,129 +9,129 @@
   "login_attempts": 112715,
   "login_success": 110453,
   "commands_run": 257536,
-  "files_captured": 13,
+  "files_captured": 21,
   "top_usernames": [
     [
       "root",
-      99079
+      2061
     ],
     [
       "admin",
-      6965
+      1006
     ],
     [
       "enable\\x00",
-      2129
+      407
     ],
     [
       "support",
-      1334
-    ],
-    [
-      "user",
-      794
-    ],
-    [
-      "guest",
-      564
-    ],
-    [
-      "ubnt",
-      279
+      163
     ],
     [
       "default",
-      124
+      109
     ],
     [
-      "blank",
-      92
+      "user",
+      101
+    ],
+    [
+      "guest",
+      97
     ],
     [
       "test",
       92
     ],
     [
+      "blank",
+      90
+    ],
+    [
       "nobody",
-      91
+      86
     ],
     [
       "centos",
-      82
-    ],
-    [
-      "debian",
-      78
+      79
     ],
     [
       "supervisor",
       78
     ],
     [
+      "debian",
+      76
+    ],
+    [
       "unknown",
-      75
+      71
+    ],
+    [
+      "ubnt",
+      70
     ]
   ],
   "top_passwords": [
     [
       "admin",
-      4121
-    ],
-    [
-      "xc3511",
-      2461
-    ],
-    [
-      "vizxv",
-      2154
+      717
     ],
     [
       "linuxshell\\x00",
-      2128
-    ],
-    [
-      "",
-      1755
+      406
     ],
     [
       "123456",
-      1560
+      335
+    ],
+    [
+      "root",
+      256
+    ],
+    [
+      "",
+      95
     ],
     [
       "password",
-      1496
+      73
     ],
     [
-      "888888",
-      1452
+      "vizxv",
+      67
     ],
     [
       "12345",
-      1246
+      63
     ],
     [
-      "xmhdipc",
-      1240
-    ],
-    [
-      "support",
-      1220
-    ],
-    [
-      "juantech",
-      1207
-    ],
-    [
-      "1111",
-      1178
+      "xc3511",
+      62
     ],
     [
       "default",
-      1173
+      51
     ],
     [
-      "54321",
-      1164
+      "1234",
+      50
+    ],
+    [
+      "support",
+      47
+    ],
+    [
+      "juantech",
+      36
+    ],
+    [
+      "123",
+      32
+    ],
+    [
+      "pass",
+      29
     ]
   ],
   "event_breakdown": {
@@ -273,5 +274,70 @@
       "date": "2026-09-12",
       "count": 23058
     }
-  ]
+  ],
+  "published": {
+    "sessions": 13746,
+    "source_ips": 4978,
+    "login_attempts": 5369,
+    "login_success": 4829,
+    "commands_run": 28996,
+    "sessions_logged_in": 4829,
+    "sessions_with_commands": 2828,
+    "sessions_with_download": 667,
+    "share_of_sessions": 0.1151
+  },
+  "weighting": {
+    "schema_version": "1.0",
+    "rule": {
+      "max_commands_per_session": 1,
+      "max_avg_duration_ms": 5000,
+      "max_downloads": 0
+    },
+    "clustered_sessions": 107741,
+    "ips": {
+      "observed": 4978,
+      "attempted_login": 2474,
+      "ran_command": 1243,
+      "delivered_payload": 387,
+      "published": {
+        "observed": 4978,
+        "attempted_login": 2106,
+        "ran_command": 863,
+        "delivered_payload": 189
+      }
+    },
+    "recon": {
+      "clusters": 9,
+      "sessions": 75558,
+      "ip_count_sum": 32,
+      "share_of_clustered_sessions": 0.7013
+    },
+    "attack": {
+      "clusters": 143,
+      "sessions": 32183,
+      "ip_count_sum": 1307
+    },
+    "dominance": [
+      {
+        "metric": "sessions",
+        "label": "sessions in a behaviour cluster",
+        "total": 107741,
+        "top_label": "eafdc691c2945a06",
+        "top_value": 75347,
+        "top_share": 0.6993,
+        "top_sources": 8,
+        "sources_total": 4978
+      },
+      {
+        "metric": "attack_techniques",
+        "label": "commands tagged with an ATT&CK technique",
+        "total": 87454,
+        "top_label": "T1027",
+        "top_value": 78934,
+        "top_share": 0.9026,
+        "top_sources": 311,
+        "sources_total": 4978
+      }
+    ]
+  }
 }
