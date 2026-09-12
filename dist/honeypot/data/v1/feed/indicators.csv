@@ -399,7 +399,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 112.9.6.93,2026-09-10T09:52:53.613142Z,2026-09-10T09:52:53.613894Z,1,0,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,25
 112.94.5.43,2026-09-04T21:46:43.289431Z,2026-09-06T07:56:28.094414Z,4,4,0,0,low,connected_only,false,true,,7,China,"United-Communications-Network-Technology-Co-Ltd, GuangZhou",chinaunicom.cn,false,100
 113.108.144.34,2026-08-31T20:06:37.311764Z,2026-09-04T11:46:47.591986Z,2,2,0,0,low,connected_only,false,false,,7,China,CHINANET Guangdong province network,chinatelecom.cn,false,100
-113.11.100.109,2026-09-05T10:41:48.882068Z,2026-09-05T10:44:58.028595Z,2,2,8,3,high,delivered_payload,false,true,edbbc2adf1bff486,7,Bangladesh,"BDCOM Online Limited, Internet Service Provider,",bdcom.com,false,100
+113.11.100.109,2026-09-05T10:41:48.882068Z,2026-09-05T10:44:58.028595Z,2,2,8,3,low,delivered_payload,false,false,edbbc2adf1bff486,7,Bangladesh,"BDCOM Online Limited, Internet Service Provider,",bdcom.com,false,100
 113.11.34.221,2026-09-04T12:01:00.391656Z,2026-09-04T12:01:08.864998Z,1,1,0,0,low,single_sighting,false,false,,7,Bangladesh,"BDCOM Online Limited, Internet Service Provider,",bdcom.com,false,100
 113.140.95.2,2026-08-31T17:44:30.694692Z,2026-08-31T20:41:00.787702Z,2,2,0,0,low,connected_only,false,false,,7,China,CHINANET SHAANXI PROVINCE NETWORK,xa.sn.cn,false,100
 113.158.205.225,2026-08-31T22:32:21.213752Z,2026-09-09T08:19:41.197516Z,4,4,0,0,low,connected_only,false,true,,7,Japan,DION (KDDI CORPORATION),dion.ne.jp,false,100
@@ -2367,7 +2367,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 195.19.124.159,2026-09-04T05:39:29.082006Z,2026-09-04T05:39:48.924232Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,Shamila st.2 v,ellcom.ru,false,64
 195.20.6.224,2026-08-17T16:14:21.684210Z,2026-08-17T16:14:21.838183Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,FOP Kovalchuk Igor Vasilevich,ua.fm,false,78
 195.208.188.157,2026-09-09T05:10:36.973731Z,2026-09-09T05:10:50.305390Z,3,0,0,0,low,connected_only,false,true,,7,Russia,Progress Technology LLC,zextel.ru,false,98
-195.218.159.123,2026-09-05T10:52:22.886905Z,2026-09-05T10:52:30.286363Z,1,1,0,0,low,single_sighting,false,true,,7,Russia,PJSC Vimpelcom,co.ru,false,100
+195.218.159.123,2026-09-05T10:52:22.886905Z,2026-09-05T10:52:30.286363Z,1,1,0,0,low,single_sighting,false,false,,7,Russia,PJSC Vimpelcom,co.ru,false,100
 195.222.57.183,2026-08-31T20:18:14.214527Z,2026-09-03T00:40:16.416791Z,3,3,0,0,low,connected_only,false,false,,7,Bosnia and Herzegovina,Public Enterprise BH Telecom DD,bhtelecom.ba,false,100
 195.225.49.101,2026-08-29T20:37:59.364877Z,2026-08-29T20:38:17.119026Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,LLC SMARTCOM,smartcom.net.ua,false,90
 195.225.49.148,2026-08-28T21:40:10.568050Z,2026-08-28T21:40:28.428941Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,LLC SMARTCOM,smartcom.net.ua,false,100
@@ -2872,7 +2872,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 207.175.177.92,2026-08-23T02:58:28.893128Z,2026-08-23T02:59:10.318209Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,23
 207.219.221.101,2026-09-03T12:56:37.971112Z,2026-09-04T06:16:55.611311Z,2,2,0,0,low,connected_only,false,false,,7,Canada,TELUS Communications Inc.,telus.com,false,100
 207.230.10.17,2026-08-26T17:55:03.286390Z,2026-08-26T17:55:03.287290Z,1,0,0,0,low,single_sighting,false,false,,7,Colombia,TV&MAS S.A.S,tvymas.co,false,74
-207.248.0.34,2026-09-05T11:00:06.948871Z,2026-09-05T11:00:06.950539Z,2,0,0,0,low,connected_only,false,true,,7,Chile,GRUPO METROWAN TELECOM SPA,grupometrowan.com,false,100
+207.248.0.34,2026-09-05T11:00:06.948871Z,2026-09-05T11:00:06.950539Z,2,0,0,0,low,connected_only,false,false,,7,Chile,GRUPO METROWAN TELECOM SPA,grupometrowan.com,false,100
 207.254.71.129,2026-09-03T10:26:17.764821Z,2026-09-04T01:30:20.995223Z,2,1,0,0,low,connected_only,false,false,,7,Ireland,"MacStadium, Inc.",macstadium.com,false,100
 207.46.224.87,2026-08-25T16:34:46.148932Z,2026-08-25T20:52:40.397932Z,2,2,1,0,low,executed_commands,true,false,f25297859cf0a70a,7,Singapore,Microsoft Corporation,microsoft.com,false,100
 208.100.212.78,2026-09-04T04:20:49.406954Z,2026-09-04T04:21:08.257206Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,United States,Cumberland Connect,cumberlandconnect.org,false,60
@@ -3244,7 +3244,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 27.25.69.219,2026-08-20T11:57:31.826570Z,2026-08-20T11:59:31.868313Z,1,0,0,0,low,single_sighting,false,false,,7,China,CHINANET Hubei province network,chinatelecom.cn,false,85
 27.37.85.28,2026-08-19T23:56:04.420829Z,2026-08-19T23:56:25.180877Z,2,2,30,2,low,delivered_payload,false,false,48f7054d319a25dc,7,China,China Unicom Dongguan city network,chinaunicom.cn,false,100
 27.39.130.144,2026-09-09T07:27:28.393985Z,2026-09-09T08:19:09.289317Z,2,2,0,0,low,connected_only,false,true,,7,China,China Unicom Guangdong province network,chinaunicom.cn,false,100
-27.81.149.5,2026-09-05T10:47:34.380816Z,2026-09-05T10:48:15.913571Z,3,0,0,0,low,connected_only,false,true,,7,Japan,KDDI CORPORATION,kddi.com,false,52
+27.81.149.5,2026-09-05T10:47:34.380816Z,2026-09-05T10:48:15.913571Z,3,0,0,0,low,connected_only,false,false,,7,Japan,KDDI CORPORATION,kddi.com,false,52
 3.129.187.38,2026-08-18T08:06:51.182510Z,2026-09-06T22:46:18.503390Z,21,0,0,0,medium,persistent,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 3.130.168.2,2026-08-18T16:24:51.245367Z,2026-09-12T01:08:44.445848Z,29,0,0,0,medium,persistent,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 3.131.220.121,2026-08-29T00:27:33.610202Z,2026-08-29T13:47:03.027917Z,4,0,0,0,low,connected_only,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
@@ -4148,7 +4148,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 65.20.149.239,2026-08-26T16:37:03.700588Z,2026-08-26T16:37:11.901018Z,1,1,0,0,low,single_sighting,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.149.26,2026-09-03T15:39:29.709316Z,2026-09-03T15:39:36.996687Z,1,1,0,0,low,single_sighting,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.153.146,2026-09-06T11:20:07.027989Z,2026-09-06T11:20:13.888954Z,1,1,0,0,low,single_sighting,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
-65.20.158.10,2026-08-31T22:06:54.855575Z,2026-09-05T10:32:21.846713Z,2,2,0,0,low,connected_only,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
+65.20.158.10,2026-08-31T22:06:54.855575Z,2026-09-05T10:32:21.846713Z,2,2,0,0,low,connected_only,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.163.103,2026-09-04T11:22:45.906973Z,2026-09-04T11:22:52.865580Z,1,1,0,0,low,single_sighting,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.163.62,2026-08-31T08:21:31.836900Z,2026-08-31T08:21:39.165535Z,1,1,0,0,low,single_sighting,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.165.151,2026-09-06T13:09:14.518677Z,2026-09-06T13:09:21.225530Z,1,1,0,0,low,single_sighting,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
