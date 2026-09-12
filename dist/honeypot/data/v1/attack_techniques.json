@@ -8,8 +8,8 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 78923,
-      "distinct_ips": 309,
+      "count": 78926,
+      "distinct_ips": 310,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
         "echo -e \"\\x6F\\x6B\"",
@@ -25,8 +25,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 5772,
-      "distinct_ips": 353,
+      "count": 5773,
+      "distinct_ips": 354,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
         ">/var/d && chmod 777 /var/d && /var/d && cd /var/",
@@ -126,6 +126,23 @@
       ]
     },
     {
+      "id": "T1140",
+      "name": "Deobfuscate/Decode Files or Information",
+      "tactics": [
+        "stealth"
+      ],
+      "url": "https://attack.mitre.org/techniques/T1140",
+      "count": 6,
+      "distinct_ips": 6,
+      "examples": [
+        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox fj1nICri ",
+        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox SDLnbNrd ",
+        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox HENtMW4C ",
+        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox On4MNjgA ",
+        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox IFvxCWYe "
+      ]
+    },
+    {
       "id": "T1033",
       "name": "System Owner/User Discovery",
       "tactics": [
@@ -153,23 +170,6 @@
       ]
     },
     {
-      "id": "T1140",
-      "name": "Deobfuscate/Decode Files or Information",
-      "tactics": [
-        "stealth"
-      ],
-      "url": "https://attack.mitre.org/techniques/T1140",
-      "count": 5,
-      "distinct_ips": 5,
-      "examples": [
-        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox fj1nICri ",
-        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox HENtMW4C ",
-        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox On4MNjgA ",
-        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox IFvxCWYe ",
-        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox 5eGkiTAb "
-      ]
-    },
-    {
       "id": "T1087",
       "name": "Account Discovery",
       "tactics": [
@@ -183,6 +183,6 @@
       ]
     }
   ],
-  "total_commands": 254918,
-  "matched_commands": 85433
+  "total_commands": 255386,
+  "matched_commands": 85438
 }
