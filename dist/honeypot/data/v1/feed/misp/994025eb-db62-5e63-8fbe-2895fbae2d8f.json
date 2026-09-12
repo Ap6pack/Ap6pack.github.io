@@ -1,7 +1,7 @@
 {
   "Event": {
     "uuid": "994025eb-db62-5e63-8fbe-2895fbae2d8f",
-    "info": "Sundew honeypot - campaign 480804bc4d0c (9 sources) - enable",
+    "info": "Sundew honeypot - campaign 480804bc4d0c (8 sources) - enable",
     "date": "2026-09-12",
     "analysis": "2",
     "threat_level_id": "3",
@@ -28,7 +28,7 @@
         "category": "Network activity",
         "to_ids": true,
         "value": "108.53.40.210",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "delivered_payload, confidence high; 3 sessions, 41 commands, 5 downloads; first_seen 2026-08-23T07:00:29.016243Z, last_seen 2026-09-12T01:54:55.343855Z; expires 7d after last_seen"
       },
       {
@@ -37,7 +37,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "122.96.31.233",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "executed_commands, confidence medium; 1 sessions, 10 commands, 0 downloads; first_seen 2026-09-06T15:54:27.347964Z, last_seen 2026-09-06T15:54:55.585097Z; expires 7d after last_seen"
       },
       {
@@ -46,17 +46,8 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "186.115.118.162",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "executed_commands, confidence medium; 2 sessions, 10 commands, 0 downloads; first_seen 2026-08-26T17:52:26.564582Z, last_seen 2026-09-06T09:53:21.375384Z; expires 7d after last_seen"
-      },
-      {
-        "uuid": "474990da-ba52-500d-94a2-9698ce72b711",
-        "type": "ip-src",
-        "category": "Network activity",
-        "to_ids": true,
-        "value": "200.112.142.180",
-        "timestamp": "1789198213",
-        "comment": "delivered_payload, confidence high; 2 sessions, 41 commands, 5 downloads; first_seen 2026-08-29T14:44:24.418038Z, last_seen 2026-09-05T07:49:59.669545Z; expires 7d after last_seen"
       },
       {
         "uuid": "ed7b65f9-0b03-54fa-9448-1316e42c2741",
@@ -64,7 +55,7 @@
         "category": "Network activity",
         "to_ids": true,
         "value": "200.59.127.150",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "delivered_payload, confidence high; 2 sessions, 41 commands, 5 downloads; first_seen 2026-08-20T11:55:42.567647Z, last_seen 2026-09-08T04:18:53.139341Z; expires 7d after last_seen"
       },
       {
@@ -73,7 +64,7 @@
         "category": "Network activity",
         "to_ids": true,
         "value": "200.81.188.6",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "delivered_payload, confidence high; 2 sessions, 41 commands, 5 downloads; first_seen 2026-08-20T16:03:27.983531Z, last_seen 2026-09-11T23:29:18.268518Z; expires 7d after last_seen"
       },
       {
@@ -82,7 +73,7 @@
         "category": "Network activity",
         "to_ids": true,
         "value": "201.221.105.43",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "delivered_payload, confidence high; 3 sessions, 51 commands, 5 downloads; first_seen 2026-08-26T17:14:29.518968Z, last_seen 2026-09-07T00:08:50.884455Z; expires 7d after last_seen"
       },
       {
@@ -91,7 +82,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "222.209.123.52",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "executed_commands, confidence medium; 1 sessions, 10 commands, 0 downloads; first_seen 2026-09-08T13:56:37.746180Z, last_seen 2026-09-08T13:56:51.684253Z; expires 7d after last_seen"
       },
       {
@@ -100,7 +91,7 @@
         "category": "Network activity",
         "to_ids": true,
         "value": "38.43.213.195",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "delivered_payload, confidence high; 2 sessions, 41 commands, 5 downloads; first_seen 2026-08-23T06:19:45.136682Z, last_seen 2026-09-08T11:13:29.941890Z; expires 7d after last_seen"
       },
       {
@@ -109,7 +100,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enable",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "command run by this campaign"
       },
       {
@@ -118,7 +109,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "command run by this campaign"
       },
       {
@@ -127,7 +118,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "command run by this campaign"
       },
       {
@@ -136,7 +127,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "command run by this campaign"
       },
       {
@@ -145,7 +136,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "linuxshell",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "command run by this campaign"
       },
       {
@@ -154,7 +145,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enablelinuxshell",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "command run by this campaign"
       },
       {
@@ -163,7 +154,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "ping ;sh",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "command run by this campaign"
       },
       {
@@ -172,7 +163,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "command run by this campaign"
       },
       {
@@ -181,7 +172,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /proc && cat self/cmdline",
-        "timestamp": "1789198213",
+        "timestamp": "1789200014",
         "comment": "command run by this campaign"
       }
     ]

@@ -50,11 +50,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 86961,
+        "total": 87002,
         "top_label": "T1027",
-        "top_value": 78585,
-        "top_share": 0.9037,
-        "top_sources": 303,
+        "top_value": 78594,
+        "top_share": 0.9034,
+        "top_sources": 305,
         "sources_total": 4978
       }
     ]
@@ -1889,31 +1889,31 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 78585,
-      "distinct_ips": 303,
+      "count": 78594,
+      "distinct_ips": 305,
       "recon_count": 75347,
       "recon_ips": 8,
-      "residual_count": 3238,
+      "residual_count": 3247,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 5669,
-      "distinct_ips": 346,
+      "count": 5696,
+      "distinct_ips": 349,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 5669,
+      "residual_count": 5696,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 2257,
-      "distinct_ips": 323,
+      "count": 2261,
+      "distinct_ips": 325,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 2257,
+      "residual_count": 2261,
       "attribution": "none"
     },
     {
@@ -1987,8 +1987,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1087",
-      "name": "Account Discovery",
+      "id": "T1140",
+      "name": "Deobfuscate/Decode Files or Information",
       "count": 5,
       "distinct_ips": 5,
       "recon_count": 0,
@@ -1997,13 +1997,13 @@
       "attribution": "none"
     },
     {
-      "id": "T1140",
-      "name": "Deobfuscate/Decode Files or Information",
-      "count": 4,
-      "distinct_ips": 4,
+      "id": "T1087",
+      "name": "Account Discovery",
+      "count": 5,
+      "distinct_ips": 5,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 4,
+      "residual_count": 5,
       "attribution": "none"
     }
   ],
