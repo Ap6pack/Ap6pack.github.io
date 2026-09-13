@@ -50,7 +50,7 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 87705,
+        "total": 87711,
         "top_label": "T1027",
         "top_value": 79007,
         "top_share": 0.9008,
@@ -1967,11 +1967,11 @@
     {
       "id": "T1082",
       "name": "System Information Discovery",
-      "count": 253,
-      "distinct_ips": 32,
+      "count": 255,
+      "distinct_ips": 33,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 253,
+      "residual_count": 255,
       "attribution": "none"
     },
     {
@@ -1997,11 +1997,21 @@
     {
       "id": "T1057",
       "name": "Process Discovery",
-      "count": 12,
-      "distinct_ips": 6,
+      "count": 14,
+      "distinct_ips": 7,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 12,
+      "residual_count": 14,
+      "attribution": "none"
+    },
+    {
+      "id": "T1685.006",
+      "name": "Clear Linux or Mac System Logs",
+      "count": 8,
+      "distinct_ips": 8,
+      "recon_count": 0,
+      "recon_ips": 0,
+      "residual_count": 8,
       "attribution": "none"
     },
     {
@@ -2015,8 +2025,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1685.006",
-      "name": "Clear Linux or Mac System Logs",
+      "id": "T1016",
+      "name": "System Network Configuration Discovery",
       "count": 7,
       "distinct_ips": 7,
       "recon_count": 0,
@@ -2037,16 +2047,6 @@
     {
       "id": "T1140",
       "name": "Deobfuscate/Decode Files or Information",
-      "count": 6,
-      "distinct_ips": 6,
-      "recon_count": 0,
-      "recon_ips": 0,
-      "residual_count": 6,
-      "attribution": "none"
-    },
-    {
-      "id": "T1016",
-      "name": "System Network Configuration Discovery",
       "count": 6,
       "distinct_ips": 6,
       "recon_count": 0,
