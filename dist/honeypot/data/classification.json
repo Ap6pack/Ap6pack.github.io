@@ -50,11 +50,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 87698,
+        "total": 87705,
         "top_label": "T1027",
-        "top_value": 79005,
-        "top_share": 0.9009,
-        "top_sources": 319,
+        "top_value": 79007,
+        "top_share": 0.9008,
+        "top_sources": 320,
         "sources_total": 5132
       }
     ]
@@ -1937,31 +1937,31 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 79005,
-      "distinct_ips": 319,
+      "count": 79007,
+      "distinct_ips": 320,
       "recon_count": 75347,
       "recon_ips": 8,
-      "residual_count": 3658,
+      "residual_count": 3660,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 5923,
-      "distinct_ips": 363,
+      "count": 5924,
+      "distinct_ips": 364,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 5923,
+      "residual_count": 5924,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 2307,
-      "distinct_ips": 338,
+      "count": 2308,
+      "distinct_ips": 339,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 2307,
+      "residual_count": 2308,
       "attribution": "none"
     },
     {
@@ -1987,11 +1987,11 @@
     {
       "id": "T1686",
       "name": "Disable or Modify System Firewall",
-      "count": 26,
-      "distinct_ips": 25,
+      "count": 27,
+      "distinct_ips": 26,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 26,
+      "residual_count": 27,
       "attribution": "none"
     },
     {
@@ -2005,6 +2005,16 @@
       "attribution": "none"
     },
     {
+      "id": "T1033",
+      "name": "System Owner/User Discovery",
+      "count": 7,
+      "distinct_ips": 7,
+      "recon_count": 0,
+      "recon_ips": 0,
+      "residual_count": 7,
+      "attribution": "none"
+    },
+    {
       "id": "T1685.006",
       "name": "Clear Linux or Mac System Logs",
       "count": 7,
@@ -2015,8 +2025,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1033",
-      "name": "System Owner/User Discovery",
+      "id": "T1087",
+      "name": "Account Discovery",
       "count": 6,
       "distinct_ips": 6,
       "recon_count": 0,
@@ -2042,16 +2052,6 @@
       "recon_count": 0,
       "recon_ips": 0,
       "residual_count": 6,
-      "attribution": "none"
-    },
-    {
-      "id": "T1087",
-      "name": "Account Discovery",
-      "count": 5,
-      "distinct_ips": 5,
-      "recon_count": 0,
-      "recon_ips": 0,
-      "residual_count": 5,
       "attribution": "none"
     }
   ],
