@@ -552,7 +552,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 119.192.214.251,2026-09-04T01:04:21.067232Z,2026-09-04T01:07:22.181316Z,1,1,8,1,low,delivered_payload,false,false,de1c44e38fec4017,7,South Korea,Korea Telecom,kt.com,false,100
 119.200.229.33,2026-08-31T05:17:08.182930Z,2026-09-05T06:50:55.745579Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 119.205.156.243,2026-09-02T01:40:53.581919Z,2026-09-02T01:41:03.687157Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
-119.205.51.3,2026-09-02T02:57:10.285468Z,2026-09-06T03:20:27.627391Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+119.205.51.3,2026-09-02T02:57:10.285468Z,2026-09-06T03:20:27.627391Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 119.206.113.194,2026-09-11T03:00:19.374089Z,2026-09-11T03:00:37.944389Z,1,1,48,12,high,delivered_payload,false,true,a91b984be947ad33,7,South Korea,Korea Telecom,kt.com,false,100
 119.207.0.75,2026-09-09T06:27:48.772385Z,2026-09-09T06:27:57.146377Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 119.207.3.114,2026-09-04T14:38:06.436752Z,2026-09-04T14:38:16.122884Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
@@ -707,7 +707,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 124.160.45.26,2026-09-02T02:53:38.656065Z,2026-09-02T02:53:51.765807Z,1,1,0,0,low,single_sighting,false,false,,7,China,"YINGYUTOUZI,HANGZHOU,ZHEJIANG",cnc-noc.net,false,100
 124.167.20.113,2026-09-10T02:52:39.971723Z,2026-09-10T02:52:48.758950Z,1,1,0,0,low,single_sighting,false,true,,7,China,China Unicom Shan1xi province network,chinaunicom.cn,false,100
 124.167.20.72,2026-08-25T19:41:40.141860Z,2026-08-27T12:48:40.103477Z,2,2,0,0,low,connected_only,false,false,,7,China,China Unicom Shan1xi province network,chinaunicom.cn,false,100
-124.167.55.82,2026-09-06T03:17:19.473030Z,2026-09-06T03:18:45.233181Z,1,1,31,5,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,China,China Unicom Shan1xi province network,chinaunicom.cn,false,33
+124.167.55.82,2026-09-06T03:17:19.473030Z,2026-09-06T03:18:45.233181Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,China,China Unicom Shan1xi province network,chinaunicom.cn,false,33
 124.246.114.111,2026-08-26T12:36:11.553053Z,2026-09-06T10:48:40.100074Z,4,4,0,0,low,connected_only,false,true,,7,Singapore,M1 LIMITED,m1.com.sg,false,100
 124.29.214.170,2026-09-07T20:31:15.256758Z,2026-09-07T20:36:39.762020Z,25,0,0,0,medium,persistent,false,true,,7,Pakistan,Broadband Services,cyber.net.pk,false,100
 124.29.226.103,2026-09-09T09:57:45.135179Z,2026-09-09T10:00:53.685521Z,14,0,0,0,medium,persistent,false,true,,7,Pakistan,Broadband Services,cyber.net.pk,false,78
@@ -2099,7 +2099,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 189.115.59.32,2026-09-10T18:48:40.663783Z,2026-09-10T18:50:06.298437Z,1,1,31,5,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,Brazil,TELEFÔNICA BRASIL S.A,telefonica.com.br,false,100
 189.136.69.28,2026-08-23T09:30:59.841998Z,2026-08-23T09:31:11.357822Z,3,0,0,0,low,connected_only,false,false,,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,0
 189.148.209.153,2026-08-22T10:22:22.042523Z,2026-08-22T10:22:27.496330Z,3,0,0,0,low,connected_only,false,false,,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,4
-189.151.197.73,2026-09-06T03:23:44.477764Z,2026-09-06T03:26:48.096892Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,5
+189.151.197.73,2026-09-06T03:23:44.477764Z,2026-09-06T03:26:48.096892Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,5
 189.163.20.15,2026-08-20T07:15:55.718100Z,2026-08-20T07:16:38.457253Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,100
 189.167.32.18,2026-08-20T19:13:41.057709Z,2026-08-20T19:15:23.491264Z,3,0,0,0,low,connected_only,false,false,,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,5
 189.167.48.81,2026-09-05T01:35:05.745726Z,2026-09-05T01:35:22.837201Z,4,0,0,0,low,connected_only,false,false,,7,Mexico,Gestión de direccionamiento UniNet,uninet.net.mx,false,21
@@ -3420,7 +3420,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 36.135.62.103,2026-09-02T21:30:00.936152Z,2026-09-03T06:08:02.138240Z,2,2,0,0,low,connected_only,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 36.135.62.89,2026-09-05T07:51:07.598533Z,2026-09-06T17:43:14.445848Z,2,2,0,0,low,connected_only,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 36.154.134.146,2026-09-01T10:49:52.111797Z,2026-09-01T10:50:00.076725Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
-36.155.101.97,2026-09-06T03:10:53.066592Z,2026-09-06T03:11:10.366193Z,2,0,0,0,low,connected_only,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
+36.155.101.97,2026-09-06T03:10:53.066592Z,2026-09-06T03:11:10.366193Z,2,0,0,0,low,connected_only,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 36.161.125.230,2026-08-18T19:41:24.267849Z,2026-08-18T19:41:25.644751Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,24
 36.250.220.122,2026-08-24T05:35:53.970144Z,2026-08-24T05:35:54.616984Z,1,0,0,0,low,single_sighting,false,false,,7,China,"Fuzhou city, fujian provincial network of UNICOM",wo.com.cn,false,70
 36.255.33.83,2026-09-04T09:27:33.207446Z,2026-09-04T09:29:29.844877Z,9,0,0,0,medium,persistent,false,false,,7,Pakistan,"Cyber Internet Services Pakistan A - 904 9th Floor Lakson Square Building No. 3 No. 3, Sarwar Shaheed Road Karachi-74200 Pakistan",cyber.net.pk,false,78
