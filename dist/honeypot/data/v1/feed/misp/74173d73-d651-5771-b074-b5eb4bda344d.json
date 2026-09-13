@@ -1,7 +1,7 @@
 {
   "Event": {
-    "uuid": "7e5a9fe9-0cc3-5e84-82c1-1d6636325506",
-    "info": "Sundew honeypot - campaign 5af2de096f0b (4 sources) - enable",
+    "uuid": "74173d73-d651-5771-b074-b5eb4bda344d",
+    "info": "Sundew honeypot - campaign 10c639bfac88 (1 sources) - enable",
     "date": "2026-09-13",
     "analysis": "2",
     "threat_level_id": "3",
@@ -23,43 +23,16 @@
     ],
     "Attribute": [
       {
-        "uuid": "960a0c53-5b30-5865-9ac4-31be53ef5dc3",
+        "uuid": "f181ec1f-2139-52a3-be6f-22eada618bad",
         "type": "ip-src",
         "category": "Network activity",
         "to_ids": true,
-        "value": "114.37.146.169",
+        "value": "88.151.90.168",
         "timestamp": "1789333214",
-        "comment": "delivered_payload, confidence high; 1 sessions, 22 commands, 11 downloads; first_seen 2026-09-13T08:39:34.700854Z, last_seen 2026-09-13T08:42:38.947912Z; expires 7d after last_seen"
+        "comment": "delivered_payload, confidence high; 1 sessions, 28 commands, 11 downloads; first_seen 2026-09-13T10:02:11.472641Z, last_seen 2026-09-13T10:02:19.647245Z; expires 7d after last_seen"
       },
       {
-        "uuid": "3d434d9e-1d91-530f-a688-41df75a3debc",
-        "type": "ip-src",
-        "category": "Network activity",
-        "to_ids": true,
-        "value": "187.230.165.222",
-        "timestamp": "1789333214",
-        "comment": "delivered_payload, confidence high; 1 sessions, 22 commands, 11 downloads; first_seen 2026-09-13T05:24:31.987483Z, last_seen 2026-09-13T05:25:40.737834Z; expires 7d after last_seen"
-      },
-      {
-        "uuid": "70575b13-79e4-519d-a167-a6079096b25d",
-        "type": "ip-src",
-        "category": "Network activity",
-        "to_ids": true,
-        "value": "41.250.117.97",
-        "timestamp": "1789333214",
-        "comment": "delivered_payload, confidence high; 1 sessions, 22 commands, 11 downloads; first_seen 2026-09-09T18:26:15.266687Z, last_seen 2026-09-09T18:27:20.138620Z; expires 7d after last_seen"
-      },
-      {
-        "uuid": "c4d0cad5-0d49-5eb9-9d85-d39fab4cfd37",
-        "type": "ip-src",
-        "category": "Network activity",
-        "to_ids": true,
-        "value": "68.50.65.62",
-        "timestamp": "1789333214",
-        "comment": "delivered_payload, confidence high; 1 sessions, 22 commands, 11 downloads; first_seen 2026-09-09T21:09:05.289535Z, last_seen 2026-09-09T21:10:02.389236Z; expires 7d after last_seen"
-      },
-      {
-        "uuid": "9aa147c0-2356-50a7-bfed-0dd5e7f33c8d",
+        "uuid": "02f02203-4920-525a-b91d-c769f3b2d695",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -68,7 +41,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "7e3e0f08-8ae6-5f55-9614-cc9ba9e5852e",
+        "uuid": "cd48bcc4-a703-5049-8b01-350a0a528fcf",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -77,7 +50,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "a5db83dd-53fb-5809-be77-7be96991260a",
+        "uuid": "18c6d14d-8133-5e53-810d-202396047ba2",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -86,7 +59,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "c75b3f26-7e6c-5678-a6f4-9e20fdfcd3f9",
+        "uuid": "d2a2771e-1aab-5305-a679-f991757038f1",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -95,7 +68,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "54be6b74-1051-54d2-a38e-89ba16958d3d",
+        "uuid": "93ad1291-bc61-5213-b7ea-f8bea6670ec7",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -104,7 +77,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "2ee1819b-976a-51e6-bb9b-cb482da56b12",
+        "uuid": "ba864d5b-7f53-5dab-b82c-14fc6ec0b481",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -113,7 +86,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "541d961d-383e-5c67-984a-57e1dc41f64f",
+        "uuid": "1c84b91c-ff7a-590b-8600-29198f7b1639",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -122,7 +95,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "b2b2b920-b85c-5c9a-86cb-35683a522db7",
+        "uuid": "947a90c3-e56f-51db-a33e-f85fdd302c99",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -131,7 +104,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "f0ea5b38-6f0c-5358-8e5b-c5f0edcba3f0",
+        "uuid": "756f3254-4edd-512e-bd18-315646caa6d1",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -140,7 +113,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "f54adcd9-4aa1-508b-a7ce-27850b32a129",
+        "uuid": "b42d1e13-cf3c-58be-a47d-40d2039b4a43",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -149,7 +122,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "c9f10855-9c98-54d3-a5b4-74cfed627913",
+        "uuid": "a5838f00-fcd8-5c56-a60b-5179a565f70d",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -158,7 +131,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "658ab67d-9f8a-5a6a-95aa-cf40a6664260",
+        "uuid": "abe1709d-0ac8-5e00-8cf1-15030ad6168f",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -167,7 +140,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "dffd49d3-bf0c-5673-98d8-517f7496b17d",
+        "uuid": "4ac4d8a9-8345-5e8e-927e-03ef460ae04a",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -176,7 +149,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "7a9d8414-5523-5704-92c0-dcd2eda6d477",
+        "uuid": "430af658-a149-5586-b97f-895957439be9",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -185,7 +158,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "f307236b-b5c1-559b-9ca0-b38f52e9d85e",
+        "uuid": "f6718107-c9e6-510f-865d-7025527f7dcc",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -194,7 +167,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "b5c85b16-6e0a-52b9-b866-529f839ee0a6",
+        "uuid": "477bea88-9fd1-5441-a9e2-ad5b94655991",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -203,7 +176,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "be9ecb31-7a23-5d1e-9617-aa02de362f42",
+        "uuid": "a966b014-0bc7-5727-b52a-17c5e270f89d",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -212,7 +185,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "0e38694f-03b0-578e-851e-d13c3f16fecd",
+        "uuid": "3795529f-cd85-5237-8e72-e57cf79dc1cd",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -221,7 +194,7 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "d35bbb00-987d-5306-8473-9fdd7b394ad2",
+        "uuid": "dc8b441d-715e-5e8b-87c5-1d80ac02e689",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -230,11 +203,11 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "01b78af5-e013-51be-bc30-571367730fe9",
+        "uuid": "d2dd3d8e-676f-52b4-9e4b-d46652644d15",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "rm -rf .ffaaxx .d",
+        "value": "for pid in /proc/[0-9]*; do pid_num=\"${pid##*/}\"; if [ -r \"$pid/maps\" ]; then suspicious=true; while IFS= read -r line; do case \"$line\" in *\"/lib/\"*|*\"/lib64/\"*|*\".so\"*) suspicious=false; break;; esac; done < \"$pid/maps\"; if [ \"$suspicious\" = true ]; then kill -9 \"$pid_num\"; fi; fi; done",
         "timestamp": "1789333214",
         "comment": "command run by this campaign"
       }

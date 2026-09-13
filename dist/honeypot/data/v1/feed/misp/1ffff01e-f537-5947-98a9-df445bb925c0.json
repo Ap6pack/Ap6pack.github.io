@@ -1,0 +1,63 @@
+{
+  "Event": {
+    "uuid": "1ffff01e-f537-5947-98a9-df445bb925c0",
+    "info": "Sundew honeypot - campaign 6dea1cfdaf3e (1 sources) - shell",
+    "date": "2026-09-13",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "629fdf94-f346-5c7d-a01e-cc25bd7580e9",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "197.48.156.175",
+        "timestamp": "1789333214",
+        "comment": "executed_commands, confidence medium; 1 sessions, 3 commands, 0 downloads; first_seen 2026-09-13T11:37:15.058206Z, last_seen 2026-09-13T11:37:26.907865Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "3456dc35-6aaf-5d33-8f40-9617fb7d9fe4",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "shell",
+        "timestamp": "1789333214",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "56eacb98-3e1e-5102-b274-655c3416d524",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "sh",
+        "timestamp": "1789333214",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "f9b52d37-566a-5324-92fc-5484b5a62303",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "/bin/busybox ECCHI",
+        "timestamp": "1789333214",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}

