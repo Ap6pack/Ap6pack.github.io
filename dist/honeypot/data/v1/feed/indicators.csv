@@ -615,7 +615,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 121.189.198.60,2026-09-05T09:20:04.709040Z,2026-09-05T09:20:13.888358Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 121.189.226.81,2026-09-10T03:41:41.867707Z,2026-09-10T03:41:50.273032Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 121.202.138.181,2026-09-05T05:44:16.135733Z,2026-09-10T07:18:06.341173Z,3,3,0,0,low,connected_only,false,true,,7,Hong Kong,SmarTone Mobile Communications Ltd,smartone.com,false,100
-121.202.146.144,2026-09-02T16:33:09.126017Z,2026-09-06T01:20:08.229492Z,3,1,0,0,low,connected_only,false,true,,7,Hong Kong,SmarTone Mobile Communications Ltd,smartone.com,false,100
+121.202.146.144,2026-09-02T16:33:09.126017Z,2026-09-06T01:20:08.229492Z,3,1,0,0,low,connected_only,false,false,,7,Hong Kong,SmarTone Mobile Communications Ltd,smartone.com,false,100
 121.202.206.119,2026-09-01T22:53:07.641183Z,2026-09-09T10:38:03.452192Z,3,3,0,0,low,connected_only,false,true,,7,Hong Kong,SmarTone Mobile Communications Ltd,smartone.com,false,100
 121.22.99.2,2026-08-31T04:29:28.864434Z,2026-09-02T03:00:35.621303Z,2,1,0,0,low,connected_only,false,false,,7,China,China Unicom Hebei province network,chinaunicom.cn,false,100
 121.29.149.136,2026-09-02T05:57:39.936881Z,2026-09-02T05:57:54.941128Z,1,0,0,0,low,single_sighting,false,false,,7,China,China Unicom Hebei province network,chinaunicom.cn,false,78
@@ -1329,7 +1329,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 176.115.148.62,2026-09-11T18:16:32.888457Z,2026-09-11T18:16:32.894822Z,1,0,0,0,low,single_sighting,false,true,,7,Russia,Link Telecom NN Ltd.,lt-nn.net,false,76
 176.116.171.130,2026-09-03T23:05:14.767358Z,2026-09-03T23:05:15.649349Z,1,1,0,0,low,single_sighting,false,false,,7,Russia,Kristelecom Ltd.,orionnet.ru,false,100
 176.116.186.138,2026-09-09T02:45:47.956334Z,2026-09-09T02:45:48.160394Z,1,0,0,0,low,single_sighting,false,true,,7,Russia,Kristelecom Ltd.,orionnet.ru,false,100
-176.116.85.1,2026-09-06T01:16:33.435010Z,2026-09-06T01:16:51.583254Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Elektron-Service LLC.,grand-telcom.net.ua,false,100
+176.116.85.1,2026-09-06T01:16:33.435010Z,2026-09-06T01:16:51.583254Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,Elektron-Service LLC.,grand-telcom.net.ua,false,100
 176.117.173.251,2026-08-25T15:16:06.912181Z,2026-08-28T01:35:52.155213Z,2,2,4,0,low,executed_commands,false,false,,7,Ukraine,Uteam LTD,uteam.ua,false,100
 176.120.110.142,2026-08-26T11:00:05.933542Z,2026-08-26T11:00:47.870469Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,Gigabit-Online LLC,gigabit.ua,false,68
 176.120.111.167,2026-08-26T23:31:59.480823Z,2026-08-26T23:32:20.515042Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,Gigabit-Online LLC,gigabit.ua,false,100
@@ -1793,7 +1793,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 183.233.85.194,2026-08-31T23:23:04.281911Z,2026-09-09T23:36:41.644826Z,4,3,0,0,low,connected_only,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 183.236.182.5,2026-09-08T18:04:02.863070Z,2026-09-08T18:05:29.137932Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 183.239.20.236,2026-09-01T20:52:26.872662Z,2026-09-04T11:55:34.076809Z,2,2,0,0,low,connected_only,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
-183.247.171.186,2026-09-02T01:18:51.043216Z,2026-09-06T01:04:11.876712Z,4,0,0,0,low,connected_only,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
+183.247.171.186,2026-09-02T01:18:51.043216Z,2026-09-06T01:04:11.876712Z,4,0,0,0,low,connected_only,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 183.63.220.210,2026-09-06T17:02:30.360098Z,2026-09-06T17:02:39.310649Z,1,1,0,0,low,single_sighting,false,true,,7,China,CHINANET Guangdong province network,chinatelecom.cn,false,100
 183.89.208.174,2026-09-02T21:50:02.466016Z,2026-09-02T21:50:11.642673Z,1,1,0,0,low,single_sighting,false,false,,7,Thailand,Triple T Broadband Public Company Limited,ais.th,false,100
 183.93.17.16,2026-09-04T20:21:48.232382Z,2026-09-04T20:21:49.808152Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Unicom Hubei Province Network,chinaunicom.cn,false,47
@@ -2571,7 +2571,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 2.55.74.30,2026-09-03T22:41:34.355023Z,2026-09-04T10:31:49.591351Z,2,2,0,0,low,connected_only,false,false,,7,Israel,Partner Communications Ltd.,orange.co.il,false,100
 2.55.84.20,2026-09-09T10:46:27.097165Z,2026-09-09T10:46:35.025561Z,1,1,0,0,low,single_sighting,false,true,,7,Israel,Partner Communications Ltd.,orange.co.il,false,100
 2.55.85.4,2026-09-05T08:20:46.546367Z,2026-09-05T08:20:54.514402Z,1,1,0,0,low,single_sighting,false,false,,7,Israel,Partner Communications Ltd.,orange.co.il,false,100
-2.57.122.168,2026-09-03T16:29:35.963663Z,2026-09-06T01:26:44.924309Z,2,0,0,0,low,connected_only,false,true,,7,The Netherlands,TECHOFF SRV LIMITED,dmzhost.co,false,100
+2.57.122.168,2026-09-03T16:29:35.963663Z,2026-09-06T01:26:44.924309Z,2,0,0,0,low,connected_only,false,false,,7,The Netherlands,TECHOFF SRV LIMITED,dmzhost.co,false,100
 2.57.122.209,2026-08-18T14:50:10.796248Z,2026-09-02T22:51:29.053491Z,4,2,2,0,low,executed_commands,false,false,9dc0f0fe6a402818,7,The Netherlands,TECHOFF SRV LIMITED,dmzhost.co,false,100
 2.57.207.241,2026-08-26T08:22:54.133554Z,2026-08-26T08:23:18.464157Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,Kaluska informatsiyna merezha LLC,kim.in.ua,false,80
 2.60.112.158,2026-08-21T08:39:25.238328Z,2026-08-21T08:41:21.678286Z,3,0,0,0,low,connected_only,false,false,,7,Russia,PJSC Rostelecom,rt.ru,false,81
@@ -3048,7 +3048,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 213.65.190.48,2026-09-09T13:59:01.779530Z,2026-09-09T13:59:18.339103Z,2,2,0,0,low,connected_only,false,true,,7,Sweden,Telia Network services,telia.net,false,100
 213.66.197.199,2026-09-03T10:37:09.872766Z,2026-09-03T10:37:15.943284Z,1,1,0,0,low,single_sighting,false,false,,7,Sweden,Telia Network services,telia.net,false,100
 213.96.11.230,2026-08-25T09:55:16.046435Z,2026-09-06T07:04:00.647906Z,3,0,0,0,low,connected_only,false,true,,7,Spain,Telefonica De Espana SAU (NCC#2000013794),telefonica.es,false,67
-216.180.246.166,2026-09-06T01:06:15.414769Z,2026-09-06T01:08:15.445312Z,2,0,0,0,low,connected_only,false,true,,7,France,NETWORK TRANSIT HOLDINGS LLC,networktransit.net,false,0
+216.180.246.166,2026-09-06T01:06:15.414769Z,2026-09-06T01:08:15.445312Z,2,0,0,0,low,connected_only,false,false,,7,France,NETWORK TRANSIT HOLDINGS LLC,networktransit.net,false,0
 216.180.246.182,2026-09-06T01:37:54.962929Z,2026-09-06T01:39:54.971862Z,2,0,0,0,low,connected_only,false,true,,7,France,NETWORK TRANSIT HOLDINGS LLC,networktransit.net,false,0
 216.180.246.26,2026-09-11T11:22:01.204823Z,2026-09-11T11:24:01.227443Z,2,0,0,0,low,connected_only,false,true,,7,France,NETWORK TRANSIT HOLDINGS LLC,networktransit.net,false,0
 216.180.246.33,2026-09-11T11:17:31.958367Z,2026-09-11T11:21:24.578898Z,2,0,0,0,low,connected_only,false,true,,7,France,NETWORK TRANSIT HOLDINGS LLC,networktransit.net,false,0
@@ -3688,7 +3688,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 45.175.143.242,2026-08-20T16:56:06.222739Z,2026-08-20T16:56:06.223477Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,BOCA ROJA S.A.,bocarojasa.com.ar,false,74
 45.175.149.48,2026-08-22T22:59:58.686244Z,2026-08-22T22:59:58.693978Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,NETCOMM ARGENTINA SRL,netcomm.com.ar,false,30
 45.175.163.255,2026-08-26T11:38:23.651367Z,2026-08-26T11:39:23.537205Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,REDES DEL OESTE S.A,westnet.com.ar,false,100
-45.175.2.97,2026-09-06T01:19:02.443769Z,2026-09-06T01:19:54.852734Z,2,0,0,0,low,connected_only,false,true,,7,Brazil,SIM INTERNET PROVEDORES DE INTERNET EIRELI.,redesiminternet.com.br,false,0
+45.175.2.97,2026-09-06T01:19:02.443769Z,2026-09-06T01:19:54.852734Z,2,0,0,0,low,connected_only,false,false,,7,Brazil,SIM INTERNET PROVEDORES DE INTERNET EIRELI.,redesiminternet.com.br,false,0
 45.176.165.44,2026-08-29T04:16:23.098301Z,2026-08-29T04:16:23.099330Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,Setel - Chile,setel.cl,false,95
 45.177.146.36,2026-08-21T22:21:01.565347Z,2026-08-21T22:21:19.825242Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,NETLATIN S.R.L.,netlatin.com.ar,false,100
 45.178.97.197,2026-09-10T09:21:38.568050Z,2026-09-10T09:24:04.404485Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,Maria Jose Noguera(Maxinternet),max-internet.com.ar,false,100
@@ -4216,7 +4216,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 65.20.165.151,2026-09-06T13:09:14.518677Z,2026-09-06T13:09:21.225530Z,1,1,0,0,low,single_sighting,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.175.6,2026-09-03T06:31:03.918692Z,2026-09-03T06:31:11.278981Z,1,1,0,0,low,single_sighting,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.179.251,2026-09-02T04:23:00.044460Z,2026-09-02T18:52:59.710960Z,2,2,0,0,low,connected_only,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
-65.20.187.47,2026-08-31T06:50:16.059160Z,2026-09-06T01:08:25.843995Z,3,2,0,0,low,connected_only,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
+65.20.187.47,2026-08-31T06:50:16.059160Z,2026-09-06T01:08:25.843995Z,3,2,0,0,low,connected_only,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.189.52,2026-08-31T10:05:33.818967Z,2026-09-02T18:52:51.318217Z,3,3,0,0,low,connected_only,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.191.231,2026-09-09T14:19:14.991005Z,2026-09-09T14:19:22.131388Z,1,1,0,0,low,single_sighting,false,true,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
 65.20.202.4,2026-09-04T20:12:21.415663Z,2026-09-05T04:56:32.408294Z,2,2,0,0,low,connected_only,false,false,,7,Iraq,Earthlink Telecommunications Equipment Trading & Services DMCC,earthlink.iq,false,100
