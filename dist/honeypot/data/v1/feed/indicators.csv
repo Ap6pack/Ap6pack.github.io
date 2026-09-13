@@ -1302,7 +1302,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 175.33.226.3,2026-08-26T23:59:36.808483Z,2026-09-09T18:38:09.784056Z,12,0,0,0,medium,persistent,false,true,,7,Australia,OPTUS INTERNET - RETAIL,optus.net.au,false,100
 175.6.146.164,2026-09-02T18:21:52.299103Z,2026-09-02T18:35:55.721375Z,7,0,0,0,medium,persistent,false,false,,7,China,CHINANET HUNAN PROVINCE NETWORK,chinatelecom.cn,false,100
 175.7.144.4,2026-08-25T05:41:01.087198Z,2026-08-25T05:41:02.754995Z,1,0,0,0,low,single_sighting,false,false,,7,China,CHINANET HUNAN PROVINCE NETWORK,chinatelecom.cn,false,100
-176.10.197.168,2026-08-31T05:08:16.475571Z,2026-09-06T02:37:15.951439Z,4,4,0,0,low,connected_only,false,true,,7,Sweden,Bahnhof AB,bahnhof.se,false,100
+176.10.197.168,2026-08-31T05:08:16.475571Z,2026-09-06T02:37:15.951439Z,4,4,0,0,low,connected_only,false,false,,7,Sweden,Bahnhof AB,bahnhof.se,false,100
 176.10.202.13,2026-09-05T22:36:51.636868Z,2026-09-09T10:19:30.680962Z,3,3,0,0,low,connected_only,false,true,,7,Sweden,Bahnhof AB,bahnhof.se,false,100
 176.101.194.187,2026-09-11T00:28:09.201345Z,2026-09-11T00:28:09.549831Z,2,0,0,0,low,connected_only,false,true,,7,Ukraine,SDS-Vostok Ltd.,cdc.ua,false,93
 176.103.15.144,2026-09-04T12:35:22.916370Z,2026-09-12T14:57:43.913127Z,2,2,0,0,low,connected_only,false,true,,7,Ukraine,CHP Zarko Alexandr Ivanovich,komsomolske.net,false,100
@@ -3176,7 +3176,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 220.79.237.106,2026-09-01T19:28:00.328307Z,2026-09-12T16:22:37.169992Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Goyangjisa,kt.com,false,100
 220.80.219.163,2026-09-02T14:31:38.727368Z,2026-09-02T14:31:48.252930Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 220.80.224.223,2026-09-04T01:40:18.581518Z,2026-09-04T01:40:28.402802Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
-220.80.244.25,2026-09-01T20:02:37.262420Z,2026-09-06T02:37:04.891134Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+220.80.244.25,2026-09-01T20:02:37.262420Z,2026-09-06T02:37:04.891134Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 220.82.247.216,2026-08-26T01:20:26.498168Z,2026-09-06T18:43:26.691142Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 220.88.114.34,2026-09-03T01:00:08.051568Z,2026-09-03T01:00:17.465988Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 220.92.179.226,2026-09-05T03:14:22.631797Z,2026-09-05T15:02:56.081949Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
@@ -3398,7 +3398,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 35.169.203.108,2026-08-29T05:20:21.211959Z,2026-08-29T05:20:22.739437Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,12
 35.187.184.229,2026-08-26T04:28:37.526346Z,2026-08-26T04:29:18.943675Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,62
 35.187.23.24,2026-09-12T05:29:30.776386Z,2026-09-12T05:30:12.207319Z,6,3,8,0,medium,executed_commands,false,true,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,58
-35.190.213.246,2026-09-06T02:57:46.023048Z,2026-09-06T02:58:27.454440Z,6,3,8,0,medium,executed_commands,false,true,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,42
+35.190.213.246,2026-09-06T02:57:46.023048Z,2026-09-06T02:58:27.454440Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,42
 35.202.9.133,2026-08-20T11:38:00.961233Z,2026-09-10T07:00:52.732426Z,3,0,0,0,low,connected_only,false,true,,7,United States,Google LLC,google.com,false,100
 35.203.210.126,2026-09-01T03:45:32.272780Z,2026-09-01T03:45:42.197369Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,Google LLC,google.com,false,0
 35.203.210.147,2026-08-29T17:49:09.719788Z,2026-08-29T17:49:09.875287Z,2,0,0,0,low,connected_only,false,false,,7,United Kingdom,Google LLC,google.com,false,0
@@ -3410,7 +3410,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 35.203.211.206,2026-09-01T17:32:04.100312Z,2026-09-01T17:32:20.119128Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,Google LLC,google.com,false,0
 35.203.211.21,2026-09-01T23:21:37.799047Z,2026-09-01T23:21:47.723363Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,Google LLC,google.com,false,0
 35.203.211.3,2026-08-26T09:14:52.972787Z,2026-08-26T09:15:09.085152Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,Google LLC,google.com,false,0
-35.205.164.36,2026-09-06T02:56:00.241184Z,2026-09-06T02:56:09.042005Z,1,0,0,0,low,single_sighting,false,true,,7,Belgium,Google LLC,google.com,false,46
+35.205.164.36,2026-09-06T02:56:00.241184Z,2026-09-06T02:56:09.042005Z,1,0,0,0,low,single_sighting,false,false,,7,Belgium,Google LLC,google.com,false,46
 35.205.230.190,2026-09-04T03:40:23.078157Z,2026-09-04T03:41:04.493252Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,73
 35.205.243.243,2026-08-20T02:53:06.998572Z,2026-08-20T02:53:15.859749Z,1,0,0,0,low,single_sighting,false,false,,7,Belgium,Google LLC,google.com,false,4
 35.233.119.220,2026-09-02T02:07:22.246846Z,2026-09-02T02:07:31.538986Z,2,1,0,0,low,connected_only,false,false,,7,Belgium,Google LLC,google.com,false,79
@@ -3879,7 +3879,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 49.124.147.111,2026-08-25T06:43:37.690799Z,2026-09-03T12:36:18.490384Z,3,2,0,0,low,connected_only,false,false,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.147.115,2026-08-31T11:42:06.138965Z,2026-08-31T11:42:06.423798Z,1,0,0,0,low,single_sighting,false,false,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.147.96,2026-08-25T23:42:27.278467Z,2026-08-27T02:44:47.305478Z,2,2,0,0,low,connected_only,false,false,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
-49.124.148.185,2026-09-06T02:45:36.756830Z,2026-09-06T02:45:38.355901Z,1,0,0,0,low,single_sighting,false,true,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
+49.124.148.185,2026-09-06T02:45:36.756830Z,2026-09-06T02:45:38.355901Z,1,0,0,0,low,single_sighting,false,false,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.148.192,2026-09-06T11:11:57.381045Z,2026-09-12T11:39:19.848995Z,2,2,0,0,low,connected_only,false,true,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.148.200,2026-08-27T04:41:52.916044Z,2026-08-27T04:42:01.724266Z,1,1,0,0,low,single_sighting,false,false,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
 49.124.148.201,2026-09-05T02:53:04.962328Z,2026-09-05T02:53:15.960938Z,1,1,0,0,low,single_sighting,false,false,,7,Malaysia,DiGi Telecommunications Sdn Bhd,digi.com.my,false,100
@@ -4123,7 +4123,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 60.223.251.132,2026-09-02T03:45:40.597202Z,2026-09-02T03:45:49.636545Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Unicom Shanxi Province Network,chinaunicom.cn,false,100
 60.249.251.88,2026-09-04T23:04:18.814199Z,2026-09-04T23:04:29.135015Z,1,1,0,0,low,single_sighting,false,false,,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,100
 60.249.252.94,2026-09-09T05:48:00.317471Z,2026-09-09T05:48:10.192382Z,1,1,0,0,low,single_sighting,false,true,,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,100
-60.250.215.200,2026-08-26T07:43:23.351172Z,2026-09-06T02:48:59.518926Z,3,3,0,0,low,connected_only,false,true,,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,100
+60.250.215.200,2026-08-26T07:43:23.351172Z,2026-09-06T02:48:59.518926Z,3,3,0,0,low,connected_only,false,false,,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,100
 60.251.229.144,2026-09-09T05:47:46.225428Z,2026-09-09T08:59:04.097528Z,2,2,0,0,low,connected_only,false,true,,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,100
 60.48.162.119,2026-08-31T12:56:26.612156Z,2026-08-31T12:57:46.931360Z,1,1,22,11,low,delivered_payload,false,false,5af2de096f0bf35a,7,Malaysia,TM TECHNOLOGY SERVICES SDN. BHD.,tm.com.my,false,100
 60.5.73.243,2026-08-18T10:55:27.842783Z,2026-08-18T10:55:27.843478Z,1,0,0,0,low,single_sighting,false,false,,7,China,China Unicom Hebei Province Network,chinaunicom.cn,false,26
