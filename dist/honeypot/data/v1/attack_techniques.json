@@ -76,12 +76,12 @@
         "impact"
       ],
       "url": "https://attack.mitre.org/techniques/T1489",
-      "count": 142,
-      "distinct_ips": 14,
+      "count": 148,
+      "distinct_ips": 15,
       "examples": [
-        "#!/bin/sh\n\nfor proc_dir in /proc/*; do\n    pid=${proc_dir##*/}\n\n    result=$(ls -l \"/proc/$pid/exe\" 2> /dev/null)\n\n    if [ \"$result\" != \"${result%(deleted)}\" ]; then\n        kill -9 \"$pid\"\n    fi\ndone\n",
         "for pid in /proc/[0-9]*; do pid_num=\"${pid##*/}\"; if [ -r \"$pid/maps\" ]; then suspicious=true; while IFS= read -r line; do case \"$line\" in *\"/lib/\"*|*\"/lib64/\"*|*\".so\"*) suspicious=false; break;; esac; done < \"$pid/maps\"; if [ \"$suspicious\" = true ]; then kill -9 \"$pid_num\"; fi; fi; done",
-        "for pid in /proc/[0-9]*; do pid_num=${pid##*/}; if [ -r \"$pid/maps\" ]; then while IFS= read -r line; do case \"$line\" in *'(deleted)'*) kill -9 \"$pid_num\"; break;; esac; done < \"$pid/maps\"; fi; done"
+        "for pid in /proc/[0-9]*; do pid_num=${pid##*/}; if [ -r \"$pid/maps\" ]; then while IFS= read -r line; do case \"$line\" in *'(deleted)'*) kill -9 \"$pid_num\"; break;; esac; done < \"$pid/maps\"; fi; done",
+        "#!/bin/sh\n\nfor proc_dir in /proc/*; do\n    pid=${proc_dir##*/}\n\n    result=$(ls -l \"/proc/$pid/exe\" 2> /dev/null)\n\n    if [ \"$result\" != \"${result%(deleted)}\" ]; then\n        kill -9 \"$pid\"\n    fi\ndone\n"
       ]
     },
     {
@@ -91,8 +91,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1686",
-      "count": 27,
-      "distinct_ips": 26,
+      "count": 28,
+      "distinct_ips": 27,
       "examples": [
         "iptables -F"
       ]
@@ -183,6 +183,6 @@
       ]
     }
   ],
-  "total_commands": 270574,
-  "matched_commands": 85689
+  "total_commands": 270612,
+  "matched_commands": 85696
 }

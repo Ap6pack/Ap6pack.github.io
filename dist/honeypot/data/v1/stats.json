@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-13T10:00:13.725389+00:00",
+  "generated_at": "2026-09-13T10:30:14.137817+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-13T09:59:52.582168Z",
-  "total_events": 1058972,
-  "unique_sessions": 122622,
-  "unique_source_ips": 5152,
-  "login_attempts": 115858,
-  "login_success": 113383,
-  "commands_run": 271829,
+  "last_event": "2026-09-13T10:29:49.550573Z",
+  "total_events": 1059081,
+  "unique_sessions": 122631,
+  "unique_source_ips": 5158,
+  "login_attempts": 115862,
+  "login_success": 113386,
+  "commands_run": 271867,
   "files_captured": 21,
   "top_usernames": [
     [
@@ -135,27 +135,27 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 271829,
-    "cowrie.session.connect": 122622,
-    "cowrie.session.closed": 121946,
-    "cowrie.login.success": 113383,
-    "cowrie.session.params": 111514,
-    "cowrie.log.closed": 110848,
-    "cowrie.client.version": 78389,
-    "cowrie.client.kex": 78087,
-    "cowrie.telnet.option": 39275,
-    "cowrie.command.success": 3410,
-    "cowrie.login.failed": 2475,
+    "cowrie.command.input": 271867,
+    "cowrie.session.connect": 122631,
+    "cowrie.session.closed": 121955,
+    "cowrie.login.success": 113386,
+    "cowrie.session.params": 111524,
+    "cowrie.log.closed": 110858,
+    "cowrie.client.version": 78390,
+    "cowrie.client.kex": 78088,
+    "cowrie.telnet.option": 39277,
+    "cowrie.command.success": 3421,
+    "cowrie.login.failed": 2476,
     "cowrie.direct-tcpip.request": 1775,
     "cowrie.session.file_download.failed": 1659,
-    "cowrie.session.file_download": 1554,
+    "cowrie.session.file_download": 1565,
     "cowrie.client.var": 45,
-    "cowrie.session.file_upload": 34,
+    "cowrie.session.file_upload": 36,
     "cowrie.client.malformed_packet": 28,
     "cowrie.telnet.exploit_attempt": 28,
     "cowrie.telnet.error": 22,
     "cowrie.virustotal.scanfile": 19,
-    "cowrie.client.fingerprint": 16,
+    "cowrie.client.fingerprint": 17,
     "cowrie.direct-tcpip.data": 7,
     "cowrie.direct-tcpip.ja4": 5,
     "cowrie.direct-tcpip.ja4h": 1,
@@ -276,7 +276,7 @@
     },
     {
       "date": "2026-09-13",
-      "count": 10726
+      "count": 10835
     }
   ],
   "published": {
@@ -335,10 +335,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 87711,
+        "total": 87718,
         "top_label": "T1027",
         "top_value": 79007,
-        "top_share": 0.9008,
+        "top_share": 0.9007,
         "top_sources": 320,
         "sources_total": 5132
       }
