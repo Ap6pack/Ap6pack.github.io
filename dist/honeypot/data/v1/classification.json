@@ -50,11 +50,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 87653,
+        "total": 87680,
         "top_label": "T1027",
-        "top_value": 78997,
-        "top_share": 0.9012,
-        "top_sources": 318,
+        "top_value": 79005,
+        "top_share": 0.9011,
+        "top_sources": 319,
         "sources_total": 5056
       }
     ]
@@ -1937,31 +1937,31 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 78997,
-      "distinct_ips": 318,
+      "count": 79005,
+      "distinct_ips": 319,
       "recon_count": 75347,
       "recon_ips": 8,
-      "residual_count": 3650,
+      "residual_count": 3658,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 5893,
-      "distinct_ips": 361,
+      "count": 5908,
+      "distinct_ips": 362,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 5893,
+      "residual_count": 5908,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 2301,
-      "distinct_ips": 336,
+      "count": 2304,
+      "distinct_ips": 337,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 2301,
+      "residual_count": 2304,
       "attribution": "none"
     },
     {
@@ -1987,11 +1987,11 @@
     {
       "id": "T1686",
       "name": "Disable or Modify System Firewall",
-      "count": 25,
-      "distinct_ips": 24,
+      "count": 26,
+      "distinct_ips": 25,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 25,
+      "residual_count": 26,
       "attribution": "none"
     },
     {
