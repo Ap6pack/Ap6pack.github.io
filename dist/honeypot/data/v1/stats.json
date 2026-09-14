@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-14T07:30:13.931760+00:00",
+  "generated_at": "2026-09-14T08:00:15.116305+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-14T07:04:23.669458Z",
-  "total_events": 1060247,
-  "unique_sessions": 122940,
-  "unique_source_ips": 5263,
-  "login_attempts": 115894,
-  "login_success": 113414,
-  "commands_run": 272064,
+  "last_event": "2026-09-14T07:58:55.898681Z",
+  "total_events": 1060357,
+  "unique_sessions": 122963,
+  "unique_source_ips": 5264,
+  "login_attempts": 115895,
+  "login_success": 113415,
+  "commands_run": 272095,
   "files_captured": 21,
   "top_usernames": [
     [
@@ -135,19 +135,19 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 272064,
-    "cowrie.session.connect": 122940,
-    "cowrie.session.closed": 122264,
-    "cowrie.login.success": 113414,
-    "cowrie.session.params": 111551,
-    "cowrie.log.closed": 110885,
+    "cowrie.command.input": 272095,
+    "cowrie.session.connect": 122963,
+    "cowrie.session.closed": 122287,
+    "cowrie.login.success": 113415,
+    "cowrie.session.params": 111552,
+    "cowrie.log.closed": 110886,
     "cowrie.client.version": 78413,
     "cowrie.client.kex": 78098,
-    "cowrie.telnet.option": 39454,
-    "cowrie.command.success": 3444,
+    "cowrie.telnet.option": 39477,
+    "cowrie.command.success": 3446,
     "cowrie.login.failed": 2480,
     "cowrie.direct-tcpip.request": 1776,
-    "cowrie.session.file_download.failed": 1681,
+    "cowrie.session.file_download.failed": 1686,
     "cowrie.session.file_download": 1567,
     "cowrie.client.var": 45,
     "cowrie.session.file_upload": 37,
@@ -280,7 +280,7 @@
     },
     {
       "date": "2026-09-14",
-      "count": 426
+      "count": 536
     }
   ],
   "published": {
@@ -292,7 +292,7 @@
     "sessions_logged_in": 4943,
     "sessions_with_commands": 2868,
     "sessions_with_download": 674,
-    "share_of_sessions": 0.1165
+    "share_of_sessions": 0.1164
   },
   "weighting": {
     "schema_version": "1.0",
@@ -339,11 +339,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 87822,
+        "total": 87848,
         "top_label": "T1027",
-        "top_value": 79034,
-        "top_share": 0.8999,
-        "top_sources": 322,
+        "top_value": 79042,
+        "top_share": 0.8998,
+        "top_sources": 323,
         "sources_total": 5213
       }
     ]
