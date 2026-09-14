@@ -1198,7 +1198,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 166.181.86.176,2026-09-09T20:23:14.103341Z,2026-09-09T20:28:16.822981Z,2,0,0,0,low,connected_only,false,true,,7,United States,"T-Mobile USA, Inc.",t-mobile.com,false,30
 166.48.224.81,2026-08-24T21:59:57.239577Z,2026-08-24T22:00:30.329520Z,3,0,0,0,low,connected_only,false,false,,7,Canada,Altima Telecom,altimatel.com,false,100
 166.62.41.96,2026-09-05T08:41:13.380277Z,2026-09-07T16:42:35.328505Z,420,448,2044,0,medium,executed_commands,false,true,,7,United States,"GoDaddy.com, LLC",godaddy.com,false,100
-166.62.42.127,2026-08-28T00:09:14.488368Z,2026-09-07T09:50:42.511814Z,725,776,3516,0,medium,executed_commands,false,true,,7,United States,"GoDaddy.com, LLC",godaddy.com,false,100
+166.62.42.127,2026-08-28T00:09:14.488368Z,2026-09-07T09:50:42.511814Z,725,776,3516,0,medium,persistent,false,false,,7,United States,"GoDaddy.com, LLC",godaddy.com,false,100
 167.0.194.8,2026-08-23T03:56:22.410888Z,2026-08-23T03:57:06.600053Z,2,0,0,0,low,connected_only,false,false,,7,Colombia,COLOMBIA TELECOMUNICACIONES S.A. ESP BIC,telecom.com.co,false,5
 167.0.243.91,2026-09-11T01:16:46.987244Z,2026-09-11T01:16:49.632408Z,3,0,0,0,low,connected_only,false,true,,7,Colombia,COLOMBIA TELECOMUNICACIONES S.A. ESP BIC,telecom.com.co,false,5
 167.114.61.47,2026-09-04T00:05:02.772177Z,2026-09-04T00:05:02.850456Z,1,1,0,0,low,single_sighting,false,false,,7,Canada,OVH SAS,ovhcloud.com,false,100
@@ -2386,7 +2386,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 192.42.116.42,2026-09-13T10:22:32.602845Z,2026-09-13T10:22:47.158317Z,1,2,8,2,high,delivered_payload,false,true,b72a4f9b962da755,7,The Netherlands,TOR EXIT AND MORE,cyberology.nl,true,100
 192.42.116.66,2026-09-07T21:31:55.922514Z,2026-09-07T21:32:20.835235Z,1,2,0,0,low,single_sighting,false,true,,7,The Netherlands,TOR EXIT AND MORE,cyberology.nl,true,100
 192.42.116.68,2026-09-10T21:23:19.869086Z,2026-09-10T21:23:55.055312Z,1,2,0,0,low,single_sighting,false,true,,7,The Netherlands,TOR EXIT AND MORE,cyberology.nl,true,100
-192.42.116.92,2026-09-07T09:57:50.291488Z,2026-09-07T09:58:01.260079Z,1,2,8,2,high,delivered_payload,false,true,81ad57d391f43922,7,The Netherlands,TOR EXIT AND MORE,cyberology.nl,true,100
+192.42.116.92,2026-09-07T09:57:50.291488Z,2026-09-07T09:58:01.260079Z,1,2,8,2,low,delivered_payload,false,false,81ad57d391f43922,7,The Netherlands,TOR EXIT AND MORE,cyberology.nl,true,100
 193.104.179.183,2026-08-22T19:02:31.100224Z,2026-08-22T19:02:58.346477Z,2,0,0,0,low,connected_only,false,false,,7,Uzbekistan,LLC BROSS-TELECOM,umail.uz,false,91
 193.104.36.144,2026-09-03T23:02:50.288364Z,2026-09-03T23:02:50.731009Z,1,1,0,0,low,single_sighting,false,false,,7,France,Artefact SARL,artefact.com,false,60
 193.107.107.21,2026-08-20T04:17:49.326216Z,2026-08-20T04:17:49.345075Z,1,0,0,0,low,single_sighting,false,false,,7,Ukraine,QUICKNET LLC,quicknetllc.net,false,80
