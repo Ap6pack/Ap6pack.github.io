@@ -559,6 +559,23 @@
     "last_reported_at": "2026-08-25T23:30:27+00:00"
   },
   {
+    "ip": "164.92.115.22",
+    "lat": 37.3931,
+    "lon": -121.962,
+    "country": "United States",
+    "city": "Santa Clara",
+    "count": 644,
+    "abuse_score": 100,
+    "abuse_reports": 1815,
+    "isp": "DigitalOcean, LLC",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "digitalocean.com",
+    "is_tor": false,
+    "distinct_users": 103,
+    "last_reported_at": "2026-09-15T05:04:04+00:00",
+    "ai_agent_signal": "suspected"
+  },
+  {
     "ip": "91.92.47.55",
     "lat": 52.3716,
     "lon": 4.8883,
@@ -591,23 +608,6 @@
     "is_tor": false,
     "distinct_users": 65,
     "last_reported_at": "2026-08-28T09:30:53+00:00"
-  },
-  {
-    "ip": "164.92.115.22",
-    "lat": 37.3931,
-    "lon": -121.962,
-    "country": "United States",
-    "city": "Santa Clara",
-    "count": 557,
-    "abuse_score": 100,
-    "abuse_reports": 1815,
-    "isp": "DigitalOcean, LLC",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "digitalocean.com",
-    "is_tor": false,
-    "distinct_users": 103,
-    "last_reported_at": "2026-09-15T05:04:04+00:00",
-    "ai_agent_signal": "suspected"
   },
   {
     "ip": "85.165.104.58",
@@ -1212,6 +1212,23 @@
     "last_reported_at": "2026-08-25T06:07:57+00:00"
   },
   {
+    "ip": "159.203.20.239",
+    "lat": 43.709,
+    "lon": -79.4057,
+    "country": "Canada",
+    "city": "Toronto",
+    "count": 156,
+    "abuse_score": 100,
+    "abuse_reports": 738,
+    "isp": "DigitalOcean, LLC",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "digitalocean.com",
+    "is_tor": false,
+    "distinct_users": 80,
+    "last_reported_at": "2026-09-14T22:48:46+00:00",
+    "ai_agent_signal": "suspected"
+  },
+  {
     "ip": "188.166.157.84",
     "lat": 51.5177,
     "lon": -0.6215,
@@ -1244,23 +1261,6 @@
     "is_tor": false,
     "distinct_users": 41,
     "last_reported_at": "2026-08-25T13:06:12+00:00"
-  },
-  {
-    "ip": "159.203.20.239",
-    "lat": 43.709,
-    "lon": -79.4057,
-    "country": "Canada",
-    "city": "Toronto",
-    "count": 141,
-    "abuse_score": 100,
-    "abuse_reports": 738,
-    "isp": "DigitalOcean, LLC",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "digitalocean.com",
-    "is_tor": false,
-    "distinct_users": 80,
-    "last_reported_at": "2026-09-14T22:48:46+00:00",
-    "ai_agent_signal": "suspected"
   },
   {
     "ip": "112.242.174.80",
@@ -25287,6 +25287,22 @@
     "is_tor": false,
     "distinct_users": 3,
     "last_reported_at": "2026-09-14T17:04:36+00:00"
+  },
+  {
+    "ip": "181.116.176.11",
+    "lat": -34.6036,
+    "lon": -58.3815,
+    "country": "Argentina",
+    "city": "Ciudad Autonoma De Buenos Aires",
+    "count": 8,
+    "abuse_score": 59,
+    "abuse_reports": 17,
+    "isp": "AMX Argentina S.A.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "claro.com.ar",
+    "is_tor": false,
+    "distinct_users": 11,
+    "last_reported_at": "2026-09-15T00:51:32+00:00"
   },
   {
     "ip": "181.25.202.92",
@@ -59221,6 +59237,56 @@
     "last_reported_at": "2026-09-15T07:00:40+00:00"
   },
   {
+    "ip": "85.217.149.67",
+    "lat": 45.3161,
+    "lon": -73.8736,
+    "country": "Canada",
+    "city": "Beauharnois",
+    "count": 4,
+    "abuse_score": 100,
+    "abuse_reports": 11915,
+    "isp": "NL MODAT",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "modat.io",
+    "is_tor": false,
+    "distinct_users": 372,
+    "last_reported_at": "2026-09-15T07:06:15+00:00",
+    "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
+    "hassh_shared_count": 9
+  },
+  {
+    "ip": "46.150.81.82",
+    "lat": 49.2335,
+    "lon": 28.4817,
+    "country": "Ukraine",
+    "city": "Vinnytsia",
+    "count": 4,
+    "abuse_score": 90,
+    "abuse_reports": 20,
+    "isp": "Volia",
+    "usage_type": "Fixed Line ISP",
+    "domain": "volia.net",
+    "is_tor": false,
+    "distinct_users": 17,
+    "last_reported_at": "2026-09-15T07:53:25+00:00"
+  },
+  {
+    "ip": "152.168.226.193",
+    "lat": -34.6132,
+    "lon": -58.3772,
+    "country": "Argentina",
+    "city": "Buenos Aires",
+    "count": 4,
+    "abuse_score": 55,
+    "abuse_reports": 8,
+    "isp": "Telecom Argentina S.A.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "personal.com.ar",
+    "is_tor": false,
+    "distinct_users": 8,
+    "last_reported_at": "2026-09-15T07:21:10+00:00"
+  },
+  {
     "ip": "195.20.6.224",
     "lat": 50.5709,
     "lon": 30.6643,
@@ -68592,7 +68658,7 @@
     "distinct_users": 356,
     "last_reported_at": "2026-09-02T03:29:52+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "85.217.149.28",
@@ -68610,7 +68676,7 @@
     "distinct_users": 346,
     "last_reported_at": "2026-09-02T03:00:04+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "37.255.213.72",
@@ -69970,7 +70036,7 @@
     "distinct_users": 366,
     "last_reported_at": "2026-09-04T04:51:58+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "178.120.9.44",
@@ -71016,7 +71082,7 @@
     "distinct_users": 382,
     "last_reported_at": "2026-09-06T10:47:57+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "5.58.23.106",
@@ -72338,7 +72404,7 @@
     "distinct_users": 340,
     "last_reported_at": "2026-09-09T03:54:30+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "85.217.149.11",
@@ -72356,7 +72422,7 @@
     "distinct_users": 379,
     "last_reported_at": "2026-09-09T04:00:08+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "198.235.24.168",
@@ -73154,7 +73220,7 @@
     "distinct_users": 367,
     "last_reported_at": "2026-09-11T00:47:48+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "186.1.223.65",
@@ -73992,7 +74058,7 @@
     "distinct_users": 368,
     "last_reported_at": "2026-09-13T04:20:26+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 8
+    "hassh_shared_count": 9
   },
   {
     "ip": "66.132.195.82",
@@ -76711,6 +76777,38 @@
     "is_tor": false,
     "distinct_users": 3,
     "last_reported_at": "2026-08-27T15:45:53+00:00"
+  },
+  {
+    "ip": "98.196.246.187",
+    "lat": 29.7133,
+    "lon": -95.4804,
+    "country": "United States",
+    "city": "Houston",
+    "count": 2,
+    "abuse_score": 100,
+    "abuse_reports": 62,
+    "isp": "Comcast Cable Communications, Inc.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "comcast.net",
+    "is_tor": false,
+    "distinct_users": 40,
+    "last_reported_at": "2026-09-15T08:10:48+00:00"
+  },
+  {
+    "ip": "190.114.104.91",
+    "lat": -26.816,
+    "lon": -65.2154,
+    "country": "Argentina",
+    "city": "San Miguel de Tucum\u00e1n",
+    "count": 2,
+    "abuse_score": 61,
+    "abuse_reports": 25,
+    "isp": "COMPA\u00d1IA DE CIRCUITOS CERRADOS S.A.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "viaccc.com",
+    "is_tor": false,
+    "distinct_users": 19,
+    "last_reported_at": "2026-09-06T13:07:03+00:00"
   },
   {
     "ip": "147.185.132.123",
