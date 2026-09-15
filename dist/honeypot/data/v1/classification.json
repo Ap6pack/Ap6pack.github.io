@@ -50,11 +50,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 88564,
+        "total": 88581,
         "top_label": "T1027",
-        "top_value": 79205,
-        "top_share": 0.8943,
-        "top_sources": 339,
+        "top_value": 79212,
+        "top_share": 0.8942,
+        "top_sources": 340,
         "sources_total": 5408
       }
     ]
@@ -2033,11 +2033,11 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 79205,
-      "distinct_ips": 339,
+      "count": 79212,
+      "distinct_ips": 340,
       "recon_count": 75347,
       "recon_ips": 8,
-      "residual_count": 3858,
+      "residual_count": 3865,
       "attribution": "certain"
     },
     {
@@ -2073,11 +2073,11 @@
     {
       "id": "T1489",
       "name": "Service Stop",
-      "count": 148,
-      "distinct_ips": 15,
+      "count": 158,
+      "distinct_ips": 16,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 148,
+      "residual_count": 158,
       "attribution": "none"
     },
     {
