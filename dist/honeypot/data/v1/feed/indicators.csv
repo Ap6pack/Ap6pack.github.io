@@ -378,7 +378,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 112.103.73.42,2026-09-09T09:19:46.510465Z,2026-09-09T09:21:13.056432Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,China,CHINANET HEILONGJIANG PROVINCE NETWORK,chinatelecom.cn,false,99
 112.118.194.159,2026-09-09T20:47:35.404113Z,2026-09-09T20:47:45.052263Z,1,1,0,0,low,single_sighting,false,true,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
 112.120.103.189,2026-09-05T06:48:41.353291Z,2026-09-05T06:48:52.018528Z,1,1,0,0,low,single_sighting,false,false,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
-112.126.62.31,2026-09-08T03:14:45.306320Z,2026-09-08T03:14:45.307344Z,1,0,0,0,low,single_sighting,false,true,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
+112.126.62.31,2026-09-08T03:14:45.306320Z,2026-09-08T03:14:45.307344Z,1,0,0,0,low,single_sighting,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
 112.158.200.53,2026-08-20T20:55:42.393231Z,2026-08-20T20:55:45.629485Z,1,1,5,0,low,executed_commands,false,false,d4224ad2d90953b1,7,South Korea,LG POWERCOMM,lguplus.com,false,100
 112.161.26.125,2026-09-01T15:18:05.632788Z,2026-09-09T07:07:54.562444Z,2,1,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
 112.161.64.234,2026-09-05T06:05:17.250821Z,2026-09-09T22:37:39.017854Z,2,2,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
@@ -1461,7 +1461,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 177.47.114.147,2026-09-04T07:38:28.417539Z,2026-09-04T07:38:32.705235Z,1,1,0,0,low,single_sighting,false,false,,7,Brazil,DataCorpore Serviços e Representações,datacorpore.com.br,false,57
 177.53.39.39,2026-09-05T03:38:40.514806Z,2026-09-05T03:40:06.626455Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Brazil,HELLO BRAZIL REPRESENTACAO DE COMERCIO DE EQUIPAM,hellobrazil.com.br,false,100
 177.65.107.71,2026-08-28T06:26:11.773667Z,2026-08-28T06:27:00.451467Z,2,2,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Brazil,Claro NXT Telecomunicacoes Ltda,claro.com.br,false,100
-177.67.3.176,2026-09-08T03:01:29.857024Z,2026-09-08T03:02:54.013254Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Brazil,Alares Cabo Servicos de Telecomunicacoes S.A.,alaresinternet.com.br,false,100
+177.67.3.176,2026-09-08T03:01:29.857024Z,2026-09-08T03:02:54.013254Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Brazil,Alares Cabo Servicos de Telecomunicacoes S.A.,alaresinternet.com.br,false,100
 177.72.87.7,2026-08-27T00:35:31.546329Z,2026-09-13T09:20:53.809252Z,5,3,0,0,low,connected_only,false,true,,7,Brazil,BRMOM CONSTRUINDO CONEXOES LTDA,brmom.com.br,false,100
 177.73.0.126,2026-09-04T00:54:55.010735Z,2026-09-04T00:54:55.750937Z,1,1,0,0,low,single_sighting,false,false,,7,Brazil,INB TELECOM LTDA,querovero.com.br,false,100
 177.82.10.160,2026-09-01T08:18:55.094744Z,2026-09-01T08:19:12.884509Z,1,1,2,0,low,executed_commands,false,false,,7,Brazil,Claro NXT Telecomunicacoes Ltda,claro.com.br,false,100
@@ -1918,7 +1918,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 185.208.231.45,2026-09-14T10:37:40.984590Z,2026-09-14T10:37:57.823939Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,INCOMPLAST SERVICE LLC,westnet.com.ua,false,100
 185.21.123.104,2026-09-04T21:49:13.210875Z,2026-09-04T21:49:13.665150Z,1,0,0,0,low,single_sighting,false,false,,7,Palestinian Territory,ZONE Technologies Ltd,zone.ps,false,96
 185.212.251.8,2026-09-02T19:32:27.370444Z,2026-09-02T19:32:48.418928Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,Range for ISP Meganet,1-ix.eu,false,60
-185.220.101.101,2026-09-08T03:17:07.748717Z,2026-09-08T03:17:35.194021Z,1,2,8,2,high,delivered_payload,false,true,76f08f3551decdc5,7,Germany,Digitalcourage e.V.,digitalcourage.de,true,100
+185.220.101.101,2026-09-08T03:17:07.748717Z,2026-09-08T03:17:35.194021Z,1,2,8,2,low,delivered_payload,false,false,76f08f3551decdc5,7,Germany,Digitalcourage e.V.,digitalcourage.de,true,100
 185.220.101.103,2026-09-10T11:10:11.216638Z,2026-09-10T11:10:23.789781Z,1,2,8,2,high,delivered_payload,false,true,ba4d769a89d02a61,7,Germany,Digitalcourage e.V.,digitalcourage.de,true,100
 185.220.101.105,2026-09-08T03:58:02.683805Z,2026-09-08T03:58:12.755547Z,1,2,8,2,high,delivered_payload,false,true,c588be0e7c8f15f7,7,Germany,Digitalcourage e.V.,digitalcourage.de,true,100
 185.223.235.2,2026-09-14T16:36:15.950853Z,2026-09-14T16:36:16.036336Z,1,0,0,0,low,single_sighting,false,true,,7,The Netherlands,Infrawatch Limited,infrawat.ch,false,100
@@ -3624,7 +3624,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 37.132.28.43,2026-08-24T01:41:25.816578Z,2026-08-24T01:41:43.695867Z,1,1,2,0,low,executed_commands,false,false,,7,Spain,Jazztel mobile services,jazztel.com,false,25
 37.139.171.202,2026-08-20T21:10:18.839397Z,2026-08-20T21:10:35.607634Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,McLaut network,mclaut.com,false,31
 37.142.162.174,2026-09-04T00:41:04.748107Z,2026-09-04T00:43:04.837898Z,1,0,0,0,low,single_sighting,false,false,,7,Israel,Hot-Net internet services Ltd.,hot.net.il,false,100
-37.148.102.18,2026-09-08T03:13:14.682415Z,2026-09-08T03:15:50.744298Z,1,2,9,0,medium,executed_commands,false,true,1091addd578238c7,7,Iran,SHTL-NET,rasana.net,false,77
+37.148.102.18,2026-09-08T03:13:14.682415Z,2026-09-08T03:15:50.744298Z,1,2,9,0,low,executed_commands,false,false,1091addd578238c7,7,Iran,SHTL-NET,rasana.net,false,77
 37.151.116.94,2026-09-02T16:46:01.280100Z,2026-09-02T16:46:16.648454Z,2,0,0,0,low,connected_only,false,false,,7,Kazakhstan,JSC Kazakhtelecom,telecom.kz,false,64
 37.18.61.154,2026-08-18T05:45:40.261297Z,2026-08-18T05:46:00.143342Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,Individual entrepreneur Aliev Zalim Khasanovich,,false,100
 37.186.40.52,2026-09-01T13:18:40.906172Z,2026-09-01T13:18:58.119380Z,1,1,2,0,low,executed_commands,false,false,,7,Qatar,Vodafone Qatar P.Q.S.C,vodafone.qa,false,58
@@ -4507,7 +4507,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 69.124.69.20,2026-09-04T13:20:20.751977Z,2026-09-04T13:20:27.408716Z,1,1,0,0,low,single_sighting,false,false,,7,United States,Optimum Online (Cablevision Systems),optimum.net,false,100
 69.126.144.30,2026-09-01T09:30:04.419320Z,2026-09-10T04:19:07.812055Z,2,1,0,0,low,connected_only,false,true,,7,United States,Optimum Online (Cablevision Systems),optimum.net,false,100
 69.145.164.31,2026-08-19T19:42:22.013392Z,2026-08-19T19:45:30.838903Z,2,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications LLC,charter.com,false,97
-69.161.111.140,2026-09-08T03:11:48.655092Z,2026-09-08T03:11:58.708691Z,4,0,0,0,low,connected_only,false,true,,7,United States,Atlantic Broadband,breezeline.com,false,66
+69.161.111.140,2026-09-08T03:11:48.655092Z,2026-09-08T03:11:58.708691Z,4,0,0,0,low,connected_only,false,false,,7,United States,Atlantic Broadband,breezeline.com,false,66
 69.194.3.6,2026-08-31T05:58:00.337157Z,2026-09-06T12:40:46.044675Z,4,1,0,0,low,connected_only,false,false,,7,United States,MACWEB,macweb.com,false,100
 69.23.104.95,2026-09-02T05:16:43.397727Z,2026-09-02T05:18:14.903901Z,3,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications Inc,charter.com,false,100
 69.5.169.253,2026-08-24T00:20:38.699320Z,2026-08-24T00:20:38.785160Z,1,0,0,0,low,single_sighting,false,false,,7,Germany,Infrawatch Limited,infrawat.ch,false,100
