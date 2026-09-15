@@ -349,7 +349,7 @@
     "lon": -121.962,
     "country": "United States",
     "city": "Santa Clara",
-    "count": 3133,
+    "count": 3337,
     "abuse_score": 100,
     "abuse_reports": 1815,
     "isp": "DigitalOcean, LLC",
@@ -576,6 +576,23 @@
     "hassh_shared_count": 8
   },
   {
+    "ip": "159.203.20.239",
+    "lat": 43.709,
+    "lon": -79.4057,
+    "country": "Canada",
+    "city": "Toronto",
+    "count": 701,
+    "abuse_score": 100,
+    "abuse_reports": 738,
+    "isp": "DigitalOcean, LLC",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "digitalocean.com",
+    "is_tor": false,
+    "distinct_users": 80,
+    "last_reported_at": "2026-09-14T22:48:46+00:00",
+    "ai_agent_signal": "suspected"
+  },
+  {
     "ip": "163.128.165.174",
     "lat": 19.46,
     "lon": 72.8097,
@@ -608,23 +625,6 @@
     "last_reported_at": "2026-08-24T08:47:27+00:00",
     "hassh": "0a07365cc01fa9fc82608ba4019af499",
     "hassh_shared_count": 2
-  },
-  {
-    "ip": "159.203.20.239",
-    "lat": 43.709,
-    "lon": -79.4057,
-    "country": "Canada",
-    "city": "Toronto",
-    "count": 619,
-    "abuse_score": 100,
-    "abuse_reports": 738,
-    "isp": "DigitalOcean, LLC",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "digitalocean.com",
-    "is_tor": false,
-    "distinct_users": 80,
-    "last_reported_at": "2026-09-14T22:48:46+00:00",
-    "ai_agent_signal": "suspected"
   },
   {
     "ip": "219.251.24.135",
@@ -25516,6 +25516,22 @@
     "is_tor": false,
     "distinct_users": 0,
     "last_reported_at": "2025-01-18T06:03:51+00:00"
+  },
+  {
+    "ip": "87.181.176.241",
+    "lat": 50.9839,
+    "lon": 11.3231,
+    "country": "Germany",
+    "city": "Weimar",
+    "count": 8,
+    "abuse_score": 25,
+    "abuse_reports": 3,
+    "isp": "Deutsche Telekom AG",
+    "usage_type": "Fixed Line ISP",
+    "domain": "telekom.de",
+    "is_tor": false,
+    "distinct_users": 3,
+    "last_reported_at": "2026-09-15T14:26:35+00:00"
   },
   {
     "ip": "181.25.202.92",
