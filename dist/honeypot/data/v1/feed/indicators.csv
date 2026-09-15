@@ -3545,7 +3545,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 3.130.168.2,2026-08-18T16:24:51.245367Z,2026-09-13T00:53:16.231175Z,31,0,0,0,medium,persistent,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 3.131.220.121,2026-08-29T00:27:33.610202Z,2026-09-15T03:07:54.563126Z,6,0,0,0,medium,persistent,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 3.139.89.38,2026-08-26T23:23:02.602300Z,2026-08-26T23:23:43.694090Z,2,0,0,0,low,connected_only,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,29
-3.18.221.28,2026-09-08T23:13:34.530197Z,2026-09-08T23:16:11.564369Z,2,0,0,0,low,connected_only,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
+3.18.221.28,2026-09-08T23:13:34.530197Z,2026-09-08T23:16:11.564369Z,2,0,0,0,low,connected_only,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 3.83.162.99,2026-08-17T22:21:48.479308Z,2026-08-17T22:21:48.487839Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
 3.85.201.48,2026-09-05T22:25:07.880374Z,2026-09-05T22:25:07.887956Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
 3.90.104.12,2026-09-03T22:17:58.708241Z,2026-09-03T22:17:58.741826Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
@@ -3923,7 +3923,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 45.14.109.138,2026-09-12T20:21:22.319037Z,2026-09-12T20:21:40.409237Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,EUROTELE-PLUS LLC,eurotele.com.ua,false,100
 45.141.12.161,2026-09-08T13:15:05.943673Z,2026-09-08T13:15:05.981751Z,4,0,0,0,low,connected_only,false,false,,7,United States,Beyond Tomorrow Ltd,beyond.com,false,0
 45.148.10.239,2026-08-23T13:49:35.786345Z,2026-08-23T13:49:36.197690Z,1,0,0,0,low,single_sighting,false,false,,7,The Netherlands,TECHOFF SRV LIMITED,dmzhost.co,false,100
-45.148.148.31,2026-09-08T23:15:13.259135Z,2026-09-08T23:16:36.910952Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Ukraine,DEMENIN B.V.,demenin.net,false,100
+45.148.148.31,2026-09-08T23:15:13.259135Z,2026-09-08T23:16:36.910952Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Ukraine,DEMENIN B.V.,demenin.net,false,100
 45.148.243.104,2026-08-21T14:47:51.435206Z,2026-08-21T14:50:07.482046Z,3,0,0,0,low,connected_only,false,false,,7,Russia,RuaD-Group LLC,,false,93
 45.153.51.144,2026-09-14T14:48:45.569138Z,2026-09-14T14:49:05.329648Z,4,0,0,0,low,connected_only,false,true,,7,Kazakhstan,Eurasia-Star LLP,esnet.kz,false,0
 45.156.129.107,2026-08-25T22:18:28.421957Z,2026-08-25T22:18:33.462177Z,1,0,0,0,low,single_sighting,false,false,,7,United States,INAP-CHI-1,bitsight.com,false,100
@@ -4762,7 +4762,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 77.88.252.73,2026-09-03T19:02:04.200079Z,2026-09-03T19:02:04.925445Z,1,1,0,0,low,single_sighting,false,false,,7,Ukraine,PRIVATE JOINT STOCK COMPANY DATAGROUP,datagroup.ua,false,100
 77.90.185.16,2026-09-02T16:43:50.593531Z,2026-09-03T13:42:42.657950Z,2,0,0,0,low,connected_only,false,false,,7,Germany,Limited Network LTD,btcloud.ro,false,100
 77.90.185.17,2026-09-05T01:39:55.011228Z,2026-09-05T01:40:08.648755Z,1,1,0,0,low,single_sighting,false,false,,7,Germany,Limited Network LTD,btcloud.ro,false,100
-77.99.61.111,2026-09-08T23:14:18.154231Z,2026-09-08T23:14:38.380475Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,United Kingdom,Virgin Media Limited,virginmedia.com,false,100
+77.99.61.111,2026-09-08T23:14:18.154231Z,2026-09-08T23:14:38.380475Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,United Kingdom,Virgin Media Limited,virginmedia.com,false,100
 78.1.214.166,2026-08-18T18:36:02.596066Z,2026-08-18T18:36:20.696748Z,1,1,2,0,low,executed_commands,false,false,,7,Croatia,Hrvatski Telekom d.d.,ht.hr,false,16
 78.121.57.85,2026-08-19T17:23:51.439864Z,2026-08-19T17:23:51.440533Z,1,0,0,0,low,single_sighting,false,false,,7,France,Societe Francaise Du Radiotelephone - SFR SA,sfr.fr,false,52
 78.128.114.118,2026-08-20T19:50:24.529443Z,2026-09-08T00:33:20.076068Z,3,0,0,0,low,connected_only,false,false,,7,Bulgaria,Tamatiya EOOD,4vendeta.com,false,100
@@ -4780,7 +4780,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 78.174.200.203,2026-08-18T11:21:19.995493Z,2026-08-18T11:21:19.996247Z,1,0,0,0,low,single_sighting,false,false,,7,Türkiye,Turk Telekomunikasyon Anonim Sirketi,turktelekom.com.tr,false,75
 78.174.208.26,2026-08-25T18:05:41.612521Z,2026-08-25T18:05:59.290389Z,1,1,2,0,low,executed_commands,false,false,,7,Türkiye,Turk Telekomunikasyon Anonim Sirketi,turktelekom.com.tr,false,30
 78.175.237.130,2026-08-19T19:37:38.740077Z,2026-08-19T19:37:45.506329Z,2,0,0,0,low,connected_only,false,false,,7,Türkiye,Turk Telekomunikasyon Anonim Sirketi,turktelekom.com.tr,false,0
-78.177.163.99,2026-08-25T05:34:38.497911Z,2026-09-08T23:18:26.900299Z,3,0,0,0,low,connected_only,false,true,,7,Türkiye,Turk Telekomunikasyon Anonim Sirketi,turktelekom.com.tr,false,31
+78.177.163.99,2026-08-25T05:34:38.497911Z,2026-09-08T23:18:26.900299Z,3,0,0,0,low,connected_only,false,false,,7,Türkiye,Turk Telekomunikasyon Anonim Sirketi,turktelekom.com.tr,false,31
 78.177.174.20,2026-08-23T18:41:33.920232Z,2026-08-23T18:41:33.921293Z,1,0,0,0,low,single_sighting,false,false,,7,Türkiye,Turk Telekomunikasyon Anonim Sirketi,turktelekom.com.tr,false,33
 78.177.179.21,2026-08-23T13:05:27.239055Z,2026-08-23T13:05:27.239667Z,1,0,0,0,low,single_sighting,false,false,,7,Türkiye,Turk Telekomunikasyon Anonim Sirketi,turktelekom.com.tr,false,92
 78.181.170.111,2026-08-25T16:24:38.298821Z,2026-08-25T16:30:02.938525Z,25,0,0,0,medium,persistent,false,false,,7,Turkey,Turk Telekomunikasyon Anonim Sirketi,turktelekom.com.tr,false,25
