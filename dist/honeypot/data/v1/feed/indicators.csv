@@ -328,7 +328,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 110.25.105.161,2026-09-06T21:28:21.329758Z,2026-09-06T21:28:23.050031Z,1,0,0,0,low,single_sighting,false,false,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
 110.25.106.26,2026-09-01T05:37:49.884281Z,2026-09-04T02:31:55.899170Z,2,2,0,0,low,connected_only,false,false,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
 110.25.107.25,2026-09-02T18:07:12.625784Z,2026-09-02T18:07:20.494888Z,1,1,0,0,low,single_sighting,false,false,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
-110.25.109.48,2026-09-09T08:47:58.130322Z,2026-09-09T08:48:16.194737Z,1,1,0,0,low,single_sighting,false,true,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
+110.25.109.48,2026-09-09T08:47:58.130322Z,2026-09-09T08:48:16.194737Z,1,1,0,0,low,single_sighting,false,false,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
 110.25.109.54,2026-09-04T06:39:36.597158Z,2026-09-04T06:39:46.578337Z,1,1,0,0,low,single_sighting,false,false,,7,Taiwan,"Far EasTone Telecommunication Co., Ltd.",fetnet.net,false,100
 110.38.15.161,2026-09-15T02:31:49.065871Z,2026-09-15T02:37:14.636826Z,25,0,0,0,medium,persistent,false,true,,7,Pakistan,National Wimax/IMS environment,wateen.com,false,22
 110.38.17.157,2026-08-23T11:38:41.744573Z,2026-08-23T11:38:51.511379Z,3,0,0,0,low,connected_only,false,false,,7,Pakistan,National Wimax/IMS environment,wateen.com,false,0
@@ -1555,7 +1555,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 178.186.251.232,2026-08-26T23:23:27.364963Z,2026-08-26T23:23:46.373225Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,OJSC Sibirtelecom,sibirtelecom.ru,false,26
 178.186.29.194,2026-08-27T20:35:49.273906Z,2026-08-27T20:37:51.404140Z,2,0,0,0,low,connected_only,false,false,,7,Russia,OJSC Sibirtelecom,sibirtelecom.ru,false,16
 178.205.235.106,2026-08-26T08:54:49.008358Z,2026-08-26T08:54:49.702025Z,1,1,1,0,low,executed_commands,true,false,e97166b54500da3a,7,Russia,Kazan Broad-band access pools,tattelecom.ru,false,32
-178.210.130.67,2026-09-09T08:39:57.748506Z,2026-09-09T08:40:15.134373Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Telecomunikatsiina Companiya Ltd,telcom.net.ua,false,100
+178.210.130.67,2026-09-09T08:39:57.748506Z,2026-09-09T08:40:15.134373Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,Telecomunikatsiina Companiya Ltd,telcom.net.ua,false,100
 178.214.160.4,2026-09-05T13:27:51.627174Z,2026-09-06T01:57:14.030033Z,2,2,0,0,low,connected_only,false,false,,7,Russia,Likhno Dmitriy trading as Luganet,luganet.ru,false,100
 178.214.245.138,2026-09-03T15:45:41.455334Z,2026-09-03T15:45:58.672902Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,JSC Ufanet,ufanet.ru,false,0
 178.215.158.249,2026-08-24T16:30:10.278575Z,2026-08-24T16:30:30.594509Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,VOLNA-SERVIS LLC,yarvolna.net,false,100
@@ -2934,7 +2934,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 200.59.88.38,2026-08-29T12:38:24.701696Z,2026-08-29T12:38:27.379766Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.88.46,2026-09-08T18:06:41.818784Z,2026-09-08T18:06:41.822066Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.88.50,2026-09-10T22:10:10.700052Z,2026-09-10T22:11:10.718333Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,100
-200.59.88.57,2026-09-09T08:54:37.522323Z,2026-09-09T08:56:02.257775Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,100
+200.59.88.57,2026-09-09T08:54:37.522323Z,2026-09-09T08:56:02.257775Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.88.73,2026-09-11T16:05:45.206419Z,2026-09-11T16:07:10.883813Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.88.75,2026-09-01T06:48:49.192500Z,2026-09-01T06:49:33.644307Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.88.77,2026-09-02T20:46:59.705138Z,2026-09-08T04:03:42.982292Z,2,2,62,10,low,delivered_payload,false,false,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,100
@@ -3509,7 +3509,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 24.207.66.154,2026-08-31T19:47:11.085850Z,2026-08-31T21:24:03.896652Z,2,2,0,0,low,connected_only,false,false,,7,Canada,EastLink,eastlink.ca,false,100
 24.211.217.205,2026-08-24T11:18:06.004509Z,2026-08-24T11:27:21.713706Z,3,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications Inc,charter.com,false,100
 24.229.22.106,2026-09-09T20:23:34.458952Z,2026-09-09T20:23:48.963222Z,2,2,0,0,low,connected_only,false,true,,7,United States,PenTeleData House Account,ptd.net,false,100
-24.238.123.134,2026-09-03T09:32:03.017513Z,2026-09-09T08:38:58.700996Z,6,6,0,0,medium,persistent,false,true,,7,United States,HWC,hwccustomers.com,false,100
+24.238.123.134,2026-09-03T09:32:03.017513Z,2026-09-09T08:38:58.700996Z,6,6,0,0,medium,persistent,false,false,,7,United States,HWC,hwccustomers.com,false,100
 24.34.230.133,2026-08-19T12:51:06.788300Z,2026-08-19T12:51:21.834923Z,1,1,22,11,low,delivered_payload,false,false,5af2de096f0bf35a,7,United States,"Comcast Cable Communications Holdings, Inc",comcast.net,false,100
 24.4.210.135,2026-08-23T07:21:25.847471Z,2026-08-23T07:21:53.346061Z,3,0,0,0,low,connected_only,false,false,,7,United States,Comcast Cable Communications,comcast.net,false,100
 24.45.235.179,2026-08-31T11:28:14.659631Z,2026-09-10T01:22:20.837249Z,7,7,0,0,medium,persistent,false,true,,7,United States,Optimum Online (Cablevision Systems),optimum.net,false,100
@@ -4437,7 +4437,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 60.249.251.88,2026-09-04T23:04:18.814199Z,2026-09-04T23:04:29.135015Z,1,1,0,0,low,single_sighting,false,false,,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,100
 60.249.252.94,2026-09-09T05:48:00.317471Z,2026-09-09T05:48:10.192382Z,1,1,0,0,low,single_sighting,false,false,,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,100
 60.250.215.200,2026-08-26T07:43:23.351172Z,2026-09-06T02:48:59.518926Z,3,3,0,0,low,connected_only,false,false,,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,100
-60.251.229.144,2026-09-09T05:47:46.225428Z,2026-09-09T08:59:04.097528Z,2,2,0,0,low,connected_only,false,true,,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,100
+60.251.229.144,2026-09-09T05:47:46.225428Z,2026-09-09T08:59:04.097528Z,2,2,0,0,low,connected_only,false,false,,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,100
 60.48.162.119,2026-08-31T12:56:26.612156Z,2026-08-31T12:57:46.931360Z,1,1,22,11,low,delivered_payload,false,false,5af2de096f0bf35a,7,Malaysia,TM TECHNOLOGY SERVICES SDN. BHD.,tm.com.my,false,100
 60.5.73.243,2026-08-18T10:55:27.842783Z,2026-08-18T10:55:27.843478Z,1,0,0,0,low,single_sighting,false,false,,7,China,China Unicom Hebei Province Network,chinaunicom.cn,false,26
 61.12.84.172,2026-08-31T08:30:40.696765Z,2026-08-31T08:30:48.858784Z,1,1,0,0,low,single_sighting,false,false,,7,India,TTSL-ISP DIVISION,tatatel.co.in,false,100
