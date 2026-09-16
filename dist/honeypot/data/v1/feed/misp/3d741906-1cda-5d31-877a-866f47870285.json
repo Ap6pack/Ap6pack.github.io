@@ -1,8 +1,8 @@
 {
   "Event": {
     "uuid": "3d741906-1cda-5d31-877a-866f47870285",
-    "info": "Sundew honeypot - campaign 0199b0c100b9 (2 sources) - sh",
-    "date": "2026-09-12",
+    "info": "Sundew honeypot - campaign 0199b0c100b9 (1 sources) - sh",
+    "date": "2026-09-16",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -23,21 +23,12 @@
     ],
     "Attribute": [
       {
-        "uuid": "d970d295-5dc9-5f81-9503-50af9ae6b037",
-        "type": "ip-src",
-        "category": "Network activity",
-        "to_ids": false,
-        "value": "212.121.235.167",
-        "timestamp": "1789243215",
-        "comment": "executed_commands, confidence medium; 1 sessions, 3 commands, 0 downloads; first_seen 2026-09-09T14:50:52.148909Z, last_seen 2026-09-09T14:51:10.032439Z; expires 7d after last_seen"
-      },
-      {
         "uuid": "224ad6e0-78b4-526f-bdce-853856158660",
         "type": "ip-src",
         "category": "Network activity",
         "to_ids": false,
         "value": "91.225.224.209",
-        "timestamp": "1789243215",
+        "timestamp": "1789570824",
         "comment": "executed_commands, confidence medium; 1 sessions, 3 commands, 0 downloads; first_seen 2026-09-12T09:42:28.478281Z, last_seen 2026-09-12T09:42:59.326393Z; expires 7d after last_seen"
       },
       {
@@ -46,7 +37,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1789243215",
+        "timestamp": "1789570824",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox",
-        "timestamp": "1789243215",
+        "timestamp": "1789570824",
         "comment": "command run by this campaign"
       },
       {
@@ -64,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /proc && cat self/cmdline",
-        "timestamp": "1789243215",
+        "timestamp": "1789570824",
         "comment": "command run by this campaign"
       }
     ]
