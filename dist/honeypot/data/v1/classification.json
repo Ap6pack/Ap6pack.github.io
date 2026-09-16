@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 115266,
+        "total": 117494,
         "top_label": "T1027",
-        "top_value": 105877,
-        "top_share": 0.9185,
+        "top_value": 108105,
+        "top_share": 0.9201,
         "top_sources": 343,
         "sources_total": 5521
       }
@@ -2033,11 +2033,11 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 105877,
+      "count": 108105,
       "distinct_ips": 343,
       "recon_count": 98891,
       "recon_ips": 9,
-      "residual_count": 6986,
+      "residual_count": 9214,
       "attribution": "certain"
     },
     {
