@@ -8,14 +8,14 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 104210,
-      "distinct_ips": 342,
+      "count": 105877,
+      "distinct_ips": 343,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
         "echo -e \"\\x6F\\x6B\"",
-        "echo -e \"\\x47\\x41\\x59\"",
-        "cat /proc/mounts; echo -e \"\\x47\\x41\\x59\"",
-        "echo -e '\\x6b\\x61\\x6d\\x69/dev' > /dev/.nippon; cat /dev/.nippon; rm /dev/.nippon"
+        "/bin/busybox echo -e '\\x50\\x6f\\x72\\x74/tmp' > /tmp/.none; /bin/busybox cat /tmp/.none; /bin/busybox rm /tmp/.none",
+        "/bin/busybox echo -e '\\x50\\x6f\\x72\\x74/dev' > /dev/.none; /bin/busybox cat /dev/.none; /bin/busybox rm /dev/.none",
+        "/bin/busybox echo -ne '\\xdd\\x00'; echo -ne '\\x55\\xaa'; /bin/busybox FdYNwXY4 "
       ]
     },
     {
@@ -25,8 +25,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 6421,
-      "distinct_ips": 390,
+      "count": 6422,
+      "distinct_ips": 391,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
         ">/var/d && chmod 777 /var/d && /var/d && cd /var/",
@@ -112,6 +112,23 @@
       ]
     },
     {
+      "id": "T1140",
+      "name": "Deobfuscate/Decode Files or Information",
+      "tactics": [
+        "stealth"
+      ],
+      "url": "https://attack.mitre.org/techniques/T1140",
+      "count": 8,
+      "distinct_ips": 8,
+      "examples": [
+        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox FdYNwXY4 ",
+        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox HENtMW4C ",
+        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox On4MNjgA ",
+        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox IFvxCWYe ",
+        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox 5eGkiTAb "
+      ]
+    },
+    {
       "id": "T1685.006",
       "name": "Clear Linux or Mac System Logs",
       "tactics": [
@@ -137,23 +154,6 @@
       "examples": [
         "id",
         "whoami"
-      ]
-    },
-    {
-      "id": "T1140",
-      "name": "Deobfuscate/Decode Files or Information",
-      "tactics": [
-        "stealth"
-      ],
-      "url": "https://attack.mitre.org/techniques/T1140",
-      "count": 7,
-      "distinct_ips": 7,
-      "examples": [
-        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox HENtMW4C ",
-        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox On4MNjgA ",
-        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox IFvxCWYe ",
-        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox 5eGkiTAb ",
-        "/bin/busybox echo bFRP | base64 -d; /bin/busybox echo Nkty | openssl base64 -d; /bin/busybox fj1nICri "
       ]
     },
     {
@@ -183,6 +183,6 @@
       ]
     }
   ],
-  "total_commands": 303824,
-  "matched_commands": 111429
+  "total_commands": 305554,
+  "matched_commands": 113098
 }
