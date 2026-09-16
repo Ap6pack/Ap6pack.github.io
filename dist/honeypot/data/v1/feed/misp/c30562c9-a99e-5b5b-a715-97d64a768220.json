@@ -1,8 +1,8 @@
 {
   "Event": {
     "uuid": "c30562c9-a99e-5b5b-a715-97d64a768220",
-    "info": "Sundew honeypot - campaign 0d2253c81e49 (1 sources) - system",
-    "date": "2026-09-15",
+    "info": "Sundew honeypot - campaign 0d2253c81e49 (2 sources) - system",
+    "date": "2026-09-16",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -28,8 +28,17 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "5.159.104.12",
-        "timestamp": "1789468215",
+        "timestamp": "1789558221",
         "comment": "executed_commands, confidence medium; 1 sessions, 3 commands, 0 downloads; first_seen 2026-09-15T05:55:25.911033Z, last_seen 2026-09-15T05:55:42.872534Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "5b0c1ec2-11ce-547c-8272-5207fbc78d4d",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "95.67.184.81",
+        "timestamp": "1789558221",
+        "comment": "executed_commands, confidence medium; 1 sessions, 3 commands, 0 downloads; first_seen 2026-09-15T23:23:10.902029Z, last_seen 2026-09-15T23:23:28.756748Z; expires 7d after last_seen"
       },
       {
         "uuid": "8e5f7792-f08b-5900-acb9-27c019565b25",
@@ -37,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1789468215",
+        "timestamp": "1789558221",
         "comment": "command run by this campaign"
       },
       {
@@ -46,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox",
-        "timestamp": "1789468215",
+        "timestamp": "1789558221",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /proc && cat self/cmdline",
-        "timestamp": "1789468215",
+        "timestamp": "1789558221",
         "comment": "command run by this campaign"
       }
     ]
