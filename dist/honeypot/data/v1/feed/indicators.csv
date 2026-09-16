@@ -55,7 +55,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 102.138.113.13,2026-08-25T03:03:42.991338Z,2026-08-25T03:04:15.869514Z,2,0,0,0,low,connected_only,false,false,,7,Ivory Coast,MTN COTE D'IVOIRE S.A,mtn.com,false,5
 102.138.23.202,2026-08-19T22:17:18.511888Z,2026-08-19T22:18:10.104521Z,2,0,0,0,low,connected_only,false,false,,7,Ivory Coast,MTN COTE D'IVOIRE S.A,mtn.com,false,0
 102.142.16.223,2026-09-08T01:11:50.414530Z,2026-09-08T01:13:25.467404Z,1,1,43,3,low,delivered_payload,false,false,ad311d7f836658f1,7,Gabon,GVA-GA,gva.africa,false,69
-102.142.17.60,2026-09-09T03:06:29.224897Z,2026-09-09T03:06:29.225595Z,1,0,0,0,low,single_sighting,false,true,,7,Gabon,GVA-GA,gva.africa,false,74
+102.142.17.60,2026-09-09T03:06:29.224897Z,2026-09-09T03:06:29.225595Z,1,0,0,0,low,single_sighting,false,false,,7,Gabon,GVA-GA,gva.africa,false,74
 102.152.221.97,2026-08-31T17:47:46.762105Z,2026-08-31T17:47:50.152715Z,2,0,0,0,low,connected_only,false,false,,7,Tunisia,SOCIETE NATIONALE DES TELECOMMUNICATIONS (Tunisie Telecom),tunisietelecom.tn,false,3
 102.158.238.101,2026-08-31T22:21:51.980434Z,2026-08-31T22:21:51.981025Z,1,0,0,0,low,single_sighting,false,false,,7,Tunisia,TOPNET,topnet.tn,false,0
 102.158.52.146,2026-08-23T04:47:26.171261Z,2026-08-23T04:47:58.316258Z,2,0,0,0,low,connected_only,false,false,,7,Tunisia,TOPNET,topnet.tn,false,15
@@ -4899,7 +4899,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 82.146.57.79,2026-09-03T18:53:22.317411Z,2026-09-03T18:53:23.125280Z,1,1,0,0,low,single_sighting,false,false,,7,Russia,JSC Datacenter,webdc.ru,false,100
 82.165.27.72,2026-08-16T20:18:56.077370Z,2026-08-16T20:18:57.109062Z,1,1,0,0,low,single_sighting,false,false,,7,Germany,IONOS SE,ionos.com,false,100
 82.17.226.223,2026-09-05T06:52:56.108306Z,2026-09-05T06:54:20.116438Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,United Kingdom,Virgin Media Limited,virginmedia.com,false,100
-82.193.119.37,2026-09-09T03:07:04.382096Z,2026-09-09T03:07:23.207165Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,Industrial Media Network LLC,ip.net.ua,false,89
+82.193.119.37,2026-09-09T03:07:04.382096Z,2026-09-09T03:07:23.207165Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,Industrial Media Network LLC,ip.net.ua,false,89
 82.194.181.95,2026-09-01T13:47:04.577066Z,2026-09-01T13:47:22.399085Z,1,1,0,0,low,single_sighting,false,false,,7,Russia,RTComm.RU Khabarovsk network,rtcomm.ru,false,79
 82.208.113.245,2026-09-12T15:42:55.265983Z,2026-09-12T15:43:12.097746Z,3,0,0,0,low,connected_only,false,true,,7,Russia,PJSC Rostelecom,rt.ru,false,4
 82.208.115.212,2026-08-20T16:10:49.859995Z,2026-08-20T16:11:07.417654Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,PJSC Rostelecom,rt.ru,false,15
