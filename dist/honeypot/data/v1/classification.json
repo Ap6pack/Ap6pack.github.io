@@ -50,11 +50,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 133455,
+        "total": 133460,
         "top_label": "T1027",
-        "top_value": 123957,
+        "top_value": 123960,
         "top_share": 0.9288,
-        "top_sources": 347,
+        "top_sources": 348,
         "sources_total": 5581
       }
     ]
@@ -2069,21 +2069,21 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 123957,
-      "distinct_ips": 347,
+      "count": 123960,
+      "distinct_ips": 348,
       "recon_count": 120048,
       "recon_ips": 9,
-      "residual_count": 3909,
+      "residual_count": 3912,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 6501,
-      "distinct_ips": 396,
+      "count": 6502,
+      "distinct_ips": 397,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 6501,
+      "residual_count": 6502,
       "attribution": "none"
     },
     {
@@ -2137,18 +2137,18 @@
       "attribution": "none"
     },
     {
-      "id": "T1033",
-      "name": "System Owner/User Discovery",
-      "count": 8,
-      "distinct_ips": 8,
+      "id": "T1140",
+      "name": "Deobfuscate/Decode Files or Information",
+      "count": 9,
+      "distinct_ips": 9,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 8,
+      "residual_count": 9,
       "attribution": "none"
     },
     {
-      "id": "T1140",
-      "name": "Deobfuscate/Decode Files or Information",
+      "id": "T1033",
+      "name": "System Owner/User Discovery",
       "count": 8,
       "distinct_ips": 8,
       "recon_count": 0,
