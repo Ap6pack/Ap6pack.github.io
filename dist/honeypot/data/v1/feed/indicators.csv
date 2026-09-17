@@ -528,7 +528,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 117.158.166.73,2026-08-26T07:43:33.833584Z,2026-08-26T07:43:42.216579Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 117.177.235.249,2026-08-31T21:01:00.913568Z,2026-09-09T19:19:33.393984Z,2,1,0,0,low,connected_only,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 117.182.249.190,2026-08-29T03:52:24.508381Z,2026-08-29T03:52:53.768993Z,1,1,10,0,low,executed_commands,false,false,597732d320c38002,7,China,China Mobile Communications Corporation,chinamobile.com,false,5
-117.185.179.106,2026-09-10T19:36:16.536937Z,2026-09-10T19:36:16.544729Z,1,0,0,0,low,single_sighting,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,34
+117.185.179.106,2026-09-10T19:36:16.536937Z,2026-09-10T19:36:16.544729Z,1,0,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,34
 117.191.83.250,2026-08-26T11:52:33.256677Z,2026-09-13T09:30:09.910347Z,3,2,0,0,low,connected_only,false,true,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 117.198.99.18,2026-09-04T10:22:37.715261Z,2026-09-05T06:29:22.340131Z,3,2,0,0,low,connected_only,false,false,,7,India,"Broadband Multiplay Project, O/o DGM BB, NOC BSNL Bangalore",bsnl.in,false,100
 117.202.118.255,2026-09-03T06:20:05.929421Z,2026-09-03T06:20:14.592130Z,1,1,0,0,low,single_sighting,false,false,,7,India,"Broadband Multiplay Project, O/o DGM BB, NOC BSNL Bangalore",bsnl.in,false,42
@@ -1540,7 +1540,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 177.3.209.59,2026-08-23T05:17:47.882835Z,2026-08-23T05:17:47.883507Z,1,0,0,0,low,single_sighting,false,false,,7,United States,play2go.cloud - Cheap and reliable hosting,play2go.cloud,false,100
 177.37.42.149,2026-08-18T00:00:57.900991Z,2026-08-18T00:01:25.403422Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,COOPERATIVA AGUA Y SERVICIOS PUBLICOS UNQUILLO MENDIOLAZA LIMITADA,unquillomendiolaza.coop,false,0
 177.44.111.149,2026-08-26T11:38:27.164812Z,2026-08-26T11:38:44.967979Z,1,1,2,0,low,executed_commands,false,false,,7,Brazil,Rede Brasileira de Comunicacao S/A,com.com.br,false,22
-177.44.137.90,2026-08-25T18:32:16.446656Z,2026-09-10T19:52:41.808310Z,2,2,38,4,high,delivered_payload,false,true,b494a60fc55eda67,7,Brazil,InterSoft Internet Software EIRELI,redeintersoft.com.br,false,100
+177.44.137.90,2026-08-25T18:32:16.446656Z,2026-09-10T19:52:41.808310Z,2,2,38,4,low,delivered_payload,false,false,b494a60fc55eda67,7,Brazil,InterSoft Internet Software EIRELI,redeintersoft.com.br,false,100
 177.47.114.147,2026-09-04T07:38:28.417539Z,2026-09-04T07:38:32.705235Z,1,1,0,0,low,single_sighting,false,false,,7,Brazil,DataCorpore Serviços e Representações,datacorpore.com.br,false,57
 177.53.39.39,2026-09-05T03:38:40.514806Z,2026-09-05T03:40:06.626455Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Brazil,HELLO BRAZIL REPRESENTACAO DE COMERCIO DE EQUIPAM,hellobrazil.com.br,false,100
 177.65.107.71,2026-08-28T06:26:11.773667Z,2026-08-28T06:27:00.451467Z,2,2,31,5,low,delivered_payload,false,false,,7,Brazil,Claro NXT Telecomunicacoes Ltda,claro.com.br,false,100
@@ -5225,7 +5225,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 87.97.44.230,2026-09-10T16:26:16.929503Z,2026-09-10T16:27:41.546811Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Hungary,DIGI Tavkozlesi es Szolgaltato Kft.,digi.hu,false,100
 88.135.94.27,2026-09-09T16:44:46.049464Z,2026-09-09T16:46:34.509782Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,Telecommunication company FEONET+ LLC,feonet.net,false,100
 88.147.152.14,2026-08-28T11:04:53.218177Z,2026-08-28T11:04:59.221345Z,3,0,0,0,low,connected_only,false,false,,7,Russia,Network of Saratov branch of OJSC Volgatelecom,rt.ru,false,45
-88.147.152.191,2026-09-10T19:32:30.721516Z,2026-09-10T19:32:49.065761Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,Network of Saratov branch of OJSC Volgatelecom,rt.ru,false,89
+88.147.152.191,2026-09-10T19:32:30.721516Z,2026-09-10T19:32:49.065761Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,Network of Saratov branch of OJSC Volgatelecom,rt.ru,false,89
 88.147.152.229,2026-09-11T00:08:38.100153Z,2026-09-11T00:08:57.277025Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,Network of Saratov branch of OJSC Volgatelecom,rt.ru,false,55
 88.147.152.57,2026-08-24T01:41:58.298254Z,2026-08-24T01:43:38.411080Z,3,0,0,0,low,connected_only,false,false,,7,Russia,Network of Saratov branch of OJSC Volgatelecom,rt.ru,false,58
 88.147.153.162,2026-09-02T05:12:17.793926Z,2026-09-02T05:12:34.799837Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,Network of Saratov branch of OJSC Volgatelecom,rt.ru,false,62
