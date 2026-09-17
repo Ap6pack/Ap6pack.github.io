@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-17T14:30:19.351088+00:00",
+  "generated_at": "2026-09-17T15:00:19.333530+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-17T14:05:48.796064Z",
-  "total_events": 1441419,
-  "unique_sessions": 170928,
-  "unique_source_ips": 5652,
+  "last_event": "2026-09-17T14:48:52.597072Z",
+  "total_events": 1441425,
+  "unique_sessions": 170931,
+  "unique_source_ips": 5654,
   "login_attempts": 162258,
   "login_success": 159681,
   "commands_run": 326147,
@@ -136,8 +136,8 @@
   ],
   "event_breakdown": {
     "cowrie.command.input": 326147,
-    "cowrie.session.connect": 170928,
-    "cowrie.session.closed": 170252,
+    "cowrie.session.connect": 170931,
+    "cowrie.session.closed": 170255,
     "cowrie.login.success": 159681,
     "cowrie.session.params": 157810,
     "cowrie.log.closed": 157144,
@@ -292,7 +292,7 @@
     },
     {
       "date": "2026-09-17",
-      "count": 1311
+      "count": 1317
     }
   ],
   "published": {

@@ -1240,7 +1240,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 162.243.6.224,2026-09-09T15:18:56.003352Z,2026-09-09T15:26:21.927038Z,14,13,13,0,low,executed_commands,true,false,876deb10d4cf5b5c,7,United States,"DigitalOcean, LLC",digitalocean.com,false,100
 162.247.45.110,2026-09-03T11:43:11.978387Z,2026-09-03T11:47:42.185149Z,2,0,0,0,low,connected_only,false,false,,7,United States,HUNTER COMMUNICATIONS,huntercomm.net,false,100
 162.253.11.10,2026-09-11T18:05:21.224399Z,2026-09-11T18:05:21.227972Z,2,0,0,0,low,connected_only,false,true,,7,Canada,SaskTel Wide Area Network Engineering Center,sasktel.sk.ca,false,14
-162.255.112.183,2026-08-22T20:20:42.814210Z,2026-09-10T14:54:10.913368Z,4,4,124,20,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,Canada,Start Communications,start.ca,false,100
+162.255.112.183,2026-08-22T20:20:42.814210Z,2026-09-10T14:54:10.913368Z,4,4,124,20,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Canada,Start Communications,start.ca,false,100
 162.35.113.98,2026-09-03T03:20:02.425027Z,2026-09-03T03:20:04.741143Z,2,2,0,0,low,connected_only,false,false,,7,United States,"Interserver, Inc",interserver.net,false,100
 162.4.162.228,2026-08-20T19:24:33.084761Z,2026-08-20T19:24:33.825001Z,2,0,0,0,low,connected_only,false,false,,7,Pakistan,Trac & Tel Communications (SMC-PVT) Ltd.,tracntel.pk,false,42
 163.128.165.174,2026-08-26T01:06:33.271539Z,2026-08-26T03:08:17.696183Z,42,42,281,40,medium,persistent,false,false,e24ad5022d6d5a19,7,India,OM SHIV SAI INTERNET SERVICE OPC PVT LTD,omshivsai.com,false,100
@@ -4207,7 +4207,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 46.151.242.210,2026-08-27T09:23:19.930578Z,2026-09-04T14:05:13.334735Z,2,2,0,0,low,connected_only,false,false,,7,Russia,LLC Multiservice,taiget.ru,false,100
 46.16.99.38,2026-09-05T06:20:22.551391Z,2026-09-05T06:22:22.596136Z,1,0,0,0,low,single_sighting,false,false,,7,Russia,PJSC Vimpelcom,co.ru,false,37
 46.166.86.113,2026-08-21T22:16:03.186167Z,2026-08-21T22:16:03.187069Z,1,0,0,0,low,single_sighting,false,false,,7,Russia,Closed Joint Stock Company SibTransTelecom,sibttk.ru,false,0
-46.172.195.206,2026-09-10T14:41:43.695968Z,2026-09-10T14:42:00.009347Z,2,0,0,0,low,connected_only,false,true,,7,Ukraine,Sinev Maksim Viktorovich,mirgiga.net,false,35
+46.172.195.206,2026-09-10T14:41:43.695968Z,2026-09-10T14:42:00.009347Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,Sinev Maksim Viktorovich,mirgiga.net,false,35
 46.172.197.42,2026-09-01T17:29:09.197090Z,2026-09-09T08:18:56.874687Z,4,0,0,0,low,connected_only,false,false,,7,Ukraine,Sinev Maksim Viktorovich,mirgiga.net,false,3
 46.175.184.27,2026-09-06T03:40:46.291574Z,2026-09-06T03:42:10.766546Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Ukraine,BELNET LTD,bel.net.ua,false,100
 46.187.15.163,2026-09-13T10:06:57.354058Z,2026-09-13T10:07:14.554311Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,Net By Net Holding LLC,netbynet.ru,false,43
@@ -4545,7 +4545,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 59.46.182.10,2026-09-06T00:57:09.477886Z,2026-09-06T18:56:54.548475Z,2,2,0,0,low,connected_only,false,false,,7,China,CHINANET liaoning province network,chinatelecom.cn,false,100
 59.48.39.222,2026-09-04T08:04:05.233580Z,2026-09-04T08:04:14.413816Z,1,1,0,0,low,single_sighting,false,false,,7,China,CHINANET Shanxi province network,shanxitele.com,false,100
 59.48.40.6,2026-08-25T23:28:52.543433Z,2026-08-25T23:29:04.731404Z,1,0,0,0,low,single_sighting,false,false,,7,China,CHINANET Shanxi province network,shanxitele.com,false,100
-59.63.103.212,2026-09-10T14:55:58.594962Z,2026-09-10T14:57:58.696248Z,1,0,0,0,low,single_sighting,false,true,,7,China,CHINANET Jiangxi province network,online.jx.cn,false,41
+59.63.103.212,2026-09-10T14:55:58.594962Z,2026-09-10T14:57:58.696248Z,1,0,0,0,low,single_sighting,false,false,,7,China,CHINANET Jiangxi province network,online.jx.cn,false,41
 59.63.121.71,2026-09-03T03:06:45.829745Z,2026-09-03T03:07:00.599905Z,1,1,25,1,low,delivered_payload,false,false,8195b2dcdb0e74be,7,China,CHINANET Jiangxi province network,online.jx.cn,false,73
 59.8.104.168,2026-09-01T15:17:55.468844Z,2026-09-03T11:19:46.513766Z,3,3,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 59.8.109.37,2026-09-01T10:26:04.519292Z,2026-09-02T19:10:22.880104Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
