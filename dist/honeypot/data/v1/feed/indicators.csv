@@ -1615,7 +1615,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 178.224.53.154,2026-08-27T12:20:19.101099Z,2026-08-27T12:20:24.930158Z,1,1,0,0,low,single_sighting,false,false,,7,The Netherlands,Odido Netherlands B.V.,odido.nl,false,100
 178.248.6.200,2026-09-13T00:35:21.210181Z,2026-09-13T00:35:21.210944Z,1,0,0,0,low,single_sighting,false,true,,7,Russia,Consumer Internet Cooperative PG-19,pg19.ru,false,100
 178.249.244.158,2026-08-27T03:21:19.880406Z,2026-08-27T03:21:27.092954Z,2,0,0,0,low,connected_only,false,false,,7,Russia,"JSC Kursktelecom, ISP in Kursk city",kursktelecom.ru,false,100
-178.44.35.66,2026-09-10T23:01:15.272885Z,2026-09-10T23:01:33.254872Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,PJSC Rostelecom,rt.ru,false,100
+178.44.35.66,2026-09-10T23:01:15.272885Z,2026-09-10T23:01:33.254872Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,PJSC Rostelecom,rt.ru,false,100
 178.63.179.233,2026-09-03T21:42:39.444076Z,2026-09-03T21:42:40.099826Z,1,1,0,0,low,single_sighting,false,false,,7,Germany,Hetzner Online GmbH,hetzner.com,false,100
 178.63.84.111,2026-09-03T21:42:08.482969Z,2026-09-03T21:42:08.986223Z,1,1,0,0,low,single_sighting,false,false,,7,Germany,Hetzner Online GmbH,hetzner.com,false,40
 178.65.163.245,2026-09-06T16:08:16.445868Z,2026-09-06T16:09:23.943881Z,2,0,0,0,low,connected_only,false,false,,7,Russia,OJSC North-West Telecom,rt.ru,false,0
@@ -4106,7 +4106,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 45.181.247.28,2026-09-06T14:24:29.462013Z,2026-09-06T14:25:32.729991Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,UBI NETWORKING S.A. (UBIRED),ubired.com.ar,false,39
 45.182.220.37,2026-09-10T09:01:55.233088Z,2026-09-10T09:03:08.270185Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,GUAZU GROUP S.R.L.,elcable.tv,false,100
 45.183.156.9,2026-08-19T00:59:11.065327Z,2026-08-19T01:02:05.642228Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,HERRERA HORACIO HERNAN,cattel.com.ar,false,89
-45.183.184.74,2026-09-10T23:19:26.549401Z,2026-09-10T23:20:09.776911Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Bolivia,LOCH TEL SRL (GOLOCHTEL),golochtelnet.com,false,100
+45.183.184.74,2026-09-10T23:19:26.549401Z,2026-09-10T23:20:09.776911Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Bolivia,LOCH TEL SRL (GOLOCHTEL),golochtelnet.com,false,100
 45.183.229.245,2026-08-21T05:54:34.878846Z,2026-08-21T05:55:08.135701Z,3,0,0,0,low,connected_only,false,false,,7,Brazil,Goldfibra Telecomunicaçoes ltda.,goldfibra.com.br,false,53
 45.186.140.173,2026-09-13T19:42:00.109857Z,2026-09-13T19:43:31.125071Z,2,0,0,0,low,connected_only,false,true,,7,Ecuador,MENA CORNEJO HECTOR ELIAS (TECMESH),tecmesh.com.ec,false,23
 45.187.5.110,2026-09-13T20:35:07.209571Z,2026-09-13T20:35:15.915926Z,2,0,0,0,low,connected_only,false,true,,7,Venezuela,"T.V ZAMORA, C.A.",tvzamora.com,false,48
