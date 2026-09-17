@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 133569,
+        "total": 133570,
         "top_label": "T1027",
         "top_value": 123986,
-        "top_share": 0.9283,
+        "top_share": 0.9282,
         "top_sources": 350,
         "sources_total": 5645
       }
@@ -2143,11 +2143,11 @@
     {
       "id": "T1686",
       "name": "Disable or Modify System Firewall",
-      "count": 31,
-      "distinct_ips": 30,
+      "count": 32,
+      "distinct_ips": 31,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 31,
+      "residual_count": 32,
       "attribution": "none"
     },
     {
