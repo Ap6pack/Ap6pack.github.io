@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-17T11:30:18.853331+00:00",
+  "generated_at": "2026-09-17T12:00:19.301157+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-17T11:26:44.166778Z",
-  "total_events": 1441152,
-  "unique_sessions": 170872,
-  "unique_source_ips": 5636,
-  "login_attempts": 162249,
-  "login_success": 159672,
-  "commands_run": 326089,
+  "last_event": "2026-09-17T11:57:40.000402Z",
+  "total_events": 1441250,
+  "unique_sessions": 170886,
+  "unique_source_ips": 5643,
+  "login_attempts": 162251,
+  "login_success": 159674,
+  "commands_run": 326121,
   "files_captured": 21,
   "top_usernames": [
     [
@@ -135,20 +135,20 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 326089,
-    "cowrie.session.connect": 170872,
-    "cowrie.session.closed": 170196,
-    "cowrie.login.success": 159672,
-    "cowrie.session.params": 157801,
-    "cowrie.log.closed": 157135,
-    "cowrie.client.version": 123221,
-    "cowrie.client.kex": 122885,
-    "cowrie.telnet.option": 41567,
-    "cowrie.command.success": 3631,
+    "cowrie.command.input": 326121,
+    "cowrie.session.connect": 170886,
+    "cowrie.session.closed": 170210,
+    "cowrie.login.success": 159674,
+    "cowrie.session.params": 157803,
+    "cowrie.log.closed": 157137,
+    "cowrie.client.version": 123226,
+    "cowrie.client.kex": 122886,
+    "cowrie.telnet.option": 41570,
+    "cowrie.command.success": 3643,
     "cowrie.login.failed": 2577,
     "cowrie.session.file_download.failed": 1885,
     "cowrie.direct-tcpip.request": 1776,
-    "cowrie.session.file_download": 1607,
+    "cowrie.session.file_download": 1618,
     "cowrie.client.var": 47,
     "cowrie.session.file_upload": 42,
     "cowrie.telnet.error": 34,
@@ -292,7 +292,7 @@
     },
     {
       "date": "2026-09-17",
-      "count": 1044
+      "count": 1142
     }
   ],
   "published": {
@@ -351,7 +351,7 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 133495,
+        "total": 133496,
         "top_label": "T1027",
         "top_value": 123968,
         "top_share": 0.9286,
