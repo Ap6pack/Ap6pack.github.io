@@ -1772,7 +1772,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 181.192.71.22,2026-08-21T03:05:09.720934Z,2026-08-21T03:05:28.906332Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,CESOP,cesop.com.ar,false,34
 181.197.146.98,2026-08-26T02:02:29.950797Z,2026-08-26T02:02:32.952283Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Panama,Cable Onda,tigo.com.pa,false,100
 181.2.17.89,2026-09-15T07:41:30.216092Z,2026-09-15T07:45:45.923096Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,Telecom Personal Bs As,telecom.net.ar,false,47
-181.2.183.117,2026-09-10T12:40:35.529929Z,2026-09-10T12:40:35.530774Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,Telecom Argentina S.A.,personal.com.ar,false,23
+181.2.183.117,2026-09-10T12:40:35.529929Z,2026-09-10T12:40:35.530774Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,Telecom Argentina S.A.,personal.com.ar,false,23
 181.20.133.95,2026-08-22T22:49:25.717285Z,2026-08-22T22:50:18.701718Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,27
 181.20.196.225,2026-08-31T20:25:09.932310Z,2026-08-31T20:25:42.636551Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,41
 181.20.77.233,2026-08-20T07:11:53.415949Z,2026-08-20T07:11:53.416625Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,Telefonica de Argentina,telefonica.com.ar,false,23
@@ -3388,7 +3388,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 216.180.246.4,2026-08-27T06:38:07.988835Z,2026-08-27T06:43:18.937808Z,7,0,0,0,medium,persistent,false,false,,7,France,NETWORK TRANSIT HOLDINGS LLC,networktransit.net,false,0
 216.180.246.87,2026-09-02T05:25:49.805712Z,2026-09-02T05:37:40.255667Z,7,0,0,0,medium,persistent,false,false,,7,France,NETWORK TRANSIT HOLDINGS LLC,networktransit.net,false,0
 216.218.206.67,2026-08-28T02:44:17.876212Z,2026-08-28T02:44:18.343515Z,1,1,3,0,low,executed_commands,false,false,68fb52b2043bd68a,7,United States,"The Shadowserver Foundation, Inc.",shadowserver.org,false,100
-216.218.219.164,2026-09-07T11:45:29.101384Z,2026-09-10T12:32:25.150735Z,2,2,62,10,high,delivered_payload,false,true,2db8d2d5d6168520,7,Canada,Hurricane Electric LLC,he.net,false,100
+216.218.219.164,2026-09-07T11:45:29.101384Z,2026-09-10T12:32:25.150735Z,2,2,62,10,low,delivered_payload,false,false,2db8d2d5d6168520,7,Canada,Hurricane Electric LLC,he.net,false,100
 216.232.226.203,2026-09-04T15:07:37.483055Z,2026-09-04T15:07:45.271154Z,1,1,0,0,low,single_sighting,false,false,,7,Canada,TELUS-FIBRE-NVCRBC01,telus.net,false,100
 216.232.226.217,2026-09-04T14:32:04.357495Z,2026-09-04T17:55:40.640165Z,2,2,0,0,low,connected_only,false,false,,7,Canada,TELUS-FIBRE-NVCRBC01,telus.net,false,100
 216.244.197.10,2026-09-09T00:57:23.878764Z,2026-09-09T00:58:48.694780Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,64
@@ -3685,7 +3685,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 31.173.66.222,2026-08-31T05:11:18.693786Z,2026-09-09T05:27:46.445222Z,2,2,0,0,low,connected_only,false,false,,7,Russia,PJSC MegaFon,megafon.ru,false,100
 31.187.197.176,2026-09-03T18:42:17.944191Z,2026-09-03T18:42:18.430002Z,1,1,0,0,low,single_sighting,false,false,,7,The Netherlands,Odido Netherlands B.V.,odido.nl,false,100
 31.190.249.49,2026-09-06T09:29:12.627548Z,2026-09-06T09:32:13.420221Z,1,1,9,1,low,delivered_payload,false,false,0fc93cb647125c3a,7,Italy,Network and company tech merge from AS24608 into As1267,windtre.it,false,100
-31.190.93.20,2026-09-10T12:54:50.688062Z,2026-09-10T12:57:51.517231Z,1,1,8,1,high,delivered_payload,false,true,de1c44e38fec4017,7,Italy,Network and company tech merge from AS24608 into As1267,windtre.it,false,100
+31.190.93.20,2026-09-10T12:54:50.688062Z,2026-09-10T12:57:51.517231Z,1,1,8,1,low,delivered_payload,false,false,de1c44e38fec4017,7,Italy,Network and company tech merge from AS24608 into As1267,windtre.it,false,100
 31.215.221.175,2026-08-22T16:16:49.915136Z,2026-08-22T16:16:49.917020Z,2,0,0,0,low,connected_only,false,false,,7,United Arab Emirates,Emirates Telecommunications Corporation,etisalat.ae,false,29
 31.215.93.185,2026-09-04T06:46:36.123250Z,2026-09-04T06:46:36.124061Z,1,0,0,0,low,single_sighting,false,false,,7,United Arab Emirates,Emirates Telecommunications Corporation,etisalat.ae,false,56
 31.220.0.26,2026-08-22T02:52:55.323397Z,2026-08-23T16:31:20.268455Z,5,4,16,0,low,executed_commands,false,false,b7aa0a0dd982dcd8,7,The Netherlands,KODDOS,koddos.com,false,100
@@ -5121,7 +5121,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 84.5.129.68,2026-09-02T08:26:18.471441Z,2026-09-02T08:26:24.980169Z,1,1,0,0,low,single_sighting,false,false,,7,France,Societe Francaise Du Radiotelephone - SFR SA,sfr.fr,false,100
 84.54.70.115,2026-08-25T12:27:53.162244Z,2026-08-25T12:28:31.439825Z,2,0,0,0,low,connected_only,false,false,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,100
 84.54.70.13,2026-09-08T18:29:36.513073Z,2026-09-08T18:29:54.199770Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,100
-84.54.70.17,2026-09-10T12:53:36.192806Z,2026-09-10T12:53:36.193536Z,1,0,0,0,low,single_sighting,false,true,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,100
+84.54.70.17,2026-09-10T12:53:36.192806Z,2026-09-10T12:53:36.193536Z,1,0,0,0,low,single_sighting,false,false,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,100
 84.54.70.225,2026-09-10T17:40:32.281674Z,2026-09-10T17:40:49.943883Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,83
 84.54.70.25,2026-09-13T10:29:49.549825Z,2026-09-13T10:29:49.550573Z,1,0,0,0,low,single_sighting,false,true,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,72
 84.54.71.13,2026-09-17T08:35:43.196279Z,2026-09-17T08:35:43.198644Z,1,0,0,0,low,single_sighting,false,true,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,100
@@ -5136,7 +5136,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 84.54.73.179,2026-09-05T01:02:53.682660Z,2026-09-05T01:02:53.683473Z,1,0,0,0,low,single_sighting,false,false,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,80
 84.54.73.235,2026-09-04T00:28:30.628834Z,2026-09-04T00:28:34.752694Z,2,0,0,0,low,connected_only,false,false,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,84
 84.54.73.57,2026-09-01T09:33:11.181032Z,2026-09-01T09:33:11.181821Z,1,0,0,0,low,single_sighting,false,false,,7,Uzbekistan,Uzbektelekom Joint Stock Company,bkm.uz,false,100
-85.104.89.137,2026-09-10T12:33:56.548813Z,2026-09-10T12:34:14.044426Z,3,0,0,0,low,connected_only,false,true,,7,Türkiye,Turk Telekomunikasyon Anonim Sirketi,turktelekom.com.tr,false,62
+85.104.89.137,2026-09-10T12:33:56.548813Z,2026-09-10T12:34:14.044426Z,3,0,0,0,low,connected_only,false,false,,7,Türkiye,Turk Telekomunikasyon Anonim Sirketi,turktelekom.com.tr,false,62
 85.105.217.63,2026-09-03T08:10:21.150497Z,2026-09-03T08:10:28.327821Z,1,1,0,0,low,single_sighting,false,false,,7,Turkey,Turk Telekomunikasyon Anonim Sirketi,turktelekom.com.tr,false,100
 85.106.130.111,2026-09-07T13:30:07.152176Z,2026-09-07T13:30:07.152986Z,1,0,0,0,low,single_sighting,false,false,,7,Türkiye,Turk Telekomunikasyon Anonim Sirketi,turktelekom.com.tr,false,5
 85.107.111.228,2026-08-29T02:20:21.184537Z,2026-08-29T02:20:21.185709Z,1,0,0,0,low,single_sighting,false,false,,7,Türkiye,Turk Telekomunikasyon Anonim Sirketi,turktelekom.com.tr,false,0
