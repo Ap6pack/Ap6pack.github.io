@@ -282,7 +282,7 @@
     "lon": -121.9732,
     "country": "United States",
     "city": "Santa Clara",
-    "count": 6485,
+    "count": 6578,
     "abuse_score": 100,
     "abuse_reports": 833,
     "isp": "DigitalOcean, LLC",
@@ -3931,6 +3931,24 @@
     "ai_agent_signal": "suspected"
   },
   {
+    "ip": "18.116.101.220",
+    "lat": 40.0992,
+    "lon": -83.1141,
+    "country": "United States",
+    "city": "Dublin",
+    "count": 67,
+    "abuse_score": 100,
+    "abuse_reports": 12173,
+    "isp": "Amazon Technologies Inc.",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "amazon.com",
+    "is_tor": false,
+    "distinct_users": 718,
+    "last_reported_at": "2026-08-18T10:22:00+00:00",
+    "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
+    "hassh_shared_count": 24
+  },
+  {
     "ip": "203.101.186.198",
     "lat": 31.5826,
     "lon": 74.3276,
@@ -4089,24 +4107,6 @@
     "is_tor": false,
     "distinct_users": 2,
     "last_reported_at": "2026-09-10T00:17:41+00:00"
-  },
-  {
-    "ip": "18.116.101.220",
-    "lat": 40.0992,
-    "lon": -83.1141,
-    "country": "United States",
-    "city": "Dublin",
-    "count": 62,
-    "abuse_score": 100,
-    "abuse_reports": 12173,
-    "isp": "Amazon Technologies Inc.",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "amazon.com",
-    "is_tor": false,
-    "distinct_users": 718,
-    "last_reported_at": "2026-08-18T10:22:00+00:00",
-    "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
-    "hassh_shared_count": 24
   },
   {
     "ip": "92.118.39.14",
@@ -18382,6 +18382,22 @@
     "last_reported_at": "2026-08-29T03:13:49+00:00"
   },
   {
+    "ip": "188.237.134.11",
+    "lat": 47.0042,
+    "lon": 28.8574,
+    "country": "Moldova",
+    "city": "Chisinau",
+    "count": 12,
+    "abuse_score": 100,
+    "abuse_reports": 26,
+    "isp": "JSC Moldtelecom S.A.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "moldtelecom.md",
+    "is_tor": false,
+    "distinct_users": 22,
+    "last_reported_at": "2026-08-17T11:30:10+00:00"
+  },
+  {
     "ip": "93.171.33.87",
     "lat": 55.6197,
     "lon": 37.464,
@@ -26483,6 +26499,38 @@
     "is_tor": false,
     "distinct_users": 0,
     "last_reported_at": null
+  },
+  {
+    "ip": "78.26.151.164",
+    "lat": 46.4752,
+    "lon": 30.7338,
+    "country": "Ukraine",
+    "city": "Odesa",
+    "count": 8,
+    "abuse_score": 84,
+    "abuse_reports": 25,
+    "isp": "Renome-Service: Joint Multimedia Cable Network",
+    "usage_type": "Fixed Line ISP",
+    "domain": "sanaplus.ua",
+    "is_tor": false,
+    "distinct_users": 16,
+    "last_reported_at": "2026-09-17T13:37:01+00:00"
+  },
+  {
+    "ip": "94.243.9.212",
+    "lat": 57.1533,
+    "lon": 65.5418,
+    "country": "Russia",
+    "city": "Tyumen",
+    "count": 8,
+    "abuse_score": 32,
+    "abuse_reports": 4,
+    "isp": "MTS PJSC",
+    "usage_type": "Fixed Line ISP",
+    "domain": "mts.ru",
+    "is_tor": false,
+    "distinct_users": 4,
+    "last_reported_at": "2026-09-17T14:54:44+00:00"
   },
   {
     "ip": "181.25.202.92",
@@ -40879,22 +40927,6 @@
     "is_tor": false,
     "distinct_users": 26,
     "last_reported_at": "2026-08-09T22:45:50+00:00"
-  },
-  {
-    "ip": "188.237.134.11",
-    "lat": 47.0042,
-    "lon": 28.8574,
-    "country": "Moldova",
-    "city": "Chisinau",
-    "count": 6,
-    "abuse_score": 100,
-    "abuse_reports": 26,
-    "isp": "JSC Moldtelecom S.A.",
-    "usage_type": "Fixed Line ISP",
-    "domain": "moldtelecom.md",
-    "is_tor": false,
-    "distinct_users": 22,
-    "last_reported_at": "2026-08-17T11:30:10+00:00"
   },
   {
     "ip": "94.59.189.187",
@@ -62175,6 +62207,22 @@
     "hassh_shared_count": 15
   },
   {
+    "ip": "186.189.95.96",
+    "lat": -33.4521,
+    "lon": -70.6536,
+    "country": "Chile",
+    "city": "Santiago",
+    "count": 4,
+    "abuse_score": 20,
+    "abuse_reports": 5,
+    "isp": "WOM S.A.",
+    "usage_type": "Mobile ISP",
+    "domain": "wom.cl",
+    "is_tor": false,
+    "distinct_users": 4,
+    "last_reported_at": "2026-08-27T01:58:34+00:00"
+  },
+  {
     "ip": "195.20.6.224",
     "lat": 50.5709,
     "lon": 30.6643,
@@ -81175,6 +81223,22 @@
     "is_tor": false,
     "distinct_users": 2,
     "last_reported_at": "2026-09-18T02:20:12+00:00"
+  },
+  {
+    "ip": "130.185.101.27",
+    "lat": 32.0722,
+    "lon": 34.8089,
+    "country": "Israel",
+    "city": "Giv\u2018atayim",
+    "count": 2,
+    "abuse_score": 100,
+    "abuse_reports": 82,
+    "isp": "Pelephone Communications Ltd.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "pelephone.co.il",
+    "is_tor": false,
+    "distinct_users": 59,
+    "last_reported_at": "2026-09-18T01:56:14+00:00"
   },
   {
     "ip": "147.185.132.123",
