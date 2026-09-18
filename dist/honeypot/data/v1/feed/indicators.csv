@@ -818,7 +818,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 129.222.135.230,2026-09-15T05:30:54.917742Z,2026-09-15T05:31:59.423812Z,2,0,0,0,low,connected_only,false,true,,7,United States,"SpaceX Services, Inc.",spacex.com,false,16
 129.222.147.129,2026-09-13T01:28:29.221480Z,2026-09-13T01:36:18.620144Z,2,0,0,0,low,connected_only,false,true,,7,Kenya,"SpaceX Services, Inc.",spacex.com,false,44
 13.218.165.217,2026-09-03T04:42:31.885212Z,2026-09-03T04:42:31.900667Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
-13.218.201.98,2026-09-11T21:44:18.539650Z,2026-09-11T21:44:18.557934Z,1,0,0,0,low,single_sighting,false,true,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
+13.218.201.98,2026-09-11T21:44:18.539650Z,2026-09-11T21:44:18.557934Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
 13.218.90.220,2026-09-12T22:16:38.658207Z,2026-09-12T22:16:38.663340Z,1,0,0,0,low,single_sighting,false,true,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
 13.221.244.98,2026-08-19T22:18:51.740740Z,2026-08-19T22:18:51.760126Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
 13.222.142.21,2026-09-01T22:14:47.521812Z,2026-09-01T22:14:47.531210Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
@@ -1250,7 +1250,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 162.17.163.226,2026-08-23T13:29:34.154859Z,2026-09-18T03:58:27.575361Z,2,2,62,11,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,United States,"Comcast Cable Communications, LLC",comcast.com,false,100
 162.198.149.199,2026-09-13T18:09:22.830028Z,2026-09-13T18:10:53.236416Z,3,0,0,0,low,connected_only,false,true,,7,United States,"AT&T Enterprises, LLC",att.com,false,98
 162.207.190.99,2026-08-28T04:13:11.696037Z,2026-08-28T04:16:16.993040Z,2,0,0,0,low,connected_only,false,false,,7,United States,"AT&T Enterprises, LLC",att.com,false,100
-162.216.149.137,2026-09-11T21:55:57.347905Z,2026-09-11T21:55:57.387408Z,2,0,0,0,low,connected_only,false,true,,7,United States,Google LLC,google.com,false,0
+162.216.149.137,2026-09-11T21:55:57.347905Z,2026-09-11T21:55:57.387408Z,2,0,0,0,low,connected_only,false,false,,7,United States,Google LLC,google.com,false,0
 162.216.149.176,2026-09-10T06:31:25.715161Z,2026-09-10T06:31:41.708416Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Google LLC,google.com,false,0
 162.216.149.186,2026-08-27T08:23:51.244724Z,2026-08-27T08:23:51.272228Z,2,0,0,0,low,connected_only,false,false,,7,United States,Google LLC,google.com,false,0
 162.216.150.143,2026-09-09T20:01:04.179381Z,2026-09-09T20:01:14.160977Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Google LLC,google.com,false,0
@@ -2416,7 +2416,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 189.232.15.97,2026-08-25T22:37:37.429437Z,2026-08-25T22:37:37.431346Z,2,0,0,0,low,connected_only,false,false,,7,Mexico,Uninet S.A. de C.V.,telmex.com,false,38
 189.243.19.118,2026-08-27T12:44:56.500679Z,2026-08-31T11:58:40.238572Z,2,2,0,0,low,connected_only,false,false,,7,Mexico,Uninet S.A. de C.V.,uninet.net.mx,false,100
 189.28.222.126,2026-09-01T18:46:53.984177Z,2026-09-01T18:47:11.655785Z,1,1,2,0,low,executed_commands,false,false,,7,Brazil,UNIFIQUE TELECOMUNICACOES S/A,unifique.com.br,false,0
-189.45.239.199,2026-09-11T21:36:35.304078Z,2026-09-11T21:37:59.933438Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Brazil,ZAAZ PROVEDOR DE INTERNET E TELECOMUNICACOES LTDA,zaaztelecom.com.br,false,100
+189.45.239.199,2026-09-11T21:36:35.304078Z,2026-09-11T21:37:59.933438Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Brazil,ZAAZ PROVEDOR DE INTERNET E TELECOMUNICACOES LTDA,zaaztelecom.com.br,false,100
 189.52.52.162,2026-09-05T04:08:52.881287Z,2026-09-05T04:09:01.965884Z,1,1,0,0,low,single_sighting,false,false,,7,Brazil,Claro S/A,claro.com.br,false,100
 189.57.204.50,2026-09-04T10:22:46.784976Z,2026-09-09T18:56:11.744465Z,2,2,0,0,low,connected_only,false,false,,7,Brazil,TELEFÔNICA BRASIL S.A,telefonica.com.br,false,100
 189.85.113.183,2026-09-10T17:29:42.844269Z,2026-09-10T17:29:48.455084Z,3,0,0,0,low,connected_only,false,false,,7,Brazil,WEBNET Telecom,webnettelecom.com.br,false,0
@@ -5376,7 +5376,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 88.30.156.194,2026-09-02T08:56:17.287657Z,2026-09-02T08:56:17.288291Z,1,0,0,0,low,single_sighting,false,false,,7,Spain,TELEFONICA DE ESPANA S.A.U.,movistar.es,false,0
 88.65.207.233,2026-09-14T06:31:39.435435Z,2026-09-14T06:32:01.955962Z,2,0,0,0,low,connected_only,false,true,,7,Germany,ARCOR AG,arcor.net,false,5
 88.80.63.109,2026-09-08T17:02:50.430807Z,2026-09-08T17:03:08.766516Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,"LLC Grazhdan-Servis, Russia, Izhevsk",mts.ru,false,17
-88.90.224.38,2026-09-11T21:40:43.906149Z,2026-09-11T21:41:01.264580Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Norway,Telenor Norge AS,telenor.no,false,99
+88.90.224.38,2026-09-11T21:40:43.906149Z,2026-09-11T21:41:01.264580Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Norway,Telenor Norge AS,telenor.no,false,99
 88.99.186.178,2026-09-06T12:05:35.735380Z,2026-09-06T12:06:36.820042Z,1,1,16,0,low,executed_commands,false,false,3f467ba1b84b8427,7,Germany,Hetzner Online GmbH,hetzner.com,false,100
 89.105.235.54,2026-08-18T10:05:54.626954Z,2026-08-18T10:05:54.628825Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,PRIVATE JOINT-STOCK COMPANY FARLEP-INVEST,farlep.net,false,48
 89.109.47.199,2026-09-13T03:33:43.512690Z,2026-09-13T03:34:01.929904Z,1,1,3,0,medium,executed_commands,false,true,8410d6fdbfdbbf26,7,Russia,PJSC Rostelecom,rt.ru,false,13
