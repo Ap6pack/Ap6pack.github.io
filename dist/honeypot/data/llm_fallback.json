@@ -315,6 +315,11 @@
     "exit_code": 127
   },
   {
+    "command": "config terminal",
+    "output": "% config terminal\n%\n",
+    "exit_code": 0
+  },
+  {
     "command": "dY",
     "output": "dY: command not found\n",
     "exit_code": 127
@@ -382,6 +387,11 @@
   {
     "command": "shell",
     "output": "bash: shell: command not found\n",
+    "exit_code": 127
+  },
+  {
+    "command": "start",
+    "output": "start: command not found\n",
     "exit_code": 127
   },
   {
