@@ -487,7 +487,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 113.28.86.1,2026-08-25T05:05:49.064942Z,2026-08-31T09:54:16.582446Z,2,2,0,0,low,connected_only,false,false,,7,Hong Kong,BRIGHTEN INVESTMENT (HK) LIMITED,imsbiz.com,false,100
 113.53.194.225,2026-09-04T09:16:50.178000Z,2026-09-04T09:17:11.009508Z,1,0,0,0,low,single_sighting,false,false,,7,Thailand,TOT Public Company Limited,totisp.net,false,0
 113.53.203.76,2026-08-19T16:56:04.449933Z,2026-08-19T16:56:31.505894Z,2,0,0,0,low,connected_only,false,false,,7,Thailand,TOT Public Company Limited,totisp.net,false,0
-113.80.69.42,2026-09-12T01:11:06.785406Z,2026-09-12T01:15:43.109088Z,97,93,91,0,medium,executed_commands,false,true,,7,China,CHINANET Guangdong province network,chinatelecom.cn,false,13
+113.80.69.42,2026-09-12T01:11:06.785406Z,2026-09-12T01:15:43.109088Z,97,93,91,0,medium,persistent,false,false,,7,China,CHINANET Guangdong province network,chinatelecom.cn,false,13
 113.95.140.53,2026-09-16T01:31:26.363346Z,2026-09-16T01:31:38.915209Z,1,0,0,0,low,single_sighting,false,true,,7,China,CHINANET Guangdong province network,chinatelecom.cn,false,37
 114.132.204.82,2026-08-24T17:43:33.533209Z,2026-08-24T17:43:35.657530Z,1,1,0,0,low,single_sighting,false,false,,7,China,"Tencent cloud computing (Beijing) Co., Ltd.",tencentcloud.com,false,92
 114.139.184.43,2026-09-03T01:07:35.441314Z,2026-09-03T01:09:02.249564Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,China,CHINANET GUIZHOU PROVINCE NETWORK,chinatelecom.cn,false,100
@@ -636,7 +636,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 120.225.209.243,2026-08-25T15:32:44.395546Z,2026-08-25T15:34:44.419143Z,1,0,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,55
 120.227.216.246,2026-09-03T12:20:50.148119Z,2026-09-03T12:20:51.722685Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,46
 120.229.174.150,2026-09-02T08:33:59.979289Z,2026-09-02T08:34:01.394706Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,39
-120.229.235.91,2026-09-12T01:09:32.806012Z,2026-09-12T01:11:10.191680Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,China,China Mobile Communications Corporation,chinamobile.com,false,50
+120.229.235.91,2026-09-12T01:09:32.806012Z,2026-09-12T01:11:10.191680Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,China,China Mobile Communications Corporation,chinamobile.com,false,50
 120.230.14.244,2026-08-29T22:02:20.869886Z,2026-08-29T22:03:06.038653Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,China,China Mobile Communications Corporation,chinamobile.com,false,17
 120.234.232.184,2026-08-31T08:00:58.758907Z,2026-09-09T05:59:21.168214Z,2,2,0,0,low,connected_only,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
 120.235.114.127,2026-08-21T08:58:37.423428Z,2026-08-21T08:58:38.820942Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,5
@@ -2427,7 +2427,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 190.103.30.78,2026-08-31T03:11:09.135937Z,2026-08-31T03:11:11.529509Z,2,0,0,0,low,connected_only,false,false,,7,Venezuela,"CORPORACION FIBEX TELECOM, C.A.",fibextelecom.net,false,100
 190.104.248.27,2026-08-27T10:00:14.716436Z,2026-08-27T10:00:14.717548Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,CPS Comunicaciones SA (METROTEL),metrotel.com.ar,false,52
 190.104.36.98,2026-08-18T05:02:42.674043Z,2026-08-18T05:03:44.488221Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Jumpnet Soluciones de Internet S.R.L.,jumpnetcorp.com.ar,false,100
-190.104.37.114,2026-09-12T01:14:22.693828Z,2026-09-12T01:14:43.736225Z,3,0,0,0,low,connected_only,false,true,,7,Argentina,Jumpnet Soluciones de Internet S.R.L.,jumpnetcorp.com.ar,false,100
+190.104.37.114,2026-09-12T01:14:22.693828Z,2026-09-12T01:14:43.736225Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Jumpnet Soluciones de Internet S.R.L.,jumpnetcorp.com.ar,false,100
 190.104.39.129,2026-09-11T19:39:28.391034Z,2026-09-11T19:40:10.140091Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Jumpnet Soluciones de Internet S.R.L.,jumpnetcorp.com.ar,false,100
 190.106.254.70,2026-08-26T17:02:10.049321Z,2026-08-31T04:41:34.692137Z,2,2,0,0,low,connected_only,false,false,,7,Bolivia,Comteco Ltda,comteco.com.bo,false,100
 190.106.37.17,2026-09-13T04:06:26.178998Z,2026-09-13T04:06:26.179823Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,Iperactive SA,iperactive.com.ar,false,100
@@ -3071,7 +3071,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 200.59.88.128,2026-08-22T14:24:00.400790Z,2026-09-16T16:43:34.404646Z,3,3,51,6,high,delivered_payload,false,true,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.88.135,2026-09-08T13:16:33.049221Z,2026-09-08T13:17:57.936031Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.88.140,2026-08-19T19:29:37.155297Z,2026-08-19T19:30:21.861017Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Argentina,Sinectis S.A.,sion.com,false,100
-200.59.88.141,2026-09-07T20:33:52.822712Z,2026-09-12T01:24:23.694744Z,2,2,62,10,high,delivered_payload,false,true,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,58
+200.59.88.141,2026-09-07T20:33:52.822712Z,2026-09-12T01:24:23.694744Z,2,2,62,10,low,delivered_payload,false,false,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,58
 200.59.88.155,2026-09-10T18:03:36.893581Z,2026-09-10T18:05:01.924114Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.88.156,2026-09-12T19:29:46.003726Z,2026-09-12T19:31:11.724018Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,100
 200.59.88.169,2026-08-29T19:16:42.576530Z,2026-08-29T19:16:46.488401Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Argentina,Sinectis S.A.,sion.com,false,100
@@ -4144,7 +4144,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 45.156.87.189,2026-09-18T08:18:16.532318Z,2026-09-18T08:19:16.499723Z,1,0,0,0,low,single_sighting,false,true,,7,The Netherlands,TechTies Inc.,tech-ties.net,false,100
 45.157.52.13,2026-08-21T17:17:49.943073Z,2026-08-21T17:20:10.767560Z,2,0,0,0,low,connected_only,false,false,,7,Iraq,SmartLink for Internet Services LTD,smartlink-isp.com,false,52
 45.158.127.112,2026-09-18T03:51:55.724236Z,2026-09-18T03:52:55.724888Z,1,0,0,0,low,single_sighting,false,true,,7,United States,SERVA ONE LTD,serva.one,false,100
-45.160.15.5,2026-09-12T01:21:45.283148Z,2026-09-12T01:24:12.147171Z,2,0,0,0,low,connected_only,false,true,,7,Chile,SERVICIO DE TELECOMUNICACIONES VEMOS MAS LTDA.,vemosmas.cl,false,39
+45.160.15.5,2026-09-12T01:21:45.283148Z,2026-09-12T01:24:12.147171Z,2,0,0,0,low,connected_only,false,false,,7,Chile,SERVICIO DE TELECOMUNICACIONES VEMOS MAS LTDA.,vemosmas.cl,false,39
 45.160.190.13,2026-08-18T13:29:43.710783Z,2026-08-18T13:29:43.711803Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,SOCIEDAD GAMACON LIMITADA,gamacon.cl,false,100
 45.160.190.7,2026-08-18T13:30:16.068792Z,2026-08-18T13:30:16.070081Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,SOCIEDAD GAMACON LIMITADA,gamacon.cl,false,100
 45.160.190.8,2026-08-18T13:29:43.710102Z,2026-08-18T13:29:43.711330Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,SOCIEDAD GAMACON LIMITADA,gamacon.cl,false,100
