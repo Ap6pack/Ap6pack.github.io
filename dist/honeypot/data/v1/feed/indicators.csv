@@ -2241,7 +2241,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 186.19.123.46,2026-08-28T22:36:24.319197Z,2026-08-28T22:36:53.118266Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telecentro S.A. - Clientes Residenciales,telecentro.com.ar,false,5
 186.19.123.48,2026-09-01T20:06:17.189688Z,2026-09-01T20:06:24.088686Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Telecentro S.A. - Clientes Residenciales,telecentro.com.ar,false,36
 186.19.199.16,2026-08-31T11:40:24.421390Z,2026-08-31T11:42:39.698809Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telecentro S.A. - Clientes Residenciales,telecentro.com.ar,false,87
-186.193.229.82,2026-09-12T17:20:26.705476Z,2026-09-12T17:20:26.833565Z,1,0,0,0,low,single_sighting,false,true,,7,Brazil,CTINET SOLUCOES EM CONECTIVIDADE E INFORMATICA LTD,ctitech.net.br,false,100
+186.193.229.82,2026-09-12T17:20:26.705476Z,2026-09-12T17:20:26.833565Z,1,0,0,0,low,single_sighting,false,false,,7,Brazil,CTINET SOLUCOES EM CONECTIVIDADE E INFORMATICA LTD,ctitech.net.br,false,100
 186.193.28.147,2026-09-01T14:20:11.735490Z,2026-09-01T14:21:37.347649Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Brazil,Acesse Comunicação Ltda,acesseradio.com.br,false,24
 186.194.83.221,2026-08-31T18:55:23.221175Z,2026-09-09T14:45:04.162699Z,5,5,0,0,low,connected_only,false,false,,7,Brazil,MESSIAS NET FIBRA,messiasnetfibra.com.br,false,100
 186.204.88.21,2026-09-13T16:06:08.452143Z,2026-09-13T16:06:38.389327Z,2,0,0,0,low,connected_only,false,true,,7,Brazil,Claro NXT Telecomunicacoes Ltda,claro.com.br,false,100
@@ -4055,7 +4055,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 38.76.139.35,2026-08-18T17:33:10.759419Z,2026-08-18T17:34:11.802353Z,3,0,0,0,low,connected_only,false,false,,7,Venezuela,CORPORACION GALA IT C.A.,galait.net,false,77
 38.83.56.77,2026-08-26T02:50:35.521319Z,2026-08-26T02:51:03.013415Z,3,0,0,0,low,connected_only,false,false,,7,Dominican Republic,"2 Lights Conexion, S.R.L",2lights.com.do,false,0
 39.102.51.195,2026-08-20T06:30:38.678176Z,2026-08-20T06:30:41.227945Z,1,1,0,0,low,single_sighting,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
-39.104.208.231,2026-09-12T17:22:57.291341Z,2026-09-12T17:23:06.837920Z,2,0,0,0,low,connected_only,false,true,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,91
+39.104.208.231,2026-09-12T17:22:57.291341Z,2026-09-12T17:23:06.837920Z,2,0,0,0,low,connected_only,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,91
 39.105.212.205,2026-09-02T17:49:40.090973Z,2026-09-11T03:12:00.004475Z,3,0,0,0,low,connected_only,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
 39.105.64.243,2026-08-23T05:48:16.738696Z,2026-08-23T05:48:31.600442Z,1,1,15,1,low,delivered_payload,false,false,48f7054d319a25dc,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
 39.108.225.15,2026-09-04T01:05:10.930821Z,2026-09-04T03:29:27.130546Z,4,0,0,0,low,connected_only,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,68
@@ -5105,7 +5105,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 77.247.92.64,2026-09-14T03:41:15.862525Z,2026-09-14T03:41:35.777800Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Albania,Tele.Co.Albania SHPK,teleco-albania.al,false,100
 77.248.169.147,2026-09-05T07:23:52.000462Z,2026-09-05T07:24:26.866154Z,3,0,0,0,low,connected_only,false,false,,7,The Netherlands,CPE Customers NL,libertyglobal.com,false,53
 77.28.100.108,2026-08-26T16:19:53.145221Z,2026-08-26T16:19:53.145896Z,1,0,0,0,low,single_sighting,false,false,,7,North Macedonia,Makedonski Telekom AD-Skopje,telekom.mk,false,88
-77.35.199.14,2026-09-12T17:17:32.113941Z,2026-09-12T17:17:56.127334Z,1,1,4,0,medium,executed_commands,false,true,5f26f27bce92e930,7,Russia,Dynamic Broadband Clients,primorye.ru,false,0
+77.35.199.14,2026-09-12T17:17:32.113941Z,2026-09-12T17:17:56.127334Z,1,1,4,0,low,executed_commands,false,false,5f26f27bce92e930,7,Russia,Dynamic Broadband Clients,primorye.ru,false,0
 77.38.203.5,2026-08-26T19:00:08.018561Z,2026-09-06T18:37:04.442104Z,7,0,0,0,medium,persistent,false,false,,7,Latvia,SIA BITE Latvija,bite.lv,false,100
 77.38.223.76,2026-09-17T22:26:08.217077Z,2026-09-17T22:27:47.648206Z,2,0,0,0,low,connected_only,false,true,,7,Latvia,SIA BITE Latvija,bite.lv,false,100
 77.40.3.143,2026-08-29T17:25:45.466928Z,2026-08-29T17:25:45.467824Z,1,0,0,0,low,single_sighting,false,false,,7,Russia,PJSC Rostelecom,rt.ru,false,28
