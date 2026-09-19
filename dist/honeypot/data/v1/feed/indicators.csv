@@ -279,7 +279,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 106.153.181.80,2026-08-25T20:38:04.434173Z,2026-09-01T20:09:30.291221Z,2,2,0,0,low,connected_only,false,false,,7,Japan,"Japan Internet Xing Co., Ltd.",jpix.tokyo,false,100
 106.163.207.218,2026-09-19T09:15:36.299276Z,2026-09-19T09:15:39.941278Z,1,1,0,0,low,single_sighting,false,true,,7,Japan,KDDI CORPORATION,kddi.com,false,100
 106.215.196.188,2026-09-18T07:08:26.213073Z,2026-09-18T07:08:51.262941Z,2,0,0,0,low,connected_only,false,true,,7,India,Bharti Airtel Limited,airtel.in,false,0
-106.243.25.83,2026-09-12T16:45:58.497866Z,2026-09-12T16:46:01.779732Z,1,1,5,0,medium,executed_commands,false,true,d4224ad2d90953b1,7,South Korea,LG Uplus,lguplus.com,false,100
+106.243.25.83,2026-09-12T16:45:58.497866Z,2026-09-12T16:46:01.779732Z,1,1,5,0,low,executed_commands,false,false,d4224ad2d90953b1,7,South Korea,LG Uplus,lguplus.com,false,100
 106.245.246.26,2026-09-04T10:30:59.618411Z,2026-09-04T10:31:09.483459Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,LG Uplus,lguplus.com,false,100
 106.246.89.69,2026-08-31T06:55:26.077234Z,2026-09-02T07:38:45.560129Z,2,0,0,0,low,connected_only,false,false,,7,South Korea,LG DACOM Corporation,dacom.co.kr,false,100
 106.246.89.70,2026-09-01T23:28:32.571794Z,2026-09-05T22:42:10.350361Z,5,0,0,0,low,connected_only,false,false,,7,South Korea,LG DACOM Corporation,dacom.co.kr,false,100
@@ -2917,7 +2917,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 198.235.24.238,2026-09-08T10:40:30.824353Z,2026-09-08T10:40:41.129639Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.247,2026-08-17T23:25:18.413645Z,2026-09-18T23:03:27.596156Z,2,0,0,0,low,connected_only,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.25,2026-08-26T18:42:00.910888Z,2026-08-26T18:42:01.141539Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
-198.235.24.251,2026-09-12T16:44:23.062033Z,2026-09-12T16:44:33.903679Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
+198.235.24.251,2026-09-12T16:44:23.062033Z,2026-09-12T16:44:33.903679Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.29,2026-09-12T06:19:49.566268Z,2026-09-12T06:19:49.804104Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.30,2026-09-04T11:02:42.265466Z,2026-09-04T11:02:52.332146Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.35,2026-08-21T05:36:30.956497Z,2026-08-21T05:36:31.837583Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
@@ -3969,7 +3969,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 37.18.61.154,2026-08-18T05:45:40.261297Z,2026-08-18T05:46:00.143342Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,Individual entrepreneur Aliev Zalim Khasanovich,,false,100
 37.186.40.52,2026-09-01T13:18:40.906172Z,2026-09-01T13:18:58.119380Z,1,1,2,0,low,executed_commands,false,false,,7,Qatar,Vodafone Qatar P.Q.S.C,vodafone.qa,false,58
 37.194.136.31,2026-08-28T14:29:30.621430Z,2026-08-28T14:29:47.456506Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,Novotelecom Ltd,novotelecom.ru,false,35
-37.200.253.5,2026-09-12T16:53:14.586746Z,2026-09-12T16:53:51.608760Z,2,0,0,0,low,connected_only,false,true,,7,Oman,Omani Qatari Telecommunication Company SAOC,ooredoo.om,false,40
+37.200.253.5,2026-09-12T16:53:14.586746Z,2026-09-12T16:53:51.608760Z,2,0,0,0,low,connected_only,false,false,,7,Oman,Omani Qatari Telecommunication Company SAOC,ooredoo.om,false,40
 37.203.15.192,2026-08-26T01:49:54.162031Z,2026-08-26T01:49:54.162709Z,1,0,0,0,low,single_sighting,false,false,,7,Ukraine,TeNeT Networking Centre,te.net.ua,false,5
 37.212.3.112,2026-08-21T08:03:12.735240Z,2026-08-21T08:03:14.064523Z,2,0,0,0,low,connected_only,false,false,,7,Belarus,BELTELECOM,beltelecom.by,false,0
 37.214.20.163,2026-09-10T05:20:08.872099Z,2026-09-10T05:20:27.627018Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Belarus,BELTELECOM,beltelecom.by,false,17
@@ -4623,7 +4623,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 5.31.41.229,2026-08-24T00:44:57.449933Z,2026-09-06T15:04:43.991184Z,4,1,2,0,low,executed_commands,false,false,,7,United Arab Emirates,Emirates Integrated Telecommunications Company PJSC,du.ae,false,100
 5.35.157.210,2026-09-14T10:09:36.097222Z,2026-09-14T10:10:28.981688Z,2,0,0,0,low,connected_only,false,true,,7,Russia,ISP Irtelcom Ltd.,irtelcom.ru,false,40
 5.44.169.45,2026-08-31T14:15:14.744015Z,2026-08-31T14:15:33.110335Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,Sibirskie Seti,sibset-team.ru,false,100
-5.48.46.95,2026-09-12T16:51:00.625003Z,2026-09-12T16:51:07.494872Z,1,1,0,0,low,single_sighting,false,true,,7,France,Bouygues Telecom SA,bouyguestelecom.fr,false,100
+5.48.46.95,2026-09-12T16:51:00.625003Z,2026-09-12T16:51:07.494872Z,1,1,0,0,low,single_sighting,false,false,,7,France,Bouygues Telecom SA,bouyguestelecom.fr,false,100
 5.53.118.121,2026-08-31T12:35:54.885230Z,2026-08-31T12:36:16.622300Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,Dataline LLC,dataline.ua,false,100
 5.56.88.130,2026-09-14T03:20:39.056274Z,2026-09-14T03:20:56.666703Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Moldova,JSC Moldtelecom S.A.,moldtelecom.md,false,45
 5.58.23.106,2026-09-06T11:06:57.856245Z,2026-09-06T11:07:14.448874Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,"MAXNET TELECOM, LTD",maxnet.ua,false,58
