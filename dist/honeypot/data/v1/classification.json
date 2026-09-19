@@ -2173,16 +2173,6 @@
       "attribution": "none"
     },
     {
-      "id": "T1685.006",
-      "name": "Clear Linux or Mac System Logs",
-      "count": 9,
-      "distinct_ips": 9,
-      "recon_count": 0,
-      "recon_ips": 0,
-      "residual_count": 9,
-      "attribution": "none"
-    },
-    {
       "id": "T1140",
       "name": "Deobfuscate/Decode Files or Information",
       "count": 9,
@@ -2193,8 +2183,18 @@
       "attribution": "none"
     },
     {
-      "id": "T1016",
-      "name": "System Network Configuration Discovery",
+      "id": "T1685.006",
+      "name": "Clear Linux or Mac System Logs",
+      "count": 9,
+      "distinct_ips": 9,
+      "recon_count": 0,
+      "recon_ips": 0,
+      "residual_count": 9,
+      "attribution": "none"
+    },
+    {
+      "id": "T1033",
+      "name": "System Owner/User Discovery",
       "count": 8,
       "distinct_ips": 8,
       "recon_count": 0,
@@ -2203,8 +2203,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1033",
-      "name": "System Owner/User Discovery",
+      "id": "T1016",
+      "name": "System Network Configuration Discovery",
       "count": 8,
       "distinct_ips": 8,
       "recon_count": 0,
