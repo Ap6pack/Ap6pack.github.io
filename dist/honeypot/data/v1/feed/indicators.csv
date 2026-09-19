@@ -486,7 +486,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 113.211.214.80,2026-09-08T14:06:00.386865Z,2026-09-08T14:06:17.933951Z,1,1,2,0,low,executed_commands,false,false,,7,Malaysia,Maxis Broadband Sdn Bhd,maxis.com.my,false,16
 113.211.215.74,2026-09-09T14:21:15.751932Z,2026-09-09T14:21:15.753622Z,1,0,0,0,low,single_sighting,false,false,,7,Malaysia,Maxis Broadband Sdn Bhd,maxis.com.my,false,26
 113.219.35.118,2026-09-06T18:23:20.630809Z,2026-09-06T18:25:20.723753Z,1,0,0,0,low,single_sighting,false,false,,7,China,CHINANET HUNAN PROVINCE NETWORK,chinatelecom.cn,false,67
-113.235.228.168,2026-09-12T07:59:07.391560Z,2026-09-12T08:00:34.749772Z,1,1,31,5,high,delivered_payload,false,true,2db8d2d5d6168520,7,China,China Unicom Liaoning province network,chinaunicom.cn,false,72
+113.235.228.168,2026-09-12T07:59:07.391560Z,2026-09-12T08:00:34.749772Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,China,China Unicom Liaoning province network,chinaunicom.cn,false,72
 113.236.91.179,2026-08-23T03:49:22.643430Z,2026-08-23T03:54:55.027952Z,100,0,0,0,medium,persistent,false,false,,7,China,China Unicom Liaoning province network,chinaunicom.cn,false,0
 113.239.68.140,2026-09-08T12:55:02.912437Z,2026-09-08T12:56:36.396856Z,1,1,48,3,low,delivered_payload,false,false,99fd110b8b2c80eb,7,China,China Unicom Liaoning province network,chinaunicom.cn,false,100
 113.247.43.234,2026-08-19T21:18:00.935953Z,2026-08-19T21:18:29.225380Z,1,1,10,0,low,executed_commands,false,false,597732d320c38002,7,China,CHINANET HUNAN PROVINCE NETWORK,chinatelecom.cn,false,17
@@ -2860,7 +2860,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 198.235.24.129,2026-08-21T19:25:13.887691Z,2026-08-21T19:25:14.054221Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.131,2026-08-26T17:29:48.838583Z,2026-08-26T17:30:19.887064Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.138,2026-08-20T20:00:14.116346Z,2026-08-20T20:00:24.036076Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
-198.235.24.139,2026-09-03T02:49:07.619948Z,2026-09-12T08:02:25.046925Z,3,0,0,0,low,connected_only,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
+198.235.24.139,2026-09-03T02:49:07.619948Z,2026-09-12T08:02:25.046925Z,3,0,0,0,low,connected_only,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.145,2026-08-29T18:42:28.868206Z,2026-09-11T20:01:34.582222Z,2,0,0,0,low,connected_only,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.147,2026-08-17T22:54:46.198402Z,2026-08-17T22:54:56.288784Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 198.235.24.148,2026-09-01T20:41:25.462469Z,2026-09-01T20:41:26.474266Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
@@ -3782,7 +3782,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 31.129.235.214,2026-09-04T01:41:38.577675Z,2026-09-04T01:42:35.498338Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,ISP Syndicate,syndicate.net.ua,false,53
 31.129.79.58,2026-08-19T18:00:23.397275Z,2026-08-19T18:00:48.972335Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,Volodymyr Shtark,dnepro.net,false,28
 31.134.118.100,2026-08-24T22:23:51.628327Z,2026-08-24T22:24:09.067672Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,LLC VECHIR TELECOM,vechir.ua,false,52
-31.134.118.95,2026-08-23T23:04:42.926184Z,2026-09-12T08:11:02.788508Z,3,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,LLC VECHIR TELECOM,vechir.ua,false,55
+31.134.118.95,2026-08-23T23:04:42.926184Z,2026-09-12T08:11:02.788508Z,3,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,LLC VECHIR TELECOM,vechir.ua,false,55
 31.135.108.69,2026-09-07T11:16:20.490647Z,2026-09-07T11:16:38.944519Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,Ltd. Cypher,farline.net,false,100
 31.135.246.219,2026-08-25T06:22:40.449042Z,2026-08-25T06:23:01.467795Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,LLC Kurgan-Telecom,kurgan-telecom.net,false,25
 31.14.32.4,2026-09-17T04:23:19.461158Z,2026-09-17T04:23:19.789397Z,1,0,0,0,low,single_sighting,false,true,,7,The Netherlands,NewVM B.V.,newvm.nl,false,100
@@ -4675,7 +4675,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 59.22.68.213,2026-09-04T09:00:10.071823Z,2026-09-04T09:00:20.104457Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 59.23.20.15,2026-09-02T04:02:29.101489Z,2026-09-02T15:05:47.138888Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 59.23.40.73,2026-09-02T21:28:42.196771Z,2026-09-02T21:28:52.045647Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
-59.23.76.73,2026-09-04T01:21:32.166574Z,2026-09-12T08:21:09.631664Z,3,3,0,0,low,connected_only,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+59.23.76.73,2026-09-04T01:21:32.166574Z,2026-09-12T08:21:09.631664Z,3,3,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 59.24.3.230,2026-09-01T15:29:59.099014Z,2026-09-03T08:28:22.831687Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 59.25.31.152,2026-09-05T10:23:31.115186Z,2026-09-05T10:23:42.486173Z,1,1,22,11,low,delivered_payload,false,false,5af2de096f0bf35a,7,South Korea,Korea Telecom,kt.com,false,100
 59.29.50.64,2026-09-01T05:08:57.406845Z,2026-09-01T05:09:07.273975Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
