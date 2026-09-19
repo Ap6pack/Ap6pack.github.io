@@ -30,7 +30,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 100.54.143.192,2026-08-27T22:16:46.093842Z,2026-08-27T22:16:46.149447Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
 100.58.116.226,2026-08-24T22:18:22.997164Z,2026-08-26T22:15:25.895833Z,2,0,0,0,low,connected_only,false,false,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
 100.58.171.235,2026-09-16T22:18:35.252145Z,2026-09-16T22:18:35.261421Z,1,0,0,0,low,single_sighting,false,true,,7,United States,Amazon Data Services Northern Virginia,amazon.com,false,100
-101.13.1.58,2026-08-27T13:17:33.061508Z,2026-09-12T13:40:25.329465Z,6,6,0,0,medium,persistent,false,true,,7,Taiwan,"Taiwan Mobile Co., Ltd.",taiwanmobile.com,false,100
+101.13.1.58,2026-08-27T13:17:33.061508Z,2026-09-12T13:40:25.329465Z,6,6,0,0,medium,persistent,false,false,,7,Taiwan,"Taiwan Mobile Co., Ltd.",taiwanmobile.com,false,100
 101.13.3.207,2026-08-26T07:31:01.830189Z,2026-08-26T07:31:10.763151Z,1,1,0,0,low,single_sighting,false,false,,7,Taiwan,"Taiwan Mobile Co., Ltd.",taiwanmobile.com,false,100
 101.13.4.119,2026-08-31T05:44:03.846088Z,2026-09-09T17:28:09.945781Z,2,2,0,0,low,connected_only,false,false,,7,Taiwan,"Taiwan Mobile Co., Ltd.",taiwanmobile.com,false,100
 101.13.4.124,2026-09-03T22:51:19.502239Z,2026-09-09T19:26:20.758413Z,3,3,0,0,low,connected_only,false,false,,7,Taiwan,"Taiwan Mobile Co., Ltd.",taiwanmobile.com,false,100
@@ -450,7 +450,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 112.32.208.203,2026-08-26T21:44:09.644884Z,2026-08-26T21:44:11.168676Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,57
 112.38.33.204,2026-08-24T18:50:44.736582Z,2026-08-24T18:52:55.255994Z,1,1,53,5,low,delivered_payload,false,false,99387b9c6a9658c6,7,China,China Mobile Communications Corporation,chinamobile.com,false,0
 112.46.212.150,2026-09-17T01:06:25.301208Z,2026-09-17T01:06:31.792783Z,1,1,17,2,high,delivered_payload,false,true,8a659545373d63d5,7,China,China Mobile Communications Corporation,chinamobile.com,false,45
-112.46.212.164,2026-09-12T13:45:31.289128Z,2026-09-12T13:45:39.536900Z,1,1,18,2,high,delivered_payload,false,true,b8f9ffffa75fafa8,7,China,China Mobile Communications Corporation,chinamobile.com,false,34
+112.46.212.164,2026-09-12T13:45:31.289128Z,2026-09-12T13:45:39.536900Z,1,1,18,2,low,delivered_payload,false,false,b8f9ffffa75fafa8,7,China,China Mobile Communications Corporation,chinamobile.com,false,34
 112.46.212.180,2026-09-12T07:56:00.913314Z,2026-09-12T07:56:10.593126Z,1,1,19,2,low,delivered_payload,false,false,bd531c87d32ed361,7,China,China Mobile Communications Corporation,chinamobile.com,false,47
 112.46.212.210,2026-08-20T04:30:39.395548Z,2026-08-20T04:30:47.348771Z,1,1,18,2,low,delivered_payload,false,false,7deaa172063a46a1,7,China,China Mobile Communications Corporation,chinamobile.com,false,55
 112.46.213.103,2026-09-04T02:01:43.393682Z,2026-09-04T02:01:51.060221Z,1,2,18,2,low,delivered_payload,false,false,c77e83e9632d6a0b,7,China,China Mobile Communications Corporation,chinamobile.com,false,36
@@ -3355,7 +3355,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 210.0.90.81,2026-09-02T04:10:18.666135Z,2026-09-09T14:48:05.149324Z,2,2,0,0,low,connected_only,false,false,,7,Australia,AAPT Limited,vocus.com.au,false,100
 210.0.90.82,2026-09-09T13:59:43.463024Z,2026-09-09T14:38:14.937495Z,2,2,0,0,low,connected_only,false,false,,7,Australia,AAPT Limited,vocus.com.au,false,100
 210.104.222.189,2026-09-12T21:47:22.473490Z,2026-09-12T21:47:31.288904Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
-210.13.99.66,2026-09-09T13:46:38.475571Z,2026-09-12T13:40:44.442128Z,2,2,0,0,low,connected_only,false,true,,7,China,"Lei Jiesi Business Services (Shanghai) Co., Ltd.",chinaunicom.cn,false,100
+210.13.99.66,2026-09-09T13:46:38.475571Z,2026-09-12T13:40:44.442128Z,2,2,0,0,low,connected_only,false,false,,7,China,"Lei Jiesi Business Services (Shanghai) Co., Ltd.",chinaunicom.cn,false,100
 210.14.102.122,2026-09-13T04:56:21.256385Z,2026-09-13T04:56:39.166872Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Myanmar,Frontiir Co. Ltd,frontiir.net,false,25
 210.14.108.241,2026-08-19T07:01:15.405820Z,2026-08-19T07:02:09.966450Z,2,0,0,0,low,connected_only,false,false,,7,Myanmar,Frontiir Co. Ltd,frontiir.net,false,0
 210.14.97.243,2026-08-31T08:57:45.848189Z,2026-08-31T08:57:45.848898Z,1,0,0,0,low,single_sighting,false,false,,7,Myanmar,Frontiir Co. Ltd,frontiir.net,false,34
