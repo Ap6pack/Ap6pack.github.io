@@ -213,7 +213,7 @@
     "lon": -121.962,
     "country": "United States",
     "city": "Santa Clara",
-    "count": 13198,
+    "count": 13210,
     "abuse_score": 100,
     "abuse_reports": 1815,
     "isp": "DigitalOcean, LLC",
@@ -1478,6 +1478,23 @@
     "ai_agent_signal": "suspected"
   },
   {
+    "ip": "43.142.113.25",
+    "lat": 31.2222,
+    "lon": 121.4581,
+    "country": "China",
+    "city": "Shanghai",
+    "count": 110,
+    "abuse_score": 100,
+    "abuse_reports": 797,
+    "isp": "Tencent Cloud Computing (Beijing) Co., Ltd",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "tencentcloud.com",
+    "is_tor": false,
+    "distinct_users": 152,
+    "last_reported_at": "2026-09-19T14:40:17+00:00",
+    "ai_agent_signal": "suspected"
+  },
+  {
     "ip": "52.236.137.245",
     "lat": 52.3667,
     "lon": 4.9,
@@ -1647,6 +1664,24 @@
     "ai_agent_signal": "suspected"
   },
   {
+    "ip": "3.129.187.38",
+    "lat": 40.0992,
+    "lon": -83.1141,
+    "country": "United States",
+    "city": "Dublin",
+    "count": 98,
+    "abuse_score": 100,
+    "abuse_reports": 10310,
+    "isp": "Amazon Technologies Inc.",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "amazon.com",
+    "is_tor": false,
+    "distinct_users": 702,
+    "last_reported_at": "2026-08-18T08:25:28+00:00",
+    "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
+    "hassh_shared_count": 27
+  },
+  {
     "ip": "122.166.252.192",
     "lat": 12.9753,
     "lon": 77.591,
@@ -1731,24 +1766,6 @@
     "last_reported_at": "2026-08-18T05:41:55+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
     "hassh_shared_count": 42
-  },
-  {
-    "ip": "3.129.187.38",
-    "lat": 40.0992,
-    "lon": -83.1141,
-    "country": "United States",
-    "city": "Dublin",
-    "count": 91,
-    "abuse_score": 100,
-    "abuse_reports": 10310,
-    "isp": "Amazon Technologies Inc.",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "amazon.com",
-    "is_tor": false,
-    "distinct_users": 702,
-    "last_reported_at": "2026-08-18T08:25:28+00:00",
-    "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
-    "hassh_shared_count": 27
   },
   {
     "ip": "112.227.202.1",
@@ -10303,6 +10320,24 @@
     "last_reported_at": "2026-09-16T04:02:41+00:00"
   },
   {
+    "ip": "2.57.122.209",
+    "lat": 52.3676,
+    "lon": 4.90414,
+    "country": "The Netherlands",
+    "city": "Amsterdam",
+    "count": 38,
+    "abuse_score": 100,
+    "abuse_reports": 18987,
+    "isp": "TECHOFF SRV LIMITED",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "dmzhost.co",
+    "is_tor": false,
+    "distinct_users": 1406,
+    "last_reported_at": "2026-08-18T15:00:07+00:00",
+    "hassh": "2ec37a7cc8daf20b10e1ad6221061ca5",
+    "hassh_shared_count": 14
+  },
+  {
     "ip": "201.76.1.94",
     "lat": -28.9387,
     "lon": -49.5135,
@@ -13184,24 +13219,6 @@
     "is_tor": false,
     "distinct_users": 1,
     "last_reported_at": "2026-09-15T15:04:34+00:00"
-  },
-  {
-    "ip": "2.57.122.209",
-    "lat": 52.3676,
-    "lon": 4.90414,
-    "country": "The Netherlands",
-    "city": "Amsterdam",
-    "count": 20,
-    "abuse_score": 100,
-    "abuse_reports": 18987,
-    "isp": "TECHOFF SRV LIMITED",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "dmzhost.co",
-    "is_tor": false,
-    "distinct_users": 1406,
-    "last_reported_at": "2026-08-18T15:00:07+00:00",
-    "hassh": "2ec37a7cc8daf20b10e1ad6221061ca5",
-    "hassh_shared_count": 14
   },
   {
     "ip": "124.134.23.221",
@@ -27168,6 +27185,40 @@
     "is_tor": false,
     "distinct_users": 23,
     "last_reported_at": "2026-09-19T12:30:48+00:00"
+  },
+  {
+    "ip": "85.217.149.15",
+    "lat": 45.3161,
+    "lon": -73.8736,
+    "country": "Canada",
+    "city": "Beauharnois",
+    "count": 8,
+    "abuse_score": 100,
+    "abuse_reports": 3308,
+    "isp": "NL MODAT",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "modat.io",
+    "is_tor": false,
+    "distinct_users": 366,
+    "last_reported_at": "2026-09-04T04:51:58+00:00",
+    "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
+    "hassh_shared_count": 12
+  },
+  {
+    "ip": "194.24.237.41",
+    "lat": 49.2335,
+    "lon": 28.4817,
+    "country": "Ukraine",
+    "city": "Vinnytsia",
+    "count": 8,
+    "abuse_score": 52,
+    "abuse_reports": 8,
+    "isp": "RPC HomeNet Ltd.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "homenet.ua",
+    "is_tor": false,
+    "distinct_users": 8,
+    "last_reported_at": "2026-09-18T17:35:01+00:00"
   },
   {
     "ip": "181.25.202.92",
@@ -63824,6 +63875,40 @@
     "last_reported_at": "2026-09-17T00:00:26+00:00"
   },
   {
+    "ip": "189.219.96.118",
+    "lat": 25.8,
+    "lon": -100.3192,
+    "country": "Mexico",
+    "city": "General Escobedo",
+    "count": 4,
+    "abuse_score": 18,
+    "abuse_reports": 3,
+    "isp": "Television Internacional, S.A. de C.V.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "izzi.mx",
+    "is_tor": false,
+    "distinct_users": 3,
+    "last_reported_at": "2026-09-19T14:10:06+00:00"
+  },
+  {
+    "ip": "85.217.149.57",
+    "lat": 45.3161,
+    "lon": -73.8736,
+    "country": "Canada",
+    "city": "Beauharnois",
+    "count": 4,
+    "abuse_score": 100,
+    "abuse_reports": 7090,
+    "isp": "NL MODAT",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "modat.io",
+    "is_tor": false,
+    "distinct_users": 436,
+    "last_reported_at": "2026-09-19T14:20:07+00:00",
+    "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
+    "hassh_shared_count": 12
+  },
+  {
     "ip": "195.20.6.224",
     "lat": 50.5709,
     "lon": 30.6643,
@@ -73159,7 +73244,7 @@
     "distinct_users": 356,
     "last_reported_at": "2026-09-02T03:29:52+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 11
+    "hassh_shared_count": 12
   },
   {
     "ip": "85.217.149.28",
@@ -73177,7 +73262,7 @@
     "distinct_users": 346,
     "last_reported_at": "2026-09-02T03:00:04+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 11
+    "hassh_shared_count": 12
   },
   {
     "ip": "37.255.213.72",
@@ -74506,24 +74591,6 @@
     "last_reported_at": null
   },
   {
-    "ip": "85.217.149.15",
-    "lat": 45.3161,
-    "lon": -73.8736,
-    "country": "Canada",
-    "city": "Beauharnois",
-    "count": 4,
-    "abuse_score": 100,
-    "abuse_reports": 3308,
-    "isp": "NL MODAT",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "modat.io",
-    "is_tor": false,
-    "distinct_users": 366,
-    "last_reported_at": "2026-09-04T04:51:58+00:00",
-    "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 11
-  },
-  {
     "ip": "178.120.9.44",
     "lat": 52.0901,
     "lon": 23.6836,
@@ -75567,7 +75634,7 @@
     "distinct_users": 382,
     "last_reported_at": "2026-09-06T10:47:57+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 11
+    "hassh_shared_count": 12
   },
   {
     "ip": "5.58.23.106",
@@ -76871,7 +76938,7 @@
     "distinct_users": 340,
     "last_reported_at": "2026-09-09T03:54:30+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 11
+    "hassh_shared_count": 12
   },
   {
     "ip": "85.217.149.11",
@@ -76889,7 +76956,7 @@
     "distinct_users": 379,
     "last_reported_at": "2026-09-09T04:00:08+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 11
+    "hassh_shared_count": 12
   },
   {
     "ip": "198.235.24.168",
@@ -77671,7 +77738,7 @@
     "distinct_users": 367,
     "last_reported_at": "2026-09-11T00:47:48+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 11
+    "hassh_shared_count": 12
   },
   {
     "ip": "186.1.223.65",
@@ -78507,7 +78574,7 @@
     "distinct_users": 368,
     "last_reported_at": "2026-09-13T04:20:26+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 11
+    "hassh_shared_count": 12
   },
   {
     "ip": "66.132.195.82",
@@ -79677,7 +79744,7 @@
     "distinct_users": 372,
     "last_reported_at": "2026-09-15T07:06:15+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 11
+    "hassh_shared_count": 12
   },
   {
     "ip": "46.150.81.82",
@@ -80459,7 +80526,7 @@
     "distinct_users": 411,
     "last_reported_at": "2026-09-17T04:23:55+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 11
+    "hassh_shared_count": 12
   },
   {
     "ip": "217.196.163.15",
@@ -80559,7 +80626,7 @@
     "distinct_users": 390,
     "last_reported_at": "2026-09-17T10:24:38+00:00",
     "hassh": "bc3aee897af7d3feb9fc37b89c7d15c9",
-    "hassh_shared_count": 11
+    "hassh_shared_count": 12
   },
   {
     "ip": "154.124.143.166",
