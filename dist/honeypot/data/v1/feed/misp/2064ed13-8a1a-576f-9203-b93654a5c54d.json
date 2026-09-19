@@ -1,0 +1,45 @@
+{
+  "Event": {
+    "uuid": "2064ed13-8a1a-576f-9203-b93654a5c54d",
+    "info": "Sundew honeypot - campaign 0eea9ca9f3fb (1 sources) - echo SHELL_TEST",
+    "date": "2026-09-19",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "9bff932c-5cbd-5f24-986b-5164e339837b",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "14.225.71.128",
+        "timestamp": "1789828218",
+        "comment": "executed_commands, confidence medium; 22 sessions, 2 commands, 0 downloads; first_seen 2026-09-19T12:46:18.061856Z, last_seen 2026-09-19T12:47:28.168656Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "c158c52e-1ec7-5aa6-b1cc-e87235e57023",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "echo SHELL_TEST",
+        "timestamp": "1789828218",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}
