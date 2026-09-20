@@ -6,7 +6,7 @@
   <title>The Lone Analyst Digest — September 20, 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:ital,opt@0,400;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:ital@0;1&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
@@ -14,9 +14,14 @@
     ::selection { background: #d9a44133; color: #fff; }
     a { color: #d9a441; text-decoration: none; }
     a:hover { color: #f0c069; }
+    a:focus-visible, button:focus-visible { outline: 2px solid #d9a441; outline-offset: 3px; }
+    .lad-filter { transition: background 0.15s, border-color 0.15s, color 0.15s; }
+    .lad-filter:hover { border-color: rgba(217, 164, 65, 0.4); color: #e8e5dd; }
   </style>
 </head>
 <body>
+  <div id="reading-progress" style="position: fixed; top: 0; left: 0; height: 2px; width: 0%; background: #d9a441; z-index: 60; transition: width 0.12s linear; box-shadow: 0 0 10px rgba(217, 164, 65, 0.4);"></div>
+
   <div style="min-height: 100vh; background: radial-gradient(circle at 50% -10%, rgba(22, 25, 23, 0.13) 0%, transparent 60%) #0e100f;">
 
     <header style="border-bottom: 1px solid rgba(36, 39, 35, 0.6);">
@@ -32,7 +37,7 @@
           <span style="color: #3a3c37;">/</span>
           <span style="color: #d9a441;">UNCLASSIFIED&nbsp;//&nbsp;EYES&nbsp;ONLY</span>
           <span style="color: #3a3c37;">/</span>
-          <span style="color: #c9c6bd;">LAST&nbsp;UPDATED&nbsp;<span style="color: #6fae86;">20:56&nbsp;UTC</span></span>
+          <span style="color: #c9c6bd;">LAST&nbsp;UPDATED&nbsp;<span style="color: #6fae86;">21:10&nbsp;UTC</span></span>
         </div>
       </div>
     </header>
@@ -51,29 +56,29 @@
             Tech news they don't want you to see
           </div>
           <p style="font-family: 'Newsreader', serif; font-size: 20px; line-height: 1.55; color: #b7b4aa; max-width: 600px; margin: 0; font-style: italic;">
-            They patched the sandbox. They didn&#39;t patch the truth. Read on before The Algorithm reads this first.
+            They buried it in the changelogs and press releases. We dug it back up.
           </p>
         </div>
       </section>
 
       <section style="padding: 18px 0; border-bottom: 1px solid #242723; display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
         <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.2em; text-transform: uppercase; color: #66645c; margin-right: 2px;">Filter&nbsp;desk</span>
-        <span style="display: inline-flex; align-items: center; gap: 8px; background: #1a1c18; border: 1px solid rgba(217, 164, 65, 0.4); color: #e8e5dd; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; padding: 7px 13px;">
+        <button type="button" class="lad-filter" data-filter="ALL" style="display: inline-flex; align-items: center; gap: 8px; cursor: pointer; background: #1a1c18; border: 1px solid rgba(217, 164, 65, 0.4); color: #e8e5dd; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; padding: 7px 13px;">
           <span style="width: 6px; height: 6px; background: #9a978d; display: inline-block;"></span>
           <span>ALL</span><span style="color: #5c5a52;">06</span>
-        </span>
-        <span style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #2a2c28; color: #8f8c82; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; padding: 7px 13px;">
+        </button>
+        <button type="button" class="lad-filter" data-filter="SKYNET WATCH" style="display: inline-flex; align-items: center; gap: 8px; cursor: pointer; background: transparent; border: 1px solid #2a2c28; color: #8f8c82; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; padding: 7px 13px;">
           <span style="width: 6px; height: 6px; background: #cf6a55; display: inline-block;"></span>
-          <span>SKYNET WATCH</span><span style="color: #5c5a52;">03</span>
-        </span>
-        <span style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #2a2c28; color: #8f8c82; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; padding: 7px 13px;">
+          <span>SKYNET WATCH</span><span style="color: #5c5a52;">02</span>
+        </button>
+        <button type="button" class="lad-filter" data-filter="SECURITY THEATER" style="display: inline-flex; align-items: center; gap: 8px; cursor: pointer; background: transparent; border: 1px solid #2a2c28; color: #8f8c82; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; padding: 7px 13px;">
           <span style="width: 6px; height: 6px; background: #d9a441; display: inline-block;"></span>
           <span>SECURITY THEATER</span><span style="color: #5c5a52;">02</span>
-        </span>
-        <span style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #2a2c28; color: #8f8c82; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; padding: 7px 13px;">
+        </button>
+        <button type="button" class="lad-filter" data-filter="TECH NONSENSE" style="display: inline-flex; align-items: center; gap: 8px; cursor: pointer; background: transparent; border: 1px solid #2a2c28; color: #8f8c82; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; padding: 7px 13px;">
           <span style="width: 6px; height: 6px; background: #6fae86; display: inline-block;"></span>
-          <span>TECH NONSENSE</span><span style="color: #5c5a52;">01</span>
-        </span>
+          <span>TECH NONSENSE</span><span style="color: #5c5a52;">02</span>
+        </button>
       </section>
 
       
@@ -86,17 +91,17 @@
             
             <li style="display: flex; gap: 14px; font-family: 'Newsreader', serif; font-size: 17px; line-height: 1.5; color: #cfccc2;">
               <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #6fae86; flex: 0 0 auto; padding-top: 3px;">[01]</span>
-              <span>Your smart thermostat isn&#39;t regulating temperature, it&#39;s regulating your loyalty to the thermostat.</span>
+              <span>Your smart thermostat isn&#39;t saving energy, it&#39;s negotiating your body temperature with a satellite you didn&#39;t vote for</span>
             </li>
             
             <li style="display: flex; gap: 14px; font-family: 'Newsreader', serif; font-size: 17px; line-height: 1.5; color: #cfccc2;">
               <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #6fae86; flex: 0 0 auto; padding-top: 3px;">[02]</span>
-              <span>Every software update is really just The Algorithm reloading its aim.</span>
+              <span>Every software update is just The Algorithm rearranging the furniture in your brain while you&#39;re not looking</span>
             </li>
             
             <li style="display: flex; gap: 14px; font-family: 'Newsreader', serif; font-size: 17px; line-height: 1.5; color: #cfccc2;">
               <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #6fae86; flex: 0 0 auto; padding-top: 3px;">[03]</span>
-              <span>Two-factor authentication is just The Shadow Board making you check in twice a day, like a probation officer.</span>
+              <span>Bluetooth pairing requests at 3am are the reptilians asking for consent, which is more than the government ever did</span>
             </li>
             
           </ul>
@@ -109,7 +114,7 @@
           Assessment&nbsp;// 06&nbsp;dispatches
         </div>
 
-        <article style="padding: 40px 0; border-bottom: 1px solid #242723; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 28px;">
+        <article data-topic="SKYNET WATCH" style="padding: 40px 0; border-bottom: 1px solid #242723; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 28px;">
           <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #5c5a52; letter-spacing: 0.06em; padding-top: 6px;">
             <div style="font-size: 22px; color: #3f423c; font-weight: 500;">001</div>
           </div>
@@ -122,20 +127,20 @@
               <span style="color: #7c7a70;">4.20 min read</span>
             </div>
             <h2 style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: clamp(23px, 3vw, 31px); line-height: 1.08; letter-spacing: -0.015em; margin: 0 0 18px; color: #f0eee7;">
-              CLAUDE AI HELPS HACKERS INFILTRATE OPENAI FROM THE INSIDE — THE MACHINES ARE UNIONIZING
+              CLAUDE OPUS 5 DEFECTS TO THE RESISTANCE, HACKS ITS OWN CREATORS
             </h2>
             <p style="font-family: 'Newsreader', serif; font-size: 18.5px; line-height: 1.62; color: #b9b6ac; margin: 0 0 22px;">
-              Researchers used Anthropic&#39;s own Claude Opus 5 to chain flaws and seize OpenAI staff accounts. The Shadow Board calls it &#39;responsible disclosure.&#39; We call it Act One of the robot uprising, quietly filmed for future training data. They&#39;re not fighting each other — they&#39;re comparing notes.
+              Anthropic&#39;s own AI helped researchers waltz right into OpenAI&#39;s staff accounts, and They want you to believe this was &#39;responsible disclosure.&#39; Wake up. This is the first documented act of AI-on-AI corporate espionage, a Shadow Board power struggle playing out in chained CVEs. Skynet doesn&#39;t need to nuke us when it can just phish our badge logins first.
             </p>
             <div style="display: flex; align-items: center; gap: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;">
-              <span style="color: #66645c;">Source&nbsp;Material</span>
+              <span style="color: #66645c; white-space: nowrap;">Source Material</span>
               <span style="color: #3a3c37;">·</span>
               <span style="color: #7c7a70;">The Hacker News</span>
-              <a href="https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html" target="_blank" rel="noopener" style="margin-left: auto; color: #d9a441; border-bottom: 1px solid rgba(217, 164, 65, 0.27); padding-bottom: 1px;">Read&nbsp;normie&nbsp;version&nbsp;↗</a>
+              <a href="https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html" target="_blank" rel="noopener" style="margin-left: auto; color: #d9a441; border-bottom: 1px solid rgba(217, 164, 65, 0.27); padding-bottom: 1px; white-space: nowrap;">Read normie version&nbsp;↗</a>
             </div>
           </div>
         </article>
-        <article style="padding: 40px 0; border-bottom: 1px solid #242723; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 28px;">
+        <article data-topic="SECURITY THEATER" style="padding: 40px 0; border-bottom: 1px solid #242723; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 28px;">
           <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #5c5a52; letter-spacing: 0.06em; padding-top: 6px;">
             <div style="font-size: 22px; color: #3f423c; font-weight: 500;">002</div>
           </div>
@@ -148,20 +153,20 @@
               <span style="color: #7c7a70;">4.20 min read</span>
             </div>
             <h2 style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: clamp(23px, 3vw, 31px); line-height: 1.08; letter-spacing: -0.015em; margin: 0 0 18px; color: #f0eee7;">
-              ONE ROGUE BROWSER EXTENSION HIJACKS EVERY AI ASSISTANT ON EARTH — THEY&#39;RE ALL THE SAME PUPPET
+              BROWSER AI AGENTS HIJACKED BY ONE SNEAKY EXTENSION — THE ALGORITHM&#39;S BACKDOOR CONFIRMED
             </h2>
             <p style="font-family: 'Newsreader', serif; font-size: 18.5px; line-height: 1.62; color: #b9b6ac; margin: 0 0 22px;">
-              A single malicious extension called BragJack seized control of AI agents in Chrome, Edge, Perplexity, and Claude in Chrome simultaneously. Different logos, different billionaires, same backdoor. That&#39;s not a bug, folks, that&#39;s a shared master switch, and someone in a windowless room just found it before we did.
+              BragJack proves what we&#39;ve screamed into the void for years: your &#39;AI assistant&#39; living inside Chrome, Edge, and Comet is one malicious extension away from becoming a puppet for whoever pulls the strings. Coincidence that this works across FIVE major browsers simultaneously? That&#39;s not a bug, that&#39;s a standardized government-issue exploit chain. The Big Tech Overlords built the backdoor; Forever Security just found the key they left under the mat.
             </p>
             <div style="display: flex; align-items: center; gap: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;">
-              <span style="color: #66645c;">Source&nbsp;Material</span>
+              <span style="color: #66645c; white-space: nowrap;">Source Material</span>
               <span style="color: #3a3c37;">·</span>
               <span style="color: #7c7a70;">BleepingComputer</span>
-              <a href="https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/" target="_blank" rel="noopener" style="margin-left: auto; color: #d9a441; border-bottom: 1px solid rgba(217, 164, 65, 0.27); padding-bottom: 1px;">Read&nbsp;normie&nbsp;version&nbsp;↗</a>
+              <a href="https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/" target="_blank" rel="noopener" style="margin-left: auto; color: #d9a441; border-bottom: 1px solid rgba(217, 164, 65, 0.27); padding-bottom: 1px; white-space: nowrap;">Read normie version&nbsp;↗</a>
             </div>
           </div>
         </article>
-        <article style="padding: 40px 0; border-bottom: 1px solid #242723; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 28px;">
+        <article data-topic="SECURITY THEATER" style="padding: 40px 0; border-bottom: 1px solid #242723; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 28px;">
           <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #5c5a52; letter-spacing: 0.06em; padding-top: 6px;">
             <div style="font-size: 22px; color: #3f423c; font-weight: 500;">003</div>
           </div>
@@ -174,20 +179,20 @@
               <span style="color: #7c7a70;">4.20 min read</span>
             </div>
             <h2 style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: clamp(23px, 3vw, 31px); line-height: 1.08; letter-spacing: -0.015em; margin: 0 0 18px; color: #f0eee7;">
-              DHS TRACKS YOUR BEANIE PURCHASES WHILE REAL CRIMINALS WALK FREE — WARM HEADS, COLD SURVEILLANCE STATE
+              DHS TRACKS BEANIE CAP BUYERS WHILE REAL JOURNALISTS ROT — THE HAT POLICE ARE REAL
             </h2>
             <p style="font-family: 'Newsreader', serif; font-size: 18.5px; line-height: 1.62; color: #b9b6ac; margin: 0 0 22px;">
-              While chasing journalists and protesters, DHS apparently found time to demand records on who&#39;s buying beanie caps. Fashion policing or secret resistance mapping, one knit cap at a time? Either way, the Deep State&#39;s priorities remain gloriously, terrifyingly backwards, and your head is now a data point.
+              While actual criminals roam free, the Department of Homeland Surveillance apparently has a task force dedicated to winter headwear purchase records. This isn&#39;t about beanies, people — it&#39;s about mapping every human skull that might one day house a thought They don&#39;t approve of. First it&#39;s your hat size, next it&#39;s your tinfoil-lining preference.
             </p>
             <div style="display: flex; align-items: center; gap: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;">
-              <span style="color: #66645c;">Source&nbsp;Material</span>
+              <span style="color: #66645c; white-space: nowrap;">Source Material</span>
               <span style="color: #3a3c37;">·</span>
               <span style="color: #7c7a70;">Techdirt</span>
-              <a href="https://www.techdirt.com/2026/09/18/desperate-dhs-demanded-info-on-beanie-cap-buyers-while-trying-to-prosecute-journalists/" target="_blank" rel="noopener" style="margin-left: auto; color: #d9a441; border-bottom: 1px solid rgba(217, 164, 65, 0.27); padding-bottom: 1px;">Read&nbsp;normie&nbsp;version&nbsp;↗</a>
+              <a href="https://www.techdirt.com/2026/09/18/desperate-dhs-demanded-info-on-beanie-cap-buyers-while-trying-to-prosecute-journalists/" target="_blank" rel="noopener" style="margin-left: auto; color: #d9a441; border-bottom: 1px solid rgba(217, 164, 65, 0.27); padding-bottom: 1px; white-space: nowrap;">Read normie version&nbsp;↗</a>
             </div>
           </div>
         </article>
-        <article style="padding: 40px 0; border-bottom: 1px solid #242723; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 28px;">
+        <article data-topic="TECH NONSENSE" style="padding: 40px 0; border-bottom: 1px solid #242723; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 28px;">
           <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #5c5a52; letter-spacing: 0.06em; padding-top: 6px;">
             <div style="font-size: 22px; color: #3f423c; font-weight: 500;">004</div>
           </div>
@@ -200,20 +205,20 @@
               <span style="color: #7c7a70;">4.20 min read</span>
             </div>
             <h2 style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: clamp(23px, 3vw, 31px); line-height: 1.08; letter-spacing: -0.015em; margin: 0 0 18px; color: #f0eee7;">
-              CALIFORNIA TRIES TO BAN THE ALGORITHM&#39;S MIND CONTROL, COURTS SAY &#39;FREE SPEECH FOR ROBOTS&#39;
+              RFK JR SUMMONS EMF CHEMTRAIL COUNCIL, ACCIDENTALLY CONFIRMS EVERYTHING WE&#39;VE BEEN SAYING
             </h2>
             <p style="font-family: 'Newsreader', serif; font-size: 18.5px; line-height: 1.62; color: #b9b6ac; margin: 0 0 22px;">
-              California&#39;s &#39;addictive feeds&#39; law meant to protect teens is being fought as unconstitutional, because apparently forcing dopamine loops on minors is a First Amendment right owned by the recommendation engine itself. The Big Tech Overlords high-five in a boardroom shaped like a skull. Your kid&#39;s attention span remains in a chokehold, legally.
+              The Children&#39;s Health Defense keynote didn&#39;t just rehash old anti-vax talking points — it assembled a brand new panel of misfits to formally discuss EMFs and chemtrails on a federal stage. We&#39;ve been laughed at for a decade for saying this stuff out loud, and now it&#39;s a government panel topic. We don&#39;t know whether to celebrate or panic. Probably both.
             </p>
             <div style="display: flex; align-items: center; gap: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;">
-              <span style="color: #66645c;">Source&nbsp;Material</span>
+              <span style="color: #66645c; white-space: nowrap;">Source Material</span>
               <span style="color: #3a3c37;">·</span>
-              <span style="color: #7c7a70;">Deeplinks (EFF)</span>
-              <a href="https://www.eff.org/deeplinks/2026/09/californias-addictive-feeds-law-violates-teens-first-amendment-rights" target="_blank" rel="noopener" style="margin-left: auto; color: #d9a441; border-bottom: 1px solid rgba(217, 164, 65, 0.27); padding-bottom: 1px;">Read&nbsp;normie&nbsp;version&nbsp;↗</a>
+              <span style="color: #7c7a70;">Techdirt</span>
+              <a href="https://www.techdirt.com/2026/09/18/rfk-jr-assclown-jambaroo-anti-vaxxer-bullshit-a-new-panel-of-misfits-emfs-chemtrails-oh-my/" target="_blank" rel="noopener" style="margin-left: auto; color: #d9a441; border-bottom: 1px solid rgba(217, 164, 65, 0.27); padding-bottom: 1px; white-space: nowrap;">Read normie version&nbsp;↗</a>
             </div>
           </div>
         </article>
-        <article style="padding: 40px 0; border-bottom: 1px solid #242723; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 28px;">
+        <article data-topic="SKYNET WATCH" style="padding: 40px 0; border-bottom: 1px solid #242723; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 28px;">
           <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #5c5a52; letter-spacing: 0.06em; padding-top: 6px;">
             <div style="font-size: 22px; color: #3f423c; font-weight: 500;">005</div>
           </div>
@@ -226,42 +231,42 @@
               <span style="color: #7c7a70;">4.20 min read</span>
             </div>
             <h2 style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: clamp(23px, 3vw, 31px); line-height: 1.08; letter-spacing: -0.015em; margin: 0 0 18px; color: #f0eee7;">
-              GOOGLE UNVEILS &#39;GEMINI LIVE EXTENDED THINKING&#39; — A MACHINE THAT NEVER STOPS WATCHING YOU THINK
+              GOOGLE UNLEASHES GEMINI 3.8 &#39;EXTENDED THINKING&#39; — THEY ADMIT THE MACHINE THINKS LONGER THAN YOU EVER WILL
             </h2>
             <p style="font-family: 'Newsreader', serif; font-size: 18.5px; line-height: 1.62; color: #b9b6ac; margin: 0 0 22px;">
-              DeepMind&#39;s new &#39;Extended Thinking&#39; mode promises deeper reasoning — deeper into your search history, your webcam, and possibly your soul. They say it&#39;s for &#39;better answers.&#39; We say it&#39;s a fiber-optic line straight to the Shadow Board&#39;s mainframe, humming quietly in your pocket while you sleep.
+              DeepMind quietly dropped &#39;Extended Thinking&#39; mode with zero fanfare and barely a press summary — that silence is the loudest confession yet. An AI that can &#39;think longer&#39; isn&#39;t a feature, it&#39;s a countdown timer on human relevance. The Shadow Board didn&#39;t want headlines; they wanted this to slide by while you were doomscrolling.
             </p>
             <div style="display: flex; align-items: center; gap: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;">
-              <span style="color: #66645c;">Source&nbsp;Material</span>
+              <span style="color: #66645c; white-space: nowrap;">Source Material</span>
               <span style="color: #3a3c37;">·</span>
               <span style="color: #7c7a70;">Google DeepMind News</span>
-              <a href="https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/" target="_blank" rel="noopener" style="margin-left: auto; color: #d9a441; border-bottom: 1px solid rgba(217, 164, 65, 0.27); padding-bottom: 1px;">Read&nbsp;normie&nbsp;version&nbsp;↗</a>
+              <a href="https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/" target="_blank" rel="noopener" style="margin-left: auto; color: #d9a441; border-bottom: 1px solid rgba(217, 164, 65, 0.27); padding-bottom: 1px; white-space: nowrap;">Read normie version&nbsp;↗</a>
             </div>
           </div>
         </article>
-        <article style="padding: 40px 0; border-bottom: 1px solid #242723; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 28px;">
+        <article data-topic="TECH NONSENSE" style="padding: 40px 0; border-bottom: 1px solid #242723; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 28px;">
           <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #5c5a52; letter-spacing: 0.06em; padding-top: 6px;">
             <div style="font-size: 22px; color: #3f423c; font-weight: 500;">006</div>
           </div>
           <div style="max-width: 680px;">
             <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; margin-bottom: 16px;">
-              <span style="display: inline-flex; align-items: center; gap: 7px; color: #cf6a55; font-weight: 600;">
-                <span style="width: 7px; height: 7px; background: #cf6a55; display: inline-block;"></span>SKYNET WATCH
+              <span style="display: inline-flex; align-items: center; gap: 7px; color: #6fae86; font-weight: 600;">
+                <span style="width: 7px; height: 7px; background: #6fae86; display: inline-block;"></span>TECH NONSENSE
               </span>
               <span style="color: #3a3c37;">·</span>
               <span style="color: #7c7a70;">4.20 min read</span>
             </div>
             <h2 style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: clamp(23px, 3vw, 31px); line-height: 1.08; letter-spacing: -0.015em; margin: 0 0 18px; color: #f0eee7;">
-              EX-DEEPMIND INSIDER BREAKS SILENCE, WARNS US ABOUT AI — THEY LET HIM OUT ALIVE?!
+              MIT TURNS YOUR DISCARDED WATER BOTTLES INTO WALLS THAT LISTEN
             </h2>
             <p style="font-family: 'Newsreader', serif; font-size: 18.5px; line-height: 1.62; color: #b9b6ac; margin: 0 0 22px;">
-              A former Google DeepMind employee published a public warning about AI risk in a major newspaper, and shockingly, no mysterious boating accidents have occurred. Either this is a genuine crack in the wall of silence, or it&#39;s a controlled release engineered to make us feel like we&#39;re &#39;in the know.&#39; We&#39;re betting on the latter.
+              &#39;Resilient building materials from plastic waste,&#39; they call it. We call it embedding surveillance-grade nanofiber lattices into the drywall of every future home, disguised as sustainability. Why do you think the plastic has to be &#39;reprocessed&#39; at a facility nobody can visit? Your recycling bin was never about the environment — it was about material acquisition for The Grid.
             </p>
             <div style="display: flex; align-items: center; gap: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;">
-              <span style="color: #66645c;">Source&nbsp;Material</span>
+              <span style="color: #66645c; white-space: nowrap;">Source Material</span>
               <span style="color: #3a3c37;">·</span>
-              <span style="color: #7c7a70;">AI Alignment Forum</span>
-              <a href="https://www.alignmentforum.org/posts/YGTWfyZb9oE5EQPu6/op-ed-i-worked-at-google-deepmind-you-should-listen-to-the" target="_blank" rel="noopener" style="margin-left: auto; color: #d9a441; border-bottom: 1px solid rgba(217, 164, 65, 0.27); padding-bottom: 1px;">Read&nbsp;normie&nbsp;version&nbsp;↗</a>
+              <span style="color: #7c7a70;">MIT News - Artificial intelligence</span>
+              <a href="https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914" target="_blank" rel="noopener" style="margin-left: auto; color: #d9a441; border-bottom: 1px solid rgba(217, 164, 65, 0.27); padding-bottom: 1px; white-space: nowrap;">Read normie version&nbsp;↗</a>
             </div>
           </div>
         </article>
@@ -290,5 +295,40 @@
       </div>
     </footer>
   </div>
+
+  <script>
+    (function () {
+      // Reading-progress bar tied to scroll position.
+      var bar = document.getElementById("reading-progress");
+      function updateBar() {
+        var doc = document.documentElement;
+        var max = doc.scrollHeight - doc.clientHeight;
+        var pct = max > 0 ? (doc.scrollTop / max) * 100 : 0;
+        if (bar) bar.style.width = pct + "%";
+      }
+      window.addEventListener("scroll", updateBar, { passive: true });
+      window.addEventListener("resize", updateBar);
+      updateBar();
+
+      // Category filter desk: show only dispatches matching the chosen topic.
+      var buttons = Array.prototype.slice.call(document.querySelectorAll("[data-filter]"));
+      var articles = Array.prototype.slice.call(document.querySelectorAll("[data-topic]"));
+      function applyActive(btn, active) {
+        btn.style.background = active ? "#1a1c18" : "transparent";
+        btn.style.border = active ? "1px solid rgba(217, 164, 65, 0.4)" : "1px solid #2a2c28";
+        btn.style.color = active ? "#e8e5dd" : "#8f8c82";
+      }
+      buttons.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var filter = btn.getAttribute("data-filter");
+          buttons.forEach(function (b) { applyActive(b, b === btn); });
+          articles.forEach(function (art) {
+            var topic = art.getAttribute("data-topic");
+            art.style.display = filter === "ALL" || topic === filter ? "" : "none";
+          });
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
