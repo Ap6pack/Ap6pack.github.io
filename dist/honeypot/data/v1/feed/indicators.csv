@@ -1014,7 +1014,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 143.198.101.40,2026-09-03T04:34:35.468694Z,2026-09-03T04:34:35.604681Z,2,0,0,0,low,connected_only,false,false,,7,United States,"DigitalOcean, LLC",digitalocean.com,false,69
 143.198.163.134,2026-09-08T15:11:30.197276Z,2026-09-08T15:19:42.961431Z,5,4,2,0,low,executed_commands,false,false,7002e7827601cc7b,7,United States,"DigitalOcean, LLC",digitalocean.com,false,100
 143.198.196.195,2026-09-04T17:37:16.725516Z,2026-09-04T17:37:16.726406Z,1,0,0,0,low,single_sighting,false,false,,7,Singapore,"DigitalOcean, LLC",digitalocean.com,false,100
-143.198.73.7,2026-09-13T22:35:04.167216Z,2026-09-13T22:35:04.302283Z,2,0,0,0,low,connected_only,false,true,,7,United States,"DigitalOcean, LLC",digitalocean.com,false,22
+143.198.73.7,2026-09-13T22:35:04.167216Z,2026-09-13T22:35:04.302283Z,2,0,0,0,low,connected_only,false,false,,7,United States,"DigitalOcean, LLC",digitalocean.com,false,22
 143.202.97.82,2026-09-01T10:30:34.582821Z,2026-09-14T14:04:09.272973Z,7,0,0,0,medium,persistent,false,true,,7,Argentina,Wireless Provider,wirelessprovider.com.ar,false,100
 143.208.38.141,2026-09-03T04:49:12.609267Z,2026-09-03T04:50:37.228990Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,Argentina,SANTA CRUZ AUGUSTO JULIAN (SONYTEL),sonytel.com.ar,false,100
 143.208.44.2,2026-08-21T11:48:28.441896Z,2026-08-21T11:48:48.404534Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Facundo Valentini (Vallenet),vallenet.com.ar,false,100
@@ -1887,7 +1887,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 181.224.191.13,2026-09-04T02:30:25.372366Z,2026-09-04T02:30:26.826967Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Atcco S.R.L.,atcco.com.ar,false,24
 181.224.66.21,2026-09-18T11:41:13.399854Z,2026-09-18T11:46:58.271320Z,4,0,0,0,low,connected_only,false,true,,7,Chile,NETV SPA,netv.cl,false,100
 181.224.66.22,2026-08-24T15:25:12.763700Z,2026-08-24T15:25:12.765223Z,2,0,0,0,low,connected_only,false,false,,7,Chile,NETV SPA,netv.cl,false,100
-181.224.80.64,2026-09-13T22:57:08.897547Z,2026-09-13T22:57:26.497055Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Brazil,PLANET LINK LTDA,planetlinkbandalarga.com.br,false,100
+181.224.80.64,2026-09-13T22:57:08.897547Z,2026-09-13T22:57:26.497055Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Brazil,PLANET LINK LTDA,planetlinkbandalarga.com.br,false,100
 181.225.32.155,2026-08-24T16:04:11.403023Z,2026-08-24T16:04:14.096822Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Venezuela,IFX Networks Venezuela C.A.,ifxnw.com.ve,false,100
 181.225.32.48,2026-08-19T07:28:35.896362Z,2026-08-20T11:46:01.930943Z,2,2,41,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,Venezuela,IFX Networks Venezuela C.A.,ifxnw.com.ve,false,100
 181.225.32.50,2026-08-17T16:28:36.317648Z,2026-08-18T18:59:15.774589Z,2,2,18,0,low,executed_commands,false,false,8f5b43888537469a,7,Venezuela,IFX Networks Venezuela C.A.,ifxnw.com.ve,false,100
@@ -3392,7 +3392,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 205.210.31.166,2026-08-29T22:15:03.721133Z,2026-08-29T22:15:13.610202Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 205.210.31.168,2026-09-18T16:48:15.832002Z,2026-09-18T16:48:46.776187Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 205.210.31.17,2026-08-19T07:25:12.338721Z,2026-09-07T07:31:53.558828Z,2,0,0,0,low,connected_only,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
-205.210.31.172,2026-09-13T22:39:00.704038Z,2026-09-13T22:39:11.304266Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
+205.210.31.172,2026-09-13T22:39:00.704038Z,2026-09-13T22:39:11.304266Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 205.210.31.173,2026-09-13T20:58:44.928274Z,2026-09-13T20:58:54.808044Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 205.210.31.185,2026-08-29T16:27:00.419026Z,2026-08-29T16:27:11.168403Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 205.210.31.193,2026-08-31T21:03:55.947289Z,2026-08-31T21:03:56.138203Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
@@ -4212,7 +4212,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 41.242.162.69,2026-09-10T14:26:22.261961Z,2026-09-10T14:27:36.074423Z,2,0,0,0,low,connected_only,false,false,,7,South Africa,SADV (Pty) Ltd,sadv.co.za,false,65
 41.248.149.214,2026-09-04T21:02:21.686809Z,2026-09-04T21:06:39.842769Z,3,0,0,0,low,connected_only,false,false,,7,Morocco,ADSL_Maroc_telecom,menara.ma,false,0
 41.248.27.30,2026-08-24T11:25:15.917569Z,2026-08-24T11:25:15.931623Z,2,0,0,0,low,connected_only,false,false,,7,Morocco,ADSL_Maroc_telecom,menara.ma,false,5
-41.248.69.175,2026-09-13T22:48:30.073695Z,2026-09-13T22:49:06.037148Z,2,0,0,0,low,connected_only,false,true,,7,Morocco,ADSL_Maroc_telecom,menara.ma,false,0
+41.248.69.175,2026-09-13T22:48:30.073695Z,2026-09-13T22:49:06.037148Z,2,0,0,0,low,connected_only,false,false,,7,Morocco,ADSL_Maroc_telecom,menara.ma,false,0
 41.249.117.31,2026-08-22T09:55:40.413787Z,2026-08-22T09:56:54.112138Z,4,0,0,0,low,connected_only,false,false,,7,Morocco,ADSL_Maroc_telecom,menara.ma,false,23
 41.249.125.255,2026-08-31T02:35:07.674548Z,2026-08-31T02:35:08.506273Z,3,0,0,0,low,connected_only,false,false,,7,Morocco,ADSL_Maroc_telecom,menara.ma,false,24
 41.249.25.143,2026-08-18T16:38:46.468151Z,2026-08-18T16:39:04.184947Z,1,1,2,0,low,executed_commands,false,false,,7,Morocco,ADSL_Maroc_telecom,menara.ma,false,0
@@ -4395,7 +4395,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 45.233.26.73,2026-09-16T14:13:09.727082Z,2026-09-16T14:13:27.260984Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Brazil,SILVESTRE EVANGELISTA ALVES ME,sylbernet.com.br,false,94
 45.233.91.9,2026-08-30T02:49:19.820569Z,2026-08-30T02:49:21.949391Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Brazil,D.R SERVICOS DE COMUNICACAO LTDA - ME,drnetjpa.com.br,false,100
 45.234.183.77,2026-08-18T13:50:10.845303Z,2026-08-18T13:51:04.000054Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,TERAN JORGE LUIS (Social Datos),sd.net.ar,false,0
-45.234.212.12,2026-09-13T22:58:01.551095Z,2026-09-13T22:58:01.716782Z,2,0,0,0,low,connected_only,false,true,,7,Brazil,ÁGIL TECOMUNICACOES LTDA,hrvirtual.com.br,false,100
+45.234.212.12,2026-09-13T22:58:01.551095Z,2026-09-13T22:58:01.716782Z,2,0,0,0,low,connected_only,false,false,,7,Brazil,ÁGIL TECOMUNICACOES LTDA,hrvirtual.com.br,false,100
 45.234.33.94,2026-08-26T04:13:05.059678Z,2026-08-26T04:13:10.176811Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,ISPCOM S.A.,0345concordia.com.ar,false,0
 45.235.38.208,2026-08-28T05:24:59.284065Z,2026-08-28T05:27:18.800337Z,2,0,0,0,low,connected_only,false,false,,7,Chile,ANMAX TELECOMUNICACIONES MAXIMILIANO BIONDI EIRL,zgh.cl,false,100
 45.236.103.176,2026-08-28T22:05:21.319853Z,2026-08-28T22:05:21.320518Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,DIAZ MARCELA ALEJANDRA(PATAGONIA DIGITAL),patagoniadigitaltw.com,false,28
@@ -5594,7 +5594,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 89.147.194.161,2026-08-18T18:02:37.570871Z,2026-08-18T18:02:59.211442Z,1,1,3,0,low,executed_commands,false,false,cdeea28a0da7d13d,7,Azerbaijan,START TELECOM LLC,starttelecom.az,false,43
 89.148.197.171,2026-09-20T00:30:46.242449Z,2026-09-20T00:31:04.074059Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,MTS PJSC,mts.ru,false,26
 89.148.37.150,2026-09-11T16:06:14.225028Z,2026-09-11T16:06:28.654972Z,2,0,0,0,low,connected_only,false,false,,7,Bahrain,Batelco ADSL service,batelco.com.bh,false,24
-89.151.179.239,2026-09-13T22:44:57.320291Z,2026-09-13T22:44:57.321217Z,1,0,0,0,low,single_sighting,false,true,,7,Russia,PJSC Rostelecom,rt.ru,false,27
+89.151.179.239,2026-09-13T22:44:57.320291Z,2026-09-13T22:44:57.321217Z,1,0,0,0,low,single_sighting,false,false,,7,Russia,PJSC Rostelecom,rt.ru,false,27
 89.151.186.108,2026-09-06T19:03:28.299129Z,2026-09-08T19:18:05.108571Z,2,2,4,0,low,executed_commands,false,false,,7,Russia,PJSC Rostelecom,rt.ru,false,21
 89.151.186.96,2026-09-04T02:53:57.628479Z,2026-09-04T02:54:16.805033Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,PJSC Rostelecom,rt.ru,false,72
 89.152.30.13,2026-08-24T20:22:31.091423Z,2026-08-24T20:22:50.158123Z,1,1,2,0,low,executed_commands,false,false,,7,Portugal,NOS COMUNICACOES S.A.,nos.pt,false,100
