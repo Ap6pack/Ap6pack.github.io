@@ -50,11 +50,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 134265,
+        "total": 134297,
         "top_label": "T1027",
-        "top_value": 124125,
-        "top_share": 0.9245,
-        "top_sources": 368,
+        "top_value": 124135,
+        "top_share": 0.9243,
+        "top_sources": 370,
         "sources_total": 6002
       }
     ]
@@ -2177,31 +2177,31 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 124125,
-      "distinct_ips": 368,
+      "count": 124135,
+      "distinct_ips": 370,
       "recon_count": 120048,
       "recon_ips": 9,
-      "residual_count": 4077,
+      "residual_count": 4087,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 6941,
-      "distinct_ips": 420,
+      "count": 6957,
+      "distinct_ips": 422,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 6941,
+      "residual_count": 6957,
       "attribution": "none"
     },
     {
       "id": "T1105",
       "name": "Ingress Tool Transfer",
-      "count": 2587,
-      "distinct_ips": 391,
+      "count": 2591,
+      "distinct_ips": 393,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 2587,
+      "residual_count": 2591,
       "attribution": "none"
     },
     {
@@ -2255,6 +2255,16 @@
       "attribution": "none"
     },
     {
+      "id": "T1033",
+      "name": "System Owner/User Discovery",
+      "count": 9,
+      "distinct_ips": 9,
+      "recon_count": 0,
+      "recon_ips": 0,
+      "residual_count": 9,
+      "attribution": "none"
+    },
+    {
       "id": "T1140",
       "name": "Deobfuscate/Decode Files or Information",
       "count": 9,
@@ -2275,23 +2285,13 @@
       "attribution": "none"
     },
     {
-      "id": "T1033",
-      "name": "System Owner/User Discovery",
+      "id": "T1087",
+      "name": "Account Discovery",
       "count": 8,
       "distinct_ips": 8,
       "recon_count": 0,
       "recon_ips": 0,
       "residual_count": 8,
-      "attribution": "none"
-    },
-    {
-      "id": "T1087",
-      "name": "Account Discovery",
-      "count": 7,
-      "distinct_ips": 7,
-      "recon_count": 0,
-      "recon_ips": 0,
-      "residual_count": 7,
       "attribution": "none"
     }
   ],
