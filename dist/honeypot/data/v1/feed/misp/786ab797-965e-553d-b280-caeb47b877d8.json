@@ -1,7 +1,7 @@
 {
   "Event": {
-    "uuid": "b3fe64cb-f96e-5fb9-8933-c61449f7cc2d",
-    "info": "Sundew honeypot - campaign b142980c5f6c (2 sources) - enable",
+    "uuid": "786ab797-965e-553d-b280-caeb47b877d8",
+    "info": "Sundew honeypot - campaign 40b0852bd7ef (1 sources) - sh",
     "date": "2026-09-20",
     "analysis": "2",
     "threat_level_id": "3",
@@ -23,52 +23,16 @@
     ],
     "Attribute": [
       {
-        "uuid": "cc8bb8a0-1c80-516b-b5cc-bef901ff7d01",
+        "uuid": "4c1cc737-91c0-5174-8691-c6e628e174fc",
         "type": "ip-src",
         "category": "Network activity",
         "to_ids": false,
-        "value": "175.205.37.98",
+        "value": "213.42.81.50",
         "timestamp": "1789918219",
-        "comment": "executed_commands, confidence medium; 1 sessions, 5 commands, 0 downloads; first_seen 2026-09-17T18:30:26.218542Z, last_seen 2026-09-17T18:32:36.531394Z; expires 7d after last_seen"
+        "comment": "executed_commands, confidence medium; 1 sessions, 6 commands, 0 downloads; first_seen 2026-09-20T13:11:01.531033Z, last_seen 2026-09-20T13:11:03.273671Z; expires 7d after last_seen"
       },
       {
-        "uuid": "34788126-67ac-5a76-8ecf-b4084a9a92e8",
-        "type": "ip-src",
-        "category": "Network activity",
-        "to_ids": false,
-        "value": "190.52.38.102",
-        "timestamp": "1789918219",
-        "comment": "executed_commands, confidence medium; 1 sessions, 5 commands, 0 downloads; first_seen 2026-09-20T14:24:30.948117Z, last_seen 2026-09-20T14:24:34.428231Z; expires 7d after last_seen"
-      },
-      {
-        "uuid": "1d2a72ae-be0d-5b5a-9bc7-c09f3a5ec17d",
-        "type": "text",
-        "category": "Artifacts dropped",
-        "to_ids": false,
-        "value": "enable",
-        "timestamp": "1789918219",
-        "comment": "command run by this campaign"
-      },
-      {
-        "uuid": "ba34aa73-163d-5359-a1b4-6f6534de7949",
-        "type": "text",
-        "category": "Artifacts dropped",
-        "to_ids": false,
-        "value": "system",
-        "timestamp": "1789918219",
-        "comment": "command run by this campaign"
-      },
-      {
-        "uuid": "f8e14250-7643-502a-8a47-adf215ff0d28",
-        "type": "text",
-        "category": "Artifacts dropped",
-        "to_ids": false,
-        "value": "shell",
-        "timestamp": "1789918219",
-        "comment": "command run by this campaign"
-      },
-      {
-        "uuid": "90d0c2ec-2032-578f-9537-b13238764e49",
+        "uuid": "7c753680-68ac-5ebf-ae66-a71447a8f54b",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
@@ -77,11 +41,47 @@
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "9e28c59f-c950-5aa7-8ef1-1a1374a21558",
+        "uuid": "155ea31d-b4ea-59be-96d7-c8a5844f3668",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "/bin/busybox KURC",
+        "value": "shell",
+        "timestamp": "1789918219",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "fbf4bbc8-552f-5707-84f1-131193884755",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "enable",
+        "timestamp": "1789918219",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "cbb7d429-9fd2-5ea6-90f1-55f69128be44",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "system",
+        "timestamp": "1789918219",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "6e78edcd-3ae3-560f-87a6-e9dd283e32f4",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "ping; sh",
+        "timestamp": "1789918219",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "6c5449e9-f75c-56eb-866d-a3b5393a6bc5",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "/bin/busybox cat /proc/self/exe || cat /proc/self/exe",
         "timestamp": "1789918219",
         "comment": "command run by this campaign"
       }
