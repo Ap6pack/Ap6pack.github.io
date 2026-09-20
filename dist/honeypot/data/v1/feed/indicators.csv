@@ -793,7 +793,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 124.120.161.227,2026-09-10T10:22:50.062668Z,2026-09-10T10:23:13.258705Z,2,0,0,0,low,connected_only,false,false,,7,Thailand,TRUEHISP,true.th,false,0
 124.121.223.54,2026-09-03T12:12:45.713924Z,2026-09-03T12:13:41.557412Z,2,0,0,0,low,connected_only,false,false,,7,Thailand,TRUEHISP,true.th,false,21
 124.122.115.168,2026-08-28T06:22:32.656477Z,2026-08-28T06:22:47.849356Z,3,0,0,0,low,connected_only,false,false,,7,Thailand,"True Internet Co., Ltd.",true.th,false,83
-124.123.125.62,2026-09-13T21:55:32.436247Z,2026-09-13T21:59:07.908514Z,1,1,1,1,high,delivered_payload,false,true,b5eb3a081cb0a7c1,7,India,ACT HYD,actcorp.in,false,100
+124.123.125.62,2026-09-13T21:55:32.436247Z,2026-09-13T21:59:07.908514Z,1,1,1,1,low,delivered_payload,false,false,b5eb3a081cb0a7c1,7,India,ACT HYD,actcorp.in,false,100
 124.123.73.10,2026-09-15T13:20:16.740648Z,2026-09-15T13:23:17.975370Z,1,1,6,3,high,delivered_payload,false,true,79977241c93153b4,7,India,ACT Hyderabad,actcorp.in,false,100
 124.13.200.43,2026-09-02T12:36:31.574027Z,2026-09-02T12:38:05.992321Z,3,0,0,0,low,connected_only,false,false,,7,Malaysia,STREAMYX-BIZ-CENTRAL,tm.com.my,false,79
 124.134.23.221,2026-08-18T23:10:07.010168Z,2026-08-18T23:10:54.587752Z,2,2,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,China,China Unicom Shandong province network,chinaunicom.cn,false,50
@@ -1570,7 +1570,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 176.61.54.22,2026-08-24T09:18:52.716555Z,2026-08-25T07:11:40.754880Z,2,2,44,22,low,delivered_payload,false,false,5af2de096f0bf35a,7,Ireland,Virgin Media Ireland Limited,virginmedia.ie,false,100
 176.62.102.125,2026-08-28T02:08:30.004310Z,2026-08-28T02:08:50.918324Z,2,2,2,0,low,executed_commands,false,false,,7,Russia,Omskie kabelnye seti Ltd.,omkc.ru,false,5
 176.62.231.59,2026-09-04T04:34:23.313425Z,2026-09-04T04:34:23.857720Z,1,1,0,0,low,single_sighting,false,false,,7,Czechia,Dupeto space for Humlnet slow intergation 4,simek.info,false,100
-176.64.26.7,2026-09-13T21:49:50.151117Z,2026-09-13T21:49:50.152000Z,1,0,0,0,low,single_sighting,false,true,,7,Kazakhstan,Tele2 Kazakhstan,tele2.kz,false,0
+176.64.26.7,2026-09-13T21:49:50.151117Z,2026-09-13T21:49:50.152000Z,1,0,0,0,low,single_sighting,false,false,,7,Kazakhstan,Tele2 Kazakhstan,tele2.kz,false,0
 176.65.134.121,2026-09-20T04:16:47.412382Z,2026-09-20T04:16:50.979523Z,2,3,3,0,medium,executed_commands,false,true,a9869edd53047648,7,Germany,Pfcloud UG,pfcloud.io,false,100
 176.65.148.204,2026-09-05T13:46:56.281159Z,2026-09-05T13:46:56.812809Z,1,0,0,0,low,single_sighting,false,false,,7,The Netherlands,Pfcloud UG,pfcloud.io,false,100
 176.67.16.123,2026-09-16T15:17:36.716406Z,2026-09-16T15:17:55.058024Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,McLaut network,mclaut.com,false,16
@@ -3964,7 +3964,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 34.204.50.181,2026-08-23T22:20:22.909060Z,2026-08-23T22:20:22.925679Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 34.22.119.218,2026-08-26T04:27:06.871310Z,2026-08-26T04:27:21.456487Z,1,0,0,0,low,single_sighting,false,false,,7,Belgium,Google LLC,google.com,false,73
 34.22.236.20,2026-09-03T02:47:48.929476Z,2026-09-03T02:48:30.345094Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,4
-34.227.14.187,2026-09-13T21:40:30.749142Z,2026-09-13T21:40:30.770924Z,1,0,0,0,low,single_sighting,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
+34.227.14.187,2026-09-13T21:40:30.749142Z,2026-09-13T21:40:30.770924Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 34.239.105.156,2026-09-19T22:16:26.826082Z,2026-09-19T22:16:26.830258Z,1,0,0,0,low,single_sighting,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 34.34.144.123,2026-08-25T03:02:56.261851Z,2026-08-25T03:03:37.684741Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,51
 34.34.171.115,2026-08-22T02:35:18.583761Z,2026-08-22T02:36:00.001967Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,47
@@ -5269,7 +5269,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 79.111.254.124,2026-09-16T20:46:47.420316Z,2026-09-16T20:48:27.929026Z,2,0,0,0,low,connected_only,false,true,,7,Russia,Net By Net Holding LLC,netbynet.ru,false,89
 79.116.195.252,2026-09-02T17:18:39.233837Z,2026-09-02T17:20:03.624293Z,1,1,31,5,low,delivered_payload,false,false,,7,Spain,Digi Spain Telecom,digimobil.es,false,100
 79.117.164.7,2026-08-28T21:20:44.053153Z,2026-08-28T21:21:02.043621Z,1,1,2,0,low,executed_commands,false,false,,7,Spain,Digi Spain Telecom,digimobil.es,false,73
-79.117.189.65,2026-09-13T21:47:45.984105Z,2026-09-13T21:48:04.108026Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Spain,Digi Spain Telecom,digimobil.es,false,100
+79.117.189.65,2026-09-13T21:47:45.984105Z,2026-09-13T21:48:04.108026Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Spain,Digi Spain Telecom,digimobil.es,false,100
 79.117.199.108,2026-09-19T02:40:42.440260Z,2026-09-19T02:40:59.529055Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Spain,Digi Spain Telecom,digimobil.es,false,55
 79.117.213.35,2026-09-17T09:56:54.013470Z,2026-09-17T09:57:01.980454Z,2,0,0,0,low,connected_only,false,true,,7,Spain,Digi Spain Telecom,digimobil.es,false,45
 79.121.102.227,2026-08-27T08:21:53.937868Z,2026-08-27T08:23:53.941962Z,1,0,0,0,low,single_sighting,false,false,,7,Hungary,Kalasznet Kabel TV Kft,juropnet.hu,false,100
