@@ -1155,7 +1155,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 151.67.208.238,2026-09-04T12:08:00.540262Z,2026-09-04T12:11:01.343424Z,1,1,8,1,low,delivered_payload,false,false,de1c44e38fec4017,7,Italy,WIND TRE S.P.A.,windtre.it,false,100
 151.67.211.161,2026-09-02T18:22:02.129136Z,2026-09-02T18:25:03.080090Z,1,1,9,1,low,delivered_payload,false,false,0fc93cb647125c3a,7,Italy,WIND TRE S.P.A.,windtre.it,false,66
 151.84.157.1,2026-09-18T10:39:48.823109Z,2026-09-18T10:39:50.335545Z,1,1,0,0,low,single_sighting,false,true,,7,Italy,WIND TRE S.P.A.,windtre.it,false,100
-152.110.230.105,2026-09-13T06:44:43.559675Z,2026-09-13T06:44:49.462558Z,2,0,0,0,low,connected_only,false,true,,7,South Africa,Dimension Data,global.ntt,false,35
+152.110.230.105,2026-09-13T06:44:43.559675Z,2026-09-13T06:44:49.462558Z,2,0,0,0,low,connected_only,false,false,,7,South Africa,Dimension Data,global.ntt,false,35
 152.136.29.245,2026-08-19T19:23:49.963715Z,2026-08-19T19:23:51.248729Z,1,1,0,0,low,single_sighting,false,false,,7,China,"Tencent Cloud Computing (Beijing) Co., Ltd",tencentcloud.com,false,96
 152.168.226.193,2026-09-15T08:23:35.240080Z,2026-09-15T08:24:42.919025Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,Telecom Argentina S.A.,personal.com.ar,false,55
 152.169.121.182,2026-09-19T21:28:27.206883Z,2026-09-19T21:28:27.207705Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,Telecom Argentina S.A.,personal.com.ar,false,100
@@ -2338,7 +2338,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 187.161.119.2,2026-08-29T04:53:10.044652Z,2026-08-29T04:53:30.351460Z,1,0,0,0,low,single_sighting,false,false,,7,Mexico,"Television Internacional, S.A. de C.V.",izzi.mx,false,12
 187.161.119.65,2026-08-25T13:35:52.286123Z,2026-08-25T13:36:13.480046Z,1,0,0,0,low,single_sighting,false,false,,7,Mexico,"Television Internacional, S.A. de C.V.",izzi.mx,false,15
 187.161.119.86,2026-08-31T14:46:32.989578Z,2026-08-31T14:46:53.177989Z,1,0,0,0,low,single_sighting,false,false,,7,Mexico,"Television Internacional, S.A. de C.V.",izzi.mx,false,5
-187.168.247.140,2026-09-13T06:55:25.056112Z,2026-09-13T06:56:16.764899Z,4,0,0,0,low,connected_only,false,true,,7,Mexico,Uninet S.A. de C.V.,uninet.net.mx,false,5
+187.168.247.140,2026-09-13T06:55:25.056112Z,2026-09-13T06:56:16.764899Z,4,0,0,0,low,connected_only,false,false,,7,Mexico,Uninet S.A. de C.V.,uninet.net.mx,false,5
 187.179.150.33,2026-08-31T22:58:59.915579Z,2026-08-31T22:59:20.012317Z,1,0,0,0,low,single_sighting,false,false,,7,Mexico,"Television Internacional, S.A. de C.V.",izzi.mx,false,12
 187.18.8.5,2026-09-04T07:05:12.197807Z,2026-09-04T07:05:12.752682Z,1,1,0,0,low,single_sighting,false,false,,7,Brazil,COMPUTADORES E SISTEMAS LTDA,compos.net.br,false,100
 187.180.215.51,2026-08-21T03:19:05.540198Z,2026-08-21T03:20:40.089102Z,1,1,31,5,low,delivered_payload,false,false,36093b3dff2dedf9,7,Brazil,Claro NXT Telecomunicacoes Ltda,claro.com.br,false,100
@@ -2984,7 +2984,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 2.29.38.95,2026-09-16T19:53:17.079415Z,2026-09-16T19:54:18.411151Z,1,1,16,0,medium,executed_commands,false,true,4a4b096b82ea7436,7,Finland,Hetzner Online GmbH,hetzner.com,false,100
 2.47.67.142,2026-09-08T16:18:18.387699Z,2026-09-08T16:18:18.388437Z,1,0,0,0,low,single_sighting,false,false,,7,Italy,Vodafone Italia S.p.A.,vodafone.it,false,50
 2.54.85.220,2026-09-03T00:59:54.450127Z,2026-09-03T01:00:02.834647Z,1,1,0,0,low,single_sighting,false,false,,7,Israel,Partner Communications Ltd.,orange.co.il,false,100
-2.55.100.104,2026-09-03T01:31:08.994518Z,2026-09-13T06:57:59.811424Z,2,2,0,0,low,connected_only,false,true,,7,Israel,Partner Communications Ltd.,orange.co.il,false,100
+2.55.100.104,2026-09-03T01:31:08.994518Z,2026-09-13T06:57:59.811424Z,2,2,0,0,low,connected_only,false,false,,7,Israel,Partner Communications Ltd.,orange.co.il,false,100
 2.55.126.88,2026-09-05T19:08:50.777215Z,2026-09-06T22:58:20.823188Z,2,0,0,0,low,connected_only,false,false,,7,Israel,Partner Communications Ltd.,orange.co.il,false,100
 2.55.69.224,2026-08-26T22:04:55.361067Z,2026-09-10T03:04:17.059925Z,5,0,0,0,low,connected_only,false,false,,7,Israel,Partner Communications Ltd.,orange.co.il,false,100
 2.55.70.124,2026-08-27T00:55:49.485082Z,2026-09-06T02:18:42.701891Z,3,0,0,0,low,connected_only,false,false,,7,Israel,Partner Communications Ltd.,orange.co.il,false,100
@@ -3701,7 +3701,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 221.156.221.59,2026-08-27T01:30:59.664219Z,2026-08-27T01:34:00.877420Z,1,1,8,1,low,delivered_payload,false,false,de1c44e38fec4017,7,South Korea,Korea Telecom,kt.com,false,100
 221.159.21.170,2026-08-25T14:53:55.690721Z,2026-09-10T06:11:33.236910Z,5,0,0,0,low,connected_only,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 221.162.0.119,2026-09-03T04:21:06.822256Z,2026-09-04T14:46:26.245354Z,2,2,0,0,low,connected_only,false,false,,7,South Korea,Jeonnambonbujang,kt.com,false,100
-221.162.34.208,2026-09-13T06:46:18.300410Z,2026-09-13T06:46:28.081593Z,1,1,0,0,low,single_sighting,false,true,,7,South Korea,Korea Telecom,kt.com,false,100
+221.162.34.208,2026-09-13T06:46:18.300410Z,2026-09-13T06:46:28.081593Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 221.162.39.232,2026-09-03T14:34:25.211821Z,2026-09-03T14:34:34.727348Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 221.164.139.123,2026-08-19T09:29:27.533806Z,2026-08-19T09:31:17.198907Z,1,1,48,12,low,delivered_payload,false,false,8c382d81d0f765a8,7,South Korea,Korea Telecom,kt.com,false,100
 221.199.172.66,2026-09-01T08:37:39.129055Z,2026-09-01T08:37:47.530149Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Unicom Neimeng Province Network,chinaunicom.cn,false,100
@@ -3810,7 +3810,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 27.130.31.227,2026-09-12T18:25:21.628929Z,2026-09-12T18:25:21.630774Z,1,0,0,0,low,single_sighting,false,false,,7,Thailand,AIS Fibre,myaisfibre.com,false,3
 27.145.115.198,2026-08-27T20:09:35.075788Z,2026-08-27T20:09:35.076528Z,1,0,0,0,low,single_sighting,false,false,,7,Thailand,TRUE BROADBAND,true.th,false,0
 27.147.250.190,2026-08-22T10:40:06.039090Z,2026-08-22T10:40:06.039976Z,1,0,0,0,low,single_sighting,false,false,,7,Bangladesh,Link3-Technologies-Ltd,link3.net,false,66
-27.156.88.191,2026-09-13T06:36:21.071238Z,2026-09-13T06:37:48.204954Z,1,1,31,5,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,China,Broadband network the city,fz.fj.cn,false,4
+27.156.88.191,2026-09-13T06:36:21.071238Z,2026-09-13T06:37:48.204954Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,China,Broadband network the city,fz.fj.cn,false,4
 27.19.205.74,2026-08-18T12:23:55.359317Z,2026-08-18T12:24:09.049626Z,1,1,10,0,low,executed_commands,false,false,597732d320c38002,7,China,CHINANET Hubei province network,chinatelecom.cn,false,100
 27.21.31.227,2026-08-20T04:42:30.947692Z,2026-08-20T04:42:50.162347Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,China,CHINANET Hubei province network,chinatelecom.cn,false,100
 27.214.244.139,2026-08-24T08:10:18.367539Z,2026-08-24T08:11:12.924803Z,1,1,23,0,low,executed_commands,false,false,d8d364312d78d1c6,7,China,China Unicom Shandong province network,chinaunicom.cn,false,17
@@ -4946,12 +4946,12 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 66.132.195.41,2026-09-20T02:38:07.891674Z,2026-09-20T02:38:23.425838Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.195.46,2026-09-13T16:43:51.253532Z,2026-09-19T12:41:11.332447Z,2,0,0,0,low,connected_only,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.195.49,2026-09-19T22:40:29.293158Z,2026-09-19T22:40:44.316895Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
-66.132.195.82,2026-09-13T06:36:53.693420Z,2026-09-13T06:37:09.438198Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
+66.132.195.82,2026-09-13T06:36:53.693420Z,2026-09-13T06:37:09.438198Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.195.83,2026-09-18T09:08:12.540704Z,2026-09-18T09:08:28.077891Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.195.88,2026-09-19T09:43:22.654203Z,2026-09-19T09:43:38.156728Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.195.90,2026-09-16T19:36:38.068203Z,2026-09-16T19:36:53.743002Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.224.236,2026-09-17T01:42:59.319263Z,2026-09-17T01:43:16.026990Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
-66.190.188.197,2026-09-03T16:31:25.597547Z,2026-09-13T06:57:46.611590Z,2,2,0,0,low,connected_only,false,true,,7,United States,Breezeline,breezeline.com,false,71
+66.190.188.197,2026-09-03T16:31:25.597547Z,2026-09-13T06:57:46.611590Z,2,2,0,0,low,connected_only,false,false,,7,United States,Breezeline,breezeline.com,false,71
 66.195.202.209,2026-08-23T11:27:04.194923Z,2026-08-23T11:27:04.196754Z,2,0,0,0,low,connected_only,false,false,,7,United States,X1 Communcations Inc,x1speed.com,false,43
 66.212.21.31,2026-09-16T03:03:01.166944Z,2026-09-16T19:59:38.723320Z,44709,44707,44701,0,low,executed_commands,true,true,eafdc691c2945a06,7,United States,HostPapa,hostpapa.com,false,100
 66.228.53.136,2026-08-24T06:24:07.364850Z,2026-08-24T06:24:07.427268Z,2,0,0,0,low,connected_only,false,false,,7,United States,Linode,linode.com,false,100
@@ -5046,7 +5046,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 72.207.33.65,2026-09-12T14:01:40.400734Z,2026-09-12T14:03:40.404885Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Cox Communications,cox.com,false,41
 72.215.32.216,2026-09-10T00:44:08.493873Z,2026-09-10T06:32:18.324077Z,2,2,0,0,low,connected_only,false,false,,7,United States,Cox Communications,cox.com,false,100
 72.215.33.118,2026-09-12T14:39:27.658111Z,2026-09-12T14:39:34.454488Z,1,1,0,0,low,single_sighting,false,false,,7,United States,Cox Communications,cox.com,false,100
-72.215.33.127,2026-09-13T06:46:05.169164Z,2026-09-13T06:46:12.455162Z,1,1,0,0,low,single_sighting,false,true,,7,United States,Cox Communications,cox.com,false,100
+72.215.33.127,2026-09-13T06:46:05.169164Z,2026-09-13T06:46:12.455162Z,1,1,0,0,low,single_sighting,false,false,,7,United States,Cox Communications,cox.com,false,100
 72.215.33.16,2026-09-02T00:41:37.205396Z,2026-09-06T23:30:30.496274Z,3,3,0,0,low,connected_only,false,false,,7,United States,Cox Communications,cox.com,false,100
 72.215.33.71,2026-09-03T05:26:24.084860Z,2026-09-10T01:02:36.657687Z,3,3,0,0,low,connected_only,false,false,,7,United States,Cox Communications,cox.com,false,100
 72.215.44.72,2026-09-09T15:26:58.526018Z,2026-09-09T15:27:06.004661Z,1,1,0,0,low,single_sighting,false,false,,7,United States,Cox Communications,cox.com,false,100
