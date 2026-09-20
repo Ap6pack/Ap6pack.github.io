@@ -8,11 +8,11 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 124115,
-      "distinct_ips": 366,
+      "count": 124117,
+      "distinct_ips": 367,
       "examples": [
-        "echo -e \"\\x6F\\x6B\"",
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
+        "echo -e \"\\x6F\\x6B\"",
         "echo -e \"\\x47\\x41\\x59\"",
         "cat /proc/mounts; echo -e \"\\x47\\x41\\x59\"",
         "echo -e '\\x6b\\x61\\x6d\\x69/dev' > /dev/.nippon; cat /dev/.nippon; rm /dev/.nippon"
@@ -183,6 +183,6 @@
       ]
     }
   ],
-  "total_commands": 329502,
-  "matched_commands": 131835
+  "total_commands": 329512,
+  "matched_commands": 131837
 }
