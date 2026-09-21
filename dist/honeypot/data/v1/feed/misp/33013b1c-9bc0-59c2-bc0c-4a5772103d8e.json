@@ -1,8 +1,8 @@
 {
   "Event": {
     "uuid": "33013b1c-9bc0-59c2-bc0c-4a5772103d8e",
-    "info": "Sundew honeypot - campaign a9869edd5304 (1 sources) - root",
-    "date": "2026-09-20",
+    "info": "Sundew honeypot - campaign a9869edd5304 (2 sources) - root",
+    "date": "2026-09-21",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -26,10 +26,19 @@
         "uuid": "75c83e13-14f1-5230-b5c6-52c8194ff457",
         "type": "ip-src",
         "category": "Network activity",
-        "to_ids": false,
+        "to_ids": true,
         "value": "176.65.134.121",
-        "timestamp": "1789918219",
-        "comment": "executed_commands, confidence medium; 2 sessions, 3 commands, 0 downloads; first_seen 2026-09-20T04:16:47.412382Z, last_seen 2026-09-20T04:16:50.979523Z; expires 7d after last_seen"
+        "timestamp": "1789963219",
+        "comment": "delivered_payload, confidence high; 3 sessions, 9 commands, 3 downloads; first_seen 2026-09-20T04:16:47.412382Z, last_seen 2026-09-21T01:27:02.820618Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "d581a394-b096-597e-80f5-5a15f10c46b9",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "176.65.134.56",
+        "timestamp": "1789963219",
+        "comment": "executed_commands, confidence medium; 2 sessions, 3 commands, 0 downloads; first_seen 2026-09-21T01:26:34.397112Z, last_seen 2026-09-21T01:26:38.420717Z; expires 7d after last_seen"
       },
       {
         "uuid": "ccfc18f0-1ca5-52d1-977a-f13fb88d9aa4",
@@ -37,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "root",
-        "timestamp": "1789918219",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       },
       {
@@ -46,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "vizxv",
-        "timestamp": "1789918219",
+        "timestamp": "1789963219",
         "comment": "command run by this campaign"
       }
     ]
