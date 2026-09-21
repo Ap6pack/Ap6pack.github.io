@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-21T15:30:21.667768+00:00",
+  "generated_at": "2026-09-21T16:00:20.650221+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-21T15:29:03.743901Z",
-  "total_events": 1461587,
-  "unique_sessions": 174680,
-  "unique_source_ips": 6108,
-  "login_attempts": 163507,
-  "login_success": 160852,
-  "commands_run": 332850,
+  "last_event": "2026-09-21T15:59:32.338533Z",
+  "total_events": 1461804,
+  "unique_sessions": 174708,
+  "unique_source_ips": 6112,
+  "login_attempts": 163527,
+  "login_success": 160870,
+  "commands_run": 332939,
   "files_captured": 27,
   "top_usernames": [
     [
@@ -135,18 +135,18 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 332850,
-    "cowrie.session.connect": 174680,
-    "cowrie.session.closed": 174004,
-    "cowrie.login.success": 160852,
-    "cowrie.session.params": 158995,
-    "cowrie.log.closed": 158329,
+    "cowrie.command.input": 332939,
+    "cowrie.session.connect": 174708,
+    "cowrie.session.closed": 174031,
+    "cowrie.login.success": 160870,
+    "cowrie.session.params": 159013,
+    "cowrie.log.closed": 158346,
     "cowrie.client.version": 123404,
     "cowrie.client.kex": 123028,
-    "cowrie.telnet.option": 43282,
+    "cowrie.telnet.option": 43297,
     "cowrie.command.success": 3757,
-    "cowrie.login.failed": 2655,
-    "cowrie.session.file_download.failed": 2049,
+    "cowrie.login.failed": 2657,
+    "cowrie.session.file_download.failed": 2052,
     "cowrie.direct-tcpip.request": 1777,
     "cowrie.session.file_download": 1665,
     "cowrie.session.file_upload": 49,
@@ -308,7 +308,7 @@
     },
     {
       "date": "2026-09-21",
-      "count": 3615
+      "count": 3832
     }
   ],
   "published": {
@@ -367,7 +367,7 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 134407,
+        "total": 134415,
         "top_label": "T1027",
         "top_value": 124153,
         "top_share": 0.9237,
