@@ -1,7 +1,7 @@
 {
   "Event": {
-    "uuid": "33013b1c-9bc0-59c2-bc0c-4a5772103d8e",
-    "info": "Sundew honeypot - campaign a9869edd5304 (2 sources) - root",
+    "uuid": "77e9a26d-0258-5380-b7ce-1b325c60e743",
+    "info": "Sundew honeypot - campaign 5a8136959852 (1 sources) - User-Agent: Mozilla/5.0 (compatible; GenomeCrawlerd/1.0; +ht",
     "date": "2026-09-21",
     "analysis": "2",
     "threat_level_id": "3",
@@ -23,38 +23,38 @@
     ],
     "Attribute": [
       {
-        "uuid": "75c83e13-14f1-5230-b5c6-52c8194ff457",
-        "type": "ip-src",
-        "category": "Network activity",
-        "to_ids": true,
-        "value": "176.65.134.121",
-        "timestamp": "1790008220",
-        "comment": "delivered_payload, confidence high; 9 sessions, 27 commands, 9 downloads; first_seen 2026-09-20T04:16:47.412382Z, last_seen 2026-09-21T15:53:39.962019Z; expires 7d after last_seen"
-      },
-      {
-        "uuid": "d581a394-b096-597e-80f5-5a15f10c46b9",
+        "uuid": "15314be1-a007-536e-889d-d4fde8a88126",
         "type": "ip-src",
         "category": "Network activity",
         "to_ids": false,
-        "value": "176.65.134.56",
+        "value": "216.180.246.175",
         "timestamp": "1790008220",
-        "comment": "executed_commands, confidence medium; 2 sessions, 3 commands, 0 downloads; first_seen 2026-09-21T01:26:34.397112Z, last_seen 2026-09-21T01:26:38.420717Z; expires 7d after last_seen"
+        "comment": "executed_commands, confidence medium; 13 sessions, 30 commands, 0 downloads; first_seen 2026-09-21T07:03:37.370269Z, last_seen 2026-09-21T07:11:48.421314Z; expires 7d after last_seen"
       },
       {
-        "uuid": "ccfc18f0-1ca5-52d1-977a-f13fb88d9aa4",
+        "uuid": "b80e11c5-77c9-5aa7-897a-2ec723bba237",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "root",
+        "value": "User-Agent: Mozilla/5.0 (compatible; GenomeCrawlerd/1.0; +https://www.nokia.com/genomecrawler)",
         "timestamp": "1790008220",
         "comment": "command run by this campaign"
       },
       {
-        "uuid": "5bd34869-5121-50df-9967-077285c73fd2",
+        "uuid": "9a14d8de-65c7-5114-9b7c-20c98db1f22a",
         "type": "text",
         "category": "Artifacts dropped",
         "to_ids": false,
-        "value": "vizxv",
+        "value": "Accept: */*",
+        "timestamp": "1790008220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "93615570-27eb-52ea-949b-f0814b289255",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "Accept-Encoding: gzip",
         "timestamp": "1790008220",
         "comment": "command run by this campaign"
       }
