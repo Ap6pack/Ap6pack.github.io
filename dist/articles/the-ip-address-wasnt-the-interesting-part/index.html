@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The IP Address Wasn’t the Interesting Part | The Lone Analyst</title>
+  <meta name="description" content="A threat-intelligence analysis of Japan’s first confirmed DPRK IT-worker laptop-farm dismantling, shared infrastructure, and why cross-stage contradictions matter more than a single IOC.">
+  <meta name="author" content="Adam Rhys Heaton">
+  <meta name="robots" content="index, follow">
+  <meta name="article:section" content="Analysis">
+  <meta name="keywords" content="DPRK, North Korea, WaterPlum, Contagious Interview, laptop farm, threat intelligence, attribution, cybersecurity">
+  <link rel="canonical" href="https://ap6pack.github.io/dist/articles/the-ip-address-wasnt-the-interesting-part/">
+  <link rel="alternate" type="application/rss+xml" title="The Lone Analyst Articles" href="../feed.xml">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="The Lone Analyst">
+  <meta property="og:title" content="The IP Address Wasn’t the Interesting Part">
+  <meta property="og:description" content="Japan’s DPRK laptop-farm case is useful for what it shows about shared infrastructure, operational dependencies, and cross-stage contradiction.">
+  <meta property="og:url" content="https://ap6pack.github.io/dist/articles/the-ip-address-wasnt-the-interesting-part/">
+  <meta property="og:image" content="https://ap6pack.github.io/dist/articles/the-ip-address-wasnt-the-interesting-part/social-card.svg">
+  <meta property="article:published_time" content="2026-09-22">
+  <meta property="article:author" content="Adam Rhys Heaton">
+  <meta property="article:section" content="Analysis">
+  <meta property="article:tag" content="DPRK">
+  <meta property="article:tag" content="WaterPlum">
+  <meta property="article:tag" content="Threat Intelligence">
+  <meta property="article:tag" content="Attribution">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The IP Address Wasn’t the Interesting Part">
+  <meta name="twitter:description" content="Why weak signals become useful when different parts of the same story stop agreeing with each other.">
+  <meta name="twitter:image" content="https://ap6pack.github.io/dist/articles/the-ip-address-wasnt-the-interesting-part/social-card.svg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The IP Address Wasn’t the Interesting Part",
+    "description": "A threat-intelligence analysis of Japan’s first confirmed DPRK IT-worker laptop-farm dismantling, shared infrastructure, and cross-stage contradiction.",
+    "datePublished": "2026-09-22",
+    "dateModified": "2026-09-22",
+    "author": {
+      "@type": "Person",
+      "name": "Adam Rhys Heaton",
+      "url": "https://ap6pack.github.io/dist/about.html"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Lone Analyst"
+    },
+    "mainEntityOfPage": "https://ap6pack.github.io/dist/articles/the-ip-address-wasnt-the-interesting-part/",
+    "image": "https://ap6pack.github.io/dist/articles/the-ip-address-wasnt-the-interesting-part/social-card.svg",
+    "keywords": ["DPRK", "North Korea", "WaterPlum", "Contagious Interview", "Laptop Farms", "Threat Intelligence", "Attribution"]
+  }
+  </script>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0f14;
+      --panel: #111821;
+      --panel-2: #151f2b;
+      --text: #e7edf3;
+      --muted: #9eabb8;
+      --line: #263340;
+      --accent: #6ee7b7;
+      --accent-2: #93c5fd;
+      --max: 820px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 12% -10%, rgba(110,231,183,.10), transparent 34rem),
+        radial-gradient(circle at 90% 0%, rgba(147,197,253,.08), transparent 30rem),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    a { color: var(--accent-2); }
+    a:hover { color: var(--accent); }
+    .sitebar {
+      border-bottom: 1px solid var(--line);
+      background: rgba(11,15,20,.9);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .sitebar-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: .9rem 1.25rem;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: center;
+    }
+    .brand {
+      color: var(--text);
+      font-weight: 800;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: .82rem;
+    }
+    nav { display: flex; flex-wrap: wrap; gap: .9rem; }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: .9rem;
+    }
+    nav a[aria-current="page"] { color: var(--accent); }
+    main { padding: 4.5rem 1.25rem 5rem; }
+    article { max-width: var(--max); margin: 0 auto; }
+    .kicker {
+      color: var(--accent);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: .82rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: clamp(2.5rem, 7vw, 5.1rem);
+      line-height: .98;
+      letter-spacing: -.055em;
+      margin: 0 0 1.4rem;
+      max-width: 900px;
+    }
+    .byline {
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: .6rem 1rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 2.5rem;
+      font-size: .95rem;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem;
+      margin: -1rem 0 2.8rem;
+    }
+    .tag {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      padding: .28rem .65rem;
+      font-size: .77rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    p { margin: 0 0 1.35rem; font-size: 1.08rem; }
+    h2 {
+      font-size: 1.65rem;
+      line-height: 1.2;
+      margin: 3.2rem 0 1.1rem;
+      letter-spacing: -.025em;
+    }
+    em { color: #f1f5f9; }
+    strong { color: #fff; }
+    .signal {
+      margin: 1.9rem 0;
+      padding: 1.1rem 1.25rem;
+      background: linear-gradient(90deg, rgba(110,231,183,.10), rgba(147,197,253,.06));
+      border-left: 3px solid var(--accent);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+    .sources {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--line);
+    }
+    .sources h2 { margin-top: 0; }
+    .sources ol { padding-left: 1.35rem; }
+    .sources li { margin-bottom: 1rem; color: var(--muted); }
+    .sources a { word-break: break-word; }
+    footer {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 1.5rem 0 0;
+      font-size: .88rem;
+    }
+    @media (max-width: 640px) {
+      .sitebar-inner { align-items: flex-start; flex-direction: column; }
+      main { padding-top: 3rem; }
+      h1 { font-size: clamp(2.4rem, 13vw, 4rem); }
+      p { font-size: 1.02rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="sitebar">
+    <div class="sitebar-inner">
+      <a class="brand" href="../../index.html">The Lone Analyst</a>
+      <nav aria-label="Primary navigation">
+        <a href="../" aria-current="page">Articles</a>
+        <a href="../../newsletters/">Newsletter</a>
+        <a href="../../podcast/">Podcast</a>
+        <a href="../../about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <div class="kicker">Analysis</div>
+      <h1>The IP Address Wasn’t the Interesting Part</h1>
+      <div class="byline">
+        <span>Adam Rhys Heaton</span>
+        <time datetime="2026-09-22">September 22, 2026</time>
+      </div>
+      <div class="tags" aria-label="Tags">
+        <span class="tag">DPRK</span>
+        <span class="tag">WaterPlum</span>
+        <span class="tag">Threat Intelligence</span>
+        <span class="tag">Attribution</span>
+        <span class="tag">Laptop Farms</span>
+      </div>
+
+      <p>Japan just dismantled its first confirmed North Korean IT-worker laptop farm.</p>
+
+      <p>That alone makes the case interesting. But after reading through the reporting, that wasn't the part that caught my attention.</p>
+
+      <p>It was the IP addresses.</p>
+
+      <p>Japanese authorities and their international partners reported that WaterPlum actors and North Korean IT workers had been observed using some of the same IP addresses. Those addresses showed up in activity involving laptop farms, crowdsourcing services, and job applications.</p>
+
+      <p>That's a useful connection.</p>
+
+      <p>It's also exactly the kind of evidence that can get analysts into trouble if we ask it to prove too much.</p>
+
+      <p>A shared IP doesn't tell me that two activities were performed by the same person. It doesn't prove ownership of the infrastructure, and it certainly doesn't mean everything coming through that address belongs in one bucket.</p>
+
+      <p>What it gives us is a relationship.</p>
+
+      <p>And in this case, there are a lot of other relationships sitting around it.</p>
+
+      <h2>Why the laptop farm matters</h2>
+
+      <p>The term <em>laptop farm</em> makes the operation sound more exotic than it really is.</p>
+
+      <p>Strip away the North Korea angle for a second and the problem being solved is fairly straightforward: someone physically located in one place needs to look like an employee working from somewhere else.</p>
+
+      <p>If you're trying to maintain that fiction over weeks or months, logging in from the wrong country every morning is going to become a problem.</p>
+
+      <p>So you put the computer where the employee is supposed to be and operate it remotely.</p>
+
+      <p>That's the interesting part of the infrastructure to me. The laptop isn't simply an indicator we can add to a list. It's there because the operation requires it.</p>
+
+      <p>The multinational advisory describes facilitators hosting computers and servers that North Korean workers could access remotely. That allowed workers outside the claimed location to operate through equipment that appeared much more consistent with where their employer expected them to be.</p>
+
+      <p>Once you look at it that way, the question changes.</p>
+
+      <p>Instead of asking, <em>What IP should I block?</em></p>
+
+      <p>I want to know, <em>What does this operation need in order to keep working?</em></p>
+
+      <p>IP addresses are disposable.</p>
+
+      <p>The need to hide the operator's real geography isn't.</p>
+
+      <p>That distinction is useful because dependencies tend to survive longer than individual indicators.</p>
+
+      <h2>A bad interview tells us more than you might think</h2>
+
+      <p>One case in the Japanese reporting makes this much easier to see.</p>
+
+      <p>In May 2025, a Japanese cryptocurrency exchange received an application from someone authorities later associated with this activity.</p>
+
+      <p>There were problems with the application, but not the kind where you could point to one thing and say, "There it is."</p>
+
+      <p>The applicant used a VPN. That's hardly remarkable by itself.</p>
+
+      <p>The résumé claimed experience across a very broad collection of programming languages, blockchain technologies, cryptocurrency systems, and cloud platforms. Suspicious? Maybe. Proof of anything? No.</p>
+
+      <p>The person's claimed background was complicated too. The applicant said they were born in Malaysia, lived in Finland, and spoke Malay and Chinese natively. During the interview, however, parts of the story apparently didn't hold together. English proficiency didn't fit particularly well with the education and professional history being presented, and the applicant had trouble discussing some of the technical skills listed on the résumé.</p>
+
+      <p>Again, none of this is a North Korean IT-worker detector.</p>
+
+      <p>That's important.</p>
+
+      <p>Someone having a terrible technical interview does not make them a state actor. Neither does using a VPN. Neither does an unusual résumé.</p>
+
+      <p>What makes this case useful is that the problems weren't all in the same place.</p>
+
+      <p>The claimed identity said one thing.</p>
+
+      <p>The résumé said another.</p>
+
+      <p>The interview raised additional questions.</p>
+
+      <p>The network activity added another layer.</p>
+
+      <p>Then there was the infrastructure.</p>
+
+      <p>At some point we're no longer looking at a weird résumé or an odd IP address. We're looking at different parts of the same story failing to agree with one another.</p>
+
+      <p>That's a very different analytical problem.</p>
+
+      <h2>We tend to scatter the evidence ourselves</h2>
+
+      <p>This is also where I think defenders make life unnecessarily difficult.</p>
+
+      <p>Think about where these observations normally live inside a company.</p>
+
+      <p>Recruiting has the résumé.</p>
+
+      <p>The hiring manager remembers that strange interview.</p>
+
+      <p>Identity has account information.</p>
+
+      <p>Network security has the VPN and IP telemetry.</p>
+
+      <p>Endpoint security sees remote-access software or unusual host activity.</p>
+
+      <p>Finance knows where the money is being sent.</p>
+
+      <p>Maybe fraud has another piece.</p>
+
+      <p>Nobody necessarily has the whole thing.</p>
+
+      <p>From each team's perspective, what they're seeing may not be enough to justify much action. A VPN? Fine. An awkward interview? Happens every day. Remote-access software? Depends on the environment. An unusual payment request? Send it to somebody else.</p>
+
+      <p>The attacker gets an advantage because we've divided one operation into six organizational problems.</p>
+
+      <p>That is why I keep coming back to contradiction rather than individual indicators.</p>
+
+      <p>The Japanese case included other behaviors as well: avoiding in-person meetings, requests involving cryptocurrency payments, applicants repeatedly looking toward another screen, unexplained voices during interviews, audio and video problems, and even the use of AI face-swapping.</p>
+
+      <p>I wouldn't write a detection rule that says someone looking away from their webcam is a North Korean IT worker. That would be absurd.</p>
+
+      <p>But imagine the same applicant is supposedly in Finland, connects through questionable infrastructure, can't explain the technologies on the résumé, has strange behavior during the interview, wants an unusual payment arrangement, and later has remote-access activity that doesn't fit the story.</p>
+
+      <p>Now I care.</p>
+
+      <p>Not because any one signal became magically reliable.</p>
+
+      <p>Because the signals started disagreeing with the same claim.</p>
+
+      <h2>Back to that shared IP</h2>
+
+      <p>This is why the shared IP observation deserves attention without being overstated.</p>
+
+      <p>WaterPlum activity and North Korean IT-worker activity appearing behind the same addresses establishes a technical relationship. By itself, that relationship has limits.</p>
+
+      <p>In this case, however, it doesn't exist by itself.</p>
+
+      <p>Japanese and partner agencies also documented the laptop-farm infrastructure, job applications, remote access, interview behavior, identity issues, financial activity, and other operational details. The National Police Agency of Japan and FBI further assess that WaterPlum actors and some North Korean IT workers operate under the 313 General Bureau of North Korea's Munitions Industry Department.</p>
+
+      <p>Now the shared IP has context.</p>
+
+      <p>That's the difference.</p>
+
+      <p>If all I had was:</p>
+
+      <div class="signal">same IP = same actor</div>
+
+      <p>I'd be very uncomfortable with the conclusion.</p>
+
+      <p>But that's not the evidence package here.</p>
+
+      <p>What we're really looking at is shared infrastructure appearing alongside an operational need, overlapping activity, investigative findings, identity discrepancies and government attribution.</p>
+
+      <p>The IP address didn't solve the attribution.</p>
+
+      <p>It became useful because of everything around it.</p>
+
+      <h2>This is bigger than DPRK IT workers</h2>
+
+      <p>There's a broader lesson here for threat intelligence.</p>
+
+      <p>We love indicators because they're easy to handle.</p>
+
+      <p>Put the hash in the EDR.</p>
+
+      <p>Put the domain in the blocklist.</p>
+
+      <p>Search the SIEM for the IP.</p>
+
+      <p>Add it to the TIP.</p>
+
+      <p>Done.</p>
+
+      <p>Except the actor changes the domain tomorrow.</p>
+
+      <p>What usually changes much more slowly is the problem the actor has to solve.</p>
+
+      <p>If someone needs to impersonate a remote employee, they have to establish a believable identity.</p>
+
+      <p>They need to appear to be where they claim to be.</p>
+
+      <p>They need to get through an interview.</p>
+
+      <p>They need a device.</p>
+
+      <p>They need access to that device.</p>
+
+      <p>Eventually, they need to get paid.</p>
+
+      <p>Every one of those requirements creates another place where the story can break.</p>
+
+      <p>That's what I find useful about the Japanese laptop-farm case. Yes, there are new indicators. Yes, there's another piece of infrastructure defenders can look for.</p>
+
+      <p>But the more durable takeaway isn't an IP address.</p>
+
+      <p>It's that deception has dependencies, and dependencies leave evidence in different places.</p>
+
+      <p>The trick is getting those places to talk to one another.</p>
+
+      <section class="sources">
+        <h2>Sources</h2>
+        <ol>
+          <li><strong>National Police Agency of Japan.</strong> Public attribution regarding the North Korean cyberattack group WaterPlum and North Korean IT workers. September 18, 2026. <a href="https://www.npa.go.jp/news/release/2026/20260918001.html">npa.go.jp</a></li>
+          <li><strong>Australian Signals Directorate / Australian Cyber Security Centre and multinational partners.</strong> <em>North Korean “WaterPlum,” commonly referred to as “Contagious Interview,” cyber actor group targeting IT professionals.</em> September 18, 2026. <a href="https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/north-korean-waterplum-commonly-referred-to-as-contagious-interview-cyber-actor-group-targeting-it-professionals">cyber.gov.au</a></li>
+          <li><strong>SecurityWeek.</strong> <em>Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme.</em> September 22, 2026. <a href="https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/">securityweek.com</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <footer>
+      <p>&copy; 2026 Adam Rhys Heaton. The Lone Analyst.</p>
+    </footer>
+  </main>
+
+<!--
+이스터 에그: 여기까지 소스 코드를 확인했다면, 같은 글을 한국어로 남겨 둡니다.
+
+제목: 흥미로운 부분은 IP 주소가 아니었다
+
+일본은 자국에서 처음으로 확인된 북한 IT 노동자 노트북 팜을 해체했다.
+
+그 사실만으로도 충분히 흥미로운 사례다. 하지만 관련 보도를 읽으면서 내 눈에 가장 먼저 들어온 것은 그 부분이 아니었다.
+
+IP 주소였다.
+
+일본 당국과 국제 파트너들은 WaterPlum 행위자들과 북한 IT 노동자들이 일부 동일한 IP 주소를 사용한 것이 관찰됐다고 밝혔다. 이 주소들은 노트북 팜 접속, 크라우드소싱 서비스 이용, 구직 지원과 관련된 활동에서 나타났다.
+
+유용한 연결고리다.
+
+동시에, 분석가가 증거에 지나치게 많은 의미를 부여할 경우 얼마나 쉽게 잘못된 결론으로 갈 수 있는지를 보여 주는 사례이기도 하다.
+
+같은 IP를 사용했다는 사실만으로 두 활동을 같은 사람이 수행했다고 말할 수는 없다. 인프라의 소유권을 입증하는 것도 아니며, 그 주소를 통해 발생한 모든 활동을 하나의 행위자로 묶을 수 있다는 뜻도 아니다.
+
+그것이 제공하는 것은 관계다.
+
+그리고 이 사건에서는 그 관계 주변에 다른 관계들이 많이 존재한다.
+
+노트북 팜이 중요한 이유
+
+노트북 팜이라는 표현은 실제보다 훨씬 이국적인 작전처럼 들리게 한다.
+
+북한이라는 요소를 잠시 빼고 보면 해결하려는 문제는 상당히 단순하다. 실제로는 한 장소에 있는 사람이 다른 장소에서 근무하는 직원처럼 보여야 한다는 것이다.
+
+그 허구를 몇 주, 몇 달 동안 유지해야 한다면 매일 아침 예상과 다른 국가에서 로그인하는 것은 문제가 된다.
+
+그래서 직원이 있다고 주장하는 장소에 컴퓨터를 두고 원격으로 조작한다.
+
+내게 흥미로운 것은 바로 이 인프라의 역할이다. 노트북은 단순히 목록에 추가할 또 하나의 지표가 아니다. 작전이 그것을 필요로 하기 때문에 존재한다.
+
+다국적 권고문은 조력자들이 북한 노동자들이 원격으로 접속할 수 있는 컴퓨터와 서버를 운영했다고 설명한다. 이를 통해 실제로는 주장한 지역 밖에 있는 노동자들이 고용주가 예상하는 위치와 훨씬 더 일치해 보이는 장비를 통해 업무를 수행할 수 있었다.
+
+이렇게 보면 질문이 달라진다.
+
+어떤 IP를 차단해야 하는가가 아니라,
+
+이 작전이 계속 작동하려면 무엇이 필요한가를 묻게 된다.
+
+IP 주소는 바꿀 수 있다.
+
+운영자의 실제 지리적 위치를 숨겨야 한다는 필요는 쉽게 사라지지 않는다.
+
+개별 지표보다 이런 의존성이 더 오래 남는 경우가 많기 때문에 이 구분은 중요하다.
+
+나쁜 면접이 생각보다 더 많은 것을 알려 주는 이유
+
+일본의 사례 중 하나를 보면 이 점이 훨씬 명확해진다.
+
+2025년 5월 일본의 한 암호화폐 거래소는 이후 당국이 이 활동과 연관된 것으로 본 사람의 지원서를 받았다.
+
+지원서에는 여러 문제가 있었지만, 단 하나를 가리키며 바로 이것이라고 말할 수 있는 종류의 문제는 아니었다.
+
+지원자는 VPN을 사용했다. 그것만으로는 특별할 것이 없다.
+
+이력서에는 매우 다양한 프로그래밍 언어, 블록체인 기술, 암호화폐 시스템, 클라우드 플랫폼에 대한 경험이 적혀 있었다. 의심스러운가? 그럴 수 있다. 무엇인가의 증거인가? 아니다.
+
+주장한 배경도 복잡했다. 지원자는 말레이시아에서 태어났고 핀란드에 거주하며 말레이어와 중국어가 모국어라고 말했다. 그러나 면접 과정에서 이야기의 일부가 맞지 않는 것으로 보였다. 영어 능력은 제시한 학력과 경력에 비해 잘 들어맞지 않았고, 이력서에 적은 기술 중 일부를 제대로 설명하지 못했다.
+
+다시 말하지만, 이것은 북한 IT 노동자를 찾아내는 탐지 규칙이 아니다.
+
+그 점이 중요하다.
+
+기술 면접을 망쳤다고 해서 국가 지원 행위자가 되는 것은 아니다. VPN을 쓴다고 해서도 아니다. 특이한 이력서 역시 마찬가지다.
+
+이 사례가 유용한 이유는 문제가 한 장소에만 있지 않았기 때문이다.
+
+주장한 신원은 한 가지를 말했고,
+
+이력서는 다른 이야기를 했다.
+
+면접은 추가적인 의문을 만들었다.
+
+네트워크 활동은 또 다른 층을 더했다.
+
+그리고 인프라가 있었다.
+
+어느 순간 우리는 더 이상 이상한 이력서나 특이한 IP 하나를 보고 있는 것이 아니다. 같은 이야기를 구성하는 서로 다른 부분들이 서로 맞지 않는 상황을 보고 있는 것이다.
+
+그것은 완전히 다른 분석 문제다.
+
+우리가 스스로 증거를 흩어 놓는 경우
+
+방어 조직이 스스로 문제를 더 어렵게 만드는 지점도 여기다.
+
+회사 안에서 이런 관찰들이 어디에 존재하는지 생각해 보자.
+
+채용팀은 이력서와 지원서를 본다.
+
+채용 관리자는 이상했던 면접을 기억한다.
+
+아이덴티티 팀은 계정 정보를 본다.
+
+네트워크 보안팀은 VPN과 IP 텔레메트리를 본다.
+
+엔드포인트 보안팀은 원격 접속 소프트웨어나 비정상 호스트 활동을 본다.
+
+재무팀은 돈이 어디로 가는지 안다.
+
+사기 대응팀에도 또 다른 조각이 있을 수 있다.
+
+어느 한 팀도 전체 그림을 가지고 있지 않을 수 있다.
+
+각 팀의 관점에서는 자신들이 보는 것만으로 큰 조치를 취하기 어려울 수 있다. VPN인가? 괜찮을 수 있다. 어색한 면접인가? 매일 일어나는 일이다. 원격 접속 소프트웨어인가? 환경에 따라 다르다. 특이한 지급 요청인가? 다른 부서로 넘길 수도 있다.
+
+공격자는 우리가 하나의 작전을 여섯 개의 조직 문제로 나누어 놓았기 때문에 이점을 얻는다.
+
+그래서 나는 개별 지표보다 모순으로 계속 돌아오게 된다.
+
+일본 사례에는 대면 미팅 회피, 암호화폐 지급 요청, 면접 중 다른 화면을 반복해서 보는 행동, 설명되지 않는 배경 목소리, 오디오와 비디오 문제, 심지어 AI 얼굴 교체 사용까지 포함됐다.
+
+누군가 웹캠에서 시선을 돌렸다는 이유로 북한 IT 노동자라고 탐지하는 규칙을 만들지는 않을 것이다. 그건 터무니없다.
+
+하지만 같은 지원자가 핀란드에 있다고 주장하면서 의심스러운 인프라를 통해 접속하고, 이력서에 적힌 기술을 설명하지 못하고, 면접 행동도 이상하며, 특이한 지급 방식을 원하고, 이후 그 이야기와 맞지 않는 원격 접속 활동까지 나타난다고 생각해 보자.
+
+그때는 관심을 가져야 한다.
+
+어떤 하나의 신호가 갑자기 신뢰할 만해졌기 때문이 아니다.
+
+여러 신호가 같은 주장과 충돌하기 시작했기 때문이다.
+
+다시 공유 IP로 돌아가 보자
+
+바로 이런 이유 때문에 공유 IP 관찰은 과장하지 않으면서도 주목할 가치가 있다.
+
+WaterPlum 활동과 북한 IT 노동자 활동이 같은 주소 뒤에서 나타났다는 것은 기술적 관계를 보여 준다. 하지만 그 관계만으로는 한계가 있다.
+
+이 사건에서는 그것이 혼자 존재하지 않는다.
+
+일본 및 파트너 기관들은 노트북 팜 인프라, 구직 지원, 원격 접속, 면접 행동, 신원 문제, 금융 활동과 기타 운영 세부사항도 문서화했다. 일본 경찰청과 FBI는 WaterPlum 행위자들과 일부 북한 IT 노동자들이 북한 군수공업부 산하 313총국 아래에서 활동한다고 평가한다.
+
+이제 공유 IP에는 맥락이 있다.
+
+그게 차이다.
+
+내가 가진 것이 오직
+
+같은 IP = 같은 행위자
+
+뿐이라면 그 결론을 매우 불편하게 받아들일 것이다.
+
+하지만 여기의 증거 묶음은 그렇지 않다.
+
+실제로 우리가 보는 것은 운영상 필요, 겹치는 활동, 수사 결과, 신원 불일치, 정부의 귀속 판단과 함께 나타나는 공유 인프라다.
+
+IP 주소가 귀속 판단을 해결한 것이 아니다.
+
+주변의 모든 것 때문에 그 IP 주소가 유용해진 것이다.
+
+이 문제는 북한 IT 노동자보다 더 크다
+
+여기에는 위협 인텔리전스 전반에 적용되는 더 넓은 교훈이 있다.
+
+우리는 지표를 좋아한다. 다루기 쉽기 때문이다.
+
+해시를 EDR에 넣는다.
+
+도메인을 차단 목록에 넣는다.
+
+SIEM에서 IP를 검색한다.
+
+TIP에 추가한다.
+
+끝이다.
+
+하지만 행위자는 다음 날 도메인을 바꾼다.
+
+대개 훨씬 천천히 바뀌는 것은 행위자가 해결해야 하는 문제다.
+
+누군가 원격 직원을 사칭해야 한다면 믿을 만한 신원을 만들어야 한다.
+
+자신이 주장하는 장소에 있는 것처럼 보여야 한다.
+
+면접을 통과해야 한다.
+
+장비가 필요하다.
+
+그 장비에 접근할 수 있어야 한다.
+
+결국 돈도 받아야 한다.
+
+그 요구사항 하나하나가 이야기가 깨질 수 있는 또 다른 지점을 만든다.
+
+내가 일본의 노트북 팜 사례에서 유용하다고 보는 것은 바로 이것이다. 새로운 지표가 있는 것도 맞다. 방어자가 찾아볼 수 있는 또 하나의 인프라 조각이 생긴 것도 맞다.
+
+하지만 더 오래 남는 교훈은 IP 주소가 아니다.
+
+기만에는 의존성이 있고, 그 의존성은 서로 다른 장소에 증거를 남긴다는 것이다.
+
+핵심은 그 장소들이 서로 이야기하게 만드는 것이다.
+
+출처
+
+일본 경찰청. 북한 사이버 공격 그룹 WaterPlum 및 북한 IT 노동자에 관한 공개 귀속. 2026년 9월 18일.
+
+호주 신호국 / 호주 사이버 보안 센터 및 다국적 파트너. 북한 WaterPlum, 일반적으로 Contagious Interview로 불리는 사이버 행위자 그룹의 IT 전문가 대상 활동. 2026년 9월 18일.
+
+SecurityWeek. 일본, 최초의 북한 노트북 팜 해체. 미국과 동맹국들은 더 광범위한 계획을 설명. 2026년 9월 22일.
+-->
+</body>
+</html>
