@@ -57,6 +57,45 @@
             padding: 2rem;
         }
 
+        .site-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            padding: 1rem 0 1.25rem;
+            margin-bottom: 1.75rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .site-nav .brand {
+            color: var(--text-color);
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .site-nav .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .site-nav .links a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 600;
+            opacity: 0.8;
+        }
+
+        .site-nav .links a:hover,
+        .site-nav .links a[aria-current="page"] {
+            color: var(--primary-color);
+            opacity: 1;
+        }
+
         header {
             text-align: center;
             margin-bottom: 2rem;
@@ -242,6 +281,17 @@
 </head>
 <body>
     <div class="container">
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a class="brand" href="../index.html">The Lone Analyst</a>
+            <div class="links">
+                <a href="../index.html">Home</a>
+                <a href="../articles/">Articles</a>
+                <a href="./" aria-current="page">Newsletter</a>
+                <a href="../projects.html">Projects</a>
+                <a href="../about.html">About</a>
+            </div>
+        </nav>
+
         <header>
             <h1>Tech Newsletter Archive</h1>
             <p class="subtitle">Your source for the latest in AI, cybersecurity, and technology news</p>
