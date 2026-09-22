@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-22T00:00:20.010907+00:00",
+  "generated_at": "2026-09-22T00:30:20.083678+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-21T23:59:15.278337Z",
-  "total_events": 1465499,
-  "unique_sessions": 175190,
-  "unique_source_ips": 6150,
-  "login_attempts": 163824,
-  "login_success": 161151,
-  "commands_run": 334407,
+  "last_event": "2026-09-22T00:27:48.883174Z",
+  "total_events": 1465851,
+  "unique_sessions": 175269,
+  "unique_source_ips": 6153,
+  "login_attempts": 163839,
+  "login_success": 161165,
+  "commands_run": 334489,
   "files_captured": 27,
   "top_usernames": [
     [
@@ -135,17 +135,17 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 334407,
-    "cowrie.session.connect": 175190,
-    "cowrie.session.closed": 174514,
-    "cowrie.login.success": 161151,
-    "cowrie.session.params": 159294,
-    "cowrie.log.closed": 158628,
-    "cowrie.client.version": 123438,
-    "cowrie.client.kex": 123055,
-    "cowrie.telnet.option": 43632,
+    "cowrie.command.input": 334489,
+    "cowrie.session.connect": 175269,
+    "cowrie.session.closed": 174593,
+    "cowrie.login.success": 161165,
+    "cowrie.session.params": 159308,
+    "cowrie.log.closed": 158642,
+    "cowrie.client.version": 123441,
+    "cowrie.client.kex": 123056,
+    "cowrie.telnet.option": 43697,
     "cowrie.command.success": 3757,
-    "cowrie.login.failed": 2673,
+    "cowrie.login.failed": 2674,
     "cowrie.session.file_download.failed": 2055,
     "cowrie.direct-tcpip.request": 1777,
     "cowrie.session.file_download": 1665,
@@ -309,6 +309,10 @@
     {
       "date": "2026-09-21",
       "count": 7527
+    },
+    {
+      "date": "2026-09-22",
+      "count": 352
     }
   ],
   "published": {
@@ -320,7 +324,7 @@
     "sessions_logged_in": 5367,
     "sessions_with_commands": 3198,
     "sessions_with_download": 642,
-    "share_of_sessions": 0.1097
+    "share_of_sessions": 0.1096
   },
   "weighting": {
     "schema_version": "1.0",
