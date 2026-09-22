@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f14"/>
+      <stop offset="1" stop-color="#111b26"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="15%" cy="0%" r="85%">
+      <stop offset="0" stop-color="#6ee7b7" stop-opacity=".22"/>
+      <stop offset=".6" stop-color="#6ee7b7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <path d="M70 90 H1130" stroke="#263340" stroke-width="2"/>
+  <text x="72" y="66" fill="#6ee7b7" font-family="monospace" font-size="25" font-weight="700" letter-spacing="4">THE LONE ANALYST / ANALYSIS</text>
+  <text x="72" y="214" fill="#e7edf3" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">
+    <tspan x="72" dy="0">The IP Address Wasn’t</tspan>
+    <tspan x="72" dy="84">the Interesting Part</tspan>
+  </text>
+  <text x="74" y="420" fill="#9eabb8" font-family="Arial, Helvetica, sans-serif" font-size="30">
+    Shared infrastructure, operational dependencies,
+  </text>
+  <text x="74" y="462" fill="#9eabb8" font-family="Arial, Helvetica, sans-serif" font-size="30">
+    and why contradiction matters more than one IOC.
+  </text>
+  <path d="M72 515 H420" stroke="#6ee7b7" stroke-width="5"/>
+  <text x="72" y="570" fill="#e7edf3" font-family="monospace" font-size="24">Adam Rhys Heaton · September 22, 2026</text>
+  <text x="1128" y="570" text-anchor="end" fill="#93c5fd" font-family="monospace" font-size="22">ARTICLE 001</text>
+</svg>
