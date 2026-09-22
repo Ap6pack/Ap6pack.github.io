@@ -2,7 +2,7 @@
   "Event": {
     "uuid": "33013b1c-9bc0-59c2-bc0c-4a5772103d8e",
     "info": "Sundew honeypot - campaign a9869edd5304 (2 sources) - root",
-    "date": "2026-09-21",
+    "date": "2026-09-22",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -28,8 +28,8 @@
         "category": "Network activity",
         "to_ids": true,
         "value": "176.65.134.121",
-        "timestamp": "1790008220",
-        "comment": "delivered_payload, confidence high; 9 sessions, 27 commands, 9 downloads; first_seen 2026-09-20T04:16:47.412382Z, last_seen 2026-09-21T15:53:39.962019Z; expires 7d after last_seen"
+        "timestamp": "1790053219",
+        "comment": "delivered_payload, confidence high; 12 sessions, 36 commands, 12 downloads; first_seen 2026-09-20T04:16:47.412382Z, last_seen 2026-09-21T16:35:04.412832Z; expires 7d after last_seen"
       },
       {
         "uuid": "d581a394-b096-597e-80f5-5a15f10c46b9",
@@ -37,7 +37,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "176.65.134.56",
-        "timestamp": "1790008220",
+        "timestamp": "1790053219",
         "comment": "executed_commands, confidence medium; 2 sessions, 3 commands, 0 downloads; first_seen 2026-09-21T01:26:34.397112Z, last_seen 2026-09-21T01:26:38.420717Z; expires 7d after last_seen"
       },
       {
@@ -46,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "root",
-        "timestamp": "1790008220",
+        "timestamp": "1790053219",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "vizxv",
-        "timestamp": "1790008220",
+        "timestamp": "1790053219",
         "comment": "command run by this campaign"
       }
     ]
