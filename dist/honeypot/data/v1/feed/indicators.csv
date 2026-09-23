@@ -1116,7 +1116,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 147.185.132.27,2026-09-11T16:13:42.986286Z,2026-09-11T16:14:14.066844Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 147.185.132.28,2026-08-25T16:25:06.447803Z,2026-08-25T16:25:16.434117Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 147.185.132.33,2026-09-05T16:46:48.895569Z,2026-09-05T16:46:59.206739Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
-147.185.132.36,2026-09-16T02:14:37.230981Z,2026-09-16T02:14:37.441784Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
+147.185.132.36,2026-09-16T02:14:37.230981Z,2026-09-16T02:14:37.441784Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 147.185.132.41,2026-08-24T17:20:26.148012Z,2026-08-24T17:20:26.199688Z,2,0,0,0,low,connected_only,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 147.185.132.42,2026-09-21T18:25:45.615491Z,2026-09-21T18:25:45.767862Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
 147.185.132.45,2026-08-17T18:58:16.970206Z,2026-08-17T18:58:26.946882Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Palo Alto Networks, Inc",paloaltonetworks.com,false,0
@@ -2807,7 +2807,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 192.162.210.205,2026-09-20T11:03:24.830283Z,2026-09-20T11:03:56.276223Z,2,0,0,0,low,connected_only,false,true,,7,Ukraine,PP Zastava Plus,zastava.net.ua,false,4
 192.162.234.90,2026-08-25T17:44:23.420137Z,2026-08-25T17:45:11.820782Z,2,0,0,0,low,connected_only,false,false,,7,Ukraine,"VINASTERISK, PP",vin.ua,false,0
 192.162.235.37,2026-08-25T18:53:40.966751Z,2026-08-25T18:55:08.065520Z,3,0,0,0,low,connected_only,false,false,,7,Ukraine,"VINASTERISK, PP",vin.ua,false,4
-192.162.33.151,2026-09-16T02:01:50.250737Z,2026-09-16T02:02:10.341027Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,IE KHOMA YURY ROMANOVICH,wenet.lviv.ua,false,5
+192.162.33.151,2026-09-16T02:01:50.250737Z,2026-09-16T02:02:10.341027Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,IE KHOMA YURY ROMANOVICH,wenet.lviv.ua,false,5
 192.166.132.79,2026-09-02T23:42:10.388534Z,2026-09-02T23:42:27.930465Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,PC Media Zmijov,meta.ua,false,34
 192.188.8.56,2026-09-09T14:49:20.293906Z,2026-09-09T14:49:20.668475Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Outback Internet,outbackinternet.com,false,100
 192.238.206.141,2026-09-07T06:51:18.713214Z,2026-09-07T06:56:20.811805Z,1,1,0,1,low,delivered_payload,false,false,,7,Hong Kong,ANTBOX NETWORKS LIMITED,antboxnetworks.com,false,100
@@ -3434,7 +3434,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 201.221.108.240,2026-09-17T22:49:10.326780Z,2026-09-17T22:50:07.483763Z,1,1,31,6,high,delivered_payload,false,true,2db8d2d5d6168520,7,Argentina,Sinectis S.A.,sion.com,false,100
 201.222.206.102,2026-08-27T17:50:17.316930Z,2026-08-27T17:50:59.478067Z,2,0,0,0,low,connected_only,false,false,,7,Chile,TELEFÓNICA CHILE S.A.,telefonicachile.cl,false,100
 201.223.172.159,2026-08-21T22:40:25.836325Z,2026-08-21T22:40:47.061417Z,2,0,0,0,low,connected_only,false,false,,7,Chile,TELEFÓNICA CHILE S.A.,telefonicachile.cl,false,5
-201.235.149.126,2026-09-16T02:01:23.504302Z,2026-09-16T02:01:46.951668Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,Telecom Argentina S.A.,personal.com.ar,false,53
+201.235.149.126,2026-09-16T02:01:23.504302Z,2026-09-16T02:01:46.951668Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Telecom Argentina S.A.,personal.com.ar,false,53
 201.235.79.63,2026-09-14T16:02:01.715774Z,2026-09-14T16:02:07.444106Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,Telecom Argentina S.A.,personal.com.ar,false,25
 201.239.13.70,2026-09-17T11:56:37.467988Z,2026-09-17T11:57:40.000402Z,3,0,0,0,low,connected_only,false,true,,7,Chile,VTR BANDA ANCHA S.A.,vtr.com,false,4
 201.239.174.189,2026-09-14T14:58:38.911867Z,2026-09-15T12:31:00.554855Z,7,0,0,0,medium,persistent,false,false,,7,Chile,VTR BANDA ANCHA S.A.,vtr.com,false,30
