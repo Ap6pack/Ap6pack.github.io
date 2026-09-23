@@ -336,9 +336,9 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 108.53.40.210,2026-08-23T07:00:29.016243Z,2026-09-12T01:54:55.343855Z,3,2,41,5,low,delivered_payload,false,false,480804bc4d0c91fc,7,United States,Verizon Business,verizon.com,false,100
 108.85.15.137,2026-08-24T12:15:30.310658Z,2026-08-24T12:16:20.135436Z,2,0,0,0,low,connected_only,false,false,,7,United States,"AT&T Enterprises, LLC",att.com,false,100
 109.105.209.20,2026-09-09T11:11:29.446958Z,2026-09-09T11:11:39.746777Z,2,0,0,0,low,connected_only,false,false,,7,United States,ICG-ZEN-LAX-1,nsec.pt,false,100
-109.105.210.72,2026-09-16T07:49:29.543081Z,2026-09-16T07:49:29.563331Z,1,0,0,0,low,single_sighting,false,true,,7,United States,ICG-ZEN-DFW,nsec.pt,false,100
-109.105.210.73,2026-09-16T07:49:29.668761Z,2026-09-16T07:49:29.669887Z,1,0,0,0,low,single_sighting,false,true,,7,United States,ICG-ZEN-DFW,nsec.pt,false,100
-109.105.210.75,2026-09-16T07:49:24.812727Z,2026-09-16T07:49:34.817075Z,2,0,0,0,low,connected_only,false,true,,7,United States,ICG-ZEN-DFW,nsec.pt,false,100
+109.105.210.72,2026-09-16T07:49:29.543081Z,2026-09-16T07:49:29.563331Z,1,0,0,0,low,single_sighting,false,false,,7,United States,ICG-ZEN-DFW,nsec.pt,false,100
+109.105.210.73,2026-09-16T07:49:29.668761Z,2026-09-16T07:49:29.669887Z,1,0,0,0,low,single_sighting,false,false,,7,United States,ICG-ZEN-DFW,nsec.pt,false,100
+109.105.210.75,2026-09-16T07:49:24.812727Z,2026-09-16T07:49:34.817075Z,2,0,0,0,low,connected_only,false,false,,7,United States,ICG-ZEN-DFW,nsec.pt,false,100
 109.105.31.26,2026-08-21T18:53:23.622223Z,2026-08-21T18:53:26.165900Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Hungary,Naracom Kft.,naracom.hu,false,100
 109.108.87.201,2026-08-29T00:09:34.582915Z,2026-08-29T00:09:53.675039Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,ISP Kievnet,kievnet.ua,false,100
 109.126.41.234,2026-09-05T13:59:07.401403Z,2026-09-05T13:59:14.422472Z,1,1,0,0,low,single_sighting,false,false,,7,Russia,VladLink nets,vladlink.ru,false,100
@@ -4562,7 +4562,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 45.177.146.36,2026-08-21T22:21:01.565347Z,2026-08-21T22:21:19.825242Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,NETLATIN S.R.L.,netlatin.com.ar,false,100
 45.178.132.120,2026-09-16T09:17:10.241754Z,2026-09-16T09:19:10.178249Z,4,0,0,0,low,connected_only,false,true,,7,Chile,Mundonet S.p.A,mundonet.cl,false,56
 45.178.97.197,2026-09-10T09:21:38.568050Z,2026-09-10T09:24:04.404485Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Maria Jose Noguera(Maxinternet),max-internet.com.ar,false,100
-45.178.98.250,2026-09-16T07:37:05.435296Z,2026-09-16T07:37:13.915968Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,Maria Jose Noguera(Maxinternet),max-internet.com.ar,false,100
+45.178.98.250,2026-09-16T07:37:05.435296Z,2026-09-16T07:37:13.915968Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Maria Jose Noguera(Maxinternet),max-internet.com.ar,false,100
 45.180.141.242,2026-09-22T01:35:01.691829Z,2026-09-22T01:35:12.552893Z,2,0,0,0,low,connected_only,false,true,,7,Ecuador,DECERET CIA. LTDA.,,false,67
 45.181.190.10,2026-09-16T02:50:01.467211Z,2026-09-16T02:50:06.472391Z,2,0,0,0,low,connected_only,false,false,,7,Colombia,KALU DE COLOMBIA SAS,kaludecolombia.net,false,100
 45.181.246.47,2026-09-03T01:38:13.596534Z,2026-09-03T01:45:15.551638Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,UBI NETWORKING S.A. (UBIRED),ubired.com.ar,false,69
