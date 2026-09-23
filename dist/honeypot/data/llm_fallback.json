@@ -180,6 +180,11 @@
     "exit_code": 127
   },
   {
+    "command": "123456",
+    "output": "bash: 123456: command not found\n",
+    "exit_code": 127
+  },
+  {
     "command": "41+1",
     "output": "bash: syntax error near unexpected token `+'\n",
     "exit_code": 0
@@ -325,6 +330,11 @@
     "exit_code": 0
   },
   {
+    "command": "admin",
+    "output": "bash: admin: command not found\n",
+    "exit_code": 127
+  },
+  {
     "command": "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW",
     "output": "-bash: b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW: command not found\n",
     "exit_code": 127
@@ -422,6 +432,11 @@
   {
     "command": "vizxv",
     "output": "bash: vizxv: command not found\n",
+    "exit_code": 127
+  },
+  {
+    "command": "xc3511",
+    "output": "bash: xc3511: command not found\n",
     "exit_code": 127
   },
   {
