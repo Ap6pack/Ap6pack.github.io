@@ -2219,7 +2219,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 185.170.87.143,2026-08-21T00:57:34.046861Z,2026-08-21T00:57:53.337152Z,2,0,0,0,low,connected_only,false,false,,7,Hungary,Tarr Kft.,tarr.hu,false,21
 185.176.112.115,2026-08-31T20:46:59.391459Z,2026-08-31T20:47:16.110696Z,1,1,2,0,low,executed_commands,false,false,,7,Ukraine,McLaut network,mclaut.com,false,84
 185.177.188.55,2026-09-17T06:48:30.740316Z,2026-09-17T06:48:50.977435Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,X-City Ltd.,x-city.ua,false,25
-185.177.190.207,2026-09-16T08:14:38.694453Z,2026-09-16T08:14:56.659081Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Ukraine,X-City Ltd.,x-city.ua,false,100
+185.177.190.207,2026-09-16T08:14:38.694453Z,2026-09-16T08:14:56.659081Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Ukraine,X-City Ltd.,x-city.ua,false,100
 185.177.191.83,2026-08-28T03:22:09.991702Z,2026-08-28T03:24:43.992991Z,4,0,0,0,low,connected_only,false,false,,7,Ukraine,X-City Ltd.,x-city.ua,false,71
 185.177.243.177,2026-09-22T14:04:23.757772Z,2026-09-22T14:04:49.691638Z,1,1,48,12,high,delivered_payload,false,true,8c382d81d0f765a8,7,Ukraine,TENET Scientific Production Enterprise LLC,tenet.odessa.ua,false,100
 185.180.141.32,2026-09-19T19:46:30.654240Z,2026-09-19T19:46:35.752530Z,2,0,0,0,low,connected_only,false,true,,7,United States,ICG-1-ZEN-DFW,nsec.pt,false,100
@@ -4154,7 +4154,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 34.146.248.7,2026-08-26T19:22:15.688711Z,2026-09-01T01:36:53.816178Z,2,2,0,0,low,connected_only,false,false,,7,Japan,Google LLC,google.com,false,100
 34.156.10.215,2026-08-25T03:00:28.072392Z,2026-08-25T03:00:34.574185Z,1,0,0,0,low,single_sighting,false,false,,7,Belgium,Google LLC,google.com,false,54
 34.156.249.126,2026-08-30T03:11:57.691099Z,2026-08-30T03:12:39.096819Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,59
-34.156.36.106,2026-09-16T08:15:55.620429Z,2026-09-16T08:16:07.564814Z,1,0,0,0,low,single_sighting,false,true,,7,Belgium,Google LLC,google.com,false,47
+34.156.36.106,2026-09-16T08:15:55.620429Z,2026-09-16T08:16:07.564814Z,1,0,0,0,low,single_sighting,false,false,,7,Belgium,Google LLC,google.com,false,47
 34.204.50.181,2026-08-23T22:20:22.909060Z,2026-08-23T22:20:22.925679Z,1,0,0,0,low,single_sighting,false,false,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 34.205.73.195,2026-09-22T22:23:04.223981Z,2026-09-22T22:23:04.228503Z,1,0,0,0,low,single_sighting,false,true,,7,United States,Amazon Technologies Inc.,amazon.com,false,100
 34.22.119.218,2026-08-26T04:27:06.871310Z,2026-08-26T04:27:21.456487Z,1,0,0,0,low,single_sighting,false,false,,7,Belgium,Google LLC,google.com,false,73
@@ -4189,7 +4189,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 35.187.23.24,2026-09-12T05:29:30.776386Z,2026-09-12T05:30:12.207319Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,58
 35.190.213.246,2026-09-06T02:57:46.023048Z,2026-09-06T02:58:27.454440Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,42
 35.195.212.6,2026-09-13T03:07:09.092538Z,2026-09-13T03:07:50.509742Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,79
-35.195.214.188,2026-09-16T08:17:57.077892Z,2026-09-16T08:18:38.348481Z,6,3,8,0,medium,executed_commands,false,true,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,44
+35.195.214.188,2026-09-16T08:17:57.077892Z,2026-09-16T08:18:38.348481Z,6,3,8,0,medium,persistent,false,false,dde8cca2f2ccdea3,7,Belgium,Google LLC,google.com,false,44
 35.202.9.133,2026-08-20T11:38:00.961233Z,2026-09-21T09:36:09.348380Z,4,0,0,0,low,connected_only,false,true,,7,United States,Google LLC,google.com,false,100
 35.203.210.126,2026-09-01T03:45:32.272780Z,2026-09-01T03:45:42.197369Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,Google LLC,google.com,false,0
 35.203.210.147,2026-08-29T17:49:09.719788Z,2026-08-29T17:49:09.875287Z,2,0,0,0,low,connected_only,false,false,,7,United Kingdom,Google LLC,google.com,false,0
