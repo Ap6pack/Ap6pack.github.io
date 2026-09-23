@@ -180,6 +180,11 @@
     "exit_code": 127
   },
   {
+    "command": "41+1",
+    "output": "bash: syntax error near unexpected token `+'\n",
+    "exit_code": 0
+  },
+  {
     "command": "6|N3aW",
     "output": "bash: 6|N3aW: command not found\n",
     "exit_code": 127
