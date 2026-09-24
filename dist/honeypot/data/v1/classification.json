@@ -50,11 +50,11 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 135232,
+        "total": 135273,
         "top_label": "T1027",
-        "top_value": 124216,
-        "top_share": 0.9185,
-        "top_sources": 382,
+        "top_value": 124219,
+        "top_share": 0.9183,
+        "top_sources": 383,
         "sources_total": 6421
       }
     ]
@@ -2489,21 +2489,21 @@
     {
       "id": "T1027",
       "name": "Obfuscated Files or Information",
-      "count": 124216,
-      "distinct_ips": 382,
+      "count": 124219,
+      "distinct_ips": 383,
       "recon_count": 120048,
       "recon_ips": 9,
-      "residual_count": 4168,
+      "residual_count": 4171,
       "attribution": "certain"
     },
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 7645,
-      "distinct_ips": 458,
+      "count": 7682,
+      "distinct_ips": 460,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 7645,
+      "residual_count": 7682,
       "attribution": "none"
     },
     {
@@ -2567,18 +2567,18 @@
       "attribution": "none"
     },
     {
-      "id": "T1016",
-      "name": "System Network Configuration Discovery",
-      "count": 10,
-      "distinct_ips": 10,
+      "id": "T1140",
+      "name": "Deobfuscate/Decode Files or Information",
+      "count": 11,
+      "distinct_ips": 11,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 10,
+      "residual_count": 11,
       "attribution": "none"
     },
     {
-      "id": "T1140",
-      "name": "Deobfuscate/Decode Files or Information",
+      "id": "T1016",
+      "name": "System Network Configuration Discovery",
       "count": 10,
       "distinct_ips": 10,
       "recon_count": 0,
