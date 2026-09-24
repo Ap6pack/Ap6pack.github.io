@@ -1,0 +1,144 @@
+{
+  "Event": {
+    "uuid": "e52ced4e-86ea-5b02-836a-e256b4a89b72",
+    "info": "Sundew honeypot - campaign ad3b58ef9a59 (6 sources) - sh",
+    "date": "2026-09-24",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "53cce714-4c7d-58af-a6a5-d41810b69559",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "119.192.155.196",
+        "timestamp": "1790233220",
+        "comment": "executed_commands, confidence medium; 6 sessions, 78 commands, 0 downloads; first_seen 2026-09-23T22:26:42.600262Z, last_seen 2026-09-23T22:56:48.825472Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "6c9137ce-3f2d-54e2-a5fa-9dc8db68cb72",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "121.189.108.250",
+        "timestamp": "1790233220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-23T22:51:06.696983Z, last_seen 2026-09-23T22:51:11.949073Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "2541ea92-e081-5531-82b4-6715b9975771",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "204.101.47.114",
+        "timestamp": "1790233220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T01:08:57.255390Z, last_seen 2026-09-24T01:08:58.725625Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "e15e7112-c365-56f1-a39b-c92f81dea8dc",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "218.152.243.192",
+        "timestamp": "1790233220",
+        "comment": "executed_commands, confidence medium; 6 sessions, 78 commands, 0 downloads; first_seen 2026-09-23T21:42:19.390170Z, last_seen 2026-09-23T22:12:09.083961Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "52d43bd8-60fd-5b9f-85d6-022c9bb74156",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "220.121.169.27",
+        "timestamp": "1790233220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-23T23:24:39.879539Z, last_seen 2026-09-23T23:24:45.071871Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "cbd5df5c-62cb-53d4-9d53-a406872a4522",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "24.72.29.49",
+        "timestamp": "1790233220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T02:21:16.847664Z, last_seen 2026-09-24T02:21:19.428692Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "8a744249-accb-56b3-aa55-a2cbcc181556",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "sh",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "65a4bbde-b135-59db-aa3f-9428b3590f50",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "shell",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "631032d4-5811-5055-b378-b964551f8533",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "enable",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "980bcc62-c1ed-5775-9888-94a435b3b30e",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "system",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "7fee7d72-4ac4-5c95-becf-992a2b7beea1",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "ping; sh",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "b4951dcd-2447-5860-8a00-2d09782730ff",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "/bin/busybox HISILICON",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "5bf10184-c413-5050-81d5-6054eb789522",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "/bin/busybox cat /proc/self/exe || cat /proc/self/exe",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}

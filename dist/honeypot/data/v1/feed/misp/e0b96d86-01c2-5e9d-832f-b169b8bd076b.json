@@ -1,8 +1,8 @@
 {
   "Event": {
     "uuid": "e0b96d86-01c2-5e9d-832f-b169b8bd076b",
-    "info": "Sundew honeypot - campaign 32a045e58e6d (2 sources) - system",
-    "date": "2026-09-22",
+    "info": "Sundew honeypot - campaign 32a045e58e6d (3 sources) - system",
+    "date": "2026-09-24",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -28,8 +28,17 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "104.238.118.239",
-        "timestamp": "1790098219",
+        "timestamp": "1790233220",
         "comment": "executed_commands, confidence medium; 616 sessions, 2800 commands, 0 downloads; first_seen 2026-08-17T16:46:23.917178Z, last_seen 2026-09-21T18:59:41.518174Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "542fd38d-4168-5aae-baff-69960e9461e8",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "50.62.135.24",
+        "timestamp": "1790233220",
+        "comment": "executed_commands, confidence medium; 1013 sessions, 4933 commands, 0 downloads; first_seen 2026-09-21T21:15:48.099110Z, last_seen 2026-09-23T22:38:18.585675Z; expires 7d after last_seen"
       },
       {
         "uuid": "339f4914-062c-5b42-9623-b9e7eda73722",
@@ -37,7 +46,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "92.204.128.6",
-        "timestamp": "1790098219",
+        "timestamp": "1790233220",
         "comment": "persistent, confidence medium; 7569 sessions, 36671 commands, 0 downloads; first_seen 2026-09-08T22:33:32.474426Z, last_seen 2026-09-14T10:38:08.652277Z; expires 7d after last_seen"
       },
       {
@@ -46,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1790098219",
+        "timestamp": "1790233220",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1790098219",
+        "timestamp": "1790233220",
         "comment": "command run by this campaign"
       },
       {
@@ -64,7 +73,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1790098219",
+        "timestamp": "1790233220",
         "comment": "command run by this campaign"
       }
     ]

