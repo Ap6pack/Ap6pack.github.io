@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-24T02:00:19.804583+00:00",
+  "generated_at": "2026-09-24T02:30:19.222612+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-24T01:43:39.633569Z",
-  "total_events": 1482589,
-  "unique_sessions": 177372,
-  "unique_source_ips": 6394,
-  "login_attempts": 165210,
-  "login_success": 162447,
-  "commands_run": 341170,
+  "last_event": "2026-09-24T02:29:52.932501Z",
+  "total_events": 1482967,
+  "unique_sessions": 177407,
+  "unique_source_ips": 6396,
+  "login_attempts": 165243,
+  "login_success": 162480,
+  "commands_run": 341350,
   "files_captured": 30,
   "top_usernames": [
     [
@@ -135,16 +135,16 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 341170,
-    "cowrie.session.connect": 177372,
-    "cowrie.session.closed": 176696,
-    "cowrie.login.success": 162447,
-    "cowrie.session.params": 160597,
-    "cowrie.log.closed": 159931,
+    "cowrie.command.input": 341350,
+    "cowrie.session.connect": 177407,
+    "cowrie.session.closed": 176728,
+    "cowrie.login.success": 162480,
+    "cowrie.session.params": 160630,
+    "cowrie.log.closed": 159961,
     "cowrie.client.version": 123496,
     "cowrie.client.kex": 123094,
-    "cowrie.telnet.option": 45333,
-    "cowrie.command.success": 3838,
+    "cowrie.telnet.option": 45367,
+    "cowrie.command.success": 3839,
     "cowrie.login.failed": 2763,
     "cowrie.session.file_download.failed": 2099,
     "cowrie.direct-tcpip.request": 1777,
@@ -320,7 +320,7 @@
     },
     {
       "date": "2026-09-24",
-      "count": 443
+      "count": 821
     }
   ],
   "published": {
@@ -379,10 +379,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 134863,
+        "total": 134875,
         "top_label": "T1027",
         "top_value": 124209,
-        "top_share": 0.921,
+        "top_share": 0.9209,
         "top_sources": 381,
         "sources_total": 6356
       }
