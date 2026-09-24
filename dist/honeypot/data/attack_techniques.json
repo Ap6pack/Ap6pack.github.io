@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "techniques": [
     {
       "id": "T1027",
@@ -25,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 7413,
-      "distinct_ips": 451,
+      "count": 7437,
+      "distinct_ips": 452,
       "examples": [
         ">/var/.f && chmod 777 /var/.f && /var/.f && cd /var/; ",
         ">/var/tmp/.f && chmod 777 /var/tmp/.f && /var/tmp/.f && cd /var/tmp/; ",
@@ -184,6 +183,6 @@
       ]
     }
   ],
-  "total_commands": 347332,
-  "matched_commands": 132563
+  "total_commands": 347391,
+  "matched_commands": 132587
 }
