@@ -1,6 +1,6 @@
 # Sundew honeypot indicator feed
 
-Generated 2026-09-24T23:00:19.849439Z from a single Cowrie SSH/Telnet honeypot on one AWS EC2
+Generated 2026-09-24T23:30:20.055133Z from a single Cowrie SSH/Telnet honeypot on one AWS EC2
 instance. Schema `1.0`, feed `v1`. Licence: CC BY 4.0.
 
 ## Read this before you block anything
@@ -58,8 +58,8 @@ Current distribution:
 | Confidence | Addresses |
 |---|---|
 | high | 58 |
-| medium | 569 |
-| low | 5,878 |
+| medium | 568 |
+| low | 5,879 |
 | **total** | **6,505** |
 
 Every field the tiers are derived from is in `indicators.json`. If you disagree
