@@ -50,7 +50,7 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 134857,
+        "total": 134863,
         "top_label": "T1027",
         "top_value": 124209,
         "top_share": 0.921,
@@ -2411,11 +2411,11 @@
     {
       "id": "T1082",
       "name": "System Information Discovery",
-      "count": 369,
-      "distinct_ips": 39,
+      "count": 371,
+      "distinct_ips": 40,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 369,
+      "residual_count": 371,
       "attribution": "none"
     },
     {
@@ -2441,11 +2441,31 @@
     {
       "id": "T1057",
       "name": "Process Discovery",
-      "count": 19,
+      "count": 21,
+      "distinct_ips": 11,
+      "recon_count": 0,
+      "recon_ips": 0,
+      "residual_count": 21,
+      "attribution": "none"
+    },
+    {
+      "id": "T1685.006",
+      "name": "Clear Linux or Mac System Logs",
+      "count": 11,
+      "distinct_ips": 11,
+      "recon_count": 0,
+      "recon_ips": 0,
+      "residual_count": 11,
+      "attribution": "none"
+    },
+    {
+      "id": "T1016",
+      "name": "System Network Configuration Discovery",
+      "count": 10,
       "distinct_ips": 10,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 19,
+      "residual_count": 10,
       "attribution": "none"
     },
     {
@@ -2459,28 +2479,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1685.006",
-      "name": "Clear Linux or Mac System Logs",
-      "count": 10,
-      "distinct_ips": 10,
-      "recon_count": 0,
-      "recon_ips": 0,
-      "residual_count": 10,
-      "attribution": "none"
-    },
-    {
       "id": "T1033",
       "name": "System Owner/User Discovery",
-      "count": 9,
-      "distinct_ips": 9,
-      "recon_count": 0,
-      "recon_ips": 0,
-      "residual_count": 9,
-      "attribution": "none"
-    },
-    {
-      "id": "T1016",
-      "name": "System Network Configuration Discovery",
       "count": 9,
       "distinct_ips": 9,
       "recon_count": 0,
