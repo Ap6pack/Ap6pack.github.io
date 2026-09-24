@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-24T18:30:20.201260+00:00",
+  "generated_at": "2026-09-24T19:00:23.231628+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-24T18:29:52.383180Z",
-  "total_events": 1502340,
-  "unique_sessions": 179246,
-  "unique_source_ips": 6493,
-  "login_attempts": 166980,
-  "login_success": 164109,
-  "commands_run": 350129,
+  "last_event": "2026-09-24T18:58:48.644924Z",
+  "total_events": 1502734,
+  "unique_sessions": 179274,
+  "unique_source_ips": 6501,
+  "login_attempts": 167001,
+  "login_success": 164130,
+  "commands_run": 350374,
   "files_captured": 30,
   "top_usernames": [
     [
@@ -135,16 +135,16 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 350129,
-    "cowrie.session.connect": 179246,
-    "cowrie.session.closed": 178570,
-    "cowrie.login.success": 164109,
-    "cowrie.session.params": 162264,
-    "cowrie.log.closed": 161598,
+    "cowrie.command.input": 350374,
+    "cowrie.session.connect": 179274,
+    "cowrie.session.closed": 178598,
+    "cowrie.login.success": 164130,
+    "cowrie.session.params": 162285,
+    "cowrie.log.closed": 161619,
     "cowrie.client.version": 123518,
     "cowrie.client.kex": 123108,
-    "cowrie.telnet.option": 47091,
-    "cowrie.command.success": 3934,
+    "cowrie.telnet.option": 47112,
+    "cowrie.command.success": 3943,
     "cowrie.login.failed": 2871,
     "cowrie.session.file_download.failed": 2114,
     "cowrie.direct-tcpip.request": 1777,
@@ -320,7 +320,7 @@
     },
     {
       "date": "2026-09-24",
-      "count": 20194
+      "count": 20588
     }
   ],
   "published": {
@@ -379,10 +379,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 135486,
+        "total": 135582,
         "top_label": "T1027",
         "top_value": 124227,
-        "top_share": 0.9169,
+        "top_share": 0.9162,
         "top_sources": 384,
         "sources_total": 6421
       }
