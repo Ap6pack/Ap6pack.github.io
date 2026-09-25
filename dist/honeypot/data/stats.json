@@ -1,55 +1,58 @@
 {
-  "schema_version": "1.0",
-  "generated_at": "2026-09-25T23:00:20.582310+00:00",
+  "generated_at": "2026-09-25T23:30:19.449028+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-25T23:00:01.731458Z",
-  "total_events": 1510489,
-  "unique_sessions": 179997,
-  "unique_source_ips": 6654,
-  "login_attempts": 167469,
-  "login_success": 164572,
-  "commands_run": 354594,
-  "files_captured": 37,
+  "last_event": "2026-09-25T23:30:00.572399Z",
+  "total_events": 1511298,
+  "unique_sessions": 180071,
+  "unique_source_ips": 6658,
+  "login_attempts": 167543,
+  "login_success": 164644,
+  "commands_run": 354964,
+  "files_captured": 23,
   "top_usernames": [
     [
       "root",
-      2376
+      150141
     ],
     [
       "admin",
-      1497
+      9154
     ],
     [
       "enable\\x00",
-      412
+      2698
     ],
     [
       "support",
-      187
+      1675
     ],
     [
       "user",
-      123
+      1027
+    ],
+    [
+      "guest",
+      694
+    ],
+    [
+      "ubnt",
+      353
     ],
     [
       "default",
-      122
+      137
     ],
     [
       "blank",
       100
     ],
     [
-      "guest",
-      100
+      "nobody",
+      99
     ],
     [
       "test",
       94
-    ],
-    [
-      "nobody",
-      93
     ],
     [
       "debian",
@@ -66,86 +69,82 @@
     [
       "unknown",
       75
-    ],
-    [
-      "ubnt",
-      73
     ]
   ],
   "top_passwords": [
     [
       "admin",
-      1174
-    ],
-    [
-      "linuxshell\\x00",
-      409
-    ],
-    [
-      "123456",
-      353
-    ],
-    [
-      "root",
-      303
-    ],
-    [
-      "vizxv",
-      137
-    ],
-    [
-      "",
-      136
-    ],
-    [
-      "password",
-      83
-    ],
-    [
-      "12345",
-      70
+      5601
     ],
     [
       "xc3511",
-      62
+      3124
     ],
     [
-      "default",
-      62
+      "vizxv",
+      2780
     ],
     [
-      "support",
-      55
+      "linuxshell\\x00",
+      2695
     ],
     [
-      "1234",
-      55
+      "",
+      2253
     ],
     [
-      "pass",
-      40
+      "123456",
+      1972
     ],
     [
-      "juantech",
-      40
+      "password",
+      1881
+    ],
+    [
+      "888888",
+      1800
+    ],
+    [
+      "12345",
+      1581
     ],
     [
       "xmhdipc",
-      38
+      1557
+    ],
+    [
+      "support",
+      1548
+    ],
+    [
+      "juantech",
+      1529
+    ],
+    [
+      "default",
+      1499
+    ],
+    [
+      "1111",
+      1489
+    ],
+    [
+      "54321",
+      1461
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 354594,
-    "cowrie.session.connect": 179997,
-    "cowrie.session.closed": 179315,
-    "cowrie.login.success": 164572,
-    "cowrie.session.params": 162723,
-    "cowrie.log.closed": 162051,
+    "cowrie.command.input": 354964,
+    "cowrie.session.connect": 180071,
+    "cowrie.session.closed": 179389,
+    "cowrie.login.success": 164644,
+    "cowrie.session.params": 162795,
+    "cowrie.log.closed": 162123,
     "cowrie.client.version": 123560,
     "cowrie.client.kex": 123128,
-    "cowrie.telnet.option": 47637,
-    "cowrie.command.success": 4070,
-    "cowrie.login.failed": 2897,
+    "cowrie.telnet.option": 47709,
+    "cowrie.command.success": 4071,
+    "cowrie.login.failed": 2899,
     "cowrie.session.file_download.failed": 2129,
     "cowrie.direct-tcpip.request": 1778,
     "cowrie.session.file_download": 1736,
@@ -324,72 +323,7 @@
     },
     {
       "date": "2026-09-25",
-      "count": 5947
+      "count": 6756
     }
-  ],
-  "published": {
-    "sessions": 21241,
-    "source_ips": 6638,
-    "login_attempts": 6445,
-    "login_success": 5836,
-    "commands_run": 37365,
-    "sessions_logged_in": 5836,
-    "sessions_with_commands": 3645,
-    "sessions_with_download": 659,
-    "share_of_sessions": 0.118
-  },
-  "weighting": {
-    "schema_version": "1.0",
-    "rule": {
-      "max_commands_per_session": 1,
-      "max_avg_duration_ms": 5000,
-      "max_downloads": 0
-    },
-    "clustered_sessions": 162223,
-    "ips": {
-      "observed": 6638,
-      "attempted_login": 3050,
-      "ran_command": 1754,
-      "delivered_payload": 506,
-      "published": {
-        "observed": 6638,
-        "attempted_login": 2378,
-        "ran_command": 1061,
-        "delivered_payload": 222
-      }
-    },
-    "recon": {
-      "clusters": 14,
-      "sessions": 120340,
-      "ip_count_sum": 40,
-      "share_of_clustered_sessions": 0.7418
-    },
-    "attack": {
-      "clusters": 204,
-      "sessions": 41883,
-      "ip_count_sum": 1934
-    },
-    "dominance": [
-      {
-        "metric": "sessions",
-        "label": "sessions in a behaviour cluster",
-        "total": 162223,
-        "top_label": "eafdc691c2945a06",
-        "top_value": 120048,
-        "top_share": 0.74,
-        "top_sources": 9,
-        "sources_total": 6638
-      },
-      {
-        "metric": "attack_techniques",
-        "label": "commands tagged with an ATT&CK technique",
-        "total": 137121,
-        "top_label": "T1027",
-        "top_value": 124251,
-        "top_share": 0.9061,
-        "top_sources": 387,
-        "sources_total": 6638
-      }
-    ]
-  }
+  ]
 }
