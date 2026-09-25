@@ -281,7 +281,7 @@
     "lon": -121.9732,
     "country": "United States",
     "city": "Santa Clara",
-    "count": 9048,
+    "count": 9050,
     "abuse_score": 100,
     "abuse_reports": 833,
     "isp": "DigitalOcean, LLC",
@@ -529,6 +529,22 @@
     "last_reported_at": "2026-09-24T10:04:04+00:00"
   },
   {
+    "ip": "183.91.11.226",
+    "lat": 21.0184,
+    "lon": 105.8461,
+    "country": "Vietnam",
+    "city": "Hanoi",
+    "count": 897,
+    "abuse_score": 100,
+    "abuse_reports": 1930,
+    "isp": "CMC Telecom Infrastructure Company",
+    "usage_type": "Fixed Line ISP",
+    "domain": "cmctelecom.vn",
+    "is_tor": false,
+    "distinct_users": 95,
+    "last_reported_at": "2026-09-18T23:42:39+00:00"
+  },
+  {
     "ip": "186.125.212.120",
     "lat": -34.792,
     "lon": -63.7813,
@@ -575,22 +591,6 @@
     "is_tor": false,
     "distinct_users": 94,
     "last_reported_at": "2026-09-18T22:53:13+00:00"
-  },
-  {
-    "ip": "183.91.11.226",
-    "lat": 21.0184,
-    "lon": 105.8461,
-    "country": "Vietnam",
-    "city": "Hanoi",
-    "count": 860,
-    "abuse_score": 100,
-    "abuse_reports": 1930,
-    "isp": "CMC Telecom Infrastructure Company",
-    "usage_type": "Fixed Line ISP",
-    "domain": "cmctelecom.vn",
-    "is_tor": false,
-    "distinct_users": 95,
-    "last_reported_at": "2026-09-18T23:42:39+00:00"
   },
   {
     "ip": "165.22.41.116",
@@ -959,6 +959,22 @@
     "last_reported_at": "2026-08-31T15:18:45+00:00"
   },
   {
+    "ip": "5.165.83.44",
+    "lat": 53.271,
+    "lon": 34.3214,
+    "country": "Russia",
+    "city": "Bryansk",
+    "count": 369,
+    "abuse_score": 25,
+    "abuse_reports": 3,
+    "isp": "CJSC ER-Telecom Holding Bryansk branch",
+    "usage_type": "Fixed Line ISP",
+    "domain": "ertelecom.ru",
+    "is_tor": false,
+    "distinct_users": 3,
+    "last_reported_at": "2026-09-24T12:35:57+00:00"
+  },
+  {
     "ip": "176.65.134.121",
     "lat": 48.6242,
     "lon": 13.6687,
@@ -1117,22 +1133,6 @@
     "is_tor": false,
     "distinct_users": 2,
     "last_reported_at": "2026-09-05T01:45:27+00:00"
-  },
-  {
-    "ip": "5.165.83.44",
-    "lat": 53.271,
-    "lon": 34.3214,
-    "country": "Russia",
-    "city": "Bryansk",
-    "count": 287,
-    "abuse_score": 25,
-    "abuse_reports": 3,
-    "isp": "CJSC ER-Telecom Holding Bryansk branch",
-    "usage_type": "Fixed Line ISP",
-    "domain": "ertelecom.ru",
-    "is_tor": false,
-    "distinct_users": 3,
-    "last_reported_at": "2026-09-24T12:35:57+00:00"
   },
   {
     "ip": "14.45.124.170",
@@ -2138,6 +2138,24 @@
     "last_reported_at": "2026-08-18T05:40:25+00:00"
   },
   {
+    "ip": "18.116.101.220",
+    "lat": 40.0992,
+    "lon": -83.1141,
+    "country": "United States",
+    "city": "Dublin",
+    "count": 96,
+    "abuse_score": 100,
+    "abuse_reports": 12173,
+    "isp": "Amazon Technologies Inc.",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "amazon.com",
+    "is_tor": false,
+    "distinct_users": 718,
+    "last_reported_at": "2026-08-18T10:22:00+00:00",
+    "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
+    "hassh_shared_count": 34
+  },
+  {
     "ip": "3.130.168.2",
     "lat": 40.0992,
     "lon": -83.1141,
@@ -2206,24 +2224,6 @@
     "last_reported_at": "2026-08-18T05:41:55+00:00",
     "hassh": "16443846184eafde36765c9bab2f4397",
     "hassh_shared_count": 47
-  },
-  {
-    "ip": "18.116.101.220",
-    "lat": 40.0992,
-    "lon": -83.1141,
-    "country": "United States",
-    "city": "Dublin",
-    "count": 91,
-    "abuse_score": 100,
-    "abuse_reports": 12173,
-    "isp": "Amazon Technologies Inc.",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "amazon.com",
-    "is_tor": false,
-    "distinct_users": 718,
-    "last_reported_at": "2026-08-18T10:22:00+00:00",
-    "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
-    "hassh_shared_count": 34
   },
   {
     "ip": "112.227.202.1",
@@ -7106,6 +7106,22 @@
     "is_tor": false,
     "distinct_users": 24,
     "last_reported_at": "2026-09-24T19:31:52+00:00"
+  },
+  {
+    "ip": "47.22.166.163",
+    "lat": 40.8343,
+    "lon": -73.9235,
+    "country": "United States",
+    "city": "The Bronx",
+    "count": 44,
+    "abuse_score": 100,
+    "abuse_reports": 207,
+    "isp": "Cablevision Systems Corp.",
+    "usage_type": "Fixed Line ISP",
+    "domain": "optimum.com",
+    "is_tor": false,
+    "distinct_users": 78,
+    "last_reported_at": "2026-09-25T05:39:48+00:00"
   },
   {
     "ip": "111.52.52.68",
@@ -66753,6 +66769,22 @@
     "last_reported_at": "2026-09-24T04:01:25+00:00"
   },
   {
+    "ip": "20.169.84.213",
+    "lat": 33.448376,
+    "lon": -112.074036,
+    "country": "United States",
+    "city": "Phoenix",
+    "count": 5,
+    "abuse_score": 100,
+    "abuse_reports": 206,
+    "isp": "Microsoft Corporation",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "microsoft.com",
+    "is_tor": false,
+    "distinct_users": 81,
+    "last_reported_at": "2026-09-25T05:46:35+00:00"
+  },
+  {
     "ip": "82.165.27.72",
     "lat": 52.52,
     "lon": 13.405,
@@ -70245,6 +70277,22 @@
     "is_tor": false,
     "distinct_users": 1,
     "last_reported_at": "2026-09-22T04:10:39+00:00"
+  },
+  {
+    "ip": "73.225.239.168",
+    "lat": 47.3012,
+    "lon": -122.2066,
+    "country": "United States",
+    "city": "Auburn",
+    "count": 4,
+    "abuse_score": 100,
+    "abuse_reports": 63,
+    "isp": "Comcast Cable Communications, LLC",
+    "usage_type": "Fixed Line ISP",
+    "domain": "comcast.com",
+    "is_tor": false,
+    "distinct_users": 44,
+    "last_reported_at": "2026-09-25T05:44:11+00:00"
   },
   {
     "ip": "195.20.6.224",
