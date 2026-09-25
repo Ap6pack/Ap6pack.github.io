@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-25T02:30:19.696623+00:00",
+  "generated_at": "2026-09-25T03:00:19.222495+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-25T02:29:04.797156Z",
-  "total_events": 1504992,
-  "unique_sessions": 179448,
-  "unique_source_ips": 6539,
-  "login_attempts": 167113,
-  "login_success": 164240,
-  "commands_run": 351747,
+  "last_event": "2026-09-25T02:46:22.877191Z",
+  "total_events": 1505105,
+  "unique_sessions": 179457,
+  "unique_source_ips": 6541,
+  "login_attempts": 167119,
+  "login_success": 164246,
+  "commands_run": 351813,
   "files_captured": 30,
   "top_usernames": [
     [
@@ -135,16 +135,16 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 351747,
-    "cowrie.session.connect": 179448,
-    "cowrie.session.closed": 178772,
-    "cowrie.login.success": 164240,
-    "cowrie.session.params": 162394,
-    "cowrie.log.closed": 161728,
-    "cowrie.client.version": 123529,
+    "cowrie.command.input": 351813,
+    "cowrie.session.connect": 179457,
+    "cowrie.session.closed": 178781,
+    "cowrie.login.success": 164246,
+    "cowrie.session.params": 162400,
+    "cowrie.log.closed": 161734,
+    "cowrie.client.version": 123531,
     "cowrie.client.kex": 123113,
-    "cowrie.telnet.option": 47248,
-    "cowrie.command.success": 3992,
+    "cowrie.telnet.option": 47254,
+    "cowrie.command.success": 3995,
     "cowrie.login.failed": 2873,
     "cowrie.session.file_download.failed": 2114,
     "cowrie.direct-tcpip.request": 1778,
@@ -324,7 +324,7 @@
     },
     {
       "date": "2026-09-25",
-      "count": 450
+      "count": 563
     }
   ],
   "published": {
@@ -383,10 +383,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 136149,
+        "total": 136173,
         "top_label": "T1027",
         "top_value": 124227,
-        "top_share": 0.9124,
+        "top_share": 0.9123,
         "top_sources": 384,
         "sources_total": 6505
       }
