@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 136041,
+        "total": 136065,
         "top_label": "T1027",
         "top_value": 124227,
-        "top_share": 0.9132,
+        "top_share": 0.913,
         "top_sources": 384,
         "sources_total": 6505
       }
@@ -2559,11 +2559,11 @@
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 8432,
-      "distinct_ips": 477,
+      "count": 8456,
+      "distinct_ips": 478,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 8432,
+      "residual_count": 8456,
       "attribution": "none"
     },
     {
@@ -2617,8 +2617,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1685.006",
-      "name": "Clear Linux or Mac System Logs",
+      "id": "T1140",
+      "name": "Deobfuscate/Decode Files or Information",
       "count": 11,
       "distinct_ips": 11,
       "recon_count": 0,
@@ -2627,8 +2627,8 @@
       "attribution": "none"
     },
     {
-      "id": "T1140",
-      "name": "Deobfuscate/Decode Files or Information",
+      "id": "T1685.006",
+      "name": "Clear Linux or Mac System Logs",
       "count": 11,
       "distinct_ips": 11,
       "recon_count": 0,
