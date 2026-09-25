@@ -1399,7 +1399,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 161.35.222.60,2026-08-18T01:43:17.622322Z,2026-08-18T01:43:17.820116Z,2,0,0,0,low,connected_only,false,false,,7,Germany,"DigitalOcean, LLC",digitalocean.com,false,16
 161.35.229.181,2026-08-23T14:39:28.808349Z,2026-08-23T14:39:28.943553Z,2,0,0,0,low,connected_only,false,false,,7,United States,"DigitalOcean, LLC",digitalocean.com,false,49
 161.35.36.57,2026-08-23T20:20:57.046403Z,2026-08-23T20:21:05.045489Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,"DigitalOcean, LLC",digitalocean.com,false,100
-162.17.163.226,2026-08-23T13:29:34.154859Z,2026-09-18T03:58:27.575361Z,2,2,62,11,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,United States,"Comcast Cable Communications, LLC",comcast.com,false,100
+162.17.163.226,2026-08-23T13:29:34.154859Z,2026-09-18T03:58:27.575361Z,2,2,62,11,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,United States,"Comcast Cable Communications, LLC",comcast.com,false,100
 162.198.149.199,2026-09-13T18:09:22.830028Z,2026-09-13T18:10:53.236416Z,3,0,0,0,low,connected_only,false,false,,7,United States,"AT&T Enterprises, LLC",att.com,false,98
 162.207.190.99,2026-08-28T04:13:11.696037Z,2026-08-28T04:16:16.993040Z,2,0,0,0,low,connected_only,false,false,,7,United States,"AT&T Enterprises, LLC",att.com,false,100
 162.216.149.137,2026-09-11T21:55:57.347905Z,2026-09-11T21:55:57.387408Z,2,0,0,0,low,connected_only,false,false,,7,United States,Google LLC,google.com,false,0
@@ -4676,7 +4676,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 45.156.129.91,2026-09-14T09:01:51.194303Z,2026-09-14T09:01:59.194818Z,1,0,0,0,low,single_sighting,false,false,,7,United States,INAP-CHI-1,bitsight.com,false,100
 45.156.87.189,2026-09-18T08:18:16.532318Z,2026-09-18T08:19:16.499723Z,1,0,0,0,low,single_sighting,false,true,,7,The Netherlands,TechTies Inc.,tech-ties.net,false,100
 45.157.52.13,2026-08-21T17:17:49.943073Z,2026-08-21T17:20:10.767560Z,2,0,0,0,low,connected_only,false,false,,7,Iraq,SmartLink for Internet Services LTD,smartlink-isp.com,false,52
-45.158.127.112,2026-09-18T03:51:55.724236Z,2026-09-18T03:52:55.724888Z,1,0,0,0,low,single_sighting,false,true,,7,United States,SERVA ONE LTD,serva.one,false,100
+45.158.127.112,2026-09-18T03:51:55.724236Z,2026-09-18T03:52:55.724888Z,1,0,0,0,low,single_sighting,false,false,,7,United States,SERVA ONE LTD,serva.one,false,100
 45.160.15.5,2026-09-12T01:21:45.283148Z,2026-09-12T01:24:12.147171Z,2,0,0,0,low,connected_only,false,false,,7,Chile,SERVICIO DE TELECOMUNICACIONES VEMOS MAS LTDA.,vemosmas.cl,false,39
 45.160.190.13,2026-08-18T13:29:43.710783Z,2026-08-18T13:29:43.711803Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,SOCIEDAD GAMACON LIMITADA,gamacon.cl,false,100
 45.160.190.7,2026-08-18T13:30:16.068792Z,2026-08-18T13:30:16.070081Z,1,0,0,0,low,single_sighting,false,false,,7,Chile,SOCIEDAD GAMACON LIMITADA,gamacon.cl,false,100
@@ -6414,7 +6414,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 95.191.46.185,2026-09-06T16:09:10.178518Z,2026-09-06T16:09:28.370323Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,OJSC Sibirtelecom,sibirtelecom.ru,false,36
 95.209.157.61,2026-08-27T06:44:56.712126Z,2026-08-27T06:46:56.789419Z,1,0,0,0,low,single_sighting,false,false,,7,Denmark,Hi3G Access AB,hi3gaccess.se,false,48
 95.214.42.111,2026-09-18T11:50:10.832349Z,2026-09-18T11:50:11.967591Z,4,0,0,0,low,connected_only,false,true,,7,Ukraine,TENET Scientific Production Enterprise LLC,tenet.odessa.ua,false,0
-95.215.218.163,2026-09-18T03:43:04.861774Z,2026-09-18T03:44:29.871183Z,1,1,31,6,high,delivered_payload,false,true,2db8d2d5d6168520,7,Ukraine,Lanet Network Ltd,lanet.ua,false,100
+95.215.218.163,2026-09-18T03:43:04.861774Z,2026-09-18T03:44:29.871183Z,1,1,31,6,low,delivered_payload,false,false,2db8d2d5d6168520,7,Ukraine,Lanet Network Ltd,lanet.ua,false,100
 95.215.87.127,2026-08-18T19:45:07.928123Z,2026-08-18T19:45:24.508576Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,OngNet Plus LLC,ongnetplus.ru,false,71
 95.217.139.238,2026-09-04T02:18:11.144383Z,2026-09-04T02:18:11.745068Z,1,1,0,0,low,single_sighting,false,false,,7,Finland,PRIME TIME SYSTEMS d.o.o.,primetime.rs,false,100
 95.234.82.85,2026-08-21T18:21:47.738029Z,2026-08-21T18:22:06.254073Z,1,1,2,0,low,executed_commands,false,false,,7,Italy,Telecom Italia S.p.A.,telecomitalia.com,false,59
