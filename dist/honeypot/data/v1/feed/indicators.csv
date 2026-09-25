@@ -866,7 +866,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 124.160.45.26,2026-09-02T02:53:38.656065Z,2026-09-02T02:53:51.765807Z,1,1,0,0,low,single_sighting,false,false,,7,China,"YINGYUTOUZI,HANGZHOU,ZHEJIANG",cnc-noc.net,false,100
 124.167.20.113,2026-09-10T02:52:39.971723Z,2026-09-10T02:52:48.758950Z,1,1,0,0,low,single_sighting,false,false,,7,China,China Unicom Shan1xi province network,chinaunicom.cn,false,100
 124.167.20.72,2026-08-25T19:41:40.141860Z,2026-08-27T12:48:40.103477Z,2,2,0,0,low,connected_only,false,false,,7,China,China Unicom Shan1xi province network,chinaunicom.cn,false,100
-124.167.36.223,2026-09-18T09:23:39.317796Z,2026-09-18T09:25:06.317139Z,1,1,31,5,high,delivered_payload,false,true,dcee08b0f1df1ed7,7,China,China Unicom Shan1xi province network,chinaunicom.cn,false,0
+124.167.36.223,2026-09-18T09:23:39.317796Z,2026-09-18T09:25:06.317139Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,China,China Unicom Shan1xi province network,chinaunicom.cn,false,0
 124.167.55.82,2026-09-06T03:17:19.473030Z,2026-09-06T03:18:45.233181Z,1,1,31,5,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,China,China Unicom Shan1xi province network,chinaunicom.cn,false,33
 124.174.14.174,2026-09-24T03:48:13.785384Z,2026-09-24T03:51:54.479374Z,1,1,1,1,high,delivered_payload,false,true,05aa43a76839a76e,7,China,"Beijing Volcano Engine Technology Co., Ltd.",bytedance.com,false,100
 124.246.114.111,2026-08-26T12:36:11.553053Z,2026-09-06T10:48:40.100074Z,4,4,0,0,low,connected_only,false,false,,7,Singapore,M1 LIMITED,m1.com.sg,false,100
@@ -4073,7 +4073,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 220.180.249.165,2026-09-02T13:05:47.143983Z,2026-09-03T10:05:39.562904Z,2,1,0,0,low,connected_only,false,false,,7,China,CHINANET anhui province network,chinatelecom.cn,false,100
 220.189.253.198,2026-08-26T16:40:13.983746Z,2026-09-10T04:20:50.485169Z,4,4,0,0,low,connected_only,false,false,,7,China,"Zhejiang Hangwan Automobile SPAREPARTS ENTERPRISE CO.,LTD",hz.zj.cn,false,100
 220.202.112.144,2026-09-07T01:12:26.073119Z,2026-09-07T01:13:03.258501Z,1,0,0,0,low,single_sighting,false,false,,7,China,China Unicom,chinaunicom.cn,false,78
-220.243.137.204,2026-09-18T09:08:28.251548Z,2026-09-18T09:18:11.161905Z,3,1,0,1,high,delivered_payload,false,true,,7,China,ChinaNetCenter Ltd.,wangsu.com,false,100
+220.243.137.204,2026-09-18T09:08:28.251548Z,2026-09-18T09:18:11.161905Z,3,1,0,1,low,delivered_payload,false,false,,7,China,ChinaNetCenter Ltd.,wangsu.com,false,100
 220.246.33.79,2026-09-02T17:57:13.107492Z,2026-09-02T17:57:13.909100Z,1,0,0,0,low,single_sighting,false,false,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
 220.246.42.212,2026-08-31T20:07:49.154073Z,2026-09-04T12:17:16.875761Z,3,3,0,0,low,connected_only,false,false,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
 220.246.42.217,2026-09-02T13:57:43.145686Z,2026-09-12T18:33:19.924882Z,2,2,0,0,low,connected_only,false,false,,7,Hong Kong,Hong Kong Telecommunications (HKT) Limited Mass Internet,netvigator.com,false,100
@@ -5427,7 +5427,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 65.49.20.68,2026-08-31T04:37:24.684374Z,2026-08-31T04:37:24.685922Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"The Shadowserver Foundation, Inc.",shadowserver.org,false,100
 65.99.119.101,2026-09-06T00:19:26.110095Z,2026-09-16T13:51:21.123238Z,3,3,93,15,low,delivered_payload,false,false,dcee08b0f1df1ed7,7,United States,Atlantic Broadband,breezeline.com,false,100
 66.132.172.102,2026-09-22T02:32:53.743743Z,2026-09-22T02:33:11.380783Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
-66.132.172.104,2026-09-18T09:11:56.806427Z,2026-09-18T09:12:14.066729Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
+66.132.172.104,2026-09-18T09:11:56.806427Z,2026-09-18T09:12:14.066729Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.172.106,2026-09-18T04:56:01.103376Z,2026-09-18T04:56:30.994764Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.172.130,2026-09-12T17:33:55.330921Z,2026-09-12T17:34:10.941115Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.172.132,2026-09-15T18:33:23.112857Z,2026-09-21T03:51:07.787889Z,2,0,0,0,low,connected_only,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
@@ -5460,7 +5460,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 66.132.195.49,2026-09-19T22:40:29.293158Z,2026-09-19T22:40:44.316895Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.195.63,2026-09-20T23:31:33.648494Z,2026-09-20T23:31:50.380034Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.195.82,2026-09-13T06:36:53.693420Z,2026-09-13T06:37:09.438198Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Censys, Inc.",censys.com,false,100
-66.132.195.83,2026-09-18T09:08:12.540704Z,2026-09-18T09:08:28.077891Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
+66.132.195.83,2026-09-18T09:08:12.540704Z,2026-09-18T09:08:28.077891Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.195.88,2026-09-19T09:43:22.654203Z,2026-09-19T09:43:38.156728Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.195.90,2026-09-16T19:36:38.068203Z,2026-09-16T19:36:53.743002Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.224.236,2026-09-17T01:42:59.319263Z,2026-09-17T01:43:16.026990Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Censys, Inc.",censys.com,false,100
@@ -5661,7 +5661,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 76.36.191.6,2026-08-28T02:59:29.296588Z,2026-08-28T03:01:39.329103Z,2,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications Inc,charter.com,false,100
 76.37.177.40,2026-09-14T22:23:02.829532Z,2026-09-14T22:24:50.711541Z,2,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications Inc,charter.com,false,24
 76.38.247.132,2026-09-01T18:39:50.552508Z,2026-09-01T19:03:27.291333Z,2,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications Inc,charter.com,false,100
-76.39.149.135,2026-09-04T06:45:10.696463Z,2026-09-18T09:04:56.474589Z,5,0,0,0,low,connected_only,false,true,,7,United States,Charter Communications Inc,charter.com,false,100
+76.39.149.135,2026-09-04T06:45:10.696463Z,2026-09-18T09:04:56.474589Z,5,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications Inc,charter.com,false,100
 76.39.242.2,2026-09-23T08:23:31.778332Z,2026-09-23T08:23:49.146043Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,United States,Charter Communications Inc,charter.com,false,80
 76.39.249.3,2026-08-20T20:33:45.625967Z,2026-08-20T20:33:45.628726Z,2,0,0,0,low,connected_only,false,false,,7,United States,Charter Communications Inc,charter.com,false,45
 76.53.134.100,2026-09-14T08:05:23.554293Z,2026-09-14T08:06:49.030053Z,1,1,31,5,low,delivered_payload,false,false,2db8d2d5d6168520,7,United States,Charter Communications Inc,charter.com,false,100
