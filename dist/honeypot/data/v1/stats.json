@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-25T14:00:19.870294+00:00",
+  "generated_at": "2026-09-25T14:30:21.100948+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-25T13:58:27.448772Z",
-  "total_events": 1507771,
-  "unique_sessions": 179706,
-  "unique_source_ips": 6603,
-  "login_attempts": 167267,
-  "login_success": 164385,
-  "commands_run": 353303,
+  "last_event": "2026-09-25T14:26:13.703734Z",
+  "total_events": 1507978,
+  "unique_sessions": 179717,
+  "unique_source_ips": 6605,
+  "login_attempts": 167277,
+  "login_success": 164395,
+  "commands_run": 353443,
   "files_captured": 32,
   "top_usernames": [
     [
@@ -135,16 +135,16 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 353303,
-    "cowrie.session.connect": 179706,
-    "cowrie.session.closed": 179030,
-    "cowrie.login.success": 164385,
-    "cowrie.session.params": 162537,
-    "cowrie.log.closed": 161871,
+    "cowrie.command.input": 353443,
+    "cowrie.session.connect": 179717,
+    "cowrie.session.closed": 179041,
+    "cowrie.login.success": 164395,
+    "cowrie.session.params": 162547,
+    "cowrie.log.closed": 161881,
     "cowrie.client.version": 123545,
     "cowrie.client.kex": 123124,
-    "cowrie.telnet.option": 47415,
-    "cowrie.command.success": 4047,
+    "cowrie.telnet.option": 47425,
+    "cowrie.command.success": 4052,
     "cowrie.login.failed": 2882,
     "cowrie.session.file_download.failed": 2129,
     "cowrie.direct-tcpip.request": 1778,
@@ -324,7 +324,7 @@
     },
     {
       "date": "2026-09-25",
-      "count": 3229
+      "count": 3436
     }
   ],
   "published": {
@@ -383,10 +383,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 136819,
+        "total": 136879,
         "top_label": "T1027",
         "top_value": 124251,
-        "top_share": 0.9081,
+        "top_share": 0.9077,
         "top_sources": 387,
         "sources_total": 6563
       }
