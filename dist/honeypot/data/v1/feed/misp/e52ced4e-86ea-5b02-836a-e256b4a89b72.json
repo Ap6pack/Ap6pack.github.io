@@ -1,8 +1,8 @@
 {
   "Event": {
     "uuid": "e52ced4e-86ea-5b02-836a-e256b4a89b72",
-    "info": "Sundew honeypot - campaign ad3b58ef9a59 (29 sources) - sh",
-    "date": "2026-09-24",
+    "info": "Sundew honeypot - campaign ad3b58ef9a59 (46 sources) - sh",
+    "date": "2026-09-25",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -28,8 +28,17 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "106.51.126.58",
-        "timestamp": "1790278219",
-        "comment": "executed_commands, confidence medium; 30 sessions, 364 commands, 0 downloads; first_seen 2026-09-24T18:58:28.582051Z, last_seen 2026-09-24T19:28:50.582142Z; expires 7d after last_seen"
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 41 sessions, 501 commands, 0 downloads; first_seen 2026-09-24T18:58:28.582051Z, last_seen 2026-09-24T19:43:51.986432Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "3ee65119-205e-5886-82a8-83c31e9774b9",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "113.254.77.18",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-25T03:58:48.595906Z, last_seen 2026-09-25T03:58:55.288123Z; expires 7d after last_seen"
       },
       {
         "uuid": "53cce714-4c7d-58af-a6a5-d41810b69559",
@@ -37,7 +46,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "119.192.155.196",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 6 sessions, 78 commands, 0 downloads; first_seen 2026-09-23T22:26:42.600262Z, last_seen 2026-09-23T22:56:48.825472Z; expires 7d after last_seen"
       },
       {
@@ -46,7 +55,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "119.192.214.148",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 4 sessions, 52 commands, 0 downloads; first_seen 2026-09-24T16:35:45.241100Z, last_seen 2026-09-24T16:51:50.773211Z; expires 7d after last_seen"
       },
       {
@@ -55,7 +64,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "119.199.176.30",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T14:54:45.950653Z, last_seen 2026-09-24T14:54:50.898918Z; expires 7d after last_seen"
       },
       {
@@ -64,8 +73,17 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "119.206.127.155",
-        "timestamp": "1790278219",
-        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T08:29:47.880879Z, last_seen 2026-09-24T08:29:52.857373Z; expires 7d after last_seen"
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 4 sessions, 52 commands, 0 downloads; first_seen 2026-09-24T08:29:47.880879Z, last_seen 2026-09-25T06:39:28.709264Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "ab700b85-9035-5402-a0c1-22ba428251e9",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "121.130.11.124",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T21:56:27.133996Z, last_seen 2026-09-24T21:56:32.215747Z; expires 7d after last_seen"
       },
       {
         "uuid": "6c9137ce-3f2d-54e2-a5fa-9dc8db68cb72",
@@ -73,7 +91,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "121.189.108.250",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-23T22:51:06.696983Z, last_seen 2026-09-23T22:51:11.949073Z; expires 7d after last_seen"
       },
       {
@@ -82,7 +100,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "121.191.167.116",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 8 sessions, 104 commands, 0 downloads; first_seen 2026-09-24T18:40:49.580984Z, last_seen 2026-09-24T19:25:54.456456Z; expires 7d after last_seen"
       },
       {
@@ -91,7 +109,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "122.155.132.40",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T19:18:29.370561Z, last_seen 2026-09-24T19:18:35.467902Z; expires 7d after last_seen"
       },
       {
@@ -100,7 +118,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "14.34.5.148",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 4 sessions, 52 commands, 0 downloads; first_seen 2026-09-24T10:46:41.666779Z, last_seen 2026-09-24T16:38:55.128117Z; expires 7d after last_seen"
       },
       {
@@ -109,7 +127,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "14.44.31.59",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T08:06:56.931975Z, last_seen 2026-09-24T08:07:01.937056Z; expires 7d after last_seen"
       },
       {
@@ -118,8 +136,26 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "14.45.124.170",
-        "timestamp": "1790278219",
-        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T19:24:09.858718Z, last_seen 2026-09-24T19:24:14.872405Z; expires 7d after last_seen"
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 14 sessions, 182 commands, 0 downloads; first_seen 2026-09-24T19:24:09.858718Z, last_seen 2026-09-24T20:54:16.558577Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "29c6fd96-7070-517d-bb03-88f13e84ff06",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "14.49.180.118",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T22:52:59.643802Z, last_seen 2026-09-24T22:53:04.795961Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "4fe6ad20-eaf3-5ac5-b066-3ef7d0b6fa0d",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "14.54.188.126",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T23:26:28.384245Z, last_seen 2026-09-24T23:26:33.589898Z; expires 7d after last_seen"
       },
       {
         "uuid": "7d76de6a-3e9a-58b3-b751-b7bb7a13b359",
@@ -127,8 +163,8 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "14.58.29.216",
-        "timestamp": "1790278219",
-        "comment": "executed_commands, confidence medium; 6 sessions, 78 commands, 0 downloads; first_seen 2026-09-24T18:47:09.619973Z, last_seen 2026-09-24T19:17:09.817060Z; expires 7d after last_seen"
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 10 sessions, 130 commands, 0 downloads; first_seen 2026-09-24T18:47:09.619973Z, last_seen 2026-09-24T19:47:13.136539Z; expires 7d after last_seen"
       },
       {
         "uuid": "a584c2f7-4560-57e9-bca7-4baf23e2cc4c",
@@ -136,8 +172,17 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "175.206.39.113",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T18:34:27.441387Z, last_seen 2026-09-24T18:34:32.477104Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "3c297a31-dd6b-5753-a63e-6aa06f31063f",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "175.212.170.216",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 12 sessions, 156 commands, 0 downloads; first_seen 2026-09-25T00:43:00.280814Z, last_seen 2026-09-25T01:58:11.108054Z; expires 7d after last_seen"
       },
       {
         "uuid": "2d8838a8-29a2-5d1b-b00d-4a356f8fa46d",
@@ -145,8 +190,17 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "178.75.6.126",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T15:00:36.715747Z, last_seen 2026-09-24T15:00:40.928356Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "86b833c8-f6ca-5e73-aa1d-b88255132535",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "181.197.146.98",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 7 sessions, 69 commands, 0 downloads; first_seen 2026-08-26T02:02:29.950797Z, last_seen 2026-09-25T02:46:22.877191Z; expires 7d after last_seen"
       },
       {
         "uuid": "a30ee16e-d3f3-5f2a-9303-593fd2735a43",
@@ -154,7 +208,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "203.228.66.208",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 6 sessions, 78 commands, 0 downloads; first_seen 2026-09-24T13:29:17.448703Z, last_seen 2026-09-24T13:59:27.888765Z; expires 7d after last_seen"
       },
       {
@@ -163,8 +217,26 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "204.101.47.114",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T01:08:57.255390Z, last_seen 2026-09-24T01:08:58.725625Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "51124071-c474-545d-a9a5-ef33022eeabf",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "211.220.251.161",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-25T05:00:05.025806Z, last_seen 2026-09-25T05:00:10.119240Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "887687a3-4f1d-55ff-b08a-52002f5bcb9b",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "211.227.11.6",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 4 sessions, 52 commands, 0 downloads; first_seen 2026-09-25T03:15:17.403377Z, last_seen 2026-09-25T06:57:11.126262Z; expires 7d after last_seen"
       },
       {
         "uuid": "b58c9cd2-3f01-5738-ae60-f0734caa0871",
@@ -172,7 +244,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "212.199.242.64",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T13:27:35.234561Z, last_seen 2026-09-24T13:27:41.575086Z; expires 7d after last_seen"
       },
       {
@@ -181,8 +253,8 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "218.152.243.192",
-        "timestamp": "1790278219",
-        "comment": "executed_commands, confidence medium; 6 sessions, 78 commands, 0 downloads; first_seen 2026-09-23T21:42:19.390170Z, last_seen 2026-09-23T22:12:09.083961Z; expires 7d after last_seen"
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 10 sessions, 130 commands, 0 downloads; first_seen 2026-09-23T21:42:19.390170Z, last_seen 2026-09-25T03:58:15.395995Z; expires 7d after last_seen"
       },
       {
         "uuid": "a1e9ecf3-db66-5c5d-b96b-7902c0a98ee5",
@@ -190,7 +262,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "219.79.4.2",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T16:44:18.626585Z, last_seen 2026-09-24T16:44:23.969322Z; expires 7d after last_seen"
       },
       {
@@ -199,8 +271,44 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "220.121.169.27",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-23T23:24:39.879539Z, last_seen 2026-09-23T23:24:45.071871Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "599a4124-673f-512b-b8cc-3e0cab46c2a2",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "220.79.193.19",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-25T05:08:29.140571Z, last_seen 2026-09-25T05:08:34.213037Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "b6c57849-f9dc-593e-9dd7-6d1ea24ae5d7",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "220.89.125.32",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 6 sessions, 78 commands, 0 downloads; first_seen 2026-09-25T07:23:55.470727Z, last_seen 2026-09-25T07:53:42.392485Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "2a0d171c-9cdf-555e-84c6-d4c2492d34de",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "221.149.43.154",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-25T07:23:05.027436Z, last_seen 2026-09-25T07:23:10.017046Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "184979d1-db0d-5b06-b757-6d110aedc0b1",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "221.160.192.124",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T23:50:50.606342Z, last_seen 2026-09-24T23:50:55.930158Z; expires 7d after last_seen"
       },
       {
         "uuid": "e78c58b8-d1e4-56f4-87c0-3dcdc01c9693",
@@ -208,7 +316,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "222.100.0.151",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T14:50:28.792739Z, last_seen 2026-09-24T14:50:33.926228Z; expires 7d after last_seen"
       },
       {
@@ -217,8 +325,17 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "222.113.207.183",
-        "timestamp": "1790278219",
-        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T07:30:57.051835Z, last_seen 2026-09-24T07:31:01.981089Z; expires 7d after last_seen"
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 10 sessions, 130 commands, 0 downloads; first_seen 2026-09-24T07:30:57.051835Z, last_seen 2026-09-25T05:01:49.087430Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "ab4340ee-249c-51fb-aeba-d7a2fd3c19d6",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "223.15.165.148",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-25T00:22:56.263940Z, last_seen 2026-09-25T00:23:17.823561Z; expires 7d after last_seen"
       },
       {
         "uuid": "cbd5df5c-62cb-53d4-9d53-a406872a4522",
@@ -226,8 +343,17 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "24.72.29.49",
-        "timestamp": "1790278219",
-        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T02:21:16.847664Z, last_seen 2026-09-24T02:21:19.428692Z; expires 7d after last_seen"
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 4 sessions, 52 commands, 0 downloads; first_seen 2026-09-24T02:21:16.847664Z, last_seen 2026-09-25T00:09:40.542900Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "9d4e90d6-6365-5420-8cff-679a157a479b",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "46.236.163.51",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-25T01:43:53.361349Z, last_seen 2026-09-25T01:43:57.410414Z; expires 7d after last_seen"
       },
       {
         "uuid": "f6dd542b-6967-5306-8cdd-f3f798cb190c",
@@ -235,7 +361,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "46.236.187.63",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 8 sessions, 104 commands, 0 downloads; first_seen 2026-09-24T17:37:01.801727Z, last_seen 2026-09-24T18:22:09.037752Z; expires 7d after last_seen"
       },
       {
@@ -244,8 +370,8 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "5.165.83.44",
-        "timestamp": "1790278219",
-        "comment": "executed_commands, confidence medium; 4 sessions, 52 commands, 0 downloads; first_seen 2026-09-24T13:58:37.671418Z, last_seen 2026-09-24T17:17:27.392684Z; expires 7d after last_seen"
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 24 sessions, 312 commands, 0 downloads; first_seen 2026-09-24T13:58:37.671418Z, last_seen 2026-09-25T06:42:26.280134Z; expires 7d after last_seen"
       },
       {
         "uuid": "ed51219f-1cb5-5612-ab9a-cde86b557adc",
@@ -253,8 +379,26 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "59.29.125.122",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T09:49:19.082722Z, last_seen 2026-09-24T09:49:24.316319Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "df708a5b-27a1-5125-ae64-0d41b1e99bc7",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "59.6.18.50",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 4 sessions, 52 commands, 0 downloads; first_seen 2026-09-24T21:35:22.257449Z, last_seen 2026-09-25T05:11:39.524354Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "52b2c3fb-6c39-5667-83a8-2e80f8c01cba",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "61.76.97.173",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T21:16:01.141502Z, last_seen 2026-09-24T21:16:06.291531Z; expires 7d after last_seen"
       },
       {
         "uuid": "3ecf72eb-0faa-5322-8e0a-76a1173d608a",
@@ -262,8 +406,17 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "61.91.98.88",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T07:01:11.372696Z, last_seen 2026-09-24T07:01:20.690747Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "2e09b32b-79f9-5109-9588-f1c89f5bb4d9",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "62.108.201.221",
+        "timestamp": "1790323220",
+        "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T21:14:48.663648Z, last_seen 2026-09-24T21:14:52.213998Z; expires 7d after last_seen"
       },
       {
         "uuid": "a996368e-edd6-5ad9-a768-20d2a8b04a99",
@@ -271,7 +424,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "87.7.117.65",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 47 sessions, 593 commands, 0 downloads; first_seen 2026-09-24T10:03:39.834370Z, last_seen 2026-09-24T19:19:19.762249Z; expires 7d after last_seen"
       },
       {
@@ -280,7 +433,7 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "94.180.29.32",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "executed_commands, confidence medium; 2 sessions, 26 commands, 0 downloads; first_seen 2026-09-24T14:02:16.047643Z, last_seen 2026-09-24T14:02:20.386364Z; expires 7d after last_seen"
       },
       {
@@ -289,7 +442,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "command run by this campaign"
       },
       {
@@ -298,7 +451,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "command run by this campaign"
       },
       {
@@ -307,7 +460,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enable",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "command run by this campaign"
       },
       {
@@ -316,7 +469,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "command run by this campaign"
       },
       {
@@ -325,7 +478,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "ping; sh",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "command run by this campaign"
       },
       {
@@ -334,7 +487,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox HISILICON",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "command run by this campaign"
       },
       {
@@ -343,7 +496,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox cat /proc/self/exe || cat /proc/self/exe",
-        "timestamp": "1790278219",
+        "timestamp": "1790323220",
         "comment": "command run by this campaign"
       }
     ]
