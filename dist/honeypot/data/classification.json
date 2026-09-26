@@ -50,10 +50,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 137741,
+        "total": 137759,
         "top_label": "T1027",
         "top_value": 124292,
-        "top_share": 0.9024,
+        "top_share": 0.9022,
         "top_sources": 392,
         "sources_total": 6707
       }
@@ -2739,11 +2739,11 @@
     {
       "id": "T1222.002",
       "name": "Linux and Mac Permissions",
-      "count": 10001,
-      "distinct_ips": 527,
+      "count": 10013,
+      "distinct_ips": 528,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 10001,
+      "residual_count": 10013,
       "attribution": "none"
     },
     {
@@ -2759,11 +2759,11 @@
     {
       "id": "T1082",
       "name": "System Information Discovery",
-      "count": 392,
-      "distinct_ips": 42,
+      "count": 394,
+      "distinct_ips": 43,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 392,
+      "residual_count": 394,
       "attribution": "none"
     },
     {
@@ -2789,11 +2789,31 @@
     {
       "id": "T1057",
       "name": "Process Discovery",
-      "count": 21,
+      "count": 23,
+      "distinct_ips": 12,
+      "recon_count": 0,
+      "recon_ips": 0,
+      "residual_count": 23,
+      "attribution": "none"
+    },
+    {
+      "id": "T1685.006",
+      "name": "Clear Linux or Mac System Logs",
+      "count": 12,
+      "distinct_ips": 12,
+      "recon_count": 0,
+      "recon_ips": 0,
+      "residual_count": 12,
+      "attribution": "none"
+    },
+    {
+      "id": "T1016",
+      "name": "System Network Configuration Discovery",
+      "count": 11,
       "distinct_ips": 11,
       "recon_count": 0,
       "recon_ips": 0,
-      "residual_count": 21,
+      "residual_count": 11,
       "attribution": "none"
     },
     {
@@ -2804,26 +2824,6 @@
       "recon_count": 0,
       "recon_ips": 0,
       "residual_count": 11,
-      "attribution": "none"
-    },
-    {
-      "id": "T1685.006",
-      "name": "Clear Linux or Mac System Logs",
-      "count": 11,
-      "distinct_ips": 11,
-      "recon_count": 0,
-      "recon_ips": 0,
-      "residual_count": 11,
-      "attribution": "none"
-    },
-    {
-      "id": "T1016",
-      "name": "System Network Configuration Discovery",
-      "count": 10,
-      "distinct_ips": 10,
-      "recon_count": 0,
-      "recon_ips": 0,
-      "residual_count": 10,
       "attribution": "none"
     },
     {
