@@ -312,7 +312,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 106.12.221.161,2026-08-19T03:07:41.469442Z,2026-09-14T06:45:37.418460Z,2,0,0,0,low,connected_only,false,false,,7,China,"Beijing Baidu Netcom Science and Technology Co., Ltd.",baidu.com,false,100
 106.125.210.21,2026-08-24T09:54:52.998688Z,2026-08-24T09:54:58.589229Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,China,CHINANET Guangdong province network,chinatelecom.cn,false,100
 106.13.137.17,2026-09-10T04:01:37.683522Z,2026-09-12T12:49:34.881180Z,2,2,0,0,low,connected_only,false,false,,7,China,"Beijing Baidu Netcom Science and Technology Co., Ltd.",baidu.com,false,100
-106.15.238.36,2026-09-19T01:46:47.069130Z,2026-09-19T01:46:51.376756Z,2,0,0,0,low,connected_only,false,true,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
+106.15.238.36,2026-09-19T01:46:47.069130Z,2026-09-19T01:46:51.376756Z,2,0,0,0,low,connected_only,false,false,,7,China,"Aliyun Computing Co., LTD",alibabacloud.com,false,100
 106.153.181.80,2026-08-25T20:38:04.434173Z,2026-09-01T20:09:30.291221Z,2,2,0,0,low,connected_only,false,false,,7,Japan,"Japan Internet Xing Co., Ltd.",jpix.tokyo,false,100
 106.163.207.218,2026-09-19T09:15:36.299276Z,2026-09-19T09:15:39.941278Z,1,1,0,0,low,single_sighting,false,true,,7,Japan,KDDI CORPORATION,kddi.com,false,100
 106.215.196.188,2026-09-18T07:08:26.213073Z,2026-09-18T07:08:51.262941Z,2,0,0,0,low,connected_only,false,false,,7,India,Bharti Airtel Limited,airtel.in,false,0
@@ -616,7 +616,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 117.182.249.190,2026-08-29T03:52:24.508381Z,2026-08-29T03:52:53.768993Z,1,1,10,0,low,executed_commands,false,false,597732d320c38002,7,China,China Mobile Communications Corporation,chinamobile.com,false,5
 117.185.179.106,2026-09-10T19:36:16.536937Z,2026-09-10T19:36:16.544729Z,1,0,0,0,low,single_sighting,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,34
 117.191.83.250,2026-08-26T11:52:33.256677Z,2026-09-13T09:30:09.910347Z,3,2,0,0,low,connected_only,false,false,,7,China,China Mobile Communications Corporation,chinamobile.com,false,100
-117.197.100.185,2026-09-19T01:31:56.297457Z,2026-09-19T01:34:43.112019Z,12,0,0,0,medium,persistent,false,true,,7,India,NIB (National Internet Backbone),bsnl.co.in,false,54
+117.197.100.185,2026-09-19T01:31:56.297457Z,2026-09-19T01:34:43.112019Z,12,0,0,0,medium,persistent,false,false,,7,India,NIB (National Internet Backbone),bsnl.co.in,false,54
 117.198.99.18,2026-09-04T10:22:37.715261Z,2026-09-05T06:29:22.340131Z,3,2,0,0,low,connected_only,false,false,,7,India,"Broadband Multiplay Project, O/o DGM BB, NOC BSNL Bangalore",bsnl.in,false,100
 117.202.118.255,2026-09-03T06:20:05.929421Z,2026-09-03T06:20:14.592130Z,1,1,0,0,low,single_sighting,false,false,,7,India,"Broadband Multiplay Project, O/o DGM BB, NOC BSNL Bangalore",bsnl.in,false,42
 117.211.15.93,2026-08-31T06:34:35.574551Z,2026-08-31T08:13:43.208201Z,2,2,0,0,low,connected_only,false,false,,7,India,"O/o DGM BB, NOC BSNL Bangalore",bsnl.in,false,100
@@ -4110,7 +4110,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 220.135.226.87,2026-08-29T09:29:20.211154Z,2026-08-29T09:29:41.780872Z,1,1,20,11,low,delivered_payload,false,false,1c70a80f2e2e5969,7,Taiwan,Chunghwa Telecom Data Communication Business Group,cht.com.tw,false,100
 220.161.52.149,2026-09-01T08:43:49.288726Z,2026-09-01T08:43:58.835952Z,1,1,0,0,low,single_sighting,false,false,,7,China,CHINANET Fujian province network,chinatelecom.cn,false,100
 220.163.252.244,2026-09-01T19:06:32.034692Z,2026-09-04T14:43:50.925640Z,3,3,0,0,low,connected_only,false,false,,7,China,CHINANET yunnan province network,chinatelecom.cn,false,100
-220.174.22.107,2026-09-18T16:19:22.458856Z,2026-09-19T01:43:43.426347Z,67,65,318,0,medium,executed_commands,false,true,385d83c7eadfd5d1,7,China,CHINANET hainan  province network,chinatelecom.cn,false,16
+220.174.22.107,2026-09-18T16:19:22.458856Z,2026-09-19T01:43:43.426347Z,67,65,318,0,medium,persistent,false,false,385d83c7eadfd5d1,7,China,CHINANET hainan  province network,chinatelecom.cn,false,16
 220.174.30.172,2026-09-07T01:12:45.831002Z,2026-09-07T01:13:01.088579Z,1,0,0,0,low,single_sighting,false,false,,7,China,CHINANET hainan  province network,chinatelecom.cn,false,16
 220.178.246.43,2026-08-31T12:01:32.318650Z,2026-08-31T12:01:42.016674Z,1,1,0,0,low,single_sighting,false,false,,7,China,CHINANET anhui province network,chinatelecom.cn,false,100
 220.178.39.106,2026-08-31T05:23:02.083127Z,2026-09-09T06:19:16.762198Z,3,3,0,0,low,connected_only,false,false,,7,China,CHINANET anhui province network,chinatelecom.cn,false,100
@@ -5507,7 +5507,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 66.132.172.42,2026-09-18T21:34:14.240576Z,2026-09-18T21:34:29.264921Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.172.44,2026-09-25T19:22:37.272777Z,2026-09-25T19:22:52.323583Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.186.161,2026-09-23T13:35:12.882567Z,2026-09-23T13:35:29.151527Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
-66.132.186.162,2026-09-19T01:47:31.605231Z,2026-09-19T01:47:46.941480Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
+66.132.186.162,2026-09-19T01:47:31.605231Z,2026-09-19T01:47:46.941480Z,1,0,0,0,low,single_sighting,false,false,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.186.163,2026-09-17T05:07:12.585583Z,2026-09-17T05:07:42.988638Z,3,0,0,0,low,connected_only,false,false,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.186.180,2026-09-23T03:43:00.854623Z,2026-09-23T03:43:16.066949Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
 66.132.186.191,2026-09-23T01:39:28.096890Z,2026-09-23T01:39:43.996919Z,1,0,0,0,low,single_sighting,false,true,,7,United States,"Censys, Inc.",censys.com,false,100
@@ -5982,7 +5982,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 83.191.176.93,2026-08-31T22:01:02.651413Z,2026-09-03T17:03:19.499663Z,2,2,0,0,low,connected_only,false,false,,7,Sweden,SE TELE2 BROADBAND,tele2.com,false,100
 83.191.179.185,2026-09-01T10:13:43.491966Z,2026-09-01T10:13:50.959956Z,1,1,0,0,low,single_sighting,false,false,,7,Sweden,SE TELE2 BROADBAND,tele2.com,false,100
 83.198.122.112,2026-09-04T02:44:16.342729Z,2026-09-04T02:45:46.520795Z,4,0,0,0,low,connected_only,false,false,,7,France,Orange S.A.,orange.com,false,75
-83.198.180.194,2026-09-19T01:59:41.803488Z,2026-09-19T01:59:41.805223Z,1,0,0,0,low,single_sighting,false,true,,7,France,Orange S.A.,orange.com,false,100
+83.198.180.194,2026-09-19T01:59:41.803488Z,2026-09-19T01:59:41.805223Z,1,0,0,0,low,single_sighting,false,false,,7,France,Orange S.A.,orange.com,false,100
 83.217.180.129,2026-09-04T20:54:53.215369Z,2026-09-04T20:54:53.747087Z,1,1,0,0,low,single_sighting,false,false,,7,Italy,UNIDATA S.p.A.,unidata.it,false,100
 83.220.79.89,2026-09-24T17:51:35.190283Z,2026-09-24T17:52:56.082741Z,2,0,0,0,low,connected_only,false,true,,7,Russia,LLC Telecom-Service,sam-isp.net,false,0
 83.224.137.131,2026-08-25T16:00:29.631544Z,2026-08-25T16:00:31.802557Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Italy,Fastweb SpA,fastweb.it,false,3
