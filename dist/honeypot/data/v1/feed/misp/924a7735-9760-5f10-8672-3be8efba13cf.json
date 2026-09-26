@@ -1,0 +1,72 @@
+{
+  "Event": {
+    "uuid": "924a7735-9760-5f10-8672-3be8efba13cf",
+    "info": "Sundew honeypot - campaign 9344813056a7 (1 sources) - LC_ALL=C top -bn1",
+    "date": "2026-09-26",
+    "analysis": "2",
+    "threat_level_id": "3",
+    "published": true,
+    "Orgc": {
+      "name": "Sundew honeypot",
+      "uuid": "3d06790b-d81d-56fb-9e82-4e5ee6b6de3c"
+    },
+    "Tag": [
+      {
+        "name": "type:OSINT"
+      },
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "sundew:class=\"attack\""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "4f4ebdd0-dfe1-5c26-b612-18cec81d21a6",
+        "type": "ip-src",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "192.42.116.43",
+        "timestamp": "1790458220",
+        "comment": "delivered_payload, confidence high; 1 sessions, 8 commands, 2 downloads; first_seen 2026-09-26T20:34:37.795774Z, last_seen 2026-09-26T20:34:49.851492Z; expires 7d after last_seen"
+      },
+      {
+        "uuid": "7bd63509-c388-5896-9279-2d90c73c18fc",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "LC_ALL=C top -bn1",
+        "timestamp": "1790458220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "faf7682c-31a9-567a-a6ba-6100f6309f46",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "scp -t /bin/27w219ufobunoj82ugtbos1mxx",
+        "timestamp": "1790458220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "4593b9a3-2d5f-57c4-8d4f-db3ca30d8d9e",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "LC_ALL=C /bin/27w219ufobunoj82ugtbos1mxx",
+        "timestamp": "1790458220",
+        "comment": "command run by this campaign"
+      },
+      {
+        "uuid": "c1436f58-4c3b-5036-83af-d15ad392dcda",
+        "type": "text",
+        "category": "Artifacts dropped",
+        "to_ids": false,
+        "value": "LC_ALL=C rm -f /bin/27w219ufobunoj82ugtbos1mxx",
+        "timestamp": "1790458220",
+        "comment": "command run by this campaign"
+      }
+    ]
+  }
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-26T21:00:20.100104+00:00",
+  "generated_at": "2026-09-26T21:30:20.029095+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-26T20:48:02.431985Z",
-  "total_events": 1527301,
-  "unique_sessions": 181622,
-  "unique_source_ips": 6771,
+  "last_event": "2026-09-26T21:08:38.739506Z",
+  "total_events": 1527311,
+  "unique_sessions": 181627,
+  "unique_source_ips": 6773,
   "login_attempts": 168918,
   "login_success": 165933,
   "commands_run": 362236,
@@ -13,11 +13,11 @@
   "top_usernames": [
     [
       "root",
-      2395
+      2405
     ],
     [
       "admin",
-      1571
+      1567
     ],
     [
       "enable\\x00",
@@ -75,7 +75,7 @@
   "top_passwords": [
     [
       "admin",
-      1238
+      1237
     ],
     [
       "linuxshell\\x00",
@@ -83,31 +83,31 @@
     ],
     [
       "123456",
-      352
+      353
     ],
     [
       "root",
-      309
+      310
     ],
     [
       "",
-      147
+      146
     ],
     [
       "vizxv",
-      133
+      136
     ],
     [
       "password",
-      83
+      82
     ],
     [
       "12345",
-      79
+      78
     ],
     [
       "default",
-      72
+      73
     ],
     [
       "xc3511",
@@ -126,18 +126,18 @@
       38
     ],
     [
-      "xmhdipc",
+      "ubuntu",
       37
     ],
     [
-      "ubuntu",
+      "xmhdipc",
       36
     ]
   ],
   "event_breakdown": {
     "cowrie.command.input": 362236,
-    "cowrie.session.connect": 181622,
-    "cowrie.session.closed": 180946,
+    "cowrie.session.connect": 181627,
+    "cowrie.session.closed": 180951,
     "cowrie.login.success": 165933,
     "cowrie.session.params": 164098,
     "cowrie.log.closed": 163432,
@@ -328,19 +328,19 @@
     },
     {
       "date": "2026-09-26",
-      "count": 13419
+      "count": 13429
     }
   ],
   "published": {
-    "sessions": 21467,
-    "source_ips": 6707,
-    "login_attempts": 6530,
-    "login_success": 5917,
-    "commands_run": 38422,
-    "sessions_logged_in": 5917,
-    "sessions_with_commands": 3726,
-    "sessions_with_download": 663,
-    "share_of_sessions": 0.1182
+    "sessions": 21617,
+    "source_ips": 6773,
+    "login_attempts": 6539,
+    "login_success": 5923,
+    "commands_run": 38461,
+    "sessions_logged_in": 5923,
+    "sessions_with_commands": 3730,
+    "sessions_with_download": 666,
+    "share_of_sessions": 0.119
   },
   "weighting": {
     "schema_version": "1.0",
@@ -349,40 +349,40 @@
       "max_avg_duration_ms": 5000,
       "max_downloads": 0
     },
-    "clustered_sessions": 163683,
+    "clustered_sessions": 163740,
     "ips": {
-      "observed": 6707,
-      "attempted_login": 3081,
-      "ran_command": 1785,
-      "delivered_payload": 513,
+      "observed": 6773,
+      "attempted_login": 3110,
+      "ran_command": 1813,
+      "delivered_payload": 517,
       "published": {
-        "observed": 6707,
-        "attempted_login": 2397,
-        "ran_command": 1080,
-        "delivered_payload": 224
+        "observed": 6773,
+        "attempted_login": 2407,
+        "ran_command": 1089,
+        "delivered_payload": 227
       }
     },
     "recon": {
       "clusters": 14,
       "sessions": 120341,
       "ip_count_sum": 41,
-      "share_of_clustered_sessions": 0.7352
+      "share_of_clustered_sessions": 0.735
     },
     "attack": {
-      "clusters": 208,
-      "sessions": 43342,
-      "ip_count_sum": 1982
+      "clusters": 209,
+      "sessions": 43399,
+      "ip_count_sum": 2020
     },
     "dominance": [
       {
         "metric": "sessions",
         "label": "sessions in a behaviour cluster",
-        "total": 163683,
+        "total": 163740,
         "top_label": "eafdc691c2945a06",
         "top_value": 120048,
-        "top_share": 0.7334,
+        "top_share": 0.7332,
         "top_sources": 9,
-        "sources_total": 6707
+        "sources_total": 6773
       },
       {
         "metric": "attack_techniques",
@@ -392,7 +392,7 @@
         "top_value": 124292,
         "top_share": 0.9016,
         "top_sources": 392,
-        "sources_total": 6707
+        "sources_total": 6773
       }
     ]
   }
