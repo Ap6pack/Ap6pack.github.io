@@ -2,7 +2,7 @@
   "Event": {
     "uuid": "5c789858-a113-503e-a782-c1b3bb5a1c26",
     "info": "Sundew honeypot - campaign e0276f7a21a0 (1 sources) - enable",
-    "date": "2026-09-20",
+    "date": "2026-09-26",
     "analysis": "2",
     "threat_level_id": "3",
     "published": true,
@@ -28,8 +28,8 @@
         "category": "Network activity",
         "to_ids": false,
         "value": "43.142.113.25",
-        "timestamp": "1789873219",
-        "comment": "executed_commands, confidence medium; 10 sessions, 50 commands, 0 downloads; first_seen 2026-09-19T14:33:17.053408Z, last_seen 2026-09-19T14:39:45.549115Z; expires 7d after last_seen"
+        "timestamp": "1790434820",
+        "comment": "persistent, confidence medium; 10 sessions, 50 commands, 0 downloads; first_seen 2026-09-19T14:33:17.053408Z, last_seen 2026-09-19T14:39:45.549115Z; expires 7d after last_seen"
       },
       {
         "uuid": "daed1e1f-6ec8-55f1-afb5-ac94ce243571",
@@ -37,7 +37,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "enable",
-        "timestamp": "1789873219",
+        "timestamp": "1790434820",
         "comment": "command run by this campaign"
       },
       {
@@ -46,7 +46,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "system",
-        "timestamp": "1789873219",
+        "timestamp": "1790434820",
         "comment": "command run by this campaign"
       },
       {
@@ -55,7 +55,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "shell",
-        "timestamp": "1789873219",
+        "timestamp": "1790434820",
         "comment": "command run by this campaign"
       },
       {
@@ -64,7 +64,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "sh",
-        "timestamp": "1789873219",
+        "timestamp": "1790434820",
         "comment": "command run by this campaign"
       },
       {
@@ -73,7 +73,7 @@
         "category": "Artifacts dropped",
         "to_ids": false,
         "value": "/bin/busybox Cult",
-        "timestamp": "1789873219",
+        "timestamp": "1790434820",
         "comment": "command run by this campaign"
       }
     ]
