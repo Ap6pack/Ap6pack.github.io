@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "techniques": [
     {
       "id": "T1027",
@@ -91,8 +90,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1686",
-      "count": 36,
-      "distinct_ips": 33,
+      "count": 37,
+      "distinct_ips": 34,
       "examples": [
         "iptables -F"
       ]
@@ -184,6 +183,6 @@
       ]
     }
   ],
-  "total_commands": 354427,
-  "matched_commands": 134668
+  "total_commands": 355146,
+  "matched_commands": 134669
 }
