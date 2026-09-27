@@ -494,8 +494,8 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 112.184.15.64,2026-09-05T01:07:51.947400Z,2026-09-05T01:08:02.077100Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Korea Telecom,kt.com,false,100
 112.184.25.18,2026-09-01T19:48:38.056746Z,2026-09-01T19:48:47.554021Z,1,1,0,0,low,single_sighting,false,false,,7,South Korea,Jeonnambonbujang,kt.com,false,100
 112.194.142.167,2026-09-09T06:58:42.415865Z,2026-09-09T06:59:00.794899Z,2,2,0,0,low,connected_only,false,false,,7,China,China Unicom Sichuan province network,chinaunicom.cn,false,100
-112.202.242.116,2026-09-20T02:25:55.576403Z,2026-09-20T02:25:55.577314Z,1,0,0,0,low,single_sighting,false,true,,7,Philippines,IPG,pldthome.com,false,25
-112.202.255.189,2026-09-20T02:26:53.839695Z,2026-09-20T02:26:53.840466Z,1,0,0,0,low,single_sighting,false,true,,7,Philippines,IPG,pldthome.com,false,0
+112.202.242.116,2026-09-20T02:25:55.576403Z,2026-09-20T02:25:55.577314Z,1,0,0,0,low,single_sighting,false,false,,7,Philippines,IPG,pldthome.com,false,25
+112.202.255.189,2026-09-20T02:26:53.839695Z,2026-09-20T02:26:53.840466Z,1,0,0,0,low,single_sighting,false,false,,7,Philippines,IPG,pldthome.com,false,0
 112.203.219.112,2026-09-22T10:21:43.665154Z,2026-09-22T10:22:00.969352Z,2,0,0,0,low,connected_only,false,true,,7,Philippines,IPG,pldthome.com,false,14
 112.209.74.36,2026-08-27T09:39:57.861742Z,2026-08-27T09:39:57.862541Z,1,0,0,0,low,single_sighting,false,false,,7,Philippines,HOME_DSL,pldthome.com,false,24
 112.227.202.1,2026-08-18T11:54:34.799035Z,2026-08-18T11:55:14.472511Z,2,2,48,12,low,delivered_payload,false,false,a91b984be947ad33,7,China,China Unicom Shandong province network,chinaunicom.cn,false,91
@@ -650,7 +650,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 117.69.255.239,2026-08-27T12:42:52.754876Z,2026-08-27T12:43:04.999756Z,1,1,0,0,low,single_sighting,false,false,,7,China,CHINANET anhui province network,chinatelecom.cn,false,100
 117.70.94.155,2026-09-06T04:17:20.953868Z,2026-09-06T04:17:35.892687Z,1,1,0,0,low,single_sighting,false,false,,7,China,CHINANET anhui province network,chinatelecom.cn,false,100
 117.72.108.255,2026-09-11T19:29:40.622910Z,2026-09-11T19:29:40.623738Z,1,0,0,0,low,single_sighting,false,false,,7,China,"Beijing Jingdong 360 Degree E-commerce Co., Ltd.",jd.com,false,100
-117.72.121.35,2026-09-07T18:36:26.762590Z,2026-09-20T02:18:22.971851Z,2,2,10,0,medium,executed_commands,false,true,854d8498193cec1c,7,China,"Beijing Jingdong 360 Degree E-commerce Co., Ltd.",jd.com,false,100
+117.72.121.35,2026-09-07T18:36:26.762590Z,2026-09-20T02:18:22.971851Z,2,2,10,0,low,executed_commands,false,false,854d8498193cec1c,7,China,"Beijing Jingdong 360 Degree E-commerce Co., Ltd.",jd.com,false,100
 118.100.162.108,2026-08-22T11:23:38.379507Z,2026-08-22T11:23:57.605067Z,1,1,2,0,low,executed_commands,false,false,,7,Malaysia,TM TECHNOLOGY SERVICES SDN. BHD.,tm.com.my,false,26
 118.108.144.248,2026-09-04T13:13:25.138808Z,2026-09-24T17:57:16.438531Z,2,2,44,22,high,delivered_payload,false,true,5af2de096f0bf35a,7,Japan,BIGLOBE Inc.,biglobe.co.jp,false,100
 118.122.196.230,2026-09-05T06:07:54.510804Z,2026-09-05T06:08:05.402370Z,1,1,0,0,low,single_sighting,false,false,,7,China,CHINANET Sichuan province network,chinatelecom.cn,false,100
@@ -2647,7 +2647,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 186.96.252.171,2026-08-21T06:18:22.344799Z,2026-08-21T06:18:23.413683Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Honduras,Datos,datoshn.com,false,100
 186.98.230.5,2026-09-07T10:16:48.111124Z,2026-09-07T10:18:37.902809Z,2,0,0,0,low,connected_only,false,false,,7,Colombia,COLOMBIA TELECOMUNICACIONES S.A. ESP BIC,telecom.com.co,false,49
 187.10.114.230,2026-09-01T02:53:47.234266Z,2026-09-01T02:55:46.819741Z,1,1,342,5,low,delivered_payload,false,false,db4e53500234b9a0,7,Brazil,TELEFÔNICA BRASIL S.A,telefonica.com.br,false,100
-187.110.208.40,2026-09-20T02:12:30.825106Z,2026-09-20T02:12:30.825775Z,1,0,0,0,low,single_sighting,false,true,,7,Brazil,Alares Cabo Servicos de Telecomunicacoes S.A.,alaresinternet.com.br,false,33
+187.110.208.40,2026-09-20T02:12:30.825106Z,2026-09-20T02:12:30.825775Z,1,0,0,0,low,single_sighting,false,false,,7,Brazil,Alares Cabo Servicos de Telecomunicacoes S.A.,alaresinternet.com.br,false,33
 187.115.144.103,2026-08-31T10:05:46.384142Z,2026-08-31T10:05:55.376982Z,1,1,0,0,low,single_sighting,false,false,,7,Brazil,TELEFÔNICA BRASIL S.A,telefonica.com.br,false,100
 187.120.25.148,2026-08-21T10:45:58.805040Z,2026-08-21T10:46:00.572871Z,1,1,10,0,low,executed_commands,false,false,480804bc4d0c91fc,7,Brazil,GOLDEN LINK,glink.net.br,false,100
 187.121.76.201,2026-09-26T16:23:46.363674Z,2026-09-26T16:24:04.130885Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Brazil,TELEFÔNICA BRASIL S.A,telefonica.com.br,false,71
