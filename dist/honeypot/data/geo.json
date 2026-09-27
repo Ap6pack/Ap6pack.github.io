@@ -247,7 +247,7 @@
     "lon": -77.7953,
     "country": "United States",
     "city": "Warrenton",
-    "count": 12766,
+    "count": 15334,
     "abuse_score": 100,
     "abuse_reports": 1884,
     "isp": "Host Europe GmbH",
@@ -536,7 +536,7 @@
     "lon": 126.978,
     "country": "South Korea",
     "city": "Seoul",
-    "count": 1722,
+    "count": 1804,
     "abuse_score": 100,
     "abuse_reports": 241,
     "isp": "Korea Telecom",
@@ -585,7 +585,7 @@
     "lon": 105.8461,
     "country": "Vietnam",
     "city": "Hanoi",
-    "count": 1248,
+    "count": 1260,
     "abuse_score": 100,
     "abuse_reports": 1930,
     "isp": "CMC Telecom Infrastructure Company",
@@ -1428,6 +1428,22 @@
     "last_reported_at": "2026-09-27T06:48:08+00:00"
   },
   {
+    "ip": "220.128.141.164",
+    "lat": 25.053,
+    "lon": 121.5259,
+    "country": "Taiwan",
+    "city": "Taipei",
+    "count": 246,
+    "abuse_score": 100,
+    "abuse_reports": 359,
+    "isp": "Chunghwa Telecom Data Communication Business Group",
+    "usage_type": "Fixed Line ISP",
+    "domain": "cht.com.tw",
+    "is_tor": false,
+    "distinct_users": 93,
+    "last_reported_at": "2026-09-27T14:30:27+00:00"
+  },
+  {
     "ip": "201.239.197.192",
     "lat": -30.5023,
     "lon": -71.1545,
@@ -1834,6 +1850,23 @@
     "last_reported_at": "2026-08-25T06:07:57+00:00"
   },
   {
+    "ip": "52.236.137.245",
+    "lat": 52.3667,
+    "lon": 4.9,
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "count": 166,
+    "abuse_score": 50,
+    "abuse_reports": 40,
+    "isp": "Microsoft Corporation",
+    "usage_type": "Data Center/Web Hosting/Transit",
+    "domain": "microsoft.com",
+    "is_tor": false,
+    "distinct_users": 11,
+    "last_reported_at": "2026-08-28T06:31:01+00:00",
+    "ai_agent_signal": "suspected"
+  },
+  {
     "ip": "60.254.88.238",
     "lat": 21.1981,
     "lon": 72.8298,
@@ -1864,23 +1897,6 @@
     "is_tor": false,
     "distinct_users": 91,
     "last_reported_at": "2026-09-27T07:17:04+00:00"
-  },
-  {
-    "ip": "52.236.137.245",
-    "lat": 52.3667,
-    "lon": 4.9,
-    "country": "Netherlands",
-    "city": "Amsterdam",
-    "count": 164,
-    "abuse_score": 50,
-    "abuse_reports": 40,
-    "isp": "Microsoft Corporation",
-    "usage_type": "Data Center/Web Hosting/Transit",
-    "domain": "microsoft.com",
-    "is_tor": false,
-    "distinct_users": 11,
-    "last_reported_at": "2026-08-28T06:31:01+00:00",
-    "ai_agent_signal": "suspected"
   },
   {
     "ip": "46.236.187.63",
@@ -2541,22 +2557,6 @@
     "is_tor": false,
     "distinct_users": 85,
     "last_reported_at": "2026-08-18T05:40:25+00:00"
-  },
-  {
-    "ip": "220.128.141.164",
-    "lat": 25.053,
-    "lon": 121.5259,
-    "country": "Taiwan",
-    "city": "Taipei",
-    "count": 97,
-    "abuse_score": 100,
-    "abuse_reports": 359,
-    "isp": "Chunghwa Telecom Data Communication Business Group",
-    "usage_type": "Fixed Line ISP",
-    "domain": "cht.com.tw",
-    "is_tor": false,
-    "distinct_users": 93,
-    "last_reported_at": "2026-09-27T14:30:27+00:00"
   },
   {
     "ip": "18.116.101.220",
@@ -22612,6 +22612,24 @@
     "last_reported_at": "2026-09-24T22:10:36+00:00"
   },
   {
+    "ip": "123.139.38.71",
+    "lat": 34.2635,
+    "lon": 108.9246,
+    "country": "China",
+    "city": "Xi'an",
+    "count": 12,
+    "abuse_score": 100,
+    "abuse_reports": 234,
+    "isp": "China Unicom Shannxi province network",
+    "usage_type": "Fixed Line ISP",
+    "domain": "chinaunicom.cn",
+    "is_tor": false,
+    "distinct_users": 166,
+    "last_reported_at": "2026-09-20T19:01:43+00:00",
+    "hassh": "98ddc5604ef6a1006a2b49a58759fbe6",
+    "hassh_shared_count": 28
+  },
+  {
     "ip": "188.237.134.11",
     "lat": 47.0042,
     "lon": 28.8574,
@@ -31691,6 +31709,22 @@
     "is_tor": false,
     "distinct_users": 1,
     "last_reported_at": "2026-09-27T06:08:20+00:00"
+  },
+  {
+    "ip": "102.66.187.49",
+    "lat": -27.3887,
+    "lon": 26.617,
+    "country": "South Africa",
+    "city": "Bothaville",
+    "count": 8,
+    "abuse_score": 39,
+    "abuse_reports": 10,
+    "isp": "Herotel",
+    "usage_type": "Fixed Line ISP",
+    "domain": "herotel.com",
+    "is_tor": false,
+    "distinct_users": 10,
+    "last_reported_at": "2026-09-26T18:59:58+00:00"
   },
   {
     "ip": "181.25.202.92",
@@ -46033,24 +46067,6 @@
     "last_reported_at": "2026-09-20T01:24:12+00:00"
   },
   {
-    "ip": "123.139.38.71",
-    "lat": 34.2635,
-    "lon": 108.9246,
-    "country": "China",
-    "city": "Xi'an",
-    "count": 8,
-    "abuse_score": 100,
-    "abuse_reports": 234,
-    "isp": "China Unicom Shannxi province network",
-    "usage_type": "Fixed Line ISP",
-    "domain": "chinaunicom.cn",
-    "is_tor": false,
-    "distinct_users": 166,
-    "last_reported_at": "2026-09-20T19:01:43+00:00",
-    "hassh": "98ddc5604ef6a1006a2b49a58759fbe6",
-    "hassh_shared_count": 28
-  },
-  {
     "ip": "178.185.202.150",
     "lat": 47.2357,
     "lon": 39.7015,
@@ -50163,6 +50179,22 @@
     "is_tor": false,
     "distinct_users": 18,
     "last_reported_at": "2026-09-26T03:44:21+00:00"
+  },
+  {
+    "ip": "91.214.208.254",
+    "lat": 49.839,
+    "lon": 24.0191,
+    "country": "Ukraine",
+    "city": "Lviv",
+    "count": 6,
+    "abuse_score": 100,
+    "abuse_reports": 33,
+    "isp": "UARNet-Eksintech",
+    "usage_type": "Fixed Line ISP",
+    "domain": "uar.net",
+    "is_tor": false,
+    "distinct_users": 22,
+    "last_reported_at": "2026-09-27T03:30:30+00:00"
   },
   {
     "ip": "92.234.0.95",
