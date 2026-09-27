@@ -964,8 +964,8 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 131.0.235.163,2026-08-29T21:28:30.194876Z,2026-08-29T21:31:26.414784Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,MUSURIT,musurit.com,false,100
 131.100.222.134,2026-08-20T18:56:20.490897Z,2026-08-20T18:58:43.306939Z,2,0,0,0,low,connected_only,false,false,,7,Brazil,N. J. DOS SANTOS SANTANA - ME,ruralnet.pvh.br,false,100
 131.100.64.195,2026-09-05T21:36:46.721339Z,2026-09-05T21:38:28.415996Z,3,0,0,0,low,connected_only,false,false,,7,Argentina,CORPICO LTDA,corpiconet.com.ar,false,66
-131.108.141.146,2026-09-20T03:24:02.888688Z,2026-09-20T03:24:02.889319Z,1,0,0,0,low,single_sighting,false,true,,7,Argentina,Cable Norte Tv SA,asadigital.com.ar,false,25
-131.108.141.148,2026-09-20T03:22:58.736653Z,2026-09-20T03:24:02.890387Z,2,0,0,0,low,connected_only,false,true,,7,Argentina,Cable Norte Tv SA,asadigital.com.ar,false,35
+131.108.141.146,2026-09-20T03:24:02.888688Z,2026-09-20T03:24:02.889319Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,Cable Norte Tv SA,asadigital.com.ar,false,25
+131.108.141.148,2026-09-20T03:22:58.736653Z,2026-09-20T03:24:02.890387Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Cable Norte Tv SA,asadigital.com.ar,false,35
 131.108.143.126,2026-09-06T22:00:35.495591Z,2026-09-06T22:01:40.307856Z,2,0,0,0,low,connected_only,false,false,,7,Argentina,Cable Norte Tv SA,asadigital.com.ar,false,77
 131.108.143.224,2026-08-31T23:22:27.275968Z,2026-08-31T23:22:27.276817Z,1,0,0,0,low,single_sighting,false,false,,7,Argentina,Cable Norte Tv SA,asadigital.com.ar,false,26
 131.123.40.104,2026-09-06T17:02:52.241184Z,2026-09-07T05:46:36.649132Z,12,12,228,0,medium,persistent,false,false,40ea2980a8e3848c,7,Bulgaria,ALEXHOST S.R.L.,alexhost.com,false,20
@@ -2437,7 +2437,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 185.247.137.121,2026-08-23T22:35:45.519977Z,2026-08-23T22:35:47.520554Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,Driftnet Ltd,driftnet.io,false,100
 185.247.137.142,2026-09-17T03:13:22.438020Z,2026-09-17T03:13:24.438776Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,Driftnet Ltd,driftnet.io,false,100
 185.247.137.146,2026-09-04T18:54:21.173648Z,2026-09-04T18:54:23.396096Z,2,0,0,0,low,connected_only,false,false,,7,United Kingdom,Driftnet Ltd,driftnet.io,false,100
-185.247.137.183,2026-09-20T03:06:24.572002Z,2026-09-20T03:06:26.571877Z,1,0,0,0,low,single_sighting,false,true,,7,United Kingdom,Driftnet Ltd,driftnet.io,false,100
+185.247.137.183,2026-09-20T03:06:24.572002Z,2026-09-20T03:06:26.571877Z,1,0,0,0,low,single_sighting,false,false,,7,United Kingdom,Driftnet Ltd,driftnet.io,false,100
 185.247.137.186,2026-09-22T16:44:07.020826Z,2026-09-22T16:44:09.021010Z,1,0,0,0,low,single_sighting,false,true,,7,United Kingdom,Driftnet Ltd,driftnet.io,false,100
 185.247.137.192,2026-08-21T05:27:18.705520Z,2026-08-21T05:27:20.997295Z,2,0,0,0,low,connected_only,false,false,,7,United Kingdom,Driftnet Ltd,driftnet.io,false,100
 185.247.137.203,2026-09-07T07:19:33.906560Z,2026-09-08T16:30:12.105648Z,3,0,0,0,low,connected_only,false,false,,7,United Kingdom,Driftnet Ltd,driftnet.io,false,100
@@ -2717,7 +2717,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 188.114.58.180,2026-09-15T11:28:45.806789Z,2026-09-15T11:29:02.790025Z,1,1,2,0,low,executed_commands,false,false,,7,Russia,OJSC Rostelecom Macroregional Branch South,rt.ru,false,31
 188.124.23.40,2026-08-28T22:44:14.638482Z,2026-08-28T22:46:10.157037Z,2,0,0,0,low,connected_only,false,false,,7,Türkiye,Destannet xDSL Broadband Internet Access,vit.com.tr,false,98
 188.129.82.149,2026-08-21T09:41:23.931452Z,2026-08-21T09:41:41.375118Z,1,1,2,0,low,executed_commands,false,false,,7,Croatia,A1 Hrvatska d.o.o.,a1.hr,false,74
-188.130.250.243,2026-09-20T03:00:29.390304Z,2026-09-20T03:00:46.256848Z,1,1,2,0,medium,executed_commands,false,true,20228edcce195299,7,Russia,Bikinskie Elektronnye Systemy OOO,korvet.pro,false,100
+188.130.250.243,2026-09-20T03:00:29.390304Z,2026-09-20T03:00:46.256848Z,1,1,2,0,low,executed_commands,false,false,20228edcce195299,7,Russia,Bikinskie Elektronnye Systemy OOO,korvet.pro,false,100
 188.137.47.186,2026-09-12T16:22:25.931512Z,2026-09-12T22:28:07.903344Z,2,0,0,0,low,connected_only,false,false,,7,Poland,LEON sp. z o.o.,leon.pl,false,1
 188.161.211.7,2026-09-01T05:33:46.216996Z,2026-09-01T05:58:09.221128Z,3,0,0,0,low,connected_only,false,false,,7,Palestine,Palestine Telecommunications Company (PALTEL),paltelgroup.ps,false,100
 188.161.212.123,2026-09-21T04:45:44.397031Z,2026-09-21T04:46:48.037785Z,3,0,0,0,low,connected_only,false,true,,7,Palestine,Palestine Telecommunications Company (PALTEL),paltelgroup.ps,false,24
@@ -2818,7 +2818,7 @@ ip,first_seen,last_seen,sessions,logins,commands,downloads,confidence,tier_reaso
 189.216.41.183,2026-09-22T00:31:34.140793Z,2026-09-22T00:32:00.484781Z,1,0,0,0,low,single_sighting,false,true,,7,Mexico,"Cablevisión, S.A. de C.V.",cablevision.net.mx,false,72
 189.216.42.160,2026-09-09T21:16:53.273943Z,2026-09-09T21:17:19.475896Z,1,0,0,0,low,single_sighting,false,false,,7,Mexico,"Cablevisión, S.A. de C.V.",izzi.mx,false,0
 189.216.42.166,2026-09-22T00:16:28.329102Z,2026-09-22T00:16:51.867265Z,1,0,0,0,low,single_sighting,false,true,,7,Mexico,"Cablevisión, S.A. de C.V.",cablevision.net.mx,false,20
-189.216.42.187,2026-09-20T03:26:43.302466Z,2026-09-20T03:27:06.735847Z,1,0,0,0,low,single_sighting,false,true,,7,Mexico,"Cablevisión, S.A. de C.V.",izzi.mx,false,5
+189.216.42.187,2026-09-20T03:26:43.302466Z,2026-09-20T03:27:06.735847Z,1,0,0,0,low,single_sighting,false,false,,7,Mexico,"Cablevisión, S.A. de C.V.",izzi.mx,false,5
 189.216.42.219,2026-09-11T20:34:01.648328Z,2026-09-11T20:34:27.815131Z,1,0,0,0,low,single_sighting,false,false,,7,Mexico,"Cablevisión, S.A. de C.V.",izzi.mx,false,16
 189.216.43.10,2026-09-22T00:42:49.106457Z,2026-09-22T00:43:09.231891Z,1,0,0,0,low,single_sighting,false,true,,7,Mexico,"Cablevisión, S.A. de C.V.",cablevision.net.mx,false,16
 189.216.43.106,2026-09-17T01:54:11.966930Z,2026-09-17T01:54:32.662502Z,1,0,0,0,low,single_sighting,false,false,,7,Mexico,"Cablevisión, S.A. de C.V.",izzi.mx,false,54
