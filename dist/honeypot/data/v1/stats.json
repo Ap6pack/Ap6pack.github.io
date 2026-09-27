@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T05:00:19.892893+00:00",
+  "generated_at": "2026-09-27T05:30:20.292235+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-27T04:56:13.073970Z",
-  "total_events": 1530095,
-  "unique_sessions": 181858,
-  "unique_source_ips": 6812,
-  "login_attempts": 169114,
-  "login_success": 166116,
-  "commands_run": 363754,
+  "last_event": "2026-09-27T05:21:41.190492Z",
+  "total_events": 1530185,
+  "unique_sessions": 181865,
+  "unique_source_ips": 6815,
+  "login_attempts": 169118,
+  "login_success": 166120,
+  "commands_run": 363810,
   "files_captured": 39,
   "top_usernames": [
     [
@@ -135,16 +135,16 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 363754,
-    "cowrie.session.connect": 181858,
-    "cowrie.session.closed": 181182,
-    "cowrie.login.success": 166116,
-    "cowrie.session.params": 164281,
-    "cowrie.log.closed": 163615,
-    "cowrie.client.version": 123594,
-    "cowrie.client.kex": 123149,
-    "cowrie.telnet.option": 49322,
-    "cowrie.command.success": 4201,
+    "cowrie.command.input": 363810,
+    "cowrie.session.connect": 181865,
+    "cowrie.session.closed": 181189,
+    "cowrie.login.success": 166120,
+    "cowrie.session.params": 164285,
+    "cowrie.log.closed": 163619,
+    "cowrie.client.version": 123595,
+    "cowrie.client.kex": 123150,
+    "cowrie.telnet.option": 49326,
+    "cowrie.command.success": 4203,
     "cowrie.login.failed": 2998,
     "cowrie.session.file_download.failed": 2164,
     "cowrie.direct-tcpip.request": 1778,
@@ -332,7 +332,7 @@
     },
     {
       "date": "2026-09-27",
-      "count": 2488
+      "count": 2578
     }
   ],
   "published": {
@@ -391,10 +391,10 @@
       {
         "metric": "attack_techniques",
         "label": "commands tagged with an ATT&CK technique",
-        "total": 138314,
+        "total": 138338,
         "top_label": "T1027",
         "top_value": 124300,
-        "top_share": 0.8987,
+        "top_share": 0.8985,
         "top_sources": 392,
         "sources_total": 6773
       }
