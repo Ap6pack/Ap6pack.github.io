@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-28T00:00:20.760791+00:00",
+  "generated_at": "2026-09-28T00:30:21.076099+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-27T23:56:19.591808Z",
-  "total_events": 1574902,
-  "unique_sessions": 185847,
-  "unique_source_ips": 6916,
-  "login_attempts": 173085,
-  "login_success": 169875,
-  "commands_run": 384902,
+  "last_event": "2026-09-28T00:29:49.391643Z",
+  "total_events": 1575052,
+  "unique_sessions": 185856,
+  "unique_source_ips": 6917,
+  "login_attempts": 173093,
+  "login_success": 169883,
+  "commands_run": 384998,
   "files_captured": 26,
   "top_usernames": [
     [
       "root",
-      153578
+      153579
     ],
     [
       "admin",
-      10548
+      10554
     ],
     [
       "enable\\x00",
@@ -36,7 +36,7 @@
     ],
     [
       "ubnt",
-      387
+      388
     ],
     [
       "default",
@@ -74,7 +74,7 @@
   "top_passwords": [
     [
       "admin",
-      6575
+      6581
     ],
     [
       "xc3511",
@@ -102,7 +102,7 @@
     ],
     [
       "888888",
-      1989
+      1990
     ],
     [
       "12345",
@@ -134,16 +134,16 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 384902,
-    "cowrie.session.connect": 185847,
-    "cowrie.session.closed": 185171,
-    "cowrie.login.success": 169875,
-    "cowrie.session.params": 168038,
-    "cowrie.log.closed": 167372,
+    "cowrie.command.input": 384998,
+    "cowrie.session.connect": 185856,
+    "cowrie.session.closed": 185180,
+    "cowrie.login.success": 169883,
+    "cowrie.session.params": 168046,
+    "cowrie.log.closed": 167380,
     "cowrie.client.version": 123620,
     "cowrie.client.kex": 123170,
-    "cowrie.telnet.option": 53186,
-    "cowrie.command.success": 4401,
+    "cowrie.telnet.option": 53195,
+    "cowrie.command.success": 4404,
     "cowrie.login.failed": 3210,
     "cowrie.session.file_download.failed": 2201,
     "cowrie.session.file_download": 1808,
@@ -332,6 +332,10 @@
     {
       "date": "2026-09-27",
       "count": 47295
+    },
+    {
+      "date": "2026-09-28",
+      "count": 150
     }
   ]
 }
