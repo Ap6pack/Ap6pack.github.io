@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-29T17:00:21.634833+00:00",
+  "generated_at": "2026-09-29T17:30:20.228757+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-29T16:59:23.819571Z",
-  "total_events": 1587285,
-  "unique_sessions": 186954,
-  "unique_source_ips": 7103,
-  "login_attempts": 173800,
-  "login_success": 170562,
-  "commands_run": 391740,
+  "last_event": "2026-09-29T17:29:11.768058Z",
+  "total_events": 1587346,
+  "unique_sessions": 186961,
+  "unique_source_ips": 7107,
+  "login_attempts": 173804,
+  "login_success": 170565,
+  "commands_run": 391773,
   "files_captured": 26,
   "top_usernames": [
     [
       "root",
-      153816
+      153818
     ],
     [
       "admin",
-      10951
+      10953
     ],
     [
       "enable\\x00",
@@ -74,7 +74,7 @@
   "top_passwords": [
     [
       "admin",
-      6951
+      6953
     ],
     [
       "xc3511",
@@ -94,11 +94,11 @@
     ],
     [
       "123456",
-      2179
+      2180
     ],
     [
       "password",
-      2117
+      2118
     ],
     [
       "888888",
@@ -134,17 +134,17 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 391740,
-    "cowrie.session.connect": 186954,
-    "cowrie.session.closed": 186278,
-    "cowrie.login.success": 170562,
-    "cowrie.session.params": 168732,
-    "cowrie.log.closed": 168066,
-    "cowrie.client.version": 123666,
-    "cowrie.client.kex": 123204,
-    "cowrie.telnet.option": 54084,
-    "cowrie.command.success": 4611,
-    "cowrie.login.failed": 3238,
+    "cowrie.command.input": 391773,
+    "cowrie.session.connect": 186961,
+    "cowrie.session.closed": 186284,
+    "cowrie.login.success": 170565,
+    "cowrie.session.params": 168735,
+    "cowrie.log.closed": 168069,
+    "cowrie.client.version": 123667,
+    "cowrie.client.kex": 123205,
+    "cowrie.telnet.option": 54086,
+    "cowrie.command.success": 4612,
+    "cowrie.login.failed": 3239,
     "cowrie.session.file_download.failed": 2230,
     "cowrie.session.file_download": 1810,
     "cowrie.direct-tcpip.request": 1779,
@@ -339,7 +339,7 @@
     },
     {
       "date": "2026-09-29",
-      "count": 3823
+      "count": 3884
     }
   ]
 }
