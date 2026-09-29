@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-29T01:00:20.608343+00:00",
+  "generated_at": "2026-09-29T01:30:20.110946+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-29T00:41:02.354536Z",
-  "total_events": 1583480,
-  "unique_sessions": 186566,
-  "unique_source_ips": 7025,
-  "login_attempts": 173618,
-  "login_success": 170385,
-  "commands_run": 389691,
+  "last_event": "2026-09-29T01:28:16.789242Z",
+  "total_events": 1583557,
+  "unique_sessions": 186580,
+  "unique_source_ips": 7032,
+  "login_attempts": 173622,
+  "login_success": 170389,
+  "commands_run": 389723,
   "files_captured": 26,
   "top_usernames": [
     [
       "root",
-      153780
+      153782
     ],
     [
       "admin",
-      10821
+      10823
     ],
     [
       "enable\\x00",
@@ -74,7 +74,7 @@
   "top_passwords": [
     [
       "admin",
-      6828
+      6830
     ],
     [
       "xc3511",
@@ -134,16 +134,16 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 389691,
-    "cowrie.session.connect": 186566,
-    "cowrie.session.closed": 185890,
-    "cowrie.login.success": 170385,
-    "cowrie.session.params": 168555,
-    "cowrie.log.closed": 167889,
+    "cowrie.command.input": 389723,
+    "cowrie.session.connect": 186580,
+    "cowrie.session.closed": 185904,
+    "cowrie.login.success": 170389,
+    "cowrie.session.params": 168559,
+    "cowrie.log.closed": 167893,
     "cowrie.client.version": 123651,
     "cowrie.client.kex": 123196,
-    "cowrie.telnet.option": 53765,
-    "cowrie.command.success": 4529,
+    "cowrie.telnet.option": 53769,
+    "cowrie.command.success": 4530,
     "cowrie.login.failed": 3233,
     "cowrie.session.file_download.failed": 2210,
     "cowrie.session.file_download": 1810,
@@ -339,7 +339,7 @@
     },
     {
       "date": "2026-09-29",
-      "count": 18
+      "count": 95
     }
   ]
 }
