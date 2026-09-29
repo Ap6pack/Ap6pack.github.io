@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-29T19:00:21.092125+00:00",
+  "generated_at": "2026-09-29T19:30:20.114646+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-09-29T18:57:07.408192Z",
-  "total_events": 1587493,
-  "unique_sessions": 186975,
-  "unique_source_ips": 7113,
-  "login_attempts": 173813,
-  "login_success": 170573,
-  "commands_run": 391848,
+  "last_event": "2026-09-29T19:22:05.178211Z",
+  "total_events": 1587587,
+  "unique_sessions": 186977,
+  "unique_source_ips": 7114,
+  "login_attempts": 173815,
+  "login_success": 170575,
+  "commands_run": 391901,
   "files_captured": 26,
   "top_usernames": [
     [
       "root",
-      153823
+      153824
     ],
     [
       "admin",
-      10956
+      10957
     ],
     [
       "enable\\x00",
@@ -74,7 +74,7 @@
   "top_passwords": [
     [
       "admin",
-      6956
+      6957
     ],
     [
       "xc3511",
@@ -134,19 +134,19 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 391848,
-    "cowrie.session.connect": 186975,
-    "cowrie.session.closed": 186299,
-    "cowrie.login.success": 170573,
-    "cowrie.session.params": 168743,
-    "cowrie.log.closed": 168077,
+    "cowrie.command.input": 391901,
+    "cowrie.session.connect": 186977,
+    "cowrie.session.closed": 186301,
+    "cowrie.login.success": 170575,
+    "cowrie.session.params": 168745,
+    "cowrie.log.closed": 168079,
     "cowrie.client.version": 123667,
     "cowrie.client.kex": 123205,
-    "cowrie.telnet.option": 54094,
-    "cowrie.command.success": 4616,
+    "cowrie.telnet.option": 54096,
+    "cowrie.command.success": 4629,
     "cowrie.login.failed": 3240,
-    "cowrie.session.file_download.failed": 2236,
-    "cowrie.session.file_download": 1810,
+    "cowrie.session.file_download.failed": 2241,
+    "cowrie.session.file_download": 1821,
     "cowrie.direct-tcpip.request": 1779,
     "cowrie.session.file_upload": 68,
     "cowrie.client.var": 57,
@@ -339,7 +339,7 @@
     },
     {
       "date": "2026-09-29",
-      "count": 4031
+      "count": 4125
     }
   ]
 }
