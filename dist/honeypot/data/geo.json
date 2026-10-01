@@ -519,7 +519,7 @@
     "lon": -79.4057,
     "country": "Canada",
     "city": "Toronto",
-    "count": 4185,
+    "count": 4187,
     "abuse_score": 100,
     "abuse_reports": 738,
     "isp": "DigitalOcean, LLC",
@@ -1070,6 +1070,22 @@
     "last_reported_at": "2026-09-29T14:19:20+00:00"
   },
   {
+    "ip": "157.156.92.151",
+    "lat": 23.1291,
+    "lon": 113.264,
+    "country": "China",
+    "city": "Guangzhou",
+    "count": 507,
+    "abuse_score": 4,
+    "abuse_reports": 1,
+    "isp": "China Unicom Guangdong province network",
+    "usage_type": "Fixed Line ISP",
+    "domain": "chinaunicom.cn",
+    "is_tor": false,
+    "distinct_users": 1,
+    "last_reported_at": "2026-10-01T05:17:16+00:00"
+  },
+  {
     "ip": "5.165.83.44",
     "lat": 53.271,
     "lon": 34.3214,
@@ -1183,22 +1199,6 @@
     "is_tor": false,
     "distinct_users": 0,
     "last_reported_at": null
-  },
-  {
-    "ip": "157.156.92.151",
-    "lat": 23.1291,
-    "lon": 113.264,
-    "country": "China",
-    "city": "Guangzhou",
-    "count": 466,
-    "abuse_score": 4,
-    "abuse_reports": 1,
-    "isp": "China Unicom Guangdong province network",
-    "usage_type": "Fixed Line ISP",
-    "domain": "chinaunicom.cn",
-    "is_tor": false,
-    "distinct_users": 1,
-    "last_reported_at": "2026-10-01T05:17:16+00:00"
   },
   {
     "ip": "14.38.63.125",
@@ -3166,6 +3166,22 @@
     "is_tor": false,
     "distinct_users": 85,
     "last_reported_at": "2026-08-18T05:40:25+00:00"
+  },
+  {
+    "ip": "27.41.250.150",
+    "lat": 23.1291,
+    "lon": 113.264,
+    "country": "China",
+    "city": "Guangzhou",
+    "count": 97,
+    "abuse_score": 81,
+    "abuse_reports": 15,
+    "isp": "China Unicom Guangdong province network",
+    "usage_type": "Fixed Line ISP",
+    "domain": "chinaunicom.cn",
+    "is_tor": false,
+    "distinct_users": 14,
+    "last_reported_at": "2026-10-01T11:14:57+00:00"
   },
   {
     "ip": "2.57.122.209",
@@ -7542,22 +7558,6 @@
     "is_tor": false,
     "distinct_users": 43,
     "last_reported_at": "2026-09-23T06:45:38+00:00"
-  },
-  {
-    "ip": "27.41.250.150",
-    "lat": 23.1291,
-    "lon": 113.264,
-    "country": "China",
-    "city": "Guangzhou",
-    "count": 56,
-    "abuse_score": 81,
-    "abuse_reports": 15,
-    "isp": "China Unicom Guangdong province network",
-    "usage_type": "Fixed Line ISP",
-    "domain": "chinaunicom.cn",
-    "is_tor": false,
-    "distinct_users": 14,
-    "last_reported_at": "2026-10-01T11:14:57+00:00"
   },
   {
     "ip": "177.44.137.90",
@@ -33965,6 +33965,54 @@
     "is_tor": false,
     "distinct_users": 10,
     "last_reported_at": "2026-10-01T05:55:56+00:00"
+  },
+  {
+    "ip": "85.234.16.237",
+    "lat": 56.0954,
+    "lon": 47.2691,
+    "country": "Russia",
+    "city": "Cheboksary",
+    "count": 8,
+    "abuse_score": 100,
+    "abuse_reports": 88,
+    "isp": "INFO-LINK Cheboksary",
+    "usage_type": "Fixed Line ISP",
+    "domain": "info-link.ru",
+    "is_tor": false,
+    "distinct_users": 48,
+    "last_reported_at": "2026-09-30T15:15:22+00:00"
+  },
+  {
+    "ip": "37.23.202.139",
+    "lat": 53.362,
+    "lon": 83.7279,
+    "country": "Russia",
+    "city": "Barnaul",
+    "count": 8,
+    "abuse_score": 26,
+    "abuse_reports": 3,
+    "isp": "JSC Rostelecom regional branch Siberia",
+    "usage_type": "Fixed Line ISP",
+    "domain": "rt.ru",
+    "is_tor": false,
+    "distinct_users": 3,
+    "last_reported_at": "2026-10-01T10:49:50+00:00"
+  },
+  {
+    "ip": "78.158.219.209",
+    "lat": 44.9607,
+    "lon": 34.1051,
+    "country": "Ukraine",
+    "city": "Simferopol",
+    "count": 8,
+    "abuse_score": 35,
+    "abuse_reports": 5,
+    "isp": "CRELCOM LLC",
+    "usage_type": "Fixed Line ISP",
+    "domain": "crelcom.ru",
+    "is_tor": false,
+    "distinct_users": 5,
+    "last_reported_at": "2026-10-01T13:52:08+00:00"
   },
   {
     "ip": "181.25.202.92",
@@ -78349,6 +78397,22 @@
     "is_tor": false,
     "distinct_users": 101,
     "last_reported_at": "2026-09-19T00:00:24+00:00"
+  },
+  {
+    "ip": "194.146.191.248",
+    "lat": 50.458,
+    "lon": 30.5303,
+    "country": "Ukraine",
+    "city": "Kyiv",
+    "count": 4,
+    "abuse_score": 100,
+    "abuse_reports": 91,
+    "isp": "1-IX LLC",
+    "usage_type": "Fixed Line ISP",
+    "domain": "1-ix.net",
+    "is_tor": false,
+    "distinct_users": 54,
+    "last_reported_at": "2026-10-01T11:40:25+00:00"
   },
   {
     "ip": "195.20.6.224",
