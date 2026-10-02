@@ -7,7 +7,7 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 127384,
+      "count": 128131,
       "distinct_ips": 409,
       "examples": [
         "/bin/busybox echo -ne \"\\x23\\x21\\x2F\\x62\\x69\\x6E\\x2F\\x73\\x68\\x0A\\x0A\\x66\\x6F\\x72\\x20\\x70\\x72\\x6F\\x63\\x5F\\x64\\x69\\x72\\x20\\x69\\x6E\\x20\\x2F\\x70\\x72\\x6F\\x63\" > .k",
@@ -24,7 +24,7 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 16918,
+      "count": 16930,
       "distinct_ips": 654,
       "examples": [
         ">/var/.f && chmod 777 /var/.f && /var/.f && cd /var/; ",
@@ -184,6 +184,6 @@
       ]
     }
   ],
-  "total_commands": 411849,
-  "matched_commands": 145317
+  "total_commands": 412622,
+  "matched_commands": 146076
 }
