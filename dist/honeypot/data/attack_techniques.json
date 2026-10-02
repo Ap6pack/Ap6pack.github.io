@@ -7,7 +7,7 @@
         "stealth"
       ],
       "url": "https://attack.mitre.org/techniques/T1027",
-      "count": 126049,
+      "count": 126841,
       "distinct_ips": 409,
       "examples": [
         "/bin/busybox echo -ne \"\\x23\\x21\\x2F\\x62\\x69\\x6E\\x2F\\x73\\x68\\x0A\\x0A\\x66\\x6F\\x72\\x20\\x70\\x72\\x6F\\x63\\x5F\\x64\\x69\\x72\\x20\\x69\\x6E\\x20\\x2F\\x70\\x72\\x6F\\x63\" > .k",
@@ -184,6 +184,6 @@
       ]
     }
   ],
-  "total_commands": 410488,
-  "matched_commands": 143970
+  "total_commands": 411280,
+  "matched_commands": 144762
 }
