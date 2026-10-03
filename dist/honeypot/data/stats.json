@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-03T19:00:22.500176+00:00",
+  "generated_at": "2026-10-03T19:30:21.165119+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-10-03T18:48:31.399445Z",
-  "total_events": 1678396,
-  "unique_sessions": 197188,
-  "unique_source_ips": 7527,
-  "login_attempts": 183091,
-  "login_success": 179627,
-  "commands_run": 419427,
+  "last_event": "2026-10-03T19:18:46.108635Z",
+  "total_events": 1678432,
+  "unique_sessions": 197197,
+  "unique_source_ips": 7531,
+  "login_attempts": 183095,
+  "login_success": 179630,
+  "commands_run": 419429,
   "files_captured": 26,
   "top_usernames": [
     [
       "root",
-      161506
+      161508
     ],
     [
       "admin",
@@ -52,7 +52,7 @@
     ],
     [
       "test",
-      94
+      96
     ],
     [
       "debian",
@@ -134,20 +134,20 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 419427,
-    "cowrie.session.connect": 197188,
-    "cowrie.session.closed": 196432,
-    "cowrie.login.success": 179627,
-    "cowrie.session.params": 177801,
-    "cowrie.log.closed": 177057,
-    "cowrie.client.version": 129162,
-    "cowrie.client.kex": 128661,
-    "cowrie.telnet.option": 58382,
+    "cowrie.command.input": 419429,
+    "cowrie.session.connect": 197197,
+    "cowrie.session.closed": 196441,
+    "cowrie.login.success": 179630,
+    "cowrie.session.params": 177802,
+    "cowrie.log.closed": 177058,
+    "cowrie.client.version": 129165,
+    "cowrie.client.kex": 128664,
+    "cowrie.telnet.option": 58384,
     "cowrie.command.success": 4906,
-    "cowrie.login.failed": 3464,
+    "cowrie.login.failed": 3465,
     "cowrie.session.file_download.failed": 2318,
     "cowrie.session.file_download": 1844,
-    "cowrie.direct-tcpip.request": 1783,
+    "cowrie.direct-tcpip.request": 1785,
     "cowrie.session.file_upload": 76,
     "cowrie.client.var": 57,
     "cowrie.telnet.error": 49,
@@ -355,7 +355,7 @@
     },
     {
       "date": "2026-10-03",
-      "count": 2733
+      "count": 2769
     }
   ]
 }
