@@ -24,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 17554,
-      "distinct_ips": 680,
+      "count": 17555,
+      "distinct_ips": 681,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
         ">/var/d && chmod 777 /var/d && /var/d && cd /var/",
@@ -58,8 +58,8 @@
         "discovery"
       ],
       "url": "https://attack.mitre.org/techniques/T1082",
-      "count": 414,
-      "distinct_ips": 49,
+      "count": 415,
+      "distinct_ips": 50,
       "examples": [
         "uname -a",
         "cat /proc/cpuinfo",
@@ -184,6 +184,6 @@
       ]
     }
   ],
-  "total_commands": 417211,
-  "matched_commands": 148743
+  "total_commands": 417257,
+  "matched_commands": 148744
 }
