@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-04T03:30:21.691536+00:00",
+  "generated_at": "2026-10-04T04:00:22.021812+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-10-04T03:29:00.586586Z",
-  "total_events": 1679453,
-  "unique_sessions": 197338,
-  "unique_source_ips": 7564,
-  "login_attempts": 183163,
-  "login_success": 179693,
-  "commands_run": 419803,
+  "last_event": "2026-10-04T03:57:44.785434Z",
+  "total_events": 1679477,
+  "unique_sessions": 197343,
+  "unique_source_ips": 7565,
+  "login_attempts": 183165,
+  "login_success": 179695,
+  "commands_run": 419809,
   "files_captured": 26,
   "top_usernames": [
     [
@@ -16,7 +16,7 @@
     ],
     [
       "admin",
-      12036
+      12037
     ],
     [
       "enable\\x00",
@@ -74,7 +74,7 @@
   "top_passwords": [
     [
       "admin",
-      7775
+      7776
     ],
     [
       "xc3511",
@@ -94,7 +94,7 @@
     ],
     [
       "123456",
-      2338
+      2339
     ],
     [
       "password",
@@ -134,20 +134,20 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 419803,
-    "cowrie.session.connect": 197338,
-    "cowrie.session.closed": 196582,
-    "cowrie.login.success": 179693,
-    "cowrie.session.params": 177873,
-    "cowrie.log.closed": 177129,
-    "cowrie.client.version": 129173,
-    "cowrie.client.kex": 128670,
-    "cowrie.telnet.option": 58481,
+    "cowrie.command.input": 419809,
+    "cowrie.session.connect": 197343,
+    "cowrie.session.closed": 196587,
+    "cowrie.login.success": 179695,
+    "cowrie.session.params": 177874,
+    "cowrie.log.closed": 177130,
+    "cowrie.client.version": 129174,
+    "cowrie.client.kex": 128671,
+    "cowrie.telnet.option": 58482,
     "cowrie.command.success": 4924,
     "cowrie.login.failed": 3470,
     "cowrie.session.file_download.failed": 2333,
     "cowrie.session.file_download": 1855,
-    "cowrie.direct-tcpip.request": 1785,
+    "cowrie.direct-tcpip.request": 1786,
     "cowrie.session.file_upload": 76,
     "cowrie.client.var": 57,
     "cowrie.telnet.error": 49,
@@ -359,7 +359,7 @@
     },
     {
       "date": "2026-10-04",
-      "count": 247
+      "count": 271
     }
   ]
 }
