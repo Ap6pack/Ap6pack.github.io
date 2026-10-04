@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-04T21:30:21.134497+00:00",
+  "generated_at": "2026-10-04T22:00:22.709850+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-10-04T21:29:08.688091Z",
-  "total_events": 1681387,
-  "unique_sessions": 197651,
-  "unique_source_ips": 7648,
-  "login_attempts": 183297,
-  "login_success": 179818,
-  "commands_run": 420464,
+  "last_event": "2026-10-04T21:59:55.693488Z",
+  "total_events": 1681560,
+  "unique_sessions": 197667,
+  "unique_source_ips": 7649,
+  "login_attempts": 183313,
+  "login_success": 179834,
+  "commands_run": 420541,
   "files_captured": 26,
   "top_usernames": [
     [
       "root",
-      161623
+      161637
     ],
     [
       "admin",
-      12073
+      12075
     ],
     [
       "enable\\x00",
@@ -78,7 +78,7 @@
     ],
     [
       "xc3511",
-      3777
+      3778
     ],
     [
       "vizxv",
@@ -90,7 +90,7 @@
     ],
     [
       "",
-      2755
+      2757
     ],
     [
       "123456",
@@ -106,7 +106,7 @@
     ],
     [
       "12345",
-      1925
+      1926
     ],
     [
       "support",
@@ -114,19 +114,19 @@
     ],
     [
       "xmhdipc",
-      1862
+      1863
     ],
     [
       "juantech",
-      1829
+      1831
     ],
     [
       "default",
-      1813
+      1815
     ],
     [
       "1111",
-      1795
+      1797
     ],
     [
       "54321",
@@ -134,15 +134,15 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 420464,
-    "cowrie.session.connect": 197651,
-    "cowrie.session.closed": 196893,
-    "cowrie.login.success": 179818,
-    "cowrie.session.params": 177989,
-    "cowrie.log.closed": 177243,
+    "cowrie.command.input": 420541,
+    "cowrie.session.connect": 197667,
+    "cowrie.session.closed": 196909,
+    "cowrie.login.success": 179834,
+    "cowrie.session.params": 178005,
+    "cowrie.log.closed": 177259,
     "cowrie.client.version": 129206,
     "cowrie.client.kex": 128700,
-    "cowrie.telnet.option": 58657,
+    "cowrie.telnet.option": 58673,
     "cowrie.command.success": 4934,
     "cowrie.login.failed": 3479,
     "cowrie.session.file_download.failed": 2360,
@@ -359,7 +359,7 @@
     },
     {
       "date": "2026-10-04",
-      "count": 2181
+      "count": 2354
     }
   ]
 }
