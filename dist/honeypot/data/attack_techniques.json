@@ -24,8 +24,8 @@
         "defense-impairment"
       ],
       "url": "https://attack.mitre.org/techniques/T1222/002",
-      "count": 17526,
-      "distinct_ips": 679,
+      "count": 17527,
+      "distinct_ips": 680,
       "examples": [
         ">/tmp/d && chmod 777 /tmp/d && /tmp/d && cd /tmp/",
         ">/var/d && chmod 777 /var/d && /var/d && cd /var/",
@@ -184,6 +184,6 @@
       ]
     }
   ],
-  "total_commands": 417043,
-  "matched_commands": 148706
+  "total_commands": 417046,
+  "matched_commands": 148707
 }
