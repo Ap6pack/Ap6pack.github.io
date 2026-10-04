@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-04T19:00:22.450400+00:00",
+  "generated_at": "2026-10-04T19:30:21.381922+00:00",
   "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-10-04T18:53:30.150337Z",
-  "total_events": 1680404,
-  "unique_sessions": 197546,
-  "unique_source_ips": 7638,
-  "login_attempts": 183209,
-  "login_success": 179737,
-  "commands_run": 420048,
+  "last_event": "2026-10-04T19:19:26.975797Z",
+  "total_events": 1680490,
+  "unique_sessions": 197557,
+  "unique_source_ips": 7640,
+  "login_attempts": 183211,
+  "login_success": 179739,
+  "commands_run": 420080,
   "files_captured": 26,
   "top_usernames": [
     [
@@ -16,7 +16,7 @@
     ],
     [
       "admin",
-      12052
+      12053
     ],
     [
       "enable\\x00",
@@ -28,7 +28,7 @@
     ],
     [
       "user",
-      1206
+      1207
     ],
     [
       "guest",
@@ -74,7 +74,7 @@
   "top_passwords": [
     [
       "admin",
-      7782
+      7783
     ],
     [
       "xc3511",
@@ -134,18 +134,18 @@
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 420048,
-    "cowrie.session.connect": 197546,
-    "cowrie.session.closed": 196790,
-    "cowrie.login.success": 179737,
-    "cowrie.session.params": 177909,
-    "cowrie.log.closed": 177165,
-    "cowrie.client.version": 129193,
-    "cowrie.client.kex": 128688,
-    "cowrie.telnet.option": 58578,
-    "cowrie.command.success": 4932,
+    "cowrie.command.input": 420080,
+    "cowrie.session.connect": 197557,
+    "cowrie.session.closed": 196801,
+    "cowrie.login.success": 179739,
+    "cowrie.session.params": 177911,
+    "cowrie.log.closed": 177167,
+    "cowrie.client.version": 129202,
+    "cowrie.client.kex": 128697,
+    "cowrie.telnet.option": 58579,
+    "cowrie.command.success": 4934,
     "cowrie.login.failed": 3472,
-    "cowrie.session.file_download.failed": 2354,
+    "cowrie.session.file_download.failed": 2359,
     "cowrie.session.file_download": 1855,
     "cowrie.direct-tcpip.request": 1791,
     "cowrie.session.file_upload": 77,
@@ -359,7 +359,7 @@
     },
     {
       "date": "2026-10-04",
-      "count": 1198
+      "count": 1284
     }
   ]
 }
