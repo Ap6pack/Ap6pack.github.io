@@ -1,365 +1,127 @@
 {
-  "generated_at": "2026-10-04T22:00:22.709850+00:00",
-  "first_event": "2026-08-16T20:18:56.077370Z",
-  "last_event": "2026-10-04T21:59:55.693488Z",
-  "total_events": 1681560,
-  "unique_sessions": 197667,
-  "unique_source_ips": 7649,
-  "login_attempts": 183313,
-  "login_success": 179834,
-  "commands_run": 420541,
-  "files_captured": 26,
+  "generated_at": "2026-10-06T00:00:08.725028+00:00",
+  "first_event": "2026-08-16T20:18:56.091011Z",
+  "last_event": "2026-10-05T22:01:10.063756Z",
+  "total_events": 241994,
+  "unique_sessions": 30305,
+  "unique_source_ips": 25,
+  "login_attempts": 30253,
+  "login_success": 30249,
+  "commands_run": 30226,
+  "files_captured": 0,
   "top_usernames": [
     [
       "root",
-      161637
+      30239
     ],
     [
       "admin",
-      12075
-    ],
-    [
-      "enable\\x00",
-      3254
-    ],
-    [
-      "support",
-      2017
+      10
     ],
     [
       "user",
-      1208
+      1
+    ],
+    [
+      "support",
+      1
     ],
     [
       "guest",
-      828
+      1
     ],
     [
-      "ubnt",
-      411
-    ],
-    [
-      "default",
-      143
-    ],
-    [
-      "nobody",
-      102
-    ],
-    [
-      "blank",
-      100
-    ],
-    [
-      "test",
-      96
-    ],
-    [
-      "debian",
-      87
-    ],
-    [
-      "centos",
-      82
-    ],
-    [
-      "supervisor",
-      78
-    ],
-    [
-      "unknown",
-      75
+      "enable\\x00",
+      1
     ]
   ],
   "top_passwords": [
     [
       "admin",
-      7790
-    ],
-    [
-      "xc3511",
-      3778
-    ],
-    [
-      "vizxv",
-      3403
-    ],
-    [
-      "linuxshell\\x00",
-      3251
-    ],
-    [
-      "",
-      2757
-    ],
-    [
-      "123456",
-      2341
-    ],
-    [
-      "password",
-      2251
-    ],
-    [
-      "888888",
-      2143
-    ],
-    [
-      "12345",
-      1926
-    ],
-    [
-      "support",
-      1888
-    ],
-    [
-      "xmhdipc",
-      1863
-    ],
-    [
-      "juantech",
-      1831
+      6
     ],
     [
       "default",
-      1815
+      3
     ],
     [
-      "1111",
-      1797
+      "admin1234",
+      3
     ],
     [
       "54321",
-      1773
+      3
+    ],
+    [
+      "xc3511",
+      3
+    ],
+    [
+      "support",
+      2
+    ],
+    [
+      "root",
+      2
+    ],
+    [
+      "123456",
+      2
+    ],
+    [
+      "180585",
+      2
+    ],
+    [
+      "180391",
+      2
+    ],
+    [
+      "17891789",
+      2
+    ],
+    [
+      "17111987",
+      2
+    ],
+    [
+      "170989",
+      2
+    ],
+    [
+      "170987",
+      2
+    ],
+    [
+      "1708",
+      2
     ]
   ],
   "event_breakdown": {
-    "cowrie.command.input": 420541,
-    "cowrie.session.connect": 197667,
-    "cowrie.session.closed": 196909,
-    "cowrie.login.success": 179834,
-    "cowrie.session.params": 178005,
-    "cowrie.log.closed": 177259,
-    "cowrie.client.version": 129206,
-    "cowrie.client.kex": 128700,
-    "cowrie.telnet.option": 58673,
-    "cowrie.command.success": 4934,
-    "cowrie.login.failed": 3479,
-    "cowrie.session.file_download.failed": 2360,
-    "cowrie.session.file_download": 1855,
-    "cowrie.direct-tcpip.request": 1792,
-    "cowrie.session.file_upload": 77,
-    "cowrie.client.var": 57,
-    "cowrie.telnet.error": 49,
-    "cowrie.client.malformed_packet": 45,
-    "cowrie.virustotal.scanfile": 41,
-    "cowrie.telnet.exploit_attempt": 30,
-    "cowrie.client.fingerprint": 25,
-    "cowrie.direct-tcpip.data": 11,
-    "cowrie.direct-tcpip.ja4": 9,
-    "cowrie.direct-tcpip.ja4h": 1,
-    "cowrie.client.size": 1
+    "cowrie.session.connect": 30290,
+    "cowrie.session.closed": 30286,
+    "cowrie.login.success": 30249,
+    "cowrie.client.version": 30236,
+    "cowrie.client.kex": 30227,
+    "cowrie.command.input": 30226,
+    "cowrie.session.params": 30218,
+    "cowrie.log.closed": 30216,
+    "cowrie.telnet.option": 40,
+    "cowrie.login.failed": 4,
+    "cowrie.client.malformed_packet": 2
   },
   "daily_events": [
     {
       "date": "2026-08-16",
-      "count": 53
+      "count": 52
     },
     {
       "date": "2026-08-17",
-      "count": 262929
+      "count": 241753
     },
     {
-      "date": "2026-08-18",
-      "count": 13655
-    },
-    {
-      "date": "2026-08-19",
-      "count": 33012
-    },
-    {
-      "date": "2026-08-20",
-      "count": 11996
-    },
-    {
-      "date": "2026-08-21",
-      "count": 35660
-    },
-    {
-      "date": "2026-08-22",
-      "count": 4309
-    },
-    {
-      "date": "2026-08-23",
-      "count": 248996
-    },
-    {
-      "date": "2026-08-24",
-      "count": 131133
-    },
-    {
-      "date": "2026-08-25",
-      "count": 3178
-    },
-    {
-      "date": "2026-08-26",
-      "count": 3068
-    },
-    {
-      "date": "2026-08-27",
-      "count": 3750
-    },
-    {
-      "date": "2026-08-28",
-      "count": 3808
-    },
-    {
-      "date": "2026-08-29",
-      "count": 63962
-    },
-    {
-      "date": "2026-08-30",
-      "count": 2739
-    },
-    {
-      "date": "2026-08-31",
-      "count": 8982
-    },
-    {
-      "date": "2026-09-01",
-      "count": 11720
-    },
-    {
-      "date": "2026-09-02",
-      "count": 52861
-    },
-    {
-      "date": "2026-09-03",
-      "count": 29695
-    },
-    {
-      "date": "2026-09-04",
-      "count": 4135
-    },
-    {
-      "date": "2026-09-05",
-      "count": 8368
-    },
-    {
-      "date": "2026-09-06",
-      "count": 6527
-    },
-    {
-      "date": "2026-09-07",
-      "count": 3245
-    },
-    {
-      "date": "2026-09-08",
-      "count": 3217
-    },
-    {
-      "date": "2026-09-09",
-      "count": 47211
-    },
-    {
-      "date": "2026-09-10",
-      "count": 2813
-    },
-    {
-      "date": "2026-09-11",
-      "count": 2007
-    },
-    {
-      "date": "2026-09-12",
-      "count": 45217
-    },
-    {
-      "date": "2026-09-13",
-      "count": 11575
-    },
-    {
-      "date": "2026-09-14",
-      "count": 2450
-    },
-    {
-      "date": "2026-09-15",
-      "count": 11864
-    },
-    {
-      "date": "2026-09-16",
-      "count": 365973
-    },
-    {
-      "date": "2026-09-17",
-      "count": 6619
-    },
-    {
-      "date": "2026-09-18",
-      "count": 6002
-    },
-    {
-      "date": "2026-09-19",
-      "count": 2023
-    },
-    {
-      "date": "2026-09-20",
-      "count": 3220
-    },
-    {
-      "date": "2026-09-21",
-      "count": 7527
-    },
-    {
-      "date": "2026-09-22",
-      "count": 11182
-    },
-    {
-      "date": "2026-09-23",
-      "count": 5465
-    },
-    {
-      "date": "2026-09-24",
-      "count": 22396
-    },
-    {
-      "date": "2026-09-25",
-      "count": 9340
-    },
-    {
-      "date": "2026-09-26",
-      "count": 13725
-    },
-    {
-      "date": "2026-09-27",
-      "count": 47295
-    },
-    {
-      "date": "2026-09-28",
-      "count": 8560
-    },
-    {
-      "date": "2026-09-29",
-      "count": 4877
-    },
-    {
-      "date": "2026-09-30",
-      "count": 35693
-    },
-    {
-      "date": "2026-10-01",
-      "count": 4011
-    },
-    {
-      "date": "2026-10-02",
-      "count": 47620
-    },
-    {
-      "date": "2026-10-03",
-      "count": 3543
-    },
-    {
-      "date": "2026-10-04",
-      "count": 2354
+      "date": "2026-10-05",
+      "count": 189
     }
   ]
 }
